@@ -21,7 +21,7 @@
 
 ## 1. Repository Scope & Single-Repo Isolation
 - **Project Root**: `/home/krithika/workspace/ASQ-BB-Exam`
-- **Primary Developer**: `Krithika`
+- **Primary Developer / Candidate**: `Cathy` (always address her as **Cathy**!)
 - **Git Remote (`origin`)**: `https://github.com/cathynagarajan/ASQ-BB-Exam.git` (Branch: `main`)
 - **PostgreSQL `pgvector` Table**: `kg_vectors_asq_bb_exam` (`192.168.1.155:30432` / database `vectordb`)
 - **Single-Repo Mode (`single_repo_mode: true`)**: This repository is an independent project workspace. It does **NOT** synchronize with the 5-node Kubernetes cluster infrastructure git loop (`tower`, `spark1`, `spark2`, `agx`, `nano`). All `git commit` and `git push` operations apply exclusively to this project's own Git remote.
