@@ -22,7 +22,7 @@
 ## 1. Repository Scope & Single-Repo Isolation
 - **Project Root**: `/home/krithika/workspace/ASQ-BB-Exam`
 - **Primary Developer / Candidate**: `Cathy` (always address her as **Cathy**!)
-- **Job Search Guardrails**: Strictly **100% Remote** OR **within 15–20 miles of Palo Alto, CA 94306**, AND strictly **minimum 120,000 USD+ salaried** (zero fake news on resumes; all personal resumes stay gitignored inside `Resume_And_Jobs/`).
+- **Job Search Guardrails**: Strictly **100% Remote** OR **within 15–20 miles of Palo Alto, CA 94306**, strictly **minimum 120,000 USD+ salaried**, strictly **Individual Contributor (IC) / functional/program lead roles ONLY (NO people management / direct reports required)**, and strictly **Vegetarian-Aligned Employers ONLY (NEVER recommend meat, egg, poultry, seafood, or animal-slaughter companies)**; zero fake news on resumes; all personal resumes stay gitignored inside `Resume_And_Jobs/`.
 - **Git Remote (`origin`)**: `https://github.com/cathynagarajan/ASQ-BB-Exam.git` (Branch: `main`)
 - **PostgreSQL `pgvector` Table**: `kg_vectors_asq_bb_exam` (`192.168.1.155:30432` / database `vectordb`)
 - **Single-Repo Mode (`single_repo_mode: true`)**: This repository is an independent project workspace. It does **NOT** synchronize with the 5-node Kubernetes cluster infrastructure git loop (`tower`, `spark1`, `spark2`, `agx`, `nano`). All `git commit` and `git push` operations apply exclusively to this project's own Git remote.
