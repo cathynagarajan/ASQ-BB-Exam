@@ -1,44 +1,43 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-15T01:06:55.203673+00:00",
-    "total_files_indexed": 18,
+    "generated_at": "2026-11-15T01:14:53.811609+00:00",
+    "total_files_indexed": 19,
     "total_nodes": 67,
-    "total_edges": 80,
+    "total_edges": 81,
     "node_type_counts": {
       "chat_session": 1,
       "chat_turn": 12,
-      "document": 18,
-      "topic_entity": 36
+      "document": 19,
+      "topic_entity": 35
     }
   },
   "last_change_check": {
     "changed": true,
     "added": [
-      "Resume_And_Jobs/Job8_SBEnergy_Logistics_Control_Tower_Analytics_6196167004.md",
-      "Resume_And_Jobs/Job8_Waymo_Global_Vendor_Operations_Manager_8348363.md"
+      "Resume_And_Jobs/Job9_Zoox_Procurement_Operations_Manager_FosterCity.md"
     ],
     "modified": [
       "Resume_And_Jobs/Target_Jobs_Tracker.md",
       "documents/CAREER_APPLICATIONS_TRACKER.md"
     ],
     "removed": [],
-    "files_parsed": 4,
-    "files_cached_reused": 14,
+    "files_parsed": 3,
+    "files_cached_reused": 16,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 21,
-      "nodes_deleted": 24,
-      "edges_upserted": 35,
-      "edges_deleted": 32,
-      "wiki_pages_upserted": 4,
+      "nodes_upserted": 11,
+      "nodes_deleted": 8,
+      "edges_upserted": 18,
+      "edges_deleted": 11,
+      "wiki_pages_upserted": 3,
       "wiki_pages_deleted": 0,
-      "files_upserted": 5,
+      "files_upserted": 4,
       "files_deleted": 0,
       "total_nodes_in_db": 67,
-      "total_edges_in_db": 80,
-      "total_files_tracked": 19
+      "total_edges_in_db": 81,
+      "total_files_tracked": 20
     }
   },
   "nodes": [
@@ -305,6 +304,18 @@
       }
     },
     {
+      "id": "doc:Resume_And_Jobs/Job9_Zoox_Procurement_Operations_Manager_FosterCity.md",
+      "type": "document",
+      "name": "Job9_Zoox_Procurement_Operations_Manager_FosterCity.md",
+      "file_path": "Resume_And_Jobs/Job9_Zoox_Procurement_Operations_Manager_FosterCity.md",
+      "description": "Documentation: Job9_Zoox_Procurement_Operations_Manager_FosterCity.md (Resume_And_Jobs/Job9_Zoox_Procurement_Operations_Manager_FosterCity.md)",
+      "metadata": {
+        "sections": [],
+        "keywords": [],
+        "format": "md"
+      }
+    },
+    {
       "id": "doc:Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md",
       "type": "document",
       "name": "Krithika_Nagarajan_Clean_Master_Resume.md",
@@ -386,12 +397,11 @@
           "Focus:",
           "|",
           "APPLIED (2026-11-14)",
-          "| Mountain View, CA (~5 mi, Hybrid) |",
-          "| `Job8_Waymo_Global_Vendor_Operations_Manager_8348363.md` |",
-          "| San Jose Hybrid / Remote CA (~14 mi) | 150.4k\u2013190.6k | Pending (#9) |",
+          "| Foster City, CA (~14 mi, Hybrid) |",
+          "| `Job9_Zoox_Procurement_Operations_Manager_FosterCity.md` |",
           "10",
-          "Google Cloud",
-          "Program Manager II, Supply Chain",
+          "Cisco Systems",
+          "Partner Sourcing Manager",
           "Queued",
           "R2656254",
           "Job1_Stanford_Supply_Chain_PM_R2656254.md",
@@ -405,7 +415,9 @@
           "6207734004",
           "Job7_SBEnergy_Supply_Chain_Governance_RedwoodCity.md",
           "8348363",
-          "Job8_Waymo_Global_Vendor_Operations_Manager_8348363.md"
+          "Job8_Waymo_Global_Vendor_Operations_Manager_8348363.md",
+          "68996f74...",
+          "Job9_Zoox_Procurement_Operations_Manager_FosterCity.md"
         ],
         "format": "md"
       }
@@ -791,8 +803,8 @@
         "sections": [
           "Career & Job Application Progress Tracker (KG-Indexed, PII-Free)",
           "Cathy's Hard Job-Search Guardrails",
-          "Completed Applications (7 Submitted \u2014 2026-11-14)",
-          "Active Next Queue (#8+ Ready)"
+          "Completed Applications (8 Submitted \u2014 2026-11-14)",
+          "Active Next Queue (#9+ Ready)"
         ],
         "keywords": [
           "Privacy Note:",
@@ -810,7 +822,8 @@
           "Genentech (Roche)",
           "SB Energy (SoftBank Group)",
           "Waymo (Alphabet)",
-          "190K to 234K USD",
+          "Zoox (Amazon)",
+          "161K to 219K USD",
           "Tailored Resume Ready",
           "Cisco Systems",
           "Queued",
@@ -824,7 +837,7 @@
           "Job ID JOB214003",
           "ID 6207734004",
           "ID 8348363",
-          "CSCP"
+          "ID 68996f74-85e8-435d-9369-906438670794"
         ],
         "format": "md"
       }
@@ -899,6 +912,16 @@
       }
     },
     {
+      "id": "topic:vendor",
+      "type": "topic_entity",
+      "name": "vendor",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'vendor' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "vendor"
+      }
+    },
+    {
       "id": "topic:supplier",
       "type": "topic_entity",
       "name": "supplier",
@@ -906,6 +929,16 @@
       "description": "Shared domain topic 'supplier' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "supplier"
+      }
+    },
+    {
+      "id": "topic:krithika",
+      "type": "topic_entity",
+      "name": "krithika",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'krithika' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "krithika"
       }
     },
     {
@@ -939,26 +972,6 @@
       }
     },
     {
-      "id": "topic:vendor",
-      "type": "topic_entity",
-      "name": "vendor",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'vendor' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "vendor"
-      }
-    },
-    {
-      "id": "topic:krithika",
-      "type": "topic_entity",
-      "name": "krithika",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'krithika' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "krithika"
-      }
-    },
-    {
       "id": "topic:quality",
       "type": "topic_entity",
       "name": "quality",
@@ -969,13 +982,13 @@
       }
     },
     {
-      "id": "topic:role",
+      "id": "topic:onboarding",
       "type": "topic_entity",
-      "name": "role",
+      "name": "onboarding",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'role' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'onboarding' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "role"
+        "keyword": "onboarding"
       }
     },
     {
@@ -983,112 +996,22 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (67 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (69 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 67,
+        "turn_count": 69,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
+          "vendor",
           "supplier",
+          "krithika",
           "supply",
           "chain",
           "logistics",
-          "vendor",
-          "krithika",
           "quality",
-          "role"
-        ]
-      }
-    },
-    {
-      "id": "topic:asking",
-      "type": "topic_entity",
-      "name": "asking",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'asking' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "asking"
-      }
-    },
-    {
-      "id": "topic:hirign",
-      "type": "topic_entity",
-      "name": "hirign",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'hirign' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "hirign"
-      }
-    },
-    {
-      "id": "topic:intuitive",
-      "type": "topic_entity",
-      "name": "intuitive",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'intuitive' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "intuitive"
-      }
-    },
-    {
-      "id": "topic:message",
-      "type": "topic_entity",
-      "name": "message",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'message' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "message"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S223",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S223 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S223] intuitive is asking for message to the hirign team, should i say something",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 223,
-        "role": "user",
-        "created_at": "2026-11-15T00:31:15Z",
-        "content_excerpt": "intuitive is asking for message to the hirign team, should i say something",
-        "topics": [
-          "asking",
-          "hirign",
-          "intuitive",
-          "message"
-        ]
-      }
-    },
-    {
-      "id": "topic:network",
-      "type": "topic_entity",
-      "name": "network",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'network' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "network"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S224",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S224 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S224] **Yes\u2014definitely fill that in!** Intuitive uses SmartRecruiters, which shows that short box **right at the top of the Hiring Manager's screen** before they even open your PDF. Keep it short, confident, and local\u2014copy and",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 224,
-        "role": "assistant",
-        "created_at": "2026-11-15T00:31:15Z",
-        "content_excerpt": "**Yes\u2014definitely fill that in!** Intuitive uses SmartRecruiters, which shows that short box **right at the top of the Hiring Manager's screen** before they even open your PDF.\n\nKeep it short, confident, and local\u2014copy and paste this straight in:\n\n---\n\nHi Intuitive Hiring Team,\n\nI am excited to apply for the Sr. Analyst, Supply Chain Risk & Network Visibility role (JOB214003) right next door in Sunnyvale (I am based locally in Palo Alto). I bring 10+ years of supply chain operations and data-systems experience\u2014backed by APICS CSCP, PMP, ASQ Six Sigma Green Belt, and an M.C.A. (Engineering)\u2014driving master-data governance, WMS/ERP validation, and upstream network visibility across 40+ FDA-regulated facilities ($50M+ network spend). In my current role, I built a centralized Power Apps incident",
-        "topics": [
-          "network",
-          "intuitive",
-          "chain",
-          "supply"
+          "onboarding"
         ]
       }
     },
@@ -1516,6 +1439,84 @@
           "submitted"
         ]
       }
+    },
+    {
+      "id": "topic:service",
+      "type": "topic_entity",
+      "name": "service",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'service' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "service"
+      }
+    },
+    {
+      "id": "topic:operations",
+      "type": "topic_entity",
+      "name": "operations",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'operations' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "operations"
+      }
+    },
+    {
+      "id": "topic:scorecards",
+      "type": "topic_entity",
+      "name": "scorecards",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'scorecards' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "scorecards"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S343",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S343 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S343] Smart move keeping SB Energy to **1 focused role**, Cathy\u2014that is how serious senior candidates look in Greenhouse! **#7 (SB Energy `6207734004`)** is logged in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/work",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 343,
+        "role": "assistant",
+        "created_at": "2026-11-15T01:06:58Z",
+        "content_excerpt": "Smart move keeping SB Energy to **1 focused role**, Cathy\u2014that is how serious senior candidates look in Greenhouse! **#7 (SB Energy `6207734004`)** is logged in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md) and pushed to your Knowledge Graph (`3c456de`).\n\n---\n\n### Application #8 (Live Right Now on Greenhouse \u2014 5 Miles from Palo Alto!):\n**Waymo (Alphabet) \u2014 `Global Vendor Operations Manager` (`ID: 8348363`)**\n\n- **Direct 1-Click Application Link:** https://careers.withwaymo.com/jobs?gh_jid=8348363\n- **Location:** Mountain View, CA (~5 miles from Palo Alto, Hybrid)\n- **Posted California Base Range:** **190,000 to 234,000 USD** + annual bonus + Waymo equity!\n- **Why This Is 100% Honest & Built for You (Zero Car-Hardware ",
+        "topics": [
+          "vendor",
+          "service",
+          "operations",
+          "scorecards"
+        ]
+      }
+    },
+    {
+      "id": "topic:waymo",
+      "type": "topic_entity",
+      "name": "waymo",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'waymo' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "waymo"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S344",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S344 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S344] did for waymo what is next",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 344,
+        "role": "user",
+        "created_at": "2026-11-15T01:11:46Z",
+        "content_excerpt": "did for waymo what is next",
+        "topics": [
+          "next",
+          "waymo"
+        ]
+      }
     }
   ],
   "edges": [
@@ -1527,10 +1528,26 @@
     },
     {
       "source": "chat_session:b6556366",
+      "target": "topic:vendor",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 36
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
       "target": "topic:supplier",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 20
+        "count": 25
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:krithika",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 16
       }
     },
     {
@@ -1538,7 +1555,7 @@
       "target": "topic:supply",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 19
+        "count": 16
       }
     },
     {
@@ -1546,7 +1563,7 @@
       "target": "topic:chain",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 18
+        "count": 15
       }
     },
     {
@@ -1559,7 +1576,7 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:vendor",
+      "target": "topic:quality",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 15
@@ -1567,26 +1584,10 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:krithika",
+      "target": "topic:onboarding",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 14
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:quality",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 13
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:role",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 13
       }
     },
     {
@@ -1621,6 +1622,12 @@
     },
     {
       "source": "chat_session:b6556366",
+      "target": "doc:Resume_And_Jobs/Job8_Waymo_Global_Vendor_Operations_Manager_8348363.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:b6556366",
       "target": "doc:Resume_And_Jobs/Target_Jobs_Tracker.md",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
@@ -1629,82 +1636,6 @@
       "source": "chat_session:b6556366",
       "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
       "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S223",
-      "target": "topic:asking",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S223",
-      "target": "topic:hirign",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S223",
-      "target": "topic:intuitive",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S223",
-      "target": "topic:message",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S223",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S224",
-      "target": "topic:network",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S224",
-      "target": "topic:intuitive",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S224",
-      "target": "topic:chain",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S224",
-      "target": "topic:supply",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S224",
-      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -2100,6 +2031,78 @@
       "target": "chat_turn:b6556366:S325",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S343",
+      "target": "topic:vendor",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 21
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S343",
+      "target": "topic:service",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S343",
+      "target": "topic:operations",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S343",
+      "target": "topic:scorecards",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S343",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S343",
+      "target": "doc:Resume_And_Jobs/Job8_Waymo_Global_Vendor_Operations_Manager_8348363.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S343",
+      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S344",
+      "target": "topic:next",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S344",
+      "target": "topic:waymo",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S344",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
     }
   ],
   "file_hashes": {
@@ -2114,13 +2117,14 @@
     "Resume_And_Jobs/Job7_SBEnergy_Supply_Chain_Governance_RedwoodCity.md": "6ae28457006ad1fe3a534e473e7fe9aa11c71686527f376618e2596b4facff2c",
     "Resume_And_Jobs/Job8_SBEnergy_Logistics_Control_Tower_Analytics_6196167004.md": "7fdb5ad4c88dcb89bd72db283dd5877b625bb2f5e0c970f10c511183d7867e1c",
     "Resume_And_Jobs/Job8_Waymo_Global_Vendor_Operations_Manager_8348363.md": "e78605b11a5d83cb8aa66c5653df450609aad2ac0feb1e1bcd0150b6fc171505",
+    "Resume_And_Jobs/Job9_Zoox_Procurement_Operations_Manager_FosterCity.md": "a1268a50cc3c4945a6ecc3260264089ee05b40feee00a35025d25e0f18a99f48",
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
-    "Resume_And_Jobs/Target_Jobs_Tracker.md": "9dec702eb48c021e92413ac80980a1a031eec4ed4600db3642fa0ae9e6870213",
+    "Resume_And_Jobs/Target_Jobs_Tracker.md": "64b356033d1fd2fe9cc070c80c04ca9a16fbc9e8d714a917d4a0b40c67744d66",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
-    "documents/CAREER_APPLICATIONS_TRACKER.md": "c00c955c86c6986a8bd0e02c33b8796c22a0427b80ebc06d2ec45e48441e64af",
+    "documents/CAREER_APPLICATIONS_TRACKER.md": "b2bfeb2be97a2da6a76b403c555738aeb9a24fc2f2a8e81ca76be1e8850d51e0",
     "documents/QUESTION_BANK_LOG.md": "476b466599d08b5aaaa3231b737db1d9c3d2b88228ec88ae22c3216607bbb42d",
-    "repo.md": "32fa434560438bf15d733bc891c8f99568c62717299824081d4e982a3a06d642"
+    "repo.md": "bce35a7df0a76533d4d15f1607e1f99e6bcddfa72d645f8f7275057dd7222bd2"
   }
 }

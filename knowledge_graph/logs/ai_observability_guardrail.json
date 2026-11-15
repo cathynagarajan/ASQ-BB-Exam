@@ -1,6 +1,6 @@
 {
-  "pii_scans_total": 296,
-  "pii_redactions_total": 49,
+  "pii_scans_total": 364,
+  "pii_redactions_total": 62,
   "pii_by_category": {
     "pem_key": 0,
     "api_key": 0,
@@ -8,8 +8,8 @@
     "secret_assign": 0,
     "ssn": 0,
     "credit_card": 0,
-    "email": 24,
-    "phone": 25
+    "email": 30,
+    "phone": 32
   },
   "mcp_tool_calls": {
     "kg_rag_query": 0,
@@ -26,6 +26,68 @@
     "kg_pii_guardrail_scan": 0.0
   },
   "recent_guardrail_events": [
+    {
+      "timestamp": "2026-11-15T01:14:53.808490+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
+    {
+      "timestamp": "2026-11-15T01:14:53.807651+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 1,
+      "categories": {
+        "phone": 1
+      }
+    },
+    {
+      "timestamp": "2026-11-15T01:14:53.806064+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
+    {
+      "timestamp": "2026-11-15T01:14:53.802916+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
+    {
+      "timestamp": "2026-11-15T01:14:53.802127+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
+    {
+      "timestamp": "2026-11-15T01:14:53.798172+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
+    {
+      "timestamp": "2026-11-15T01:14:53.796316+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
     {
       "timestamp": "2026-11-15T01:06:55.200669+00:00",
       "source": "mcp_guardrail",
@@ -251,5 +313,5 @@
       }
     }
   ],
-  "updated_at": "2026-11-15T01:06:55.200675+00:00"
+  "updated_at": "2026-11-15T01:14:53.808499+00:00"
 }
