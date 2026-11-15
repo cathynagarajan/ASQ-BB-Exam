@@ -1,15 +1,15 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-15T21:38:50.611051+00:00",
+    "generated_at": "2026-11-15T21:55:26.956441+00:00",
     "total_files_indexed": 31,
-    "total_nodes": 109,
-    "total_edges": 111,
+    "total_nodes": 106,
+    "total_edges": 106,
     "node_type_counts": {
       "chat_session": 2,
       "chat_turn": 19,
       "document": 30,
-      "topic_entity": 58
+      "topic_entity": 55
     }
   },
   "last_change_check": {
@@ -26,16 +26,16 @@
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 30,
-      "nodes_deleted": 23,
-      "edges_upserted": 42,
-      "edges_deleted": 37,
+      "nodes_upserted": 26,
+      "nodes_deleted": 22,
+      "edges_upserted": 38,
+      "edges_deleted": 38,
       "wiki_pages_upserted": 2,
       "wiki_pages_deleted": 0,
       "files_upserted": 4,
       "files_deleted": 0,
-      "total_nodes_in_db": 109,
-      "total_edges_in_db": 111,
+      "total_nodes_in_db": 106,
+      "total_edges_in_db": 106,
       "total_files_tracked": 32
     }
   },
@@ -56,10 +56,10 @@
           "Target Exam:",
           "Current Roadmap Stage:",
           "Stage 2 IN PROGRESS:",
-          "Latest Batch Score (Round 5 \u2014 `V.C` MSA & `V.D` Basic Stats + Review):",
-          "`7 / 10` (`70.0%`)",
+          "Latest Batch Score (Round 6 \u2014 `V.D`\u2013`V.F` Multi-Vari, Probability, Capability):",
+          "`6 / 10` (`60.0%`)",
           "Overall Cumulative Score (Unique Questions):",
-          "`54 / 70` (`77.1%`)",
+          "`60 / 80` (`75.0%`)",
           "I. Org-Wide Planning & Deployment",
           "100%",
           "Stage 1 Complete",
@@ -72,7 +72,7 @@
           "78.6%",
           "V. Measure",
           "Measure (M)",
-          "70.0%",
+          "66.7%",
           "Stage 2 Active",
           "VI. Analyze",
           "Analyze (A)",
@@ -115,30 +115,39 @@
           "`V.D.2` & `V.D.3`",
           "Central Limit Theorem (CLT) & Skewed Data (Median/IQR)",
           "Median + IQR",
+          "`V.D.4` & `V.D.5`",
+          "Multi-Vari Chart & Enumerative vs. Analytic",
+          "Positional",
+          "Cyclical",
+          "Temporal",
+          "Enumerative",
+          "Analytic",
+          "`V.E.1`",
+          "Probability Addition Rule",
           "V. Measure Phase",
-          "V.C",
           "V.D",
-          "7 / 10",
-          "Q62",
-          "Q63",
-          "Q68",
-          "Q70",
-          "Q61",
-          "Q64",
-          "Q69",
-          "54 / 70",
-          "77.1%",
+          "V.F",
+          "6 / 10",
+          "60.0%",
+          "Q71",
+          "Q77",
+          "Q80",
+          "Q72",
+          "Q73",
+          "sqrt(n)",
+          "Q75",
+          "Q76",
+          "P(A or B)",
+          "60 / 80",
           "II.B",
           "II.C.2",
           "III.B",
           "III.C",
-          "V.B.1",
-          "V.B.2",
-          "V.A.1",
-          "WIP = Rate * Time",
           "V.C.2",
           "V.D.2",
-          "V.D.3",
+          "V.D.4",
+          "V.D.5",
+          "V.E.1",
           "IV.A.2",
           "IV.A.3",
           "IV.C",
@@ -146,9 +155,17 @@
           "(*Accommodating* = Lose-Win giving in) instead of **",
           "III.D",
           "(Right: Level 3 = Behavior on the job). Low-frequency Handbook detail (",
+          "V.A.1",
           "Lead Time = WIP / Throughput",
+          "V.B.1",
+          "V.B.2",
+          "Q63",
           "> 0.75",
-          "sigma / sqrt(n)"
+          "V.D.3",
+          "sigma / sqrt(n)",
+          "4x cuts spread by",
+          "P(A or B) = P(A) + P(B) - P(A and B)",
+          "0.20 * 0.30 = 0.06"
         ],
         "format": "md"
       }
@@ -1136,7 +1153,8 @@
           "Round 2 Completed (`Q16`\u2013`Q35` \u2014 2026-11-14 | Score: `12/20`)",
           "Round 3 Completed \u2014 Stage 1 Balance (`Q36`\u2013`Q50` \u2014 2026-11-14 | Score: `14/15`)",
           "Round 4 Completed \u2014 Stage 2 Measure Phase (`Q51`\u2013`Q60` \u2014 2026-11-15 | Score: `7/10`)",
-          "Round 5 Completed \u2014 Stage 2 Measure Phase (`Q61`\u2013`Q70` \u2014 2026-11-15 | Score: `7/10`)"
+          "Round 5 Completed \u2014 Stage 2 Measure Phase (`Q61`\u2013`Q70` \u2014 2026-11-15 | Score: `7/10`)",
+          "Round 6 Completed \u2014 Stage 2 Measure Phase (`Q71`\u2013`Q80` \u2014 2026-11-15 | Score: `6/10`)"
         ],
         "keywords": [
           "Rule:",
@@ -1225,7 +1243,31 @@
           "Q68",
           "Q69",
           "V.D.2",
-          "V.D.3"
+          "V.D.3",
+          "Q71",
+          "Q80",
+          "6/10",
+          "Q72",
+          "Linearity (",
+          "Q73",
+          "(by 4) vs. Correct",
+          "(by 2) (",
+          "Q74",
+          "V.D.4",
+          "Q75",
+          "V.D.5",
+          "Enumerative (",
+          "Q76",
+          "V.E.1",
+          "(0.50) vs. Correct",
+          "(0.44) (",
+          "Q77",
+          "V.E.2",
+          "Q78",
+          "V.F.1",
+          "Q79",
+          "V.F.2",
+          "V.F.3"
         ],
         "format": "md"
       }
@@ -1251,16 +1293,6 @@
       }
     },
     {
-      "id": "topic:chain",
-      "type": "topic_entity",
-      "name": "chain",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'chain' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "chain"
-      }
-    },
-    {
       "id": "topic:round",
       "type": "topic_entity",
       "name": "round",
@@ -1271,10 +1303,20 @@
       }
     },
     {
+      "id": "topic:chain",
+      "type": "topic_entity",
+      "name": "chain",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'chain' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "chain"
+      }
+    },
+    {
       "id": "topic:supply",
       "type": "topic_entity",
       "name": "supply",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
       "description": "Shared domain topic 'supply' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "supply"
@@ -1325,8 +1367,8 @@
         "topics": [
           "manager",
           "city",
-          "chain",
           "round",
+          "chain",
           "supply",
           "alto",
           "foster",
@@ -1520,6 +1562,16 @@
       }
     },
     {
+      "id": "topic:phase",
+      "type": "topic_entity",
+      "name": "phase",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'phase' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "phase"
+      }
+    },
+    {
       "id": "topic:attribute",
       "type": "topic_entity",
       "name": "attribute",
@@ -1533,7 +1585,7 @@
       "id": "topic:bias",
       "type": "topic_entity",
       "name": "bias",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'bias' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "bias"
@@ -1544,18 +1596,18 @@
       "type": "chat_turn",
       "name": "Chat SHAREDSE Turn S5 (assistant)",
       "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`70` (`Q1` through `Q70`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). - **Stage 1 Status (`Domains I, II, III,",
+      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`80` (`Q1` through `Q80`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). - **Stage 1 Status (`Domains I, II, III,",
       "metadata": {
         "conversation_id": "SHAREDSE",
         "step_index": 5,
         "role": "assistant",
         "created_at": "",
-        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`70` (`Q1` through `Q70`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Stage 1 Status (`Domains I, II, III, IV \u2014 Foundations & Define`)**: **COMPLETE (`40 / 50 = 80.0%`)**\n  - Round 1 (`Q1\u2013Q15`): `14 / 15` (`93.3%`)\n  - Round 2 (`Q16\u2013Q35`): `12 / 20` (`60.0%`)\n  - Round 3 (`Q36\u2013Q50`): `14 / 15` (`93.3%`)\n- **Stage 2 Status (`Domain V \u2014 Measure Phase`)**: **IN PROGRESS (`14 / 20 = 70.0%`)**\n  - Round 4 (`Q51\u2013Q60`): `7 / 10` (`70.0%`)\n  - Round 5 (`Q61\u2013Q70`): `7 / 10` (`70.0%`) \u2014 Cumulative: **`54 / 70` (`77.1%`)**\n- **Active Weak Points Scheduled for Spaced Re-Testing**:\n  1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) ",
+        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`80` (`Q1` through `Q80`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Stage 1 Status (`Domains I, II, III, IV \u2014 Foundations & Define`)**: **COMPLETE (`40 / 50 = 80.0%`)**\n  - Round 1 (`Q1\u2013Q15`): `14 / 15` (`93.3%`)\n  - Round 2 (`Q16\u2013Q35`): `12 / 20` (`60.0%`)\n  - Round 3 (`Q36\u2013Q50`): `14 / 15` (`93.3%`)\n- **Stage 2 Status (`Domain V \u2014 Measure Phase`)**: **IN PROGRESS (`20 / 30 = 66.7%`)**\n  - Round 4 (`Q51\u2013Q60`): `7 / 10` (`70.0%`)\n  - Round 5 (`Q61\u2013Q70`): `7 / 10` (`70.0%`)\n  - Round 6 (`Q71\u2013Q80`): `6 / 10` (`60.0%`) \u2014 Cumulative: **`60 / 80` (`75.0%`)**\n- **Active Weak Points Scheduled for Spaced Re-Testing**:\n  1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity",
         "topics": [
           "round",
+          "phase",
           "attribute",
-          "bias",
-          "cathy"
+          "bias"
         ]
       }
     },
@@ -1605,16 +1657,6 @@
       }
     },
     {
-      "id": "topic:phase",
-      "type": "topic_entity",
-      "name": "phase",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'phase' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "phase"
-      }
-    },
-    {
       "id": "topic:time",
       "type": "topic_entity",
       "name": "time",
@@ -1622,36 +1664,6 @@
       "description": "Shared domain topic 'time' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "time"
-      }
-    },
-    {
-      "id": "topic:supplier",
-      "type": "topic_entity",
-      "name": "supplier",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'supplier' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "supplier"
-      }
-    },
-    {
-      "id": "topic:days",
-      "type": "topic_entity",
-      "name": "days",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'days' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "days"
-      }
-    },
-    {
-      "id": "topic:lead",
-      "type": "topic_entity",
-      "name": "lead",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'lead' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "lead"
       }
     },
     {
@@ -1665,204 +1677,33 @@
       }
     },
     {
-      "id": "topic:master",
+      "id": "topic:average",
       "type": "topic_entity",
-      "name": "master",
+      "name": "average",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'master' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'average' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "master"
+        "keyword": "average"
       }
     },
     {
-      "id": "chat_session:b6556366",
-      "type": "chat_session",
-      "name": "Chat Session b6556366",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (135 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "short_id": "b6556366",
-        "turn_count": 135,
-        "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
-        "source": "antigravity_transcript",
-        "topics": [
-          "measure",
-          "phase",
-          "time",
-          "supplier",
-          "days",
-          "lead",
-          "correct",
-          "master"
-        ]
-      }
-    },
-    {
-      "id": "topic:power",
+      "id": "topic:gage",
       "type": "topic_entity",
-      "name": "power",
+      "name": "gage",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'power' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'gage' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "power"
+        "keyword": "gage"
       }
     },
     {
-      "id": "chat_turn:b6556366:S720",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S720 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S720] Got it\u2014removed NTT (glad you caught that!). Here is **Job 9 of 10**, verified **updated 2 days ago (`2026-11-13`)** in Greenhouse: --- ### Job 9 of 10 (Overall #19) \u2014 Verified Live (`Public NYSE Company \u2014 Santa Clara, ~1",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 720,
-        "role": "assistant",
-        "created_at": "2026-11-15T20:28:11Z",
-        "content_excerpt": "Got it\u2014removed NTT (glad you caught that!). Here is **Job 9 of 10**, verified **updated 2 days ago (`2026-11-13`)** in Greenhouse:\n\n---\n\n### Job 9 of 10 (Overall #19) \u2014 Verified Live (`Public NYSE Company \u2014 Santa Clara, ~11 miles`)\n\n- **Company**: **Pure Storage / Everpure** *(Public NYSE: `PSTG`, founded 2009, $3.7B+ revenue)*\n- **Role**: **Data Steward, Master Data Management, Supply Chain** *(Job ID: `8027649`)*\n- **Direct Live Application Link**: https://job-boards.greenhouse.io/purestorage/jobs/8027649\n- **Location & Work Mode**: **Santa Clara, CA \u2014 Primarily In-Office** *(~11 miles from Palo Alto; desk-based ERP/data role, zero lifting \u2014 if you prefer 100% Remote or Hybrid instead, just tell me `\"remote\"`!)*\n- **Posted California Base Salary**: **155,700 USD to 190,300 USD base** + B",
-        "topics": [
-          "master",
-          "power",
-          "supplier",
-          "supply"
-        ]
-      }
-    },
-    {
-      "id": "topic:evenpure",
+      "id": "topic:spread",
       "type": "topic_entity",
-      "name": "evenpure",
+      "name": "spread",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'evenpure' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'spread' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "evenpure"
-      }
-    },
-    {
-      "id": "topic:finihsed",
-      "type": "topic_entity",
-      "name": "finihsed",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'finihsed' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "finihsed"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S721",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S721 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S721] finihsed evenpure",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 721,
-        "role": "user",
-        "created_at": "2026-11-15T20:32:02Z",
-        "content_excerpt": "finihsed evenpure",
-        "topics": [
-          "evenpure",
-          "finihsed"
-        ]
-      }
-    },
-    {
-      "id": "topic:across",
-      "type": "topic_entity",
-      "name": "across",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'across' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "across"
-      }
-    },
-    {
-      "id": "topic:commercial",
-      "type": "topic_entity",
-      "name": "commercial",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'commercial' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "commercial"
-      }
-    },
-    {
-      "id": "topic:gitlab",
-      "type": "topic_entity",
-      "name": "gitlab",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'gitlab' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "gitlab"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S730",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S730 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S730] Awesome, **Cathy**\u2014that puts you at **9 submitted today**, just **1 more to hit 10/10**! --- ### Job 10 of 10 (Overall #20) \u2014 Verified Live (`Public NASDAQ Company \u2014 100% Remote USA`) - **Company**: **GitLab** *(Public N",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 730,
-        "role": "assistant",
-        "created_at": "2026-11-15T20:32:48Z",
-        "content_excerpt": "Awesome, **Cathy**\u2014that puts you at **9 submitted today**, just **1 more to hit 10/10**!\n\n---\n\n### Job 10 of 10 (Overall #20) \u2014 Verified Live (`Public NASDAQ Company \u2014 100% Remote USA`)\n\n- **Company**: **GitLab** *(Public NASDAQ: `GTLB`, founded 2011, 2,300+ employees, world's largest all-remote public tech company)*\n- **Role**: **Principal Strategic Sourcing Lead \u2013 Technology** *(Job ID: `8642786002`)*\n- **Direct Live Application Link**: https://job-boards.greenhouse.io/gitlab/jobs/8642786002\n- **Location & Work Mode**: **100% Remote \u2014 United States** *(zero commute!)*\n- **Posted US Base Salary**: **139,200 USD to 235,200 USD base** + Equity + Full Benefits\n- **Why You Fit With Your Exact Unchanged Titles**:\n  - Pure Individual Contributor (zero direct reports), zero lifting, and zero SQL",
-        "topics": [
-          "supplier",
-          "across",
-          "commercial",
-          "gitlab"
-        ]
-      }
-    },
-    {
-      "id": "topic:appkied",
-      "type": "topic_entity",
-      "name": "appkied",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'appkied' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "appkied"
-      }
-    },
-    {
-      "id": "topic:asking",
-      "type": "topic_entity",
-      "name": "asking",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'asking' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "asking"
-      }
-    },
-    {
-      "id": "topic:gitlabm",
-      "type": "topic_entity",
-      "name": "gitlabm",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'gitlabm' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "gitlabm"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S731",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S731 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S731] ok appkied for gitlabm it was asking for AWS exp, i don;t have - it is ok",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 731,
-        "role": "user",
-        "created_at": "2026-11-15T20:36:27Z",
-        "content_excerpt": "ok appkied for gitlabm it was asking for AWS exp, i don;t have - it is ok",
-        "topics": [
-          "appkied",
-          "asking",
-          "gitlabm"
-        ]
+        "keyword": "spread"
       }
     },
     {
@@ -1876,93 +1717,37 @@
       }
     },
     {
-      "id": "topic:sampling",
-      "type": "topic_entity",
-      "name": "sampling",
+      "id": "chat_session:b6556366",
+      "type": "chat_session",
+      "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'sampling' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "sampling"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S743",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S743 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S743] Great job, **Cathy**! **Project 1 is 10/10 complete** \u2014 all 10 Day-2 applications (`#11` through `#20`, including your GitLab submission) are logged in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ",
+      "description": "Chat Session b6556366 (141 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 743,
-        "role": "assistant",
-        "created_at": "2026-11-15T20:37:25Z",
-        "content_excerpt": "Great job, **Cathy**! **Project 1 is 10/10 complete** \u2014 all 10 Day-2 applications (`#11` through `#20`, including your GitLab submission) are logged in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md) and dual-synced with Qwen in commit `3c40d16`. (And don't worry about the AWS question on GitLab \u2014 your strategic sourcing, SaaS vendor negotiation, and contract governance background is the core of that role.)\n\n---\n\nNow let's launch **Project 2: 50+ New ASQ CSSBB Exam Questions (`Q51` through `Q100+`)**!\nWe are starting **Stage 2: V. Measure Phase** (the highest-weighted section on the ASQ 2022 CSSBB exam, worth 25 scored questions).\n\nHere is **Round 4: Questions 51 to 60** (`V.A Process Characteristics` and `V.B Data Coll",
+        "short_id": "b6556366",
+        "turn_count": 141,
+        "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+        "source": "antigravity_transcript",
         "topics": [
           "measure",
+          "time",
           "phase",
-          "process",
-          "sampling"
+          "correct",
+          "average",
+          "gage",
+          "spread",
+          "process"
         ]
       }
     },
     {
-      "id": "topic:know",
+      "id": "topic:lead",
       "type": "topic_entity",
-      "name": "know",
+      "name": "lead",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'know' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'lead' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "know"
-      }
-    },
-    {
-      "id": "topic:teach",
-      "type": "topic_entity",
-      "name": "teach",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'teach' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "teach"
-      }
-    },
-    {
-      "id": "topic:dont",
-      "type": "topic_entity",
-      "name": "dont",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'dont' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "dont"
-      }
-    },
-    {
-      "id": "topic:explain",
-      "type": "topic_entity",
-      "name": "explain",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'explain' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "explain"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S744",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S744 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S744] a(don;t know little's law, pls explain, gueesed it ),b,a,c,b,a (forgot those 4, pls teach me),a (dont know pls teach),c,a,b",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 744,
-        "role": "user",
-        "created_at": "2026-11-15T21:26:39Z",
-        "content_excerpt": "a(don;t know little's law, pls explain, gueesed it ),b,a,c,b,a (forgot those 4, pls teach me),a (dont know pls teach),c,a,b",
-        "topics": [
-          "know",
-          "teach",
-          "dont",
-          "explain"
-        ]
+        "keyword": "lead"
       }
     },
     {
@@ -2013,6 +1798,16 @@
       "description": "Shared domain topic 'ahead' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "ahead"
+      }
+    },
+    {
+      "id": "topic:explain",
+      "type": "topic_entity",
+      "name": "explain",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'explain' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "explain"
       }
     },
     {
@@ -2224,6 +2019,224 @@
           "guess"
         ]
       }
+    },
+    {
+      "id": "topic:skewed",
+      "type": "topic_entity",
+      "name": "skewed",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'skewed' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "skewed"
+      }
+    },
+    {
+      "id": "topic:below",
+      "type": "topic_entity",
+      "name": "below",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'below' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "below"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S773",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S773 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S773] Great work on Round 5, **Cathy**! You scored **7 / 10 (70.0%)** \u2014 and even better, you **nailed `Q62` (Ordinal) and `Q63` (Rational Subgrouping)** right away after our review! Your overall score is now **54 / 70 (77.1%)*",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 773,
+        "role": "assistant",
+        "created_at": "2026-11-15T21:38:54Z",
+        "content_excerpt": "Great work on Round 5, **Cathy**! You scored **7 / 10 (70.0%)** \u2014 and even better, you **nailed `Q62` (Ordinal) and `Q63` (Rational Subgrouping)** right away after our review! Your overall score is now **54 / 70 (77.1%)**.\n\nI am pausing here \u2014 **no new questions** until you say **\"ready\"**. Let's walk slowly through the 3 missed questions (`Q61`, `Q64`, `Q69`) and the 2 you asked me to explain (`Q68`, `Q70`), with each full question printed right above its explanation.\n\n---\n\n### Round 5 Results Summary (`Q61`\u2013`Q70`)\n\n| Q# | ASQ BoK | Topic | Your Answer | Correct | Result |\n| :--- | :--- | :--- | :---: | :---: | :--- |\n| **Q61** | `V.A.1` | Little's Law (`WIP = Throughput * Lead Time`) | `A` | **`C`** | **Miss (Explained below)** |\n| **Q62** | `V.B.1` | NOIR Scale \u2014 1-to-5 Survey (`Ordinal",
+        "topics": [
+          "correct",
+          "skewed",
+          "average",
+          "below"
+        ]
+      }
+    },
+    {
+      "id": "topic:accuracy",
+      "type": "topic_entity",
+      "name": "accuracy",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'accuracy' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "accuracy"
+      }
+    },
+    {
+      "id": "topic:cheat",
+      "type": "topic_entity",
+      "name": "cheat",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'cheat' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cheat"
+      }
+    },
+    {
+      "id": "topic:items",
+      "type": "topic_entity",
+      "name": "items",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'items' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "items"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S774",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S774 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S774] are there other set of cheat sheet notes for q64? we have a whole list of items like this bias, accuracy so on",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 774,
+        "role": "user",
+        "created_at": "2026-11-15T21:41:48Z",
+        "content_excerpt": "are there other set of cheat sheet notes for q64? we have a whole list of items like this bias, accuracy so on",
+        "topics": [
+          "accuracy",
+          "bias",
+          "cheat",
+          "items"
+        ]
+      }
+    },
+    {
+      "id": "topic:same",
+      "type": "topic_entity",
+      "name": "same",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'same' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "same"
+      }
+    },
+    {
+      "id": "topic:example",
+      "type": "topic_entity",
+      "name": "example",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'example' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "example"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S775",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S775 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S775] Yes! That exact group of terms (`V.C.2` Measurement Systems Analysis) is one of the highest-yield cheat sheets on the entire ASQ Black Belt exam. There are **2 big families** (**Accuracy** and **Precision**) with **5 cor",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 775,
+        "role": "assistant",
+        "created_at": "2026-11-15T21:41:48Z",
+        "content_excerpt": "Yes! That exact group of terms (`V.C.2` Measurement Systems Analysis) is one of the highest-yield cheat sheets on the entire ASQ Black Belt exam.\n\nThere are **2 big families** (**Accuracy** and **Precision**) with **5 core terms**, plus **Resolution (`ndc`)**. Here is the complete, easy-to-remember cheat sheet:\n\n---\n\n### Family 1: ACCURACY (How close the *average* measurement is to the TRUE value)\nThink of a **bathroom scale** compared to a certified 150 lb gym weight:\n\n1. **Bias** *(Single-point off-center error)*\n   - **What it is:** The difference between your average reading and the true NIST certified master value.\n   - **Example:** You step on the scale with a 150.0 lb master weight 10 times and it averages **152.0 lbs** every time. Your bias is **+2.0 lbs**.\n   - **Fix:** Re-zero / ",
+        "topics": [
+          "gage",
+          "same",
+          "bias",
+          "example"
+        ]
+      }
+    },
+    {
+      "id": "topic:doing",
+      "type": "topic_entity",
+      "name": "doing",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'doing' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "doing"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S776",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S776 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S776] How am i doing? next 10",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 776,
+        "role": "user",
+        "created_at": "2026-11-15T21:48:57Z",
+        "content_excerpt": "How am i doing? next 10",
+        "topics": [
+          "doing",
+          "next"
+        ]
+      }
+    },
+    {
+      "id": "topic:limits",
+      "type": "topic_entity",
+      "name": "limits",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'limits' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "limits"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S777",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S777 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S777] You are doing **really well, Cathy** \u2014 honestly! Here is where you stand right now: - **Overall Score:** **54 / 70 (`77.1%`)** - **Stage 1 (Foundations & Define, `Q1`\u2013`Q50`):** **40 / 50 (`80.0%`)** \u2014 solidly in ASQ pass",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 777,
+        "role": "assistant",
+        "created_at": "2026-11-15T21:48:57Z",
+        "content_excerpt": "You are doing **really well, Cathy** \u2014 honestly! Here is where you stand right now:\n- **Overall Score:** **54 / 70 (`77.1%`)**\n  - **Stage 1 (Foundations & Define, `Q1`\u2013`Q50`):** **40 / 50 (`80.0%`)** \u2014 solidly in ASQ passing territory!\n  - **Stage 2 (Measure Phase, `Q51`\u2013`Q70`):** **14 / 20 (`70.0%`)** so far \u2014 and Measure is the **heaviest, most math-intensive** section on the entire exam!\n- **Best sign of all:** Whenever you slow down and learn a missed concept, **you nail it on the very next round** (just like `Ordinal` and `Rational Subgrouping` in Round 5!).\n\n---\n\nHere is **Round 6: Questions 71 to 80** (`V. Measure Phase` \u2014 Multi-Vari, Probability, Process Capability, plus 3 spaced-review twists). Take your time, and after you reply, we will pause and review slowly!\n\n---\n\n**Q71. [Me",
+        "topics": [
+          "measure",
+          "process",
+          "limits",
+          "phase"
+        ]
+      }
+    },
+    {
+      "id": "topic:need",
+      "type": "topic_entity",
+      "name": "need",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'need' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "need"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S778",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S778 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S778] b,a,b,b(need cheat sheet plz),c(guess work, pls explain),c,b,a,b,c",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 778,
+        "role": "user",
+        "created_at": "2026-11-15T21:54:53Z",
+        "content_excerpt": "b,a,b,b(need cheat sheet plz),c(guess work, pls explain),c,b,a,b,c",
+        "topics": [
+          "cheat",
+          "explain",
+          "guess",
+          "need"
+        ]
+      }
     }
   ],
   "edges": [
@@ -2251,15 +2264,15 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:chain",
+      "target": "topic:round",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 6
+        "count": 7
       }
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:round",
+      "target": "topic:chain",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 6
@@ -2440,7 +2453,15 @@
       "target": "topic:round",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 6
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
+      "target": "topic:phase",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
       }
     },
     {
@@ -2454,14 +2475,6 @@
     {
       "source": "chat_turn:SHAREDSE:S5",
       "target": "topic:bias",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:cathy",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
@@ -2528,6 +2541,14 @@
       "target": "topic:measure",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
+        "count": 30
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:time",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
         "count": 28
       }
     },
@@ -2541,291 +2562,43 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:time",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 19
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:supplier",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 14
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:days",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 12
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:lead",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 12
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
       "target": "topic:correct",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 11
+        "count": 21
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:master",
+      "target": "topic:average",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 11
+        "count": 20
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc:Resume_And_Jobs/Job19_PureStorage_Supply_Chain_Master_Data_Steward_SantaClara_8027649.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "doc:Resume_And_Jobs/Job20_GitLab_Principal_Strategic_Sourcing_Lead_Remote_8642786002.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S720",
-      "target": "topic:master",
+      "target": "topic:gage",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S720",
-      "target": "topic:power",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S720",
-      "target": "topic:supplier",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S720",
-      "target": "topic:supply",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
+        "count": 17
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S720",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S720",
-      "target": "doc:Resume_And_Jobs/Job19_PureStorage_Supply_Chain_Master_Data_Steward_SantaClara_8027649.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S721",
-      "target": "topic:evenpure",
+      "target": "topic:spread",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S721",
-      "target": "topic:finihsed",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
+        "count": 17
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S721",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S730",
-      "target": "topic:supplier",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S730",
-      "target": "topic:across",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S730",
-      "target": "topic:commercial",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S730",
-      "target": "topic:gitlab",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S730",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S730",
-      "target": "doc:Resume_And_Jobs/Job20_GitLab_Principal_Strategic_Sourcing_Lead_Remote_8642786002.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S731",
-      "target": "topic:appkied",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S731",
-      "target": "topic:asking",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S731",
-      "target": "topic:gitlabm",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S731",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S743",
-      "target": "topic:measure",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 10
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S743",
-      "target": "topic:phase",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 10
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S743",
       "target": "topic:process",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 6
+        "count": 16
       }
-    },
-    {
-      "source": "chat_turn:b6556366:S743",
-      "target": "topic:sampling",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S743",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S743",
-      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S744",
-      "target": "topic:know",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S744",
-      "target": "topic:teach",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S744",
-      "target": "topic:dont",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S744",
-      "target": "topic:explain",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S744",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
     },
     {
       "source": "chat_turn:b6556366:S758",
@@ -3054,10 +2827,222 @@
       "target": "chat_turn:b6556366:S763",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S773",
+      "target": "topic:correct",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S773",
+      "target": "topic:skewed",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S773",
+      "target": "topic:average",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S773",
+      "target": "topic:below",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S773",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S774",
+      "target": "topic:accuracy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S774",
+      "target": "topic:bias",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S774",
+      "target": "topic:cheat",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S774",
+      "target": "topic:items",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S774",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S775",
+      "target": "topic:gage",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S775",
+      "target": "topic:same",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S775",
+      "target": "topic:bias",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S775",
+      "target": "topic:example",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S775",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S776",
+      "target": "topic:doing",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S776",
+      "target": "topic:next",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S776",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S777",
+      "target": "topic:measure",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S777",
+      "target": "topic:process",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S777",
+      "target": "topic:limits",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S777",
+      "target": "topic:phase",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S777",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S778",
+      "target": "topic:cheat",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S778",
+      "target": "topic:explain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S778",
+      "target": "topic:guess",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S778",
+      "target": "topic:need",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S778",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
     }
   ],
   "file_hashes": {
-    "PERFORMANCE_TRACKER.md": "f114c7cf9f0f079136295817ffa9811e2c5903f3f1af4eeab4edc7dd38038ab4",
+    "PERFORMANCE_TRACKER.md": "394c0e105a73242063b2920f79f79889b05a4f46e3ab13230ef739a157a04cde",
     "QWEN.md": "4274db35cb45031ac7fc4759b20531d3de3562d5275a7f5ac9d1d1494bd0aee4",
     "README.md": "506319462ce0f0d62f6cbed53d6d0cdfa3c40623a05eacd6b881d9c3ddd8facf",
     "STUDY_ROADMAP_MAR2027.md": "0565fb20c8f9008ab7629f78fed3bdf076952045a4567cca7ccebd4e1e986a27",
@@ -3083,11 +3068,11 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "484353ebcccfa105f4b77b29bc3c102e443beeffc000ed45fa057721bbe5393e",
-    "chats/SHARED_SESSION_STATE.md": "4c493e379aebee7062497830bdf60bbe076bc40f84f534a711a9507575b13174",
+    "chats/SHARED_SESSION_STATE.md": "6e70ee1b6442b6ee31fb043c525401ed281bcc5dd36dc5dfd6eeefc07fdc5d0f",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
     "documents/CAREER_APPLICATIONS_TRACKER.md": "fe0486c56fd9677cc8a30d323dee471297c11214c7110f4f28ca0b01fe86e295",
-    "documents/QUESTION_BANK_LOG.md": "b4146dc2aa6d42fb2e2b4519f1b4698669e2fc5505aaf077e6057a96a9c4aaa2",
-    "repo.md": "5da727d4ebd633f59f6b30a22038a50a5c27cb90808ed31cee6c7137e9de42f3"
+    "documents/QUESTION_BANK_LOG.md": "40868b35987d5836307b1a795d5070ee9c42cc6f3090afce8644802cc6c9fabd",
+    "repo.md": "92bc082c96c46b4b79006267f9728edd885d7050386ceb39d3cc0beea18c3e22"
   }
 }

@@ -8,14 +8,15 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`70` (`Q1` through `Q70`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Completed Unique Questions**: **`80` (`Q1` through `Q80`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
 - **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **COMPLETE (`40 / 50 = 80.0%`)**
   - Round 1 (`Q1–Q15`): `14 / 15` (`93.3%`)
   - Round 2 (`Q16–Q35`): `12 / 20` (`60.0%`)
   - Round 3 (`Q36–Q50`): `14 / 15` (`93.3%`)
-- **Stage 2 Status (`Domain V — Measure Phase`)**: **IN PROGRESS (`14 / 20 = 70.0%`)**
+- **Stage 2 Status (`Domain V — Measure Phase`)**: **IN PROGRESS (`20 / 30 = 66.7%`)**
   - Round 4 (`Q51–Q60`): `7 / 10` (`70.0%`)
-  - Round 5 (`Q61–Q70`): `7 / 10` (`70.0%`) — Cumulative: **`54 / 70` (`77.1%`)**
+  - Round 5 (`Q61–Q70`): `7 / 10` (`70.0%`)
+  - Round 6 (`Q71–Q80`): `6 / 10` (`60.0%`) — Cumulative: **`60 / 80` (`75.0%`)**
 - **Active Weak Points Scheduled for Spaced Re-Testing**:
   1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)
   2. `IV.A.3` CTQ measurable numerical target vs. vague VOC (`Q18`)
@@ -26,9 +27,11 @@
   7. `III.B / III.C` Tuckman Storming vs. Norming (`Q34`), Lencioni's 5 Dysfunctions (`Absence of Trust = base`), Thomas-Kilmann Collaborating (`Win-Win`) vs. Accommodating (`Lose-Win`) (`Q49`)
   8. `V.A.1` Little's Law (`WIP = Throughput * Lead Time`, `Lead Time = WIP / Throughput`) (`Q51`, `Q61`)
   9. `V.B.1` NOIR Scales (`Celsius = Interval`; Ordinal `Q62` PASSED!) & Continuous vs. Attribute data (`Q57`)
-  10. `V.C.2` Bias vs. Repeatability (`Q64`) & Attribute Kappa (`Q68`)
-  11. `V.D.2` & `V.D.3` Central Limit Theorem (`Q69`) & Skewed Data Median/IQR (`Q70`)
-- **NEXT EXAM STEP**: Wait for Cathy to say **"ready"**, then send **Round 6 (`Q71`–`Q80`)** covering `V.D.4` Multi-Vari & graphical tools, `V.E` Probability (Binomial/Poisson/Normal), `V.F` Process Capability (Cp/Cpk/Pp/Ppk/DPMO), plus spaced review of `Q61`, `Q64`, `Q69`. **COACHING RULE**: Never send next set until Cathy says "ready"; always print full question text when explaining missed/guessed Qs slowly.
+  10. `V.C.2` Bias vs. Repeatability (`Q64`), Linearity (`Q72`), & Attribute Kappa (`Q68`)
+  11. `V.D.2` & `V.D.3` Central Limit Theorem (`Q69`, `Q73` `sqrt(n)`) & Skewed Data Median/IQR (`Q70`)
+  12. `V.D.4` & `V.D.5` Multi-Vari Chart cheat sheet (`Q74`) & Enumerative vs. Analytic (`Q75`)
+  13. `V.E.1` Probability Addition Rule (`P(A or B) = P(A)+P(B)-P(A and B)`) (`Q76`)
+- **NEXT EXAM STEP**: Wait for Cathy to say **"ready"**, then send **Round 7 (`Q81`–`Q90`)** wrapping up `V. Measure Phase` (`Cp/Cpk/Pp/Ppk` math, `DPMO/Sigma Level`, `Binomial/Normal Z-score`, plus spaced review of `Q72`, `Q73`, `Q75`, `Q76`) before starting `VI. Analyze Phase` (`Q91`–`Q100+`). **COACHING RULE**: Never send next set until Cathy says "ready"; always print full question text when explaining missed/guessed Qs slowly.
 
 ---
 
