@@ -1,0 +1,1626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💡 Codebase Graphical Knowledge Graph</title>
+  <style>
+    :root {
+      --bg: #0b1120;
+      --panel: #111827;
+      --panel-alt: #1e293b;
+      --border: #334155;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --on-bg: linear-gradient(135deg, #0284c7 0%, #6366f1 100%);
+      --on-border: #38bdf8;
+      --off-bg: #0f172a;
+      --off-border: #334155;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Control Deck: Row 1 (Search + Top-10 Ranked Result ON/OFF Buttons) + Row 2 (Node Type ON/OFF Buttons) */
+    .kg-control-deck {
+      background: var(--panel);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+      flex-shrink: 0;
+      z-index: 20;
+    }
+
+    /* Row 1: Search Box + Top-10 Ranked Results alongside the top line */
+    .kg-top-line {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      min-height: 38px;
+    }
+    .kg-search-wrap {
+      position: relative;
+      flex: 0 0 340px;
+      display: flex;
+      align-items: center;
+    }
+    .kg-search-icon {
+      position: absolute;
+      left: 11px;
+      font-size: 0.88rem;
+      color: var(--accent);
+      pointer-events: none;
+    }
+    .kg-search-input {
+      width: 100%;
+      padding: 8px 30px 8px 34px;
+      border-radius: 7px;
+      border: 1px solid #475569;
+      background: #070b14;
+      color: var(--text);
+      font-size: 0.84rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      outline: none;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .kg-search-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2);
+    }
+    .kg-search-clear {
+      position: absolute;
+      right: 8px;
+      background: none;
+      border: none;
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 0.9rem;
+      padding: 2px 4px;
+      display: none;
+    }
+    .kg-search-clear:hover { color: #fff; }
+
+    /* Top-line Ranked Result ON/OFF Buttons strip */
+    .kg-results-strip {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex: 1;
+      overflow-x: auto;
+      padding-bottom: 2px;
+      scrollbar-width: thin;
+    }
+    .kg-results-strip::-webkit-scrollbar { height: 4px; }
+    .kg-results-strip::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+
+    /* Copy Query 2 Button & Ask Input */
+    .kg-ask-input {
+      width: 210px;
+      padding: 7px 10px;
+      border-radius: 7px;
+      border: 1px solid #475569;
+      background: #070b14;
+      color: var(--text);
+      font-size: 0.78rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      outline: none;
+      flex-shrink: 0;
+    }
+    .kg-ask-input:focus {
+      border-color: #a855f7;
+    }
+    .kg-copy-q2-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 13px;
+      border-radius: 7px;
+      border: 1px solid #a855f7;
+      background: linear-gradient(135deg, #7c3aed 0%, #0284c7 100%);
+      color: #ffffff;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+      flex-shrink: 0;
+      box-shadow: 0 0 12px rgba(124, 58, 237, 0.35);
+      transition: all 0.15s ease;
+    }
+    .kg-copy-q2-btn:hover {
+      filter: brightness(1.12);
+      border-color: #38bdf8;
+    }
+    .kg-copy-q2-btn.copied {
+      background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+      border-color: #4ade80;
+    }
+
+    /* Row 2: query_kg.py CLI Flag Checkboxes Bar */
+    .kg-flags-line {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      padding: 4px 8px;
+      background: rgba(15, 23, 42, 0.65);
+      border: 1px solid rgba(51, 65, 85, 0.7);
+      border-radius: 7px;
+    }
+    .flag-chk-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 3px 8px;
+      border-radius: 5px;
+      font-size: 0.74rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      color: #cbd5e1;
+      background: #0f172a;
+      border: 1px solid #334155;
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+      transition: all 0.12s ease;
+    }
+    .flag-chk-label:hover {
+      border-color: #64748b;
+      color: #ffffff;
+    }
+    .flag-chk-label.checked {
+      background: rgba(124, 58, 237, 0.2);
+      border-color: #a855f7;
+      color: #f3e8ff;
+    }
+    .flag-chk-label input[type="checkbox"] {
+      accent-color: #a855f7;
+      margin: 0;
+      cursor: pointer;
+    }
+    .cmd-preview-pill {
+      margin-left: auto;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.73rem;
+      color: #38bdf8;
+      background: #070b14;
+      border: 1px solid #1e293b;
+      padding: 3px 9px;
+      border-radius: 5px;
+      white-space: nowrap;
+      max-width: 440px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Copied Query 2 Prompt Preview Drawer */
+    .kg-prompt-drawer {
+      position: absolute;
+      bottom: 54px;
+      right: 14px;
+      width: min(680px, calc(100vw - 28px));
+      max-height: 320px;
+      background: rgba(15, 23, 42, 0.97);
+      border: 1px solid #a855f7;
+      border-radius: 10px;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.65);
+      display: none;
+      flex-direction: column;
+      z-index: 30;
+      overflow: hidden;
+    }
+    .kg-prompt-drawer-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 12px;
+      background: #1e1b4b;
+      border-bottom: 1px solid #334155;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #e9d5ff;
+    }
+    .kg-prompt-drawer pre {
+      margin: 0;
+      padding: 10px 12px;
+      font-size: 0.73rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      color: #e2e8f0;
+      overflow: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    /* Row 3: Node Options ON/OFF Toggle Buttons below the text box */
+    .kg-node-options-line {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .kg-row-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin-right: 4px;
+      white-space: nowrap;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* Shared ON/OFF Toggle Button Style */
+    .toggle-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-size: 0.76rem;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      user-select: none;
+      transition: all 0.14s ease;
+      border: 1px solid var(--off-border);
+      background: var(--off-bg);
+      color: var(--muted);
+    }
+    .toggle-btn:hover {
+      border-color: #64748b;
+      color: #e2e8f0;
+    }
+    .toggle-btn.is-on {
+      background: rgba(14, 165, 233, 0.16);
+      border-color: var(--on-border);
+      color: #ffffff;
+      box-shadow: 0 0 10px rgba(56, 189, 248, 0.22);
+    }
+    .toggle-btn.result-btn.is-on {
+      background: var(--on-bg);
+      border-color: #7dd3fc;
+      color: #ffffff;
+      box-shadow: 0 0 12px rgba(99, 102, 241, 0.4);
+    }
+    .toggle-state-pill {
+      font-size: 0.63rem;
+      font-weight: 800;
+      padding: 1px 5px;
+      border-radius: 4px;
+      letter-spacing: 0.04em;
+      font-family: ui-monospace, monospace;
+      background: rgba(148, 163, 184, 0.15);
+      color: #94a3b8;
+    }
+    .toggle-btn.is-on .toggle-state-pill {
+      background: rgba(34, 197, 94, 0.25);
+      color: #4ade80;
+      border: 1px solid rgba(74, 222, 128, 0.4);
+    }
+    .type-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      display: inline-block;
+      flex-shrink: 0;
+    }
+    .rank-badge {
+      background: rgba(15, 23, 42, 0.65);
+      color: #38bdf8;
+      padding: 1px 5px;
+      border-radius: 4px;
+      font-family: ui-monospace, monospace;
+      font-size: 0.7rem;
+      font-weight: 800;
+    }
+    .toggle-btn.result-btn.is-on .rank-badge {
+      background: rgba(255, 255, 255, 0.2);
+      color: #fff;
+    }
+
+    /* Main Graphical Knowledge Graph Viewport */
+    .kg-graph-stage {
+      position: relative;
+      flex: 1;
+      width: 100%;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 50% 50%, rgba(30, 41, 59, 0.55) 0%, rgba(11, 17, 32, 0.98) 75%),
+        linear-gradient(rgba(51, 65, 85, 0.12) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(51, 65, 85, 0.12) 1px, transparent 1px);
+      background-size: 100% 100%, 36px 36px, 36px 36px;
+      cursor: grab;
+    }
+    .kg-graph-stage.dragging { cursor: grabbing; }
+    #kg-svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    /* Floating Overlay HUD inside Graph Canvas */
+    .kg-hud-top-left {
+      position: absolute;
+      top: 12px;
+      left: 14px;
+      background: rgba(15, 23, 42, 0.88);
+      backdrop-filter: blur(6px);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 7px 12px;
+      font-size: 0.78rem;
+      color: #cbd5e1;
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .kg-hud-top-right {
+      position: absolute;
+      top: 12px;
+      right: 14px;
+      display: flex;
+      gap: 6px;
+    }
+    .hud-btn {
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 0.76rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .hud-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* Bottom Node Inspector Bar */
+    .kg-inspector-bar {
+      position: absolute;
+      bottom: 12px;
+      left: 14px;
+      right: 14px;
+      background: rgba(15, 23, 42, 0.94);
+      backdrop-filter: blur(8px);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.8rem;
+      color: #e2e8f0;
+    }
+    .inspector-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .inspector-meta code {
+      color: #7dd3fc;
+      background: rgba(2, 132, 199, 0.15);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: ui-monospace, monospace;
+    }
+    .kg-node-group { cursor: pointer; }
+    .kg-node-group:hover circle.node-core {
+      filter: drop-shadow(0 0 10px #38bdf8);
+      stroke-width: 3px;
+    }
+    .kg-node-group .node-label-auto {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+    }
+    .kg-node-group:hover .node-label-auto,
+    svg.kg-zoomed-in .kg-node-group .node-label-auto {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <!-- Control Deck -->
+  <div class="kg-control-deck">
+    <!-- Row 1: Search Text Box + Copy Query 2 (--#<N>) Button + All Results & Top 10 Ranked Result (#1..#10) ON/OFF Toggle Buttons -->
+    <div class="kg-top-line">
+      <div class="kg-search-wrap">
+        <span class="kg-search-icon">🔍</span>
+        <input type="text" id="kg-search-input" class="kg-search-input"
+               placeholder='Search text (same as query_kg.py "search text" /S)...'
+               oninput="onSearchInput()">
+        <button type="button" id="kg-search-clear" class="kg-search-clear" onclick="clearSearch()" title="Clear search">✕</button>
+      </div>
+      <input type="text" id="kg-ask-input" class="kg-ask-input"
+             placeholder="Optional LLM ask (--ask)..."
+             oninput="updateCliCommandPreview()">
+      <button type="button" id="kg-copy-q2-btn" class="kg-copy-q2-btn" onclick="copyQuery2ToClipboard()"
+              title='Execute Query 2 (query_kg.py "searchtext" --#<N> [checked flags]) and copy LLM prompt to clipboard'>
+        <span id="kg-copy-q2-label">📋 Copy --#1 /I</span>
+      </button>
+      <div class="kg-results-strip" id="kg-results-strip"></div>
+    </div>
+
+    <!-- Row 2: All Available query_kg.py Flag Options as Checkboxes -->
+    <div class="kg-flags-line" id="kg-flags-line"></div>
+
+    <!-- Row 3: Node Option Selectors (ON/OFF Toggle Buttons) below the text box -->
+    <div class="kg-node-options-line" id="kg-node-options-line"></div>
+  </div>
+
+  <!-- Single Graphical Knowledge Graph Canvas for the Full Codebase -->
+  <div class="kg-graph-stage" id="kg-graph-stage">
+    <svg id="kg-svg" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <marker id="arrow-out" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M 0 1 L 10 5 L 0 9 z" fill="#22c55e" opacity="0.85"/>
+        </marker>
+        <marker id="arrow-in" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M 0 1 L 10 5 L 0 9 z" fill="#f59e0b" opacity="0.85"/>
+        </marker>
+        <marker id="arrow-net" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+          <path d="M 0 1 L 10 5 L 0 9 z" fill="#64748b" opacity="0.7"/>
+        </marker>
+      </defs>
+      <g id="kg-viewport"></g>
+    </svg>
+
+    <div class="kg-hud-top-left" id="kg-hud-status">
+      <span>💡 <strong id="hud-mode-title">Full Codebase Knowledge Graph</strong></span>
+      <span>•</span>
+      <span>Total Matches: <strong id="hud-match-count" style="color:#c084fc;">0</strong></span>
+      <span>•</span>
+      <span>Graph Nodes: <strong id="hud-node-count" style="color:#38bdf8;">0</strong></span>
+      <span>•</span>
+      <span>Synapses/Edges: <strong id="hud-edge-count" style="color:#4ade80;">0</strong></span>
+    </div>
+
+    <div class="kg-hud-top-right">
+      <button type="button" id="hud-3d-spin-btn" class="hud-btn" onclick="toggle3DAutoSpin()" title="Toggle 3D Spatial Auto-Rotation (Drag to 3D Orbit, Shift+Drag to Pan)" style="border-color:#475569;color:#94a3b8;font-weight:700;">🌐 3D Spin: OFF</button>
+      <button type="button" class="hud-btn" onclick="clearAndCompactGraphMemory()" title="Clear cached graph DOM/memory and reset to clean 3D view" style="border-color:#10b981;color:#34d399;font-weight:700;">🧹 Clear Memory</button>
+      <button type="button" class="hud-btn" onclick="zoomBy(1.22)" title="Zoom In (3D Perspective)">＋ Zoom In</button>
+      <button type="button" class="hud-btn" onclick="zoomBy(0.82)" title="Zoom Out (3D Perspective)">－ Zoom Out</button>
+      <button type="button" class="hud-btn" onclick="resetTransform()" title="Reset 3D Orbit, Pan & Zoom">🧭 Reset 3D Orbit</button>
+    </div>
+
+    <div class="kg-prompt-drawer" id="kg-prompt-drawer">
+      <div class="kg-prompt-drawer-header">
+        <span id="kg-prompt-drawer-title">✅ Copied Query 2 Prompt to Clipboard</span>
+        <button type="button" class="hud-btn" style="padding:2px 8px;" onclick="document.getElementById('kg-prompt-drawer').style.display='none'">✕ Close</button>
+      </div>
+      <pre id="kg-prompt-drawer-body"></pre>
+    </div>
+
+    <div class="kg-inspector-bar" id="kg-inspector-bar">
+      <div class="inspector-meta" id="inspector-content">
+        <span>Enter search text above or click any <strong>#1–#10</strong> result button on the top line to focus the Knowledge Graph on that result node.</span>
+      </div>
+      <div id="inspector-actions" style="flex-shrink:0;"></div>
+    </div>
+  </div>
+
+  <script>
+    const KG_DATA = {"metadata": {"repository": "/home/krithika/workspace/ASQ-BB-Exam", "generated_at": "2026-11-15T00:22:10.243329+00:00", "total_files_indexed": 13, "total_nodes": 63, "total_edges": 79, "node_type_counts": {"chat_session": 1, "chat_turn": 12, "document": 13, "topic_entity": 37}}, "nodes": [{"id": "doc:PERFORMANCE_TRACKER.md", "type": "document", "name": "Krithika's ASQ CSSBB Performance & Weak-Topic Tracker", "file_path": "PERFORMANCE_TRACKER.md", "description": "Documentation: Krithika's ASQ CSSBB Performance & Weak-Topic Tracker (PERFORMANCE_TRACKER.md)", "metadata": {"sections": ["Krithika's ASQ CSSBB Performance & Weak-Topic Tracker", "1. Domain Mastery Summary (Strictly ASQ 2022 BoK \u2014 150 Scored Qs)", "2. Active Weak Topics & Guessed-Topic Teach List (Synced to Knowledge Graph)"], "keywords": ["Target Exam:", "Current Roadmap Stage:", "Stage 1 COMPLETE!", "Stage 2: `V. Measure Phase` (25 Exam Questions \u2014 Highest Weight!)", "Latest Batch Score (Round 3 \u2014 Stage 1 Balance):", "`14 / 15` (`93.3%`)", "Overall Cumulative Score (Unique Questions):", "`40 / 50` (`80.0%`)", "I. Org-Wide Planning & Deployment", "100%", "Stage 1 Complete", "II. Org Process Mgmt & Measures", "75.0%", "III. Team Management", "71.4%", "IV. Define", "Define (D)", "78.6%", "V. Measure", "Measure (M)", "UP NEXT \u2014 Stage 2 (#1 Exam Weight!)", "VI. Analyze", "Analyze (A)", "VII. Improve", "Improve (I)", "VIII. Control", "Control (C)", "IX. Design for Six Sigma (DFSS)", "`IV.A.2`", "`IV.A.3`", "`IV.C`", "`IV.D`", "`II.B` & `II.C.2`", "`III.B`", "Lencioni's 5 Dysfunctions", "Lencioni (NEW in 2022 ASQ BoK `III.B`):", "Add to Word Bible", "`III.C`", "Thomas-Kilmann 5 Conflict Modes", "`III.D`", "Coaching", "Add 1-liner to Word Bible", "I\u2013III Enterprise/Financials/Team", "V. Measure Phase", "14 / 15", "93.3%", "III.B", "III.D", "I.A.4", "40 / 50", "80.0%", "II.B", "II.C.2", "III.C", "IV.A.2", "IV.A.3", "IV.C", "IV.D", "(*Accommodating* = Lose-Win giving in) instead of **", "(Right: Level 3 = Behavior on the job). Low-frequency Handbook detail ("], "format": "md"}}, {"id": "doc:README.md", "type": "document", "name": "ASQ-BB-Exam \u2014 Krithika's ASQ CSSBB (March 2027) Coaching Workspace", "file_path": "README.md", "description": "Documentation: ASQ-BB-Exam \u2014 Krithika's ASQ CSSBB (March 2027) Coaching Workspace (README.md)", "metadata": {"sections": ["ASQ-BB-Exam \u2014 Krithika's ASQ CSSBB (March 2027) Coaching Workspace", "Core Study & Reference Files"], "keywords": ["Exam:", "Certified Six Sigma Black Belt (CSSBB)", "Strictly Official ASQ 2022 Body of Knowledge", "Authoritative ASQ CSSBB 2022 Syllabus", "DMAIC Phase-Tagging & ASQ Exam Trap Cheat Sheet", "BBQ Bible", "18-Week Slow-Paced Study Roadmap", "Live Performance & Weak-Topic Diagnostic Tracker", "Qwen", "Antigravity", "documents/ASQ_CSSBB_Official_BOK_2022.md", "IX", "I.A.1", "IX.C", "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md", "STUDY_ROADMAP_MAR2027.md", "PERFORMANCE_TRACKER.md", "rules.md", ".agents/rules/rules.md", "use qwen"], "format": "md"}}, {"id": "doc:STUDY_ROADMAP_MAR2027.md", "type": "document", "name": "ASQ CSSBB Study Roadmap (Nov 2026 -> Mar 2027) \u2014 First-Attempt Pass Plan", "file_path": "STUDY_ROADMAP_MAR2027.md", "description": "Documentation: ASQ CSSBB Study Roadmap (Nov 2026 -> Mar 2027) \u2014 First-Attempt Pass Plan (STUDY_ROADMAP_MAR2027.md)", "metadata": {"sections": ["ASQ CSSBB Study Roadmap (Nov 2026 -> Mar 2027) \u2014 First-Attempt Pass Plan", "18-Week Slow & Steady Mastery Schedule", "Stage 1: Foundation, Define & Enterprise Strategy (Weeks 1\u20133 | Mid-Nov \u2013 Early Dec 2026)", "Stage 2: Measure Phase Deep Dive (Weeks 4\u20137 | Mid-Dec 2026 \u2013 Early Jan 2027)", "Stage 3: Analyze Phase Mastery (Weeks 8\u201310 | Mid-Jan \u2013 Late Jan 2027)", "Stage 4: Improve Phase Mastery (Weeks 11\u201313 | Feb 1 \u2013 Feb 21, 2027)", "Stage 5: Control Phase & DFSS (Weeks 14\u201315 | Late Feb \u2013 Early Mar 2027)", "Stage 6: Weak-Topic Remediation, Handbook Tabbing & Mock Sprints (Weeks 16\u201318 | Mar 2027)"], "keywords": ["Candidate:", "GO SLOW", "Target Exam:", "ASQ Certified Six Sigma Black Belt (CSSBB)", "March 2027", "Syllabus Standard:", "Pace Rule:", "44 / 150 questions (29.3%)", "Week 1 \u2014 Define Phase (Domain IV: 20 Qs):", "Week 2 \u2014 Org Planning & Process Measures (Domains I & II: 24 Qs):", "Week 3 \u2014 Team Management (Domain III: 15 Qs):", "25 / 150 questions (16.7%)", "Week 4 \u2014 Process Characteristics & Data Collection (V.A\u2013V.B):", "Week 5 \u2014 Measurement Systems Analysis / MSA (V.C):", "Week 6 \u2014 Basic Statistics & Probability (V.D\u2013V.E):", "Week 7 \u2014 Process Capability (V.F):", "22 / 150 questions (14.7%)", "Week 8 \u2014 RCA, Waste & Risk/FMEA (VI.C\u2013VI.D):", "Week 9 \u2014 Parametric Hypothesis Testing & CIs (VI.B.1\u2013VI.B.3):", "Week 10 \u2014 Non-Parametric Tests & Regression (VI.A & VI.B.4):", "21 / 150 questions (14.0%)", "Week 11 \u2014 Design of Experiments Part 1 (VII.A.1\u2013VII.A.5):", "Week 12 \u2014 Design of Experiments Part 2 (VII.A.6):", "Week 13 \u2014 Lean Methods & Implementation (VII.B\u2013VII.C):", "23 / 150 questions (15.3%)", "Week 14 \u2014 Control Phase (Domain VIII: 17 Qs):", "Week 15 \u2014 DFSS Framework (Domain IX: 6 Qs):", "Week 16:", "Week 17:", "Week 18:", "PERFORMANCE_TRACKER.md"], "format": "md"}}, {"id": "doc:Resume_And_Jobs/Job1_Stanford_Supply_Chain_PM_R2656254.md", "type": "document", "name": "Job1_Stanford_Supply_Chain_PM_R2656254.md", "file_path": "Resume_And_Jobs/Job1_Stanford_Supply_Chain_PM_R2656254.md", "description": "Documentation: Job1_Stanford_Supply_Chain_PM_R2656254.md (Resume_And_Jobs/Job1_Stanford_Supply_Chain_PM_R2656254.md)", "metadata": {"sections": [], "keywords": [], "format": "md"}}, {"id": "doc:Resume_And_Jobs/Job2_Stanford_Category_Manager_R2659261.md", "type": "document", "name": "Job2_Stanford_Category_Manager_R2659261.md", "file_path": "Resume_And_Jobs/Job2_Stanford_Category_Manager_R2659261.md", "description": "Documentation: Job2_Stanford_Category_Manager_R2659261.md (Resume_And_Jobs/Job2_Stanford_Category_Manager_R2659261.md)", "metadata": {"sections": [], "keywords": [], "format": "md"}}, {"id": "doc:Resume_And_Jobs/Job3_Gilead_Cold_Chain_Logistics_R0055571.md", "type": "document", "name": "Job3_Gilead_Cold_Chain_Logistics_R0055571.md", "file_path": "Resume_And_Jobs/Job3_Gilead_Cold_Chain_Logistics_R0055571.md", "description": "Documentation: Job3_Gilead_Cold_Chain_Logistics_R0055571.md (Resume_And_Jobs/Job3_Gilead_Cold_Chain_Logistics_R0055571.md)", "metadata": {"sections": [], "keywords": [], "format": "md"}}, {"id": "doc:Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md", "type": "document", "name": "Krithika_Nagarajan_Clean_Master_Resume.md", "file_path": "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md", "description": "Documentation: Krithika_Nagarajan_Clean_Master_Resume.md (Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md)", "metadata": {"sections": [], "keywords": [], "format": "md"}}, {"id": "doc:Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md", "type": "document", "name": "KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, LSSGB", "file_path": "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md", "description": "Documentation: KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, LSSGB (Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md)", "metadata": {"sections": ["KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, LSSGB", "PROFESSIONAL SUMMARY", "EDUCATION & ACTIVE CERTIFICATIONS", "CORE COMPETENCIES", "PROFESSIONAL EXPERIENCE", "Ardent Mills \u2013 Denver, CO | Transportation & Program Cost / Operations Analyst (2016 \u2013 Present)", "Ardent Mills \u2013 Denver, CO | Transportation Data & Contracts Specialist (2015 \u2013 2016)", "WhiteWave Foods \u2013 Broomfield, CO | Transportation & Logistics Specialist (2014 \u2013 2015)", "Dalin Inc. \u2013 Carlstadt, NJ | EDI / Shipping & Procurement Specialist (2010 \u2013 2012)"], "keywords": ["Master of Science (M.C.A.):", "Bachelor of Science (B.Sc.):", "Active Certifications:", "In Progress:", "Program Cost Control & EVMS Principles:", "Contracts & Subcontract Management:", "Master Scheduling & Operations:", "Quality, Safety & Risk Mitigation:", "Cross-Functional Leadership & Mentorship:", "Enterprise Software & Automation Portfolio:", "Program Cost Control & Financial Accruals:", "Workflow Automation & Team Mentorship (Power Automate / SharePoint):", "Cost Reduction & Lean Six Sigma:", "Contract Administration & Billing Audits:", "Risk Mitigation & Root Cause Analysis:", "Systems & Warehouse Integration:", "Vault Rates Extension (Long-Term Cost Optimization):", "Enterprise Claims App (Power Apps):", "Accessorial Spend Audit ($2M Cost Control):", "Quality Hold Process Redesign (Risk Mitigation):", "Contracts & Compliance:", "Performance Scorecards:", "Schedule Reliability (+40% OTD):", "Master Shipment & Inventory Planning:", "Cold Chain & Claims RCA:", "Contract Negotiation (-30% Cost):", "EDI Systems & Quality:"], "format": "md"}}, {"id": "doc:Resume_And_Jobs/Target_Jobs_Tracker.md", "type": "document", "name": "Krithika's Target Job Applications Tracker (Private Local Copy)", "file_path": "Resume_And_Jobs/Target_Jobs_Tracker.md", "description": "Documentation: Krithika's Target Job Applications Tracker (Private Local Copy) (Resume_And_Jobs/Target_Jobs_Tracker.md)", "metadata": {"sections": ["Krithika's Target Job Applications Tracker (Private Local Copy)"], "keywords": ["|", "APPLIED (2026-11-14)", "| 100% Remote | $130k\u2013$165k | Pending (#5 Next) |", "R2656254", "Job1_Stanford_Supply_Chain_PM_R2656254.md", "R2659261", "Job2_Stanford_Category_Manager_R2659261.md", "R0055571", "Job3_Gilead_Cold_Chain_Logistics_R0055571.md", "R0055230", "28636", "200691261", "Sunnyvale"], "format": "md"}}, {"id": "doc:documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md", "type": "document", "name": "ASQ CSSBB \u2014 DMAIC & BBQ Bible Note-Taking Cheat Sheet", "file_path": "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md", "description": "Documentation: ASQ CSSBB \u2014 DMAIC & BBQ Bible Note-Taking Cheat Sheet (documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md)", "metadata": {"sections": ["ASQ CSSBB \u2014 DMAIC & BBQ Bible Note-Taking Cheat Sheet", "1. High-ROI Exam Priorities (Where the 150 Scored Questions Come From)", "2. Strict ASQ Phase-Placement Traps (Must-Know for BBQ Bible Notes!)", "3. Green Belt (GB) -> Black Belt (BB) Refresher Bridge", "4. BBQ Bible Short-Note Template (Used in Every Coaching Turn)"], "keywords": ["Purpose:", "BBQ Bible", "which specific phase or BoK section", "ONLY ASQ's classification counts!", "Tier 1: The Core Quantitative Engine", "V. Measure (25)", "VI. Analyze (22)", "VII. Improve (21)", "68 Qs", "45.3%", "Tier 2: Project Setup & Sustainment", "IV. Define (20)", "VIII. Control (17)", "37 Qs", "24.7%", "Tier 3: Enterprise & People Leadership", "III. Team Mgmt (15)", "I. Org Planning (12)", "II. Org Measures (12)", "39 Qs", "26.0%", "Tier 4: New Design (DFSS)", "IX. DFSS (6)", "6 Qs", "4.0%", "Financial Metrics (ROI, NPV, IRR, COQ/COPQ)", "Domain I.A.4 & II.C.2", "IV.B.1", "Appraisal", "Prevention", "7 Management & Planning Tools", "Domain IV.D (Define Phase)", "Interrelationship Digraph (ID)", "outgoing", "root driver/cause", "incoming", "key effect/outcome", "SIPOC vs. Detailed Process Maps / VSM", "SIPOC", "Define (IV.B.3)", "Measure (V.A.2)", "are in", "Measure (V.A)", "MSA / Gage R&R & Process Capability ($C_p, C_{pk}, P_p, P_{pk}$)", "Measure Phase (V.C & V.F)", "MSA first", "SPC stability", "Normality", "Multi-Vari Charts", "Measure Phase (V.D.4)", "FMEA & Risk Management", "Analyze Phase (VI.C)", "VI.C Risk Analysis & Management (FMEA)", "Analyze", "7 Wastes (TIMWOODS / DOWNTIME)", "Waste Analysis", "Analyze (VI.D.3)", "Waste Elimination (5S, Kanban, Poka-Yoke, SMED)", "Improve (VII.B)", "Improve", "Design of Experiments (DOE)", "Improve Phase (VII.A)", "SPC Control Charts & OCAP", "Control Phase (VIII.A & VIII.C)", "process data ($\\pm 3\\hat{\\sigma}$)", "ASQ CSSGB", "GB Topics We Will Refresh Slowly:", "BB-Specific Upgrades ASQ Tests Heavily:", "Non-Parametric Tests", "CUSUM, EWMA, Short-Run SPC, Pre-Control", "BBQ Bible Note", "\ud83d\udccd Phase / ASQ BoK:", "\ud83d\udd11 Core Rule / Formula:", "\u26a0\ufe0f ASQ Exam Trap:", "[DMAIC Phase] \u2014 [ASQ BoK Code & Title] (Cognitive Level)"], "format": "md"}}, {"id": "doc:documents/ASQ_CSSBB_Official_BOK_2022.md", "type": "document", "name": "Official ASQ Certified Six Sigma Black Belt (CSSBB) Body of Knowledge (2022 Syllabus)", "file_path": "documents/ASQ_CSSBB_Official_BOK_2022.md", "description": "Documentation: Official ASQ Certified Six Sigma Black Belt (CSSBB) Body of Knowledge (2022 Syllabus) (documents/ASQ_CSSBB_Official_BOK_2022.md)", "metadata": {"sections": ["Official ASQ Certified Six Sigma Black Belt (CSSBB) Body of Knowledge (2022 Syllabus)", "Exam Format & Official Question Distribution", "ASQ Bloom's Taxonomy Cognitive Levels (Maximum Tested Depth)", "Detailed ASQ CSSBB Body of Knowledge (Sections I\u2013IX)", "I. Organization-Wide Planning and Deployment (12 Questions)", "II. Organizational Process Management and Measures (12 Questions)", "III. Team Management (15 Questions)", "IV. Define Phase (20 Questions)", "V. Measure Phase (25 Questions \u2014 Highest Exam Weight!)", "VI. Analyze Phase (22 Questions \u2014 2nd Highest Exam Weight!)", "VII. Improve Phase (21 Questions \u2014 3rd Highest Exam Weight!)", "VIII. Control Phase (17 Questions)", "IX. Design for Six Sigma (DFSS) Framework and Methodologies (6 Questions)"], "keywords": ["Certifying Body:", "Strictly ASQ CSSBB Standard", "Effective BoK Version:", "Primary ASQ Reference Texts:", "Total Questions:", "150 Scored Questions", "15 Unscored Pilot Questions", "Exam Delivery & Timing (CBT via Prometric):", "4 hours 18 minutes", "Open-Book", "Passing Score:", "550 / 750", "12", "II", "III", "15", "IV", "Define", "D \u2014 Define Phase", "20", "|", "25", "VI", "Analyze", "A \u2014 Analyze Phase", "22", "VII", "Improve", "I \u2014 Improve Phase", "21", "VIII", "Control", "C \u2014 Control Phase", "17", "IX", "TOTAL", "150", "100%", "Remember:", "Understand:", "Apply:", "Analyze:", "Evaluate:", "Create:", "Enterprise / Pre-Define (Domain I)", "I.A.1. Fundamentals of Six Sigma and lean methodologies", "I.A.2. Six Sigma, lean, and continuous improvement methodologies", "I.A.3. Relationships among business systems and processes", "I.A.4. Strategic planning and deployment for initiatives", "I.B.1. Roles and responsibilities", "I.B.2. Organizational barriers", "I.B.3. Change management", "Enterprise / Pre-Define Metrics (Domain II)", "II.C.1. Performance measures", "Balanced Scorecard", "KPIs", "KBIs", "OKRs", "II.C.2. Financial measures", "Return on Investment (ROI)", "Net Present Value (NPV)", "Internal Rate of Return (IRR)", "Payback Period", "Cost-Benefit Analysis (CBA)", "Return on Assets (ROA)", "Cross-DMAIC Team Leadership (Domain III)", "III.A.1. Team types and constraints", "III.A.2. Team roles and responsibilities", "III.A.3. Team member selection criteria", "Lencioni's Five Dysfunctions of a Team", "Tuckman's stages of team development", "Forming, Storming, Norming, Performing, Adjourning", "Thomas-Kilmann", "DEFINE Phase (Domain IV)", "IV.A.1. Customer identification", "IV.A.2. Customer data collection", "validity", "reliability", "IV.A.3. Customer requirements", "Critical-to-X (CTX / CTQ, CTC, CTD, CTS)", "Kano Model", "Quality Function Deployment (QFD / House of Quality)", "IV.B.1. Business case", "IV.B.2. Problem statement", "IV.B.3. Project scope", "SIPOC", "IV.B.4. Goals and objectives", "SMART", "IV.B.5. Project performance measurements", "IV.B.6. Project charter review", "Gantt charts", "Tollgate (phase-gate) reviews", "Work Breakdown Structure (WBS)", "RACI matrix", "Critical Path Method (CPM) / PERT", "Affinity diagrams", "Interrelationship digraphs (ID)", "Tree diagrams", "Matrix diagrams", "Prioritization matrices", "Process Decision Program Charts (PDPC)", "Activity Network Diagrams (AND / AON / AOA)", "MEASURE Phase (Domain V)", "V.A.1. Process flow metrics", "WIP", "WIQ", "Touch Time / Value-Added Time", "Cycle Time", "Lead Time", "Little's Law:", "Takt Time", "Throughput", "FTY", "RTY", "\"hidden factories\"", "V.A.2. Process analysis tools", "Process Maps", "Value Stream Maps (VSM)", "Spaghetti diagrams", "Circle diagrams", "Gemba walks", "V.B.1. Types of data and measurement scales", "qualitative vs. quantitative", "continuous (variables) vs. discrete (attribute: count/proportion)", "Nominal, Ordinal, Interval, and Ratio (NOIR)", "V.B.2. Sampling", "V.B.3. Data collection plans and methods", "V.C.1. Measurement methods", "V.C.2. Measurement Systems Analysis (MSA)", "Accuracy", "Bias", "Linearity", "Stability", "Precision", "Repeatability", "Reproducibility", "Gage R&R", "ANOVA", "%StudyVar", "%Tolerance (P/T ratio)", "%Contribution (variance)", "Number of Distinct Categories ($ndc \\ge 5$)", "< 10%", "10%\u201330%", "> 30%", "< 1%", "1%\u20139%", "> 9%", "Attribute Agreement Analysis / Audit MSA", "Cohen's / Fleiss' Kappa", "V.D.1. Basic statistical terms", "V.D.2. Central Limit Theorem (CLT)", "V.D.3. Descriptive statistics", "V.D.4. Graphical methods", "Multi-Vari charts", "V.D.5. Valid statistical conclusions", "enumerative", "analytic", "V.E.1. Basic concepts", "V.E.2. Distributions", "Discrete:", "Continuous:", "Student's $t$, Chi-Square $\\chi^2$, $F$-distribution", "V.F.1. Process capability studies", "statistical stability/control first", "normality", "valid MSA", "V.F.2. Process performance vs. specification", "control limits", "specification limits", "V.F.3. Process capability indices", "$C_p, C_{pk}, C_{pm}$", "$C_r$", "V.F.4. Process performance indices", "$P_p, P_{pk}$", "V.F.5. Short-term vs. long-term capability & non-normal / attribute capability", "1.5$\\sigma$ shift", "non-normal data", "attribute capability", "ANALYZE Phase (Domain VI)", "VI.A.1. Correlation coefficient", "correlation $\\ne$ causation", "VI.A.2. Linear regression", "multiple linear regression", "VIF / multicollinearity", "residual analysis", "VI.A.3. Multivariate tools", "VI.B.1. Terminology & basics", "Type I error ($\\alpha$, producer's risk / false alarm)", "Type II error ($\\beta$, consumer's risk / miss)", "Power ($1-\\beta$)", "$p$-value", "statistical vs. practical significance", "sample size", "VI.B.2. Point and interval estimation", "confidence intervals", "statistical tolerance intervals", "VI.B.3. Tests for means, variances, and proportions", "1-sample & 2-sample $Z$-test and $t$-test", "Paired-comparison $t$-test", "Variance tests:", "$F$-test", "Bartlett's test", "Levene's test", "1-proportion & 2-proportion $Z$-tests", "One-way and Two-way ANOVA", "Goodness-of-fit and Contingency Table Tests", "VI.B.4. Non-parametric tests", "1-Sample Sign test", "1-Sample Wilcoxon Signed-Rank test", "Mann-Whitney $U$ test", "Paired Wilcoxon Signed-Rank test", "Kruskal-Wallis test", "Friedman test", "Runs test", "Mood's median test", "VI.C.1. Failure Mode and Effects Analysis (FMEA)", "DFMEA", "PFMEA", "Severity ($S$), Occurrence ($O$), Detection ($D$)", "RPN = $S \\times O \\times D$", "high Severity ($S = 9, 10$) always requires attention regardless of RPN", "VI.C.2. Risk management", "VI.D.1. Gap analysis", "VI.D.2. Root cause analysis (RCA)", "Ishikawa / Fishbone (Cause-and-Effect) diagrams", "5 Whys", "Fault Tree Analysis (FTA: AND / OR logic gates)", "Cause & Effect (X-Y) Matrix", "Pareto analysis", "VI.D.3. Waste analysis", "7+1 Muda / Wastes (TIMWOODS / DOWNTIME)", "Mura", "Muri", "IMPROVE Phase (Domain VII)", "VII.A.1. Terminology", "factors", "levels", "response", "treatment / run", "error / residual", "repetition vs. replication", "nuisance/noise factors", "covariates (ANCOVA)", "VII.A.2. Design principles", "Power & Sample Size", "Balance", "Orthogonality", "Randomization", "Blocking"], "format": "md"}}, {"id": "doc:documents/CAREER_APPLICATIONS_TRACKER.md", "type": "document", "name": "Career & Job Application Progress Tracker (KG-Indexed, PII-Free)", "file_path": "documents/CAREER_APPLICATIONS_TRACKER.md", "description": "Documentation: Career & Job Application Progress Tracker (KG-Indexed, PII-Free) (documents/CAREER_APPLICATIONS_TRACKER.md)", "metadata": {"sections": ["Career & Job Application Progress Tracker (KG-Indexed, PII-Free)", "Completed Applications (4 Submitted \u2014 2026-11-14)", "Remaining Priority Queue (One at a Time)"], "keywords": ["Privacy Note:", "Stanford Health Care", "APPLIED (2026-11-14)", "Gilead Sciences", "Next (#5): Cardinal Health", "#6: Walmart Global Logistics", "#7: Supermicro", "#8: Apple", "#9: Lockheed Martin Space / Northrop Grumman", "Resume_And_Jobs/", "kg_vectors_asq_bb_exam", "Req R2656254", "Req R2659261", "Req R0055571", "Req R0055230", "Req 28636", "Role 200691261"], "format": "md"}}, {"id": "doc:documents/QUESTION_BANK_LOG.md", "type": "document", "name": "Asked Question Registry (Anti-Repetition Lock)", "file_path": "documents/QUESTION_BANK_LOG.md", "description": "Documentation: Asked Question Registry (Anti-Repetition Lock) (documents/QUESTION_BANK_LOG.md)", "metadata": {"sections": ["Asked Question Registry (Anti-Repetition Lock)", "Round 1 Completed (`Q1`\u2013`Q15` \u2014 2026-11-14 | Score: `14/15`)", "Round 2 Completed (`Q16`\u2013`Q35` \u2014 2026-11-14 | Score: `12/20`)", "Round 3 Completed \u2014 Stage 1 Balance (`Q36`\u2013`Q50` \u2014 2026-11-14 | Score: `14/15`)"], "keywords": ["Rule:", "Q1", "Q15", "14/15", "Q12", "Q14", ");", "(", "Survey low response rate / non-response bias \u2014", "Q16", "Q35", "12/20", "):", "Validity/Reliability),", "CTQ spec),", "Critical Path),", "ID arrow rule),", "PDPC),", "Functional benchmarking),", "COQ Appraisal),", "Q36", "Q50", "R3-1", "IV.D", "R3-2", "R3-3", "IV.A.3", "R3-4", "I.A.4", "VI.B.3", "R3-5", "I.B.1", "R3-6", "I.B.2", "R3-7", "II.C.1", "R3-8", "II.C.2", "R3-9", "R3-10", "R3-11", "R3-12", "III.A.1", "R3-13", "III.B", "R3-14", "III.C", "Accommodating vs. Correct", "Collaborating (", "R3-15", "III.D"], "format": "md"}}, {"id": "topic:stanford", "type": "topic_entity", "name": "stanford", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'stanford' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "stanford"}}, {"id": "topic:supply", "type": "topic_entity", "name": "supply", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'supply' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "supply"}}, {"id": "topic:chain", "type": "topic_entity", "name": "chain", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'chain' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "chain"}}, {"id": "topic:logistics", "type": "topic_entity", "name": "logistics", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'logistics' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "logistics"}}, {"id": "topic:spend", "type": "topic_entity", "name": "spend", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'spend' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "spend"}}, {"id": "topic:supplier", "type": "topic_entity", "name": "supplier", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'supplier' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "supplier"}}, {"id": "topic:compliance", "type": "topic_entity", "name": "compliance", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'compliance' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "compliance"}}, {"id": "topic:gilead", "type": "topic_entity", "name": "gilead", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'gilead' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "gilead"}}, {"id": "chat_session:b6556366", "type": "chat_session", "name": "Chat Session b6556366", "file_path": "chats/transcript_b6556366.jsonl", "description": "Chat Session b6556366 (48 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user", "metadata": {"conversation_id": "b6556366-0ab2-4f88-9652-caf171648118", "short_id": "b6556366", "turn_count": 48, "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user", "source": "antigravity_transcript", "topics": ["stanford", "supply", "chain", "logistics", "spend", "supplier", "compliance", "gilead"]}}, {"id": "topic:atleast", "type": "topic_entity", "name": "atleast", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'atleast' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "atleast"}}, {"id": "topic:closer", "type": "topic_entity", "name": "closer", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'closer' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "closer"}}, {"id": "topic:discontinue", "type": "topic_entity", "name": "discontinue", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'discontinue' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "discontinue"}}, {"id": "topic:finsihed", "type": "topic_entity", "name": "finsihed", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'finsihed' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "finsihed"}}, {"id": "chat_turn:b6556366:S153", "type": "chat_turn", "name": "Chat b6556366 Turn S153 (user)", "file_path": "chats/transcript_b6556366.jsonl", "description": "[USER S153] for day 1 of BB training, how did i do - i finsihed GB ASQ & yellow last year, the wrost thing is i discontinue studies which is very bad - am i atleast 1% getting closer to passing if I go in the same momentumm?", "metadata": {"conversation_id": "b6556366-0ab2-4f88-9652-caf171648118", "step_index": 153, "role": "user", "created_at": "2026-11-14T23:46:54Z", "content_excerpt": "for day 1 of BB training, how did i do - i finsihed GB ASQ & yellow last year, the wrost thing is i discontinue studies which is very bad - am i atleast 1% getting closer to passing if I go in the same momentumm?", "topics": ["atleast", "closer", "discontinue", "finsihed"]}}, {"id": "topic:questions", "type": "topic_entity", "name": "questions", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'questions' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "questions"}}, {"id": "topic:real", "type": "topic_entity", "name": "real", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'real' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "real"}}, {"id": "topic:today", "type": "topic_entity", "name": "today", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'today' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "today"}}, {"id": "topic:zero", "type": "topic_entity", "name": "zero", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'zero' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "zero"}}, {"id": "chat_turn:b6556366:S154", "type": "chat_turn", "name": "Chat b6556366 Turn S154 (assistant)", "file_path": "chats/transcript_b6556366.jsonl", "description": "[ASSISTANT S154] ### Honest Day-1 Verdict: Way More Than 1%! Let's look at the real numbers\u2014zero exaggeration: 1. **What you actually covered on Day 1:** Sections **I, II, III, and IV** (*Enterprise Strategy, Financials, Team Management,", "metadata": {"conversation_id": "b6556366-0ab2-4f88-9652-caf171648118", "step_index": 154, "role": "assistant", "created_at": "2026-11-14T23:46:54Z", "content_excerpt": "### Honest Day-1 Verdict: Way More Than 1%!\n\nLet's look at the real numbers\u2014zero exaggeration:\n1. **What you actually covered on Day 1:**  \n   Sections **I, II, III, and IV** (*Enterprise Strategy, Financials, Team Management, and Define*) make up **59 out of 150 scored questions (39% of the entire ASQ Black Belt exam)**.  \n   Today, you completed **50 unique questions here** (+ ~20 on Copilot = **~70 questions on Day 1**), scored **40 out of 50 (80%)**, nailed **100% of the financial calculations** (ROI, Payback, NPV, COQ Failures), and locked 10 real ASQ exam traps into your open-book Word Bible.  \n   - **Honest progress today:** Not 1%\u2014today alone put a solid **8% to 10% dent** into your March 2027 pass!\n2. **Passing ASQ Green Belt Last Year Changes Everything:**  \n   Earlier you felt l", "topics": ["questions", "real", "today", "zero"]}}, {"id": "topic:manager", "type": "topic_entity", "name": "manager", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'manager' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "manager"}}, {"id": "topic:sunnyvale", "type": "topic_entity", "name": "sunnyvale", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'sunnyvale' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "sunnyvale"}}, {"id": "chat_turn:b6556366:S155", "type": "chat_turn", "name": "Chat b6556366 Turn S155 (user)", "file_path": "chats/transcript_b6556366.jsonl", "description": "[USER S155] how about now applying for jobs? # Employer Target Role & Req / Search Key Location Est. Base Salary Why Your Profile Fits 100% Direct Portal Link 1 Stanford Health Care Category Manager \u2013 Strategic Sourcing / Purchased ", "metadata": {"conversation_id": "b6556366-0ab2-4f88-9652-caf171648118", "step_index": 155, "role": "user", "created_at": "2026-11-14T23:49:58Z", "content_excerpt": "how about now applying for jobs? #\tEmployer\tTarget Role & Req / Search Key\tLocation\tEst. Base Salary\tWhy Your Profile Fits 100%\tDirect Portal Link\n1\tStanford Health Care\tCategory Manager \u2013 Strategic Sourcing / Purchased Services (R2659261)\tPalo Alto, CA (Hybrid, ~2 mi)\t$140,000 \u2013 $182,000\tIndirect & purchased services sourcing, multi-year rate locks (1 \u2192 24 mos), $2M billing audit, $50M spend.\tStanford Careers\n\n2\tStanford Health Care\tSupply Chain Strategic Initiatives Project Manager (R2656254)\tPalo Alto, CA (Hybrid, ~2 mi)\t$138,000 \u2013 $178,000\tPMP + CSCP + ASQ Green Belt + Power Apps / Power Automate workflow automation & Six Sigma DMAIC.\tStanford Careers\n\n3\tLockheed Martin Space\tSubcontract Administrator Senior / Subcontract Program Mgmt (L3/L4)\tSunnyvale, CA (~8 mi | 4x10 Schedule)\t$128,", "topics": ["chain", "manager", "sunnyvale", "supply"]}}, {"id": "topic:r2656254", "type": "topic_entity", "name": "r2656254", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'r2656254' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "r2656254"}}, {"id": "topic:quality", "type": "topic_entity", "name": "quality", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'quality' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "quality"}}, {"id": "chat_turn:b6556366:S168", "type": "chat_turn", "name": "Chat b6556366 Turn S168 (assistant)", "file_path": "chats/transcript_b6556366.jsonl", "description": "[ASSISTANT S168] I verified those requisitions online\u2014**Stanford Health Care (`R2656254` and `R2659261` right on Faber Place in Palo Alto)** and **Apple (`200691261`)** are real roles! I saved your ranked list in [Target_Jobs_Tracker.md]", "metadata": {"conversation_id": "b6556366-0ab2-4f88-9652-caf171648118", "step_index": 168, "role": "assistant", "created_at": "2026-11-14T23:53:44Z", "content_excerpt": "I verified those requisitions online\u2014**Stanford Health Care (`R2656254` and `R2659261` right on Faber Place in Palo Alto)** and **Apple (`200691261`)** are real roles! I saved your ranked list in [Target_Jobs_Tracker.md](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Target_Jobs_Tracker.md).\n\n---\n\n### Honest Ranking: Which ONE Job Should We Apply to First Today?\n\n**Start with Row #2: Stanford Health Care \u2014 Supply Chain Strategic Initiatives Project Manager (`R2656254`, Palo Alto, ~2 miles away).**\n\nWhy this is your **#1 highest-probability bullseye** (before Lockheed/Northrop):\n1. **Zero Buzzword Stretching (98% Honest Fit):** I pulled Stanford's exact job description for `R2656254`. They ask for:\n   - *Cross-functional supply chain project leadership from planning through sus", "topics": ["r2656254", "stanford", "compliance", "quality"]}}, {"id": "topic:already", "type": "topic_entity", "name": "already", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "already"}}, {"id": "topic:different", "type": "topic_entity", "name": "different", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'different' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "different"}}, {"id": "topic:gave", "type": "topic_entity", "name": "gave", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'gave' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "gave"}}, {"id": "topic:giving", "type": "topic_entity", "name": "giving", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'giving' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "giving"}}, {"id": "chat_turn:b6556366:S169", "type": "chat_turn", "name": "Chat b6556366 Turn S169 (user)", "file_path": "chats/transcript_b6556366.jsonl", "description": "[USER S169] are you giving me different resumes for each job or 1 resume that you already gave will fit all?", "metadata": {"conversation_id": "b6556366-0ab2-4f88-9652-caf171648118", "step_index": 169, "role": "user", "created_at": "2026-11-14T23:54:19Z", "content_excerpt": "are you giving me different resumes for each job or 1 resume that you already gave will fit all?", "topics": ["already", "different", "gave", "giving"]}}, {"id": "topic:resume", "type": "topic_entity", "name": "resume", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'resume' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "resume"}}, {"id": "topic:master", "type": "topic_entity", "name": "master", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'master' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "master"}}, {"id": "topic:category", "type": "topic_entity", "name": "category", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'category' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "category"}}, {"id": "chat_turn:b6556366:S170", "type": "chat_turn", "name": "Chat b6556366 Turn S170 (assistant)", "file_path": "chats/transcript_b6556366.jsonl", "description": "[ASSISTANT S170] Honest answer: **Your 1 Clean Master Resume already fits ~85% of Supply Chain, Sourcing, and Logistics jobs as-is**\u2014you do **not** have to juggle 10 completely different resumes! Here is the only difference between the t", "metadata": {"conversation_id": "b6556366-0ab2-4f88-9652-caf171648118", "step_index": 170, "role": "assistant", "created_at": "2026-11-14T23:54:19Z", "content_excerpt": "Honest answer: **Your 1 Clean Master Resume already fits ~85% of Supply Chain, Sourcing, and Logistics jobs as-is**\u2014you do **not** have to juggle 10 completely different resumes!\n\nHere is the only difference between the two I gave you:\n1. **Your Clean Master Resume** ([Krithika_Nagarajan_Clean_Master_Resume.md](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md)):  \n   - Works out-of-the-box for **Logistics, Freight, Category Management & Sourcing** roles (**Walmart, Cardinal Health, Stanford Category Manager `R2659261`, Apple**).\n2. **The Lightly Tuned Stanford PM Version** ([Job1_Stanford_Supply_Chain_PM_R2656254.md](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Job1_Stanford_Supply_Chain_PM_R2656254.md)):  \n   - **Same exa", "topics": ["resume", "stanford", "master", "category"]}}, {"id": "topic:apply", "type": "topic_entity", "name": "apply", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'apply' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "apply"}}, {"id": "topic:next", "type": "topic_entity", "name": "next", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'next' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "next"}}, {"id": "topic:buyer", "type": "topic_entity", "name": "buyer", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'buyer' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "buyer"}}, {"id": "topic:check", "type": "topic_entity", "name": "check", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'check' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "check"}}, {"id": "chat_turn:b6556366:S171", "type": "chat_turn", "name": "Chat b6556366 Turn S171 (user)", "file_path": "chats/transcript_b6556366.jsonl", "description": "[USER S171] i did apply for this, hey i have some buyer roles in supermicro - can you check that too, next me what next should i apply, gie me the resume too", "metadata": {"conversation_id": "b6556366-0ab2-4f88-9652-caf171648118", "step_index": 171, "role": "user", "created_at": "2026-11-15T00:04:36Z", "content_excerpt": "i did apply for this, hey i have some buyer roles in supermicro - can you check that too, next me what next should i apply, gie me the resume too", "topics": ["apply", "next", "buyer", "check"]}}, {"id": "topic:vendor", "type": "topic_entity", "name": "vendor", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'vendor' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "vendor"}}, {"id": "chat_turn:b6556366:S181", "type": "chat_turn", "name": "Chat b6556366 Turn S181 (assistant)", "file_path": "chats/transcript_b6556366.jsonl", "description": "[ASSISTANT S181] Awesome\u2014**Job #1 (`Stanford R2656254`)** is logged as **APPLIED** in [Target_Jobs_Tracker.md](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Target_Jobs_Tracker.md)! --- ### 1. Honest Bay Area Check on Super", "metadata": {"conversation_id": "b6556366-0ab2-4f88-9652-caf171648118", "step_index": 181, "role": "assistant", "created_at": "2026-11-15T00:06:21Z", "content_excerpt": "Awesome\u2014**Job #1 (`Stanford R2656254`)** is logged as **APPLIED** in [Target_Jobs_Tracker.md](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Target_Jobs_Tracker.md)!\n\n---\n\n### 1. Honest Bay Area Check on Supermicro Buyer Roles (San Jose)\n\nI checked Supermicro's live San Jose openings\u2014here is the unfiltered truth before you apply there:\n1. **SKIP `Buyer / Planner \u2013 Components` ($75k\u2013$85k):** Way too junior and massive underpay for your 10+ years, PMP, and CSCP.\n2. **Caution on `Sr. Buyer / Planner \u2013 Key Components (Req 28636)` ($100k\u2013$145k):** Supermicro San Jose HQ is **strictly 5 days/week onsite**, intense hardware-factory hours, and component-buyer managers usually screen for PCB/chip BOM purchasing with Asian ODMs.\n3. **Your BEST Role at Supermicro (`$125k\u2013$195k`):** **`Sr", "topics": ["supplier", "spend", "vendor", "compliance"]}}, {"id": "chat_turn:b6556366:S182", "type": "chat_turn", "name": "Chat b6556366 Turn S182 (user)", "file_path": "chats/transcript_b6556366.jsonl", "description": "[USER S182] i did apply, can we go to Gilead?", "metadata": {"conversation_id": "b6556366-0ab2-4f88-9652-caf171648118", "step_index": 182, "role": "user", "created_at": "2026-11-15T00:08:32Z", "content_excerpt": "i did apply, can we go to Gilead?", "topics": ["apply", "gilead"]}}, {"id": "chat_turn:b6556366:S191", "type": "chat_turn", "name": "Chat b6556366 Turn S191 (assistant)", "file_path": "chats/transcript_b6556366.jsonl", "description": "[ASSISTANT S191] 2 for 2! Both Stanford Palo Alto roles (`R2656254` and `R2659261`) are now marked **APPLIED** in [Target_Jobs_Tracker.md](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Target_Jobs_Tracker.md). --- ### Job #", "metadata": {"conversation_id": "b6556366-0ab2-4f88-9652-caf171648118", "step_index": 191, "role": "assistant", "created_at": "2026-11-15T00:11:12Z", "content_excerpt": "2 for 2! Both Stanford Palo Alto roles (`R2656254` and `R2659261`) are now marked **APPLIED** in [Target_Jobs_Tracker.md](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Target_Jobs_Tracker.md).\n\n---\n\n### Job #3: **Gilead Sciences (Foster City, CA \u2014 ~14 miles away, Hybrid)**\n\nI pulled Gilead's live Workday portal (`gilead.wd1.myworkdayjobs.com`)\u2014there are **TWO live Foster City roles** where **this exact 1 resume PDF fits both**:\n1. **Primary Role:** **`R0055571`** \u2014 *Senior Supply Chain Specialist, Clinical Logistics* (Foster City, Hybrid Eligible)\n2. **Bonus Same-Portal Role:** **`R0055230`** \u2014 *Supply Chain Specialist IV (Global Clinical Supply Chain Delivery)* (Foster City)\n\n**Why Gilead will love this version (100% truthful, zero fake pharma claims):**  \nGilead's JD specif", "topics": ["logistics", "supply", "gilead", "chain"]}}, {"id": "topic:applied", "type": "topic_entity", "name": "applied", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'applied' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "applied"}}, {"id": "topic:committing", "type": "topic_entity", "name": "committing", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'committing' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "committing"}}, {"id": "topic:keep", "type": "topic_entity", "name": "keep", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'keep' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "keep"}}, {"id": "chat_turn:b6556366:S192", "type": "chat_turn", "name": "Chat b6556366 Turn S192 (user)", "file_path": "chats/transcript_b6556366.jsonl", "description": "[USER S192] applied for both, pls keep committing to your KG", "metadata": {"conversation_id": "b6556366-0ab2-4f88-9652-caf171648118", "step_index": 192, "role": "user", "created_at": "2026-11-15T00:20:39Z", "content_excerpt": "applied for both, pls keep committing to your KG", "topics": ["applied", "committing", "keep"]}}, {"id": "topic:another", "type": "topic_entity", "name": "another", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'another' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "another"}}, {"id": "topic:applications", "type": "topic_entity", "name": "applications", "file_path": "chats/transcript_b6556366.jsonl", "description": "Shared domain topic 'applications' connecting multi-modal documents and workspace chats", "metadata": {"keyword": "applications"}}, {"id": "chat_turn:b6556366:S197", "type": "chat_turn", "name": "Chat b6556366 Turn S197 (user)", "file_path": "chats/transcript_b6556366.jsonl", "description": "[USER S197] can we apply for another few plz - applications", "metadata": {"conversation_id": "b6556366-0ab2-4f88-9652-caf171648118", "step_index": 197, "role": "user", "created_at": "2026-11-15T00:21:39Z", "content_excerpt": "can we apply for another few plz - applications", "topics": ["another", "applications", "apply"]}}], "edges": [{"source": "chat_session:b6556366", "target": "topic:stanford", "relation": "MENTIONS_TOPIC", "metadata": {"count": 22}}, {"source": "chat_session:b6556366", "target": "topic:supply", "relation": "MENTIONS_TOPIC", "metadata": {"count": 21}}, {"source": "chat_session:b6556366", "target": "topic:chain", "relation": "MENTIONS_TOPIC", "metadata": {"count": 20}}, {"source": "chat_session:b6556366", "target": "topic:logistics", "relation": "MENTIONS_TOPIC", "metadata": {"count": 20}}, {"source": "chat_session:b6556366", "target": "topic:spend", "relation": "MENTIONS_TOPIC", "metadata": {"count": 16}}, {"source": "chat_session:b6556366", "target": "topic:supplier", "relation": "MENTIONS_TOPIC", "metadata": {"count": 16}}, {"source": "chat_session:b6556366", "target": "topic:compliance", "relation": "MENTIONS_TOPIC", "metadata": {"count": 15}}, {"source": "chat_session:b6556366", "target": "topic:gilead", "relation": "MENTIONS_TOPIC", "metadata": {"count": 15}}, {"source": "chat_session:b6556366", "target": "doc:PERFORMANCE_TRACKER.md", "relation": "DISCUSSED_FILE", "metadata": {}}, {"source": "chat_session:b6556366", "target": "doc:Resume_And_Jobs/Job1_Stanford_Supply_Chain_PM_R2656254.md", "relation": "DISCUSSED_FILE", "metadata": {}}, {"source": "chat_session:b6556366", "target": "doc:Resume_And_Jobs/Job2_Stanford_Category_Manager_R2659261.md", "relation": "DISCUSSED_FILE", "metadata": {}}, {"source": "chat_session:b6556366", "target": "doc:Resume_And_Jobs/Job3_Gilead_Cold_Chain_Logistics_R0055571.md", "relation": "DISCUSSED_FILE", "metadata": {}}, {"source": "chat_session:b6556366", "target": "doc:Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md", "relation": "DISCUSSED_FILE", "metadata": {}}, {"source": "chat_session:b6556366", "target": "doc:Resume_And_Jobs/Target_Jobs_Tracker.md", "relation": "DISCUSSED_FILE", "metadata": {}}, {"source": "chat_turn:b6556366:S153", "target": "topic:atleast", "relation": "MENTIONS_TOPIC", "metadata": {"count": 1}}, {"source": "chat_turn:b6556366:S153", "target": "topic:closer", "relation": "MENTIONS_TOPIC", "metadata": {"count": 1}}, {"source": "chat_turn:b6556366:S153", "target": "topic:discontinue", "relation": "MENTIONS_TOPIC", "metadata": {"count": 1}}, {"source": "chat_turn:b6556366:S153", "target": "topic:finsihed", "relation": "MENTIONS_TOPIC", "metadata": {"count": 1}}, {"source": "chat_session:b6556366", "target": "chat_turn:b6556366:S153", "relation": "HAS_CHAT_TURN", "metadata": {}}, {"source": "chat_turn:b6556366:S154", "target": "topic:questions", "relation": "MENTIONS_TOPIC", "metadata": {"count": 7}}, {"source": "chat_turn:b6556366:S154", "target": "topic:real", "relation": "MENTIONS_TOPIC", "metadata": {"count": 4}}, {"source": "chat_turn:b6556366:S154", "target": "topic:today", "relation": "MENTIONS_TOPIC", "metadata": {"count": 4}}, {"source": "chat_turn:b6556366:S154", "target": "topic:zero", "relation": "MENTIONS_TOPIC", "metadata": {"count": 4}}, {"source": "chat_session:b6556366", "target": "chat_turn:b6556366:S154", "relation": "HAS_CHAT_TURN", "metadata": {}}, {"source": "chat_turn:b6556366:S154", "target": "doc:PERFORMANCE_TRACKER.md", "relation": "DISCUSSED_FILE", "metadata": {}}, {"source": "chat_turn:b6556366:S155", "target": "topic:chain", "relation": "MENTIONS_TOPIC", "metadata": {"count": 8}}, {"source": "chat_turn:b6556366:S155", "target": "topic:manager", "relation": "MENTIONS_TOPIC", "metadata": {"count": 8}}, {"source": "chat_turn:b6556366:S155", "target": "topic:sunnyvale", "relation": "MENTIONS_TOPIC", "metadata": {"count": 7}}, {"source": "chat_turn:b6556366:S155", "target": "topic:supply", "relation": "MENTIONS_TOPIC", "metadata": {"count": 6}}, {"source": "chat_session:b6556366", "target": "chat_turn:b6556366:S155", "relation": "HAS_CHAT_TURN", "metadata": {}}, {"source": "chat_turn:b6556366:S168", "target": "topic:r2656254", "relation": "MENTIONS_TOPIC", "metadata": {"count": 6}}, {"source": "chat_turn:b6556366:S168", "target": "topic:stanford", "relation": "MENTIONS_TOPIC", "metadata": {"count": 6}}, {"source": "chat_turn:b6556366:S168", "target": "topic:compliance", "relation": "MENTIONS_TOPIC", "metadata": {"count": 5}}, {"source": "chat_turn:b6556366:S168", "target": "topic:quality", "relation": "MENTIONS_TOPIC", "metadata": {"count": 5}}, {"source": "chat_session:b6556366", "target": "chat_turn:b6556366:S168", "relation": "HAS_CHAT_TURN", "metadata": {}}, {"source": "chat_turn:b6556366:S168", "target": "doc:Resume_And_Jobs/Job1_Stanford_Supply_Chain_PM_R2656254.md", "relation": "DISCUSSED_FILE", "metadata": {}}, {"source": "chat_turn:b6556366:S168", "target": "doc:Resume_And_Jobs/Target_Jobs_Tracker.md", "relation": "DISCUSSED_FILE", "metadata": {}}, {"source": "chat_turn:b6556366:S169", "target": "topic:already", "relation": "MENTIONS_TOPIC", "metadata": {"count": 1}}, {"source": "chat_turn:b6556366:S169", "target": "topic:different", "relation": "MENTIONS_TOPIC", "metadata": {"count": 1}}, {"source": "chat_turn:b6556366:S169", "target": "topic:gave", "relation": "MENTIONS_TOPIC", "metadata": {"count": 1}}, {"source": "chat_turn:b6556366:S169", "target": "topic:giving", "relation": "MENTIONS_TOPIC", "metadata": {"count": 1}}, {"source": "chat_session:b6556366", "target": "chat_turn:b6556366:S169", "relation": "HAS_CHAT_TURN", "metadata": {}}, {"source": "chat_turn:b6556366:S170", "target": "topic:resume", "relation": "MENTIONS_TOPIC", "metadata": {"count": 6}}, {"source": "chat_turn:b6556366:S170", "target": "topic:stanford", "relation": "MENTIONS_TOPIC", "metadata": {"count": 6}}, {"source": "chat_turn:b6556366:S170", "target": "topic:master", "relation": "MENTIONS_TOPIC", "metadata": {"count": 4}}, {"source": "chat_turn:b6556366:S170", "target": "topic:category", "relation": "MENTIONS_TOPIC", "metadata": {"count": 3}}, {"source": "chat_session:b6556366", "target": "chat_turn:b6556366:S170", "relation": "HAS_CHAT_TURN", "metadata": {}}, {"source": "chat_turn:b6556366:S170", "target": "doc:Resume_And_Jobs/Job1_Stanford_Supply_Chain_PM_R2656254.md", "relation": "DISCUSSED_FILE", "metadata": {}}, {"source": "chat_turn:b6556366:S170", "target": "doc:Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md", "relation": "DISCUSSED_FILE", "metadata": {}}, {"source": "chat_turn:b6556366:S171", "target": "topic:apply", "relation": "MENTIONS_TOPIC", "metadata": {"count": 2}}, {"source": "chat_turn:b6556366:S171", "target": "topic:next", "relation": "MENTIONS_TOPIC", "metadata": {"count": 2}}, {"source": "chat_turn:b6556366:S171", "target": "topic:buyer", "relation": "MENTIONS_TOPIC", "metadata": {"count": 1}}, {"source": "chat_turn:b6556366:S171", "target": "topic:check", "relation": "MENTIONS_TOPIC", "metadata": {"count": 1}}, {"source": "chat_session:b6556366", "target": "chat_turn:b6556366:S171", "relation": "HAS_CHAT_TURN", "metadata": {}}, {"source": "chat_turn:b6556366:S181", "target": "topic:supplier", "relation": "MENTIONS_TOPIC", "metadata": {"count": 9}}, {"source": "chat_turn:b6556366:S181", "target": "topic:spend", "relation": "MENTIONS_TOPIC", "metadata": {"count": 7}}, {"source": "chat_turn:b6556366:S181", "target": "topic:vendor", "relation": "MENTIONS_TOPIC", "metadata": {"count": 6}}, {"source": "chat_turn:b6556366:S181", "target": "topic:compliance", "relation": "MENTIONS_TOPIC", "metadata": {"count": 5}}, {"source": "chat_session:b6556366", "target": "chat_turn:b6556366:S181", "relation": "HAS_CHAT_TURN", "metadata": {}}, {"source": "chat_turn:b6556366:S181", "target": "doc:Resume_And_Jobs/Job2_Stanford_Category_Manager_R2659261.md", "relation": "DISCUSSED_FILE", "metadata": {}}, {"source": "chat_turn:b6556366:S181", "target": "doc:Resume_And_Jobs/Target_Jobs_Tracker.md", "relation": "DISCUSSED_FILE", "metadata": {}}, {"source": "chat_turn:b6556366:S182", "target": "topic:apply", "relation": "MENTIONS_TOPIC", "metadata": {"count": 1}}, {"source": "chat_turn:b6556366:S182", "target": "topic:gilead", "relation": "MENTIONS_TOPIC", "metadata": {"count": 1}}, {"source": "chat_session:b6556366", "target": "chat_turn:b6556366:S182", "relation": "HAS_CHAT_TURN", "metadata": {}}, {"source": "chat_turn:b6556366:S191", "target": "topic:logistics", "relation": "MENTIONS_TOPIC", "metadata": {"count": 10}}, {"source": "chat_turn:b6556366:S191", "target": "topic:supply", "relation": "MENTIONS_TOPIC", "metadata": {"count": 8}}, {"source": "chat_turn:b6556366:S191", "target": "topic:gilead", "relation": "MENTIONS_TOPIC", "metadata": {"count": 7}}, {"source": "chat_turn:b6556366:S191", "target": "topic:chain", "relation": "MENTIONS_TOPIC", "metadata": {"count": 6}}, {"source": "chat_session:b6556366", "target": "chat_turn:b6556366:S191", "relation": "HAS_CHAT_TURN", "metadata": {}}, {"source": "chat_turn:b6556366:S191", "target": "doc:Resume_And_Jobs/Job3_Gilead_Cold_Chain_Logistics_R0055571.md", "relation": "DISCUSSED_FILE", "metadata": {}}, {"source": "chat_turn:b6556366:S191", "target": "doc:Resume_And_Jobs/Target_Jobs_Tracker.md", "relation": "DISCUSSED_FILE", "metadata": {}}, {"source": "chat_turn:b6556366:S192", "target": "topic:applied", "relation": "MENTIONS_TOPIC", "metadata": {"count": 1}}, {"source": "chat_turn:b6556366:S192", "target": "topic:committing", "relation": "MENTIONS_TOPIC", "metadata": {"count": 1}}, {"source": "chat_turn:b6556366:S192", "target": "topic:keep", "relation": "MENTIONS_TOPIC", "metadata": {"count": 1}}, {"source": "chat_session:b6556366", "target": "chat_turn:b6556366:S192", "relation": "HAS_CHAT_TURN", "metadata": {}}, {"source": "chat_turn:b6556366:S197", "target": "topic:another", "relation": "MENTIONS_TOPIC", "metadata": {"count": 1}}, {"source": "chat_turn:b6556366:S197", "target": "topic:applications", "relation": "MENTIONS_TOPIC", "metadata": {"count": 1}}, {"source": "chat_turn:b6556366:S197", "target": "topic:apply", "relation": "MENTIONS_TOPIC", "metadata": {"count": 1}}, {"source": "chat_session:b6556366", "target": "chat_turn:b6556366:S197", "relation": "HAS_CHAT_TURN", "metadata": {}}], "initial_query": "", "initial_match_ids": []};
+    const NODE_MAP = new Map();
+    const OUT_EDGES = new Map();
+    const IN_EDGES = new Map();
+    const DEGREE_MAP = new Map();
+
+    const TYPE_COLORS = {
+      cluster_node: '#10b981',
+      cluster_service: '#06b6d4',
+      k8s_resource: '#3b82f6',
+      network_device: '#14b8a6',
+      api_endpoint: '#a855f7',
+      python_module: '#f59e0b',
+      python_class: '#ec4899',
+      python_function: '#6366f1',
+      shell_script: '#22c55e',
+      js_function: '#eab308',
+      sql_file: '#0ea5e9',
+      html_template: '#f97316',
+      dockerfile: '#38bdf8',
+      yaml_config: '#8b5cf6',
+      env_config: '#64748b',
+      config_file: '#94a3b8',
+      requirements_file: '#cbd5e1',
+      document: '#e879f9',
+      document_file: '#c084fc',
+      document_section: '#d8b4fe',
+      document_table: '#2dd4bf',
+      image_document: '#fb7185',
+      audio_transcript: '#f43f5e',
+      topic_entity: '#facc15',
+      chat_session: '#34d399',
+      chat_turn: '#6ee7b7'
+    };
+
+    KG_DATA.nodes.forEach(n => {
+      NODE_MAP.set(n.id, n);
+      OUT_EDGES.set(n.id, []);
+      IN_EDGES.set(n.id, []);
+    });
+    KG_DATA.edges.forEach(e => {
+      if (OUT_EDGES.has(e.source)) OUT_EDGES.get(e.source).push(e);
+      if (IN_EDGES.has(e.target)) IN_EDGES.get(e.target).push(e);
+    });
+    KG_DATA.nodes.forEach(n => {
+      const deg = (OUT_EDGES.get(n.id) || []).length + (IN_EDGES.get(n.id) || []).length;
+      DEGREE_MAP.set(n.id, deg);
+    });
+
+    const ALL_TYPES = Object.keys(KG_DATA.metadata.node_type_counts || {});
+    const enabledTypes = new Set(ALL_TYPES);
+
+    let top10Results = [];
+    let totalMatchesCount = KG_DATA.nodes.length;
+    let selectedResultMode = 'all';
+    let inspectedNodeId = null;
+
+    // All available CLI flag options in query_kg.py represented as checkboxes
+    const CLI_FLAG_OPTIONS = [
+      { flag: '/I', label: '/I (--investigate)', desc: 'Instruct LLM: INVESTIGATE ONLY — NO CODE UPDATES', defaultChecked: true },
+      { flag: '/S', label: '/S (--summary)', desc: 'Summary-only mode (#1, #2, #3...)', defaultChecked: true },
+      { flag: '--json', label: '--json', desc: 'Output matching hits as JSON', defaultChecked: false },
+      { flag: '--stats', label: '--stats', desc: 'Display Knowledge Graph statistics', defaultChecked: false },
+      { flag: '--update', label: '--update (-u)', desc: 'Incrementally update Knowledge Graph & global.md', defaultChecked: false },
+      { flag: '--rebuild', label: '--rebuild (-r)', desc: 'Force full rebuild of the Knowledge Graph', defaultChecked: false },
+      { flag: '--sync-chats', label: '--sync-chats', desc: 'Index Zed/Antigravity chat transcripts & chats/ folder into Knowledge Graph', defaultChecked: false },
+      { flag: '--sync-docs', label: '--sync-docs', desc: 'Synchronize man/ pages, wiki index, repo.md, global.md', defaultChecked: false },
+      { flag: '--sap-check', label: '--sap-check', desc: 'Run SAP S/4HANA & HANA license/backup check', defaultChecked: false },
+      { flag: '--mojibake-audit', label: '--mojibake-audit', desc: 'Audit Git delta for UTF-8/CP1252 mojibake', defaultChecked: false },
+      { flag: '--mojibake-fix', label: '--mojibake-fix', desc: 'Audit and repair mojibake on Git delta', defaultChecked: false },
+      { flag: '--vuln-scan', label: '--vuln-scan', desc: 'Scan Git delta for security vulnerabilities (SEC001-SEC006)', defaultChecked: false },
+      { flag: '--pre-commit-hook', label: '--pre-commit-hook', desc: 'Run full Git pre-commit hook check suite', defaultChecked: false },
+      { flag: '--sync-global', label: '--sync-global', desc: 'Force-propagate query_kg.py across all folders in global.md', defaultChecked: false },
+      { flag: '--install-hooks', label: '--install-hooks', desc: 'Install or refresh .git/hooks/pre-commit', defaultChecked: false },
+      { flag: '--commit-push', label: '--commit-push', desc: 'Stage, commit (running pre-commit hook), and push dirty repo', defaultChecked: false }
+    ];
+    const activeCliFlags = new Set(CLI_FLAG_OPTIONS.filter(o => o.defaultChecked).map(o => o.flag));
+
+    function renderCliFlagCheckboxes() {
+      const bar = document.getElementById('kg-flags-line');
+      if (!bar) return;
+      let html = `<span class="kg-row-label">query_kg.py Flags:</span>`;
+      CLI_FLAG_OPTIONS.forEach(opt => {
+        const isChecked = activeCliFlags.has(opt.flag);
+        html += `
+          <label class="flag-chk-label ${isChecked ? 'checked' : ''}" title="${esc(opt.desc)}">
+            <input type="checkbox" ${isChecked ? 'checked' : ''} onchange="toggleCliFlag('${esc(opt.flag)}', this.checked)">
+            <span>${esc(opt.label)}</span>
+          </label>
+        `;
+      });
+      html += `<span class="cmd-preview-pill" id="kg-cmd-preview"></span>`;
+      bar.innerHTML = html;
+      updateCliCommandPreview();
+    }
+
+    function toggleCliFlag(flag, checked) {
+      if (checked) activeCliFlags.add(flag);
+      else activeCliFlags.delete(flag);
+      renderCliFlagCheckboxes();
+    }
+
+    function getActiveHitSelector() {
+      if (selectedResultMode !== 'all') {
+        return String(Number(selectedResultMode) + 1);
+      }
+      return '1';
+    }
+
+    function updateCliCommandPreview() {
+      const q = (document.getElementById('kg-search-input')?.value || '').trim();
+      const ask = (document.getElementById('kg-ask-input')?.value || '').trim();
+      const hitNum = getActiveHitSelector();
+      const flagsArr = Array.from(activeCliFlags);
+      const qPart = q ? `"${q}"` : '';
+      const askPart = ask ? ` "${ask}"` : '';
+      const flagsStr = flagsArr.join(' ');
+      const cmdStr = `query_kg.py ${qPart} --#${hitNum} ${flagsStr}${askPart}`.replace(/\s+/g, ' ').trim();
+
+      const previewEl = document.getElementById('kg-cmd-preview');
+      if (previewEl) {
+        previewEl.textContent = cmdStr;
+        previewEl.title = cmdStr;
+      }
+      const btnLabel = document.getElementById('kg-copy-q2-label');
+      if (btnLabel) {
+        const iFlag = activeCliFlags.has('/I') ? ' /I' : '';
+        btnLabel.textContent = `📋 Copy --#${hitNum}${iFlag}`;
+      }
+    }
+
+    function buildClientSideQuery2Prompt(hitNum, targetNode, qStr, askStr, investigateOnly) {
+      const repoRoot = KG_DATA.metadata.repository || '/home/sanjay/container/kubernetes';
+      const relPath = targetNode.file_path || '';
+      const lineno = (targetNode.metadata && targetNode.metadata.lineno) ? targetNode.metadata.lineno : null;
+      const fileUri = relPath ? `file://${repoRoot}/${relPath}${lineno ? '#L' + lineno : ''}` : `file://${repoRoot}/knowledge_graph/query_results.html#hit-kg-table-${hitNum}`;
+      const kgTableUri = `file://${repoRoot}/knowledge_graph/query_results.html#hit-kg-table-${hitNum}`;
+      const lineHint = lineno ? `Line=${lineno}` : (relPath ? 'Full file' : 'Graph entity');
+      const outs = (OUT_EDGES.get(targetNode.id) || []).slice(0, 12).map(e => {
+        const tn = NODE_MAP.get(e.target) || {};
+        return `--[${e.relation}]--> ${tn.name || e.target} (${tn.file_path || tn.type || 'entity'})`;
+      }).join(', ') || 'none';
+      const ins = (IN_EDGES.get(targetNode.id) || []).slice(0, 12).map(e => {
+        const sn = NODE_MAP.get(e.source) || {};
+        return `<--[${e.relation}]-- ${sn.name || e.source} (${sn.file_path || sn.type || 'entity'})`;
+      }).join(', ') || 'none';
+
+      const modeHeader = investigateOnly
+        ? 'INSTRUCTION TO LLM (LOCAL KNOWLEDGE GRAPH PREPROCESSED CONTEXT — INVESTIGATE ONLY / NO CODE UPDATES):'
+        : 'INSTRUCTION TO LLM (LOCAL KNOWLEDGE GRAPH PREPROCESSED CONTEXT):';
+      const execRule = investigateOnly
+        ? '- Execution Mode (/I): INVESTIGATE ONLY — NO CODE UPDATES. Analyze, diagnose, and answer the request without modifying, creating, or deleting any files.'
+        : `- Code Edit Rule: All code edits MUST be done using Python only (/usr/bin/python3) — do NOT use PowerShell.
+- Post-Change Rule (see ${repoRoot}/rules.md): After any edit, update man/ docs, run Delta-Only Mojibake Audit & Fix, run Pre-Commit Vulnerability Scan, run query_kg.py --update, and prompt for git commit / git push.`;
+
+      const defaultAsk = investigateOnly
+        ? '[Investigate and explain this target — NO CODE UPDATES]'
+        : '[Enter your specific request/change for the above target here]';
+      let finalAsk = askStr || defaultAsk;
+      if (investigateOnly && !finalAsk.toLowerCase().includes('no code update') && !finalAsk.toLowerCase().includes('investigate only')) {
+        finalAsk = `[INVESTIGATE ONLY — NO CODE UPDATES] ${finalAsk}`;
+      }
+
+      return [
+        modeHeader,
+        `- Repository Root: ${repoRoot}`,
+        `- Preprocessed Context Guidance: This context was locally assembled via 'query_kg.py' to provide rich upfront context (exact target file/lines, code snippet, connected Knowledge Graph dependencies, and tokenized files) and reduce blind discovery token usage. Start from the context below, and inspect or search the codebase further as needed.`,
+        execRule,
+        '',
+        `Context for Hit #${hitNum} (Query: ${qStr || targetNode.name}):`,
+        `  - Entity:      [${targetNode.type}] ${targetNode.name} (ID: ${targetNode.id})`,
+        `  - File Target: ${fileUri} (${lineHint})`,
+        `  - Description: ${targetNode.description || 'N/A'}`,
+        `  - Metadata:    ${JSON.stringify(targetNode.metadata || {})}`,
+        `  - Outgoing KG: ${outs}`,
+        `  - Incoming KG: ${ins}`,
+        '',
+        `REQUEST TO LLM (#${hitNum}: ${fileUri} (KG Table: ${kgTableUri})): ${finalAsk}`
+      ].join('\n');
+    }
+
+    function writeTextToClipboardFallback(text) {
+      try {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.left = '-9999px';
+        ta.style.top = '0';
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+      } catch (e) {}
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).catch(() => {});
+      }
+    }
+
+    async function copyQuery2ToClipboard() {
+      const q = (document.getElementById('kg-search-input')?.value || '').trim();
+      const ask = (document.getElementById('kg-ask-input')?.value || '').trim();
+      const hitNum = Number(getActiveHitSelector());
+      const targetNode = top10Results[hitNum - 1] || top10Results[0] || KG_DATA.nodes[0];
+      const investigateOnly = activeCliFlags.has('/I');
+      const flagsParam = Array.from(activeCliFlags).join(',');
+
+      // 1. Immediate synchronous copy using client-side builder so user-gesture clipboard always succeeds
+      let promptText = targetNode
+        ? buildClientSideQuery2Prompt(hitNum, targetNode, q, ask, investigateOnly)
+        : '';
+      if (promptText) {
+        writeTextToClipboardFallback(promptText);
+      }
+
+      // 2. If hosted via FastAPI portal, also call /api/knowledge-graph/query2 to get full AST snippet & server-side execution
+      let cliCmd = document.getElementById('kg-cmd-preview')?.textContent || `query_kg.py "${q}" --#${hitNum}`;
+      if (window.location.protocol.startsWith('http')) {
+        try {
+          const url = `/api/knowledge-graph/query2?q=${encodeURIComponent(q || (targetNode ? targetNode.name : ''))}&hit=${encodeURIComponent(String(hitNum))}&flags=${encodeURIComponent(flagsParam)}&ask=${encodeURIComponent(ask)}`;
+          const resp = await fetch(url);
+          if (resp.ok) {
+            const data = await resp.json();
+            if (data.prompt) {
+              promptText = data.prompt;
+              cliCmd = data.command || cliCmd;
+              writeTextToClipboardFallback(promptText);
+            }
+          }
+        } catch (e) {}
+      }
+
+      // 3. Visual confirmation on button + preview drawer
+      const btn = document.getElementById('kg-copy-q2-btn');
+      const lbl = document.getElementById('kg-copy-q2-label');
+      if (btn && lbl) {
+        btn.classList.add('copied');
+        lbl.textContent = `✅ Copied --#${hitNum}!`;
+        setTimeout(() => {
+          btn.classList.remove('copied');
+          updateCliCommandPreview();
+        }, 2200);
+      }
+      const drawer = document.getElementById('kg-prompt-drawer');
+      const drawerTitle = document.getElementById('kg-prompt-drawer-title');
+      const drawerBody = document.getElementById('kg-prompt-drawer-body');
+      if (drawer && drawerTitle && drawerBody) {
+        drawerTitle.textContent = `✅ Copied to Clipboard: ${cliCmd}`;
+        drawerBody.textContent = promptText;
+        drawer.style.display = 'flex';
+      }
+    }
+
+    let panX = 0, panY = 0, scale = 1;
+    let rotY = -0.45, rotX = 0.28;
+    let autoSpin3D = false, isHoveringNode = false;
+    let isDragging = false, dragMode = 'orbit', dragStartX = 0, dragStartY = 0, startRotY = -0.45, startRotX = 0.28;
+    let _scene3D = { nodes3D: new Map(), edgesToDraw: [], rankLabels: new Map(), modeTitle: '', maxR: 420 };
+
+    function esc(s) {
+      return String(s ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function typeColor(t) {
+      return TYPE_COLORS[t] || '#38bdf8';
+    }
+
+    function renderNodeOptionButtons() {
+      const container = document.getElementById('kg-node-options-line');
+      const allOn = enabledTypes.size === ALL_TYPES.length;
+      const counts = KG_DATA.metadata.node_type_counts || {};
+
+      let html = `<span class="kg-row-label">Node Options:</span>`;
+      html += `
+        <button type="button" class="toggle-btn ${allOn ? 'is-on' : ''}" onclick="toggleAllNodeTypes()">
+          <span>All Nodes (${KG_DATA.nodes.length})</span>
+          <span class="toggle-state-pill">${allOn ? 'ON' : 'OFF'}</span>
+        </button>
+      `;
+
+      ALL_TYPES.forEach(t => {
+        const isOn = enabledTypes.has(t);
+        const cnt = counts[t] || 0;
+        const col = typeColor(t);
+        html += `
+          <button type="button" class="toggle-btn ${isOn ? 'is-on' : ''}" onclick="toggleNodeType('${esc(t)}')" title="Toggle ${esc(t)} nodes ON/OFF">
+            <span class="type-dot" style="background:${col}; opacity:${isOn ? 1 : 0.35};"></span>
+            <span>${esc(t)} (${cnt})</span>
+            <span class="toggle-state-pill">${isOn ? 'ON' : 'OFF'}</span>
+          </button>
+        `;
+      });
+
+      container.innerHTML = html;
+    }
+
+    function toggleAllNodeTypes() {
+      if (enabledTypes.size === ALL_TYPES.length) {
+        enabledTypes.clear();
+      } else {
+        ALL_TYPES.forEach(t => enabledTypes.add(t));
+      }
+      renderNodeOptionButtons();
+      recomputeResultsAndGraph();
+    }
+
+    function toggleNodeType(typeName) {
+      if (enabledTypes.has(typeName)) {
+        enabledTypes.delete(typeName);
+      } else {
+        enabledTypes.add(typeName);
+      }
+      renderNodeOptionButtons();
+      recomputeResultsAndGraph();
+    }
+
+    // Parse query expression identically to query_kg.py `parse_query_expression` (supporting `/S` or `/s` flag)
+    function parseQueryExpr(qStr) {
+      const cleaned = (qStr || '').replace(/(?:^|\s)\/[sSiI](?=\s|$)/g, ' ').trim();
+      if (!cleaned) return [];
+      const tokens = [];
+      let buf = '';
+      let i = 0;
+      while (i < cleaned.length) {
+        const ch = cleaned[i];
+        if (ch === '"' || ch === "'") {
+          const q = ch; i++;
+          let phrase = '';
+          while (i < cleaned.length && cleaned[i] !== q) phrase += cleaned[i++];
+          if (i < cleaned.length && cleaned[i] === q) i++;
+          if (buf.trim()) { tokens.push({t:'TERM', v:buf.trim().toLowerCase()}); buf=''; }
+          if (phrase.trim()) tokens.push({t:'TERM', v:phrase.trim().toLowerCase()});
+        } else if (ch === '+') {
+          if (buf.trim()) { tokens.push({t:'TERM', v:buf.trim().toLowerCase()}); buf=''; }
+          tokens.push({t:'AND'}); i++;
+        } else if (ch === ',') {
+          if (buf.trim()) { tokens.push({t:'TERM', v:buf.trim().toLowerCase()}); buf=''; }
+          tokens.push({t:'OR'}); i++;
+        } else {
+          buf += ch; i++;
+        }
+      }
+      if (buf.trim()) {
+        buf.trim().split(/\s+/).forEach(w => {
+          if (w) tokens.push({t:'TERM', v:w.toLowerCase()});
+        });
+      }
+      const orGroups = [];
+      let curAnd = [];
+      tokens.forEach(tok => {
+        if (tok.t === 'TERM') curAnd.push(tok.v);
+        else if (tok.t === 'OR') {
+          if (curAnd.length) { orGroups.push(curAnd); curAnd = []; }
+        }
+      });
+      if (curAnd.length) orGroups.push(curAnd);
+      return orGroups;
+    }
+
+    // Document priority rank identical to `search_kg()` SQL CASE in query_kg.py
+    function docPriorityRank(n) {
+      if (n.type !== 'document') return 8;
+      const fp = n.file_path || '';
+      if (fp === 'sap_install/README.md' || fp === 'agent/tower/sap/sap_install/README.md') return 0;
+      if (fp === 'README.md' || fp === 'agent/tower/sap/README.md') return 1;
+      if (fp === 'man/SAP_S4HANA_TOWER_GUIDE.md') return 2;
+      if (fp === 'man/SAP_LICENSE_RENEWAL_GUIDE.md') return 3;
+      if (fp === 'agent/tower/sap/sap_install/Makefile' || fp === 'sap_install/Makefile' || fp === 'Makefile') return 4;
+      if (fp.startsWith('man/man8/sap-')) return 5;
+      if (fp.startsWith('agent/tower/sap/') || fp.startsWith('sap_install/')) return 6;
+      return 7;
+    }
+
+    // Exact match & ordering function matching `query_kg.py "search text" /S` (#1, #2, #3...)
+    function matchAndRankNodes(orGroups) {
+      const allTerms = [];
+      orGroups.forEach(g => g.forEach(t => allTerms.push(t)));
+
+      const matched = KG_DATA.nodes.filter(n => {
+        if (!enabledTypes.has(n.type)) return false;
+        if (!orGroups.length) return true;
+        const metaJson = JSON.stringify(n.metadata || {}).toLowerCase();
+        const hay = `${(n.id || '').toLowerCase()} ${(n.type || '').toLowerCase()} ${(n.name || '').toLowerCase()} ${(n.file_path || '').toLowerCase()} ${(n.description || '').toLowerCase()} ${metaJson}`;
+        return orGroups.some(andGroup => andGroup.every(term => hay.includes(term)));
+      });
+
+      if (!allTerms.length) {
+        // When search box is empty, rank by connectivity degree so the top 10 hubs appear on the top bar
+        return matched.slice().sort((a, b) => (DEGREE_MAP.get(b.id) || 0) - (DEGREE_MAP.get(a.id) || 0));
+      }
+
+      function tierRank(n) {
+        const nameL = (n.name || '').toLowerCase();
+        const idL = (n.id || '').toLowerCase();
+        if (allTerms.some(t => nameL === t)) return 0;
+        if (allTerms.some(t => idL === t)) return 1;
+        if (allTerms.some(t => nameL.includes(t))) return 2;
+        return 3;
+      }
+
+      return matched.slice().sort((a, b) => {
+        const tA = tierRank(a), tB = tierRank(b);
+        if (tA !== tB) return tA - tB;
+        const dA = docPriorityRank(a), dB = docPriorityRank(b);
+        if (dA !== dB) return dA - dB;
+        const tyCmp = String(a.type || '').localeCompare(String(b.type || ''));
+        if (tyCmp !== 0) return tyCmp;
+        const nmCmp = String(a.name || '').localeCompare(String(b.name || ''));
+        if (nmCmp !== 0) return nmCmp;
+        return String(a.file_path || '').localeCompare(String(b.file_path || ''));
+      });
+    }
+
+    function onSearchInput() {
+      const q = document.getElementById('kg-search-input').value;
+      document.getElementById('kg-search-clear').style.display = q ? 'block' : 'none';
+      selectedResultMode = 'all';
+      recomputeResultsAndGraph();
+    }
+
+    function clearSearch() {
+      const inp = document.getElementById('kg-search-input');
+      inp.value = '';
+      document.getElementById('kg-search-clear').style.display = 'none';
+      selectedResultMode = 'all';
+      recomputeResultsAndGraph();
+    }
+
+    function toggleResultButton(mode) {
+      if (mode === 'all') {
+        selectedResultMode = 'all';
+      } else {
+        const idx = Number(mode);
+        if (selectedResultMode === idx) {
+          selectedResultMode = 'all';
+        } else {
+          selectedResultMode = idx;
+          if (top10Results[idx]) {
+            inspectedNodeId = top10Results[idx].id;
+          }
+        }
+      }
+      renderTopLineResultButtons();
+      renderGraphicalKnowledgeGraph();
+    }
+
+    function focusNodeInGraph(nodeId) {
+      const n = NODE_MAP.get(nodeId);
+      if (!n) return;
+      inspectedNodeId = nodeId;
+      const existingIdx = top10Results.findIndex(r => r.id === nodeId);
+      if (existingIdx !== -1) {
+        selectedResultMode = existingIdx;
+      } else {
+        top10Results = [n, ...top10Results.slice(0, 9)];
+        selectedResultMode = 0;
+      }
+      renderTopLineResultButtons();
+      renderGraphicalKnowledgeGraph();
+    }
+
+    // Render Row 1 Right Strip: "All Results" ON/OFF button + Top-10 Ranked Result (#1..#10) ON/OFF buttons
+    function renderTopLineResultButtons() {
+      const strip = document.getElementById('kg-results-strip');
+      const q = (document.getElementById('kg-search-input').value || '').trim();
+      const isAllOn = selectedResultMode === 'all';
+      const allLabel = q ? `All Results (${top10Results.length})` : `All Results`;
+
+      let html = `
+        <button type="button" class="toggle-btn result-btn ${isAllOn ? 'is-on' : ''}" onclick="toggleResultButton('all')" title="Toggle All Results view ON/OFF">
+          <span>🌐 ${esc(allLabel)}</span>
+          <span class="toggle-state-pill">${isAllOn ? 'ON' : 'OFF'}</span>
+        </button>
+      `;
+
+      top10Results.forEach((n, idx) => {
+        const rank = idx + 1;
+        const isOn = selectedResultMode === idx;
+        const shortName = (n.name || n.id || '').slice(0, 20);
+        const col = typeColor(n.type);
+        const fp = n.file_path ? ` (${n.file_path})` : '';
+        html += `
+          <button type="button" id="rank-btn-${rank}" class="toggle-btn result-btn ${isOn ? 'is-on' : ''}"
+                  onclick="toggleResultButton(${idx})"
+                  title="#${rank} [${esc(n.type)}] ${esc(n.name)}${esc(fp)} — ${esc(n.description || '')}">
+            <span class="rank-badge">#${rank}</span>
+            <span class="type-dot" style="background:${col};"></span>
+            <span>${esc(shortName)}</span>
+            <span class="toggle-state-pill">${isOn ? 'ON' : 'OFF'}</span>
+          </button>
+        `;
+      });
+
+      strip.innerHTML = html;
+      updateCliCommandPreview();
+    }
+
+    function recomputeResultsAndGraph() {
+      const rawQ = document.getElementById('kg-search-input').value || '';
+      const orGroups = parseQueryExpr(rawQ);
+      const ranked = matchAndRankNodes(orGroups);
+      totalMatchesCount = ranked.length;
+      document.getElementById('hud-match-count').textContent = totalMatchesCount;
+
+      // Restrict strictly to Top 10 ranks (#1 .. #10)
+      top10Results = ranked.slice(0, 10);
+
+      if (selectedResultMode !== 'all' && selectedResultMode >= top10Results.length) {
+        selectedResultMode = 'all';
+      }
+      renderTopLineResultButtons();
+      renderGraphicalKnowledgeGraph();
+    }
+
+    function updateInspector(n, rankNum) {
+      const contentEl = document.getElementById('inspector-content');
+      const actionsEl = document.getElementById('inspector-actions');
+      if (!n) {
+        contentEl.innerHTML = `<span>Enter search text above or click any <strong>#1–#10</strong> result button on the top line to focus the Knowledge Graph on that result node.</span>`;
+        actionsEl.innerHTML = '';
+        return;
+      }
+      const outs = (OUT_EDGES.get(n.id) || []).filter(e => NODE_MAP.has(e.target) && enabledTypes.has((NODE_MAP.get(e.target) || {}).type));
+      const ins = (IN_EDGES.get(n.id) || []).filter(e => NODE_MAP.has(e.source) && enabledTypes.has((NODE_MAP.get(e.source) || {}).type));
+      const col = typeColor(n.type);
+      const lineno = (n.metadata && n.metadata.lineno) ? `:${n.metadata.lineno}` : '';
+      const fp = (n.file_path || 'N/A') + lineno;
+      const rankPrefix = rankNum ? `<span class="rank-badge">#${rankNum}</span>` : '';
+
+      contentEl.innerHTML = `
+        ${rankPrefix}
+        <span class="type-dot" style="background:${col};"></span>
+        <strong>${esc(n.name)}</strong>
+        <code>${esc(n.type)}</code>
+        <span>Path: <code>${esc(fp)}</code></span>
+        <span>Synapses: <strong>${ins.length} in / ${outs.length} out</strong></span>
+        <span style="color:#94a3b8;">${esc((n.description || '').slice(0, 95))}</span>
+      `;
+      actionsEl.innerHTML = `
+        <button type="button" class="hud-btn" onclick="focusNodeInGraph('${esc(n.id)}')">🎯 Focus Node Graph</button>
+      `;
+    }
+
+    function ensure3DSphereGradients() {
+      const defs = document.querySelector('#kg-svg defs');
+      if (!defs || document.getElementById('grad3d-default')) return;
+      let gradHtml = '';
+      const allCols = Object.assign({ default: '#38bdf8' }, TYPE_COLORS);
+      Object.keys(allCols).forEach(k => {
+        const c = allCols[k];
+        gradHtml += `
+          <radialGradient id="grad3d-${k}" cx="32%" cy="28%" r="70%" fx="32%" fy="28%">
+            <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+            <stop offset="28%" stop-color="${c}" stop-opacity="0.95"/>
+            <stop offset="72%" stop-color="${c}" stop-opacity="0.55"/>
+            <stop offset="100%" stop-color="#050811" stop-opacity="0.95"/>
+          </radialGradient>`;
+      });
+      defs.insertAdjacentHTML('beforeend', gradHtml);
+    }
+
+    function renderGraphicalKnowledgeGraph() {
+      ensure3DSphereGradients();
+      const stage = document.getElementById('kg-graph-stage');
+      const W = stage.clientWidth || 1280;
+      const H = stage.clientHeight || 720;
+      const rawQ = (document.getElementById('kg-search-input').value || '').trim();
+
+      const nodes3D = new Map();
+      const rankLabels = new Map();
+      top10Results.forEach((n, i) => rankLabels.set(n.id, i + 1));
+
+      let modeTitle = '';
+      let edgesToDraw = [];
+      const maxR = Math.min(W, H) * 0.44;
+      const goldenAngle = Math.PI * (3 - Math.sqrt(5));
+
+      const placeFibonacciSphereShell = (arr, shellR, baseRadiusPx, roleName) => {
+        const len = arr.length;
+        if (!len) return;
+        arr.forEach((n, idx) => {
+          let x3d = 0, y3d = 0, z3d = 0;
+          if (len === 1) {
+            x3d = 0; y3d = 0; z3d = 0;
+          } else {
+            const yNorm = 1 - (idx / (len - 1)) * 2;
+            const rAtY = Math.sqrt(Math.max(0, 1 - yNorm * yNorm));
+            const theta = goldenAngle * idx;
+            x3d = shellR * rAtY * Math.cos(theta);
+            y3d = shellR * yNorm * 0.84;
+            z3d = shellR * rAtY * Math.sin(theta);
+          }
+          nodes3D.set(n.id, { node: n, role: roleName, r: baseRadiusPx, x3d, y3d, z3d });
+        });
+      };
+
+      if (selectedResultMode !== 'all' && top10Results[selectedResultMode]) {
+        // FOCUSED SINGLE RESULT NODE (#1..#10) 3D SPATIAL STARBURST
+        const target = top10Results[selectedResultMode];
+        const rankNum = selectedResultMode + 1;
+        modeTitle = `3D Spatial Focus #${rankNum}: [${target.type}] ${target.name}`;
+        nodes3D.set(target.id, { node: target, role: 'target', r: 25, x3d: 0, y3d: 0, z3d: 0 });
+
+        const ins = (IN_EDGES.get(target.id) || [])
+          .filter(e => NODE_MAP.has(e.source) && enabledTypes.has(NODE_MAP.get(e.source).type))
+          .slice(0, 22);
+        const outs = (OUT_EDGES.get(target.id) || [])
+          .filter(e => NODE_MAP.has(e.target) && enabledTypes.has(NODE_MAP.get(e.target).type))
+          .slice(0, 22);
+
+        const spreadR = maxR * 0.78;
+        ins.forEach((e, idx) => {
+          const sn = NODE_MAP.get(e.source);
+          if (!sn) return;
+          if (!nodes3D.has(sn.id)) {
+            const t = ins.length === 1 ? 0 : (idx / (ins.length - 1)) * 2 - 1;
+            const ang = idx * 1.15;
+            const ringRad = spreadR * 0.58 * Math.sqrt(Math.max(0.15, 1 - t * t * 0.65));
+            nodes3D.set(sn.id, {
+              node: sn,
+              role: 'in',
+              r: 14,
+              x3d: -spreadR * 0.68,
+              y3d: t * spreadR * 0.65,
+              z3d: ringRad * Math.sin(ang),
+            });
+          }
+          edgesToDraw.push({ source: sn.id, target: target.id, relation: e.relation, kind: 'in' });
+        });
+
+        outs.forEach((e, idx) => {
+          const tn = NODE_MAP.get(e.target);
+          if (!tn) return;
+          if (!nodes3D.has(tn.id)) {
+            const t = outs.length === 1 ? 0 : (idx / (outs.length - 1)) * 2 - 1;
+            const ang = idx * 1.15 + 0.6;
+            const ringRad = spreadR * 0.58 * Math.sqrt(Math.max(0.15, 1 - t * t * 0.65));
+            nodes3D.set(tn.id, {
+              node: tn,
+              role: 'out',
+              r: 14,
+              x3d: spreadR * 0.68,
+              y3d: t * spreadR * 0.65,
+              z3d: ringRad * Math.sin(ang),
+            });
+          }
+          edgesToDraw.push({ source: target.id, target: tn.id, relation: e.relation, kind: 'out' });
+        });
+
+        updateInspector(target, rankNum);
+      } else if (rawQ && top10Results.length > 0) {
+        // ALL RESULTS MODE (3D Inner Core Constellation + 3D Outer Neighbor Cloud)
+        modeTitle = `3D Spatial Top ${top10Results.length} Results (#1–#${top10Results.length}) for "${rawQ}"`;
+        placeFibonacciSphereShell(top10Results, top10Results.length === 1 ? 0 : maxR * 0.36, 19, 'top10');
+
+        const neighborList = [];
+        top10Results.forEach(n => {
+          const outs = (OUT_EDGES.get(n.id) || []).slice(0, 6);
+          const ins = (IN_EDGES.get(n.id) || []).slice(0, 6);
+          outs.forEach(e => {
+            const tn = NODE_MAP.get(e.target);
+            if (tn && enabledTypes.has(tn.type)) {
+              if (!nodes3D.has(tn.id) && !neighborList.some(x => x.id === tn.id)) {
+                neighborList.push(tn);
+              }
+              edgesToDraw.push({ source: n.id, target: tn.id, relation: e.relation, kind: 'out' });
+            }
+          });
+          ins.forEach(e => {
+            const sn = NODE_MAP.get(e.source);
+            if (sn && enabledTypes.has(sn.type)) {
+              if (!nodes3D.has(sn.id) && !neighborList.some(x => x.id === sn.id)) {
+                neighborList.push(sn);
+              }
+              edgesToDraw.push({ source: sn.id, target: n.id, relation: e.relation, kind: 'in' });
+            }
+          });
+        });
+
+        placeFibonacciSphereShell(neighborList, maxR * 0.88, 11, 'neighbor');
+        updateInspector(top10Results[0], 1);
+      } else {
+        // SIMPLE, MEMORY-LIGHT 3D SPATIAL MULTI-SHELL SPHERE (Capped at Top 150 Hub Nodes & 200 Edges for Large Graphs)
+        const allFiltered = KG_DATA.nodes
+          .filter(n => enabledTypes.has(n.type))
+          .sort((a, b) => (DEGREE_MAP.get(b.id) || 0) - (DEGREE_MAP.get(a.id) || 0));
+        const MAX_3D_NODES = 150;
+        const MAX_3D_EDGES = 200;
+        const activeAll = allFiltered.length > MAX_3D_NODES ? allFiltered.slice(0, MAX_3D_NODES) : allFiltered;
+        const totalInTable = (KG_DATA.metadata && KG_DATA.metadata.total_vectors_in_table) || KG_DATA.nodes.length;
+        modeTitle = allFiltered.length > MAX_3D_NODES
+          ? `Full Codebase Graphical Knowledge Graph (Top ${activeAll.length} Hub Nodes of ${totalInTable} • 3D Spatial)`
+          : `Full Codebase Graphical Knowledge Graph (${activeAll.length} Nodes • 3D Spatial)`;
+
+        const shell1Types = new Set(['cluster_node', 'network_device', 'cluster_service', 'k8s_resource', 'document_file']);
+        const shell2Types = new Set(['python_module', 'html_template', 'dockerfile', 'yaml_config', 'env_config', 'config_file', 'requirements_file', 'document_section', 'document']);
+        const shell3Types = new Set(['shell_script', 'sql_file', 'python_class', 'topic_entity', 'api_endpoint']);
+
+        const shell1 = activeAll.filter(n => shell1Types.has(n.type));
+        const shell2 = activeAll.filter(n => shell2Types.has(n.type));
+        const shell3 = activeAll.filter(n => shell3Types.has(n.type));
+        const remaining = activeAll.filter(n => !shell1Types.has(n.type) && !shell2Types.has(n.type) && !shell3Types.has(n.type));
+
+        if (activeAll.length <= 30) {
+          placeFibonacciSphereShell(activeAll, maxR * 0.62, 16, 'core');
+        } else {
+          placeFibonacciSphereShell(shell1, maxR * 0.30, 14, 'core');
+          placeFibonacciSphereShell(shell2, maxR * 0.56, 11, 'mid');
+          placeFibonacciSphereShell(shell3, maxR * 0.80, 9, 'mid');
+          placeFibonacciSphereShell(remaining, maxR * 0.98, 7.5, 'outer');
+        }
+
+        for (let i = 0; i < KG_DATA.edges.length; i++) {
+          if (edgesToDraw.length >= MAX_3D_EDGES) break;
+          const e = KG_DATA.edges[i];
+          if (nodes3D.has(e.source) && nodes3D.has(e.target)) {
+            edgesToDraw.push({ source: e.source, target: e.target, relation: e.relation, kind: 'net' });
+          }
+        }
+        updateInspector(inspectedNodeId ? NODE_MAP.get(inspectedNodeId) : (top10Results[0] || null), rankLabels.get(inspectedNodeId));
+      }
+
+      _scene3D = { nodes3D, edgesToDraw, rankLabels, modeTitle, maxR };
+      document.getElementById('hud-mode-title').textContent = modeTitle;
+      document.getElementById('hud-node-count').textContent = nodes3D.size;
+      document.getElementById('hud-edge-count').textContent = edgesToDraw.length;
+      projectAndRender3DScene();
+    }
+
+    function projectAndRender3DScene() {
+      const vp = document.getElementById('kg-viewport');
+      const stage = document.getElementById('kg-graph-stage');
+      if (!vp || !stage) return;
+      const W = stage.clientWidth || 1280;
+      const H = stage.clientHeight || 720;
+      const cx = W / 2;
+      const cy = H / 2;
+      const rawQ = (document.getElementById('kg-search-input')?.value || '').trim();
+
+      const { nodes3D, edgesToDraw, rankLabels, maxR } = _scene3D;
+      if (!nodes3D) return;
+
+      const cosY = Math.cos(rotY), sinY = Math.sin(rotY);
+      const cosX = Math.cos(rotX), sinX = Math.sin(rotX);
+      const fov = Math.max(W, H) * 0.95;
+
+      const projected = new Map();
+      const sortedNodes = [];
+
+      nodes3D.forEach((info, id) => {
+        const x1 = info.x3d * cosY + info.z3d * sinY;
+        const z1 = -info.x3d * sinY + info.z3d * cosY;
+        const y2 = info.y3d * cosX - z1 * sinX;
+        const z2 = info.y3d * sinX + z1 * cosX;
+
+        const persp = fov / Math.max(120, fov + z2);
+        const sx = cx + x1 * persp;
+        const sy = cy + y2 * persp;
+        const sr = Math.max(2.3, info.r * persp);
+        const depthNorm = Math.max(0, Math.min(1, (maxR - z2) / Math.max(1, 2 * maxR)));
+
+        const pObj = {
+          id,
+          node: info.node,
+          role: info.role,
+          x: sx,
+          y: sy,
+          r: sr,
+          zCam: z2,
+          persp,
+          depthNorm,
+        };
+        projected.set(id, pObj);
+        sortedNodes.push(pObj);
+      });
+
+      // Painter's algorithm: sort back-to-front (largest zCam = furthest away drawn first)
+      sortedNodes.sort((a, b) => b.zCam - a.zCam);
+
+      // Draw subtle 3D Spatial Equatorial & Meridian Wireframe Rings for 3D depth reference
+      let svgGuides = '';
+      const ringRadius = maxR * 0.92;
+      const build3DRingPath = (axis) => {
+        const steps = 40;
+        let d = '';
+        for (let i = 0; i <= steps; i++) {
+          const ang = (2 * Math.PI * i) / steps;
+          let gx = 0, gy = 0, gz = 0;
+          if (axis === 'xz') {
+            gx = ringRadius * Math.cos(ang);
+            gz = ringRadius * Math.sin(ang);
+          } else if (axis === 'xy') {
+            gx = ringRadius * Math.cos(ang);
+            gy = ringRadius * Math.sin(ang) * 0.84;
+          } else {
+            gy = ringRadius * Math.cos(ang) * 0.84;
+            gz = ringRadius * Math.sin(ang);
+          }
+          const x1 = gx * cosY + gz * sinY;
+          const z1 = -gx * sinY + gz * cosY;
+          const y2 = gy * cosX - z1 * sinX;
+          const z2 = gy * sinX + z1 * cosX;
+          const p = fov / Math.max(120, fov + z2);
+          const px = cx + x1 * p;
+          const py = cy + y2 * p;
+          d += (i === 0 ? `M ${px.toFixed(1)} ${py.toFixed(1)}` : ` L ${px.toFixed(1)} ${py.toFixed(1)}`);
+        }
+        return d;
+      };
+      svgGuides += `<path d="${build3DRingPath('xz')}" fill="none" stroke="#1e293b" stroke-width="1" stroke-dasharray="5,5" opacity="0.55"/>`;
+      svgGuides += `<path d="${build3DRingPath('xy')}" fill="none" stroke="#1e293b" stroke-width="1" stroke-dasharray="3,6" opacity="0.4"/>`;
+
+      let svgEdges = svgGuides;
+      const isDenseFullGraph = (edgesToDraw.length > 350 && selectedResultMode === 'all' && !rawQ);
+      edgesToDraw.forEach(e => {
+        const p1 = projected.get(e.source);
+        const p2 = projected.get(e.target);
+        if (!p1 || !p2) return;
+        const avgDepth = (p1.depthNorm + p2.depthNorm) * 0.5;
+        if (isDenseFullGraph) {
+          const isHubEdge = rankLabels.has(e.source) || rankLabels.has(e.target);
+          if (!isHubEdge && avgDepth < 0.22) return;
+          const lStroke = isHubEdge ? '#38bdf8' : '#475569';
+          const lOp = (isHubEdge ? 0.58 : 0.14 + avgDepth * 0.28).toFixed(2);
+          const lW = isHubEdge ? '1.2' : (0.55 + avgDepth * 0.55).toFixed(2);
+          svgEdges += `<line x1="${p1.x.toFixed(1)}" y1="${p1.y.toFixed(1)}" x2="${p2.x.toFixed(1)}" y2="${p2.y.toFixed(1)}" stroke="${lStroke}" stroke-width="${lW}" opacity="${lOp}"/>`;
+          return;
+        }
+        const dx = p2.x - p1.x;
+        const dy = p2.y - p1.y;
+        const mx = (p1.x + p2.x) / 2 - dy * 0.07;
+        const my = (p1.y + p2.y) / 2 + dx * 0.07;
+
+        let stroke = '#38bdf8';
+        let opacity = (0.25 + avgDepth * 0.55).toFixed(2);
+        let width = (0.9 + avgDepth * 0.9).toFixed(2);
+        let marker = 'url(#arrow-net)';
+        if (e.kind === 'out') {
+          stroke = '#22c55e'; opacity = '0.86'; width = '2'; marker = 'url(#arrow-out)';
+        } else if (e.kind === 'in') {
+          stroke = '#f59e0b'; opacity = '0.86'; width = '2'; marker = 'url(#arrow-in)';
+        }
+
+        svgEdges += `<path d="M ${p1.x.toFixed(1)} ${p1.y.toFixed(1)} Q ${mx.toFixed(1)} ${my.toFixed(1)} ${p2.x.toFixed(1)} ${p2.y.toFixed(1)}" fill="none" stroke="${stroke}" stroke-width="${width}" opacity="${opacity}" marker-end="${marker}"/>`;
+        if (selectedResultMode !== 'all' && e.relation) {
+          svgEdges += `<text x="${mx.toFixed(1)}" y="${(my - 4).toFixed(1)}" text-anchor="middle" fill="#cbd5e1" font-size="9" font-family="monospace">${esc(e.relation.slice(0, 20))}</text>`;
+        }
+      });
+
+      let svgNodes = '';
+      const isDenseNodes = sortedNodes.length > 90;
+      sortedNodes.forEach(pObj => {
+        const id = pObj.id;
+        const n = pObj.node;
+        const col = typeColor(n.type);
+        const gradId = TYPE_COLORS[n.type] ? `grad3d-${n.type}` : 'grad3d-default';
+        const rank = rankLabels.get(id);
+        const shortName = (n.name || id).slice(0, 24);
+        const isTarget = pObj.role === 'target' || pObj.role === 'top10';
+        const isFrontHighlight = pObj.depthNorm > 0.72 && (n.type === 'cluster_node' || n.type === 'network_device' || n.type === 'document_file');
+        const alwaysShowLabel = !isDenseNodes || isTarget || Boolean(rank) || id === inspectedNodeId || isFrontHighlight;
+        const labelCls = alwaysShowLabel ? 'node-label-always' : 'node-label-auto';
+        const fpHint = n.file_path ? ` (${n.file_path})` : '';
+        const nodeAlpha = isTarget || rank ? 1.0 : Math.max(0.24, Math.min(1.0, 0.28 + pObj.depthNorm * 0.75));
+
+        svgNodes += `<g class="kg-node-group" opacity="${nodeAlpha.toFixed(2)}" transform="translate(${pObj.x.toFixed(1)},${pObj.y.toFixed(1)})" onmouseenter="isHoveringNode=true;highlightNodeEdges('${esc(id)}')" onmouseleave="isHoveringNode=false;clearHighlightNodeEdges()" onclick="onGraphNodeClick(event, '${esc(id)}')">`;
+        svgNodes += `<title>[${esc(n.type)}] ${esc(n.name)}${esc(fpHint)}
+${esc(n.description || '')}</title>`;
+        if (isTarget) {
+          svgNodes += `<ellipse rx="${(pObj.r + 8).toFixed(1)}" ry="${((pObj.r + 8) * 0.48).toFixed(1)}" fill="none" stroke="${col}" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.85"/>`;
+          svgNodes += `<circle r="${(pObj.r + 4).toFixed(1)}" fill="none" stroke="${col}" stroke-width="1.2" opacity="0.55"/>`;
+        }
+        svgNodes += `<circle class="node-core" r="${pObj.r.toFixed(1)}" fill="url(#${gradId})" stroke="${col}" stroke-width="${isTarget ? 2.4 : 1.1}"/>`;
+        if (rank) {
+          svgNodes += `<text x="0" y="3" text-anchor="middle" fill="#ffffff" font-size="${pObj.r >= 14 ? 9.5 : 7.5}" font-weight="800" font-family="monospace">#${rank}</text>`;
+        }
+        svgNodes += `<text class="${labelCls}" x="0" y="${(pObj.r + 11).toFixed(1)}" text-anchor="middle" fill="${alwaysShowLabel ? '#f8fafc' : '#38bdf8'}" font-size="${isTarget ? 11 : Math.max(8, 9.5 * pObj.persp).toFixed(1)}" font-weight="${isTarget || !alwaysShowLabel ? 700 : 500}" font-family="monospace">${esc(shortName)}</text>`;
+        svgNodes += `</g>`;
+      });
+
+      window._lastGraphPositions = projected;
+      window._lastVisibleNodes = nodes3D;
+      vp.innerHTML = `<g id="kg-base-edges">${svgEdges}</g><g id="kg-hover-edges"></g><g id="kg-nodes-layer">${svgNodes}</g>`;
+      applyTransform();
+    }
+
+    function toggle3DAutoSpin() {
+      autoSpin3D = !autoSpin3D;
+      const btn = document.getElementById('hud-3d-spin-btn');
+      if (btn) {
+        btn.textContent = autoSpin3D ? '🌐 3D Spin: ON' : '🌐 3D Spin: OFF';
+        btn.style.borderColor = autoSpin3D ? '#38bdf8' : '#475569';
+        btn.style.color = autoSpin3D ? '#38bdf8' : '#94a3b8';
+      }
+    }
+
+    function clearAndCompactGraphMemory() {
+      autoSpin3D = false;
+      const spinBtn = document.getElementById('hud-3d-spin-btn');
+      if (spinBtn) {
+        spinBtn.textContent = '🌐 3D Spin: OFF';
+        spinBtn.style.borderColor = '#475569';
+        spinBtn.style.color = '#94a3b8';
+      }
+      const hoverLayer = document.getElementById('kg-hover-edges');
+      if (hoverLayer) hoverLayer.innerHTML = '';
+      const drawer = document.getElementById('kg-prompt-drawer');
+      if (drawer) drawer.style.display = 'none';
+      const drawerBody = document.getElementById('kg-prompt-drawer-body');
+      if (drawerBody) drawerBody.textContent = '';
+      if (_scene3D && _scene3D.nodes3D) _scene3D.nodes3D.clear();
+      window._lastGraphPositions = null;
+      window._lastVisibleNodes = null;
+      inspectedNodeId = null;
+      selectedResultMode = 'all';
+      panX = 0; panY = 0; scale = 1;
+      rotY = -0.45; rotX = 0.28;
+      renderTopLineResultButtons();
+      renderGraphicalKnowledgeGraph();
+    }
+    window.freeGraphMemory = clearAndCompactGraphMemory;
+    window.addEventListener('pagehide', () => {
+      const vp = document.getElementById('kg-viewport');
+      if (vp) vp.innerHTML = '';
+      if (_scene3D && _scene3D.nodes3D) _scene3D.nodes3D.clear();
+      window._lastGraphPositions = null;
+      window._lastVisibleNodes = null;
+    });
+
+    function highlightNodeEdges(nodeId) {
+      const hoverLayer = document.getElementById('kg-hover-edges');
+      const positions = window._lastGraphPositions;
+      if (!hoverLayer || !positions || !positions.has(nodeId)) return;
+      const pSelf = positions.get(nodeId);
+      let html = '';
+      (OUT_EDGES.get(nodeId) || []).forEach(e => {
+        const pT = positions.get(e.target);
+        if (!pT) return;
+        html += `<line x1="${pSelf.x.toFixed(1)}" y1="${pSelf.y.toFixed(1)}" x2="${pT.x.toFixed(1)}" y2="${pT.y.toFixed(1)}" stroke="#22c55e" stroke-width="2.2" opacity="0.95" marker-end="url(#arrow-out)"/>`;
+      });
+      (IN_EDGES.get(nodeId) || []).forEach(e => {
+        const pS = positions.get(e.source);
+        if (!pS) return;
+        html += `<line x1="${pS.x.toFixed(1)}" y1="${pS.y.toFixed(1)}" x2="${pSelf.x.toFixed(1)}" y2="${pSelf.y.toFixed(1)}" stroke="#f59e0b" stroke-width="2.2" opacity="0.95" marker-end="url(#arrow-in)"/>`;
+      });
+      hoverLayer.innerHTML = html;
+    }
+
+    function clearHighlightNodeEdges() {
+      const hoverLayer = document.getElementById('kg-hover-edges');
+      if (hoverLayer) hoverLayer.innerHTML = '';
+    }
+
+    function onGraphNodeClick(evt, nodeId) {
+      evt.stopPropagation();
+      const n = NODE_MAP.get(nodeId);
+      if (!n) return;
+      inspectedNodeId = nodeId;
+      const rIdx = top10Results.findIndex(item => item.id === nodeId);
+      if (rIdx !== -1 && selectedResultMode !== rIdx) {
+        selectedResultMode = rIdx;
+        renderTopLineResultButtons();
+        renderGraphicalKnowledgeGraph();
+      } else {
+        focusNodeInGraph(nodeId);
+      }
+    }
+
+    function applyTransform() {
+      const vp = document.getElementById('kg-viewport');
+      vp.setAttribute('transform', `translate(${panX}, ${panY}) scale(${scale})`);
+      const svgEl = document.getElementById('kg-svg');
+      if (svgEl) {
+        if (scale >= 2.1) svgEl.classList.add('kg-zoomed-in');
+        else svgEl.classList.remove('kg-zoomed-in');
+      }
+    }
+
+    function zoomBy(factor) {
+      const stage = document.getElementById('kg-graph-stage');
+      const cx = (stage.clientWidth || 1280) / 2;
+      const cy = (stage.clientHeight || 720) / 2;
+      const newScale = Math.max(0.35, Math.min(3.5, scale * factor));
+      panX = cx - (cx - panX) * (newScale / scale);
+      panY = cy - (cy - panY) * (newScale / scale);
+      scale = newScale;
+      applyTransform();
+    }
+
+    function resetTransform() {
+      panX = 0; panY = 0; scale = 1;
+      rotY = -0.45; rotX = 0.28;
+      projectAndRender3DScene();
+    }
+
+    (function initStageInteraction() {
+      const stage = document.getElementById('kg-graph-stage');
+      stage.addEventListener('mousedown', e => {
+        if (e.target.closest('.kg-node-group') || e.target.closest('button') || e.target.closest('select')) return;
+        isDragging = true;
+        if (e.shiftKey || e.button === 2) {
+          dragMode = 'pan';
+          dragStartX = e.clientX - panX;
+          dragStartY = e.clientY - panY;
+        } else {
+          dragMode = 'orbit';
+          dragStartX = e.clientX;
+          dragStartY = e.clientY;
+          startRotY = rotY;
+          startRotX = rotX;
+        }
+        stage.classList.add('dragging');
+      });
+      window.addEventListener('mousemove', e => {
+        if (!isDragging) return;
+        if (dragMode === 'pan') {
+          panX = e.clientX - dragStartX;
+          panY = e.clientY - dragStartY;
+          applyTransform();
+        } else {
+          const dx = e.clientX - dragStartX;
+          const dy = e.clientY - dragStartY;
+          rotY = startRotY + dx * 0.0065;
+          rotX = Math.max(-1.42, Math.min(1.42, startRotX + dy * 0.0065));
+          projectAndRender3DScene();
+        }
+      });
+      window.addEventListener('mouseup', () => {
+        isDragging = false;
+        stage.classList.remove('dragging');
+      });
+      stage.addEventListener('wheel', e => {
+        e.preventDefault();
+        const factor = e.deltaY < 0 ? 1.12 : 0.89;
+        const rect = stage.getBoundingClientRect();
+        const mx = e.clientX - rect.left;
+        const my = e.clientY - rect.top;
+        const newScale = Math.max(0.35, Math.min(3.5, scale * factor));
+        panX = mx - (mx - panX) * (newScale / scale);
+        panY = my - (my - panY) * (newScale / scale);
+        scale = newScale;
+        applyTransform();
+      }, { passive: false });
+      window.addEventListener('resize', () => renderGraphicalKnowledgeGraph());
+
+      // Gentle 3D Spatial Auto-Rotation Loop
+      let lastTick = performance.now();
+      function animate3DLoop(now) {
+        const dt = now - lastTick;
+        lastTick = now;
+        if (autoSpin3D && !isDragging && !isHoveringNode && document.visibilityState !== 'hidden') {
+          rotY += (dt * 0.00022);
+          projectAndRender3DScene();
+        }
+        requestAnimationFrame(animate3DLoop);
+      }
+      requestAnimationFrame(animate3DLoop);
+    })();
+
+    function syncHashRankSelection() {
+      const h = window.location.hash || '';
+      const m = h.match(/^#(?:hit-kg-table-|tab-|rank-)?(\d+)$/);
+      if (m) {
+        const idx = parseInt(m[1], 10) - 1;
+        if (idx >= 0 && idx < top10Results.length) {
+          selectedResultMode = idx;
+          renderTopLineResultButtons();
+          renderGraphicalKnowledgeGraph();
+        }
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      const qParam = params.get('q') || KG_DATA.initial_query || '';
+      const inp = document.getElementById('kg-search-input');
+      if (qParam) {
+        inp.value = qParam;
+        document.getElementById('kg-search-clear').style.display = 'block';
+      }
+      renderCliFlagCheckboxes();
+      renderNodeOptionButtons();
+      recomputeResultsAndGraph();
+      syncHashRankSelection();
+    });
+    window.addEventListener('hashchange', syncHashRankSelection);
+    window.addEventListener('message', (evt) => {
+      if (evt && evt.data && evt.data.type === 'KG_TRACE_QUERY') {
+        const q = String(evt.data.query || '').trim();
+        const inp = document.getElementById('kg-search-input');
+        if (inp) {
+          inp.value = q;
+          const clr = document.getElementById('kg-search-clear');
+          if (clr) clr.style.display = q ? 'block' : 'none';
+          selectedResultMode = 'all';
+          recomputeResultsAndGraph();
+        }
+      }
+    });
+  </script>
+</body>
+</html>

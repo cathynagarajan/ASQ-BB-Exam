@@ -1,0 +1,85 @@
+{
+  "pii_scans_total": 78,
+  "pii_redactions_total": 12,
+  "pii_by_category": {
+    "pem_key": 0,
+    "api_key": 0,
+    "jwt": 0,
+    "secret_assign": 0,
+    "ssn": 0,
+    "credit_card": 0,
+    "email": 6,
+    "phone": 6
+  },
+  "mcp_tool_calls": {
+    "kg_rag_query": 0,
+    "kg_rag_upsert": 0,
+    "kg_gpu_pool_status": 0,
+    "kg_webhook_sync": 0,
+    "kg_pii_guardrail_scan": 0
+  },
+  "mcp_tool_latency_ms_sum": {
+    "kg_rag_query": 0.0,
+    "kg_rag_upsert": 0.0,
+    "kg_gpu_pool_status": 0.0,
+    "kg_webhook_sync": 0.0,
+    "kg_pii_guardrail_scan": 0.0
+  },
+  "recent_guardrail_events": [
+    {
+      "timestamp": "2026-11-15T00:22:10.240206+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
+    {
+      "timestamp": "2026-11-15T00:22:10.239468+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
+    {
+      "timestamp": "2026-11-15T00:22:10.235623+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
+    {
+      "timestamp": "2026-11-15T00:22:10.233740+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
+    {
+      "timestamp": "2026-11-14T23:41:39.184929+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
+    {
+      "timestamp": "2026-11-14T23:41:39.182862+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    }
+  ],
+  "updated_at": "2026-11-15T00:22:10.240213+00:00"
+}
