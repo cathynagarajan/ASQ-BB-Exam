@@ -3,8 +3,8 @@
     "label": "zedCheck",
     "command": "bash",
     "args": [
-      "-c",
-      "for p in \"/home/krithika/workspace/ASQ-BB-Exam/server/utils/watch-agent-activity.sh\" \"/home/krithika/workspace/ASQ-BB-Exam/.zed/watch-agent-activity.sh\" \"$HOME/container/kubernetes/server/utils/watch-agent-activity.sh\"; do [ -f \"$p\" ] && exec bash \"$p\"; done"
+      "-lc",
+      "exec \"$HOME/.local/bin/watch-agent\""
     ],
     "use_new_terminal": true,
     "allow_concurrent_runs": false,
@@ -27,6 +27,28 @@
     "args": [
       "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/query_kg.py",
       "--pre-commit-hook"
+    ],
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "watch-agent (Unified Agent & Subagent Monitor)",
+    "command": "bash",
+    "args": [
+      "-lc",
+      "exec \"$HOME/.local/bin/watch-agent\""
+    ],
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "watch-subagents (Delegated Subagents Only)",
+    "command": "bash",
+    "args": [
+      "-lc",
+      "exec \"$HOME/.local/bin/watch-subagents\""
     ],
     "use_new_terminal": true,
     "allow_concurrent_runs": false,

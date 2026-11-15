@@ -27,9 +27,12 @@
 
 ## 2. Bay Area / 100% Remote Job Applications State
 - **Hard Guardrails**:
-  - Minimum **120,000 USD+ salaried** base
-  - **100% Remote** OR **within 15–20 miles of Palo Alto, CA**
+  - Minimum **125,000 USD+ salaried** base (NEVER 70K–115K roles)
+  - **100% Remote** OR **Hybrid within 15–20 miles of Palo Alto, CA** (NO 5-day 100% onsite, NO SF commutes, NO physical/warehouse/lifting roles)
   - **100% Individual Contributor (IC)** — **ZERO direct reports / people management**
+  - **NO Heavy Analytics / SQL / Python / BI roles**
+  - **NEVER change Cathy's real employer job titles** (`Transportation Cost & Operations Analyst` [2016–Present], `Transportation Data & Contracts Specialist` [2015–2016], `Transportation & Logistics Specialist` [2014–2015], `EDI / Shipping & Procurement Specialist` [2010–2012])
+  - **Established / Stable Employers ONLY** (**NO startups**)
   - **100% Vegetarian-Aligned** — **NO meat, egg, poultry, seafood, or animal-slaughter companies**
   - **Skipped Employers**: Apple, Applied Materials, Supermicro, Cisco, Cardinal Health (low pay), Vital Farms (eggs); note Thermo Fisher `R-01357010` returned HTTP 410 (closed).
 - **10 Submitted Applications (2026-11-14)**:
@@ -43,4 +46,15 @@
   8. **Waymo (Alphabet)** — *Global Vendor Operations Manager* (`8348363`, Mountain View)
   9. **Zoox (Amazon)** — *Procurement Operations Manager* (`68996f74-85e8-435d-9369-906438670794`, Foster City)
   10. **Roblox** — *Vendor Operations, Automation* (`8174264`, San Mateo)
-- **NEXT JOB STEP**: Tailored resume `Job11_Google_Supply_Chain_Program_Manager_Sunnyvale.md` is ready in gitignored `Resume_And_Jobs/`, OR query live open Thermo Fisher Bay Area/Remote IC roles (`thermofisher.wd5.myworkdayjobs.com` — since `R-01357010` closed with HTTP 410).
+- **10 Submitted Applications — Day 2 (2026-11-15 — Project 1 Complete, 20 Total!)**:
+  11. **Wing (Alphabet)** — *Sourcing Manager* (`8929330002`, Palo Alto Hybrid)
+  12. **NVIDIA** — *Sr. Program Manager, Logistics & Fulfillment Tech* (`JR2021872`, Santa Clara)
+  13. **SB Energy** — *Sr. Program Manager, Project Logistics* (`6196705004`, Redwood City Hybrid)
+  14. **Robinhood** — *Senior Sourcing Manager* (`8211219`, Menlo Park Hybrid)
+  15. **Amgen** — *Strategic Sourcing Manager – Contract Mfg* (`R-260128`, 100% US Remote)
+  16. **Gilead Sciences** — *Resume-Matched Recommended Role #1* (Foster City)
+  17. **Gilead Sciences** — *Resume-Matched Recommended Role #2* (Foster City)
+  18. **Rubrik (NYSE: RBRK)** — *Sr. Strategic Sourcing Manager* (`8114559`, Palo Alto)
+  19. **Pure Storage (NYSE: PSTG)** — *Data Steward, MDM Supply Chain* (`8027649`, Santa Clara)
+  20. **GitLab (NASDAQ: GTLB)** — *Principal Strategic Sourcing Lead* (`8642786002`, 100% Remote US)
+- **NEXT JOB STEP**: Project 1 (10/10 Day-2 jobs) is COMPLETE! Now executing **Project 2: 50+ ASQ CSSBB Questions (`Q51`–`Q100+`)**.

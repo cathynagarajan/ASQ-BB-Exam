@@ -23,8 +23,11 @@
 
 ## 3. Job Search & Resume Guardrails
 - **Hard Filters**:
-  1. **Pay Floor**: Strictly **120,000 USD+ salaried** base pay.
-  2. **Location**: Strictly **100% Remote** OR **within 15 to 20 miles of Palo Alto, CA 94306**.
-  3. **Role Scope**: Strictly **Individual Contributor (IC) / Program / Category / Functional Lead ONLY** (**ZERO direct reports / people management**).
-  4. **Vegetarian Ethics**: Strictly **NO meat, egg, poultry, seafood, or animal-slaughter companies**.
-  5. **Privacy**: All resumes containing Cathy's phone/email stay strictly inside gitignored `/home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/` (`chmod 600`). Only PII-free trackers (`documents/CAREER_APPLICATIONS_TRACKER.md`, `chats/SHARED_SESSION_STATE.md`) are committed to Git and the Knowledge Graph (`kg_vectors_asq_bb_exam`).
+  1. **Pay Floor**: Strictly **125,000 USD+ salaried** base pay (NEVER 70K–115K roles).
+  2. **Location & Work Mode**: Strictly **100% Remote** OR **Hybrid within 15 to 20 miles of Palo Alto, CA 94306** (NO 5-day 100% onsite, NO SF commutes, NO physical/warehouse/lifting roles).
+  3. **Role Scope**: Strictly **Individual Contributor (IC) ONLY** (**ZERO direct reports / people management**).
+  4. **No Heavy Analytics**: Strictly **NO SQL / Python / BI / data-analytics-heavy roles**.
+  5. **NEVER Change Job Titles**: Keep Cathy's exact official titles word-for-word (`Transportation Cost & Operations Analyst` [2016–Present], `Transportation Data & Contracts Specialist` [2015–2016], `Transportation & Logistics Specialist` [2014–2015], `EDI / Shipping & Procurement Specialist` [2010–2012]) so background checks match 100%.
+  6. **Vegetarian Ethics**: Strictly **NO meat, egg, poultry, seafood, or animal-slaughter companies**.
+  7. **Privacy**: All resumes containing Cathy's phone/email stay strictly inside gitignored `/home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/` (`chmod 600`). Only PII-free trackers (`documents/CAREER_APPLICATIONS_TRACKER.md`, `chats/SHARED_SESSION_STATE.md`) are committed to Git and the Knowledge Graph (`kg_vectors_asq_bb_exam`).
+  8. **Stability**: Strictly **established / stable employers ONLY** (**NO startups**).
