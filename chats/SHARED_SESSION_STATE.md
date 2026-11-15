@@ -26,7 +26,7 @@
   10. `V.C.2` Stability over time (`Q81`) & Linearity (`Q72`)
   11. `V.E.2` Hypergeometric (small finite lot without replacement) (`Q86`)
   12. `VI.B.3` & `VI.B.4` One-Way ANOVA (3+ Normal means, `Q97`) & Non-Parametric Test Map (Kruskal-Wallis vs Mann-Whitney U vs Paired Wilcoxon, `Q98`)
-- **NEXT EXAM STEP**: Pause and wait for Cathy to say **"ready"** (offer slow 5-question micro-sets going forward due to Tamoxifen/Plaquenil brain fog!). Next topic: `VI. Analyze Phase` (`Q101+` — Hypothesis Test & Non-Parametric map review, Chi-Square, Two-Way ANOVA, Residual Analysis, Risk Mgmt). **COACHING RULE**: Never send next set until Cathy says "ready"; keep pace gentle (5–10 Qs max as requested); always print full question text when explaining missed/guessed Qs slowly.
+- **NEXT EXAM STEP**: Pause and wait for Cathy to say **"ready"**. **NEW STUDY MODE (Requested by Cathy)**: **1 Topic at a Time (10 questions on a single topic, e.g., Hypothesis Testing, Chi-Square, DOE, SPC, Lean, etc.)** so her brain only focuses on 1 mental model per set! Next topic queue: `VI. Analyze Phase` (`Q101+`: Topic 1 = Hypothesis Test Selection & p-value/Errors, Topic 2 = Chi-Square & Non-Parametric, Topic 3 = Regression & Residuals, Topic 4 = Risk Mgmt & FMEA), then `VII. Improve`, `VIII. Control`, `IX. DFSS`. **COACHING RULE**: Never send next set until Cathy says "ready"; always print full question text when explaining missed/guessed Qs slowly.
 
 ---
 

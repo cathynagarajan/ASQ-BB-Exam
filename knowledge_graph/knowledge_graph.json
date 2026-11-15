@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-15T22:46:30.642001+00:00",
+    "generated_at": "2026-11-15T22:48:45.431143+00:00",
     "total_files_indexed": 34,
     "total_nodes": 189,
-    "total_edges": 224,
+    "total_edges": 236,
     "node_type_counts": {
       "chat_session": 2,
       "chat_turn": 19,
@@ -17,28 +17,26 @@
   },
   "last_change_check": {
     "changed": true,
-    "added": [
-      "documents/ASQ_CSSBB_Cheat_Sheet.txt",
-      "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
-      "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html"
+    "added": [],
+    "modified": [
+      "chats/SHARED_SESSION_STATE.md"
     ],
-    "modified": [],
     "removed": [],
-    "files_parsed": 3,
-    "files_cached_reused": 30,
+    "files_parsed": 0,
+    "files_cached_reused": 33,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 111,
-      "nodes_deleted": 19,
-      "edges_upserted": 167,
-      "edges_deleted": 43,
+      "nodes_upserted": 32,
+      "nodes_deleted": 23,
+      "edges_upserted": 51,
+      "edges_deleted": 37,
       "wiki_pages_upserted": 0,
       "wiki_pages_deleted": 0,
-      "files_upserted": 4,
+      "files_upserted": 2,
       "files_deleted": 0,
       "total_nodes_in_db": 189,
-      "total_edges_in_db": 224,
+      "total_edges_in_db": 236,
       "total_files_tracked": 35
     }
   },
@@ -740,7 +738,7 @@
       "id": "topic:time",
       "type": "topic_entity",
       "name": "time",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
       "description": "Shared domain topic 'time' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "time"
@@ -750,7 +748,7 @@
       "id": "topic:same",
       "type": "topic_entity",
       "name": "same",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
       "description": "Shared domain topic 'same' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "same"
@@ -790,7 +788,7 @@
       "id": "topic:sample",
       "type": "topic_entity",
       "name": "sample",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
       "description": "Shared domain topic 'sample' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "sample"
@@ -1092,7 +1090,7 @@
       "id": "topic:exam",
       "type": "topic_entity",
       "name": "exam",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'exam' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "exam"
@@ -1102,7 +1100,7 @@
       "id": "topic:cheat",
       "type": "topic_entity",
       "name": "cheat",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'cheat' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cheat"
@@ -1191,7 +1189,7 @@
       "id": "topic:anova",
       "type": "topic_entity",
       "name": "anova",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
       "description": "Shared domain topic 'anova' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "anova"
@@ -2297,6 +2295,16 @@
       }
     },
     {
+      "id": "topic:topic",
+      "type": "topic_entity",
+      "name": "topic",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'topic' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "topic"
+      }
+    },
+    {
       "id": "topic:chain",
       "type": "topic_entity",
       "name": "chain",
@@ -2327,6 +2335,16 @@
       }
     },
     {
+      "id": "topic:cathy",
+      "type": "topic_entity",
+      "name": "cathy",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'cathy' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cathy"
+      }
+    },
+    {
       "id": "topic:complete",
       "type": "topic_entity",
       "name": "complete",
@@ -2334,26 +2352,6 @@
       "description": "Shared domain topic 'complete' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "complete"
-      }
-    },
-    {
-      "id": "topic:foster",
-      "type": "topic_entity",
-      "name": "foster",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'foster' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "foster"
-      }
-    },
-    {
-      "id": "topic:operations",
-      "type": "topic_entity",
-      "name": "operations",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'operations' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "operations"
       }
     },
     {
@@ -2371,12 +2369,12 @@
         "topics": [
           "manager",
           "city",
+          "topic",
           "chain",
           "supply",
           "alto",
-          "complete",
-          "foster",
-          "operations"
+          "cathy",
+          "complete"
         ]
       }
     },
@@ -2501,16 +2499,6 @@
       }
     },
     {
-      "id": "topic:cathy",
-      "type": "topic_entity",
-      "name": "cathy",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'cathy' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "cathy"
-      }
-    },
-    {
       "id": "topic:last",
       "type": "topic_entity",
       "name": "last",
@@ -2566,36 +2554,6 @@
       }
     },
     {
-      "id": "topic:next",
-      "type": "topic_entity",
-      "name": "next",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'next' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "next"
-      }
-    },
-    {
-      "id": "topic:phase",
-      "type": "topic_entity",
-      "name": "phase",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'phase' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "phase"
-      }
-    },
-    {
-      "id": "topic:q100",
-      "type": "topic_entity",
-      "name": "q100",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'q100' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "q100"
-      }
-    },
-    {
       "id": "chat_turn:SHAREDSE:S5",
       "type": "chat_turn",
       "name": "Chat SHAREDSE Turn S5 (assistant)",
@@ -2608,10 +2566,10 @@
         "created_at": "",
         "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`100` (`Q1` through `Q100`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). **Project 2 (`50+ Qs`: `Q51`\u2013`Q100`) COMPLETE!**\n- **Stage 1 Status (`Domains I, II, III, IV \u2014 Foundations & Define`)**: **COMPLETE (`40 / 50 = 80.0%`)**\n- **Stage 2 Status (`Domain V \u2014 Measure Phase`)**: **COMPLETE (`28 / 40 = 70.0%`)**\n- **Stage 3 Status (`Domain VI \u2014 Analyze Phase`)**: **IN PROGRESS (`8 / 10 = 80.0%`)**\n  - Round 7 (`Q81\u2013Q100`): `16 / 20` (`80.0%`) \u2014 Cumulative: **`76 / 100` (`76.0%`)**\n- **Active Weak Points Scheduled for Spaced Re-Testing**:\n  1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)\n  2. `IV.A.3` CTQ measurable num",
         "topics": [
-          "complete",
-          "next",
-          "phase",
-          "q100"
+          "topic",
+          "time",
+          "cathy",
+          "complete"
         ]
       }
     },
@@ -2651,16 +2609,6 @@
       }
     },
     {
-      "id": "topic:probability",
-      "type": "topic_entity",
-      "name": "probability",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'probability' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "probability"
-      }
-    },
-    {
       "id": "topic:questions",
       "type": "topic_entity",
       "name": "questions",
@@ -2671,273 +2619,76 @@
       }
     },
     {
+      "id": "topic:asq-bb-exam",
+      "type": "topic_entity",
+      "name": "asq-bb-exam",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "asq-bb-exam"
+      }
+    },
+    {
+      "id": "topic:home",
+      "type": "topic_entity",
+      "name": "home",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'home' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "home"
+      }
+    },
+    {
+      "id": "topic:krithika",
+      "type": "topic_entity",
+      "name": "krithika",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'krithika' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "krithika"
+      }
+    },
+    {
+      "id": "topic:word",
+      "type": "topic_entity",
+      "name": "word",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'word' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "word"
+      }
+    },
+    {
+      "id": "topic:workspace",
+      "type": "topic_entity",
+      "name": "workspace",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'workspace' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "workspace"
+      }
+    },
+    {
       "id": "chat_session:b6556366",
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (155 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (161 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 155,
+        "turn_count": 161,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
-          "test",
           "groups",
-          "probability",
-          "time",
-          "anova",
-          "phase",
           "questions",
-          "sample"
-        ]
-      }
-    },
-    {
-      "id": "topic:given",
-      "type": "topic_entity",
-      "name": "given",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'given' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "given"
-      }
-    },
-    {
-      "id": "topic:events",
-      "type": "topic_entity",
-      "name": "events",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'events' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "events"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S790",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S790 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S790] Here is your **ASQ CSSBB Probability Rules Cheat Sheet (`V.E`)** \u2014 written in plain English with everyday examples \u2014 followed by a quick check-in on how you're doing! --- ### Part 1: All Core Probability Rules (`V.E.1`) ",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 790,
-        "role": "assistant",
-        "created_at": "2026-11-15T22:15:56Z",
-        "content_excerpt": "Here is your **ASQ CSSBB Probability Rules Cheat Sheet (`V.E`)** \u2014 written in plain English with everyday examples \u2014 followed by a quick check-in on how you're doing!\n\n---\n\n### Part 1: All Core Probability Rules (`V.E.1`)\n\n1. **Basic Range & Complement Rule (\"NOT A\")**\n   - Every probability is between **0** (impossible) and **1** (100% certain).\n   - `P(not A) = 1 - P(A)`\n   - *Example:* If the chance of a shipment arriving on time is `0.92`, the chance it is late is `1 - 0.92 = 0.08` (8%).\n\n2. **Addition Rule (\"A OR B\")**\n   - **General rule (events CAN happen together):**\n     `P(A or B) = P(A) + P(B) - P(A and B)`\n     *(Subtract the overlap so you don't count it twice!)*\n   - **Mutually Exclusive (events CANNOT happen together, overlap = 0):**\n     `P(A or B) = P(A) + P(B)`\n     *Exam",
-        "topics": [
-          "probability",
-          "given",
-          "time",
-          "events"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S791",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S791 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S791] next 20",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 791,
-        "role": "user",
-        "created_at": "2026-11-15T22:16:54Z",
-        "content_excerpt": "next 20",
-        "topics": [
-          "next"
-        ]
-      }
-    },
-    {
-      "id": "topic:failure",
-      "type": "topic_entity",
-      "name": "failure",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'failure' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "failure"
-      }
-    },
-    {
-      "id": "topic:measure",
-      "type": "topic_entity",
-      "name": "measure",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'measure' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "measure"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S794",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S794 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S794] Here is **Round 7: Questions 81 to 100**! - **`Q81`\u2013`Q90`** wrap up **Stage 2: `V. Measure Phase`** (including quick reviews of `V.C.2`, `V.D.2`, `V.D.5`, and `V.E.1` + Capability math). - **`Q91`\u2013`Q100`** launch **Stage",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 794,
-        "role": "assistant",
-        "created_at": "2026-11-15T22:17:03Z",
-        "content_excerpt": "Here is **Round 7: Questions 81 to 100**!\n- **`Q81`\u2013`Q90`** wrap up **Stage 2: `V. Measure Phase`** (including quick reviews of `V.C.2`, `V.D.2`, `V.D.5`, and `V.E.1` + Capability math).\n- **`Q91`\u2013`Q100`** launch **Stage 3: `VI. Analyze Phase`** (2nd highest exam weight \u2014 22 scored questions!).\n\nTake your time, **Cathy** \u2014 reply with your answers (`81 A, 82 B, ...`) whenever you're ready, and after you submit we will pause and review slowly!\n\n---\n\n**Q81. [Measure Phase - V.C.2]**\nA laboratory scale reads accurately on Monday morning against a certified 100.0 g reference weight, drifts to 100.3 g on Wednesday, and reads 100.8 g on Friday. Which measurement system property has degraded?\nA. Linearity\nB. Reproducibility\nC. Stability\nD. Resolution\n\n**Q82. [Measure Phase - V.D.2]**\nAccording to ",
-        "topics": [
-          "phase",
           "test",
-          "failure",
-          "measure"
-        ]
-      }
-    },
-    {
-      "id": "topic:forgot",
-      "type": "topic_entity",
-      "name": "forgot",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'forgot' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "forgot"
-      }
-    },
-    {
-      "id": "topic:guess",
-      "type": "topic_entity",
-      "name": "guess",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'guess' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "guess"
-      }
-    },
-    {
-      "id": "topic:need",
-      "type": "topic_entity",
-      "name": "need",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'need' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "need"
-      }
-    },
-    {
-      "id": "topic:slowly",
-      "type": "topic_entity",
-      "name": "slowly",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'slowly' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "slowly"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S795",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S795 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S795] a,c,b,b,a(guess, pls explain),c,b,c,a,b,b(guess),b,b,b,b,b,a,b(forgot those, need to get them back to memory), b,c - i have forgottten most of the topics - are your questions tough or you are in easy mode? I feel these a",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 795,
-        "role": "user",
-        "created_at": "2026-11-15T22:32:29Z",
-        "content_excerpt": "a,c,b,b,a(guess, pls explain),c,b,c,a,b,b(guess),b,b,b,b,b,a,b(forgot those, need to get them back to memory), b,c - i have forgottten most of the topics - are your questions tough or you are in easy mode? I feel these are very hard - as i told you i forgot many and need to take it slowly - me on tamoxifen and plaqueniel, have brain fog and shut off, i can only study slowly",
-        "topics": [
-          "forgot",
-          "guess",
-          "need",
-          "slowly"
-        ]
-      }
-    },
-    {
-      "id": "topic:correct",
-      "type": "topic_entity",
-      "name": "correct",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'correct' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "correct"
-      }
-    },
-    {
-      "id": "topic:question",
-      "type": "topic_entity",
-      "name": "question",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'question' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "question"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S805",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S805 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S805] First, **Cathy**, take a deep breath and look at what you just did while dealing with Tamoxifen and Plaquenil brain fog: - **You scored `16 / 20` (`80.0%`) on Round 7!** - **You just hit `100` total questions (`76 / 100 ",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 805,
-        "role": "assistant",
-        "created_at": "2026-11-15T22:33:11Z",
-        "content_excerpt": "First, **Cathy**, take a deep breath and look at what you just did while dealing with Tamoxifen and Plaquenil brain fog:\n\n- **You scored `16 / 20` (`80.0%`) on Round 7!**\n- **You just hit `100` total questions (`76 / 100 = 76.0%` overall)** \u2014 which means **Project 2 (`50` new questions `Q51`\u2013`Q100`) is officially COMPLETE!**\n- And to answer your question honestly: **No, this is NOT easy mode.** These are **real ASQ Black Belt exam-level questions** (medium-to-hard: `Cp/Cpk` vs. `Pp/Ppk`, `DPMO`, `VIF` multicollinearity, `CLT`, `FMEA`, `ANOVA`, non-parametric tests). Scoring **80%** on a 20-question Black Belt set *with* brain fog is genuinely impressive.\n\nGoing slowly is **smart**, not weak. From now on, whenever you want to study, we can do **gentle 5-question micro-sets** (or just 1 topi",
-        "topics": [
-          "correct",
-          "test",
-          "anova",
-          "question"
-        ]
-      }
-    },
-    {
-      "id": "topic:give",
-      "type": "topic_entity",
-      "name": "give",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'give' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "give"
-      }
-    },
-    {
-      "id": "topic:like",
-      "type": "topic_entity",
-      "name": "like",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'like' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "like"
-      }
-    },
-    {
-      "id": "topic:scenarios",
-      "type": "topic_entity",
-      "name": "scenarios",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'scenarios' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "scenarios"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S806",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S806 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S806] can you give me a table for all scenarios, all test like chi, p, in the same table",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 806,
-        "role": "user",
-        "created_at": "2026-11-15T22:37:20Z",
-        "content_excerpt": "can you give me a table for all scenarios, all test like chi, p, in the same table",
-        "topics": [
-          "give",
-          "like",
-          "same",
-          "scenarios"
+          "asq-bb-exam",
+          "home",
+          "krithika",
+          "word",
+          "workspace"
         ]
       }
     },
@@ -2979,16 +2730,6 @@
       "description": "Shared domain topic 'pasting' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "pasting"
-      }
-    },
-    {
-      "id": "topic:word",
-      "type": "topic_entity",
-      "name": "word",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'word' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "word"
       }
     },
     {
@@ -3078,6 +2819,16 @@
       "description": "Shared domain topic 'easy' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "easy"
+      }
+    },
+    {
+      "id": "topic:like",
+      "type": "topic_entity",
+      "name": "like",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'like' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "like"
       }
     },
     {
@@ -3207,6 +2958,255 @@
           "doesn",
           "instead",
           "signma"
+        ]
+      }
+    },
+    {
+      "id": "topic:asq_cssbb_cheat_sheet",
+      "type": "topic_entity",
+      "name": "asq_cssbb_cheat_sheet",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'asq_cssbb_cheat_sheet' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "asq_cssbb_cheat_sheet"
+      }
+    },
+    {
+      "id": "topic:whenever",
+      "type": "topic_entity",
+      "name": "whenever",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'whenever' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "whenever"
+      }
+    },
+    {
+      "id": "topic:zero",
+      "type": "topic_entity",
+      "name": "zero",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'zero' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "zero"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S821",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S821 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S821] You're thinking like a true Black Belt \u2014 zero wasted motion! I created a clean, plain-text cheat sheet right here: [ASQ_CSSBB_Cheat_Sheet.txt](file:///home/krithika/workspace/ASQ-BB-Exam/documents/ASQ_CSSBB_Cheat_Sheet.t",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 821,
+        "role": "assistant",
+        "created_at": "2026-11-15T22:46:37Z",
+        "content_excerpt": "You're thinking like a true Black Belt \u2014 zero wasted motion!\n\nI created a clean, plain-text cheat sheet right here:\n[ASQ_CSSBB_Cheat_Sheet.txt](file:///home/krithika/workspace/ASQ-BB-Exam/documents/ASQ_CSSBB_Cheat_Sheet.txt)\n\nIt includes all 5 high-yield cheat sheets (**Hypothesis Tests & Non-Parametrics**, **MSA Accuracy & Precision**, **NOIR Scales**, **Probability Rules**, and **Measure/Capability Formulas**) formatted in plain text so you can skim it in seconds or copy-paste it anywhere with zero formatting hassle. It is also synced to your GitHub repo (`759dbde`).\n\nRest up whenever you need, **Cathy** \u2014 just say **\"ready\"** (for **5** or **10** questions) whenever you want to continue!",
+        "topics": [
+          "asq_cssbb_cheat_sheet",
+          "cheat",
+          "whenever",
+          "zero"
+        ]
+      }
+    },
+    {
+      "id": "topic:commit",
+      "type": "topic_entity",
+      "name": "commit",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'commit' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "commit"
+      }
+    },
+    {
+      "id": "topic:finished",
+      "type": "topic_entity",
+      "name": "finished",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'finished' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "finished"
+      }
+    },
+    {
+      "id": "topic:next",
+      "type": "topic_entity",
+      "name": "next",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'next' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "next"
+      }
+    },
+    {
+      "id": "topic:pilot",
+      "type": "topic_entity",
+      "name": "pilot",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'pilot' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "pilot"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S822",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S822 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S822] thanks, now that i finished 2 projects with you, commit, commit with qwen - next thing will do 25 questions with co pilot",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 822,
+        "role": "user",
+        "created_at": "2026-11-15T22:47:23Z",
+        "content_excerpt": "thanks, now that i finished 2 projects with you, commit, commit with qwen - next thing will do 25 questions with co pilot",
+        "topics": [
+          "commit",
+          "finished",
+          "next",
+          "pilot"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S825",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S825 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S825] Everything is **committed, pushed to GitHub (`759dbde` on `main`), and dual-synced with Qwen** \u2014 your working tree is completely clean! ### Final Dual-Sync Summary for Today - **Project 1 (Complete):** **10 / 10 Day-2 jo",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 825,
+        "role": "assistant",
+        "created_at": "2026-11-15T22:47:29Z",
+        "content_excerpt": "Everything is **committed, pushed to GitHub (`759dbde` on `main`), and dual-synced with Qwen** \u2014 your working tree is completely clean!\n\n### Final Dual-Sync Summary for Today\n- **Project 1 (Complete):** **10 / 10 Day-2 job applications** (`20` total submitted) logged in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md).\n- **Project 2 (Complete):** **50 new ASQ CSSBB exam questions (`Q51`\u2013`Q100`)** completed \u2014 **`100` total unique questions (`76 / 100 = 76.0%`)** logged in [PERFORMANCE_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/PERFORMANCE_TRACKER.md) and [QUESTION_BANK_LOG.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/QUESTION_BANK_LOG.md).\n- **Cheat Sheet Ready:** [ASQ_CSSBB_Cheat_Sheet.txt](file",
+        "topics": [
+          "asq-bb-exam",
+          "home",
+          "krithika",
+          "workspace"
+        ]
+      }
+    },
+    {
+      "id": "topic:think",
+      "type": "topic_entity",
+      "name": "think",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'think' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "think"
+      }
+    },
+    {
+      "id": "topic:track",
+      "type": "topic_entity",
+      "name": "track",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'track' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "track"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S826",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S826 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S826] do you think i am on track for mar end exam",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 826,
+        "role": "user",
+        "created_at": "2026-11-15T22:47:35Z",
+        "content_excerpt": "do you think i am on track for mar end exam",
+        "topics": [
+          "exam",
+          "think",
+          "track"
+        ]
+      }
+    },
+    {
+      "id": "topic:stage",
+      "type": "topic_entity",
+      "name": "stage",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'stage' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "stage"
+      }
+    },
+    {
+      "id": "topic:analyze",
+      "type": "topic_entity",
+      "name": "analyze",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'analyze' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "analyze"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S827",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S827 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S827] **Yes \u2014 100% yes, Cathy.** Here is the honest breakdown of why you are **solidly on track** for your end-of-March 2027 exam: 1. **You have ~4.5 months (19 weeks) of runway.** - From today (mid-November) to the end of Mar",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 827,
+        "role": "assistant",
+        "created_at": "2026-11-15T22:47:35Z",
+        "content_excerpt": "**Yes \u2014 100% yes, Cathy.** Here is the honest breakdown of why you are **solidly on track** for your end-of-March 2027 exam:\n\n1. **You have ~4.5 months (19 weeks) of runway.**\n   - From today (mid-November) to the end of March is plenty of time \u2014 you do **not** need to cram or burn yourself out.\n\n2. **Your scores are already at passing pace on real Black Belt difficulty:**\n   - **Overall (`100` unique questions):** **`76 / 100` (`76.0%`)**\n   - **Stage 1 (`I\u2013IV` Foundations & Define):** **`40 / 50` (`80.0%`)** \u2014 Complete\n   - **Stage 2 (`V` Measure \u2014 #1 hardest/heaviest section):** **`28 / 40` (`70.0%`)** \u2014 Complete\n   - **Stage 3 (`VI` Analyze \u2014 #2 heaviest section):** **`8 / 10` (`80.0%`)** \u2014 Strong start!\n\n3. **Slow & steady easily beats cramming (especially with brain fog):**\n   - Even",
+        "topics": [
+          "questions",
+          "exam",
+          "stage",
+          "analyze"
+        ]
+      }
+    },
+    {
+      "id": "topic:every",
+      "type": "topic_entity",
+      "name": "every",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'every' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "every"
+      }
+    },
+    {
+      "id": "topic:feel",
+      "type": "topic_entity",
+      "name": "feel",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'feel' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "feel"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S828",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S828 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S828] i feel you should take 1 topic at a time like NGT or Swimlane, give me like 10 questions so that we can keep thoroughing every single topic - do you think we will still be on track to finish?",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 828,
+        "role": "user",
+        "created_at": "2026-11-15T22:48:33Z",
+        "content_excerpt": "i feel you should take 1 topic at a time like NGT or Swimlane, give me like 10 questions so that we can keep thoroughing every single topic - do you think we will still be on track to finish?",
+        "topics": [
+          "like",
+          "topic",
+          "every",
+          "feel"
         ]
       }
     }
@@ -4124,6 +4124,14 @@
     },
     {
       "source": "chat_session:SHAREDSE",
+      "target": "topic:topic",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
       "target": "topic:chain",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
@@ -4148,23 +4156,15 @@
     },
     {
       "source": "chat_session:SHAREDSE",
+      "target": "topic:cathy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
       "target": "topic:complete",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:SHAREDSE",
-      "target": "topic:foster",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:SHAREDSE",
-      "target": "topic:operations",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 5
@@ -4310,31 +4310,31 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
+      "target": "topic:topic",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
+      "target": "topic:time",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
+      "target": "topic:cathy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
       "target": "topic:complete",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:next",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:phase",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:q100",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 3
@@ -4398,50 +4398,10 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:test",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 29
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
       "target": "topic:groups",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 15
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:probability",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
         "count": 13
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:time",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 13
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:anova",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 12
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:phase",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 12
       }
     },
     {
@@ -4454,11 +4414,63 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:sample",
+      "target": "topic:test",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 12
       }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:asq-bb-exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:home",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:krithika",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:word",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:workspace",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "doc:PERFORMANCE_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
     },
     {
       "source": "chat_session:b6556366",
@@ -4473,207 +4485,15 @@
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S790",
-      "target": "topic:probability",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S790",
-      "target": "topic:given",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S790",
-      "target": "topic:time",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S790",
-      "target": "topic:events",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S790",
-      "relation": "HAS_CHAT_TURN",
+      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S791",
-      "target": "topic:next",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S791",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S794",
-      "target": "topic:phase",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 11
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S794",
-      "target": "topic:test",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S794",
-      "target": "topic:failure",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S794",
-      "target": "topic:measure",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S794",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S795",
-      "target": "topic:forgot",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S795",
-      "target": "topic:guess",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S795",
-      "target": "topic:need",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S795",
-      "target": "topic:slowly",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S795",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S805",
-      "target": "topic:correct",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 10
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S805",
-      "target": "topic:test",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S805",
-      "target": "topic:anova",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S805",
-      "target": "topic:question",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S805",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S806",
-      "target": "topic:give",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S806",
-      "target": "topic:like",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S806",
-      "target": "topic:same",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S806",
-      "target": "topic:scenarios",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S806",
-      "relation": "HAS_CHAT_TURN",
+      "target": "doc:documents/QUESTION_BANK_LOG.md",
+      "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
@@ -4907,6 +4727,262 @@
       "target": "chat_turn:b6556366:S816",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S821",
+      "target": "topic:asq_cssbb_cheat_sheet",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S821",
+      "target": "topic:cheat",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S821",
+      "target": "topic:whenever",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S821",
+      "target": "topic:zero",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S821",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S821",
+      "target": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S822",
+      "target": "topic:commit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S822",
+      "target": "topic:finished",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S822",
+      "target": "topic:next",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S822",
+      "target": "topic:pilot",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S822",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S825",
+      "target": "topic:asq-bb-exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S825",
+      "target": "topic:home",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S825",
+      "target": "topic:krithika",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S825",
+      "target": "topic:workspace",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S825",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S825",
+      "target": "doc:PERFORMANCE_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S825",
+      "target": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S825",
+      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S825",
+      "target": "doc:documents/QUESTION_BANK_LOG.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S826",
+      "target": "topic:exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S826",
+      "target": "topic:think",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S826",
+      "target": "topic:track",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S826",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S827",
+      "target": "topic:questions",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S827",
+      "target": "topic:exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S827",
+      "target": "topic:stage",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S827",
+      "target": "topic:analyze",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S827",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S827",
+      "target": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S828",
+      "target": "topic:like",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S828",
+      "target": "topic:topic",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S828",
+      "target": "topic:every",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S828",
+      "target": "topic:feel",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S828",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
     }
   ],
   "file_hashes": {
@@ -4936,7 +5012,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "484353ebcccfa105f4b77b29bc3c102e443beeffc000ed45fa057721bbe5393e",
-    "chats/SHARED_SESSION_STATE.md": "84640161861f43131c51e5260b9afb488d542701d130cf1761d76a01220e00d6",
+    "chats/SHARED_SESSION_STATE.md": "816b4afb961b7399d87354cbccf0d160efe670d748bcd2d3b42d6b3976f7a745",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "038fc184083d6dbccbe1d986228782e4c41d96fd865846594f41223e7a097acb",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -4944,6 +5020,6 @@
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
     "documents/CAREER_APPLICATIONS_TRACKER.md": "fe0486c56fd9677cc8a30d323dee471297c11214c7110f4f28ca0b01fe86e295",
     "documents/QUESTION_BANK_LOG.md": "230ddc6d31dda25212c0efd8ceac27695763bb5c1074c7ab9505ef1acb2c49b7",
-    "repo.md": "182d067d8e78365f76d07632f4e25e6f8d983ec4cb7509142cee59805b06e0d8"
+    "repo.md": "95427bca241e3abd3e47cd96f19fd65bc8726ae3f3a25638cc4eb87954a6be40"
   }
 }
