@@ -8,11 +8,11 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`100` (`Q1` through `Q100`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). **Project 2 (`50+ Qs`: `Q51`–`Q100`) COMPLETE!**
+- **Completed Unique Questions**: **`125` (`Q1`–`Q100` + Copilot `C1`–`C25`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). **Project 2 (`50+ Qs`: `Q51`–`Q100`) COMPLETE!**
 - **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **COMPLETE (`40 / 50 = 80.0%`)**
 - **Stage 2 Status (`Domain V — Measure Phase`)**: **COMPLETE (`28 / 40 = 70.0%`)**
 - **Stage 3 Status (`Domain VI — Analyze Phase`)**: **IN PROGRESS (`8 / 10 = 80.0%`)**
-  - Round 7 (`Q81–Q100`): `16 / 20` (`80.0%`) — Cumulative: **`76 / 100` (`76.0%`)**
+- **Copilot External Mixed Set (`C1`–`C25`)**: **`20 / 25` (`80.0%`)** — Grand Cumulative: **`96 / 125` (`76.8%`)**
 - **Active Weak Points Scheduled for Spaced Re-Testing**:
   1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)
   2. `IV.A.3` CTQ measurable numerical target vs. vague VOC (`Q18`)
@@ -26,6 +26,7 @@
   10. `V.C.2` Stability over time (`Q81`) & Linearity (`Q72`)
   11. `V.E.2` Hypergeometric (small finite lot without replacement) (`Q86`)
   12. `VI.B.3` & `VI.B.4` One-Way ANOVA (3+ Normal means, `Q97`) & Non-Parametric Test Map (Kruskal-Wallis vs Mann-Whitney U vs Paired Wilcoxon, `Q98`)
+  13. `V.F.5`, `VII.A`, `VIII.A` (Copilot `C19/C21/C24/C25`): `Cp > Pp` under long-term drift, Attribute Control Charts (`p` vs `np` vs `c` vs `u`), DOE Designs (`CCD/RSM` vs `Plackett-Burman` vs `Latin Square`)
 - **NEXT EXAM STEP**: Pause and wait for Cathy to say **"ready"**. **NEW STUDY MODE (Requested by Cathy)**: **1 Topic at a Time (10 questions on a single topic, e.g., Hypothesis Testing, Chi-Square, DOE, SPC, Lean, etc.)** so her brain only focuses on 1 mental model per set! Next topic queue: `VI. Analyze Phase` (`Q101+`: Topic 1 = Hypothesis Test Selection & p-value/Errors, Topic 2 = Chi-Square & Non-Parametric, Topic 3 = Regression & Residuals, Topic 4 = Risk Mgmt & FMEA), then `VII. Improve`, `VIII. Control`, `IX. DFSS`. **COACHING RULE**: Never send next set until Cathy says "ready"; always print full question text when explaining missed/guessed Qs slowly.
 
 ---

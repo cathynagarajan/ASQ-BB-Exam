@@ -2,8 +2,8 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Round 7 — `Q81`–`Q100`: End of Measure + Start of Analyze):** **`16 / 20` (`80.0%`)** *(nailed `Q82` CLT 9x, `Q83` Analytic, `Q84` Addition Rule, `Q87`–`Q90` Capability/DPMO, `Q92`–`Q96` Regression/Hypothesis, `Q99`–`Q100` FMEA!)*
-- **Overall Cumulative Score (Unique Questions):** **`76 / 100` (`76.0%`)**
+- **Latest Batch Score (Copilot Mixed Set — `C1`–`C25`):** **`20 / 25` (`80.0%`)** *(missed/flagged: `V.E.2` Poisson/Exponential, `VIII.A` `p-chart` vs `np-chart`, `VII.A` DOE Central Composite Design/RSM, `V.F.5` `Cp > Pp` with long-term drift)*
+- **Overall Cumulative Score (`Q1`–`Q100` + `C1`–`C25` = `125` Qs):** **`96 / 125` (`76.8%`)**
 
 ---
 
@@ -44,3 +44,5 @@
 | 2026-11-15 | **`V.E.1`** | Measure (M) | **Probability Addition Rule** | `P(A or B) = P(A) + P(B) - P(A and B)`. *(Passed `Q84`!)* | **Mastered** |
 | 2026-11-15 | **`V.C.2` & `V.E.2`** | Measure (M) | **Stability (over time) vs. Linearity & Hypergeometric** | Drift Mon -> Wed -> Fri = **Stability**; small finite lot without replacement = **Hypergeometric** (not Exponential). | **Add to Word Bible** |
 | 2026-11-15 | **`VI.B.3` & `VI.B.4`** | Analyze (A) | **ANOVA & Non-Parametric Test Map** | 3+ Normal means = **One-Way ANOVA** (avoids Type I inflation). 3+ Skewed/non-normal medians = **Kruskal-Wallis**; 2 independent skewed = **Mann-Whitney U**; 2 paired skewed = **Paired Wilcoxon**. | **Add to Word Bible** |
+| 2026-11-15 | **`V.E.2` & `V.F.5`** | Measure (M) | **Poisson vs. Exponential & `Cp > Pp` Drift** | **Poisson** = count of arrivals/defects per unit/time; **Exponential** = time *between* Poisson arrivals. With long-term drift, overall `s` > short-term `sigma`, so **`Cp > Pp`**. | **Add to Word Bible** |
+| 2026-11-15 | **`VII.A` & `VIII.A`** | Improve / Control | **DOE Designs (CCD/RSM) & Attribute Control Charts (`p/np/c/u`)** | **RSM** uses **Central Composite Design (CCD)** for curvature/optimization; **Plackett-Burman** = screening. Pass/fail varying `n` = **`p-chart`**; fixed `n` = `np-chart`; defects fixed unit = `c-chart`; defects varying unit = `u-chart`. | **Add to Word Bible** |

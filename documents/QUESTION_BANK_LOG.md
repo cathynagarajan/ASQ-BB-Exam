@@ -82,3 +82,7 @@
 - `Q98` (`VI.B.4` Non-parametric 3 independent skewed groups = Kruskal-Wallis): Picked `B` Paired Wilcoxon vs. Correct `C` Kruskal-Wallis (`❌` — taught)
 - `Q99` (`VI.C.1` FMEA — high Severity S = 9 priority regardless of RPN): `B` (`✅`)
 - `Q100` (`VI.C.1` FMEA — only redesign reduces Severity S): `C` (`✅`)
+
+## Copilot External Set Recorded (`C1`–`C25` — 2026-11-15 | Score: `20/25 = 80.0%`)
+- `C1`–`C25` mixed ASQ CSSBB review completed with Copilot: `20/25` (`80.0%`).
+- Missed/Flagged topics logged for 1-topic-at-a-time mastery: `V.E.2` Poisson vs. Exponential (`C3`, `C21`), `VIII.A` `p-chart` varying sample size (`C19`), `VII.A` DOE Central Composite Design / RSM (`C24`), `V.F.5` `Cp > Pp` under long-term drift (`C25`).
