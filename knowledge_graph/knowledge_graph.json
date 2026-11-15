@@ -1,46 +1,42 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-15T01:33:26.549100+00:00",
-    "total_files_indexed": 21,
-    "total_nodes": 70,
-    "total_edges": 70,
+    "generated_at": "2026-11-15T19:03:28.930809+00:00",
+    "total_files_indexed": 24,
+    "total_nodes": 94,
+    "total_edges": 115,
     "node_type_counts": {
-      "chat_session": 1,
-      "chat_turn": 12,
-      "document": 21,
-      "topic_entity": 36
+      "chat_session": 2,
+      "chat_turn": 19,
+      "document": 23,
+      "topic_entity": 50
     }
   },
   "last_change_check": {
     "changed": true,
     "added": [
-      "Resume_And_Jobs/Job10_Roblox_Vendor_Operations_Automation_8174264.md",
-      "Resume_And_Jobs/Job11_Google_Supply_Chain_Program_Manager_Sunnyvale.md"
+      "QWEN.md",
+      "Resume_And_Jobs/Job12_ThermoFisher_Procurement_Manager_CMD_R01357010.md",
+      "chats/SHARED_SESSION_STATE.md"
     ],
-    "modified": [
-      "Resume_And_Jobs/Target_Jobs_Tracker.md",
-      "documents/CAREER_APPLICATIONS_TRACKER.md"
-    ],
-    "removed": [
-      "Resume_And_Jobs/Job10_Google_Supply_Chain_Program_Manager_Sunnyvale.md"
-    ],
-    "files_parsed": 4,
-    "files_cached_reused": 17,
+    "modified": [],
+    "removed": [],
+    "files_parsed": 2,
+    "files_cached_reused": 21,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 12,
-      "nodes_deleted": 8,
-      "edges_upserted": 17,
-      "edges_deleted": 15,
-      "wiki_pages_upserted": 4,
-      "wiki_pages_deleted": 1,
-      "files_upserted": 5,
-      "files_deleted": 1,
-      "total_nodes_in_db": 70,
-      "total_edges_in_db": 70,
-      "total_files_tracked": 22
+      "nodes_upserted": 48,
+      "nodes_deleted": 23,
+      "edges_upserted": 85,
+      "edges_deleted": 37,
+      "wiki_pages_upserted": 2,
+      "wiki_pages_deleted": 0,
+      "files_upserted": 4,
+      "files_deleted": 0,
+      "total_nodes_in_db": 94,
+      "total_edges_in_db": 115,
+      "total_files_tracked": 25
     }
   },
   "nodes": [
@@ -117,6 +113,83 @@
           "IV.D",
           "(*Accommodating* = Lose-Win giving in) instead of **",
           "(Right: Level 3 = Behavior on the job). Low-frequency Handbook detail ("
+        ],
+        "format": "md"
+      }
+    },
+    {
+      "id": "doc:QWEN.md",
+      "type": "document",
+      "name": "QWEN.md \u2014 Mandatory Shared Instructions & Live State Sync (`ASQ-BB-Exam`)",
+      "file_path": "QWEN.md",
+      "description": "Documentation: QWEN.md \u2014 Mandatory Shared Instructions & Live State Sync (`ASQ-BB-Exam`) (QWEN.md)",
+      "metadata": {
+        "sections": [
+          "QWEN.md \u2014 Mandatory Shared Instructions & Live State Sync (`ASQ-BB-Exam`)",
+          "1. Candidate & Communication Rules",
+          "2. ASQ CSSBB Coaching Rules (Target: March 2027, First-Attempt Pass)",
+          "3. Job Search & Resume Guardrails"
+        ],
+        "keywords": [
+          "CRITICAL FOR QWEN & ANTIGRAVITY",
+          "exact same coaching & job-application session",
+          "Cathy",
+          "ALWAYS update `chats/SHARED_SESSION_STATE.md` + run `query_kg.py --commit-push`",
+          "Always address the user as `Cathy`",
+          "100% Honesty (\"Zero Fake News\")",
+          "Strictly ASQ 2022 CSSBB Body of Knowledge ONLY",
+          "zero questions ever repeat",
+          "Quiz Format",
+          "NEVER show answers or hints upfront",
+          "Grading Review Format",
+          "Table (`Q# | Topic Summary | Your Answer | Right or Wrong | Correct Answer`)",
+          "repeat the full Question text",
+          "Your Answer",
+          "Correct Answer in full words",
+          "Why you were wrong",
+          "1-line plain-English Word Bible rule",
+          "Hard Filters",
+          "Pay Floor",
+          "120,000 USD+ salaried",
+          "Location",
+          "100% Remote",
+          "within 15 to 20 miles of Palo Alto, CA 94306",
+          "Role Scope",
+          "Individual Contributor (IC) / Program / Category / Functional Lead ONLY",
+          "ZERO direct reports / people management",
+          "Vegetarian Ethics",
+          "NO meat, egg, poultry, seafood, or animal-slaughter companies",
+          "Privacy",
+          "ASQ-BB-Exam",
+          "use qwen",
+          "stop qwen",
+          "/home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md",
+          "chats/SHARED_SESSION_STATE.md",
+          "query_kg.py --commit-push",
+          "$...$",
+          "\\rightarrow",
+          "\\le",
+          "$50,000",
+          "->",
+          "at most",
+          "140,000 USD",
+          "50M+ USD",
+          "/home/krithika/workspace/ASQ-BB-Exam/documents/ASQ_CSSBB_Official_BOK_2022.md",
+          "(",
+          "was removed in 2022;",
+          "and",
+          "/home/krithika/workspace/ASQ-BB-Exam/documents/QUESTION_BANK_LOG.md",
+          "A, B, C, D",
+          "DMAIC Phase",
+          "[Evaluate]",
+          "Q# | Topic Summary | Your Answer | Right or Wrong | Correct Answer",
+          "PERFORMANCE_TRACKER.md",
+          "documents/QUESTION_BANK_LOG.md",
+          "repo=\"asq_bb_exam\"",
+          "/home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/",
+          "chmod 600",
+          "documents/CAREER_APPLICATIONS_TRACKER.md",
+          "kg_vectors_asq_bb_exam"
         ],
         "format": "md"
       }
@@ -228,6 +301,18 @@
       "name": "Job11_Google_Supply_Chain_Program_Manager_Sunnyvale.md",
       "file_path": "Resume_And_Jobs/Job11_Google_Supply_Chain_Program_Manager_Sunnyvale.md",
       "description": "Documentation: Job11_Google_Supply_Chain_Program_Manager_Sunnyvale.md (Resume_And_Jobs/Job11_Google_Supply_Chain_Program_Manager_Sunnyvale.md)",
+      "metadata": {
+        "sections": [],
+        "keywords": [],
+        "format": "md"
+      }
+    },
+    {
+      "id": "doc:Resume_And_Jobs/Job12_ThermoFisher_Procurement_Manager_CMD_R01357010.md",
+      "type": "document",
+      "name": "Job12_ThermoFisher_Procurement_Manager_CMD_R01357010.md",
+      "file_path": "Resume_And_Jobs/Job12_ThermoFisher_Procurement_Manager_CMD_R01357010.md",
+      "description": "Documentation: Job12_ThermoFisher_Procurement_Manager_CMD_R01357010.md (Resume_And_Jobs/Job12_ThermoFisher_Procurement_Manager_CMD_R01357010.md)",
       "metadata": {
         "sections": [],
         "keywords": [],
@@ -960,23 +1045,53 @@
       }
     },
     {
-      "id": "topic:vendor",
+      "id": "topic:chain",
       "type": "topic_entity",
-      "name": "vendor",
+      "name": "chain",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'vendor' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'chain' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "vendor"
+        "keyword": "chain"
       }
     },
     {
-      "id": "topic:supplier",
+      "id": "topic:qwen",
       "type": "topic_entity",
-      "name": "supplier",
+      "name": "qwen",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'supplier' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'qwen' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "supplier"
+        "keyword": "qwen"
+      }
+    },
+    {
+      "id": "topic:supply",
+      "type": "topic_entity",
+      "name": "supply",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'supply' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "supply"
+      }
+    },
+    {
+      "id": "topic:city",
+      "type": "topic_entity",
+      "name": "city",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'city' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "city"
+      }
+    },
+    {
+      "id": "topic:manager",
+      "type": "topic_entity",
+      "name": "manager",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'manager' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "manager"
       }
     },
     {
@@ -990,33 +1105,317 @@
       }
     },
     {
-      "id": "topic:service",
+      "id": "topic:alto",
       "type": "topic_entity",
-      "name": "service",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'service' connecting multi-modal documents and workspace chats",
+      "name": "alto",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'alto' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "service"
+        "keyword": "alto"
       }
     },
     {
-      "id": "topic:onboarding",
+      "id": "topic:exam",
       "type": "topic_entity",
-      "name": "onboarding",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'onboarding' connecting multi-modal documents and workspace chats",
+      "name": "exam",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'exam' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "onboarding"
+        "keyword": "exam"
       }
     },
     {
-      "id": "topic:power",
-      "type": "topic_entity",
-      "name": "power",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'power' connecting multi-modal documents and workspace chats",
+      "id": "chat_session:SHAREDSE",
+      "type": "chat_session",
+      "name": "Chat Session SHAREDSE",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Chat Session SHAREDSE (7 turns): # Shared Antigravity <-> Qwen Live Session State (PII-Free, Auto-Synced)",
       "metadata": {
-        "keyword": "power"
+        "conversation_id": "SHAREDSE",
+        "short_id": "SHAREDSE",
+        "turn_count": 7,
+        "first_question": "# Shared Antigravity <-> Qwen Live Session State (PII-Free, Auto-Synced)",
+        "source": "chats_folder",
+        "topics": [
+          "chain",
+          "qwen",
+          "supply",
+          "city",
+          "manager",
+          "operations",
+          "alto",
+          "exam"
+        ]
+      }
+    },
+    {
+      "id": "topic:antigravity",
+      "type": "topic_entity",
+      "name": "antigravity",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'antigravity' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "antigravity"
+      }
+    },
+    {
+      "id": "topic:auto-synced",
+      "type": "topic_entity",
+      "name": "auto-synced",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'auto-synced' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "auto-synced"
+      }
+    },
+    {
+      "id": "topic:live",
+      "type": "topic_entity",
+      "name": "live",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'live' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "live"
+      }
+    },
+    {
+      "id": "topic:pii-free",
+      "type": "topic_entity",
+      "name": "pii-free",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'pii-free' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "pii-free"
+      }
+    },
+    {
+      "id": "chat_turn:SHAREDSE:S1",
+      "type": "chat_turn",
+      "name": "Chat SHAREDSE Turn S1 (user)",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "[USER S1] # Shared Antigravity <-> Qwen Live Session State (PII-Free, Auto-Synced)",
+      "metadata": {
+        "conversation_id": "SHAREDSE",
+        "step_index": 1,
+        "role": "user",
+        "created_at": "",
+        "content_excerpt": "# Shared Antigravity <-> Qwen Live Session State (PII-Free, Auto-Synced)",
+        "topics": [
+          "antigravity",
+          "auto-synced",
+          "live",
+          "pii-free"
+        ]
+      }
+    },
+    {
+      "id": "topic:single",
+      "type": "topic_entity",
+      "name": "single",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'single' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "single"
+      }
+    },
+    {
+      "id": "topic:agents",
+      "type": "topic_entity",
+      "name": "agents",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'agents' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "agents"
+      }
+    },
+    {
+      "id": "chat_turn:SHAREDSE:S2",
+      "type": "chat_turn",
+      "name": "Chat SHAREDSE Turn S2 (assistant)",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "[ASSISTANT S2] > **Purpose**: Single source of truth shared between **Antigravity** and **Qwen** (`QWEN.md` + `rules.md` + `kg_vectors_asq_bb_exam`). Both agents MUST update this file whenever committing progress so mode switches (`use",
+      "metadata": {
+        "conversation_id": "SHAREDSE",
+        "step_index": 2,
+        "role": "assistant",
+        "created_at": "",
+        "content_excerpt": "> **Purpose**: Single source of truth shared between **Antigravity** and **Qwen** (`QWEN.md` + `rules.md` + `kg_vectors_asq_bb_exam`). Both agents MUST update this file whenever committing progress so mode switches (`use qwen` / `stop qwen`) never lose a single detail.",
+        "topics": [
+          "qwen",
+          "single",
+          "agents",
+          "antigravity"
+        ]
+      }
+    },
+    {
+      "id": "topic:candidate",
+      "type": "topic_entity",
+      "name": "candidate",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'candidate' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "candidate"
+      }
+    },
+    {
+      "id": "topic:cathy",
+      "type": "topic_entity",
+      "name": "cathy",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'cathy' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cathy"
+      }
+    },
+    {
+      "id": "topic:last",
+      "type": "topic_entity",
+      "name": "last",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'last' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "last"
+      }
+    },
+    {
+      "id": "topic:preferred",
+      "type": "topic_entity",
+      "name": "preferred",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'preferred' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "preferred"
+      }
+    },
+    {
+      "id": "chat_turn:SHAREDSE:S3",
+      "type": "chat_turn",
+      "name": "Chat SHAREDSE Turn S3 (assistant)",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "[ASSISTANT S3] - **Candidate Preferred Name**: **Cathy** - **Last Synced**: `2026-11-15`",
+      "metadata": {
+        "conversation_id": "SHAREDSE",
+        "step_index": 3,
+        "role": "assistant",
+        "created_at": "",
+        "content_excerpt": "- **Candidate Preferred Name**: **Cathy**\n- **Last Synced**: `2026-11-15`",
+        "topics": [
+          "candidate",
+          "cathy",
+          "last",
+          "preferred"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:SHAREDSE:S4",
+      "type": "chat_turn",
+      "name": "Chat SHAREDSE Turn S4 (assistant)",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "[ASSISTANT S4] ---",
+      "metadata": {
+        "conversation_id": "SHAREDSE",
+        "step_index": 4,
+        "role": "assistant",
+        "created_at": "",
+        "content_excerpt": "---",
+        "topics": []
+      }
+    },
+    {
+      "id": "topic:process",
+      "type": "topic_entity",
+      "name": "process",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'process' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "process"
+      }
+    },
+    {
+      "id": "topic:round",
+      "type": "topic_entity",
+      "name": "round",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'round' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "round"
+      }
+    },
+    {
+      "id": "topic:cost",
+      "type": "topic_entity",
+      "name": "cost",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'cost' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cost"
+      }
+    },
+    {
+      "id": "chat_turn:SHAREDSE:S5",
+      "type": "chat_turn",
+      "name": "Chat SHAREDSE Turn S5 (assistant)",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`50` (`Q1` through `Q50`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). - **Stage 1 Status (`Domains I, II, III,",
+      "metadata": {
+        "conversation_id": "SHAREDSE",
+        "step_index": 5,
+        "role": "assistant",
+        "created_at": "",
+        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`50` (`Q1` through `Q50`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Stage 1 Status (`Domains I, II, III, IV \u2014 Foundations & Define`)**: **COMPLETE (`40 / 50 = 80.0%`)**\n  - Round 1 (`Q1\u2013Q15`): `14 / 15` (`93.3%`)\n  - Round 2 (`Q16\u2013Q35`): `12 / 20` (`60.0%`)\n  - Round 3 (`Q36\u2013Q50`): `14 / 15` (`93.3%`)\n- **Active Weak Points Scheduled for Spaced Re-Testing**:\n  1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)\n  2. `IV.A.3` CTQ measurable numerical target vs. vague VOC (`Q18`)\n  3. `IV.C` CPM Critical Path = LONGEST path (`zero slack`) (`Q23`)\n  4. `IV.D` Interrelationship Digraph (`outgoing arrows = root cause`",
+        "topics": [
+          "exam",
+          "process",
+          "round",
+          "cost"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:SHAREDSE:S6",
+      "type": "chat_turn",
+      "name": "Chat SHAREDSE Turn S6 (assistant)",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "[ASSISTANT S6] ---",
+      "metadata": {
+        "conversation_id": "SHAREDSE",
+        "step_index": 6,
+        "role": "assistant",
+        "created_at": "",
+        "content_excerpt": "---",
+        "topics": []
+      }
+    },
+    {
+      "id": "chat_turn:SHAREDSE:S7",
+      "type": "chat_turn",
+      "name": "Chat SHAREDSE Turn S7 (assistant)",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "[ASSISTANT S7] ## 2. Bay Area / 100% Remote Job Applications State - **Hard Guardrails**: - Minimum **120,000 USD+ salaried** base - **100% Remote** OR **within 15\u201320 miles of Palo Alto, CA** - **100% Individual Contributor (IC)** \u2014 **",
+      "metadata": {
+        "conversation_id": "SHAREDSE",
+        "step_index": 7,
+        "role": "assistant",
+        "created_at": "",
+        "content_excerpt": "## 2. Bay Area / 100% Remote Job Applications State\n- **Hard Guardrails**:\n  - Minimum **120,000 USD+ salaried** base\n  - **100% Remote** OR **within 15\u201320 miles of Palo Alto, CA**\n  - **100% Individual Contributor (IC)** \u2014 **ZERO direct reports / people management**\n  - **100% Vegetarian-Aligned** \u2014 **NO meat, egg, poultry, seafood, or animal-slaughter companies**\n  - **Skipped Employers**: Apple, Applied Materials, Supermicro, Cisco, Cardinal Health (low pay), Vital Farms (eggs); note Thermo Fisher `R-01357010` returned HTTP 410 (closed).\n- **10 Submitted Applications (2026-11-14)**:\n  1. **Stanford Health Care** \u2014 *Supply Chain Strategic Initiatives PM* (`R2656254`, Palo Alto)\n  2. **Stanford Health Care** \u2014 *Category Manager \u2013 SC Category Mgmt* (`R2659261`, Palo Alto)\n  3. **Gilead Sci",
+        "topics": [
+          "chain",
+          "supply",
+          "city",
+          "manager"
+        ]
+      }
+    },
+    {
+      "id": "topic:vendor",
+      "type": "topic_entity",
+      "name": "vendor",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'vendor' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "vendor"
       }
     },
     {
@@ -1030,13 +1429,33 @@
       }
     },
     {
-      "id": "topic:quality",
+      "id": "topic:asq-bb-exam",
       "type": "topic_entity",
-      "name": "quality",
+      "name": "asq-bb-exam",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'quality' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "quality"
+        "keyword": "asq-bb-exam"
+      }
+    },
+    {
+      "id": "topic:home",
+      "type": "topic_entity",
+      "name": "home",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'home' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "home"
+      }
+    },
+    {
+      "id": "topic:supplier",
+      "type": "topic_entity",
+      "name": "supplier",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'supplier' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "supplier"
       }
     },
     {
@@ -1044,284 +1463,22 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (77 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (84 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 77,
+        "turn_count": 84,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
           "vendor",
-          "supplier",
-          "operations",
-          "service",
-          "onboarding",
-          "power",
+          "supply",
+          "chain",
           "krithika",
-          "quality"
-        ]
-      }
-    },
-    {
-      "id": "topic:energy",
-      "type": "topic_entity",
-      "name": "energy",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'energy' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "energy"
-      }
-    },
-    {
-      "id": "topic:finished",
-      "type": "topic_entity",
-      "name": "finished",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'finished' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "finished"
-      }
-    },
-    {
-      "id": "topic:next",
-      "type": "topic_entity",
-      "name": "next",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'next' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "next"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S324",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S324 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S324] i finished sb energy what next",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 324,
-        "role": "user",
-        "created_at": "2026-11-15T01:04:13Z",
-        "content_excerpt": "i finished sb energy what next",
-        "topics": [
-          "energy",
-          "finished",
-          "next"
-        ]
-      }
-    },
-    {
-      "id": "topic:submitted",
-      "type": "topic_entity",
-      "name": "submitted",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'submitted' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "submitted"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S325",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S325 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S325] i submitted for 1, not 2",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 325,
-        "role": "user",
-        "created_at": "2026-11-15T01:04:27Z",
-        "content_excerpt": "i submitted for 1, not 2",
-        "topics": [
-          "submitted"
-        ]
-      }
-    },
-    {
-      "id": "topic:scorecards",
-      "type": "topic_entity",
-      "name": "scorecards",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'scorecards' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "scorecards"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S343",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S343 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S343] Smart move keeping SB Energy to **1 focused role**, Cathy\u2014that is how serious senior candidates look in Greenhouse! **#7 (SB Energy `6207734004`)** is logged in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/work",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 343,
-        "role": "assistant",
-        "created_at": "2026-11-15T01:06:58Z",
-        "content_excerpt": "Smart move keeping SB Energy to **1 focused role**, Cathy\u2014that is how serious senior candidates look in Greenhouse! **#7 (SB Energy `6207734004`)** is logged in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md) and pushed to your Knowledge Graph (`3c456de`).\n\n---\n\n### Application #8 (Live Right Now on Greenhouse \u2014 5 Miles from Palo Alto!):\n**Waymo (Alphabet) \u2014 `Global Vendor Operations Manager` (`ID: 8348363`)**\n\n- **Direct 1-Click Application Link:** https://careers.withwaymo.com/jobs?gh_jid=8348363\n- **Location:** Mountain View, CA (~5 miles from Palo Alto, Hybrid)\n- **Posted California Base Range:** **190,000 to 234,000 USD** + annual bonus + Waymo equity!\n- **Why This Is 100% Honest & Built for You (Zero Car-Hardware ",
-        "topics": [
-          "vendor",
-          "service",
+          "asq-bb-exam",
+          "home",
           "operations",
-          "scorecards"
-        ]
-      }
-    },
-    {
-      "id": "topic:waymo",
-      "type": "topic_entity",
-      "name": "waymo",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'waymo' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "waymo"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S344",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S344 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S344] did for waymo what is next",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 344,
-        "role": "user",
-        "created_at": "2026-11-15T01:11:46Z",
-        "content_excerpt": "did for waymo what is next",
-        "topics": [
-          "next",
-          "waymo"
-        ]
-      }
-    },
-    {
-      "id": "topic:order",
-      "type": "topic_entity",
-      "name": "order",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'order' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "order"
-      }
-    },
-    {
-      "id": "topic:workflows",
-      "type": "topic_entity",
-      "name": "workflows",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'workflows' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "workflows"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S361",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S361 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S361] You are crushing it today, Cathy\u2014**#8 (Waymo `8348363`)** is logged in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md) and pushed to your Knowledge G",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 361,
-        "role": "assistant",
-        "created_at": "2026-11-15T01:14:56Z",
-        "content_excerpt": "You are crushing it today, Cathy\u2014**#8 (Waymo `8348363`)** is logged in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md) and pushed to your Knowledge Graph (`51ffe86`)!\n\n---\n\n### Application #9 (Live Right Now on Lever \u2014 60-Second Upload, 14 Miles Away!):\n**Zoox (Amazon) \u2014 `Procurement Operations Manager`**\n\n- **Direct 1-Click Application Link:** https://jobs.lever.co/zoox/68996f74-85e8-435d-9369-906438670794\n- **Location:** Foster City, CA (~14 miles from Palo Alto, Hybrid)\n- **Posted California Base Range:** **161,000 to 219,000 USD** base + **Amazon RSUs** + **Zoox Stock Appreciation Rights** + potential sign-on bonus!\n- **Why This Is 100% Honest & Built for You (Zero Car-Hardware Engineering Required!):**\n  - Owns **S",
-        "topics": [
-          "supplier",
-          "order",
-          "service",
-          "workflows"
-        ]
-      }
-    },
-    {
-      "id": "topic:zoox",
-      "type": "topic_entity",
-      "name": "zoox",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'zoox' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "zoox"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S362",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S362 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S362] finished zoox",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 362,
-        "role": "user",
-        "created_at": "2026-11-15T01:18:16Z",
-        "content_excerpt": "finished zoox",
-        "topics": [
-          "finished",
-          "zoox"
-        ]
-      }
-    },
-    {
-      "id": "topic:direct",
-      "type": "topic_entity",
-      "name": "direct",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'direct' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "direct"
-      }
-    },
-    {
-      "id": "topic:management",
-      "type": "topic_entity",
-      "name": "management",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'management' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "management"
-      }
-    },
-    {
-      "id": "topic:note",
-      "type": "topic_entity",
-      "name": "note",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'note' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "note"
-      }
-    },
-    {
-      "id": "topic:reports",
-      "type": "topic_entity",
-      "name": "reports",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'reports' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "reports"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S371",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S371 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S371] pls note i don't have direct reports, so no ppl management exp",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 371,
-        "role": "user",
-        "created_at": "2026-11-15T01:20:37Z",
-        "content_excerpt": "pls note i don't have direct reports, so no ppl management exp",
-        "topics": [
-          "direct",
-          "management",
-          "note",
-          "reports"
+          "supplier"
         ]
       }
     },
@@ -1383,6 +1540,16 @@
           "vegetarian",
           "work"
         ]
+      }
+    },
+    {
+      "id": "topic:power",
+      "type": "topic_entity",
+      "name": "power",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'power' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "power"
       }
     },
     {
@@ -1486,26 +1653,6 @@
       }
     },
     {
-      "id": "topic:supply",
-      "type": "topic_entity",
-      "name": "supply",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'supply' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "supply"
-      }
-    },
-    {
-      "id": "topic:chain",
-      "type": "topic_entity",
-      "name": "chain",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'chain' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "chain"
-      }
-    },
-    {
       "id": "topic:google",
       "type": "topic_entity",
       "name": "google",
@@ -1572,6 +1719,240 @@
           "roblox"
         ]
       }
+    },
+    {
+      "id": "chat_turn:b6556366:S438",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S438 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S438] **TEN FOR TEN, CATHY!!** **#10 (Roblox `8174264`)** is officially logged in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md) and [Target_Jobs_Tracker.",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 438,
+        "role": "assistant",
+        "created_at": "2026-11-15T01:33:29Z",
+        "content_excerpt": "**TEN FOR TEN, CATHY!!** **#10 (Roblox `8174264`)** is officially logged in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md) and [Target_Jobs_Tracker.md](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Target_Jobs_Tracker.md) and pushed to your Knowledge Graph (`3f35a1f`, `70` vectors live)!\n\nLook at your Day-1 Scoreboard\u2014every single one **100% honest, pure IC, vegetarian-aligned, within 2 to 20 miles of Palo Alto, and 120K to 234K USD salaried**:\n1. **Stanford Health Care** \u2014 *Supply Chain Strategic Initiatives PM* (`R2656254`, Palo Alto)\n2. **Stanford Health Care** \u2014 *Category Manager \u2013 SC Category Mgmt* (`R2659261`, Palo Alto)\n3. **Gilead Sciences** \u2014 *Sr. Supply Chain Specialist, Clinical Logistics* (`R0",
+        "topics": [
+          "chain",
+          "supply",
+          "manager",
+          "city"
+        ]
+      }
+    },
+    {
+      "id": "topic:fisher",
+      "type": "topic_entity",
+      "name": "fisher",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'fisher' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "fisher"
+      }
+    },
+    {
+      "id": "topic:thermo",
+      "type": "topic_entity",
+      "name": "thermo",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'thermo' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "thermo"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S439",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S439 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S439] thermo fisher",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 439,
+        "role": "user",
+        "created_at": "2026-11-15T01:33:42Z",
+        "content_excerpt": "thermo fisher",
+        "topics": [
+          "fisher",
+          "thermo"
+        ]
+      }
+    },
+    {
+      "id": "topic:commit",
+      "type": "topic_entity",
+      "name": "commit",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'commit' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "commit"
+      }
+    },
+    {
+      "id": "topic:logging",
+      "type": "topic_entity",
+      "name": "logging",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'logging' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "logging"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S448",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S448 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S448] commit, logging off",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 448,
+        "role": "user",
+        "created_at": "2026-11-15T01:34:44Z",
+        "content_excerpt": "commit, logging off",
+        "topics": [
+          "commit",
+          "logging"
+        ]
+      }
+    },
+    {
+      "id": "topic:workspace",
+      "type": "topic_entity",
+      "name": "workspace",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'workspace' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "workspace"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S451",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S451 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S451] Everything is **100% committed and pushed** (`3f35a1f` on `origin/main`), your Knowledge Graph is synced (`70` live vectors in `kg_vectors_asq_bb_exam`), the working tree is clean, and all your private resumes are locked",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 451,
+        "role": "assistant",
+        "created_at": "2026-11-15T01:35:00Z",
+        "content_excerpt": "Everything is **100% committed and pushed** (`3f35a1f` on `origin/main`), your Knowledge Graph is synced (`70` live vectors in `kg_vectors_asq_bb_exam`), the working tree is clean, and all your private resumes are locked safely inside [Resume_And_Jobs](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs) (`chmod 600`, gitignored).\n\nWhat a monster Day 1, Cathy:\n- **10 Tier-1 Bay Area salaried applications submitted** (logged in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md))\n- **50 ASQ Black Belt questions completed** (**80% overall**, **93.3%** on your final round, logged in [PERFORMANCE_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/PERFORMANCE_TRACKER.md))\n\nHave a wonderful, restful evening\u2014we'll pic",
+        "topics": [
+          "asq-bb-exam",
+          "home",
+          "krithika",
+          "workspace"
+        ]
+      }
+    },
+    {
+      "id": "topic:stop",
+      "type": "topic_entity",
+      "name": "stop",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'stop' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "stop"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S452",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S452 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S452] stop qwen",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 452,
+        "role": "user",
+        "created_at": "2026-11-15T18:59:32Z",
+        "content_excerpt": "stop qwen",
+        "topics": [
+          "qwen",
+          "stop"
+        ]
+      }
+    },
+    {
+      "id": "topic:ready",
+      "type": "topic_entity",
+      "name": "ready",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'ready' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "ready"
+      }
+    },
+    {
+      "id": "topic:active",
+      "type": "topic_entity",
+      "name": "active",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'active' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "active"
+      }
+    },
+    {
+      "id": "topic:applications",
+      "type": "topic_entity",
+      "name": "applications",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'applications' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "applications"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S455",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S455 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S455] Antigravity is active again and ready with your full context, Cathy (10 submitted Bay Area applications + 50 ASQ CSSBB questions completed, ready for Thermo Fisher or Stage 2 Measure Phase `Q51+`).",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 455,
+        "role": "assistant",
+        "created_at": "2026-11-15T18:59:32Z",
+        "content_excerpt": "Antigravity is active again and ready with your full context, Cathy (10 submitted Bay Area applications + 50 ASQ CSSBB questions completed, ready for Thermo Fisher or Stage 2 Measure Phase `Q51+`).",
+        "topics": [
+          "ready",
+          "active",
+          "antigravity",
+          "applications"
+        ]
+      }
+    },
+    {
+      "id": "topic:whenver",
+      "type": "topic_entity",
+      "name": "whenver",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'whenver' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "whenver"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S456",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S456 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S456] whenver you commit to antigravity, commit to qwen too",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 456,
+        "role": "user",
+        "created_at": "2026-11-15T19:00:36Z",
+        "content_excerpt": "whenver you commit to antigravity, commit to qwen too",
+        "topics": [
+          "commit",
+          "antigravity",
+          "qwen",
+          "whenver"
+        ]
+      }
     }
   ],
   "edges": [
@@ -1582,24 +1963,318 @@
       "metadata": {}
     },
     {
+      "source": "chat_session:SHAREDSE",
+      "target": "topic:chain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "topic:qwen",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "topic:supply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "topic:city",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "topic:manager",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "topic:operations",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "topic:alto",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "topic:exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "doc:QWEN.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "doc:Resume_And_Jobs/Job11_Google_Supply_Chain_Program_Manager_Sunnyvale.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "doc:documents/QUESTION_BANK_LOG.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S1",
+      "target": "topic:antigravity",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S1",
+      "target": "topic:auto-synced",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S1",
+      "target": "topic:live",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S1",
+      "target": "topic:pii-free",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "chat_turn:SHAREDSE:S1",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S2",
+      "target": "topic:qwen",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S2",
+      "target": "topic:single",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S2",
+      "target": "topic:agents",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S2",
+      "target": "topic:antigravity",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "chat_turn:SHAREDSE:S2",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S2",
+      "target": "doc:QWEN.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S3",
+      "target": "topic:candidate",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S3",
+      "target": "topic:cathy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S3",
+      "target": "topic:last",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S3",
+      "target": "topic:preferred",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "chat_turn:SHAREDSE:S3",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "chat_turn:SHAREDSE:S4",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
+      "target": "topic:exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
+      "target": "topic:process",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
+      "target": "topic:round",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "chat_turn:SHAREDSE:S5",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
+      "target": "doc:documents/QUESTION_BANK_LOG.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "chat_turn:SHAREDSE:S6",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S7",
+      "target": "topic:chain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S7",
+      "target": "topic:supply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S7",
+      "target": "topic:city",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S7",
+      "target": "topic:manager",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "chat_turn:SHAREDSE:S7",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S7",
+      "target": "doc:Resume_And_Jobs/Job11_Google_Supply_Chain_Program_Manager_Sunnyvale.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
       "source": "chat_session:b6556366",
       "target": "topic:vendor",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 40
+        "count": 22
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:supplier",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 28
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:operations",
+      "target": "topic:supply",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 16
@@ -1607,26 +2282,10 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:service",
+      "target": "topic:chain",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 15
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:onboarding",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 14
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:power",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 14
       }
     },
     {
@@ -1639,11 +2298,41 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:quality",
+      "target": "topic:asq-bb-exam",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 12
+        "count": 11
       }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:home",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:operations",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "doc:PERFORMANCE_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
     },
     {
       "source": "chat_session:b6556366",
@@ -1653,13 +2342,13 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc:Resume_And_Jobs/Job8_Waymo_Global_Vendor_Operations_Manager_8348363.md",
+      "target": "doc:Resume_And_Jobs/Job11_Google_Supply_Chain_Program_Manager_Sunnyvale.md",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc:Resume_And_Jobs/Job9_Zoox_Procurement_Operations_Manager_FosterCity.md",
+      "target": "doc:Resume_And_Jobs/Target_Jobs_Tracker.md",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
@@ -1667,232 +2356,6 @@
       "source": "chat_session:b6556366",
       "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
       "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S324",
-      "target": "topic:energy",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S324",
-      "target": "topic:finished",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S324",
-      "target": "topic:next",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S324",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S325",
-      "target": "topic:submitted",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S325",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S343",
-      "target": "topic:vendor",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 21
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S343",
-      "target": "topic:service",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S343",
-      "target": "topic:operations",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S343",
-      "target": "topic:scorecards",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S343",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S343",
-      "target": "doc:Resume_And_Jobs/Job8_Waymo_Global_Vendor_Operations_Manager_8348363.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S343",
-      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S344",
-      "target": "topic:next",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S344",
-      "target": "topic:waymo",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S344",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S361",
-      "target": "topic:supplier",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 12
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S361",
-      "target": "topic:order",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S361",
-      "target": "topic:service",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S361",
-      "target": "topic:workflows",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S361",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S361",
-      "target": "doc:Resume_And_Jobs/Job9_Zoox_Procurement_Operations_Manager_FosterCity.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S361",
-      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S362",
-      "target": "topic:finished",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S362",
-      "target": "topic:zoox",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S362",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S371",
-      "target": "topic:direct",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S371",
-      "target": "topic:management",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S371",
-      "target": "topic:note",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S371",
-      "target": "topic:reports",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S371",
-      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -2086,14 +2549,264 @@
       "target": "chat_turn:b6556366:S431",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S438",
+      "target": "topic:chain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S438",
+      "target": "topic:supply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S438",
+      "target": "topic:manager",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S438",
+      "target": "topic:city",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S438",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S438",
+      "target": "doc:Resume_And_Jobs/Job11_Google_Supply_Chain_Program_Manager_Sunnyvale.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S438",
+      "target": "doc:Resume_And_Jobs/Target_Jobs_Tracker.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S438",
+      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S439",
+      "target": "topic:fisher",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S439",
+      "target": "topic:thermo",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S439",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S448",
+      "target": "topic:commit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S448",
+      "target": "topic:logging",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S448",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S451",
+      "target": "topic:asq-bb-exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S451",
+      "target": "topic:home",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S451",
+      "target": "topic:krithika",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S451",
+      "target": "topic:workspace",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S451",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S451",
+      "target": "doc:PERFORMANCE_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S451",
+      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S452",
+      "target": "topic:qwen",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S452",
+      "target": "topic:stop",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S452",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S455",
+      "target": "topic:ready",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S455",
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S455",
+      "target": "topic:antigravity",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S455",
+      "target": "topic:applications",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S455",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S456",
+      "target": "topic:commit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S456",
+      "target": "topic:antigravity",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S456",
+      "target": "topic:qwen",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S456",
+      "target": "topic:whenver",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S456",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
     }
   ],
   "file_hashes": {
     "PERFORMANCE_TRACKER.md": "79ef68045630d465262d105130ccf36e586c8039a96987b8bb275ef77acb66eb",
+    "QWEN.md": "bbb255a5c98da9f05dc90bbe1958ba026f17e331cc48c033463a92bb37a00c11",
     "README.md": "506319462ce0f0d62f6cbed53d6d0cdfa3c40623a05eacd6b881d9c3ddd8facf",
     "STUDY_ROADMAP_MAR2027.md": "0565fb20c8f9008ab7629f78fed3bdf076952045a4567cca7ccebd4e1e986a27",
     "Resume_And_Jobs/Job10_Roblox_Vendor_Operations_Automation_8174264.md": "acf7b6b7324dc73435da51226b5d6739d9f5e7876ef33d6bbc31810959bca9b2",
     "Resume_And_Jobs/Job11_Google_Supply_Chain_Program_Manager_Sunnyvale.md": "239ef2ad17e36834465d52f65ff5c081a665842d955b18be52b18f40daed4436",
+    "Resume_And_Jobs/Job12_ThermoFisher_Procurement_Manager_CMD_R01357010.md": "24f3be1fbe3251825b88d5b286c4d5df2a3bb4bc398bbd39ec1946493df63685",
     "Resume_And_Jobs/Job1_Stanford_Supply_Chain_PM_R2656254.md": "b7fdd1b8d8b6872449768d63b8db979ea9a9b58434ae4cd1e0acc5dffc90cece",
     "Resume_And_Jobs/Job2_Stanford_Category_Manager_R2659261.md": "e1e41fd829094955c176dc7e4e1a425583d5d905445cae23170f3e473dd302ea",
     "Resume_And_Jobs/Job3_Gilead_Cold_Chain_Logistics_R0055571.md": "47b257a9e0c6c18d7001021458a7aa52d9683344c8746fa74feb46e775df2a13",
@@ -2106,10 +2819,11 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "484353ebcccfa105f4b77b29bc3c102e443beeffc000ed45fa057721bbe5393e",
+    "chats/SHARED_SESSION_STATE.md": "481a6de5d673f8c2f35318a8fc9dfe7acc11e3bfc2944397d60266908237432d",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
     "documents/CAREER_APPLICATIONS_TRACKER.md": "391e29febfee6e0cc091859955b7e4a8701f735b14ea3a6510ac58b5e110e874",
     "documents/QUESTION_BANK_LOG.md": "476b466599d08b5aaaa3231b737db1d9c3d2b88228ec88ae22c3216607bbb42d",
-    "repo.md": "b3098bb37a5eca7092d614472d8164fb3a9160064034b564e4726c5c9f1b39fc"
+    "repo.md": "b7dfe9c65eda1549816fe02f48b673d008b44f84eeeefc7329d366a49aa4d0ac"
   }
 }
