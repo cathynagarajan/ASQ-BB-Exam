@@ -2,8 +2,8 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 IN PROGRESS:** `V. Measure Phase` (25 Exam Questions — Highest Weight!)
-- **Latest Batch Score (Round 4 — `V.A` & `V.B`):** **`7 / 10` (`70.0%`)** *(guessed `Q57` Continuous vs. Attribute correctly; missed `Q51` Little's Law, `Q56` NOIR Interval scale, `Q59` Rational Subgrouping)*
-- **Overall Cumulative Score (Unique Questions):** **`47 / 60` (`78.3%`)**
+- **Latest Batch Score (Round 5 — `V.C` MSA & `V.D` Basic Stats + Review):** **`7 / 10` (`70.0%`)** *(nailed `Q62` Ordinal & `Q63` Rational Subgrouping! Guessed `Q68` Kappa & `Q70` Median/IQR; missed `Q61` Little's Law WIP, `Q64` Bias vs Repeatability, `Q69` Central Limit Theorem)*
+- **Overall Cumulative Score (Unique Questions):** **`54 / 70` (`77.1%`)**
 
 ---
 
@@ -15,7 +15,7 @@
 | **II. Org Process Mgmt & Measures** | Pre-DMAIC | 12 Qs (8.0%) | 8 | 6 | **75.0%** | Strong on ROI/Payback/NPV/Leading-Lagging/Internal-External COQ; review `II.B` Benchmarking & `II.C.2` Appraisal COQ |
 | **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 7 | 5 | **71.4%** | Review `III.B` Tuckman (Storming), `III.B` Lencioni 5 Dysfunctions, `III.C` Thomas-Kilmann Conflict Modes |
 | **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 28 | 22 | **78.6%** | **Stage 1 Complete** (Review 5 Round-2 notes in Word Bible) |
-| **V. Measure** | **Measure (M)** | 25 Qs (16.7%) | 10 | 7 | **70.0%** | **Stage 2 Active** (Review `V.A.1` Little's Law, `V.B.1` NOIR scales & Continuous vs Attribute, `V.B.2` Rational Subgrouping) |
+| **V. Measure** | **Measure (M)** | 25 Qs (16.7%) | 20 | 14 | **70.0%** | **Stage 2 Active** (Nailed `V.B.1` Ordinal & `V.B.2` Rational Subgrouping! Review `V.A.1` Little's Law `WIP = Rate * Time`, `V.C.2` Bias vs Repeatability & Kappa, `V.D.2` CLT, `V.D.3` Median/IQR) |
 | **VI. Analyze** | **Analyze (A)** | 22 Qs (14.7%) | 0 | 0 | — | Not Started *(2nd Weight)* |
 | **VII. Improve** | **Improve (I)** | 21 Qs (14.0%) | 0 | 0 | — | Not Started *(3rd Weight)* |
 | **VIII. Control** | **Control (C)** | 17 Qs (11.3%) | 0 | 0 | — | Not Started |
@@ -37,4 +37,6 @@
 | 2026-11-14 | **`III.D`** | Team Mgmt | Training Evaluation (Kirkpatrick) & Coaching | Guessed `C` (Right: Level 3 = Behavior on the job). Low-frequency Handbook detail (`III.D`); 2022 BoK emphasizes **Coaching**. | **Add 1-liner to Word Bible** |
 | 2026-11-15 | **`V.A.1`** | Measure (M) | **Little's Law** | `Lead Time = WIP / Throughput` (120 / 15 = 8 days). | **Add to Word Bible** |
 | 2026-11-15 | **`V.B.1`** | Measure (M) | **NOIR Scales & Continuous vs. Attribute Data** | Celsius = **Interval** (no true zero); Kelvin/Time = **Ratio**; Ranked/Likert = **Ordinal**; Categories/Names = **Nominal**. Continuous data carries more info -> smaller sample sizes. | **Add to Word Bible** |
-| 2026-11-15 | **`V.B.2`** | Measure (M) | **Rational Subgrouping** | Minimize **within**-subgroup variation (common-cause only) so **between**-subgroup special-cause shifts stand out clearly. | **Add to Word Bible** |
+| 2026-11-15 | **`V.B.2`** | Measure (M) | **Rational Subgrouping** | Minimize **within**-subgroup variation (common-cause only) so **between**-subgroup special-cause shifts stand out clearly. *(Passed `Q63`!)* | **Mastered** |
+| 2026-11-15 | **`V.C.2`** | Measure (M) | **Bias (Accuracy) vs. Repeatability (Precision) & Kappa** | Tightly clustered = good Repeatability; average off from NIST standard = poor **Bias**. Attribute MSA uses **Kappa** (`> 0.75` good). | **Add to Word Bible** |
+| 2026-11-15 | **`V.D.2` & `V.D.3`** | Measure (M) | **Central Limit Theorem (CLT) & Skewed Data (Median/IQR)** | CLT: sample means become Normal (`sigma / sqrt(n)`) even if population is skewed. For skewed data/outliers, use **Median + IQR** (not Mean + SD). | **Add to Word Bible** |
