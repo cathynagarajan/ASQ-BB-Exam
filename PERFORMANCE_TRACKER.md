@@ -1,9 +1,9 @@
 # Krithika's ASQ CSSBB Performance & Weak-Topic Tracker
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
-- **Current Roadmap Stage:** **Stage 2 IN PROGRESS:** `V. Measure Phase` (25 Exam Questions — Highest Weight!)
-- **Latest Batch Score (Round 6 — `V.D`–`V.F` Multi-Vari, Probability, Capability):** **`6 / 10` (`60.0%`)** *(nailed `Q71` Little's Law + `Q77`–`Q80` Poisson & Capability! Missed `Q72` Linearity, `Q73` CLT `sqrt(n)`, `Q75` Enumerative vs Analytic, `Q76` Addition Rule `P(A or B)`)*
-- **Overall Cumulative Score (Unique Questions):** **`60 / 80` (`75.0%`)**
+- **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
+- **Latest Batch Score (Round 7 — `Q81`–`Q100`: End of Measure + Start of Analyze):** **`16 / 20` (`80.0%`)** *(nailed `Q82` CLT 9x, `Q83` Analytic, `Q84` Addition Rule, `Q87`–`Q90` Capability/DPMO, `Q92`–`Q96` Regression/Hypothesis, `Q99`–`Q100` FMEA!)*
+- **Overall Cumulative Score (Unique Questions):** **`76 / 100` (`76.0%`)**
 
 ---
 
@@ -15,8 +15,8 @@
 | **II. Org Process Mgmt & Measures** | Pre-DMAIC | 12 Qs (8.0%) | 8 | 6 | **75.0%** | Strong on ROI/Payback/NPV/Leading-Lagging/Internal-External COQ; review `II.B` Benchmarking & `II.C.2` Appraisal COQ |
 | **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 7 | 5 | **71.4%** | Review `III.B` Tuckman (Storming), `III.B` Lencioni 5 Dysfunctions, `III.C` Thomas-Kilmann Conflict Modes |
 | **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 28 | 22 | **78.6%** | **Stage 1 Complete** (Review 5 Round-2 notes in Word Bible) |
-| **V. Measure** | **Measure (M)** | 25 Qs (16.7%) | 30 | 20 | **66.7%** | **Stage 2 Active** (Mastered Little's Law & Capability basics! Review `V.C.2` Linearity, `V.D.2` CLT `sqrt(n)`, `V.D.4` Multi-Vari cheat sheet, `V.D.5` Enumerative vs Analytic, `V.E.1` Addition Rule) |
-| **VI. Analyze** | **Analyze (A)** | 22 Qs (14.7%) | 0 | 0 | — | Not Started *(2nd Weight)* |
+| **V. Measure** | **Measure (M)** | 25 Qs (16.7%) | 40 | 28 | **70.0%** | **Stage 2 Complete** (Mastered Little's Law, CLT, Analytic, Addition Rule, Capability & DPMO; review `V.C.2` Stability vs Linearity, `V.E.2` Hypergeometric) |
+| **VI. Analyze** | **Analyze (A)** | 22 Qs (14.7%) | 10 | 8 | **80.0%** | **Stage 3 Active** (Strong start on Regression/VIF, Type I, p-value, Paired t, FMEA! Review `VI.B.3` One-Way ANOVA & `VI.B.4` Non-Parametric Tests map) |
 | **VII. Improve** | **Improve (I)** | 21 Qs (14.0%) | 0 | 0 | — | Not Started *(3rd Weight)* |
 | **VIII. Control** | **Control (C)** | 17 Qs (11.3%) | 0 | 0 | — | Not Started |
 | **IX. Design for Six Sigma (DFSS)** | Post-DMAIC | 6 Qs (4.0%) | 0 | 0 | — | Not Started |
@@ -41,4 +41,6 @@
 | 2026-11-15 | **`V.C.2`** | Measure (M) | **Bias (Accuracy) vs. Repeatability (Precision) & Kappa** | Tightly clustered = good Repeatability; average off from NIST standard = poor **Bias**. Attribute MSA uses **Kappa** (`> 0.75` good). | **Add to Word Bible** |
 | 2026-11-15 | **`V.D.2` & `V.D.3`** | Measure (M) | **Central Limit Theorem (CLT) & Skewed Data (Median/IQR)** | CLT: sample means become Normal (`sigma / sqrt(n)`) even if population is skewed; increasing `n` 4x cuts spread by `sqrt(4) = 2`. Skewed data -> **Median + IQR**. | **Add to Word Bible** |
 | 2026-11-15 | **`V.D.4` & `V.D.5`** | Measure (M) | **Multi-Vari Chart & Enumerative vs. Analytic** | Multi-Vari separates **Positional** (within-part), **Cyclical** (part-to-part), **Temporal** (time-to-time). **Enumerative** = judge current finite lot; **Analytic** = predict future process. | **Add to Word Bible** |
-| 2026-11-15 | **`V.E.1`** | Measure (M) | **Probability Addition Rule** | `P(A or B) = P(A) + P(B) - P(A and B)`. Don't double-count the overlap (`0.20 * 0.30 = 0.06`)! | **Add to Word Bible** |
+| 2026-11-15 | **`V.E.1`** | Measure (M) | **Probability Addition Rule** | `P(A or B) = P(A) + P(B) - P(A and B)`. *(Passed `Q84`!)* | **Mastered** |
+| 2026-11-15 | **`V.C.2` & `V.E.2`** | Measure (M) | **Stability (over time) vs. Linearity & Hypergeometric** | Drift Mon -> Wed -> Fri = **Stability**; small finite lot without replacement = **Hypergeometric** (not Exponential). | **Add to Word Bible** |
+| 2026-11-15 | **`VI.B.3` & `VI.B.4`** | Analyze (A) | **ANOVA & Non-Parametric Test Map** | 3+ Normal means = **One-Way ANOVA** (avoids Type I inflation). 3+ Skewed/non-normal medians = **Kruskal-Wallis**; 2 independent skewed = **Mann-Whitney U**; 2 paired skewed = **Paired Wilcoxon**. | **Add to Word Bible** |
