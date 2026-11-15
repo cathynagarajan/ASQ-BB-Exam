@@ -1,6 +1,6 @@
 {
-  "pii_scans_total": 124,
-  "pii_redactions_total": 20,
+  "pii_scans_total": 231,
+  "pii_redactions_total": 38,
   "pii_by_category": {
     "pem_key": 0,
     "api_key": 0,
@@ -8,8 +8,8 @@
     "secret_assign": 0,
     "ssn": 0,
     "credit_card": 0,
-    "email": 10,
-    "phone": 10
+    "email": 19,
+    "phone": 19
   },
   "mcp_tool_calls": {
     "kg_rag_query": 0,
@@ -26,6 +26,87 @@
     "kg_pii_guardrail_scan": 0.0
   },
   "recent_guardrail_events": [
+    {
+      "timestamp": "2026-11-15T00:51:38.067394+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
+    {
+      "timestamp": "2026-11-15T00:51:38.063440+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
+    {
+      "timestamp": "2026-11-15T00:51:38.062513+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
+    {
+      "timestamp": "2026-11-15T00:51:38.057696+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
+    {
+      "timestamp": "2026-11-15T00:51:38.055391+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
+    {
+      "timestamp": "2026-11-15T00:40:07.175184+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
+    {
+      "timestamp": "2026-11-15T00:40:07.174447+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
+    {
+      "timestamp": "2026-11-15T00:40:07.170588+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
+    {
+      "timestamp": "2026-11-15T00:40:07.168690+00:00",
+      "source": "mcp_guardrail",
+      "total_redacted": 2,
+      "categories": {
+        "email": 1,
+        "phone": 1
+      }
+    },
     {
       "timestamp": "2026-11-15T00:34:48.248308+00:00",
       "source": "mcp_guardrail",
@@ -117,5 +198,5 @@
       }
     }
   ],
-  "updated_at": "2026-11-15T00:34:48.248315+00:00"
+  "updated_at": "2026-11-15T00:51:38.067406+00:00"
 }

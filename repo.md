@@ -4,8 +4,8 @@ This file maintains the authoritative inventory of all **top-level parent folder
 
 - **Repository Root**: `/home/krithika/workspace/ASQ-BB-Exam`
 - **Top-Level Parent Folders Processed**: `2` (plus repository root `.` files)
-- **Total Indexed Files**: `14`
-- **Total Knowledge Graph Nodes**: `69`
+- **Total Indexed Files**: `16`
+- **Total Knowledge Graph Nodes**: `73`
 
 ---
 
@@ -13,7 +13,7 @@ This file maintains the authoritative inventory of all **top-level parent folder
 
 | # | Top-Level Parent Folder | Absolute Path | Indexed Files | Extracted KG Nodes | Key Subfolders | Description & Scope |
 | :---: | :--- | :--- | :---: | :---: | :--- | :--- |
-| 1 | [`Resume_And_Jobs/`](Resume_And_Jobs) | `/home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/` | `7` | `7` | — | Top-level repository folder `Resume_And_Jobs/` indexed by Knowledge Graph |
+| 1 | [`Resume_And_Jobs/`](Resume_And_Jobs) | `/home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/` | `9` | `9` | — | Top-level repository folder `Resume_And_Jobs/` indexed by Knowledge Graph |
 | 2 | [`documents/`](documents) | `/home/krithika/workspace/ASQ-BB-Exam/documents/` | `4` | `4` | — | Multi-modal documents, PDFs, Office files (`.docx`, `.pptx`, `.xlsx`), CSV/TSV datasets, OCR images, and audio recordings indexed into the Knowledge Graph |
 
 ### Repository Root (`.` Top-Level Files)
@@ -28,7 +28,7 @@ This file maintains the authoritative inventory of all **top-level parent folder
 
 | Top-Level Parent Folder | Extracted Entity Types (`type: count`) |
 | :--- | :--- |
-| `Resume_And_Jobs/` | `document`: 7 |
+| `Resume_And_Jobs/` | `document`: 9 |
 | `documents/` | `document`: 4 |
 | `.` (Root Files) | `document`: 3 |
 

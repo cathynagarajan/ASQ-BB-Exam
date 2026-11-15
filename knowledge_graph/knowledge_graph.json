@@ -1,42 +1,43 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-15T00:34:48.251915+00:00",
-    "total_files_indexed": 14,
-    "total_nodes": 69,
-    "total_edges": 67,
+    "generated_at": "2026-11-15T00:51:38.070853+00:00",
+    "total_files_indexed": 16,
+    "total_nodes": 73,
+    "total_edges": 77,
     "node_type_counts": {
       "chat_session": 1,
       "chat_turn": 12,
-      "document": 14,
-      "topic_entity": 42
+      "document": 16,
+      "topic_entity": 44
     }
   },
   "last_change_check": {
     "changed": true,
     "added": [
-      "Resume_And_Jobs/Job5_Intuitive_Supply_Chain_Risk_Visibility_JOB214003.md"
+      "Resume_And_Jobs/Job7_SBEnergy_Supply_Chain_Governance_RedwoodCity.md"
     ],
     "modified": [
+      "Resume_And_Jobs/Target_Jobs_Tracker.md",
       "documents/CAREER_APPLICATIONS_TRACKER.md"
     ],
     "removed": [],
-    "files_parsed": 2,
-    "files_cached_reused": 12,
+    "files_parsed": 3,
+    "files_cached_reused": 13,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 46,
-      "nodes_deleted": 38,
-      "edges_upserted": 58,
-      "edges_deleted": 69,
-      "wiki_pages_upserted": 2,
+      "nodes_upserted": 12,
+      "nodes_deleted": 8,
+      "edges_upserted": 20,
+      "edges_deleted": 13,
+      "wiki_pages_upserted": 3,
       "wiki_pages_deleted": 0,
-      "files_upserted": 3,
+      "files_upserted": 4,
       "files_deleted": 0,
-      "total_nodes_in_db": 69,
-      "total_edges_in_db": 67,
-      "total_files_tracked": 15
+      "total_nodes_in_db": 73,
+      "total_edges_in_db": 77,
+      "total_files_tracked": 17
     }
   },
   "nodes": [
@@ -255,6 +256,30 @@
       }
     },
     {
+      "id": "doc:Resume_And_Jobs/Job6_Applied_Materials_Purchasing_SupplyChain_SantaClara.md",
+      "type": "document",
+      "name": "Job6_Applied_Materials_Purchasing_SupplyChain_SantaClara.md",
+      "file_path": "Resume_And_Jobs/Job6_Applied_Materials_Purchasing_SupplyChain_SantaClara.md",
+      "description": "Documentation: Job6_Applied_Materials_Purchasing_SupplyChain_SantaClara.md (Resume_And_Jobs/Job6_Applied_Materials_Purchasing_SupplyChain_SantaClara.md)",
+      "metadata": {
+        "sections": [],
+        "keywords": [],
+        "format": "md"
+      }
+    },
+    {
+      "id": "doc:Resume_And_Jobs/Job7_SBEnergy_Supply_Chain_Governance_RedwoodCity.md",
+      "type": "document",
+      "name": "Job7_SBEnergy_Supply_Chain_Governance_RedwoodCity.md",
+      "file_path": "Resume_And_Jobs/Job7_SBEnergy_Supply_Chain_Governance_RedwoodCity.md",
+      "description": "Documentation: Job7_SBEnergy_Supply_Chain_Governance_RedwoodCity.md (Resume_And_Jobs/Job7_SBEnergy_Supply_Chain_Governance_RedwoodCity.md)",
+      "metadata": {
+        "sections": [],
+        "keywords": [],
+        "format": "md"
+      }
+    },
+    {
       "id": "doc:Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md",
       "type": "document",
       "name": "Krithika_Nagarajan_Clean_Master_Resume.md",
@@ -319,17 +344,26 @@
     {
       "id": "doc:Resume_And_Jobs/Target_Jobs_Tracker.md",
       "type": "document",
-      "name": "Krithika's Target Job Applications Tracker (Private Local Copy)",
+      "name": "Cathy's Target Job Applications Tracker (Private Local Copy)",
       "file_path": "Resume_And_Jobs/Target_Jobs_Tracker.md",
-      "description": "Documentation: Krithika's Target Job Applications Tracker (Private Local Copy) (Resume_And_Jobs/Target_Jobs_Tracker.md)",
+      "description": "Documentation: Cathy's Target Job Applications Tracker (Private Local Copy) (Resume_And_Jobs/Target_Jobs_Tracker.md)",
       "metadata": {
         "sections": [
-          "Krithika's Target Job Applications Tracker (Private Local Copy)"
+          "Cathy's Target Job Applications Tracker (Private Local Copy)",
+          "Hard Search Filter"
         ],
         "keywords": [
+          "Pay Floor:",
+          "120,000 USD+",
+          "Radius / Mode:",
+          "100% Remote",
+          "within 15\u201320 miles of Palo Alto, CA 94306",
           "|",
           "APPLIED (2026-11-14)",
-          "| 100% Remote | $130k\u2013$165k | Pending (#5 Next) |",
+          "UP NEXT (#7 Ready)",
+          "| San Jose Hybrid / Remote CA (~14 mi) | 150.4k\u2013190.6k | Pending (#8) |",
+          "| Sunnyvale, CA (~8 mi) | 132k\u2013189k | Pending (#9) |",
+          "Optional 1-role shot ONLY",
           "R2656254",
           "Job1_Stanford_Supply_Chain_PM_R2656254.md",
           "R2659261",
@@ -337,9 +371,10 @@
           "R0055571",
           "Job3_Gilead_Cold_Chain_Logistics_R0055571.md",
           "R0055230",
-          "28636",
-          "200691261",
-          "Sunnyvale"
+          "JOB214003",
+          "Job5_Intuitive_Supply_Chain_Risk_Visibility_JOB214003.md",
+          "Job7_SBEnergy_Supply_Chain_Governance_RedwoodCity.md",
+          "Job6_Applied_Materials_Purchasing_SupplyChain_SantaClara.md"
         ],
         "format": "md"
       }
@@ -724,14 +759,29 @@
       "metadata": {
         "sections": [
           "Career & Job Application Progress Tracker (KG-Indexed, PII-Free)",
-          "Completed Applications (5 Submitted \u2014 2026-11-14)"
+          "Cathy's Hard Job-Search Guardrails",
+          "Completed Applications (6 Submitted \u2014 2026-11-14)",
+          "Active Next Queue (#7+ Ready)"
         ],
         "keywords": [
           "Privacy Note:",
+          "Minimum Base Salary:",
+          "120,000 USD+ salaried",
+          "Location / Work Mode:",
+          "100% Remote",
+          "within 15 to 20 miles of Palo Alto, CA",
           "Stanford Health Care",
           "APPLIED (2026-11-14)",
           "Gilead Sciences",
           "Intuitive Surgical",
+          "Genentech (Roche)",
+          "SB Energy (SoftBank Group)",
+          "Tailored Resume Ready",
+          "Cisco Systems",
+          "Queued",
+          "Google Cloud",
+          "Applied Materials",
+          "Optional 60-sec single upload",
           "Resume_And_Jobs/",
           "kg_vectors_asq_bb_exam",
           "Req R2656254",
@@ -813,16 +863,6 @@
       }
     },
     {
-      "id": "topic:intuitive",
-      "type": "topic_entity",
-      "name": "intuitive",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'intuitive' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "intuitive"
-      }
-    },
-    {
       "id": "topic:apple",
       "type": "topic_entity",
       "name": "apple",
@@ -833,33 +873,13 @@
       }
     },
     {
-      "id": "topic:posted",
+      "id": "topic:intuitive",
       "type": "topic_entity",
-      "name": "posted",
+      "name": "intuitive",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'posted' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'intuitive' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "posted"
-      }
-    },
-    {
-      "id": "topic:right",
-      "type": "topic_entity",
-      "name": "right",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "right"
-      }
-    },
-    {
-      "id": "topic:supplier",
-      "type": "topic_entity",
-      "name": "supplier",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'supplier' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "supplier"
+        "keyword": "intuitive"
       }
     },
     {
@@ -873,6 +893,26 @@
       }
     },
     {
+      "id": "topic:base",
+      "type": "topic_entity",
+      "name": "base",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'base' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "base"
+      }
+    },
+    {
+      "id": "topic:palo",
+      "type": "topic_entity",
+      "name": "palo",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'palo' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "palo"
+      }
+    },
+    {
       "id": "topic:cathy",
       "type": "topic_entity",
       "name": "cathy",
@@ -883,13 +923,23 @@
       }
     },
     {
-      "id": "topic:hourly",
+      "id": "topic:posted",
       "type": "topic_entity",
-      "name": "hourly",
+      "name": "posted",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'hourly' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'posted' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "hourly"
+        "keyword": "posted"
+      }
+    },
+    {
+      "id": "topic:range",
+      "type": "topic_entity",
+      "name": "range",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'range' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "range"
       }
     },
     {
@@ -897,210 +947,22 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (58 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (62 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 58,
+        "turn_count": 62,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
-          "intuitive",
           "apple",
-          "posted",
-          "right",
-          "supplier",
+          "intuitive",
           "alto",
+          "base",
+          "palo",
           "cathy",
-          "hourly"
-        ]
-      }
-    },
-    {
-      "id": "topic:applied",
-      "type": "topic_entity",
-      "name": "applied",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'applied' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "applied"
-      }
-    },
-    {
-      "id": "topic:committing",
-      "type": "topic_entity",
-      "name": "committing",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'committing' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "committing"
-      }
-    },
-    {
-      "id": "topic:keep",
-      "type": "topic_entity",
-      "name": "keep",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'keep' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "keep"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S192",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S192 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S192] applied for both, pls keep committing to your KG",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 192,
-        "role": "user",
-        "created_at": "2026-11-15T00:20:39Z",
-        "content_excerpt": "applied for both, pls keep committing to your KG",
-        "topics": [
-          "applied",
-          "committing",
-          "keep"
-        ]
-      }
-    },
-    {
-      "id": "topic:another",
-      "type": "topic_entity",
-      "name": "another",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'another' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "another"
-      }
-    },
-    {
-      "id": "topic:applications",
-      "type": "topic_entity",
-      "name": "applications",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'applications' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "applications"
-      }
-    },
-    {
-      "id": "topic:apply",
-      "type": "topic_entity",
-      "name": "apply",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'apply' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "apply"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S197",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S197 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S197] can we apply for another few plz - applications",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 197,
-        "role": "user",
-        "created_at": "2026-11-15T00:21:39Z",
-        "content_excerpt": "can we apply for another few plz - applications",
-        "topics": [
-          "another",
-          "applications",
-          "apply"
-        ]
-      }
-    },
-    {
-      "id": "topic:inventory",
-      "type": "topic_entity",
-      "name": "inventory",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'inventory' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "inventory"
-      }
-    },
-    {
-      "id": "topic:governance",
-      "type": "topic_entity",
-      "name": "governance",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'governance' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "governance"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S213",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S213 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S213] ### 1. Knowledge Graph & Git Committed! All **4 submitted applications** (`Stanford R2656254`, `Stanford R2659261`, `Gilead R0055571`, `Gilead R0055230`) + your **40/50 ASQ Black Belt progress** are now committed and syn",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 213,
-        "role": "assistant",
-        "created_at": "2026-11-15T00:25:12Z",
-        "content_excerpt": "### 1. Knowledge Graph & Git Committed!\nAll **4 submitted applications** (`Stanford R2656254`, `Stanford R2659261`, `Gilead R0055571`, `Gilead R0055230`) + your **40/50 ASQ Black Belt progress** are now committed and synced to `kg_vectors_asq_bb_exam` (`63` nodes) and pushed to `ASQ-BB-Exam.git` *(with your personal phone/email kept strictly private and gitignored inside `Resume_And_Jobs/`)*.\n\n---\n\n### 2. Honest Pay Alert + Your Next 2 High-Paying Applications (#5 & #6)\n\n- **Skip Cardinal Health `Req 20189945` (*Transportation Consultant - Remote*):** I checked the posted salary\u2014it only pays **$68,500 to $97,700** (Midwest pay scale, way too low for Palo Alto). Only apply on Cardinal's site if you see a **Manager / Advisor, Indirect Sourcing** role over $135k!\n- Instead, knock out these **",
-        "topics": [
-          "supplier",
-          "inventory",
-          "governance",
-          "intuitive"
-        ]
-      }
-    },
-    {
-      "id": "topic:easier",
-      "type": "topic_entity",
-      "name": "easier",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'easier' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "easier"
-      }
-    },
-    {
-      "id": "topic:make",
-      "type": "topic_entity",
-      "name": "make",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'make' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "make"
-      }
-    },
-    {
-      "id": "topic:refer",
-      "type": "topic_entity",
-      "name": "refer",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'refer' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "refer"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S214",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S214 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S214] can you refer me as Cathy to make it easier?",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 214,
-        "role": "user",
-        "created_at": "2026-11-15T00:25:52Z",
-        "content_excerpt": "can you refer me as Cathy to make it easier?",
-        "topics": [
-          "cathy",
-          "easier",
-          "make",
-          "refer"
+          "posted",
+          "range"
         ]
       }
     },
@@ -1204,16 +1066,6 @@
       }
     },
     {
-      "id": "topic:base",
-      "type": "topic_entity",
-      "name": "base",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'base' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "base"
-      }
-    },
-    {
       "id": "topic:total",
       "type": "topic_entity",
       "name": "total",
@@ -1314,13 +1166,13 @@
       }
     },
     {
-      "id": "topic:range",
+      "id": "topic:hourly",
       "type": "topic_entity",
-      "name": "range",
+      "name": "hourly",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'range' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'hourly' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "range"
+        "keyword": "hourly"
       }
     },
     {
@@ -1464,6 +1316,16 @@
       }
     },
     {
+      "id": "topic:apply",
+      "type": "topic_entity",
+      "name": "apply",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'apply' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "apply"
+      }
+    },
+    {
       "id": "topic:ever",
       "type": "topic_entity",
       "name": "ever",
@@ -1492,12 +1354,222 @@
           "ever"
         ]
       }
+    },
+    {
+      "id": "topic:asq-bb-exam",
+      "type": "topic_entity",
+      "name": "asq-bb-exam",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "asq-bb-exam"
+      }
+    },
+    {
+      "id": "topic:home",
+      "type": "topic_entity",
+      "name": "home",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'home' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "home"
+      }
+    },
+    {
+      "id": "topic:job2_stanford_category_manager_r2659261",
+      "type": "topic_entity",
+      "name": "job2_stanford_category_manager_r2659261",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'job2_stanford_category_manager_r2659261' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "job2_stanford_category_manager_r2659261"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S241",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S241 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S241] Congrats on submitting **#5 (Intuitive Surgical `JOB214003`)**, Cathy! I just logged it in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md) and [Targe",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 241,
+        "role": "assistant",
+        "created_at": "2026-11-15T00:36:44Z",
+        "content_excerpt": "Congrats on submitting **#5 (Intuitive Surgical `JOB214003`)**, Cathy! I just logged it in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md) and [Target_Jobs_Tracker.md](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Target_Jobs_Tracker.md) and pushed the update to your Knowledge Graph (`7750b83`).\n\n### Honest Verdict on Apple: Trust Your Gut and Skip It!\nYou are **100% right** about Apple (`jobs.apple.com`):\n1. **Cold portal applications at Apple go into a black hole.** Every Cupertino Strategic Sourcing / GSM posting gets 2,000+ applicants in days, and Apple recruiters almost exclusively pull internal referrals or former Foxconn / consumer-electronics hardware commodity managers.\n2. **The 90-Second Rule:** ",
+        "topics": [
+          "apple",
+          "asq-bb-exam",
+          "home",
+          "job2_stanford_category_manager_r2659261"
+        ]
+      }
+    },
+    {
+      "id": "topic:anything",
+      "type": "topic_entity",
+      "name": "anything",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'anything' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "anything"
+      }
+    },
+    {
+      "id": "topic:application",
+      "type": "topic_entity",
+      "name": "application",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'application' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "application"
+      }
+    },
+    {
+      "id": "topic:looking",
+      "type": "topic_entity",
+      "name": "looking",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'looking' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "looking"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S242",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S242 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S242] just for your reference, i am looking for remote roles 100% min 120K, anything within 15-20 miles within Palo alto - send me the next application",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 242,
+        "role": "user",
+        "created_at": "2026-11-15T00:37:03Z",
+        "content_excerpt": "just for your reference, i am looking for remote roles 100% min 120K, anything within 15-20 miles within Palo alto - send me the next application",
+        "topics": [
+          "alto",
+          "anything",
+          "application",
+          "looking"
+        ]
+      }
+    },
+    {
+      "id": "topic:vendor",
+      "type": "topic_entity",
+      "name": "vendor",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'vendor' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "vendor"
+      }
+    },
+    {
+      "id": "topic:supplier",
+      "type": "topic_entity",
+      "name": "supplier",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'supplier' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "supplier"
+      }
+    },
+    {
+      "id": "topic:quality",
+      "type": "topic_entity",
+      "name": "quality",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'quality' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "quality"
+      }
+    },
+    {
+      "id": "topic:purchasing",
+      "type": "topic_entity",
+      "name": "purchasing",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'purchasing' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "purchasing"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S272",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S272 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S272] Locked into your permanent rules and Knowledge Graph (`72` live vectors), Cathy: - **Minimum Base Pay:** Strictly **120,000 USD+ salaried** (I immediately filtered out Applied Materials' junior `B3` role because its floo",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 272,
+        "role": "assistant",
+        "created_at": "2026-11-15T00:40:08Z",
+        "content_excerpt": "Locked into your permanent rules and Knowledge Graph (`72` live vectors), Cathy:\n- **Minimum Base Pay:** Strictly **120,000 USD+ salaried** (I immediately filtered out Applied Materials' junior `B3` role because its floor was 101K and 100% onsite!)\n- **Radius / Work Mode:** Strictly **100% Remote** OR **within 15 to 20 miles of Palo Alto, CA**\n\n---\n\n### Application #6 (2-for-1 on One Portal!): Applied Materials \u2014 Santa Clara (~10 Miles from Palo Alto)\n\nGo to **`https://jobs.appliedmaterials.com`** (filter Location: **Santa Clara, CA**) and submit this exact same tailored resume to **both** of these verified **124K+ USD** openings once your Workday profile fills in:\n\n1. **Primary Target (#6A): `Purchasing Manager`** \u2014 Santa Clara, CA (Hybrid flexibility)\n   - **Posted California Base Range:",
+        "topics": [
+          "vendor",
+          "supplier",
+          "quality",
+          "purchasing"
+        ]
+      }
+    },
+    {
+      "id": "topic:applied",
+      "type": "topic_entity",
+      "name": "applied",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'applied' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "applied"
+      }
+    },
+    {
+      "id": "topic:fenetech",
+      "type": "topic_entity",
+      "name": "fenetech",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'fenetech' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "fenetech"
+      }
+    },
+    {
+      "id": "topic:materials",
+      "type": "topic_entity",
+      "name": "materials",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'materials' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "materials"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S273",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S273 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S273] applie for fenetech what is next ? applied materials, applied for 15 roles, never got selected, may be try now?",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 273,
+        "role": "user",
+        "created_at": "2026-11-15T00:46:06Z",
+        "content_excerpt": "applie for fenetech what is next ? applied materials, applied for 15 roles, never got selected, may be try now?",
+        "topics": [
+          "applied",
+          "applie",
+          "fenetech",
+          "materials"
+        ]
+      }
     }
   ],
   "edges": [
     {
       "source": "chat_session:b6556366",
-      "target": "topic:intuitive",
+      "target": "topic:apple",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 15
@@ -1505,7 +1577,39 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:apple",
+      "target": "topic:intuitive",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 13
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:alto",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:base",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:palo",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:cathy",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 10
@@ -1516,48 +1620,22 @@
       "target": "topic:posted",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 9
+        "count": 10
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:right",
+      "target": "topic:range",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 8
+        "count": 10
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:supplier",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:alto",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:cathy",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:hourly",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
+      "target": "doc:Resume_And_Jobs/Job1_Stanford_Supply_Chain_PM_R2656254.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
     },
     {
       "source": "chat_session:b6556366",
@@ -1566,145 +1644,21 @@
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S192",
-      "target": "topic:applied",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S192",
-      "target": "topic:committing",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S192",
-      "target": "topic:keep",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S192",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S197",
-      "target": "topic:another",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S197",
-      "target": "topic:applications",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S197",
-      "target": "topic:apply",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S197",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S213",
-      "target": "topic:supplier",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S213",
-      "target": "topic:inventory",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S213",
-      "target": "topic:governance",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S213",
-      "target": "topic:intuitive",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S213",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S213",
-      "target": "doc:Resume_And_Jobs/Job2_Stanford_Category_Manager_R2659261.md",
+      "target": "doc:Resume_And_Jobs/Job6_Applied_Materials_Purchasing_SupplyChain_SantaClara.md",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S214",
-      "target": "topic:cathy",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S214",
-      "target": "topic:easier",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S214",
-      "target": "topic:make",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S214",
-      "target": "topic:refer",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
+      "source": "chat_session:b6556366",
+      "target": "doc:Resume_And_Jobs/Target_Jobs_Tracker.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S214",
-      "relation": "HAS_CHAT_TURN",
+      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
@@ -2002,6 +1956,188 @@
       "target": "chat_turn:b6556366:S225",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S241",
+      "target": "topic:apple",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S241",
+      "target": "topic:asq-bb-exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S241",
+      "target": "topic:home",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S241",
+      "target": "topic:job2_stanford_category_manager_r2659261",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S241",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S241",
+      "target": "doc:Resume_And_Jobs/Job1_Stanford_Supply_Chain_PM_R2656254.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S241",
+      "target": "doc:Resume_And_Jobs/Job2_Stanford_Category_Manager_R2659261.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S241",
+      "target": "doc:Resume_And_Jobs/Target_Jobs_Tracker.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S241",
+      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S242",
+      "target": "topic:alto",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S242",
+      "target": "topic:anything",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S242",
+      "target": "topic:application",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S242",
+      "target": "topic:looking",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S242",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S272",
+      "target": "topic:vendor",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S272",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S272",
+      "target": "topic:quality",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S272",
+      "target": "topic:purchasing",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S272",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S272",
+      "target": "doc:Resume_And_Jobs/Job6_Applied_Materials_Purchasing_SupplyChain_SantaClara.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S273",
+      "target": "topic:applied",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S273",
+      "target": "topic:applie",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S273",
+      "target": "topic:fenetech",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S273",
+      "target": "topic:materials",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S273",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
     }
   ],
   "file_hashes": {
@@ -2012,13 +2148,15 @@
     "Resume_And_Jobs/Job2_Stanford_Category_Manager_R2659261.md": "e1e41fd829094955c176dc7e4e1a425583d5d905445cae23170f3e473dd302ea",
     "Resume_And_Jobs/Job3_Gilead_Cold_Chain_Logistics_R0055571.md": "47b257a9e0c6c18d7001021458a7aa52d9683344c8746fa74feb46e775df2a13",
     "Resume_And_Jobs/Job5_Intuitive_Supply_Chain_Risk_Visibility_JOB214003.md": "2173a8bf2d72f21ffbf2d2974fe27aba10085de0f92c90a12055b09ea4007363",
+    "Resume_And_Jobs/Job6_Applied_Materials_Purchasing_SupplyChain_SantaClara.md": "b1c5d57b896fb9b977a5d594def0879f0b1b09a3cfcd68d03f9a22eb7b3bf344",
+    "Resume_And_Jobs/Job7_SBEnergy_Supply_Chain_Governance_RedwoodCity.md": "6ae28457006ad1fe3a534e473e7fe9aa11c71686527f376618e2596b4facff2c",
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
-    "Resume_And_Jobs/Target_Jobs_Tracker.md": "d0ce1bcbc9076bc382608f405d1c0771b65fee8538c7d3d99f4ce70fdb6b1ec2",
+    "Resume_And_Jobs/Target_Jobs_Tracker.md": "4620f6c058e5bca25ce6a66a270396e57e3404b8e91ba2b471cf51743141df62",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
-    "documents/CAREER_APPLICATIONS_TRACKER.md": "9bbc8d9eb6b98291fed8843cb70a80837c5109a281628cfedc16ef204a2c7f27",
+    "documents/CAREER_APPLICATIONS_TRACKER.md": "6e2fab1c813b2c168bf3f85baaa3d876ab876325db5fab29960886c496a1d454",
     "documents/QUESTION_BANK_LOG.md": "476b466599d08b5aaaa3231b737db1d9c3d2b88228ec88ae22c3216607bbb42d",
-    "repo.md": "53f9fc63ed14a89f675fec60bd5ad47ad3f869d65c79860717fc1969c3783870"
+    "repo.md": "92194a5de9d0ed89076ccbe659eb91b71c56fd8dec040ab27fa9140ac09b879b"
   }
 }
