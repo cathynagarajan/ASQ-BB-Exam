@@ -1,0 +1,101 @@
+================================================================================
+ASQ CSSBB EXAM CHEAT SHEET (2022 BoK) - EASY SKIM EDITION
+================================================================================
+
+--------------------------------------------------------------------------------
+1. HYPOTHESIS TESTS & NON-PARAMETRIC SELECTION (VI.B.3 & VI.B.4)
+--------------------------------------------------------------------------------
+[MEANS / MEDIANS]
+- 1 group vs. target:
+    Normal = 1-Sample t-test (or Z-test if pop. sigma known)
+    Skewed = 1-Sample Sign or 1-Sample Wilcoxon
+    Clue   = Comparing 1 line's average to a target
+
+- 2 independent groups:
+    Normal = 2-Sample t-test
+    Skewed = Mann-Whitney U test
+    Clue   = Supplier A vs. Supplier B (separate units)
+
+- 2 paired groups (before/after):
+    Normal = Paired t-test
+    Skewed = Paired Wilcoxon Signed-Rank
+    Clue   = Same 20 operators or parts measured twice
+
+- 3+ independent groups:
+    Normal = One-Way ANOVA (post-hoc: Tukey)
+    Skewed = Kruskal-Wallis test
+    Clue   = Shifts A, B, C, D (never run multiple t-tests!)
+
+- 3+ blocked / related groups:
+    Normal = Randomized Block ANOVA
+    Skewed = Friedman test
+    Clue   = Same patients or blocks tested across 3+ treatments
+
+[VARIANCES / SPREAD]
+- 1 group vs. target   : 1-Variance Chi-Square
+- 2 independent groups : F-test (Normal)  |  Levene's test (Non-Normal)
+- 3+ independent groups: Bartlett's test (Normal) | Levene's / Mood's Median (Non-Normal)
+
+[PROPORTIONS (% PASS / FAIL)]
+- 1 group vs. target : 1-Proportion Z-test  (e.g., Defect % vs. 2% goal)
+- 2 groups           : 2-Proportion Z-test  (e.g., Scrap % on Line 1 vs. Line 2)
+
+[COUNTS / CATEGORIES (CHI-SQUARE)]
+- 1 group vs. expected % : Chi-Square Goodness-of-Fit
+- 2+ groups in a table   : Chi-Square Test of Independence (Expected cell >= 5)
+
+[RANDOMNESS OVER TIME]
+- Time-ordered sequence  : Runs test (random vs. trend/cluster)
+
+
+--------------------------------------------------------------------------------
+2. MEASUREMENT SYSTEMS ANALYSIS - MSA (V.C.2)
+--------------------------------------------------------------------------------
+[ACCURACY = Average vs. True NIST Standard]
+- Bias       : Average off at 1 single point (Fix: re-zero / calibrate)
+- Linearity  : Bias changes across low, medium, high range (Fix: multi-point cal)
+- Stability  : Accuracy drifts over TIME, e.g. Mon -> Wed -> Fri (Fix: X-bar/R chart)
+
+[PRECISION = Spread / Scatter]
+- Repeatability (EV)   : SAME operator, SAME part, SAME gage
+- Reproducibility (AV) : DIFFERENT operators, SAME part, SAME gage
+
+[ATTRIBUTE MSA & RESOLUTION]
+- Kappa (Cohen/Fleiss) : Pass/Fail agreement beyond chance (>0.75 good, >0.90 excellent)
+- Gage R&R %StudyVar   : <10% Acceptable | 10%-30% Marginal | >30% Unacceptable
+- Resolution / ndc     : ndc >= 5; Gage must read 1/10th of tolerance (10-to-1 rule)
+
+
+--------------------------------------------------------------------------------
+3. NOIR MEASUREMENT SCALES (V.B.1)
+--------------------------------------------------------------------------------
+- N = Nominal  : Names/Labels only, no order (Shift A/B/C, Defect Type)
+- O = Ordinal  : Ordered ranks, unequal gaps (1-to-5 Survey, 1st/2nd/3rd place)
+- I = Interval : Equal gaps, NO true zero (Celsius, Fahrenheit, Calendar Year)
+- R = Ratio    : Equal gaps WITH true zero (Time, Weight, Cost, Length, Kelvin)
+
+
+--------------------------------------------------------------------------------
+4. PROBABILITY RULES & DISTRIBUTIONS (V.E)
+--------------------------------------------------------------------------------
+- Complement (NOT A)     : P(not A) = 1 - P(A)
+- Addition (A OR B)      : P(A or B) = P(A) + P(B) - P(A and B)
+- Multiplication (A & B) : Independent: P(A)*P(B) | Dependent: P(A)*P(B|A)
+- Permutations vs Combos : Order MATTERS = nPr | Order does NOT matter = nCr
+- Binomial               : Fixed n trials, Pass/Fail (2 outcomes)
+- Poisson                : Rare defects per unit, area, or time (scratches/sq m)
+- Hypergeometric         : Sampling WITHOUT replacement from small finite lot
+- Normal (Bell Curve)    : 68% (+/-1s), 95% (+/-2s), 99.7% (+/-3s)
+- CLT (Sample Means)     : Spread = sigma / sqrt(n). To cut error in HALF -> 4x n!
+
+
+--------------------------------------------------------------------------------
+5. QUICK FORMULAS (V.A & V.F)
+--------------------------------------------------------------------------------
+- Little's Law : WIP = Throughput Rate * Lead Time  |  Lead Time = WIP / Rate
+- Takt Time    : Available Production Time / Customer Demand
+- RTY          : Step1 Yield * Step2 Yield * Step3 Yield ...
+- Cp           : (USL - LSL) / (6 * short-term sigma)   [Potential, ignores center]
+- Cpk          : Lower of (USL - Mean)/(3*s) or (Mean - LSL)/(3*s) [Actual]
+- DPMO         : (Defects / (Units * Opportunities per unit)) * 1,000,000
+================================================================================

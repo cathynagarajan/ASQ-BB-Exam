@@ -1,0 +1,47 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><title>ASQ CSSBB Cheat Sheet Tables</title>
+<style>body{font-family:Calibri,Arial,sans-serif;margin:24px;color:#111}h1{color:#1b365d}h2{color:#1b365d;margin-top:28px}table{border-collapse:collapse;width:100%;margin-top:8px;font-size:11pt}th,td{border:1px solid #888;padding:6px 8px;text-align:left;vertical-align:top}th{background-color:#1b365d;color:#fff}tr:nth-child(even) td{background-color:#f4f7fb}</style>
+</head><body><h1>ASQ CSSBB Exam Cheat Sheet Tables (2022 BoK)</h1>
+<h2>1. Master Hypothesis Test &amp; Non-Parametric Selection Table (VI.B.3 &amp; VI.B.4)</h2><table>
+<tr><th>What You Are Comparing</th><th>Groups</th><th>Normal / Parametric Test</th><th>Skewed / Non-Normal Test</th><th>Quick Exam Clue</th></tr>
+<tr><td>Means / Medians</td><td>1 group vs. target</td><td>1-Sample t-test (or Z-test if pop. sigma known)</td><td>1-Sample Sign or Wilcoxon</td><td>1 line average vs. target</td></tr>
+<tr><td>Means / Medians</td><td>2 independent groups</td><td>2-Sample t-test</td><td>Mann-Whitney U test</td><td>Supplier A vs. Supplier B</td></tr>
+<tr><td>Means / Medians</td><td>2 paired (before/after)</td><td>Paired t-test</td><td>Paired Wilcoxon Signed-Rank</td><td>Same 20 operators measured twice</td></tr>
+<tr><td>Means / Medians</td><td>3+ independent groups</td><td>One-Way ANOVA (Tukey post-hoc)</td><td>Kruskal-Wallis test</td><td>Shifts A, B, C, D (avoid multiple t-tests)</td></tr>
+<tr><td>Means / Medians</td><td>3+ blocked / related</td><td>Randomized Block ANOVA</td><td>Friedman test</td><td>Same patients/blocks across 3+ treatments</td></tr>
+<tr><td>Variances (Spread)</td><td>1 group vs. target</td><td>1-Variance Chi-Square</td><td>-</td><td>Checking if spread s meets target</td></tr>
+<tr><td>Variances (Spread)</td><td>2 independent groups</td><td>F-test</td><td>Levene's test</td><td>Equal variance check before 2-sample t</td></tr>
+<tr><td>Variances (Spread)</td><td>3+ independent groups</td><td>Bartlett's test (normal only)</td><td>Levene's test / Mood's Median</td><td>Equal variance check before ANOVA</td></tr>
+<tr><td>Proportions (%)</td><td>1 group vs. target</td><td>1-Proportion Z-test</td><td>-</td><td>Defect % vs. 2% goal</td></tr>
+<tr><td>Proportions (%)</td><td>2 groups</td><td>2-Proportion Z-test</td><td>-</td><td>Scrap % on Line 1 vs. Line 2</td></tr>
+<tr><td>Counts / Categories</td><td>1 group vs. expected %</td><td>Chi-Square Goodness-of-Fit</td><td>(Non-parametric)</td><td>Do counts match 50% / 30% / 20%?</td></tr>
+<tr><td>Counts / Categories</td><td>2+ groups in a table</td><td>Chi-Square Independence</td><td>(Non-parametric)</td><td>Are Defect Type &amp; Shift related? (Cell &gt;= 5)</td></tr>
+<tr><td>Randomness</td><td>1 time-ordered sequence</td><td>-</td><td>Runs test</td><td>Random fluctuation vs. trend/cluster</td></tr>
+</table>
+<h2>2. Measurement Systems Analysis (MSA) Cheat Sheet (V.C.2)</h2><table>
+<tr><th>Family</th><th>Term</th><th>What It Means</th><th>Real-World Example</th><th>How to Fix</th></tr>
+<tr><td>Accuracy</td><td>Bias</td><td>Average off from NIST master standard (1 point)</td><td>Scale averages 152 lb for a 150 lb weight</td><td>Re-zero / calibrate gage</td></tr>
+<tr><td>Accuracy</td><td>Linearity</td><td>Bias changes across low, medium, high range</td><td>0 error at 10 N, +0.5 at 50 N, +2.0 at 100 N</td><td>Multi-point calibration</td></tr>
+<tr><td>Accuracy</td><td>Stability</td><td>Accuracy drifts over time</td><td>Reads 100.0 g Mon, 100.3 g Wed, 100.8 g Fri</td><td>Monitor master on X-bar/R chart</td></tr>
+<tr><td>Precision</td><td>Repeatability (EV)</td><td>Same operator, same part, same gage scatter</td><td>One person measures same part and gets wide scatter</td><td>Repair/tighten gage or fixture</td></tr>
+<tr><td>Precision</td><td>Reproducibility (AV)</td><td>Different operators measuring same part</td><td>Nurse A gets 66 in, Nurse B gets 67 in</td><td>Standardize SOP &amp; retrain operators</td></tr>
+<tr><td>Attribute MSA</td><td>Kappa (Cohen/Fleiss)</td><td>Pass/Fail agreement beyond chance</td><td>Inspectors agree &gt; 0.75 good, &gt; 0.90 excellent</td><td>Clarify visual standards</td></tr>
+<tr><td>Resolution</td><td>ndc &amp; 10-to-1 Rule</td><td>Distinct categories &gt;= 5; gage reads 1/10th tol.</td><td>0.10 mm tolerance needs 0.01 mm gage</td><td>Upgrade gage resolution</td></tr>
+</table>
+<h2>3. NOIR Measurement Scales (V.B.1)</h2><table>
+<tr><th>Scale</th><th>Meaning</th><th>Math Allowed</th><th>Classic ASQ Examples</th></tr>
+<tr><td>Nominal</td><td>Names / Labels only (no order)</td><td>Count / Mode only</td><td>Shift A/B/C, Defect Type, Supplier Name</td></tr>
+<tr><td>Ordinal</td><td>Ordered ranks (unequal gaps)</td><td>Median / Rank order</td><td>1-to-5 Survey, 1st/2nd/3rd place</td></tr>
+<tr><td>Interval</td><td>Equal gaps, NO true zero</td><td>Add / Subtract (no ratios)</td><td>Celsius, Fahrenheit, Calendar Year</td></tr>
+<tr><td>Ratio</td><td>Equal gaps WITH true absolute zero</td><td>All math (+, -, *, / ratios)</td><td>Time, Weight, Cost, Length, Kelvin</td></tr>
+</table>
+<h2>4. Probability Rules &amp; Distributions (V.E)</h2><table>
+<tr><th>Rule / Distribution</th><th>Formula / Trigger</th><th>Key Example</th></tr>
+<tr><td>Complement (NOT A)</td><td>P(not A) = 1 - P(A)</td><td>On-time = 0.92 -&gt; Late = 1 - 0.92 = 0.08</td></tr>
+<tr><td>Addition (A OR B)</td><td>P(A or B) = P(A) + P(B) - P(A and B)</td><td>0.10 + 0.20 - (0.10 * 0.20) = 0.28</td></tr>
+<tr><td>Multiplication (A AND B)</td><td>Independent: P(A) * P(B); Dependent: P(A) * P(B|A)</td><td>Without replacement: (3/10) * (2/9) = 6/90</td></tr>
+<tr><td>Binomial</td><td>Fixed n trials, Pass/Fail (2 outcomes)</td><td>Number of defectives in 20 independent parts</td></tr>
+<tr><td>Poisson</td><td>Rare defects per unit, area, or time</td><td>Scratches per square meter; calls per hour</td></tr>
+<tr><td>Hypergeometric</td><td>Sampling WITHOUT replacement from small finite lot</td><td>Drawing 10 bearings from a box of 40</td></tr>
+<tr><td>Normal (Bell Curve)</td><td>68% (+/-1s), 95% (+/-2s), 99.7% (+/-3s)</td><td>Continuous measurements (weight, length, time)</td></tr>
+</table>
+</body></html>
