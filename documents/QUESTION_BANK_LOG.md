@@ -86,3 +86,8 @@
 ## Copilot External Set Recorded (`C1`–`C25` — 2026-11-15 | Score: `20/25 = 80.0%`)
 - `C1`–`C25` mixed ASQ CSSBB review completed with Copilot: `20/25` (`80.0%`).
 - Missed/Flagged topics logged for 1-topic-at-a-time mastery: `V.E.2` Poisson vs. Exponential (`C3`, `C21`), `VIII.A` `p-chart` varying sample size (`C19`), `VII.A` DOE Central Composite Design / RSM (`C24`), `V.F.5` `Cp > Pp` under long-term drift (`C25`).
+
+## Copilot External Set #2 Recorded (`C26`–`C50` — 2026-11-16 | Raw `12/25 = 48%` -> True `17/25 = 68.0%` after fixing Q18 1-row shift)
+- `Q1`–`Q11`: `9 / 11` (`81.8%`! Missed `Q2` ANOVA vs Chi-Square, `Q4` Common vs Special Cause).
+- `Q12`–`Q17`: Nailed `Q15` SIPOC & `Q16` Poisson; missed `Q12` Scatter Plot, `Q13` Analyze validates root causes, `Q14` `p-chart` = fraction defective, `Q17` Two-sample vs Paired t-test.
+- `Q18`–`Q25`: Skipped `Q18` in unnumbered list, shifting `19->Q20 (A ✅)`, `21->Q22 (C ✅)`, `22->Q23 (B ✅)`, `23->Q24 (C ✅)`, `24->Q25 (B ✅)`! Real misses there were only `Q19` (`30k/120k = 0.25 yr = 3 months`) and `Q21` (`0.95*0.90*0.92 = 78.7%` calculator check).

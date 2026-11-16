@@ -3,16 +3,16 @@
 > **Purpose**: Single source of truth shared between **Antigravity** and **Qwen** (`QWEN.md` + `rules.md` + `kg_vectors_asq_bb_exam`). Both agents MUST update this file whenever committing progress so mode switches (`use qwen` / `stop qwen`) never lose a single detail.
 
 - **Candidate Preferred Name**: **Cathy**
-- **Last Synced**: `2026-11-15`
+- **Last Synced**: `2026-11-16`
 
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`125` (`Q1`–`Q100` + Copilot `C1`–`C25`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). **Project 2 (`50+ Qs`: `Q51`–`Q100`) COMPLETE!**
+- **Completed Unique Questions**: **`150` (`Q1`–`Q100` + Copilot `C1`–`C50`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). **Project 2 (`50+ Qs`: `Q51`–`Q100`) COMPLETE!**
 - **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **COMPLETE (`40 / 50 = 80.0%`)**
 - **Stage 2 Status (`Domain V — Measure Phase`)**: **COMPLETE (`28 / 40 = 70.0%`)**
 - **Stage 3 Status (`Domain VI — Analyze Phase`)**: **IN PROGRESS (`8 / 10 = 80.0%`)**
-- **Copilot External Mixed Set (`C1`–`C25`)**: **`20 / 25` (`80.0%`)** — Grand Cumulative: **`96 / 125` (`76.8%`)**
+- **Copilot External Mixed Sets (`C1`–`C50`)**: Set 1 = **`20 / 25` (`80.0%`)**; Set 2 = **`17 / 25` (`68.0%` adjusted; raw `48%` caused by 1-row shift skipping `Q18`)** — Grand Cumulative: **`113 / 150` (`75.3%`)**
 - **Active Weak Points Scheduled for Spaced Re-Testing**:
   1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)
   2. `IV.A.3` CTQ measurable numerical target vs. vague VOC (`Q18`)
