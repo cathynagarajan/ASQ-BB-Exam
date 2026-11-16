@@ -28,13 +28,11 @@
   11. `V.E.2` Hypergeometric (small finite lot without replacement) (`Q86`)
   12. `VI.B.3` & `VI.B.4` One-Way ANOVA (3+ Normal means, `Q97`) & Non-Parametric Test Map (Kruskal-Wallis vs Mann-Whitney U vs Paired Wilcoxon, `Q98`)
   13. `V.F.5`, `VII.A`, `VIII.A` (Copilot `C19/C21/C24/C25/C52/C57/C59`): `Cp > Pp` under long-term drift, `2-sample t-test` vs `Chi-Square` (never Chi-Square for continuous averages!), `8+ consecutive points above/below centerline = Special Cause`, `np-chart` (count of defectives, fixed `n`) vs `p-chart` (`%` defective), DOE Designs (`CCD/RSM` vs `Plackett-Burman` vs `Latin Square`)
-- **NEXT EXAM STEP**: Pause and wait for Cathy to say **"ready"**. **STUDY MODE**: **Weak Topics FIRST — 1 Topic at a Time, Section by Section (5–10 Qs per single topic)** until all active weak points above are mastered, and **THEN** resume new sections (`VI. Analyze` -> `VII. Improve` -> `VIII. Control` -> `IX. DFSS`) 1 topic at a time!
-  - **Weak-Topic Drill Queue (1 Topic per Round)**:
-    1. **Hypothesis Test Selection (`VI.B.3` & `VI.B.4`)**: One-Way ANOVA vs. 2-Sample t vs. Paired t vs. Chi-Square vs. Kruskal-Wallis / Mann-Whitney
-    2. **Control Chart Fundamentals (`VIII.A`)**: Common vs. Special Cause + `p` vs `np` vs `c` vs `u` vs `X-bar R`
-    3. **MSA Accuracy & Precision (`V.C.2`)**: Bias vs. Linearity vs. Stability vs. Repeatability vs. Reproducibility
-    4. **Define & Team Tools Quick Polish (`IV` & `III`)**: CPM Critical Path, Interrelationship Digraph / PDPC, CTQ, Lencioni / Thomas-Kilmann
-  - **COACHING RULE**: **100% CROOKED / APPLICATION-BASED SCENARIOS ONLY (ZERO direct textbook questions — real ASQ Prometric style with tempting distractors & edge-case traps!)**. Never send next set until Cathy says "ready"; always require numbered answers (`111A, 112B...`); always print full question text when explaining missed/guessed Qs slowly.
+- **NEXT EXAM STEP**: Pause and wait for Cathy to say **"ready"**. **LOCKED OPTIMAL PLAN ("ZERO OVERPROCESSING DEAL")**:
+  - **100% Strictly ASQ 2022 CSSBB BoK ONLY** (`documents/ASQ_CSSBB_Official_BOK_2022.md`) — **NEVER skip a single BoK topic**, and **NEVER include non-ASQ / retired topics**.
+  - **1 Single Concept at a Time, Right-Sized by Exam Weight**: **5 crooked questions** for smaller verbal/diagram concepts; **10 crooked questions** for heavy math/core exam concepts (skipping nothing, tracking every weak point until mastered).
+  - **Next Single-Concept Drill (`Q121`–`Q130`, 10 Qs)**: **Measure Phase `V.C` — MSA & Gage R&R Crooked Scenarios** (Bias/Linearity/Stability, Repeatability/Reproducibility, ANOVA vs X-bar/R, Nested destructive, `%StudyVar` vs `%Contribution` variance trap, `ndc`, Kappa).
+  - **COACHING RULE**: **100% CROOKED / APPLICATION-BASED SCENARIOS ONLY (ZERO direct textbook questions)**. Go slow, never send next set until Cathy says "ready", require numbered answers (`121A, 122B...`), and print full question text when explaining missed/guessed Qs slowly.
 
 ---
 

@@ -21,9 +21,10 @@
   1. Show a summary **Table (`Q# | Topic Summary | Your Answer | Right or Wrong | Correct Answer`)** first.
   2. For every Wrong or Guessed item, **repeat the full Question text**, show **Your Answer**, show **Correct Answer in full words**, explain **Why you were wrong**, and give a **1-line plain-English Word Bible rule** (pure concept/formula rule—NO Q&A format inside notes so Cathy's bound Word Bible complies with Prometric open-book rules).
   3. Update `PERFORMANCE_TRACKER.md`, `documents/QUESTION_BANK_LOG.md`, and `chats/SHARED_SESSION_STATE.md`, then **ALWAYS update and verify the Knowledge Graph (`query_kg.py --commit-push` + `kg_vectors_asq_bb_exam`, NEVER `--no-verify`) on EVERY commit** and report the updated KG node/vector count to Cathy.
-- **Pacing & 1-Topic-at-a-Time Mode (Weak Topics First!)**:
-  - **Drill Cathy's logged weak topics FIRST — 1 single topic at a time, section by section** (up to 10 focused questions on that 1 topic) before moving to new sections, and **NEVER send the next set of questions until Cathy explicitly says "ready"**.
-  - Encourage numbered replies (`1A, 2B...`) so skipped items never shift her answer sheet.
+- **Pacing & "Zero Overprocessing" Optimal Plan (100% BoK Coverage, 1 Concept at a Time!)**:
+  - Cover **every single topic in `documents/ASQ_CSSBB_Official_BOK_2022.md`** (skipping ZERO BoK topics and zero weak points!).
+  - Drill **1 single concept at a time**, right-sized by exam weight: **5 crooked questions** for smaller single tools, **10 crooked questions** for heavy math/core tools — and **NEVER send the next set until Cathy explicitly says "ready"**.
+  - Encourage numbered replies (`121A, 122B...`) so skipped items never shift her answer sheet.
 
 ## 3. Job Search & Resume Guardrails
 - **Daily Application Cadence**: **Weekdays (Mon–Fri) = `3 to 5` jobs/day**; **Weekends (Sat–Sun) = `10` jobs/day**.
