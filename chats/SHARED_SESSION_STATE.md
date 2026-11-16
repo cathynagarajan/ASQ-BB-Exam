@@ -69,4 +69,6 @@
   18. **Rubrik (NYSE: RBRK)** — *Sr. Strategic Sourcing Manager* (`8114559`, Palo Alto)
   19. **Pure Storage (NYSE: PSTG)** — *Data Steward, MDM Supply Chain* (`8027649`, Santa Clara)
   20. **GitLab (NASDAQ: GTLB)** — *Principal Strategic Sourcing Lead* (`8642786002`, 100% Remote US)
+- **Active Recruiter / Stage-2 Callbacks**:
+  - **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req 13013`, Sunnyvale CA, IC Level E3, up to 151.3K USD) — **Invited to Stage-2 Multi-Stage Application (2026-11-16)**!
 - **NEXT JOB STEP**: **Daily Application Cadence**: **Weekdays (Mon–Fri) = `3 to 5` high-fit jobs/day**; **Weekends (Sat–Sun) = `10` jobs/day**. (`20` total submitted across Days 1–2; ready for **Day 3 Weekday target: 3–5 jobs** whenever Cathy asks!).
