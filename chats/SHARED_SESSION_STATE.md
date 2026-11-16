@@ -26,7 +26,7 @@
   10. `V.C.2` Stability over time (`Q81`) & Linearity (`Q72`)
   11. `V.E.2` Hypergeometric (small finite lot without replacement) (`Q86`)
   12. `VI.B.3` & `VI.B.4` One-Way ANOVA (3+ Normal means, `Q97`) & Non-Parametric Test Map (Kruskal-Wallis vs Mann-Whitney U vs Paired Wilcoxon, `Q98`)
-  13. `V.F.5`, `VII.A`, `VIII.A` (Copilot `C19/C21/C24/C25`): `Cp > Pp` under long-term drift, Attribute Control Charts (`p` vs `np` vs `c` vs `u`), DOE Designs (`CCD/RSM` vs `Plackett-Burman` vs `Latin Square`)
+  13. `V.F.5`, `VII.A`, `VIII.A` (Copilot `C19/C21/C24/C25/C52/C57/C59`): `Cp > Pp` under long-term drift, `2-sample t-test` vs `Chi-Square` (never Chi-Square for continuous averages!), `8+ consecutive points above/below centerline = Special Cause`, `np-chart` (count of defectives, fixed `n`) vs `p-chart` (`%` defective), DOE Designs (`CCD/RSM` vs `Plackett-Burman` vs `Latin Square`)
 - **NEXT EXAM STEP**: Pause and wait for Cathy to say **"ready"**. **STUDY MODE**: **Weak Topics FIRST — 1 Topic at a Time, Section by Section (5–10 Qs per single topic)** until all active weak points above are mastered, and **THEN** resume new sections (`VI. Analyze` -> `VII. Improve` -> `VIII. Control` -> `IX. DFSS`) 1 topic at a time!
   - **Weak-Topic Drill Queue (1 Topic per Round)**:
     1. **Hypothesis Test Selection (`VI.B.3` & `VI.B.4`)**: One-Way ANOVA vs. 2-Sample t vs. Paired t vs. Chi-Square vs. Kruskal-Wallis / Mann-Whitney
