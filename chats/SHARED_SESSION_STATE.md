@@ -8,12 +8,13 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`200` (`Q1`–`Q140` + Copilot `C1`–`C60`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Today's 50-Question Goal (`Q101`–`Q150`, 5 Sets x 10 Qs, 1 Topic at a Time)**: **`40 / 50` done (`Set 1 = 9/10`, `Set 2 = 7/10`, `Set 3 = 7/10`, `Set 4 = 8/10` = `31 / 40 = 77.5%` today!)**
+- **Completed Unique Questions**: **`210` (`Q1`–`Q150` + Copilot `C1`–`C60`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Today's 50-Question Goal (`Q101`–`Q150`, 5 Sets x 10 Qs, 1 Topic at a Time)**: **COMPLETE (`39 / 50 = 78.0%` — `9/10, 7/10, 7/10, 8/10, 8/10`!)**
 - **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`56 / 70 = 80.0%`**
 - **Stage 2 Status (`Domain V — Measure Phase`)**: **`35 / 50 = 70.0%`**
-- **Stage 3 Status (`Domain VI — Analyze Phase`)**: **`16 / 20 = 80.0%`** (`t/ANOVA/Wilcoxon/Kruskal/F/Levene` MASTERED!)
-- **Copilot External Sets (`C1`–`C60`)**: **`44 / 60`** — Grand Cumulative: **`151 / 200` (`75.5%`)**
+- **Stage 3 Status (`Domain VI — Analyze Phase`)**: **`16 / 20 = 80.0%`**
+- **Stage 5 Preview (`Domain VIII — Control Charts`)**: **`8 / 10 = 80.0%`**
+- **Copilot External Sets (`C1`–`C60`)**: **`44 / 60`** — Grand Cumulative: **`159 / 210` (`75.7%`)**
 - **Active Weak Points Scheduled for Spaced Re-Testing**:
   1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)
   2. `IV.A.3` CTQ measurable numerical target vs. vague VOC (`Q18`)

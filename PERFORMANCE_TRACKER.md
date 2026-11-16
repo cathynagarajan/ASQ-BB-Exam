@@ -2,8 +2,8 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Round 11 / Set 4 of 5 — `VI.B` Hypothesis Test Selection):** **`8 / 10` (`80.0%`!)** *(NAILED 2-sample t, Paired t, ANOVA, Kruskal-Wallis, Paired Wilcoxon, F-test, Levene's! Missed ONLY `Q137` 2-Proportion Z-test & `Q138` Chi-Square table)*
-- **Overall Cumulative Score (`Q1`–`Q140` + `C1`–`C60` = `200` Qs):** **`151 / 200` (`75.5%` — Today: `31 / 40 = 77.5%`!)**
+- **Latest Batch Score (Round 12 / Set 5 of 5 — `VIII.A` Control Charts):** **`8 / 10` (`80.0%`)** *(Today's 50-Q Goal COMPLETE: **`39 / 50 = 78.0%`**! Nailed X-bar R, I-MR, X-bar s, p-chart, c-chart, u-chart, Common-cause, & 9-point Special-cause shift; missed only `Q145` np-chart count & `Q150` 7-point upward trend = Special-cause)*
+- **Overall Cumulative Score (`Q1`–`Q150` + `C1`–`C60` = `210` Qs):** **`159 / 210` (`75.7%`)**
 
 ---
 
@@ -18,7 +18,7 @@
 | **V. Measure** | **Measure (M)** | 25 Qs (16.7%) | 50 | 35 | **70.0%** | **Stability (`Q130`), Nested MSA (`Q122`), EV (`Q124`), P/T (`Q126`) Mastered!** Review `%Contribution` (`1%–9%`), Linearity (`Q127`), 10-to-1 Resolution (`Q125`) |
 | **VI. Analyze** | **Analyze (A)** | 22 Qs (14.7%) | 20 | 16 | **80.0%** | **Strong (`80%`!)** — Mastered `t/ANOVA/Wilcoxon/Kruskal/F/Levene`; review `2-Proportion Z-test` (`Q137`) & `Chi-Square table` (`Q138`) |
 | **VII. Improve** | **Improve (I)** | 21 Qs (14.0%) | 0 | 0 | — | Not Started *(3rd Weight)* |
-| **VIII. Control** | **Control (C)** | 17 Qs (11.3%) | 0 | 0 | — | Not Started |
+| **VIII. Control** | **Control (C)** | 17 Qs (11.3%) | 10 | 8 | **80.0%** | **Strong start (`80%`!)** — Review `np-chart` (count with fixed `n`) & `6+ point trend = Special-cause` |
 | **IX. Design for Six Sigma (DFSS)** | Post-DMAIC | 6 Qs (4.0%) | 0 | 0 | — | Not Started |
 
 ---

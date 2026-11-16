@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-16T23:30:40.689462+00:00",
+    "generated_at": "2026-11-16T23:36:59.790971+00:00",
     "total_files_indexed": 34,
-    "total_nodes": 244,
-    "total_edges": 344,
+    "total_nodes": 240,
+    "total_edges": 342,
     "node_type_counts": {
       "chat_session": 5,
       "chat_turn": 36,
@@ -12,31 +12,33 @@
       "document_file": 2,
       "document_section": 21,
       "html_template": 1,
-      "topic_entity": 149
+      "topic_entity": 145
     }
   },
   "last_change_check": {
     "changed": true,
     "added": [],
     "modified": [
-      "documents/ASQ_CSSBB_Cheat_Sheet.txt"
+      "PERFORMANCE_TRACKER.md",
+      "chats/SHARED_SESSION_STATE.md",
+      "documents/QUESTION_BANK_LOG.md"
     ],
     "removed": [],
-    "files_parsed": 1,
-    "files_cached_reused": 32,
+    "files_parsed": 2,
+    "files_cached_reused": 31,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 38,
-      "nodes_deleted": 29,
-      "edges_upserted": 60,
-      "edges_deleted": 49,
-      "wiki_pages_upserted": 0,
+      "nodes_upserted": 10,
+      "nodes_deleted": 8,
+      "edges_upserted": 17,
+      "edges_deleted": 12,
+      "wiki_pages_upserted": 2,
       "wiki_pages_deleted": 0,
-      "files_upserted": 2,
+      "files_upserted": 4,
       "files_deleted": 0,
-      "total_nodes_in_db": 244,
-      "total_edges_in_db": 344,
+      "total_nodes_in_db": 240,
+      "total_edges_in_db": 342,
       "total_files_tracked": 35
     }
   },
@@ -59,10 +61,11 @@
           "Stage 2 (`V. Measure`) COMPLETE!",
           "Stage 3 (`VI. Analyze`) IN PROGRESS",
           "Project 2 (`50+ Qs`) COMPLETE (`Q51`\u2013`Q100`)!",
-          "Latest Batch Score (Round 11 / Set 4 of 5 \u2014 `VI.B` Hypothesis Test Selection):",
-          "`8 / 10` (`80.0%`!)",
-          "Overall Cumulative Score (`Q1`\u2013`Q140` + `C1`\u2013`C60` = `200` Qs):",
-          "`151 / 200` (`75.5%` \u2014 Today: `31 / 40 = 77.5%`!)",
+          "Latest Batch Score (Round 12 / Set 5 of 5 \u2014 `VIII.A` Control Charts):",
+          "`8 / 10` (`80.0%`)",
+          "`39 / 50 = 78.0%`",
+          "Overall Cumulative Score (`Q1`\u2013`Q150` + `C1`\u2013`C60` = `210` Qs):",
+          "`159 / 210` (`75.7%`)",
           "I. Org-Wide Planning & Deployment",
           "100%",
           "Stage 1 Complete",
@@ -86,6 +89,7 @@
           "Improve (I)",
           "VIII. Control",
           "Control (C)",
+          "Strong start (`80%`!)",
           "IX. Design for Six Sigma (DFSS)",
           "`IV.A.2`",
           "`IV.A.3`",
@@ -162,18 +166,17 @@
           "50+ Qs",
           "Q51",
           "Q100",
-          "VI.B",
+          "VIII.A",
           "8 / 10",
-          "Q137",
-          "Q138",
+          "39 / 50 = 78.0%",
+          "Q145",
+          "Q150",
           "Q1",
-          "Q140",
           "C1",
           "C60",
-          "200",
-          "151 / 200",
-          "75.5%",
-          "31 / 40 = 77.5%",
+          "210",
+          "159 / 210",
+          "75.7%",
           "II.B",
           "II.C.2",
           "III.B",
@@ -195,7 +198,11 @@
           "80%",
           "t/ANOVA/Wilcoxon/Kruskal/F/Levene",
           "2-Proportion Z-test",
+          "Q137",
           "Chi-Square table",
+          "Q138",
+          "np-chart",
+          ") &",
           "IV.A.2",
           "IV.A.3",
           "9/10",
@@ -228,7 +235,6 @@
           "> short-term",
           ", so **",
           "VII.A",
-          "VIII.A",
           "p/np/c/u",
           "or varying",
           "= **",
@@ -1058,7 +1064,7 @@
       "id": "topic:count",
       "type": "topic_entity",
       "name": "count",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'count' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "count"
@@ -1229,7 +1235,7 @@
       "id": "topic:t-test",
       "type": "topic_entity",
       "name": "t-test",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
       "description": "Shared domain topic 't-test' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "t-test"
@@ -2206,7 +2212,8 @@
           "Round 8 (1-Topic Mastery Set 1 of 5: `IV.C` Project Management \u2014 `Q101`\u2013`Q110` \u2014 2026-11-16 | Score: `9/10 = 90.0%`)",
           "Round 9 (1-Topic Mastery Set 2 of 5: `IV.C & IV.D` Crooked Prometric Traps \u2014 `Q111`\u2013`Q120` \u2014 2026-11-16 | Score: `7/10 = 70.0%`)",
           "Round 10 (1-Topic Mastery Set 3 of 5: `V.C` MSA Crooked Prometric Scenarios \u2014 `Q121`\u2013`Q130` \u2014 2026-11-16 | Score: `7/10 = 70.0%`)",
-          "Round 11 (1-Topic Mastery Set 4 of 5: `VI.B.3 & VI.B.4` Hypothesis Test Selection \u2014 `Q131`\u2013`Q140` \u2014 2026-11-16 | Score: `8/10 = 80.0%`)"
+          "Round 11 (1-Topic Mastery Set 4 of 5: `VI.B.3 & VI.B.4` Hypothesis Test Selection \u2014 `Q131`\u2013`Q140` \u2014 2026-11-16 | Score: `8/10 = 80.0%`)",
+          "Round 12 (1-Topic Mastery Set 5 of 5: `VIII.A` Control Charts \u2014 `Q141`\u2013`Q150` \u2014 2026-11-16 | Score: `8/10 = 80.0%`)"
         ],
         "keywords": [
           "Rule:",
@@ -2753,13 +2760,13 @@
       }
     },
     {
-      "id": "topic:mastered",
+      "id": "topic:questions",
       "type": "topic_entity",
-      "name": "mastered",
+      "name": "questions",
       "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'mastered' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'questions' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "mastered"
+        "keyword": "questions"
       }
     },
     {
@@ -2767,18 +2774,18 @@
       "type": "chat_turn",
       "name": "Chat SHAREDSE Turn S5 (assistant)",
       "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`200` (`Q1`\u2013`Q140` + Copilot `C1`\u2013`C60`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). - **Today's 50-Question G",
+      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`210` (`Q1`\u2013`Q150` + Copilot `C1`\u2013`C60`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). - **Today's 50-Question G",
       "metadata": {
         "conversation_id": "SHAREDSE",
         "step_index": 5,
         "role": "assistant",
         "created_at": "",
-        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`200` (`Q1`\u2013`Q140` + Copilot `C1`\u2013`C60`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Today's 50-Question Goal (`Q101`\u2013`Q150`, 5 Sets x 10 Qs, 1 Topic at a Time)**: **`40 / 50` done (`Set 1 = 9/10`, `Set 2 = 7/10`, `Set 3 = 7/10`, `Set 4 = 8/10` = `31 / 40 = 77.5%` today!)**\n- **Stage 1 Status (`Domains I, II, III, IV \u2014 Foundations & Define`)**: **`56 / 70 = 80.0%`**\n- **Stage 2 Status (`Domain V \u2014 Measure Phase`)**: **`35 / 50 = 70.0%`**\n- **Stage 3 Status (`Domain VI \u2014 Analyze Phase`)**: **`16 / 20 = 80.0%`** (`t/ANOVA/Wilcoxon/Kruskal/F/Levene` MASTERED!)\n- **Copilot External Sets (`C1`\u2013`C60`)**: **`44 / 60`** \u2014 Grand Cumulative: **`151 / 200` (`75.5%`)**\n- **Active Weak Poin",
+        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`210` (`Q1`\u2013`Q150` + Copilot `C1`\u2013`C60`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Today's 50-Question Goal (`Q101`\u2013`Q150`, 5 Sets x 10 Qs, 1 Topic at a Time)**: **COMPLETE (`39 / 50 = 78.0%` \u2014 `9/10, 7/10, 7/10, 8/10, 8/10`!)**\n- **Stage 1 Status (`Domains I, II, III, IV \u2014 Foundations & Define`)**: **`56 / 70 = 80.0%`**\n- **Stage 2 Status (`Domain V \u2014 Measure Phase`)**: **`35 / 50 = 70.0%`**\n- **Stage 3 Status (`Domain VI \u2014 Analyze Phase`)**: **`16 / 20 = 80.0%`**\n- **Stage 5 Preview (`Domain VIII \u2014 Control Charts`)**: **`8 / 10 = 80.0%`**\n- **Copilot External Sets (`C1`\u2013`C60`)**: **`44 / 60`** \u2014 Grand Cumulative: **`159 / 210` (`75.7%`)**\n- **Active Weak Points Scheduled fo",
         "topics": [
           "crooked",
           "exam",
-          "mastered",
-          "never"
+          "never",
+          "questions"
         ]
       }
     },
@@ -2818,16 +2825,6 @@
       }
     },
     {
-      "id": "topic:phase",
-      "type": "topic_entity",
-      "name": "phase",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'phase' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "phase"
-      }
-    },
-    {
       "id": "topic:normal",
       "type": "topic_entity",
       "name": "normal",
@@ -2838,116 +2835,46 @@
       }
     },
     {
+      "id": "topic:x-bar",
+      "type": "topic_entity",
+      "name": "x-bar",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'x-bar' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "x-bar"
+      }
+    },
+    {
+      "id": "topic:phase",
+      "type": "topic_entity",
+      "name": "phase",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'phase' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "phase"
+      }
+    },
+    {
       "id": "chat_session:b6556366",
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (282 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (284 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 282,
+        "turn_count": 284,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
-          "test",
           "chart",
           "control",
-          "phase",
           "size",
-          "normal",
           "sample",
-          "t-test"
-        ]
-      }
-    },
-    {
-      "id": "topic:analyze",
-      "type": "topic_entity",
-      "name": "analyze",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'analyze' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "analyze"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1077",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1077 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1077] I am truly sorry if anything I wrote ever came across that way, **Cathy**. I have deep respect for how hard you are working, and I would never poke fun at you. From here on, I will keep my tone completely calm, clear, an",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1077,
-        "role": "assistant",
-        "created_at": "2026-11-16T23:12:29Z",
-        "content_excerpt": "I am truly sorry if anything I wrote ever came across that way, **Cathy**. I have deep respect for how hard you are working, and I would never poke fun at you. From here on, I will keep my tone completely calm, clear, and straightforward.\n\nHere is **Set 4 of 5: Questions 131 to 140** (`Analyze Phase - VI.B.3 & VI.B.4: Hypothesis Test Selection`). Every question is a concise, realistic ASQ scenario matching the All-in-One Hypothesis Test Package in your notes.\n\n---\n\n**Q131. [Analyze Phase - VI.B.3]**\nA quality engineer wants to determine whether average bolt tensile strength differs between Supplier A and Supplier B. Independent random samples of 25 bolts are tested from each supplier, and both samples are continuous, normally distributed, and have equal variances. Which test should be used",
-        "topics": [
           "test",
-          "analyze",
-          "phase",
-          "t-test"
-        ]
-      }
-    },
-    {
-      "id": "topic:issue",
-      "type": "topic_entity",
-      "name": "issue",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'issue' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "issue"
-      }
-    },
-    {
-      "id": "topic:need",
-      "type": "topic_entity",
-      "name": "need",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'need' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "need"
-      }
-    },
-    {
-      "id": "topic:clear",
-      "type": "topic_entity",
-      "name": "clear",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'clear' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "clear"
-      }
-    },
-    {
-      "id": "topic:combinations",
-      "type": "topic_entity",
-      "name": "combinations",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'combinations' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "combinations"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1078",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1078 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1078] i keep saying i need clear simple explanation with all possible combinations - when i can't even understand your question, is that my issue or your inability - if i have an issue, i need to improve on it",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1078,
-        "role": "user",
-        "created_at": "2026-11-16T23:13:19Z",
-        "content_excerpt": "i keep saying i need clear simple explanation with all possible combinations - when i can't even understand your question, is that my issue or your inability - if i have an issue, i need to improve on it",
-        "topics": [
-          "issue",
-          "need",
-          "clear",
-          "combinations"
+          "normal",
+          "x-bar",
+          "phase"
         ]
       }
     },
@@ -3358,6 +3285,41 @@
           "didn",
           "include"
         ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1102",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1102 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1102] Good catch, **Cathy** \u2014 those exact ASQ keywords (**Defective** vs. **Defects**, and **Percentage** vs. **Count**) are the whole key! Here is the corrected Crisp Sheet (also saved into [ASQ_CSSBB_Cheat_Sheet.txt](file://",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1102,
+        "role": "assistant",
+        "created_at": "2026-11-16T23:30:45Z",
+        "content_excerpt": "Good catch, **Cathy** \u2014 those exact ASQ keywords (**Defective** vs. **Defects**, and **Percentage** vs. **Count**) are the whole key! Here is the corrected Crisp Sheet (also saved into [ASQ_CSSBB_Cheat_Sheet.txt](file:///home/krithika/workspace/ASQ-BB-Exam/documents/ASQ_CSSBB_Cheat_Sheet.txt) and synced in `5314174`):\n\n---\n\n### Control Chart Crisp Sheet (With Defective vs. Defects)\n\n**1. DEFECTIVES (Whole item is Pass/Fail \u2014 Good or Bad)**\n- **p-chart:** **Percentage / Fraction Defective** (`%` bad) | Sample size **Varies** (or Constant)\n- **np-chart:** **Number / Count of Defectives** (count of bad items) | Sample size **MUST Be Constant**\n\n**2. DEFECTS (Count of flaws/scratches \u2014 1 item can have multiple flaws)**\n- **c-chart:** **Count of Defects** | Area/unit size **MUST Be Constant**\n-",
+        "topics": [
+          "size",
+          "chart",
+          "count",
+          "defects"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1103",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1103 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S1103] b,c,a,b,a,c,b,b,b,a",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1103,
+        "role": "user",
+        "created_at": "2026-11-16T23:36:05Z",
+        "content_excerpt": "b,c,a,b,a,c,b,b,b,a",
+        "topics": []
       }
     },
     {
@@ -5310,7 +5272,7 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:mastered",
+      "target": "topic:never",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 4
@@ -5318,7 +5280,7 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:never",
+      "target": "topic:questions",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 4
@@ -5388,18 +5350,10 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:test",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 50
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
       "target": "topic:chart",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 30
+        "count": 35
       }
     },
     {
@@ -5407,15 +5361,7 @@
       "target": "topic:control",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 30
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:phase",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 21
+        "count": 33
       }
     },
     {
@@ -5423,15 +5369,7 @@
       "target": "topic:size",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 18
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:normal",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 17
+        "count": 25
       }
     },
     {
@@ -5439,91 +5377,45 @@
       "target": "topic:sample",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 17
+        "count": 20
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:t-test",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 16
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1077",
       "target": "topic:test",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 31
+        "count": 19
       }
     },
     {
-      "source": "chat_turn:b6556366:S1077",
-      "target": "topic:analyze",
+      "source": "chat_session:b6556366",
+      "target": "topic:normal",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 15
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:x-bar",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 13
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:phase",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 11
       }
     },
     {
-      "source": "chat_turn:b6556366:S1077",
-      "target": "topic:phase",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 10
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1077",
-      "target": "topic:t-test",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 10
-      }
-    },
-    {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1077",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1078",
-      "target": "topic:issue",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1078",
-      "target": "topic:need",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1078",
-      "target": "topic:clear",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1078",
-      "target": "topic:combinations",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1078",
-      "relation": "HAS_CHAT_TURN",
+      "target": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
@@ -5895,6 +5787,56 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S1096",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1102",
+      "target": "topic:size",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1102",
+      "target": "topic:chart",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1102",
+      "target": "topic:count",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1102",
+      "target": "topic:defects",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1102",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1102",
+      "target": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1103",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -6764,7 +6706,7 @@
     }
   ],
   "file_hashes": {
-    "PERFORMANCE_TRACKER.md": "deac2a5f661330251551c3bf3ffdcfe5037a0182f7b4cd71e2de1387d1f11251",
+    "PERFORMANCE_TRACKER.md": "372788eb6b5985d819e33b44269c52db1ae13d2aa46d027d84c5ed5e34645781",
     "QWEN.md": "93e8a30c6895d93d17a7515f082c30974662d692a2e1bc0227617f623a17b6ea",
     "README.md": "506319462ce0f0d62f6cbed53d6d0cdfa3c40623a05eacd6b881d9c3ddd8facf",
     "STUDY_ROADMAP_MAR2027.md": "0565fb20c8f9008ab7629f78fed3bdf076952045a4567cca7ccebd4e1e986a27",
@@ -6790,14 +6732,14 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "484353ebcccfa105f4b77b29bc3c102e443beeffc000ed45fa057721bbe5393e",
-    "chats/SHARED_SESSION_STATE.md": "2ca378828c8a29bc63aa61b3241686a14c40b3c4b65f89aa0dae281a43e8002f",
+    "chats/SHARED_SESSION_STATE.md": "6d6af1838896c9b2b0ec17861af55fc26fe51972d3f599e59c4a38f0b14c2b96",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "c3076e66fdc65e24f6f3c03cb43344c23d612426962bc1841864ac2fabcbc94f",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
     "documents/CAREER_APPLICATIONS_TRACKER.md": "7116c1c133d642f862ea04f5a3a9e6f292b04cdeb8b4cc17428a15f977143426",
-    "documents/QUESTION_BANK_LOG.md": "cab6342c10078a50c205b3e01049de9e6b59daecd4f033c0d6df3b20ce33f78c",
-    "repo.md": "8802e7f8205771d6d638f16d89886adda8ad4f68d8c70d212e1eedd5ea9ca723"
+    "documents/QUESTION_BANK_LOG.md": "4adba5c2f91bf25a443cb145b9b1c2425bbf50e464827943a7cd75f7345e7b43",
+    "repo.md": "4c2fc77f9644e7313da7d47364d2354a6989afb00a216a461f76f44af77df9e6"
   }
 }
