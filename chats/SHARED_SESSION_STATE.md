@@ -70,5 +70,5 @@
   19. **Pure Storage (NYSE: PSTG)** — *Data Steward, MDM Supply Chain* (`8027649`, Santa Clara)
   20. **GitLab (NASDAQ: GTLB)** — *Principal Strategic Sourcing Lead* (`8642786002`, 100% Remote US)
 - **Active Recruiter / Stage-2 Callbacks**:
-  - **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req 13013`, Sunnyvale CA, IC Level E3, up to 151.3K USD) — **Stage-2 Portal Updated (`✓`) & Recruiter Follow-Up Questionnaire with Christian Sieg active (2026-11-16)**!
+  - **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req 13013`, Sunnyvale CA, IC Level E3, 125K–135K USD base) — **Stage-2 Portal Updated (`✓`) & Recruiter Questionnaire SENT to Christian Sieg (2026-11-16 — Ready for Hiring Manager advancement!)**!
 - **NEXT JOB STEP**: **Daily Application Cadence**: **Weekdays (Mon–Fri) = `3 to 5` high-fit jobs/day**; **Weekends (Sat–Sun) = `10` jobs/day**. (`20` total submitted across Days 1–2; ready for **Day 3 Weekday target: 3–5 jobs** whenever Cathy asks!).

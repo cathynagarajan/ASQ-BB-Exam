@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-16T21:02:36.138726+00:00",
+    "generated_at": "2026-11-16T21:20:11.238036+00:00",
     "total_files_indexed": 34,
-    "total_nodes": 241,
-    "total_edges": 334,
+    "total_nodes": 243,
+    "total_edges": 328,
     "node_type_counts": {
       "chat_session": 5,
       "chat_turn": 36,
@@ -12,7 +12,7 @@
       "document_file": 2,
       "document_section": 20,
       "html_template": 1,
-      "topic_entity": 147
+      "topic_entity": 149
     }
   },
   "last_change_check": {
@@ -28,16 +28,16 @@
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 30,
-      "nodes_deleted": 28,
-      "edges_upserted": 44,
-      "edges_deleted": 51,
+      "nodes_upserted": 39,
+      "nodes_deleted": 34,
+      "edges_upserted": 60,
+      "edges_deleted": 61,
       "wiki_pages_upserted": 1,
       "wiki_pages_deleted": 0,
       "files_upserted": 3,
       "files_deleted": 0,
-      "total_nodes_in_db": 241,
-      "total_edges_in_db": 334,
+      "total_nodes_in_db": 243,
+      "total_edges_in_db": 328,
       "total_files_tracked": 35
     }
   },
@@ -1205,7 +1205,7 @@
       "id": "topic:supplier",
       "type": "topic_entity",
       "name": "supplier",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'supplier' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "supplier"
@@ -2413,7 +2413,7 @@
       "id": "topic:alto",
       "type": "topic_entity",
       "name": "alto",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'alto' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "alto"
@@ -2744,16 +2744,6 @@
       }
     },
     {
-      "id": "topic:application",
-      "type": "topic_entity",
-      "name": "application",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'application' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "application"
-      }
-    },
-    {
       "id": "topic:clearance",
       "type": "topic_entity",
       "name": "clearance",
@@ -2761,290 +2751,6 @@
       "description": "Shared domain topic 'clearance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "clearance"
-      }
-    },
-    {
-      "id": "topic:please",
-      "type": "topic_entity",
-      "name": "please",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'please' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "please"
-      }
-    },
-    {
-      "id": "topic:click",
-      "type": "topic_entity",
-      "name": "click",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'click' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "click"
-      }
-    },
-    {
-      "id": "topic:email",
-      "type": "topic_entity",
-      "name": "email",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'email' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "email"
-      }
-    },
-    {
-      "id": "topic:right",
-      "type": "topic_entity",
-      "name": "right",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "right"
-      }
-    },
-    {
-      "id": "chat_session:b6556366",
-      "type": "chat_session",
-      "name": "Chat Session b6556366",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (201 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "short_id": "b6556366",
-        "turn_count": 201,
-        "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
-        "source": "antigravity_transcript",
-        "topics": [
-          "lockheed",
-          "martin",
-          "application",
-          "clearance",
-          "please",
-          "click",
-          "email",
-          "right"
-        ]
-      }
-    },
-    {
-      "id": "topic:march",
-      "type": "topic_entity",
-      "name": "march",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'march' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "march"
-      }
-    },
-    {
-      "id": "topic:window",
-      "type": "topic_entity",
-      "name": "window",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'window' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "window"
-      }
-    },
-    {
-      "id": "topic:eligibility",
-      "type": "topic_entity",
-      "name": "eligibility",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'eligibility' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "eligibility"
-      }
-    },
-    {
-      "id": "topic:brain",
-      "type": "topic_entity",
-      "name": "brain",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'brain' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "brain"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S914",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S914 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S914] **You caught me, Cathy \u2014 your memory is 100% RIGHT and I was wrong!** (So much for \"brain fog\" \u2014 your brain is sharp enough to catch my mix-up with PMP's 1-year rule!) I just verified directly on **asq.org** \u2014 here are t",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 914,
-        "role": "assistant",
-        "created_at": "2026-11-16T20:39:10Z",
-        "content_excerpt": "**You caught me, Cathy \u2014 your memory is 100% RIGHT and I was wrong!** (So much for \"brain fog\" \u2014 your brain is sharp enough to catch my mix-up with PMP's 1-year rule!)\n\nI just verified directly on **asq.org** \u2014 here are the exact official ASQ CSSBB rules:\n\n1. **Eligibility Window = `180 days` (~6 months), NOT 1 year:**\n   - Just like your Green Belt, once approved, your ASQ eligibility ID is valid for **180 days (6 months)** starting with the testing window you select.\n\n2. **Even BETTER news \u2014 You do NOT need to submit in November!**\n   - For the **March 1 \u2013 March 31** CSSBB testing window, ASQ's official **Application Deadline is February 8**!\n   - That gives you a **zero-stress, zero-risk game plan**:\n     - **Now / December:** Just get your **project affidavit** filled out and signed so",
-        "topics": [
-          "march",
-          "window",
-          "eligibility",
-          "brain"
-        ]
-      }
-    },
-    {
-      "id": "topic:affidavit",
-      "type": "topic_entity",
-      "name": "affidavit",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'affidavit' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "affidavit"
-      }
-    },
-    {
-      "id": "topic:first",
-      "type": "topic_entity",
-      "name": "first",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'first' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "first"
-      }
-    },
-    {
-      "id": "topic:submit",
-      "type": "topic_entity",
-      "name": "submit",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'submit' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "submit"
-      }
-    },
-    {
-      "id": "topic:week",
-      "type": "topic_entity",
-      "name": "week",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'week' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "week"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S915",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S915 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S915] so can I submit the affidavit dec first week?",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 915,
-        "role": "user",
-        "created_at": "2026-11-16T20:42:05Z",
-        "content_excerpt": "so can I submit the affidavit dec first week?",
-        "topics": [
-          "affidavit",
-          "first",
-          "submit",
-          "week"
-        ]
-      }
-    },
-    {
-      "id": "topic:december",
-      "type": "topic_entity",
-      "name": "december",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'december' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "december"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S918",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S918 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S918] **Yes \u2014 submitting in the first week of December is actually IDEAL!** Here is how ASQ's exact official rule works (verified on `asq.org`): 1. **Submitting in December does NOT shorten your 6 months!** - Your **180-day (~",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 918,
-        "role": "assistant",
-        "created_at": "2026-11-16T20:42:36Z",
-        "content_excerpt": "**Yes \u2014 submitting in the first week of December is actually IDEAL!** Here is how ASQ's exact official rule works (verified on `asq.org`):\n\n1. **Submitting in December does NOT shorten your 6 months!**\n   - Your **180-day (~6-month) eligibility clock starts on March 1** (the first day of the **March exam window** you select on the form \u2014 NOT the day you submit in December!).\n   - That means if you apply + send your affidavit in **early December** and pick the **March 2027 window**, your 6-month eligibility runs from **March 1 all the way to late August 2027** (covering the March, May, and July testing windows if you ever needed extra time!).\n\n2. **One important detail on the affidavit:**\n   - ASQ ties your signed project affidavit to your open exam application (submitted during the online ",
-        "topics": [
-          "affidavit",
-          "december",
-          "march",
-          "first"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S919",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S919 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S919] not sure when i applied - canyou help me plz Lockheed Martin - Req ID: 13013 - Multi-Stage Application Reasonable Accommodations Request LM Talent Acquisition Team<[REDACTED_EMAIL]> Krithika Nagarajan Dear Krithika, Than",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 919,
-        "role": "user",
-        "created_at": "2026-11-16T20:48:02Z",
-        "content_excerpt": "not sure when i applied - canyou help me plz Lockheed Martin - Req ID: 13013 - Multi-Stage Application Reasonable Accommodations Request\nLM Talent Acquisition Team<[REDACTED_EMAIL]>\nKrithika Nagarajan\nDear Krithika,\n\nThank you for your interest in Subcontract Management Sr - E3 (13013). We have reviewed your qualifications and would like to invite you to complete the next round of application questions.\n\nFederal law requires employers to provide reasonable accommodation to qualified people with disabilities. As a federal contractor Lockheed Martin is required to provide you an opportunity to provide this information during the application process.\n\nPlease tell us if you will require a reasonable accommodation during the recruitment process. Examples of reasonable accommodations include pro",
-        "topics": [
-          "application",
-          "please",
-          "lockheed",
-          "martin"
-        ]
-      }
-    },
-    {
-      "id": "topic:citizenship",
-      "type": "topic_entity",
-      "name": "citizenship",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'citizenship' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "citizenship"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S930",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S930 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S930] **That is GREAT news, Cathy \u2014 Lockheed Martin reviewed your resume and moved you forward to Stage 2!** *(You likely applied earlier on Indeed/ZipRecruiter/LinkedIn before we started our Nov 14 tracker, OR a Lockheed recr",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 930,
-        "role": "assistant",
-        "created_at": "2026-11-16T20:49:32Z",
-        "content_excerpt": "**That is GREAT news, Cathy \u2014 Lockheed Martin reviewed your resume and moved you forward to Stage 2!**\n\n*(You likely applied earlier on Indeed/ZipRecruiter/LinkedIn before we started our Nov 14 tracker, OR a Lockheed recruiter matched you from their talent pool! I just logged it in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md) and synced your Knowledge Graph: `c91f07e`, **248 nodes, 342 edges, 248 vectors**.)*\n\n---\n\n### 1. What Role Is This? (`Req ID: 13013`)\n- **Employer:** **Lockheed Martin Space** (Fortune 100, ultra-stable \u2014 zero startup risk!)\n- **Title:** **Subcontract Management Sr - E3** (Level E3 = Senior **Individual Contributor**, zero direct reports!)\n- **Location:** **Sunnyvale, CA** (~9 miles from Palo A",
-        "topics": [
-          "lockheed",
-          "click",
-          "application",
-          "citizenship"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S931",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S931 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S931] got this one Lockheed Martin Space Openings \u2502 Follow Up Questions to Application Chris Sieg [REDACTED_EMAIL] RE: Job Requisition: 13013 Job Title: Subcontract Management Sr - E3 Hello Krithika: I hope this email finds yo",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 931,
-        "role": "user",
-        "created_at": "2026-11-16T20:50:29Z",
-        "content_excerpt": "got this one Lockheed Martin Space Openings   \u2502 Follow Up Questions to Application\nChris Sieg\n[REDACTED_EMAIL]\nRE:\nJob Requisition: 13013\nJob Title: Subcontract Management Sr - E3\n\nHello Krithika:\n\nI hope this email finds you well!   Thank you for your interest in career opportunities with Lockheed Martin Space, and for taking the time to apply with us.  You are receiving this email because we need more detail about your work experience to help us better assess your background for our open position.  Please answer the questions inline below to provide additional information for us, and ideally return within 24 hours.\n\nVerify Contact Information:\nPlease verify your best Daytime contact number:\nLinkedIn Profile Link: \n\nYour Job Search: \nWhy are you seeking employment with Lockheed Martin? \nA",
-        "topics": [
-          "clearance",
-          "lockheed",
-          "martin",
-          "please"
-        ]
       }
     },
     {
@@ -3058,185 +2764,515 @@
       }
     },
     {
-      "id": "chat_turn:b6556366:S938",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S938 (assistant)",
+      "id": "topic:background",
+      "type": "topic_entity",
+      "name": "background",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S938] **HUGE WIN, CATHY!!** That is a **personal email from Lockheed Martin Space recruiter Christian Sieg (`[REDACTED_EMAIL]`)** \u2014 and look at his last paragraph: he literally wants to **advance your resume to the hiring mana",
+      "description": "Shared domain topic 'background' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "background"
+      }
+    },
+    {
+      "id": "topic:palo",
+      "type": "topic_entity",
+      "name": "palo",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'palo' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "palo"
+      }
+    },
+    {
+      "id": "topic:space",
+      "type": "topic_entity",
+      "name": "space",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'space' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "space"
+      }
+    },
+    {
+      "id": "chat_session:b6556366",
+      "type": "chat_session",
+      "name": "Chat Session b6556366",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Chat Session b6556366 (223 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 938,
-        "role": "assistant",
-        "created_at": "2026-11-16T20:51:18Z",
-        "content_excerpt": "**HUGE WIN, CATHY!!** That is a **personal email from Lockheed Martin Space recruiter Christian Sieg (`[REDACTED_EMAIL]`)** \u2014 and look at his last paragraph: he literally wants to **advance your resume to the hiring manager** as soon as you reply to him AND click Submit on that Reasonable Accommodation (`N/A`) / Conflict of Interest portal form!\n\n### Quick Strategy Note on Salary (`Req 13013` Sunnyvale E3 Band)\n- Lockheed's official posted salary cap for **Level E3** in Sunnyvale, CA tops out at **`151,300 USD`**.\n- Listing **`130,000 to 148,000 USD base`** (plus standard target bonus/benefits) keeps you **above your `125,000 USD` floor** while staying **inside Lockheed's E3 ceiling** so you don't get screened out on budget!\n\n---\n\n### Copy-Paste Email Reply to `[REDACTED_EMAIL]`\n*(Check th",
+        "short_id": "b6556366",
+        "turn_count": 223,
+        "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+        "source": "antigravity_transcript",
         "topics": [
-          "clearance",
           "lockheed",
+          "martin",
+          "clearance",
           "sunnyvale",
-          "martin"
+          "alto",
+          "background",
+          "palo",
+          "space"
         ]
       }
     },
     {
-      "id": "chat_turn:b6556366:S939",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S939 (user)",
+      "id": "topic:billing",
+      "type": "topic_entity",
+      "name": "billing",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S939] what do i do",
+      "description": "Shared domain topic 'billing' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "billing"
+      }
+    },
+    {
+      "id": "topic:carrier",
+      "type": "topic_entity",
+      "name": "carrier",
+      "file_path": "chats/transcript_6e8422d1.jsonl",
+      "description": "Shared domain topic 'carrier' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "carrier"
+      }
+    },
+    {
+      "id": "topic:contract",
+      "type": "topic_entity",
+      "name": "contract",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'contract' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "contract"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S962",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S962 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S962] **SLA Governance** is just a corporate term for **something you already do every single week**: - **SLA = Service Level Agreement** (the promised targets in a supplier/carrier contract \u2014 like **On-Time Delivery %**, tran",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 939,
+        "step_index": 962,
+        "role": "assistant",
+        "created_at": "2026-11-16T21:08:08Z",
+        "content_excerpt": "**SLA Governance** is just a corporate term for **something you already do every single week**:\n\n- **SLA = Service Level Agreement** (the promised targets in a supplier/carrier contract \u2014 like **On-Time Delivery %**, transit times, or billing accuracy).\n- **SLA Governance** = **Tracking and holding vendors accountable to those promises** \u2014 running supplier KPI scorecards, reviewing late shipments, doing root-cause analysis when a carrier misses targets, and making them fix it *(exact same work you did to boost On-Time Delivery by **+40%** and audit **2M+ USD** in billing variances!)*.\n\n*(Tip: If you ever prefer simpler everyday wording in your email, you can also say **\"supplier performance tracking and contract compliance\"** \u2014 it means the exact same thing!)*",
+        "topics": [
+          "supplier",
+          "billing",
+          "carrier",
+          "contract"
+        ]
+      }
+    },
+    {
+      "id": "topic:bandwidth",
+      "type": "topic_entity",
+      "name": "bandwidth",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'bandwidth' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "bandwidth"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S963",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S963 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S963] is 130 -148 within our bandwidth?",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 963,
         "role": "user",
-        "created_at": "2026-11-16T20:56:50Z",
-        "content_excerpt": "what do i do",
+        "created_at": "2026-11-16T21:09:16Z",
+        "content_excerpt": "is 130 -148 within our bandwidth?",
+        "topics": [
+          "bandwidth"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S964",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S964 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S964] **Yes \u2014 it",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 964,
+        "role": "assistant",
+        "created_at": "2026-11-16T21:09:16Z",
+        "content_excerpt": "**Yes \u2014 it",
         "topics": []
       }
     },
     {
-      "id": "topic:information",
+      "id": "topic:high",
       "type": "topic_entity",
-      "name": "information",
+      "name": "high",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'information' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'high' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "information"
+        "keyword": "high"
       }
     },
     {
-      "id": "topic:job-specific",
+      "id": "topic:meaning",
       "type": "topic_entity",
-      "name": "job-specific",
+      "name": "meaning",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'job-specific' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'meaning' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "job-specific"
+        "keyword": "meaning"
       }
     },
     {
-      "id": "chat_turn:b6556366:S940",
+      "id": "topic:reject",
+      "type": "topic_entity",
+      "name": "reject",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'reject' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "reject"
+      }
+    },
+    {
+      "id": "topic:salary",
+      "type": "topic_entity",
+      "name": "salary",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'salary' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "salary"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S965",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S940 (assistant)",
+      "name": "Chat b6556366 Turn S965 (user)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S940] You are on the exact right page! (And mystery solved \u2014 `Resume.docx (10/20/2026)` shows you applied on **October 20**!) Here is what to click right now: 1. Click the blue bar near the bottom that says **`> Job-Specific I",
+      "description": "[USER S965] meaning they should not reject me for high salary",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 940,
-        "role": "assistant",
-        "created_at": "2026-11-16T20:56:51Z",
-        "content_excerpt": "You are on the exact right page! (And mystery solved \u2014 `Resume.docx (10/20/2026)` shows you applied on **October 20**!)\n\nHere is what to click right now:\n\n1. Click the blue bar near the bottom that says **`> Job-Specific Information`** *(or click **`+ Expand all sections`** in the top right)* so the hidden Stage-2 questions open up.\n2. Fill out the required fields inside **`Job-Specific Information`**:\n   - For the **Reasonable Accommodation** question, type **`N/A`** (or select **No**).\n   - Complete any **Conflict of Interest / Citizenship** questions shown there.\n3. Click the blue **`Update`** button at the bottom! *(Be careful **not** to click `Withdraw Application` right next to it!)*\n\nIf you want me to check the questions inside **`Job-Specific Information`** before you click **`Upda",
-        "topics": [
-          "click",
-          "right",
-          "information",
-          "job-specific"
-        ]
-      }
-    },
-    {
-      "id": "topic:accomodation",
-      "type": "topic_entity",
-      "name": "accomodation",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'accomodation' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "accomodation"
-      }
-    },
-    {
-      "id": "topic:religious",
-      "type": "topic_entity",
-      "name": "religious",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'religious' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "religious"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S941",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S941 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S941] i put N/A on religious accomodation, what do i do",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 941,
+        "step_index": 965,
         "role": "user",
-        "created_at": "2026-11-16T20:58:52Z",
-        "content_excerpt": "i put N/A on religious accomodation, what do i do",
+        "created_at": "2026-11-16T21:09:38Z",
+        "content_excerpt": "meaning they should not reject me for high salary",
         "topics": [
-          "accomodation",
-          "religious"
+          "high",
+          "meaning",
+          "reject",
+          "salary"
         ]
       }
     },
     {
-      "id": "topic:christian",
+      "id": "topic:defense",
       "type": "topic_entity",
-      "name": "christian",
+      "name": "defense",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'christian' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'defense' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "christian"
+        "keyword": "defense"
       }
     },
     {
-      "id": "topic:update",
+      "id": "topic:exact",
       "type": "topic_entity",
-      "name": "update",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'update' connecting multi-modal documents and workspace chats",
+      "name": "exact",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'exact' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "update"
+        "keyword": "exact"
       }
     },
     {
-      "id": "chat_turn:b6556366:S942",
+      "id": "topic:recruiter",
+      "type": "topic_entity",
+      "name": "recruiter",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'recruiter' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "recruiter"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S966",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S942 (assistant)",
+      "name": "Chat b6556366 Turn S966 (assistant)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S942] Putting **`N/A`** there is **100% fine**! Here are the final 3 steps: 1. **Check for any other red `*` required fields** inside **`Job-Specific Information`** (like disability/interview accommodation -> **`N/A`**, Confli",
+      "description": "[ASSISTANT S966] **Great instinct to double-check!** Here is the exact insider recruiter math on Lockheed's **`81,500 to 151,300 USD`** posted range for Level E3: - **`151,300 USD`** is the **absolute ceiling** of the Sunnyvale band (usu",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 942,
+        "step_index": 966,
         "role": "assistant",
-        "created_at": "2026-11-16T20:58:52Z",
-        "content_excerpt": "Putting **`N/A`** there is **100% fine**! Here are the final 3 steps:\n\n1. **Check for any other red `*` required fields** inside **`Job-Specific Information`** (like disability/interview accommodation -> **`N/A`**, Conflict of Interest -> **`No`** if none, US Citizenship -> **`Yes`**).\n2. Click the blue **`Update`** button at the bottom so it saves and unlocks Christian's recruiter dashboard! *(Wait for the confirmation message that your application was updated.)*\n3. **Send the email reply to Christian Sieg (`[REDACTED_EMAIL]`)** using the template above (just paste in your **LinkedIn URL** first) \u2014 and let him know in the first sentence that you **already submitted the portal Update** so he can send your resume straight to the hiring manager right away!\n\nTell me once **`Update`** goes thr",
+        "created_at": "2026-11-16T21:09:39Z",
+        "content_excerpt": "**Great instinct to double-check!** Here is the exact insider recruiter math on Lockheed's **`81,500 to 151,300 USD`** posted range for Level E3:\n\n- **`151,300 USD`** is the **absolute ceiling** of the Sunnyvale band (usually reserved for people who already have 8+ years of defense FAR/DFARS experience, or requires VP sign-off near the very top).\n- Because you are transitioning from commercial supply chain into defense, **`125,000 - 140,000 USD`** (or **`128,000 - 142,000 USD`**) is **even safer** than `148K`:\n  1. It **still protects your `125,000 USD+` floor**.\n  2. It sits right inside Lockheed Sunnyvale's **normal recruiter approval sweet spot** (well below the `151,300 USD` cap), so Christian will **NOT** reject you for being too expensive!\n\nSo if you want zero risk of getting screene",
         "topics": [
-          "christian",
-          "update",
-          "email",
-          "first"
+          "lockheed",
+          "defense",
+          "exact",
+          "recruiter"
         ]
       }
     },
     {
-      "id": "topic:saves",
-      "type": "topic_entity",
-      "name": "saves",
+      "id": "chat_turn:b6556366:S967",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S967 (user)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'saves' connecting multi-modal documents and workspace chats",
+      "description": "[USER S967] this is what i am going to send to chris are you ok with it? Hi Chris, Good afternoon, Hi Christian, Thank you so much for reaching out! I am very excited about the Subcontract Management Sr - E3 (Req 13013) opportunity ",
       "metadata": {
-        "keyword": "saves"
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 967,
+        "role": "user",
+        "created_at": "2026-11-16T21:12:06Z",
+        "content_excerpt": "this is what i am going to send to chris are you ok with it? Hi Chris,\nGood afternoon,\nHi Christian,\n\nThank you so much for reaching out! I am very excited about the Subcontract Management Sr - E3 (Req 13013) opportunity in Sunnyvale as well as upcoming openings on your team. I have already completed and submitted the Reasonable Accommodation update in my Candidate Profile portal, and please find my responses inline below:\n\nVerify Contact Information:\nPlease verify your best Daytime contact number: [REDACTED_PHONE]\nLinkedIn Profile Link: Not currently active on Linkedin\n\nYour Job Search:\nWhy are you seeking employment with Lockheed Martin?\nI am seeking long-term career stability and mission-driven work with an industry leader locally. With 10+ years of experience managing 50M+ USD in suppl",
+        "topics": [
+          "clearance",
+          "lockheed",
+          "martin",
+          "sunnyvale"
+        ]
       }
     },
     {
-      "id": "chat_turn:b6556366:S944",
+      "id": "chat_turn:b6556366:S968",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S944 (assistant)",
+      "name": "Chat b6556366 Turn S968 (assistant)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S944] **That looks 100% right!** `N/A` is the only red `*` required box on the whole page. 1. Click the blue **`Update`** button right now! *(Quick note: if it saves cleanly, you are 100% done on the portal! Only if a popup co",
+      "description": "[ASSISTANT S968] **So glad you asked me to proofread!** Look at the **very top 3 lines** \u2014 there was an accidental double greeting (`Hi Chris, / Good afternoon, / Hi Christian,`)! Everything else (especially `125K - 135K USD` and your sm",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 944,
+        "step_index": 968,
         "role": "assistant",
-        "created_at": "2026-11-16T20:59:41Z",
-        "content_excerpt": "**That looks 100% right!** `N/A` is the only red `*` required box on the whole page.\n\n1. Click the blue **`Update`** button right now!\n   *(Quick note: if it saves cleanly, you are 100% done on the portal! Only if a popup complains about parentheses in `(201) 7070163` under Primary Phone Number, click `View Profile` and change it to `2017070163`.)*\n2. Right after **`Update`** saves, **send your email reply to Christian Sieg (`[REDACTED_EMAIL]`)** (don't forget to paste your LinkedIn link into the bracket!).\n\nLet me know as soon as **`Update`** confirms!",
+        "created_at": "2026-11-16T21:12:06Z",
+        "content_excerpt": "**So glad you asked me to proofread!** Look at the **very top 3 lines** \u2014 there was an accidental double greeting (`Hi Chris, / Good afternoon, / Hi Christian,`)!\n\nEverything else (especially `125K - 135K USD` and your smart line about remote options in other states!) is **spot-on**! I fixed that top greeting, capitalized `LinkedIn`, and added `(no unvested incentives left behind)` so it answers 100% of his salary question.\n\nCopy-paste this clean version and hit **Send**:\n\n```text\nHi Christian,\n\nGood afternoon! Thank you so much for reaching out. I am very excited about the Subcontract Management Sr - E3 (Req 13013) opportunity in Sunnyvale as well as upcoming openings on your team. I have already completed and submitted the Reasonable Accommodation update in my Candidate Profile portal, a",
         "topics": [
-          "right",
-          "update",
-          "click",
-          "saves"
+          "clearance",
+          "lockheed",
+          "martin",
+          "sunnyvale"
+        ]
+      }
+    },
+    {
+      "id": "topic:chris",
+      "type": "topic_entity",
+      "name": "chris",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'chris' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "chris"
+      }
+    },
+    {
+      "id": "topic:easy",
+      "type": "topic_entity",
+      "name": "easy",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'easy' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "easy"
+      }
+    },
+    {
+      "id": "topic:hightlight",
+      "type": "topic_entity",
+      "name": "hightlight",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'hightlight' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "hightlight"
+      }
+    },
+    {
+      "id": "topic:read",
+      "type": "topic_entity",
+      "name": "read",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'read' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "read"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S969",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S969 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S969] Do you think we hightlight the responses so that it will be easy for Chris to read?",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 969,
+        "role": "user",
+        "created_at": "2026-11-16T21:13:32Z",
+        "content_excerpt": "Do you think we hightlight the responses so that it will be easy for Chris to read?",
+        "topics": [
+          "chris",
+          "easy",
+          "hightlight",
+          "read"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S970",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S970 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S970] **Great visual-management instinct!** One quick corporate-email tip: **bolding** your answers (or making them dark blue) looks much cleaner and more executive than bright yellow highlight (which can blind people in Outlo",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 970,
+        "role": "assistant",
+        "created_at": "2026-11-16T21:13:33Z",
+        "content_excerpt": "**Great visual-management instinct!** One quick corporate-email tip: **bolding** your answers (or making them dark blue) looks much cleaner and more executive than bright yellow highlight (which can blind people in Outlook Dark Mode!).\n\nHere is the exact email with **every answer already bolded** \u2014 you can copy-paste this directly into your email window so all the bold formatting carries right over for Christian:\n\n---\n\nHi Christian,\n\nGood afternoon! Thank you so much for reaching out. I am very excited about the Subcontract Management Sr - E3 (Req 13013) opportunity in Sunnyvale as well as upcoming openings on your team. I have already completed and submitted the Reasonable Accommodation update in my Candidate Profile portal, and please find my responses inline below:\n\n**Verify Contact Inf",
+        "topics": [
+          "clearance",
+          "lockheed",
+          "martin",
+          "sunnyvale"
+        ]
+      }
+    },
+    {
+      "id": "topic:actively",
+      "type": "topic_entity",
+      "name": "actively",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'actively' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "actively"
+      }
+    },
+    {
+      "id": "topic:area",
+      "type": "topic_entity",
+      "name": "area",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'area' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "area"
+      }
+    },
+    {
+      "id": "topic:exploring",
+      "type": "topic_entity",
+      "name": "exploring",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'exploring' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "exploring"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S971",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S971 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S971] is it ok to say this or do we rephrase it? I am actively exploring select procurement and supplier contract roles in the Bay Area, and Lockheed Martin Space is a top priority for me.",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 971,
+        "role": "user",
+        "created_at": "2026-11-16T21:15:14Z",
+        "content_excerpt": "is it ok to say this or do we rephrase it? I am actively exploring select procurement and supplier contract roles in the Bay Area, and Lockheed Martin Space is a top priority for me.",
+        "topics": [
+          "actively",
+          "area",
+          "contract",
+          "exploring"
+        ]
+      }
+    },
+    {
+      "id": "topic:choice",
+      "type": "topic_entity",
+      "name": "choice",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'choice' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "choice"
+      }
+    },
+    {
+      "id": "topic:interviewing",
+      "type": "topic_entity",
+      "name": "interviewing",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'interviewing' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "interviewing"
+      }
+    },
+    {
+      "id": "topic:sounds",
+      "type": "topic_entity",
+      "name": "sounds",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'sounds' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "sounds"
+      }
+    },
+    {
+      "id": "topic:answer",
+      "type": "topic_entity",
+      "name": "answer",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'answer' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "answer"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S972",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S972 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S972] Good catch! Since his exact question is *\"Are you **interviewing** for other job opportunities?\"* (he's just checking your timeline urgency), here is an **even cleaner, 100% honest** phrasing that sounds completely natur",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 972,
+        "role": "assistant",
+        "created_at": "2026-11-16T21:15:15Z",
+        "content_excerpt": "Good catch! Since his exact question is *\"Are you **interviewing** for other job opportunities?\"* (he's just checking your timeline urgency), here is an **even cleaner, 100% honest** phrasing that sounds completely natural:\n\n**I am in the early application stages for a few Bay Area supply chain and procurement roles (no final-stage interviews scheduled yet), and Lockheed Martin Space is my top choice.**\n\nWhy recruiters love that answer:\n- It directly answers \"interviewing\" with 100% honesty.\n- It signals healthy demand without scaring him off with an impossible 48-hour deadline.\n- Saying **\"my top choice\"** sounds warmer and more genuine than \"a top priority\"!\n\nSwap in that one bold sentence and hit **Send**!",
+        "topics": [
+          "choice",
+          "interviewing",
+          "sounds",
+          "answer"
+        ]
+      }
+    },
+    {
+      "id": "topic:sent",
+      "type": "topic_entity",
+      "name": "sent",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'sent' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "sent"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S973",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S973 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S973] ok sent it",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 973,
+        "role": "user",
+        "created_at": "2026-11-16T21:19:28Z",
+        "content_excerpt": "ok sent it",
+        "topics": [
+          "sent"
         ]
       }
     },
@@ -3615,16 +3651,6 @@
       }
     },
     {
-      "id": "topic:carrier",
-      "type": "topic_entity",
-      "name": "carrier",
-      "file_path": "chats/transcript_6e8422d1.jsonl",
-      "description": "Shared domain topic 'carrier' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "carrier"
-      }
-    },
-    {
       "id": "topic:invoice",
       "type": "topic_entity",
       "name": "invoice",
@@ -3924,16 +3950,6 @@
       "description": "Shared domain topic 'left' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "left"
-      }
-    },
-    {
-      "id": "topic:exact",
-      "type": "topic_entity",
-      "name": "exact",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'exact' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "exact"
       }
     },
     {
@@ -4931,7 +4947,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 10
+        "count": 11
       }
     },
     {
@@ -5183,7 +5199,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 10
+        "count": 11
       }
     },
     {
@@ -5221,12 +5237,20 @@
       "target": "topic:lockheed",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 26
+        "count": 25
       }
     },
     {
       "source": "chat_session:b6556366",
       "target": "topic:martin",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 23
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:clearance",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 21
@@ -5234,319 +5258,205 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:application",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 18
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:clearance",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 18
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:please",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 18
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:click",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 16
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:email",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 15
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:right",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 14
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S914",
-      "target": "topic:march",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S914",
-      "target": "topic:window",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S914",
-      "target": "topic:eligibility",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S914",
-      "target": "topic:brain",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S914",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S915",
-      "target": "topic:affidavit",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S915",
-      "target": "topic:first",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S915",
-      "target": "topic:submit",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S915",
-      "target": "topic:week",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S915",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S918",
-      "target": "topic:affidavit",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S918",
-      "target": "topic:december",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S918",
-      "target": "topic:march",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S918",
-      "target": "topic:first",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S918",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S919",
-      "target": "topic:application",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S919",
-      "target": "topic:please",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S919",
-      "target": "topic:lockheed",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S919",
-      "target": "topic:martin",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S919",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S930",
-      "target": "topic:lockheed",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S930",
-      "target": "topic:click",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S930",
-      "target": "topic:application",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S930",
-      "target": "topic:citizenship",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S930",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S930",
-      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S931",
-      "target": "topic:clearance",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S931",
-      "target": "topic:lockheed",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S931",
-      "target": "topic:martin",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S931",
-      "target": "topic:please",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S931",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S938",
-      "target": "topic:clearance",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S938",
-      "target": "topic:lockheed",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S938",
       "target": "topic:sunnyvale",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
+        "count": 17
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:alto",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:background",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:palo",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:space",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S962",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S962",
+      "target": "topic:billing",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S962",
+      "target": "topic:carrier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S962",
+      "target": "topic:contract",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S962",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S963",
+      "target": "topic:bandwidth",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S963",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S964",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S965",
+      "target": "topic:high",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S965",
+      "target": "topic:meaning",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S965",
+      "target": "topic:reject",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S965",
+      "target": "topic:salary",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S965",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S966",
+      "target": "topic:lockheed",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S966",
+      "target": "topic:defense",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S966",
+      "target": "topic:exact",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S966",
+      "target": "topic:recruiter",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S966",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S967",
+      "target": "topic:clearance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
         "count": 7
       }
     },
     {
-      "source": "chat_turn:b6556366:S938",
+      "source": "chat_turn:b6556366:S967",
+      "target": "topic:lockheed",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S967",
       "target": "topic:martin",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S967",
+      "target": "topic:sunnyvale",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 5
@@ -5554,65 +5464,75 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S938",
+      "target": "chat_turn:b6556366:S967",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S939",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S940",
-      "target": "topic:click",
+      "source": "chat_turn:b6556366:S968",
+      "target": "topic:clearance",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 6
+        "count": 7
       }
     },
     {
-      "source": "chat_turn:b6556366:S940",
-      "target": "topic:right",
+      "source": "chat_turn:b6556366:S968",
+      "target": "topic:lockheed",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 4
+        "count": 7
       }
     },
     {
-      "source": "chat_turn:b6556366:S940",
-      "target": "topic:information",
+      "source": "chat_turn:b6556366:S968",
+      "target": "topic:martin",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 3
+        "count": 7
       }
     },
     {
-      "source": "chat_turn:b6556366:S940",
-      "target": "topic:job-specific",
+      "source": "chat_turn:b6556366:S968",
+      "target": "topic:sunnyvale",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 3
+        "count": 5
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S940",
+      "target": "chat_turn:b6556366:S968",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S941",
-      "target": "topic:accomodation",
+      "source": "chat_turn:b6556366:S969",
+      "target": "topic:chris",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
       }
     },
     {
-      "source": "chat_turn:b6556366:S941",
-      "target": "topic:religious",
+      "source": "chat_turn:b6556366:S969",
+      "target": "topic:easy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S969",
+      "target": "topic:hightlight",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S969",
+      "target": "topic:read",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
@@ -5620,83 +5540,135 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S941",
+      "target": "chat_turn:b6556366:S969",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S942",
-      "target": "topic:christian",
+      "source": "chat_turn:b6556366:S970",
+      "target": "topic:clearance",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 3
+        "count": 7
       }
     },
     {
-      "source": "chat_turn:b6556366:S942",
-      "target": "topic:update",
+      "source": "chat_turn:b6556366:S970",
+      "target": "topic:lockheed",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 3
+        "count": 7
       }
     },
     {
-      "source": "chat_turn:b6556366:S942",
-      "target": "topic:email",
+      "source": "chat_turn:b6556366:S970",
+      "target": "topic:martin",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 2
+        "count": 7
       }
     },
     {
-      "source": "chat_turn:b6556366:S942",
-      "target": "topic:first",
+      "source": "chat_turn:b6556366:S970",
+      "target": "topic:sunnyvale",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 2
+        "count": 5
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S942",
+      "target": "chat_turn:b6556366:S970",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S944",
-      "target": "topic:right",
+      "source": "chat_turn:b6556366:S971",
+      "target": "topic:actively",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 3
+        "count": 1
       }
     },
     {
-      "source": "chat_turn:b6556366:S944",
-      "target": "topic:update",
+      "source": "chat_turn:b6556366:S971",
+      "target": "topic:area",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 3
+        "count": 1
       }
     },
     {
-      "source": "chat_turn:b6556366:S944",
-      "target": "topic:click",
+      "source": "chat_turn:b6556366:S971",
+      "target": "topic:contract",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 2
+        "count": 1
       }
     },
     {
-      "source": "chat_turn:b6556366:S944",
-      "target": "topic:saves",
+      "source": "chat_turn:b6556366:S971",
+      "target": "topic:exploring",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 2
+        "count": 1
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S944",
+      "target": "chat_turn:b6556366:S971",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S972",
+      "target": "topic:choice",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S972",
+      "target": "topic:interviewing",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S972",
+      "target": "topic:sounds",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S972",
+      "target": "topic:answer",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S972",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S973",
+      "target": "topic:sent",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S973",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -6592,14 +6564,14 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "484353ebcccfa105f4b77b29bc3c102e443beeffc000ed45fa057721bbe5393e",
-    "chats/SHARED_SESSION_STATE.md": "b265f8bcf0e97ee0548db9fc113df7538d90281c6cf59484b5bfff2edbeafccb",
+    "chats/SHARED_SESSION_STATE.md": "871580538b6f90cb0d50b53ecc9661324130446febc9db880ab22ef3af5f6fd0",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "038fc184083d6dbccbe1d986228782e4c41d96fd865846594f41223e7a097acb",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
-    "documents/CAREER_APPLICATIONS_TRACKER.md": "2018b44a6fbc53d626a18df9e441bef0af40484e0023ded8de884e00864d4903",
+    "documents/CAREER_APPLICATIONS_TRACKER.md": "7116c1c133d642f862ea04f5a3a9e6f292b04cdeb8b4cc17428a15f977143426",
     "documents/QUESTION_BANK_LOG.md": "a8bc7808205dc0c83e343fbf0e19f3ab1d8a9c073ed760e7fa46994e2c14d6e8",
-    "repo.md": "7a4c04a43c66919fe10b08e981a58d6b7e6ca22ea7193a4d65477ec96594b32c"
+    "repo.md": "40fe49fb11d7ac0d26b5cfb27b94fe55ff246bf4b5fb4e82a253d6d70dc3f05f"
   }
 }
