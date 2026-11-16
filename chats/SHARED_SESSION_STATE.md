@@ -8,15 +8,16 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`160` (`Q1`–`Q100` + Copilot `C1`–`C60`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). **Project 2 (`50+ Qs`: `Q51`–`Q100`) COMPLETE!**
-- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **COMPLETE (`40 / 50 = 80.0%`)**
+- **Completed Unique Questions**: **`170` (`Q1`–`Q110` + Copilot `C1`–`C60`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Today's 50-Question Goal (`Q101`–`Q150`, 5 Sets x 10 Qs, 1 Topic at a Time)**: **`10 / 50` done (`Set 1 = 9 / 10 = 90.0%`!)**
+- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`49 / 60 = 81.7%`** (`IV.C` PM mastered at `9/10`!)
 - **Stage 2 Status (`Domain V — Measure Phase`)**: **COMPLETE (`28 / 40 = 70.0%`)**
 - **Stage 3 Status (`Domain VI — Analyze Phase`)**: **IN PROGRESS (`8 / 10 = 80.0%`)**
-- **Copilot External Sets (`C1`–`C60`)**: Set 1 = **`20 / 25` (`80.0%`)**; Set 2 = **`17 / 25` (`68.0%` adjusted)**; Set 3 = **`7 / 10` (`70.0%`)** — Grand Cumulative: **`120 / 160` (`75.0%`)**
+- **Copilot External Sets (`C1`–`C60`)**: **`44 / 60`** — Grand Cumulative: **`129 / 170` (`75.9%`)**
 - **Active Weak Points Scheduled for Spaced Re-Testing**:
   1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)
   2. `IV.A.3` CTQ measurable numerical target vs. vague VOC (`Q18`)
-  3. `IV.C` CPM Critical Path = LONGEST path (`zero slack`) (`Q23`)
+  3. `IV.C` Project Crashing (`Q104` — ONLY crash Critical Path tasks; Critical Path & Slack `Q101–Q103` MASTERED!)
   4. `IV.D` Interrelationship Digraph (`outgoing arrows = root cause`) (`Q24`) & PDPC (`contingency tree`) (`Q25`)
   5. `II.B` Functional/Process cross-industry benchmarking (`Q28`)
   6. `II.C.2` Cost of Quality Appraisal (`gage calibration` & `incoming inspection`) (`Q30`)

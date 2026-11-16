@@ -2,8 +2,8 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Copilot Weak-Area Drill — `C51`–`C60`):** **`7 / 10` (`70.0%`)** *(nailed `p-chart %`, `RTY multiply`, `Fishbone Analyze`, `c-chart`, `FMEA Detection & RPN`, and `5-supplier ANOVA`! Missed only `C52` 2-sample t vs Chi-Square, `C57` 10 points above centerline = Special Cause, `C59` `np-chart` = count of defectives with fixed n)*
-- **Overall Cumulative Score (`Q1`–`Q100` + `C1`–`C60` = `160` Qs):** **`120 / 160` (`75.0%`)**
+- **Latest Batch Score (Round 8 / Set 1 of 5 — `IV.C` Project Management ONLY):** **`9 / 10` (`90.0%`!)** *(missed ONLY `Q104` Crashing must target Critical Path; mastered CPM Critical Path, Slack, PERT Expected & SD, RACI, WBS, Gantt, Tollgates!)*
+- **Overall Cumulative Score (`Q1`–`Q110` + `C1`–`C60` = `170` Qs):** **`129 / 170` (`75.9%`)**
 
 ---
 
@@ -14,7 +14,7 @@
 | **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 7 | 7 | **100%** | **Stage 1 Complete** |
 | **II. Org Process Mgmt & Measures** | Pre-DMAIC | 12 Qs (8.0%) | 8 | 6 | **75.0%** | Strong on ROI/Payback/NPV/Leading-Lagging/Internal-External COQ; review `II.B` Benchmarking & `II.C.2` Appraisal COQ |
 | **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 7 | 5 | **71.4%** | Review `III.B` Tuckman (Storming), `III.B` Lencioni 5 Dysfunctions, `III.C` Thomas-Kilmann Conflict Modes |
-| **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 28 | 22 | **78.6%** | **Stage 1 Complete** (Review 5 Round-2 notes in Word Bible) |
+| **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 38 | 31 | **81.6%** | **`IV.C` PM Mastered (`9/10`!)** — Next weak-spot drill: `IV.D` 7 Mgmt & Planning Tools |
 | **V. Measure** | **Measure (M)** | 25 Qs (16.7%) | 40 | 28 | **70.0%** | **Stage 2 Complete** (Mastered Little's Law, CLT, Analytic, Addition Rule, Capability & DPMO; review `V.C.2` Stability vs Linearity, `V.E.2` Hypergeometric) |
 | **VI. Analyze** | **Analyze (A)** | 22 Qs (14.7%) | 10 | 8 | **80.0%** | **Stage 3 Active** (Strong start on Regression/VIF, Type I, p-value, Paired t, FMEA! Review `VI.B.3` One-Way ANOVA & `VI.B.4` Non-Parametric Tests map) |
 | **VII. Improve** | **Improve (I)** | 21 Qs (14.0%) | 0 | 0 | — | Not Started *(3rd Weight)* |
@@ -29,7 +29,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 2026-11-14 | **`IV.A.2`** | Define (D) | Validity vs. Reliability & Survey Bias | Re-test score consistency = High Reliability; wrong construct = Low Validity. Surveys = low cost, high non-response bias. | In Word Bible |
 | 2026-11-14 | **`IV.A.3`** | Define (D) | CTQ Tree Specification | Must end in exact measurable target numbers, never "run a survey." | In Word Bible |
-| 2026-11-14 | **`IV.C`** | Define (D) | Critical Path Method (CPM) | Critical Path = LONGEST path (zero slack); Slack = Critical Path minus shorter path. | In Word Bible |
+| 2026-11-14 | **`IV.C`** | Define (D) | Critical Path Method (CPM) & Crashing | **Mastered (`9/10` on `Q101`–`Q110`!)** Only note: **Crashing** MUST shorten tasks **on the Critical Path** (crashing non-critical slack paths saves 0 days!). | **Mastered** |
 | 2026-11-14 | **`IV.D`** | Define (D) | Interrelationship Digraph & PDPC | ID: most OUTgoing arrows = Root Cause; most INcoming = Symptom. PDPC = tree of "what could go wrong + countermeasures." | In Word Bible |
 | 2026-11-14 | **`II.B` & `II.C.2`** | Pre-DMAIC | Functional Benchmarking & COQ Appraisal | Cross-industry = Functional/Process benchmarking. Gage calibration & incoming inspection = Appraisal cost. | In Word Bible |
 | 2026-11-14 | **`III.B`** | Team Mgmt | Tuckman Stages & **Lencioni's 5 Dysfunctions** | Tuckman arguing = Storming. **Lencioni (NEW in 2022 ASQ BoK `III.B`):** Base = Absence of Trust -> Fear of Conflict -> Lack of Commitment -> Avoidance of Accountability -> Inattention to Results. | **Add to Word Bible** |

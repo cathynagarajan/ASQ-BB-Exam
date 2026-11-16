@@ -95,3 +95,15 @@
 ## Copilot Weak-Area Drill Recorded (`C51`–`C60` — 2026-11-16 | Score: `7/10 = 70.0%`)
 - Nailed (`✅`): `C51` (`p-chart` %), `C53` (`RTY` multiply), `C54` (`Fishbone` Analyze), `C55` (`c-chart` scratches per fixed panel), `C56` (`FMEA` Detection), `C58` (`ANOVA` 5 suppliers!), `C60` (`RPN = S*O*D`).
 - Missed (`❌`): `C52` (2 carriers continuous delivery time = `Two-sample t-test`, picked Chi-square), `C57` (10 consecutive points above centerline = `Special cause`, picked Common cause), `C59` (500 parts/day fixed n + number of defectives = `np-chart`, picked `p-chart`).
+
+## Round 8 (1-Topic Mastery Set 1 of 5: `IV.C` Project Management — `Q101`–`Q110` — 2026-11-16 | Score: `9/10 = 90.0%`)
+- `Q101` (`IV.C` Critical Path = longest path 19 days): `B` (`✅`)
+- `Q102` (`IV.C` Slack = 22 - 17 = 5 weeks): `C` (`✅`)
+- `Q103` (`IV.C` Critical Path 3-day delay slips project 3 days): `B` (`✅`)
+- `Q104` (`IV.C` Crashing must target Critical Path lowest cost/day): Picked `A` (non-critical paths) vs. Correct `B` (`❌` — taught)
+- `Q105` (`IV.C` PERT Expected Time = (4 + 24 + 14)/6 = 7.0 days): `B` (`✅`)
+- `Q106` (`IV.C` PERT SD = (14 - 4)/6 = 1.67 days): `A` (`✅`)
+- `Q107` (`IV.C` RACI — only ONE Accountable per task): `B` (`✅`)
+- `Q108` (`IV.C` WBS decomposes scope into work packages): `B` (`✅`)
+- `Q109` (`IV.C` Gantt chart visual calendar timeline): `A` (`✅`)
+- `Q110` (`IV.C` DMAIC Tollgate phase-gate go/no-go): `B` (`✅`)
