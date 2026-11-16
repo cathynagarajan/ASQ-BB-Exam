@@ -2,8 +2,8 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Copilot Mixed Set #2 — `C26`–`C50`):** **`17 / 25` (`68.0%` adjusted; raw `12/25 = 48%` due to 1-row answer-key shift at `Q18`!)** *(real review spots: `Q2` One-Way ANOVA vs Chi-Square, `Q4` Common vs Special Cause, `Q12` Scatter Plot, `Q13` Analyze validates root causes, `Q14` `p-chart` = fraction defective, `Q17` 2-sample vs Paired t, `Q19` Payback `0.25 yr = 3 mo`)*
-- **Overall Cumulative Score (`Q1`–`Q100` + `C1`–`C50` = `150` Qs):** **`113 / 150` (`75.3%` adjusted)**
+- **Latest Batch Score (Copilot Weak-Area Drill — `C51`–`C60`):** **`7 / 10` (`70.0%`)** *(nailed `p-chart %`, `RTY multiply`, `Fishbone Analyze`, `c-chart`, `FMEA Detection & RPN`, and `5-supplier ANOVA`! Missed only `C52` 2-sample t vs Chi-Square, `C57` 10 points above centerline = Special Cause, `C59` `np-chart` = count of defectives with fixed n)*
+- **Overall Cumulative Score (`Q1`–`Q100` + `C1`–`C60` = `160` Qs):** **`120 / 160` (`75.0%`)**
 
 ---
 

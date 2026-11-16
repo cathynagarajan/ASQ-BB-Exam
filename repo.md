@@ -5,7 +5,7 @@ This file maintains the authoritative inventory of all **top-level parent folder
 - **Repository Root**: `/home/krithika/workspace/ASQ-BB-Exam`
 - **Top-Level Parent Folders Processed**: `3` (plus repository root `.` files)
 - **Total Indexed Files**: `34`
-- **Total Knowledge Graph Nodes**: `244`
+- **Total Knowledge Graph Nodes**: `246`
 
 ---
 
@@ -14,8 +14,8 @@ This file maintains the authoritative inventory of all **top-level parent folder
 | # | Top-Level Parent Folder | Absolute Path | Indexed Files | Extracted KG Nodes | Key Subfolders | Description & Scope |
 | :---: | :--- | :--- | :---: | :---: | :--- | :--- |
 | 1 | [`Resume_And_Jobs/`](Resume_And_Jobs) | `/home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/` | `22` | `22` | — | Top-level repository folder `Resume_And_Jobs/` indexed by Knowledge Graph |
-| 2 | [`chats/`](chats) | `/home/krithika/workspace/ASQ-BB-Exam/chats/` | `1` | `133` | — | Exported or synced Zed/Antigravity AI assistant chat transcripts and conversation logs indexed into the Knowledge Graph |
-| 3 | [`documents/`](documents) | `/home/krithika/workspace/ASQ-BB-Exam/documents/` | `7` | `85` | — | Multi-modal documents, PDFs, Office files (`.docx`, `.pptx`, `.xlsx`), CSV/TSV datasets, OCR images, and audio recordings indexed into the Knowledge Graph |
+| 2 | [`chats/`](chats) | `/home/krithika/workspace/ASQ-BB-Exam/chats/` | `1` | `136` | — | Exported or synced Zed/Antigravity AI assistant chat transcripts and conversation logs indexed into the Knowledge Graph |
+| 3 | [`documents/`](documents) | `/home/krithika/workspace/ASQ-BB-Exam/documents/` | `7` | `84` | — | Multi-modal documents, PDFs, Office files (`.docx`, `.pptx`, `.xlsx`), CSV/TSV datasets, OCR images, and audio recordings indexed into the Knowledge Graph |
 
 ### Repository Root (`.` Top-Level Files)
 
@@ -30,8 +30,8 @@ This file maintains the authoritative inventory of all **top-level parent folder
 | Top-Level Parent Folder | Extracted Entity Types (`type: count`) |
 | :--- | :--- |
 | `Resume_And_Jobs/` | `document`: 22 |
-| `chats/` | `chat_session`: 5, `chat_turn`: 36, `topic_entity`: 92 |
-| `documents/` | `document`: 4, `document_file`: 2, `document_section`: 20, `html_template`: 1, `topic_entity`: 58 |
+| `chats/` | `chat_session`: 5, `chat_turn`: 36, `topic_entity`: 95 |
+| `documents/` | `document`: 4, `document_file`: 2, `document_section`: 20, `html_template`: 1, `topic_entity`: 57 |
 | `.` (Root Files) | `document`: 4 |
 
 ---

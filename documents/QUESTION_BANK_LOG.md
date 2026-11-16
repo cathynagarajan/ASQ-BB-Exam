@@ -91,3 +91,7 @@
 - `Q1`–`Q11`: `9 / 11` (`81.8%`! Missed `Q2` ANOVA vs Chi-Square, `Q4` Common vs Special Cause).
 - `Q12`–`Q17`: Nailed `Q15` SIPOC & `Q16` Poisson; missed `Q12` Scatter Plot, `Q13` Analyze validates root causes, `Q14` `p-chart` = fraction defective, `Q17` Two-sample vs Paired t-test.
 - `Q18`–`Q25`: Skipped `Q18` in unnumbered list, shifting `19->Q20 (A ✅)`, `21->Q22 (C ✅)`, `22->Q23 (B ✅)`, `23->Q24 (C ✅)`, `24->Q25 (B ✅)`! Real misses there were only `Q19` (`30k/120k = 0.25 yr = 3 months`) and `Q21` (`0.95*0.90*0.92 = 78.7%` calculator check).
+
+## Copilot Weak-Area Drill Recorded (`C51`–`C60` — 2026-11-16 | Score: `7/10 = 70.0%`)
+- Nailed (`✅`): `C51` (`p-chart` %), `C53` (`RTY` multiply), `C54` (`Fishbone` Analyze), `C55` (`c-chart` scratches per fixed panel), `C56` (`FMEA` Detection), `C58` (`ANOVA` 5 suppliers!), `C60` (`RPN = S*O*D`).
+- Missed (`❌`): `C52` (2 carriers continuous delivery time = `Two-sample t-test`, picked Chi-square), `C57` (10 consecutive points above centerline = `Special cause`, picked Common cause), `C59` (500 parts/day fixed n + number of defectives = `np-chart`, picked `p-chart`).

@@ -8,11 +8,11 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`150` (`Q1`–`Q100` + Copilot `C1`–`C50`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). **Project 2 (`50+ Qs`: `Q51`–`Q100`) COMPLETE!**
+- **Completed Unique Questions**: **`160` (`Q1`–`Q100` + Copilot `C1`–`C60`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). **Project 2 (`50+ Qs`: `Q51`–`Q100`) COMPLETE!**
 - **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **COMPLETE (`40 / 50 = 80.0%`)**
 - **Stage 2 Status (`Domain V — Measure Phase`)**: **COMPLETE (`28 / 40 = 70.0%`)**
 - **Stage 3 Status (`Domain VI — Analyze Phase`)**: **IN PROGRESS (`8 / 10 = 80.0%`)**
-- **Copilot External Mixed Sets (`C1`–`C50`)**: Set 1 = **`20 / 25` (`80.0%`)**; Set 2 = **`17 / 25` (`68.0%` adjusted; raw `48%` caused by 1-row shift skipping `Q18`)** — Grand Cumulative: **`113 / 150` (`75.3%`)**
+- **Copilot External Sets (`C1`–`C60`)**: Set 1 = **`20 / 25` (`80.0%`)**; Set 2 = **`17 / 25` (`68.0%` adjusted)**; Set 3 = **`7 / 10` (`70.0%`)** — Grand Cumulative: **`120 / 160` (`75.0%`)**
 - **Active Weak Points Scheduled for Spaced Re-Testing**:
   1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)
   2. `IV.A.3` CTQ measurable numerical target vs. vague VOC (`Q18`)
