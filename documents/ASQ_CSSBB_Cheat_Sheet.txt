@@ -89,4 +89,25 @@ F. CHECKING RANDOMNESS OVER TIME
 - Cp           : (USL - LSL) / (6 * short-term sigma)   [Potential, ignores center]
 - Cpk          : Lower of (USL - Mean)/(3*s) or (Mean - LSL)/(3*s) [Actual]
 - DPMO         : (Defects / (Units * Opportunities per unit)) * 1,000,000
+
+
+--------------------------------------------------------------------------------
+6. CONTROL CHARTS - DEFECTIVES vs. DEFECTS vs. VARIABLES (VIII.A)
+--------------------------------------------------------------------------------
+A. ATTRIBUTE: DEFECTIVES (Whole unit is Pass/Fail - Good or Bad)
+- p-chart  : PERCENTAGE / FRACTION Defective (Sample size VARIES or Constant)
+- np-chart : NUMBER / COUNT of Defectives    (Sample size MUST be CONSTANT)
+
+B. ATTRIBUTE: DEFECTS (Count of flaws/blemishes - 1 unit can have multiple flaws)
+- c-chart  : COUNT of Defects          (Inspection area/unit size MUST be CONSTANT)
+- u-chart  : DEFECTS PER UNIT (rate)   (Inspection area/unit size VARIES or Constant)
+
+C. CONTINUOUS / VARIABLES (Weight, Length, Time, Temperature)
+- I-MR chart     : Subgroup size = 1 (individual readings)
+- X-bar & R chart: Subgroup size = 2 to 9
+- X-bar & s chart: Subgroup size = 10 or more
+
+D. CONTROL CHART SIGNALS
+- Common-Cause (In Control / Stable): Random bounce inside control limits
+- Special-Cause (Out of Control)    : 1 point outside limits, OR 8-9 points on one side of centerline, OR 6+ points trending steadily up/down
 ================================================================================
