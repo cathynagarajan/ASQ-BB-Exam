@@ -3,49 +3,40 @@ ASQ CSSBB EXAM CHEAT SHEET (2022 BoK) - EASY SKIM EDITION
 ================================================================================
 
 --------------------------------------------------------------------------------
-1. HYPOTHESIS TESTS & NON-PARAMETRIC SELECTION (VI.B.3 & VI.B.4)
+1. ALL-IN-ONE HYPOTHESIS TEST PACKAGE (VI.B.3 & VI.B.4)
 --------------------------------------------------------------------------------
-[MEANS / MEDIANS]
-- 1 group vs. target:
-    Normal = 1-Sample t-test (or Z-test if pop. sigma known)
-    Skewed = 1-Sample Sign or 1-Sample Wilcoxon
-    Clue   = Comparing 1 line's average to a target
+A. COMPARING MEANS (Continuous + NORMAL Data - Parametric)
+- 1 Mean vs. Target (pop. sigma KNOWN)   : 1-Sample Z-test
+- 1 Mean vs. Target (pop. sigma UNKNOWN) : 1-Sample t-test
+- 2 Independent Means (Group A vs. B)    : 2-Sample t-test (Pooled = equal var; Welch = unequal var)
+- 2 Paired Means (SAME items Before/After): Paired t-test
+- 3+ Independent Means (4 Suppliers)     : One-Way ANOVA (Post-hoc pair check = Tukey / Fisher LSD)
+- 3+ Means with 2 Factors (Shift + Mach.): Two-Way ANOVA (or Randomized Block ANOVA)
 
-- 2 independent groups:
-    Normal = 2-Sample t-test
-    Skewed = Mann-Whitney U test
-    Clue   = Supplier A vs. Supplier B (separate units)
+B. COMPARING MEDIANS / RANKS (Continuous SKEWED / Outliers or Ordinal - Non-Parametric)
+- 1 Median vs. Target                    : 1-Sample Sign test  OR  1-Sample Wilcoxon Signed-Rank
+- 2 Independent Medians (A vs. B, skewed): Mann-Whitney U test  (Non-normal twin of 2-Sample t)
+- 2 Paired Medians (SAME items, skewed)  : Paired Wilcoxon Signed-Rank (Non-normal twin of Paired t)
+- 3+ Independent Medians (3+ skewed)     : Kruskal-Wallis test  (Non-normal twin of One-Way ANOVA; or Mood's Median for wild outliers)
+- 3+ Blocked / Related Medians (skewed)  : Friedman test        (Non-normal twin of Block ANOVA)
 
-- 2 paired groups (before/after):
-    Normal = Paired t-test
-    Skewed = Paired Wilcoxon Signed-Rank
-    Clue   = Same 20 operators or parts measured twice
+C. COMPARING VARIANCES / SPREAD (Consistency)
+- 1 Variance vs. Target (Normal)         : 1-Variance Chi-Square test
+- 2 Variances (Normal)                   : F-test
+- 3+ Variances (Normal ONLY)             : Bartlett's test (very sensitive if non-normal!)
+- 2 or 3+ Variances (Skewed / Non-Normal): Levene's test
 
-- 3+ independent groups:
-    Normal = One-Way ANOVA (post-hoc: Tukey)
-    Skewed = Kruskal-Wallis test
-    Clue   = Shifts A, B, C, D (never run multiple t-tests!)
+D. COMPARING PROPORTIONS (% Pass/Fail, % Defective)
+- 1 Proportion vs. Target %              : 1-Proportion Z-test
+- 2 Proportions (Line 1 % vs. Line 2 %)  : 2-Proportion Z-test
+- 3+ Proportions (Pass/Fail across 4+)   : Chi-Square Contingency Table test
 
-- 3+ blocked / related groups:
-    Normal = Randomized Block ANOVA
-    Skewed = Friedman test
-    Clue   = Same patients or blocks tested across 3+ treatments
+E. COMPARING CATEGORY COUNTS / FREQUENCIES (Nominal Boxes - NEVER Averages!)
+- 1 Category Set vs. Expected % Split    : Chi-Square Goodness-of-Fit test
+- 2+ Categories in a Grid (Are X & Y tied?): Chi-Square Test of Independence (Expected cell >= 5)
 
-[VARIANCES / SPREAD]
-- 1 group vs. target   : 1-Variance Chi-Square
-- 2 independent groups : F-test (Normal)  |  Levene's test (Non-Normal)
-- 3+ independent groups: Bartlett's test (Normal) | Levene's / Mood's Median (Non-Normal)
-
-[PROPORTIONS (% PASS / FAIL)]
-- 1 group vs. target : 1-Proportion Z-test  (e.g., Defect % vs. 2% goal)
-- 2 groups           : 2-Proportion Z-test  (e.g., Scrap % on Line 1 vs. Line 2)
-
-[COUNTS / CATEGORIES (CHI-SQUARE)]
-- 1 group vs. expected % : Chi-Square Goodness-of-Fit
-- 2+ groups in a table   : Chi-Square Test of Independence (Expected cell >= 5)
-
-[RANDOMNESS OVER TIME]
-- Time-ordered sequence  : Runs test (random vs. trend/cluster)
+F. CHECKING RANDOMNESS OVER TIME
+- 1 Time-Ordered Sequence                : Runs test (checks clustering, trends, oscillation)
 
 
 --------------------------------------------------------------------------------
