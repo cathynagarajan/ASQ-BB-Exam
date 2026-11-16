@@ -41,11 +41,11 @@
      python3 /home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/query_kg.py --pre-commit-hook
      ```
    - This rebuilds `knowledge_graph.json`, `knowledge_graph.db`, `KNOWLEDGE_GRAPH.md`, `knowledge_graph.html`, and `repo.md`, and incrementally syncs changed embeddings to `kg_vectors_asq_bb_exam` via the 5-node GPU pool.
-3. **Single-Repo Commit & Push (Mandatory Antigravity <-> Qwen Dual Sync!)**:
-   - Whenever you commit/save state in Antigravity OR Qwen, you **MUST** also update `/home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md` and `/home/krithika/workspace/ASQ-BB-Exam/QWEN.md` (alongside `rules.md` and `.agents/rules/rules.md`) before running `--commit-push`, so both **Antigravity** and **Qwen** always share the exact same live context and Knowledge Graph vectors:
-     ```bash
-     python3 /home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/query_kg.py --commit-push "Describe your change"
-     ```
+3. **Single-Repo Commit & Push + Mandatory Knowledge Graph Update Every Time (Antigravity <-> Qwen Dual Sync!)**:
+   - **EVERY SINGLE TIME** you commit (in Antigravity OR Qwen), you **MUST**:
+     1. Update `/home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md` first.
+     2. Run `python3 /home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/query_kg.py --commit-push "Describe your change"` (**NEVER** pass `--no-verify` to `git commit`!).
+     3. Verify that both the local Knowledge Graph (`knowledge_graph.db`, `knowledge_graph.json`, `kg_gnn.pt`, `KNOWLEDGE_GRAPH.md`) AND PostgreSQL `pgvector` table (`kg_vectors_asq_bb_exam`) updated cleanly (via hook output or `kg_rag_upsert(repo="asq_bb_exam")` / `kg_gpu_pool_status(repo="asq_bb_exam")`), and briefly confirm the KG sync status (`nodes` / `vectors`) to Cathy!
 
 ---
 

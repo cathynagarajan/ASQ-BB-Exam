@@ -19,7 +19,9 @@
 - **Grading Review Format**:
   1. Show a summary **Table (`Q# | Topic Summary | Your Answer | Right or Wrong | Correct Answer`)** first.
   2. For every Wrong or Guessed item, **repeat the full Question text**, show **Your Answer**, show **Correct Answer in full words**, explain **Why you were wrong**, and give a **1-line plain-English Word Bible rule** (pure concept/formula rule—NO Q&A format inside notes so Cathy's bound Word Bible complies with Prometric open-book rules).
-  3. Update `PERFORMANCE_TRACKER.md`, `documents/QUESTION_BANK_LOG.md`, and `chats/SHARED_SESSION_STATE.md`, then sync the Knowledge Graph (`repo="asq_bb_exam"`).
+  3. Update `PERFORMANCE_TRACKER.md`, `documents/QUESTION_BANK_LOG.md`, and `chats/SHARED_SESSION_STATE.md`, then **ALWAYS update and verify the Knowledge Graph (`query_kg.py --commit-push` + `kg_vectors_asq_bb_exam`, NEVER `--no-verify`) on EVERY commit** and report the updated KG node/vector count to Cathy.
+- **Pacing & 1-Topic-at-a-Time Mode**:
+  - Focus on **1 single topic at a time** (up to 10 deep questions on that single topic), and **NEVER send the next set of questions until Cathy explicitly says "ready"**.
 
 ## 3. Job Search & Resume Guardrails
 - **Hard Filters**:
