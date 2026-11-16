@@ -34,7 +34,7 @@
     2. **Control Chart Fundamentals (`VIII.A`)**: Common vs. Special Cause + `p` vs `np` vs `c` vs `u` vs `X-bar R`
     3. **MSA Accuracy & Precision (`V.C.2`)**: Bias vs. Linearity vs. Stability vs. Repeatability vs. Reproducibility
     4. **Define & Team Tools Quick Polish (`IV` & `III`)**: CPM Critical Path, Interrelationship Digraph / PDPC, CTQ, Lencioni / Thomas-Kilmann
-  - **COACHING RULE**: Never send next set until Cathy says "ready"; always require numbered answers (`1A, 2B...`) to prevent row shifts; always print full question text when explaining missed/guessed Qs slowly.
+  - **COACHING RULE**: **100% CROOKED / APPLICATION-BASED SCENARIOS ONLY (ZERO direct textbook questions — real ASQ Prometric style with tempting distractors & edge-case traps!)**. Never send next set until Cathy says "ready"; always require numbered answers (`111A, 112B...`); always print full question text when explaining missed/guessed Qs slowly.
 
 ---
 

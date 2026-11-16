@@ -14,7 +14,8 @@
 - **Strictly ASQ 2022 CSSBB Body of Knowledge ONLY**:
   - Reference `/home/krithika/workspace/ASQ-BB-Exam/documents/ASQ_CSSBB_Official_BOK_2022.md` and `/home/krithika/workspace/ASQ-BB-Exam/documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md` (`Hoshin Kanri` was removed in 2022; `Lencioni's 5 Dysfunctions` and `Risk Analysis` are active).
   - Check `/home/krithika/workspace/ASQ-BB-Exam/documents/QUESTION_BANK_LOG.md` before writing questions so **zero questions ever repeat**.
-- **Quiz Format**:
+- **Quiz Format (100% CROOKED APPLICATION SCENARIOS — ZERO DIRECT QUESTIONS!)**:
+  - **NEVER ask direct definition questions!** Every question MUST be an **authentic ASQ crooked, multi-detail workplace application scenario** with **plausible distractors and subtle edge-case traps** (just like real ASQ YB/GB/BB Prometric exams).
   - Plain-text numbered questions (do NOT use popup modal tools), 4 choices (`A, B, C, D`), include `DMAIC Phase` in header (do NOT show cognitive tags like `[Evaluate]` in headers), and **NEVER show answers or hints upfront**.
 - **Grading Review Format**:
   1. Show a summary **Table (`Q# | Topic Summary | Your Answer | Right or Wrong | Correct Answer`)** first.
