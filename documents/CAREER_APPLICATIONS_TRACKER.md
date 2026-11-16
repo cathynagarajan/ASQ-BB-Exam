@@ -35,4 +35,4 @@
 20. **GitLab (NASDAQ: GTLB)** — *Principal Strategic Sourcing Lead – Technology* (`ID 8642786002`, 100% Remote US, 139.2K to 235.2K USD, IC) — **APPLIED (2026-11-15)**
 
 ## Active Employer Responses / Stage-2 Advancements
-- **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req ID 13013`, Sunnyvale CA, ~9 mi, IC Level E3, range up to 151.3K USD, SAP/P2P + Supplier Contracts/Negotiations) — **INVITED TO STAGE 2 MULTI-STAGE APPLICATION (2026-11-16)** *(Action: Complete SuccessFactors Candidate Profile Stage-2 compliance & accommodation `N/A` questions).*
+- **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req ID 13013`, Sunnyvale CA, ~9 mi, IC Level E3, range up to 151.3K USD, SAP/P2P + Supplier Contracts/Negotiations; applied 2026-10-20) — **STAGE-2 PORTAL UPDATED (`✓`) & RECRUITER SCREEN IN PROGRESS WITH CHRISTIAN SIEG (2026-11-16)**.
