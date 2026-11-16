@@ -8,17 +8,17 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`170` (`Q1`–`Q110` + Copilot `C1`–`C60`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Today's 50-Question Goal (`Q101`–`Q150`, 5 Sets x 10 Qs, 1 Topic at a Time)**: **`10 / 50` done (`Set 1 = 9 / 10 = 90.0%`!)**
-- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`49 / 60 = 81.7%`** (`IV.C` PM mastered at `9/10`!)
+- **Completed Unique Questions**: **`180` (`Q1`–`Q120` + Copilot `C1`–`C60`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Today's 50-Question Goal (`Q101`–`Q150`, 5 Sets x 10 Qs, 1 Topic at a Time)**: **`20 / 50` done (`Set 1 = 9/10 [90%]`, `Set 2 Max-Hard = 7/10 [70%]` = `16 / 20 = 80.0%` today!)**
+- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`56 / 70 = 80.0%`**
 - **Stage 2 Status (`Domain V — Measure Phase`)**: **COMPLETE (`28 / 40 = 70.0%`)**
 - **Stage 3 Status (`Domain VI — Analyze Phase`)**: **IN PROGRESS (`8 / 10 = 80.0%`)**
-- **Copilot External Sets (`C1`–`C60`)**: **`44 / 60`** — Grand Cumulative: **`129 / 170` (`75.9%`)**
+- **Copilot External Sets (`C1`–`C60`)**: **`44 / 60`** — Grand Cumulative: **`136 / 180` (`75.6%`)**
 - **Active Weak Points Scheduled for Spaced Re-Testing**:
   1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)
   2. `IV.A.3` CTQ measurable numerical target vs. vague VOC (`Q18`)
-  3. `IV.C` Project Crashing (`Q104` — ONLY crash Critical Path tasks; Critical Path & Slack `Q101–Q103` MASTERED!)
-  4. `IV.D` Interrelationship Digraph (`outgoing arrows = root cause`) (`Q24`) & PDPC (`contingency tree`) (`Q25`)
+  3. `IV.C` PERT Project SD (`Q112` — `sqrt(sum of variances)` on Critical Path only; Parallel Crashing `Q111` MASTERED!)
+  4. `IV.D` Interrelationship Digraph tie-breaker (`Q113` — `5 out, 0 in` beats `5 out, 4 in`) & PDPC (`Q115` — one-time rollout contingency tree without RPN vs. PFMEA)
   5. `II.B` Functional/Process cross-industry benchmarking (`Q28`)
   6. `II.C.2` Cost of Quality Appraisal (`gage calibration` & `incoming inspection`) (`Q30`)
   7. `III.B / III.C` Tuckman Storming vs. Norming (`Q34`), Lencioni's 5 Dysfunctions (`Absence of Trust = base`), Thomas-Kilmann Collaborating (`Win-Win`) vs. Accommodating (`Lose-Win`) (`Q49`)

@@ -2,8 +2,8 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Round 8 / Set 1 of 5 — `IV.C` Project Management ONLY):** **`9 / 10` (`90.0%`!)** *(missed ONLY `Q104` Crashing must target Critical Path; mastered CPM Critical Path, Slack, PERT Expected & SD, RACI, WBS, Gantt, Tollgates!)*
-- **Overall Cumulative Score (`Q1`–`Q110` + `C1`–`C60` = `170` Qs):** **`129 / 170` (`75.9%`)**
+- **Latest Batch Score (Round 9 / Set 2 of 5 — `IV.C & IV.D` Crooked Prometric Scenarios):** **`7 / 10` (`70.0%` on MAX Prometric difficulty!)** *(SOLVED `Q111` `2,300 USD` parallel-path crashing + `Q114` T-matrix + `Q116`–`Q120`! Missed only `Q112` PERT variance `sqrt(3^2+4^2)=5`, `Q113` ID tie-breaker `5 out / 0 in`, `Q115` PDPC vs PFMEA)*
+- **Overall Cumulative Score (`Q1`–`Q120` + `C1`–`C60` = `180` Qs):** **`136 / 180` (`75.6%`)**
 
 ---
 
@@ -14,7 +14,7 @@
 | **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 7 | 7 | **100%** | **Stage 1 Complete** |
 | **II. Org Process Mgmt & Measures** | Pre-DMAIC | 12 Qs (8.0%) | 8 | 6 | **75.0%** | Strong on ROI/Payback/NPV/Leading-Lagging/Internal-External COQ; review `II.B` Benchmarking & `II.C.2` Appraisal COQ |
 | **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 7 | 5 | **71.4%** | Review `III.B` Tuckman (Storming), `III.B` Lencioni 5 Dysfunctions, `III.C` Thomas-Kilmann Conflict Modes |
-| **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 38 | 31 | **81.6%** | **`IV.C` PM Mastered (`9/10`!)** — Next weak-spot drill: `IV.D` 7 Mgmt & Planning Tools |
+| **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 48 | 38 | **79.2%** | **`IV.C` & `IV.D` Strong (`90%` + `70%` Max-Hard!)** — Review PERT variance `sqrt(sum var)`, ID `0 incoming`, PDPC vs PFMEA |
 | **V. Measure** | **Measure (M)** | 25 Qs (16.7%) | 40 | 28 | **70.0%** | **Stage 2 Complete** (Mastered Little's Law, CLT, Analytic, Addition Rule, Capability & DPMO; review `V.C.2` Stability vs Linearity, `V.E.2` Hypergeometric) |
 | **VI. Analyze** | **Analyze (A)** | 22 Qs (14.7%) | 10 | 8 | **80.0%** | **Stage 3 Active** (Strong start on Regression/VIF, Type I, p-value, Paired t, FMEA! Review `VI.B.3` One-Way ANOVA & `VI.B.4` Non-Parametric Tests map) |
 | **VII. Improve** | **Improve (I)** | 21 Qs (14.0%) | 0 | 0 | — | Not Started *(3rd Weight)* |
