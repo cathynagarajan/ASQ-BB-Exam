@@ -33,3 +33,6 @@
 18. **Rubrik (NYSE: RBRK)** — *Senior Strategic Sourcing Manager, Cloud & Strategic Partnerships* (`ID 8114559`, Palo Alto, 0 mi, 165.6K to 248.4K USD, IC) — **APPLIED (2026-11-15)**
 19. **Pure Storage / Everpure (NYSE: PSTG)** — *Data Steward, Master Data Management, Supply Chain* (`ID 8027649`, Santa Clara, ~11 mi, 155.7K to 190.3K USD, IC) — **APPLIED (2026-11-15)**
 20. **GitLab (NASDAQ: GTLB)** — *Principal Strategic Sourcing Lead – Technology* (`ID 8642786002`, 100% Remote US, 139.2K to 235.2K USD, IC) — **APPLIED (2026-11-15)**
+
+## Active Employer Responses / Stage-2 Advancements
+- **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req ID 13013`, Sunnyvale CA, ~9 mi, IC Level E3, range up to 151.3K USD, SAP/P2P + Supplier Contracts/Negotiations) — **INVITED TO STAGE 2 MULTI-STAGE APPLICATION (2026-11-16)** *(Action: Complete SuccessFactors Candidate Profile Stage-2 compliance & accommodation `N/A` questions).*
