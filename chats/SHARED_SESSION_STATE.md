@@ -8,12 +8,12 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`180` (`Q1`–`Q120` + Copilot `C1`–`C60`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Today's 50-Question Goal (`Q101`–`Q150`, 5 Sets x 10 Qs, 1 Topic at a Time)**: **`20 / 50` done (`Set 1 = 9/10 [90%]`, `Set 2 Max-Hard = 7/10 [70%]` = `16 / 20 = 80.0%` today!)**
+- **Completed Unique Questions**: **`190` (`Q1`–`Q130` + Copilot `C1`–`C60`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Today's 50-Question Goal (`Q101`–`Q150`, 5 Sets x 10 Qs, 1 Topic at a Time)**: **`30 / 50` done (`Set 1 = 9/10`, `Set 2 = 7/10`, `Set 3 = 7/10` = `23 / 30 = 76.7%` today!)**
 - **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`56 / 70 = 80.0%`**
-- **Stage 2 Status (`Domain V — Measure Phase`)**: **COMPLETE (`28 / 40 = 70.0%`)**
+- **Stage 2 Status (`Domain V — Measure Phase`)**: **`35 / 50 = 70.0%`** (`Stability` MASTERED on `Q130`!)
 - **Stage 3 Status (`Domain VI — Analyze Phase`)**: **IN PROGRESS (`8 / 10 = 80.0%`)**
-- **Copilot External Sets (`C1`–`C60`)**: **`44 / 60`** — Grand Cumulative: **`136 / 180` (`75.6%`)**
+- **Copilot External Sets (`C1`–`C60`)**: **`44 / 60`** — Grand Cumulative: **`143 / 190` (`75.3%`)**
 - **Active Weak Points Scheduled for Spaced Re-Testing**:
   1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)
   2. `IV.A.3` CTQ measurable numerical target vs. vague VOC (`Q18`)
@@ -24,7 +24,7 @@
   7. `III.B / III.C` Tuckman Storming vs. Norming (`Q34`), Lencioni's 5 Dysfunctions (`Absence of Trust = base`), Thomas-Kilmann Collaborating (`Win-Win`) vs. Accommodating (`Lose-Win`) (`Q49`)
   8. `V.A.1` Little's Law (`WIP = Throughput * Lead Time`, `Lead Time = WIP / Throughput`) (`Q51`, `Q61`)
   9. `V.B.1` NOIR Scales (`Celsius = Interval`; Ordinal `Q62` PASSED!) & Continuous vs. Attribute data (`Q57`)
-  10. `V.C.2` Stability over time (`Q81`) & Linearity (`Q72`)
+  10. `V.C.2` Linearity across range (`Q72`, `Q127`), `%Contribution` (`1%–9%` variance vs `10%–30%` `%StudyVar`, `Q121`), & 10-to-1 Resolution (`Q125`) — *(Note: Stability `Q130` MASTERED!)*
   11. `V.E.2` Hypergeometric (small finite lot without replacement) (`Q86`)
   12. `VI.B.3` & `VI.B.4` One-Way ANOVA (3+ Normal means, `Q97`) & Non-Parametric Test Map (Kruskal-Wallis vs Mann-Whitney U vs Paired Wilcoxon, `Q98`)
   13. `V.F.5`, `VII.A`, `VIII.A` (Copilot `C19/C21/C24/C25/C52/C57/C59`): `Cp > Pp` under long-term drift, `2-sample t-test` vs `Chi-Square` (never Chi-Square for continuous averages!), `8+ consecutive points above/below centerline = Special Cause`, `np-chart` (count of defectives, fixed `n`) vs `p-chart` (`%` defective), DOE Designs (`CCD/RSM` vs `Plackett-Burman` vs `Latin Square`)
