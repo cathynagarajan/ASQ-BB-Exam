@@ -2,8 +2,8 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Round 10 / Set 3 of 5 — `V.C` MSA Crooked Prometric Scenarios):** **`7 / 10` (`70.0%` on MAX Prometric difficulty!)** *(NAILED `Q130` Stability, `Q126` `%Tolerance vs %StudyVar` narrow-sample trap, `Q128` Attribute MSA, `Q124` Repeatability fix, `Q122` Nested destructive! Missed `Q121` `%Contribution 1%-9%` variance trap, `Q125` 10-to-1 resolution stair-step R chart, `Q127` Linearity)*
-- **Overall Cumulative Score (`Q1`–`Q130` + `C1`–`C60` = `190` Qs):** **`143 / 190` (`75.3%` — Today: `23 / 30 = 76.7%`!)**
+- **Latest Batch Score (Round 11 / Set 4 of 5 — `VI.B` Hypothesis Test Selection):** **`8 / 10` (`80.0%`!)** *(NAILED 2-sample t, Paired t, ANOVA, Kruskal-Wallis, Paired Wilcoxon, F-test, Levene's! Missed ONLY `Q137` 2-Proportion Z-test & `Q138` Chi-Square table)*
+- **Overall Cumulative Score (`Q1`–`Q140` + `C1`–`C60` = `200` Qs):** **`151 / 200` (`75.5%` — Today: `31 / 40 = 77.5%`!)**
 
 ---
 
@@ -16,7 +16,7 @@
 | **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 7 | 5 | **71.4%** | Review `III.B` Tuckman (Storming), `III.B` Lencioni 5 Dysfunctions, `III.C` Thomas-Kilmann Conflict Modes |
 | **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 48 | 38 | **79.2%** | **`IV.C` & `IV.D` Strong (`90%` + `70%` Max-Hard!)** — Review PERT variance `sqrt(sum var)`, ID `0 incoming`, PDPC vs PFMEA |
 | **V. Measure** | **Measure (M)** | 25 Qs (16.7%) | 50 | 35 | **70.0%** | **Stability (`Q130`), Nested MSA (`Q122`), EV (`Q124`), P/T (`Q126`) Mastered!** Review `%Contribution` (`1%–9%`), Linearity (`Q127`), 10-to-1 Resolution (`Q125`) |
-| **VI. Analyze** | **Analyze (A)** | 22 Qs (14.7%) | 10 | 8 | **80.0%** | **Stage 3 Active** (Strong start on Regression/VIF, Type I, p-value, Paired t, FMEA! Review `VI.B.3` One-Way ANOVA & `VI.B.4` Non-Parametric Tests map) |
+| **VI. Analyze** | **Analyze (A)** | 22 Qs (14.7%) | 20 | 16 | **80.0%** | **Strong (`80%`!)** — Mastered `t/ANOVA/Wilcoxon/Kruskal/F/Levene`; review `2-Proportion Z-test` (`Q137`) & `Chi-Square table` (`Q138`) |
 | **VII. Improve** | **Improve (I)** | 21 Qs (14.0%) | 0 | 0 | — | Not Started *(3rd Weight)* |
 | **VIII. Control** | **Control (C)** | 17 Qs (11.3%) | 0 | 0 | — | Not Started |
 | **IX. Design for Six Sigma (DFSS)** | Post-DMAIC | 6 Qs (4.0%) | 0 | 0 | — | Not Started |
