@@ -3,7 +3,7 @@
 > **Purpose**: Single source of truth shared between **Antigravity** and **Qwen** (`QWEN.md` + `rules.md` + `kg_vectors_asq_bb_exam`). Both agents MUST update this file whenever committing progress so mode switches (`use qwen` / `stop qwen`) never lose a single detail.
 
 - **Candidate Preferred Name**: **Cathy**
-- **Last Synced**: `2026-11-16`
+- **Last Synced**: `2026-11-17`
 
 ---
 
@@ -69,9 +69,12 @@
   18. **Rubrik (NYSE: RBRK)** — *Sr. Strategic Sourcing Manager* (`8114559`, Palo Alto)
   19. **Pure Storage (NYSE: PSTG)** — *Data Steward, MDM Supply Chain* (`8027649`, Santa Clara)
   20. **GitLab (NASDAQ: GTLB)** — *Principal Strategic Sourcing Lead* (`8642786002`, 100% Remote US)
-- **Day-3 Weekday Applications (2026-11-16 — 22 Total Submitted!)**:
+- **Day-3 Weekday Applications (2026-11-16 — 3/3 Complete, 23 Active Tracked!)**:
   21. **Intuit (NASDAQ: INTU)** — *Senior Strategic Sourcing Manager, Corporate Services* (`Job ID 25188`, Mountain View Hybrid)
   22. **NVIDIA (NASDAQ: NVDA)** — *Manager, Strategic Sourcing – Professional Services* (`JR2021687`, Santa Clara)
+  23. **Amgen (NASDAQ: AMGN)** — *Strategic Sourcing Manager* (`R-260996`, 100% US Remote)
 - **Active Recruiter / Stage-2 Callbacks**:
   - **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req 13013`, Sunnyvale CA, IC Level E3, 125K–135K USD base) — **Stage-2 Portal Updated (`✓`) & Recruiter Questionnaire SENT to Christian Sieg (2026-11-16 — Ready for Hiring Manager advancement!)**!
-- **NEXT JOB STEP**: **Daily Application Cadence**: **Weekdays (Mon–Fri) = `3 to 5` high-fit jobs/day**; **Weekends (Sat–Sun) = `10` jobs/day**. (`20` total submitted across Days 1–2; ready for **Day 3 Weekday target: 3–5 jobs** whenever Cathy asks!).
+- **Closed / Rejected Applications**:
+  - **Symbotic (NASDAQ: SYM)** — Applied a couple of days prior — **Rejected (2026-11-17)**.
+- **NEXT JOB STEP**: **Daily Application Cadence**: **Weekdays (Mon–Fri) = `3 to 5` high-fit jobs/day**; **Weekends (Sat–Sun) = `10` jobs/day**. (`23` active submitted + Lockheed Stage-2 active; ready for **Tuesday 2026-11-17 Weekday target: 3–5 jobs** whenever Cathy asks!).

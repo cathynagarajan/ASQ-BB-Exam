@@ -34,9 +34,13 @@
 19. **Pure Storage / Everpure (NYSE: PSTG)** — *Data Steward, Master Data Management, Supply Chain* (`ID 8027649`, Santa Clara, ~11 mi, 155.7K to 190.3K USD, IC) — **APPLIED (2026-11-15)**
 20. **GitLab (NASDAQ: GTLB)** — *Principal Strategic Sourcing Lead – Technology* (`ID 8642786002`, 100% Remote US, 139.2K to 235.2K USD, IC) — **APPLIED (2026-11-15)**
 
-## Completed Applications — Day 3 Weekday Cadence (3–5/day — 2026-11-16)
+## Completed Applications — Day 3 Weekday Cadence (3 Submitted — 2026-11-16)
 21. **Intuit (NASDAQ: INTU)** — *Senior Strategic Sourcing Manager, Corporate Services* (`Job ID 25188` / `103274381152`, Mountain View Hybrid, ~5 mi, 129K to 174K USD, IC) — **APPLIED (2026-11-16)**
 22. **NVIDIA (NASDAQ: NVDA)** — *Manager, Strategic Sourcing – Professional Services* (`Req JR2021687`, Santa Clara, ~11 mi, 168K to 270.25K USD, IC) — **APPLIED (2026-11-16)**
+23. **Amgen (NASDAQ: AMGN)** — *Strategic Sourcing Manager* (`Req R-260996`, 100% US Remote, up to 132.98K USD, IC) — **APPLIED (2026-11-16)**
 
 ## Active Employer Responses / Stage-2 Advancements
 - **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req ID 13013`, Sunnyvale CA, ~9 mi, IC Level E3, targeted 125K–135K USD base, SAP/P2P + Supplier Contracts/Negotiations; applied 2026-10-20) — **STAGE-2 PORTAL UPDATED (`✓`) & RECRUITER QUESTIONNAIRE SENT TO CHRISTIAN SIEG (2026-11-16 — Awaiting Hiring Manager Review!)**.
+
+## Closed / Rejected Applications Log
+- **Symbotic (NASDAQ: SYM)** — *Applied prior to 2026-11-17* — **REJECTED / CLOSED (2026-11-17)**.
