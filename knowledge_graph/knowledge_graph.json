@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-17T22:43:29.812864+00:00",
+    "generated_at": "2026-11-17T22:47:04.902067+00:00",
     "total_files_indexed": 48,
     "total_nodes": 369,
-    "total_edges": 626,
+    "total_edges": 623,
     "node_type_counts": {
       "chat_session": 5,
       "chat_turn": 36,
@@ -17,36 +17,27 @@
   },
   "last_change_check": {
     "changed": true,
-    "added": [
-      "Resume_And_Jobs/Job28_StanfordHealthCare_Sr_TDS_Vendor_Mgmt_Specialist_R2658085.md",
-      "Resume_And_Jobs/Job28_Stanford_R2658085_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job29_StanfordHealthCare_Digital_Success_Partner_SupplyChain_R2659644.md",
-      "Resume_And_Jobs/Job29_Stanford_R2659644_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job30_Gilead_R0056314_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job30_Gilead_Sr_Procurement_Manager_Category_Mgmt_FosterCity_R0056314.md",
-      "Resume_And_Jobs/Job31_SoFi_7979520003_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job31_SoFi_Strategic_Sourcing_Analyst_Remote_7979520003.md"
-    ],
+    "added": [],
     "modified": [
       "chats/SHARED_SESSION_STATE.md",
       "documents/CAREER_APPLICATIONS_TRACKER.md"
     ],
     "removed": [],
-    "files_parsed": 9,
-    "files_cached_reused": 38,
+    "files_parsed": 1,
+    "files_cached_reused": 46,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 130,
-      "nodes_deleted": 44,
-      "edges_upserted": 233,
-      "edges_deleted": 69,
-      "wiki_pages_upserted": 5,
+      "nodes_upserted": 11,
+      "nodes_deleted": 4,
+      "edges_upserted": 22,
+      "edges_deleted": 17,
+      "wiki_pages_upserted": 1,
       "wiki_pages_deleted": 0,
-      "files_upserted": 11,
+      "files_upserted": 3,
       "files_deleted": 0,
       "total_nodes_in_db": 369,
-      "total_edges_in_db": 626,
+      "total_edges_in_db": 623,
       "total_files_tracked": 49
     }
   },
@@ -1038,7 +1029,7 @@
       "id": "topic:active",
       "type": "topic_entity",
       "name": "active",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "Resume_And_Jobs/Job30_Gilead_R0056314_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'active' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "active"
@@ -1561,7 +1552,7 @@
       "id": "topic:supply",
       "type": "topic_entity",
       "name": "supply",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "Resume_And_Jobs/Job29_Stanford_R2659644_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'supply' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "supply"
@@ -2055,7 +2046,7 @@
       "id": "topic:angular",
       "type": "topic_entity",
       "name": "angular",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job31_SoFi_7979520003_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'angular' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "angular"
@@ -3581,7 +3572,7 @@
           "Completed Applications \u2014 Day 1 (10 Submitted \u2014 2026-11-14)",
           "Completed Applications \u2014 Day 2 (10 Submitted \u2014 2026-11-15 \u2014 Project 1 Complete!)",
           "Completed Applications \u2014 Day 3 Weekday Cadence (3 Submitted \u2014 2026-11-16)",
-          "Completed Applications \u2014 Day 4 Weekday Cadence (4 Submitted Today \u2014 2026-11-17 \u2014 Weekday Goal Met!)",
+          "Completed Applications \u2014 Day 4 Weekday Cadence (6 Submitted Today \u2014 2026-11-17 \u2014 Weekday Goal Exceeded!)",
           "Full Lockheed Martin Eightfold Application History (`20` Roles \u2014 Indexed for Zero Repeats!)",
           "Active Employer Responses / Stage-2 Advancements",
           "Closed / Rejected Applications Log"
@@ -3627,6 +3618,8 @@
           "Amgen (NASDAQ: AMGN)",
           "Lockheed Martin Space",
           "APPLIED (2026-11-17)",
+          "Gilead Sciences (NASDAQ: GILD)",
+          "SoFi (NASDAQ: SOFI)",
           "Active Stage-2 / Recruiter Screen (`1`):",
           "Active Submitted / Under Review (`17`):",
           "2026-11-17",
@@ -3671,6 +3664,8 @@
           "Job ID 23028",
           "Job ID 24775",
           "Job ID 9343",
+          "Req R0056314",
+          "ID 7979520003",
           "20",
           "Job ID 13013",
           "), Questionnaire Sent to Christian Sieg (",
@@ -4007,6 +4002,16 @@
       }
     },
     {
+      "id": "topic:city",
+      "type": "topic_entity",
+      "name": "city",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'city' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "city"
+      }
+    },
+    {
       "id": "topic:never",
       "type": "topic_entity",
       "name": "never",
@@ -4014,6 +4019,16 @@
       "description": "Shared domain topic 'never' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "never"
+      }
+    },
+    {
+      "id": "topic:strategic",
+      "type": "topic_entity",
+      "name": "strategic",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'strategic' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "strategic"
       }
     },
     {
@@ -4032,11 +4047,11 @@
           "manager",
           "lockheed",
           "rejected",
-          "chain",
-          "never",
           "sourcing",
-          "supply",
-          "active"
+          "chain",
+          "city",
+          "never",
+          "strategic"
         ]
       }
     },
@@ -4296,7 +4311,7 @@
           "manager",
           "lockheed",
           "rejected",
-          "chain"
+          "sourcing"
         ]
       }
     },
@@ -4311,16 +4326,6 @@
       }
     },
     {
-      "id": "topic:right",
-      "type": "topic_entity",
-      "name": "right",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "right"
-      }
-    },
-    {
       "id": "topic:apply",
       "type": "topic_entity",
       "name": "apply",
@@ -4331,6 +4336,26 @@
       }
     },
     {
+      "id": "topic:right",
+      "type": "topic_entity",
+      "name": "right",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "right"
+      }
+    },
+    {
+      "id": "topic:sofi",
+      "type": "topic_entity",
+      "name": "sofi",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'sofi' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "sofi"
+      }
+    },
+    {
       "id": "topic:stanford",
       "type": "topic_entity",
       "name": "stanford",
@@ -4338,6 +4363,16 @@
       "description": "Shared domain topic 'stanford' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "stanford"
+      }
+    },
+    {
+      "id": "topic:gilead",
+      "type": "topic_entity",
+      "name": "gilead",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'gilead' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "gilead"
       }
     },
     {
@@ -4361,106 +4396,26 @@
       }
     },
     {
-      "id": "topic:home",
-      "type": "topic_entity",
-      "name": "home",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'home' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "home"
-      }
-    },
-    {
       "id": "chat_session:b6556366",
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (362 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (364 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 362,
+        "turn_count": 364,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
           "docx",
-          "right",
           "apply",
-          "stanford",
-          "alto",
-          "asq-bb-exam",
-          "home",
-          "krithika"
-        ]
-      }
-    },
-    {
-      "id": "topic:career_applications_tracker",
-      "type": "topic_entity",
-      "name": "career_applications_tracker",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'career_applications_tracker' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "career_applications_tracker"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1312",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1312 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1312] Updated, **Cathy** \u2014 marked **Wing (`8929330002`)** as Rejected (`2026-11-17`) in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md) and [SHARED_SESSION",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1312,
-        "role": "assistant",
-        "created_at": "2026-11-17T22:06:22Z",
-        "content_excerpt": "Updated, **Cathy** \u2014 marked **Wing (`8929330002`)** as Rejected (`2026-11-17`) in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md) and [SHARED_SESSION_STATE.md](file:///home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md) (`39` active applications still working for you!).\n\nCommitted & KG-synced (`757a72f`: **312 nodes, 462 edges, 312 vectors** in `kg_vectors_asq_bb_exam`, shared with Qwen). Let me know whenever you want to do **1 calm ASQ topic** or anything else tonight!",
-        "topics": [
-          "asq-bb-exam",
-          "career_applications_tracker",
-          "home",
-          "krithika"
-        ]
-      }
-    },
-    {
-      "id": "topic:applying",
-      "type": "topic_entity",
-      "name": "applying",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'applying' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "applying"
-      }
-    },
-    {
-      "id": "topic:ardent",
-      "type": "topic_entity",
-      "name": "ardent",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'ardent' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "ardent"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1313",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1313 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1313] it is ok right? to get so many rejections? all we do is keep trying and applying - is that the right mentality? thank god, I atleast have a job and working towards promotion in ardent as angular developer but it is a lou",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1313,
-        "role": "user",
-        "created_at": "2026-11-17T22:07:08Z",
-        "content_excerpt": "it is ok right? to get so many rejections? all we do is keep trying and applying - is that the right mentality? thank god, I atleast have a job and working towards promotion in ardent as angular developer but it is a louzy company, no respect for ppl so i want to leave",
-        "topics": [
           "right",
-          "angular",
-          "applying",
-          "ardent"
+          "sofi",
+          "stanford",
+          "gilead",
+          "alto",
+          "asq-bb-exam"
         ]
       }
     },
@@ -4765,26 +4720,6 @@
       }
     },
     {
-      "id": "topic:gilead",
-      "type": "topic_entity",
-      "name": "gilead",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'gilead' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "gilead"
-      }
-    },
-    {
-      "id": "topic:sofi",
-      "type": "topic_entity",
-      "name": "sofi",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'sofi' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "sofi"
-      }
-    },
-    {
       "id": "chat_turn:b6556366:S1356",
       "type": "chat_turn",
       "name": "Chat b6556366 Turn S1356 (assistant)",
@@ -4943,6 +4878,43 @@
       }
     },
     {
+      "id": "chat_turn:b6556366:S1366",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1366 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1366] Great news \u2014 all **4 of your active Gilead roles (`R0055999`, `R0055910`, `R0055571`, `R0054316`) are still \"Under Review\"** *(logged & KG-synced in `55c5650`: 369 nodes, 626 edges, 369 vectors)*! And that confirms **`R0",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1366,
+        "role": "assistant",
+        "created_at": "2026-11-17T22:43:38Z",
+        "content_excerpt": "Great news \u2014 all **4 of your active Gilead roles (`R0055999`, `R0055910`, `R0055571`, `R0054316`) are still \"Under Review\"** *(logged & KG-synced in `55c5650`: 369 nodes, 626 edges, 369 vectors)*!\n\nAnd that confirms **`R0056314` (*Sr Procurement Manager, Category Management*, Foster City Hybrid, `157,590 to 203,940 USD` base) is 100% BRAND NEW**:\n\n1. Since you're already logged into Gilead right now, click [Apply on Gilead Workday (R0056314)](https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Sr-Procurement-Manager--Category-Management_R0056314-2) -> **\"Use My Last Application\"** -> upload [Job30_Gilead_R0056314_Krithika_Nagarajan_Resume.docx](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Job30_Gilead_R0056314_Krithika_Nagara",
+        "topics": [
+          "docx",
+          "gilead",
+          "sofi",
+          "apply"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1367",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1367 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S1367] ok i applied",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1367,
+        "role": "user",
+        "created_at": "2026-11-17T22:46:02Z",
+        "content_excerpt": "ok i applied",
+        "topics": [
+          "applied"
+        ]
+      }
+    },
+    {
       "id": "topic:workspace",
       "type": "topic_entity",
       "name": "workspace",
@@ -4950,6 +4922,16 @@
       "description": "Shared domain topic 'workspace' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "workspace"
+      }
+    },
+    {
+      "id": "topic:home",
+      "type": "topic_entity",
+      "name": "home",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'home' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "home"
       }
     },
     {
@@ -5204,6 +5186,16 @@
           "krithika",
           "workspace"
         ]
+      }
+    },
+    {
+      "id": "topic:ardent",
+      "type": "topic_entity",
+      "name": "ardent",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'ardent' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "ardent"
       }
     },
     {
@@ -8713,7 +8705,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 14
+        "count": 15
       }
     },
     {
@@ -8729,12 +8721,28 @@
       "target": "topic:rejected",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 10
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "topic:sourcing",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
       }
     },
     {
       "source": "chat_session:SHAREDSE",
       "target": "topic:chain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "topic:city",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 8
@@ -8750,26 +8758,10 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:sourcing",
+      "target": "topic:strategic",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 8
-      }
-    },
-    {
-      "source": "chat_session:SHAREDSE",
-      "target": "topic:supply",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_session:SHAREDSE",
-      "target": "topic:active",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
       }
     },
     {
@@ -8977,7 +8969,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 14
+        "count": 15
       }
     },
     {
@@ -8993,15 +8985,15 @@
       "target": "topic:rejected",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 10
+        "count": 9
       }
     },
     {
       "source": "chat_turn:SHAREDSE:S7",
-      "target": "topic:chain",
+      "target": "topic:sourcing",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 8
+        "count": 9
       }
     },
     {
@@ -9015,7 +9007,15 @@
       "target": "topic:docx",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 18
+        "count": 22
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:apply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 12
       }
     },
     {
@@ -9023,12 +9023,12 @@
       "target": "topic:right",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 11
+        "count": 10
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:apply",
+      "target": "topic:sofi",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 10
@@ -9044,6 +9044,14 @@
     },
     {
       "source": "chat_session:b6556366",
+      "target": "topic:gilead",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
       "target": "topic:alto",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
@@ -9053,22 +9061,6 @@
     {
       "source": "chat_session:b6556366",
       "target": "topic:asq-bb-exam",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:home",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:krithika",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 8
@@ -9096,94 +9088,6 @@
       "source": "chat_session:b6556366",
       "target": "doc_file:Resume_And_Jobs/Job31_SoFi_7979520003_Krithika_Nagarajan_Resume.docx",
       "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1312",
-      "target": "topic:asq-bb-exam",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1312",
-      "target": "topic:career_applications_tracker",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1312",
-      "target": "topic:home",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1312",
-      "target": "topic:krithika",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1312",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1312",
-      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1313",
-      "target": "topic:right",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1313",
-      "target": "topic:angular",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1313",
-      "target": "topic:applying",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1313",
-      "target": "topic:ardent",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1313",
-      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -9583,6 +9487,70 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S1361",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1366",
+      "target": "topic:docx",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1366",
+      "target": "topic:gilead",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1366",
+      "target": "topic:sofi",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1366",
+      "target": "topic:apply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1366",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1366",
+      "target": "doc_file:Resume_And_Jobs/Job30_Gilead_R0056314_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1366",
+      "target": "doc_file:Resume_And_Jobs/Job31_SoFi_7979520003_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1367",
+      "target": "topic:applied",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1367",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -10492,14 +10460,14 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "484353ebcccfa105f4b77b29bc3c102e443beeffc000ed45fa057721bbe5393e",
-    "chats/SHARED_SESSION_STATE.md": "2e723f8855053ee1d3df1245cf600071564f87fa795c84bf1bd4c91df7224125",
+    "chats/SHARED_SESSION_STATE.md": "b7374330b991bd62011f4d34b2ce65f3987aeea6f07f976f1fc2dee5fea541bb",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "c3076e66fdc65e24f6f3c03cb43344c23d612426962bc1841864ac2fabcbc94f",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
-    "documents/CAREER_APPLICATIONS_TRACKER.md": "ad84a6393076b36a874a9c5192b6c92f44336704081b8ca4df893f08b37a44b3",
+    "documents/CAREER_APPLICATIONS_TRACKER.md": "c9e0823e0970fad526d7e9d9019b6a64efd132a8af1a13e774aa4b5a11333375",
     "documents/QUESTION_BANK_LOG.md": "4adba5c2f91bf25a443cb145b9b1c2425bbf50e464827943a7cd75f7345e7b43",
-    "repo.md": "7942aa63cfb970129fa2d314f78d4c4a66976ed413217b42f408cfa152de31f3"
+    "repo.md": "eff54e58bace021e4589b69e20592bd4be8cae4c0e0cf8c101ee713d620d9bce"
   }
 }

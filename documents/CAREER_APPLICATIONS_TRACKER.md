@@ -39,11 +39,13 @@
 22. **NVIDIA (NASDAQ: NVDA)** — *Manager, Strategic Sourcing – Professional Services* (`Req JR2021687`, Santa Clara, ~11 mi, 168K to 270.25K USD, IC) — **APPLIED (2026-11-16)**
 23. **Amgen (NASDAQ: AMGN)** — *Strategic Sourcing Manager* (`Req R-260996`, 100% US Remote, up to 132.98K USD, IC) — **APPLIED (2026-11-16)**
 
-## Completed Applications — Day 4 Weekday Cadence (4 Submitted Today — 2026-11-17 — Weekday Goal Met!)
+## Completed Applications — Day 4 Weekday Cadence (6 Submitted Today — 2026-11-17 — Weekday Goal Exceeded!)
 24. **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Job ID 9306`, Littleton CO + Sunnyvale CA multi-location, IC) — **APPLIED (2026-11-17)**
 25. **Lockheed Martin Space** — *Subcontract Management Stf - E4* (`Job ID 23028`, Sunnyvale CA + Huntsville AL + Littleton CO, IC Level E4, up to 165.5K USD) — **APPLIED (2026-11-17)**
 26. **Lockheed Martin Space** — *Subcontract Administration Stf - E4* (`Job ID 24775`, Huntsville AL +3 multi-location, IC Level E4) — **APPLIED (2026-11-17)**
 27. **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Job ID 9343`, Littleton CO +2 multi-location, IC Level E3) — **APPLIED (2026-11-17)**
+28. **Gilead Sciences (NASDAQ: GILD)** — *Sr Procurement Manager, Category Management* (`Req R0056314`, Foster City Hybrid, ~14 mi, 157.59K to 203.94K USD, IC) — **APPLIED (2026-11-17)**
+29. **SoFi (NASDAQ: SOFI)** — *Financial Services Strategic Sourcing Analyst* (`ID 7979520003`, 100% US Remote, 80K to 150K USD [Bay Area tier 125K–145K USD], IC) — **APPLIED (2026-11-17)**
 
 ## Full Lockheed Martin Eightfold Application History (`20` Roles — Indexed for Zero Repeats!)
 - **Active Stage-2 / Recruiter Screen (`1`):**
