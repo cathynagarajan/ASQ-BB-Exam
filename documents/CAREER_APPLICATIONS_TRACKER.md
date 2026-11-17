@@ -39,14 +39,16 @@
 22. **NVIDIA (NASDAQ: NVDA)** — *Manager, Strategic Sourcing – Professional Services* (`Req JR2021687`, Santa Clara, ~11 mi, 168K to 270.25K USD, IC) — **APPLIED (2026-11-16)**
 23. **Amgen (NASDAQ: AMGN)** — *Strategic Sourcing Manager* (`Req R-260996`, 100% US Remote, up to 132.98K USD, IC) — **APPLIED (2026-11-16)**
 
-## Completed Applications — Day 4 Weekday Cadence (2026-11-17)
-24. **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Job ID 9306`, Littleton CO + Sunnyvale CA multi-location, IC — *Application Processing*) — **APPLIED (2026-11-17)**
+## Completed Applications — Day 4 Weekday Cadence (2 Submitted Today — 2026-11-17)
+24. **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Job ID 9306`, Littleton CO + Sunnyvale CA multi-location, IC) — **APPLIED (2026-11-17)**
+25. **Lockheed Martin Space** — *Subcontract Management Stf - E4* (`Job ID 23028`, Sunnyvale CA + Huntsville AL + Littleton CO, IC Level E4, up to 165.5K USD) — **APPLIED (2026-11-17)**
 
-## Full Lockheed Martin Eightfold Application History (`17` Roles — Indexed for Zero Repeats!)
+## Full Lockheed Martin Eightfold Application History (`18` Roles — Indexed for Zero Repeats!)
 - **Active Stage-2 / Recruiter Screen (`1`):**
-  - `Job ID 13013` — *Subcontract Management Sr - E3* (Highlands Ranch CO / Sunnyvale CA +3, applied 2026-10-19) — **Stage-2 Reasonable Accommodation Updated (`✓`), Questionnaire Sent to Christian Sieg (`2026-11-16`); Eightfold shows `"Your Next Step: Additional information needed"` (verify COI/portal sync!)**
-- **Active Submitted / Under Review (`14`):**
-  - `Job ID 9306` — *Subcontract Management Sr - E3* (Littleton CO / Sunnyvale CA +2, applied **2026-11-17** — *Application Processing*)
+  - `Job ID 13013` — *Subcontract Management Sr - E3* (Highlands Ranch CO / Sunnyvale CA +3, applied 2026-10-19) — **Stage-2 Reasonable Accommodation Updated (`✓`), Questionnaire Sent to Christian Sieg (`2026-11-16`)**
+- **Active Submitted / Under Review (`15`):**
+  - `Job ID 23028` — *Subcontract Management Stf - E4* (Sunnyvale CA +2, applied **2026-11-17** — *Application Processing*)
+  - `Job ID 9306` — *Subcontract Management Sr - E3* (Littleton CO / Sunnyvale CA +2, applied **2026-11-17** — *Thank you for applying*)
   - `Job ID 9054` — *Subcontract Management Sr - E3* (Littleton CO +2, applied 2026-11-01)
   - `Job ID 16519` — *Subcontract Administration Sr - E3* (Huntsville AL +1, applied 2026-11-01)
   - `Job ID 16516` — *Subcontract Administration - E2* (Huntsville AL +3, applied 2026-11-01)
