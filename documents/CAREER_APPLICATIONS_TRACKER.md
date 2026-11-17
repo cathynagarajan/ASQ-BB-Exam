@@ -76,3 +76,5 @@
 
 ## Closed / Rejected Applications Log
 - **Symbotic (NASDAQ: SYM)** — *Applied prior to 2026-11-17* — **REJECTED / CLOSED (2026-11-17)**.
+- **GitHub / GitLab (`8642786002`)** — *Noted rejected by Cathy (`2026-11-17`; note GitLab `8642786002` screened for prior AWS cloud sourcing)* — **REJECTED / CLOSED (2026-11-17)**.
+- **Northrop Grumman** — *Prior applications* — **REJECTED / SKIP GOING FORWARD (rigid FAR/DFARS + internal-promotion compliance postings)**.
