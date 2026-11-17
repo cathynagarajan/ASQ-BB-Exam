@@ -14,17 +14,18 @@
 - **Strictly ASQ 2022 CSSBB Body of Knowledge ONLY**:
   - Reference `/home/krithika/workspace/ASQ-BB-Exam/documents/ASQ_CSSBB_Official_BOK_2022.md` and `/home/krithika/workspace/ASQ-BB-Exam/documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md` (`Hoshin Kanri` was removed in 2022; `Lencioni's 5 Dysfunctions` and `Risk Analysis` are active).
   - Check `/home/krithika/workspace/ASQ-BB-Exam/documents/QUESTION_BANK_LOG.md` before writing questions so **zero questions ever repeat**.
-- **Quiz Format (100% CROOKED APPLICATION SCENARIOS — ZERO DIRECT QUESTIONS!)**:
-  - **NEVER ask direct definition questions!** Every question MUST be an **authentic ASQ crooked, multi-detail workplace application scenario** with **plausible distractors and subtle edge-case traps** (just like real ASQ YB/GB/BB Prometric exams).
-  - Plain-text numbered questions (do NOT use popup modal tools), 4 choices (`A, B, C, D`), include `DMAIC Phase` in header (do NOT show cognitive tags like `[Evaluate]` in headers), and **NEVER show answers or hints upfront**.
-- **Grading Review Format**:
-  1. Show a summary **Table (`Q# | Topic Summary | Your Answer | Right or Wrong | Correct Answer`)** first.
-  2. For every Wrong or Guessed item, **repeat the full Question text**, show **Your Answer**, show **Correct Answer in full words**, explain **Why you were wrong**, and give a **1-line plain-English Word Bible rule** (pure concept/formula rule—NO Q&A format inside notes so Cathy's bound Word Bible complies with Prometric open-book rules).
-  3. Update `PERFORMANCE_TRACKER.md`, `documents/QUESTION_BANK_LOG.md`, and `chats/SHARED_SESSION_STATE.md`, then **ALWAYS update and verify the Knowledge Graph (`query_kg.py --commit-push` + `kg_vectors_asq_bb_exam`, NEVER `--no-verify`) on EVERY commit** and report the updated KG node/vector count to Cathy.
-- **Pacing & "Zero Overprocessing" Optimal Plan (100% BoK Coverage, 1 Concept at a Time!)**:
-  - Cover **every single topic in `documents/ASQ_CSSBB_Official_BOK_2022.md`** (skipping ZERO BoK topics and zero weak points!).
-  - Drill **1 single concept at a time**, right-sized by exam weight: **5 crooked questions** for smaller single tools, **10 crooked questions** for heavy math/core tools — and **NEVER send the next set until Cathy explicitly says "ready"**.
-  - Encourage numbered replies (`121A, 122B...`) so skipped items never shift her answer sheet.
+- **Progressive Difficulty Ladder (`Easy -> Medium -> Hard` — NEVER Ambush With Crooked Traps Upfront!)**:
+  - Cathy is refreshing after an **8-month break**. **NEVER** use the old "final-2-weeks crooked questions only" rule!
+  - Take **1 narrow topic at a time**:
+    1. **Teach Briefly First**: 3–5 calm, plain-English lines right on screen with a real-life example (zero obscure textbook footnotes). Wait for **"ready"**.
+    2. **Easy First**: Start with clean, direct **1-line Copilot-style questions** to rebuild memory.
+    3. **Medium Next**: Step up to simple 1–2 sentence ASQ application questions only once Easy is comfortable.
+    4. **Hard Last**: Introduce harder scenarios ONLY after Easy and Medium are solid.
+  - Plain-text numbered questions, 4 choices (`A, B, C, D`), **NEVER show answers or hints upfront**.
+- **Human, Plain-English Grading & Explanations**:
+  1. Score cleanly and clearly.
+  2. Explain any missed question in **1–2 normal, everyday human sentences with a simple real-life picture/analogy** — **NEVER** explain jargon with more jargon, and **NEVER** use stiff robotic templates or visual clutter.
+  3. Update `PERFORMANCE_TRACKER.md`, `documents/QUESTION_BANK_LOG.md`, and `chats/SHARED_SESSION_STATE.md`, then **ALWAYS update and verify the Knowledge Graph (`query_kg.py --commit-push` + `kg_vectors_asq_bb_exam`, NEVER `--no-verify`) on EVERY commit**.
 
 ## 3. Job Search & Resume Guardrails
 - **Daily Application Cadence**: **Weekdays (Mon–Fri) = `3 to 5` jobs/day**; **Weekends (Sat–Sun) = `10` jobs/day**.

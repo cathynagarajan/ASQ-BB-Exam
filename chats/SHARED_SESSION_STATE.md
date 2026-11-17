@@ -29,11 +29,14 @@
   11. `V.E.2` Hypergeometric (small finite lot without replacement) (`Q86`)
   12. `VI.B.3` & `VI.B.4` `Two-Proportion Z-test` (`18/400 vs 9/400` Pass/Fail %, `Q137`) & `Chi-Square Independence` (`3x3` category counts, `Q138`) — *(Note: `t-test`, `Paired t`, `ANOVA`, `Kruskal-Wallis`, `Paired Wilcoxon`, `F-test`, `Levene's` ALL PASSED on `Q131–Q140`!)*
   13. `V.F.5`, `VII.A`, `VIII.A` (Copilot `C19/C21/C24/C25/C52/C57/C59`): `Cp > Pp` under long-term drift, `2-sample t-test` vs `Chi-Square` (never Chi-Square for continuous averages!), `8+ consecutive points above/below centerline = Special Cause`, `np-chart` (count of defectives, fixed `n`) vs `p-chart` (`%` defective), DOE Designs (`CCD/RSM` vs `Plackett-Burman` vs `Latin Square`)
-- **NEXT EXAM STEP**: Pause and wait for Cathy to say **"ready"**. **LOCKED OPTIMAL PLAN ("ZERO OVERPROCESSING DEAL")**:
-  - **100% Strictly ASQ 2022 CSSBB BoK ONLY** (`documents/ASQ_CSSBB_Official_BOK_2022.md`) — **NEVER skip a single BoK topic**, and **NEVER include non-ASQ / retired topics**.
-  - **1 Single Concept at a Time, Right-Sized by Exam Weight**: **5 crooked questions** for smaller verbal/diagram concepts; **10 crooked questions** for heavy math/core exam concepts (skipping nothing, tracking every weak point until mastered).
-  - **Next Single-Concept Drill (`Q151`–`Q160`, 10 Qs)**: **Analyze Phase `VI.A.1 & VI.A.2` — Correlation & Linear Regression** (Crisp Sheet already taught; send `Q151`–`Q160` ONLY when Cathy says `"ready"`).
-  - **COACHING RULE**: **Teach Plain-English All-Combinations Crisp Sheet FIRST -> wait for `"ready"` -> send 5 or 10 concise ASQ scenario questions**. Zero jokes/hype, zero `$` signs, 4 short 1-line bullets per missed item (`Correct Answer`, `Clue Words`, `Simple Rule`, `Why Your Choice Was Wrong`).
+- **NEXT EXAM STEP**: Pause and wait for Cathy to return from her dermatology appointment and say **"ready"**. **PERMANENT COACHING RESET (8-MONTH BREAK REFRESH)**:
+  - **DELETED OLD RULE**: The leftover "final-2-weeks 100% crooked/notoriously-hard questions ONLY" rule has been **permanently removed** from `rules.md`, `.agents/rules/rules.md`, `QWEN.md`, and `SHARED_SESSION_STATE.md`.
+  - **Progressive Difficulty Ladder (`Easy -> Medium -> Hard`) on 1 Narrow Topic at a Time**:
+    1. Teach **3–5 calm, everyday-English lines** right on screen (with a simple real-life example, zero PhD footnotes) and wait for `"ready"`.
+    2. **Round 1 = EASY**: Clean, 1-line Copilot-style questions to rebuild memory after the 8-month break.
+    3. **Round 2 = MEDIUM**: Straightforward 1–2 sentence ASQ application questions once Easy is comfortable.
+    4. **Round 3 = HARD**: Harder questions ONLY after Easy and Medium are solid.
+  - **Human Explanations ONLY**: Explain misses in 1–2 normal conversational sentences using a real-life analogy — zero robotic 4-bullet templates, zero jargon-on-jargon, zero `$` signs.
 
 ---
 
