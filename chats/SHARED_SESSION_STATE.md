@@ -8,13 +8,13 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`210` (`Q1`–`Q150` + Copilot `C1`–`C60`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Today's 50-Question Goal (`Q101`–`Q150`, 5 Sets x 10 Qs, 1 Topic at a Time)**: **COMPLETE (`39 / 50 = 78.0%` — `9/10, 7/10, 7/10, 8/10, 8/10`!)**
+- **Completed Unique Questions**: **`245` (`Q1`–`Q150` + Copilot `C1`–`C95`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Previous 50-Question Goal (`Q101`–`Q150`, 5 Sets x 10 Qs, 1 Topic at a Time)**: **COMPLETE (`39 / 50 = 78.0%` — `9/10, 7/10, 7/10, 8/10, 8/10`!)**
 - **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`56 / 70 = 80.0%`**
 - **Stage 2 Status (`Domain V — Measure Phase`)**: **`35 / 50 = 70.0%`**
-- **Stage 3 Status (`Domain VI — Analyze Phase`)**: **`16 / 20 = 80.0%`**
+- **Stage 3 Status (`Domain VI — Analyze Phase`)**: **`16 / 20 = 80.0%`** *(Correlation & Regression `VI.A.1 & VI.A.2` Crisp Sheet taught; waiting for `"ready"` for `Q151`–`Q160`)*
 - **Stage 5 Preview (`Domain VIII — Control Charts`)**: **`8 / 10 = 80.0%`**
-- **Copilot External Sets (`C1`–`C60`)**: **`44 / 60`** — Grand Cumulative: **`159 / 210` (`75.7%`)**
+- **Copilot External Sets (`C1`–`C95`)**: **`70 / 95` (`73.7%` — Set 4 `C61`–`C95`: `26 / 35 = 74.3%`)** — Grand Cumulative: **`185 / 245` (`75.5%`)**
 - **Active Weak Points Scheduled for Spaced Re-Testing**:
   1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)
   2. `IV.A.3` CTQ measurable numerical target vs. vague VOC (`Q18`)
@@ -32,8 +32,8 @@
 - **NEXT EXAM STEP**: Pause and wait for Cathy to say **"ready"**. **LOCKED OPTIMAL PLAN ("ZERO OVERPROCESSING DEAL")**:
   - **100% Strictly ASQ 2022 CSSBB BoK ONLY** (`documents/ASQ_CSSBB_Official_BOK_2022.md`) — **NEVER skip a single BoK topic**, and **NEVER include non-ASQ / retired topics**.
   - **1 Single Concept at a Time, Right-Sized by Exam Weight**: **5 crooked questions** for smaller verbal/diagram concepts; **10 crooked questions** for heavy math/core exam concepts (skipping nothing, tracking every weak point until mastered).
-  - **Next Single-Concept Drill (`Q121`–`Q130`, 10 Qs)**: **Measure Phase `V.C` — MSA & Gage R&R Crooked Scenarios** (Bias/Linearity/Stability, Repeatability/Reproducibility, ANOVA vs X-bar/R, Nested destructive, `%StudyVar` vs `%Contribution` variance trap, `ndc`, Kappa).
-  - **COACHING RULE**: **100% CROOKED / APPLICATION-BASED SCENARIOS ONLY (ZERO direct textbook questions)**. Go slow, never send next set until Cathy says "ready", require numbered answers (`121A, 122B...`), and print full question text when explaining missed/guessed Qs slowly.
+  - **Next Single-Concept Drill (`Q151`–`Q160`, 10 Qs)**: **Analyze Phase `VI.A.1 & VI.A.2` — Correlation & Linear Regression** (Crisp Sheet already taught; send `Q151`–`Q160` ONLY when Cathy says `"ready"`).
+  - **COACHING RULE**: **Teach Plain-English All-Combinations Crisp Sheet FIRST -> wait for `"ready"` -> send 5 or 10 concise ASQ scenario questions**. Zero jokes/hype, zero `$` signs, 4 short 1-line bullets per missed item (`Correct Answer`, `Clue Words`, `Simple Rule`, `Why Your Choice Was Wrong`).
 
 ---
 

@@ -110,4 +110,37 @@ C. CONTINUOUS / VARIABLES (Weight, Length, Time, Temperature)
 D. CONTROL CHART SIGNALS
 - Common-Cause (In Control / Stable): Random bounce inside control limits
 - Special-Cause (Out of Control)    : 1 point outside limits, OR 8-9 points on one side of centerline, OR 6+ points trending steadily up/down
+
+
+--------------------------------------------------------------------------------
+7. CORRELATION & LINEAR REGRESSION (VI.A.1 & VI.A.2)
+--------------------------------------------------------------------------------
+- Correlation (r)    : -1.0 to +1.0 (no units). +1 = upward line, -1 = downward line, 0 = no linear link.
+  - Traps            : Correlation != causation; U-curve can give r = 0 (plot Scatter Diagram first!).
+  - Significance t   : t = r * sqrt( (n - 2) / (1 - r^2) ), df = n - 2
+- R-squared          : (r)^2 -> % of variation in Y explained by X (always 0% to 100%).
+- Simple Regression  : Predicted Y = b0 + (b1 * X)
+  - b1 (Slope)       : Change in Y when X goes up by 1 unit [b1 = r * (sy / sx)]
+  - b0 (Intercept)   : Predicted Y when X = 0 [b0 = Y_bar - b1 * X_bar]
+  - Extrapolation    : NEVER predict outside the tested X data range.
+- Multiple Regression:
+  - Adjusted R-sq    : Use instead of R-sq when adding X's (penalizes useless X's).
+  - VIF              : Checks Multicollinearity (duplicate X's). VIF = 1 ideal; VIF > 5 or > 10 = bad.
+- 4 Residual Checks  : 1) Normal, 2) Constant Variance (no funnel/cone), 3) Independent over time (Durbin-Watson ~ 2.0), 4) No high-leverage outliers.
+- CI vs. PI          : Confidence Interval (narrower) = average Y; Prediction Interval (wider) = 1 single future Y.
+- Logistic Regression: Use when Y is Binary (Pass/Fail, Yes/No, 0/1).
+
+
+--------------------------------------------------------------------------------
+8. NINE QUICK 2-WORD TRAPS TO NEVER SWAP (FROM COPILOT SET 4)
+--------------------------------------------------------------------------------
+- Alpha (Type I) vs. Power : Alpha = Type I Error (False Alarm); Beta = Type II Error (Miss); Power = 1 - Beta.
+- Outlier Resistance       : MEDIAN & IQR resist outliers (Mean, SD, and Range get pulled by outliers!).
+- VOC vs. CTQ              : VOC = raw customer words/feedback; CTQ = measurable requirement translated from VOC.
+- c-chart vs. np-chart     : c-chart = count of DEFECTS (flaws, constant area); np-chart = count of DEFECTIVES (bad units, constant n).
+- X-bar vs. R chart        : X-bar chart catches MEAN shifts; R chart catches SPREAD / VARIABILITY shifts.
+- Control vs. Spec Limits  : Control Limits (UCL/LCL) = Voice of PROCESS (VOP); Spec Limits (USL/LSL) = Voice of CUSTOMER (VOC).
+- Cp vs. Cpk               : Cp = spread only (ignores centering); Cpk = spread AND centering ("k" = centering).
+- H0 vs. Ha                : Null (H0) = NO difference / status quo ("0" = zero effect); Alternative (Ha) = desired improvement / difference.
+- Simple Random vs. Strat. : Simple Random = EVERY item has equal chance; Stratified = split into groups first, then sample each group.
 ================================================================================

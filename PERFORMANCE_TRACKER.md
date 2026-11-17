@@ -2,8 +2,8 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Round 12 / Set 5 of 5 — `VIII.A` Control Charts):** **`8 / 10` (`80.0%`)** *(Today's 50-Q Goal COMPLETE: **`39 / 50 = 78.0%`**! Nailed X-bar R, I-MR, X-bar s, p-chart, c-chart, u-chart, Common-cause, & 9-point Special-cause shift; missed only `Q145` np-chart count & `Q150` 7-point upward trend = Special-cause)*
-- **Overall Cumulative Score (`Q1`–`Q150` + `C1`–`C60` = `210` Qs):** **`159 / 210` (`75.7%`)**
+- **Latest Batch Score (Copilot External Set 4 — `C61`–`C95`):** **`26 / 35` (`74.3%`)** *(100% on all 4 math calculations + 100% on both new Correlation/Regression questions `C88` & `C93`; all 9 misses were 2-word vocabulary swaps)*
+- **Overall Cumulative Score (`Q1`–`Q150` + `C1`–`C95` = `245` Qs):** **`185 / 245` (`75.5%`)**
 
 ---
 
@@ -46,3 +46,4 @@
 | 2026-11-15 | **`VI.B.3` & `VI.B.4`** | Analyze (A) | **ANOVA & Non-Parametric Test Map** | 3+ Normal means = **One-Way ANOVA** (avoids Type I inflation). 3+ Skewed/non-normal medians = **Kruskal-Wallis**; 2 independent skewed = **Mann-Whitney U**; 2 paired skewed = **Paired Wilcoxon**. | **Add to Word Bible** |
 | 2026-11-15 | **`V.E.2` & `V.F.5`** | Measure (M) | **Poisson vs. Exponential & `Cp > Pp` Drift** | **Poisson** = count of arrivals/defects per unit/time; **Exponential** = time *between* Poisson arrivals. With long-term drift, overall `s` > short-term `sigma`, so **`Cp > Pp`**. | **Add to Word Bible** |
 | 2026-11-15 | **`VII.A` & `VIII.A`** | Improve / Control | **DOE Designs (CCD/RSM) & Control Chart Rules (`p/np/c/u` + Nelson Rules)** | **RSM** = **CCD**; **Plackett-Burman** = screening. Pass/fail `%` or varying `n` = **`p-chart`**; Pass/fail **count** with fixed `n` = **`np-chart`**; 8+ consecutive points on one side of centerline = **Special Cause**. | **Add to Word Bible** |
+| 2026-11-17 | **`IV–VIII` Vocab** | Mixed (Copilot Set 4) | **9 Quick 2-Word Vocabulary Distinctions (`C64–C87`)** | `Alpha` = Type I error (Power = `1-Beta`); `Median` resists outliers; `CTQ` = measurable requirement (`VOC` = raw words); `c-chart` = defect count (`np` = defective count); `X-bar` = mean shift (`R` = spread); Control limits = `VOP` (Spec = `VOC`); `Cpk` = centering (`Cp` = spread only); `H0` = no difference; `Simple Random` = equal chance per item. | **Added to Cheat Sheet Sec 8** |
