@@ -28,8 +28,8 @@
 13. **SB Energy (SoftBank Group)** — *Senior Program Manager, Project Logistics – Data Center Supply Chain* (`ID 6196705004`, Redwood City Hybrid, ~6 mi, 160K to 200K USD, IC) — **APPLIED (2026-11-15)**
 14. **Robinhood** — *Senior Sourcing Manager* (`ID 8211219`, Menlo Park Hybrid 3 days/wk, ~3 mi, 166K to 195K USD, IC) — **APPLIED (2026-11-15)**
 15. **Amgen** — *Strategic Sourcing Manager – Contract Manufacturing* (`Req R-260128`, 100% US Remote, up to 132.98K USD, IC) — **APPLIED (2026-11-15)**
-16. **Gilead Sciences** — *Resume-Matched Recommended Role #1* (Foster City, IC) — **APPLIED (2026-11-15)**
-17. **Gilead Sciences** — *Resume-Matched Recommended Role #2* (Foster City, IC) — **APPLIED (2026-11-15)**
+16. **Gilead Sciences** — *Assoc Director, Supply Chain* (`Req R0055999`, Foster City — *Under Review*) — **APPLIED (2026-11-15)**
+17. **Gilead Sciences** — *Associate Director, End-to-End Commercial Supply Chain Planner* (`Req R0055910`, Foster City — *Under Review*; plus `Req R0054316` *Assoc Director, Procurement - Transportation and Logistics* from 2026-08-21 *Under Review*) — **APPLIED (2026-11-15)**
 18. **Rubrik (NYSE: RBRK)** — *Senior Strategic Sourcing Manager, Cloud & Strategic Partnerships* (`ID 8114559`, Palo Alto, 0 mi, 165.6K to 248.4K USD, IC) — **APPLIED (2026-11-15)**
 19. **Pure Storage / Everpure (NYSE: PSTG)** — *Data Steward, Master Data Management, Supply Chain* (`ID 8027649`, Santa Clara, ~11 mi, 155.7K to 190.3K USD, IC) — **APPLIED (2026-11-15)**
 20. **GitLab (NASDAQ: GTLB)** — *Principal Strategic Sourcing Lead – Technology* (`ID 8642786002`, 100% Remote US, 139.2K to 235.2K USD, IC) — **APPLIED (2026-11-15)**
