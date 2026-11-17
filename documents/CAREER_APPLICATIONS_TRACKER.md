@@ -40,7 +40,29 @@
 23. **Amgen (NASDAQ: AMGN)** — *Strategic Sourcing Manager* (`Req R-260996`, 100% US Remote, up to 132.98K USD, IC) — **APPLIED (2026-11-16)**
 
 ## Completed Applications — Day 4 Weekday Cadence (2026-11-17)
-24. **Lockheed Martin Space** — *Subcontract Administrator* (Sunnyvale, CA, ~9 mi, IC — via Eightfold AI portal; **17 total Lockheed Martin roles applied** in Eightfold account `https://lockheedmartin.eightfold.ai/careers/applications?domain=lockheedmartin.com`) — **APPLIED (2026-11-17)**
+24. **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Job ID 9306`, Littleton CO + Sunnyvale CA multi-location, IC — *Application Processing*) — **APPLIED (2026-11-17)**
+
+## Full Lockheed Martin Eightfold Application History (`17` Roles — Indexed for Zero Repeats!)
+- **Active Stage-2 / Recruiter Screen (`1`):**
+  - `Job ID 13013` — *Subcontract Management Sr - E3* (Highlands Ranch CO / Sunnyvale CA +3, applied 2026-10-19) — **Stage-2 Reasonable Accommodation Updated (`✓`), Questionnaire Sent to Christian Sieg (`2026-11-16`); Eightfold shows `"Your Next Step: Additional information needed"` (verify COI/portal sync!)**
+- **Active Submitted / Under Review (`14`):**
+  - `Job ID 9306` — *Subcontract Management Sr - E3* (Littleton CO / Sunnyvale CA +2, applied **2026-11-17** — *Application Processing*)
+  - `Job ID 9054` — *Subcontract Management Sr - E3* (Littleton CO +2, applied 2026-11-01)
+  - `Job ID 16519` — *Subcontract Administration Sr - E3* (Huntsville AL +1, applied 2026-11-01)
+  - `Job ID 16516` — *Subcontract Administration - E2* (Huntsville AL +3, applied 2026-11-01)
+  - `Job ID 11582` — *Proposal Management Stf - E4* (Highlands Ranch CO +3, applied 2026-10-30)
+  - `Job ID 17417` — *Subcontract Management Stf - E4* (Huntsville AL +2, applied 2026-10-30)
+  - `Job ID 11141` — *Manufacturing Support Team Member / ATLS Planner - Level 3* (Sunnyvale CA +1, applied 2026-10-30)
+  - `Job ID 8363` — *Supply Chain Sr Staff Contracts Analyst* (Grand Prairie TX, applied 2026-10-30)
+  - `Job ID 9581` — *Subcontract Management Sr - E3* (Arlington TX, applied 2026-10-19)
+  - `Job ID 13924` — *Program Management Asc Mgr* (Sunnyvale CA +2, applied 2026-10-19)
+  - `Job ID 16508` — *Senior Global Supply Chain Training Lead* (Fort Worth TX, applied 2026-10-19)
+  - `Job ID 13178` — *Subcontract Management Sr - E3* (Littleton CO +2, applied 2026-10-19)
+  - `Job ID 20038` — *Procurement Rep Sr - E3* (Virtual Two NJ / Remote +3, applied 2026-10-19)
+  - `Job ID 19487` — *Purchasing & Material Administration Analyst Asc - E1* (Orlando FL, applied 2026-10-19)
+- **Rejected at Lockheed Martin (`2`):**
+  - `Job ID 13918` — *Project Management & Planning Operations Rep* (Huntsville AL +3, applied 2026-10-30) — **REJECTED**
+  - `Job ID 8492` — *Subcontract Management, Staff* (Highlands Ranch CO +3, applied 2026-10-19) — **REJECTED**
 
 ## Active Employer Responses / Stage-2 Advancements
 - **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req ID 13013`, Sunnyvale CA, ~9 mi, IC Level E3, targeted 125K–135K USD base, SAP/P2P + Supplier Contracts/Negotiations; applied 2026-10-20 via Indeed -> Eightfold) — **STAGE-2 PORTAL UPDATED (`✓`) & RECRUITER QUESTIONNAIRE SENT TO CHRISTIAN SIEG (2026-11-16 — Awaiting Hiring Manager Review!)**.
