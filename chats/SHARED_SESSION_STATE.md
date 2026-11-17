@@ -59,7 +59,7 @@
   9. **Zoox (Amazon)** — *Procurement Operations Manager* (`68996f74-85e8-435d-9369-906438670794`, Foster City)
   10. **Roblox** — *Vendor Operations, Automation* (`8174264`, San Mateo)
 - **10 Submitted Applications — Day 2 (2026-11-15 — Project 1 Complete, 20 Total!)**:
-  11. **Wing (Alphabet)** — *Sourcing Manager* (`8929330002`, Palo Alto Hybrid)
+  11. **Wing (Alphabet)** — *Sourcing Manager* (`8929330002`, Palo Alto Hybrid — **Rejected 2026-11-17**)
   12. **NVIDIA** — *Sr. Program Manager, Logistics & Fulfillment Tech* (`JR2021872`, Santa Clara)
   13. **SB Energy** — *Sr. Program Manager, Project Logistics* (`6196705004`, Redwood City Hybrid)
   14. **Robinhood** — *Senior Sourcing Manager* (`8211219`, Menlo Park Hybrid)
@@ -83,6 +83,7 @@
   - **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req 13013`, Sunnyvale CA, IC Level E3, 125K–135K USD base) — **Stage-2 Portal Updated (`✓`) & Recruiter Questionnaire SENT to Christian Sieg (2026-11-16 — Ready for Hiring Manager advancement!)**!
   - **Lockheed Eightfold AI Profile Portal**: `https://lockheedmartin.eightfold.ai/careers/profile?utm_source=indeed&domain=lockheedmartin.com&Codes=IND` *(sourced via Indeed `Codes=IND` — auto-matches Cathy's profile to upcoming Lockheed openings)*.
 - **Closed / Rejected Applications**:
+  - **Wing (Alphabet `8929330002`)** — **Rejected (2026-11-17)**.
   - **Symbotic (NASDAQ: SYM)** — **Rejected (2026-11-17)**.
   - **GitHub / GitLab (`8642786002`)** — **Rejected (2026-11-17)**.
   - **Northrop Grumman** — Prior apps rejected (skip Northrop going forward).

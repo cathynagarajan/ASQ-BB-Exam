@@ -23,7 +23,7 @@
 10. **Roblox** — *Vendor Operations, Automation* (`ID 8174264`, San Mateo Tue–Thu Hybrid, ~15 mi, 144.6K to 174.1K USD + RBLX equity, IC) — **APPLIED (2026-11-14)**
 
 ## Completed Applications — Day 2 (10 Submitted — 2026-11-15 — Project 1 Complete!)
-11. **Wing (Alphabet)** — *Sourcing Manager* (`ID 8929330002`, Palo Alto Hybrid, 0 mi, 153K to 162K USD, IC) — **APPLIED (2026-11-15)**
+11. **Wing (Alphabet)** — *Sourcing Manager* (`ID 8929330002`, Palo Alto Hybrid, 0 mi, 153K to 162K USD, IC) — **APPLIED (2026-11-15) -> REJECTED (2026-11-17)**
 12. **NVIDIA** — *Senior Program Manager, Logistics and Fulfillment Technology Enablement* (`Req JR2021872`, Santa Clara, ~11 mi, 176K to 276K USD, IC) — **APPLIED (2026-11-15)**
 13. **SB Energy (SoftBank Group)** — *Senior Program Manager, Project Logistics – Data Center Supply Chain* (`ID 6196705004`, Redwood City Hybrid, ~6 mi, 160K to 200K USD, IC) — **APPLIED (2026-11-15)**
 14. **Robinhood** — *Senior Sourcing Manager* (`ID 8211219`, Menlo Park Hybrid 3 days/wk, ~3 mi, 166K to 195K USD, IC) — **APPLIED (2026-11-15)**
@@ -75,6 +75,7 @@
   - **Lockheed Eightfold AI Candidate Profile & Resume-Match Portal:** `https://lockheedmartin.eightfold.ai/careers/profile?utm_source=indeed&domain=lockheedmartin.com&Codes=IND` *(use to upload resume and view auto-matched Lockheed Martin Space openings, including Christian Sieg's upcoming roles)*.
 
 ## Closed / Rejected Applications Log
+- **Wing (Alphabet)** — *Sourcing Manager (`ID 8929330002`, Palo Alto)* — **REJECTED / CLOSED (2026-11-17)**.
 - **Symbotic (NASDAQ: SYM)** — *Applied prior to 2026-11-17* — **REJECTED / CLOSED (2026-11-17)**.
 - **GitHub / GitLab (`8642786002`)** — *Noted rejected by Cathy (`2026-11-17`; note GitLab `8642786002` screened for prior AWS cloud sourcing)* — **REJECTED / CLOSED (2026-11-17)**.
 - **Northrop Grumman** — *Prior applications* — **REJECTED / SKIP GOING FORWARD (rigid FAR/DFARS + internal-promotion compliance postings)**.
