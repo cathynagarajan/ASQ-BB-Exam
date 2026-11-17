@@ -73,10 +73,12 @@
   21. **Intuit (NASDAQ: INTU)** — *Senior Strategic Sourcing Manager, Corporate Services* (`Job ID 25188`, Mountain View Hybrid)
   22. **NVIDIA (NASDAQ: NVDA)** — *Manager, Strategic Sourcing – Professional Services* (`JR2021687`, Santa Clara)
   23. **Amgen (NASDAQ: AMGN)** — *Strategic Sourcing Manager* (`R-260996`, 100% US Remote)
-- **Day-4 Weekday Applications (2026-11-17 — `2` Submitted Today; `41` Total Tracked Across All Portals: `23` Non-Lockheed + `18` Lockheed Eightfold = `38` Active, `3` Rejected!)**:
+- **Day-4 Weekday Applications (2026-11-17 — `4` Submitted Today [Weekday 3–5 Goal MET!]; `43` Total Tracked Across All Portals: `23` Non-Lockheed + `20` Lockheed Eightfold = `40` Active, `3` Rejected!)**:
   24. **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Job ID 9306`, Littleton CO / Sunnyvale CA +2 — applied **2026-11-17**)
   25. **Lockheed Martin Space** — *Subcontract Management Stf - E4* (`Job ID 23028`, Sunnyvale CA +2, up to 165.5K USD — applied **2026-11-17**)
-  - **All 18 Lockheed Job IDs Indexed (Never Repeat)**: `23028`, `9306`, `9054`, `16519`, `16516`, `11582`, `13918` (Rejected), `17417`, `11141`, `8363`, `9581`, `13924`, `16508`, `13013` (Active Stage-2!), `13178`, `8492` (Rejected), `20038`, `19487`.
+  26. **Lockheed Martin Space** — *Subcontract Administration Stf - E4* (`Job ID 24775`, Huntsville AL +3 — applied **2026-11-17**)
+  27. **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Job ID 9343`, Littleton CO +2 — applied **2026-11-17**)
+  - **All 20 Lockheed Job IDs Indexed (Never Repeat)**: `9343`, `24775`, `23028`, `9306`, `9054`, `16519`, `16516`, `11582`, `13918` (Rejected), `17417`, `11141`, `8363`, `9581`, `13924`, `16508`, `13013` (Active Stage-2!), `13178`, `8492` (Rejected), `20038`, `19487`.
 - **Active Recruiter / Stage-2 Callbacks**:
   - **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req 13013`, Sunnyvale CA, IC Level E3, 125K–135K USD base) — **Stage-2 Portal Updated (`✓`) & Recruiter Questionnaire SENT to Christian Sieg (2026-11-16 — Ready for Hiring Manager advancement!)**!
   - **Lockheed Eightfold AI Profile Portal**: `https://lockheedmartin.eightfold.ai/careers/profile?utm_source=indeed&domain=lockheedmartin.com&Codes=IND` *(sourced via Indeed `Codes=IND` — auto-matches Cathy's profile to upcoming Lockheed openings)*.
