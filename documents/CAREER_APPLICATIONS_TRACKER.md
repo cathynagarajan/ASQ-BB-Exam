@@ -39,6 +39,9 @@
 22. **NVIDIA (NASDAQ: NVDA)** — *Manager, Strategic Sourcing – Professional Services* (`Req JR2021687`, Santa Clara, ~11 mi, 168K to 270.25K USD, IC) — **APPLIED (2026-11-16)**
 23. **Amgen (NASDAQ: AMGN)** — *Strategic Sourcing Manager* (`Req R-260996`, 100% US Remote, up to 132.98K USD, IC) — **APPLIED (2026-11-16)**
 
+## Completed Applications — Day 4 Weekday Cadence (2026-11-17)
+24. **Lockheed Martin Space** — *Subcontract Administrator* (Sunnyvale, CA, ~9 mi, IC — via Eightfold AI portal; **17 total Lockheed Martin roles applied** in Eightfold account `https://lockheedmartin.eightfold.ai/careers/applications?domain=lockheedmartin.com`) — **APPLIED (2026-11-17)**
+
 ## Active Employer Responses / Stage-2 Advancements
 - **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req ID 13013`, Sunnyvale CA, ~9 mi, IC Level E3, targeted 125K–135K USD base, SAP/P2P + Supplier Contracts/Negotiations; applied 2026-10-20 via Indeed -> Eightfold) — **STAGE-2 PORTAL UPDATED (`✓`) & RECRUITER QUESTIONNAIRE SENT TO CHRISTIAN SIEG (2026-11-16 — Awaiting Hiring Manager Review!)**.
   - **Lockheed Eightfold AI Candidate Profile & Resume-Match Portal:** `https://lockheedmartin.eightfold.ai/careers/profile?utm_source=indeed&domain=lockheedmartin.com&Codes=IND` *(use to upload resume and view auto-matched Lockheed Martin Space openings, including Christian Sieg's upcoming roles)*.

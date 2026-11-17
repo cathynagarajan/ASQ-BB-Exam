@@ -73,6 +73,8 @@
   21. **Intuit (NASDAQ: INTU)** — *Senior Strategic Sourcing Manager, Corporate Services* (`Job ID 25188`, Mountain View Hybrid)
   22. **NVIDIA (NASDAQ: NVDA)** — *Manager, Strategic Sourcing – Professional Services* (`JR2021687`, Santa Clara)
   23. **Amgen (NASDAQ: AMGN)** — *Strategic Sourcing Manager* (`R-260996`, 100% US Remote)
+- **Day-4 Weekday Applications (2026-11-17 — 24 Active Tracked + 17 Total Lockheed Eightfold Roles!)**:
+  24. **Lockheed Martin Space** — *Subcontract Administrator* (Sunnyvale, CA — applied 2026-11-17; note Cathy has **17 total Lockheed applications** inside `https://lockheedmartin.eightfold.ai/careers/applications?domain=lockheedmartin.com`)
 - **Active Recruiter / Stage-2 Callbacks**:
   - **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req 13013`, Sunnyvale CA, IC Level E3, 125K–135K USD base) — **Stage-2 Portal Updated (`✓`) & Recruiter Questionnaire SENT to Christian Sieg (2026-11-16 — Ready for Hiring Manager advancement!)**!
   - **Lockheed Eightfold AI Profile Portal**: `https://lockheedmartin.eightfold.ai/careers/profile?utm_source=indeed&domain=lockheedmartin.com&Codes=IND` *(sourced via Indeed `Codes=IND` — auto-matches Cathy's profile to upcoming Lockheed openings)*.
