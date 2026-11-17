@@ -40,7 +40,8 @@
 23. **Amgen (NASDAQ: AMGN)** — *Strategic Sourcing Manager* (`Req R-260996`, 100% US Remote, up to 132.98K USD, IC) — **APPLIED (2026-11-16)**
 
 ## Active Employer Responses / Stage-2 Advancements
-- **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req ID 13013`, Sunnyvale CA, ~9 mi, IC Level E3, targeted 125K–135K USD base, SAP/P2P + Supplier Contracts/Negotiations; applied 2026-10-20) — **STAGE-2 PORTAL UPDATED (`✓`) & RECRUITER QUESTIONNAIRE SENT TO CHRISTIAN SIEG (2026-11-16 — Awaiting Hiring Manager Review!)**.
+- **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req ID 13013`, Sunnyvale CA, ~9 mi, IC Level E3, targeted 125K–135K USD base, SAP/P2P + Supplier Contracts/Negotiations; applied 2026-10-20 via Indeed -> Eightfold) — **STAGE-2 PORTAL UPDATED (`✓`) & RECRUITER QUESTIONNAIRE SENT TO CHRISTIAN SIEG (2026-11-16 — Awaiting Hiring Manager Review!)**.
+  - **Lockheed Eightfold AI Candidate Profile & Resume-Match Portal:** `https://lockheedmartin.eightfold.ai/careers/profile?utm_source=indeed&domain=lockheedmartin.com&Codes=IND` *(use to upload resume and view auto-matched Lockheed Martin Space openings, including Christian Sieg's upcoming roles)*.
 
 ## Closed / Rejected Applications Log
 - **Symbotic (NASDAQ: SYM)** — *Applied prior to 2026-11-17* — **REJECTED / CLOSED (2026-11-17)**.

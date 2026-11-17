@@ -75,6 +75,7 @@
   23. **Amgen (NASDAQ: AMGN)** — *Strategic Sourcing Manager* (`R-260996`, 100% US Remote)
 - **Active Recruiter / Stage-2 Callbacks**:
   - **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req 13013`, Sunnyvale CA, IC Level E3, 125K–135K USD base) — **Stage-2 Portal Updated (`✓`) & Recruiter Questionnaire SENT to Christian Sieg (2026-11-16 — Ready for Hiring Manager advancement!)**!
+  - **Lockheed Eightfold AI Profile Portal**: `https://lockheedmartin.eightfold.ai/careers/profile?utm_source=indeed&domain=lockheedmartin.com&Codes=IND` *(sourced via Indeed `Codes=IND` — auto-matches Cathy's profile to upcoming Lockheed openings)*.
 - **Closed / Rejected Applications**:
   - **Symbotic (NASDAQ: SYM)** — Applied a couple of days prior — **Rejected (2026-11-17)**.
 - **NEXT JOB STEP**: **Daily Application Cadence**: **Weekdays (Mon–Fri) = `3 to 5` high-fit jobs/day**; **Weekends (Sat–Sun) = `10` jobs/day**. (`23` active submitted + Lockheed Stage-2 active; ready for **Tuesday 2026-11-17 Weekday target: 3–5 jobs** whenever Cathy asks!).
