@@ -3,7 +3,7 @@
 > **Purpose**: Single source of truth shared between **Antigravity** and **Qwen** (`QWEN.md` + `rules.md` + `kg_vectors_asq_bb_exam`). Both agents MUST update this file whenever committing progress so mode switches (`use qwen` / `stop qwen`) never lose a single detail.
 
 - **Candidate Preferred Name**: **Cathy**
-- **Last Synced**: `2026-11-17`
+- **Last Synced**: `2026-11-18`
 
 ---
 
@@ -56,7 +56,7 @@
   - **Skipped Employers**: Apple, Applied Materials, Supermicro, Cisco, Cardinal Health (low pay), Vital Farms (eggs); note Thermo Fisher `R-01357010` returned HTTP 410 (closed).
 - **10 Submitted Applications (2026-11-14)**:
   1. **Stanford Health Care** — *Supply Chain Strategic Initiatives PM* (`R2656254`, Palo Alto)
-  2. **Stanford Health Care** — *Category Manager – SC Category Mgmt* (`R2659261`, Palo Alto)
+  2. **Stanford Health Care** — *Category Manager – SC Category Mgmt* (`R2659261`, Palo Alto — **Rejected 2026-11-18**)
   3. **Gilead Sciences** — *Sr. Supply Chain Specialist, Clinical Logistics* (`R0055571`, Foster City)
   4. **Gilead Sciences** — *Supply Chain Specialist IV, GCSC Delivery* (`R0055230`, Foster City)
   5. **Intuitive Surgical** — *Sr. Analyst, Supply Chain Risk & Network Visibility* (`JOB214003`, Sunnyvale)
@@ -80,7 +80,7 @@
   21. **Intuit (NASDAQ: INTU)** — *Senior Strategic Sourcing Manager, Corporate Services* (`Job ID 25188`, Mountain View Hybrid)
   22. **NVIDIA (NASDAQ: NVDA)** — *Manager, Strategic Sourcing – Professional Services* (`JR2021687`, Santa Clara)
   23. **Amgen (NASDAQ: AMGN)** — *Strategic Sourcing Manager* (`R-260996`, 100% US Remote)
-- **Day-4 Weekday Applications (2026-11-17 — `6` Submitted Today [Weekday Goal Exceeded!]; `46` Total Tracked Across All Portals: `26` Non-Lockheed + `20` Lockheed Eightfold = `41` Active!)**:
+- **Day-4 Weekday Applications (2026-11-17 — `6` Submitted [Weekday Goal Exceeded!]; `46` Total Tracked Across All Portals: `26` Non-Lockheed + `20` Lockheed Eightfold = `40` Active, `6` Rejected!)**:
   24. **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Job ID 9306`, Littleton CO / Sunnyvale CA +2 — applied **2026-11-17**)
   25. **Lockheed Martin Space** — *Subcontract Management Stf - E4* (`Job ID 23028`, Sunnyvale CA +2, up to 165.5K USD — applied **2026-11-17**)
   26. **Lockheed Martin Space** — *Subcontract Administration Stf - E4* (`Job ID 24775`, Huntsville AL +3 — applied **2026-11-17**)
@@ -92,9 +92,10 @@
   - **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req 13013`, Sunnyvale CA, IC Level E3, 125K–135K USD base) — **Stage-2 Portal Updated (`✓`) & Recruiter Questionnaire SENT to Christian Sieg (2026-11-16 — Ready for Hiring Manager advancement!)**!
   - **Lockheed Eightfold AI Profile Portal**: `https://lockheedmartin.eightfold.ai/careers/profile?utm_source=indeed&domain=lockheedmartin.com&Codes=IND` *(sourced via Indeed `Codes=IND` — auto-matches Cathy's profile to upcoming Lockheed openings)*.
 - **Closed / Rejected Applications**:
+  - **Stanford Health Care (`R2659261` Category Manager – SC Category Mgmt)** — **Rejected (2026-11-18)**.
   - **Wing (Alphabet `8929330002`)** — **Rejected (2026-11-17)**.
   - **Symbotic (NASDAQ: SYM)** — **Rejected (2026-11-17)**.
   - **GitHub / GitLab (`8642786002`)** — **Rejected (2026-11-17)**.
   - **Northrop Grumman** — Prior apps rejected (skip Northrop going forward).
   - **Lockheed Martin `Job ID 13918` & `Job ID 8492`** — **Rejected**.
-- **NEXT JOB STEP**: **Daily Application Cadence**: **Weekdays (Mon–Fri) = `3 to 5` high-fit jobs/day**; **Weekends (Sat–Sun) = `10` jobs/day**. (`23` active submitted + Lockheed Stage-2 active; ready for **Tuesday 2026-11-17 Weekday target: 3–5 jobs** whenever Cathy asks!).
+- **NEXT JOB STEP**: **Daily Application Cadence**: **Weekdays (Mon–Fri) = `3 to 5` high-fit jobs/day**; **Weekends (Sat–Sun) = `10` jobs/day**. (`40` active across portals + Lockheed Stage-2 `13013` active; ready for **Wednesday 2026-11-18 Weekday target: 3–5 jobs** whenever Cathy asks!).

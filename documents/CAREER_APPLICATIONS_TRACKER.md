@@ -12,7 +12,7 @@
 
 ## Completed Applications — Day 1 (10 Submitted — 2026-11-14)
 1. **Stanford Health Care** — *Supply Chain Strategic Initiatives Project Manager* (`Req R2656254`, Palo Alto Hybrid, ~2 mi, IC) — **APPLIED (2026-11-14)**
-2. **Stanford Health Care** — *Category Manager – SC Category Management* (`Req R2659261`, Palo Alto Hybrid, ~2 mi, IC) — **APPLIED (2026-11-14)**
+2. **Stanford Health Care** — *Category Manager – SC Category Management* (`Req R2659261`, Palo Alto Hybrid, ~2 mi, IC) — **APPLIED (2026-11-14) -> REJECTED (2026-11-18)**
 3. **Gilead Sciences** — *Senior Supply Chain Specialist, Clinical Logistics* (`Req R0055571`, Foster City Hybrid, ~14 mi, IC) — **APPLIED (2026-11-14)**
 4. **Gilead Sciences** — *Supply Chain Specialist IV, Global Clinical Supply Chain Delivery* (`Req R0055230`, Foster City, ~14 mi, IC) — **APPLIED (2026-11-14)**
 5. **Intuitive Surgical** — *Sr. Analyst, Supply Chain Risk & Network Visibility* (`Job ID JOB214003`, Sunnyvale Flexible Hybrid, ~9 mi, IC) — **APPLIED (2026-11-14)**
@@ -77,6 +77,7 @@
   - **Lockheed Eightfold AI Candidate Profile & Resume-Match Portal:** `https://lockheedmartin.eightfold.ai/careers/profile?utm_source=indeed&domain=lockheedmartin.com&Codes=IND` *(use to upload resume and view auto-matched Lockheed Martin Space openings, including Christian Sieg's upcoming roles)*.
 
 ## Closed / Rejected Applications Log
+- **Stanford Health Care** — *Category Manager – SC Category Management (`Req R2659261`, Palo Alto)* — **REJECTED / CLOSED (2026-11-18)**.
 - **Wing (Alphabet)** — *Sourcing Manager (`ID 8929330002`, Palo Alto)* — **REJECTED / CLOSED (2026-11-17)**.
 - **Symbotic (NASDAQ: SYM)** — *Applied prior to 2026-11-17* — **REJECTED / CLOSED (2026-11-17)**.
 - **GitHub / GitLab (`8642786002`)** — *Noted rejected by Cathy (`2026-11-17`; note GitLab `8642786002` screened for prior AWS cloud sourcing)* — **REJECTED / CLOSED (2026-11-17)**.
