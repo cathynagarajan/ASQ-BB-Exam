@@ -87,6 +87,11 @@
   27. **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Job ID 9343`, Littleton CO +2 — applied **2026-11-17**)
   28. **Gilead Sciences (NASDAQ: GILD)** — *Sr Procurement Manager, Category Management* (`Req R0056314`, Foster City Hybrid, 157.6K–203.9K USD — applied **2026-11-17**)
   29. **SoFi (NASDAQ: SOFI)** — *Financial Services Strategic Sourcing Analyst* (`ID 7979520003`, 100% US Remote, up to 150K USD — applied **2026-11-17**)
+- **Day-5 Weekday Applications (2026-11-18 — `4` Brand-New Companies Submitted Today [Wednesday Goal Complete!]; `50` Total Tracked Across All Portals: `30` Non-Lockheed + `20` Lockheed Eightfold = `44` Active, `6` Rejected!)**:
+  30. **Zillow Group (NASDAQ: Z)** — *Sourcing Project Manager* (`Req P751645`, 100% US Remote, up to 150.1K USD — applied **2026-11-18**)
+  31. **Ciena (NYSE: CIEN)** — *Business Analyst, Service Logistics* (`Req R031966`, 100% US Remote — applied **2026-11-18**)
+  32. **NetApp (NASDAQ: NTAP)** — *Global Procurement Category Manager* (`Job ID 137163`, 100% US Remote / San Jose, 147.9K–220K USD — applied **2026-11-18**)
+  33. **Adobe (NASDAQ: ADBE)** — *Procurement - Technology - Cloud Category Manager* (`Req R166065`, San Jose Hybrid ~15 mi, 169.1K–244.85K USD — applied **2026-11-18**)
   - **All 20 Lockheed Job IDs Indexed (Never Repeat)**: `9343`, `24775`, `23028`, `9306`, `9054`, `16519`, `16516`, `11582`, `13918` (Rejected), `17417`, `11141`, `8363`, `9581`, `13924`, `16508`, `13013` (Active Stage-2!), `13178`, `8492` (Rejected), `20038`, `19487`.
 - **Active Recruiter / Stage-2 Callbacks**:
   - **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req 13013`, Sunnyvale CA, IC Level E3, 125K–135K USD base) — **Stage-2 Portal Updated (`✓`) & Recruiter Questionnaire SENT to Christian Sieg (2026-11-16 — Ready for Hiring Manager advancement!)**!
@@ -98,4 +103,4 @@
   - **GitHub / GitLab (`8642786002`)** — **Rejected (2026-11-17)**.
   - **Northrop Grumman** — Prior apps rejected (skip Northrop going forward).
   - **Lockheed Martin `Job ID 13918` & `Job ID 8492`** — **Rejected**.
-- **NEXT JOB STEP**: **Daily Application Cadence**: **Weekdays (Mon–Fri) = `3 to 5` high-fit jobs/day**; **Weekends (Sat–Sun) = `10` jobs/day**. (`40` active across portals + Lockheed Stage-2 `13013` active; ready for **Wednesday 2026-11-18 Weekday target: 3–5 jobs** whenever Cathy asks!).
+- **NEXT JOB STEP**: **Daily Application Cadence**: **Weekdays (Mon–Fri) = `3 to 5` high-fit jobs/day**; **Weekends (Sat–Sun) = `10` jobs/day**. (**Wednesday 2026-11-18 Complete: `4` brand-new companies submitted! `50` Total Tracked = `44` Active + Lockheed Stage-2 `13013` active**; ready for Thursday `2026-11-19` `3–5` jobs!).

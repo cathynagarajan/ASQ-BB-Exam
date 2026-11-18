@@ -47,6 +47,12 @@
 28. **Gilead Sciences (NASDAQ: GILD)** — *Sr Procurement Manager, Category Management* (`Req R0056314`, Foster City Hybrid, ~14 mi, 157.59K to 203.94K USD, IC) — **APPLIED (2026-11-17)**
 29. **SoFi (NASDAQ: SOFI)** — *Financial Services Strategic Sourcing Analyst* (`ID 7979520003`, 100% US Remote, 80K to 150K USD [Bay Area tier 125K–145K USD], IC) — **APPLIED (2026-11-17)**
 
+## Completed Applications — Day 5 Weekday Cadence (4 Brand-New Companies Submitted — 2026-11-18 — Weekday Goal Complete!)
+30. **Zillow Group (NASDAQ: Z)** — *Sourcing Project Manager* (`Req P751645`, 100% US Remote [Cloud HQ], California band up to 150.1K USD + RSUs, IC) — **APPLIED (2026-11-18)**
+31. **Ciena (NYSE: CIEN)** — *Business Analyst, Service Logistics* (`Req R031966`, 100% US Remote, Transportation & Carrier Cost Optimization, IC) — **APPLIED (2026-11-18)**
+32. **NetApp (NASDAQ: NTAP)** — *Global Procurement Category Manager - AI & Emerging Technology Solutions* (`Job ID 137163`, 100% US Remote / San Jose, 147.9K to 220K USD + RSUs, IC) — **APPLIED (2026-11-18)**
+33. **Adobe (NASDAQ: ADBE)** — *Procurement - Technology - Cloud Category Manager* (`Req R166065`, San Jose Hybrid ~15 mi, California band 169.1K to 244.85K USD + bonus & RSUs, IC) — **APPLIED (2026-11-18)**
+
 ## Full Lockheed Martin Eightfold Application History (`20` Roles — Indexed for Zero Repeats!)
 - **Active Stage-2 / Recruiter Screen (`1`):**
   - `Job ID 13013` — *Subcontract Management Sr - E3* (Highlands Ranch CO / Sunnyvale CA +3, applied 2026-10-19) — **Stage-2 Reasonable Accommodation Updated (`✓`), Questionnaire Sent to Christian Sieg (`2026-11-16`)**
