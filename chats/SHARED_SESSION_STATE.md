@@ -9,10 +9,10 @@
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
 - **Completed Unique Questions**: **`255` (`Q1`–`Q160` + Copilot `C1`–`C95`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Latest Set (Round 13 — Define Basics Level 1 Easy `Q151`–`Q160`)**: **`8 / 10 = 80.0%`** *(Missed only `Q4` SIPOC words & `Q7` CTQ vs Fishbone; ready for Level 2 Medium on Define Basics OR next easy zero-math topic at Cathy's choice)*
-- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`64 / 80 = 80.0%`**
+- **Latest Set (Round 13 — `VI.A.1` Correlation Level 1 Easy `Q151`–`Q160`)**: **`8 / 10 = 80.0%`** *(Missed only `Q6` `-0.95` strength & `Q10` `+0.12` weak positive; Define Basics Level 1 set is also right above if Cathy wants to answer it or choose her preferred topic)*
+- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`56 / 70 = 80.0%`**
 - **Stage 2 Status (`Domain V — Measure Phase`)**: **`35 / 50 = 70.0%`**
-- **Stage 3 Status (`Domain VI — Analyze Phase`)**: **`16 / 20 = 80.0%`**
+- **Stage 3 Status (`Domain VI — Analyze Phase`)**: **`24 / 30 = 80.0%`**
 - **Stage 5 Preview (`Domain VIII — Control Charts`)**: **`8 / 10 = 80.0%`**
 - **Copilot External Sets (`C1`–`C95`)**: **`70 / 95` (`73.7%` — Set 4 `C61`–`C95`: `26 / 35 = 74.3%`)** — Grand Cumulative: **`193 / 255` (`75.7%`)**
 - **Active Weak Points Scheduled for Spaced Re-Testing**:

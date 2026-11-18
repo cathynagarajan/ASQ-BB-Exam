@@ -2,7 +2,7 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Round 13 — Define Basics Level 1 Easy `Q151`–`Q160`):** **`8 / 10` (`80.0%`)** *(Missed only `Q4/Q154` SIPOC acronym & `Q7/Q157` CTQ vs Fishbone)*
+- **Latest Batch Score (Round 13 — `VI.A.1` Correlation Level 1 Easy `Q151`–`Q160`):** **`8 / 10` (`80.0%`)** *(Nailed Scatter Plot, `-1 to +1`, `+r`, `-r`, `r=0`, `R-squared=49%`, `R-squared=+81%`, & non-causation; missed only `Q6/Q156` `-0.95` strength & `Q10/Q160` `+0.12` weak positive)*
 - **Overall Cumulative Score (`Q1`–`Q160` + `C1`–`C95` = `255` Qs):** **`193 / 255` (`75.7%`)**
 
 ---
@@ -14,9 +14,9 @@
 | **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 7 | 7 | **100%** | **Stage 1 Complete** |
 | **II. Org Process Mgmt & Measures** | Pre-DMAIC | 12 Qs (8.0%) | 8 | 6 | **75.0%** | Strong on ROI/Payback/NPV/Leading-Lagging/Internal-External COQ; review `II.B` Benchmarking & `II.C.2` Appraisal COQ |
 | **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 7 | 5 | **71.4%** | Review `III.B` Tuckman (Storming), `III.B` Lencioni 5 Dysfunctions, `III.C` Thomas-Kilmann Conflict Modes |
-| **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 58 | 46 | **79.3%** | **Level 1 Define Basics `8/10` (`80%`)!** Review SIPOC exact words & CTQ vs Fishbone; ready for Level 2 (Medium) on Define Basics |
+| **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 48 | 38 | **79.2%** | **Define Basics Level 1 set ready on screen!** Review PERT variance `sqrt(sum var)`, ID `0 incoming`, PDPC vs PFMEA |
 | **V. Measure** | **Measure (M)** | 25 Qs (16.7%) | 50 | 35 | **70.0%** | **Stability (`Q130`), Nested MSA (`Q122`), EV (`Q124`), P/T (`Q126`) Mastered!** Review `%Contribution` (`1%–9%`), Linearity (`Q127`), 10-to-1 Resolution (`Q125`) |
-| **VI. Analyze** | **Analyze (A)** | 22 Qs (14.7%) | 20 | 16 | **80.0%** | **Strong (`80%`!)** — Mastered `t/ANOVA/Wilcoxon/Kruskal/F/Levene`; review `2-Proportion Z-test` (`Q137`) & `Chi-Square table` (`Q138`) |
+| **VI. Analyze** | **Analyze (A)** | 22 Qs (14.7%) | 30 | 24 | **80.0%** | **Correlation Level 1 `8/10` (`80%`)!** Review `|r|` strength (`-0.95` beats `+0.75`; `+0.12` = weak positive) |
 | **VII. Improve** | **Improve (I)** | 21 Qs (14.0%) | 0 | 0 | — | Not Started *(3rd Weight)* |
 | **VIII. Control** | **Control (C)** | 17 Qs (11.3%) | 10 | 8 | **80.0%** | **Strong start (`80%`!)** — Review `np-chart` (count with fixed `n`) & `6+ point trend = Special-cause` |
 | **IX. Design for Six Sigma (DFSS)** | Post-DMAIC | 6 Qs (4.0%) | 0 | 0 | — | Not Started |
