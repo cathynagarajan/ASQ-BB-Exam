@@ -62,7 +62,7 @@
   5. **Intuitive Surgical** — *Sr. Analyst, Supply Chain Risk & Network Visibility* (`JOB214003`, Sunnyvale)
   6. **Genentech (Roche)** — *Vendor Operations / Procurement & Contracts* (South San Francisco)
   7. **SB Energy (SoftBank)** — *Manager, Supply Chain Governance & Assurance* (`6207734004`, Redwood City)
-  8. **Waymo (Alphabet)** — *Global Vendor Operations Manager* (`8348363`, Mountain View)
+  8. **Waymo (Alphabet)** — *Global Vendor Operations Manager* (`8348363`, Mountain View — **Rejected 2026-11-18**)
   9. **Zoox (Amazon)** — *Procurement Operations Manager* (`68996f74-85e8-435d-9369-906438670794`, Foster City)
   10. **Roblox** — *Vendor Operations, Automation* (`8174264`, San Mateo)
 - **10 Submitted Applications — Day 2 (2026-11-15 — Project 1 Complete, 20 Total!)**:
@@ -87,7 +87,7 @@
   27. **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Job ID 9343`, Littleton CO +2 — applied **2026-11-17**)
   28. **Gilead Sciences (NASDAQ: GILD)** — *Sr Procurement Manager, Category Management* (`Req R0056314`, Foster City Hybrid, 157.6K–203.9K USD — applied **2026-11-17**)
   29. **SoFi (NASDAQ: SOFI)** — *Financial Services Strategic Sourcing Analyst* (`ID 7979520003`, 100% US Remote, up to 150K USD — applied **2026-11-17**)
-- **Day-5 Weekday Applications (2026-11-18 — `4` Brand-New Companies Submitted Today [Wednesday Goal Complete!]; `51` Total Tracked Across All Portals: `30` Non-Lockheed + `21` Lockheed Eightfold [`19` Submitted Active + `2` Inactive + `1` Draft] = `45` Active, `6` Rejected!)**:
+- **Day-5 Weekday Applications (2026-11-18 — `4` Brand-New Companies Submitted Today [Wednesday Goal Complete!]; `51` Total Tracked Across All Portals: `30` Non-Lockheed + `21` Lockheed Eightfold [`19` Submitted Active + `2` Inactive + `1` Draft] = `44` Active, `7` Rejected!)**:
   30. **Zillow Group (NASDAQ: Z)** — *Sourcing Project Manager* (`Req P751645`, 100% US Remote, up to 150.1K USD — applied **2026-11-18**)
   31. **Ciena (NYSE: CIEN)** — *Business Analyst, Service Logistics* (`Req R031966`, 100% US Remote — applied **2026-11-18**)
   32. **NetApp (NASDAQ: NTAP)** — *Global Procurement Category Manager* (`Job ID 137163`, 100% US Remote / San Jose, 147.9K–220K USD — applied **2026-11-18**)
@@ -97,10 +97,11 @@
   - **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req 13013`, Sunnyvale CA, IC Level E3, 125K–135K USD base) — **Stage-2 Portal Updated (`✓`) & Recruiter Questionnaire SENT to Christian Sieg (2026-11-16 — Ready for Hiring Manager advancement!)**!
   - **Lockheed Eightfold AI Profile Portal**: `https://lockheedmartin.eightfold.ai/careers/profile?utm_source=indeed&domain=lockheedmartin.com&Codes=IND` *(sourced via Indeed `Codes=IND` — auto-matches Cathy's profile to upcoming Lockheed openings)*.
 - **Closed / Rejected Applications**:
+  - **Waymo (Alphabet `8348363` Global Vendor Operations Manager)** — **Rejected (2026-11-18)**.
   - **Stanford Health Care (`R2659261` Category Manager – SC Category Mgmt)** — **Rejected (2026-11-18)**.
   - **Wing (Alphabet `8929330002`)** — **Rejected (2026-11-17)**.
   - **Symbotic (NASDAQ: SYM)** — **Rejected (2026-11-17)**.
   - **GitHub / GitLab (`8642786002`)** — **Rejected (2026-11-17)**.
   - **Northrop Grumman** — Prior apps rejected (skip Northrop going forward).
   - **Lockheed Martin `Job ID 13918` & `Job ID 8492`** — **Rejected**.
-- **NEXT JOB STEP**: **Daily Application Cadence**: **Weekdays (Mon–Fri) = `3 to 5` high-fit jobs/day**; **Weekends (Sat–Sun) = `10` jobs/day**. (**Wednesday 2026-11-18 Complete: `4` brand-new companies submitted! `50` Total Tracked = `44` Active + Lockheed Stage-2 `13013` active**; ready for Thursday `2026-11-19` `3–5` jobs!).
+- **NEXT JOB STEP**: **Daily Application Cadence**: **Weekdays (Mon–Fri) = `3 to 5` high-fit jobs/day**; **Weekends (Sat–Sun) = `10` jobs/day**. (**Wednesday 2026-11-18 Complete: `4` brand-new companies submitted! `51` Total Tracked = `44` Active [`25` Non-Lockheed + `19` Lockheed including Stage-2 `13013`], `7` Rejected**; ready for Thursday `2026-11-19` `3–5` jobs!).

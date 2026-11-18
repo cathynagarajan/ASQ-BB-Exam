@@ -1,43 +1,44 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-18T16:04:11.854229+00:00",
+    "generated_at": "2026-11-18T18:15:19.508413+00:00",
     "total_files_indexed": 60,
-    "total_nodes": 440,
-    "total_edges": 857,
+    "total_nodes": 453,
+    "total_edges": 853,
     "node_type_counts": {
-      "chat_session": 5,
-      "chat_turn": 36,
+      "chat_session": 6,
+      "chat_turn": 37,
       "document": 43,
       "document_file": 15,
       "document_section": 99,
       "html_template": 1,
-      "topic_entity": 241
+      "topic_entity": 252
     }
   },
   "last_change_check": {
     "changed": true,
     "added": [],
     "modified": [
+      "Resume_And_Jobs/Target_Jobs_Tracker.md",
       "chats/SHARED_SESSION_STATE.md",
       "documents/CAREER_APPLICATIONS_TRACKER.md"
     ],
     "removed": [],
-    "files_parsed": 1,
-    "files_cached_reused": 58,
+    "files_parsed": 2,
+    "files_cached_reused": 57,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 15,
-      "nodes_deleted": 8,
-      "edges_upserted": 23,
-      "edges_deleted": 15,
-      "wiki_pages_upserted": 1,
+      "nodes_upserted": 38,
+      "nodes_deleted": 15,
+      "edges_upserted": 50,
+      "edges_deleted": 48,
+      "wiki_pages_upserted": 2,
       "wiki_pages_deleted": 0,
-      "files_upserted": 3,
+      "files_upserted": 4,
       "files_deleted": 0,
-      "total_nodes_in_db": 440,
-      "total_edges_in_db": 857,
+      "total_nodes_in_db": 453,
+      "total_edges_in_db": 853,
       "total_files_tracked": 61
     }
   },
@@ -612,7 +613,7 @@
       "id": "topic:power",
       "type": "topic_entity",
       "name": "power",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'power' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "power"
@@ -902,7 +903,7 @@
       "id": "topic:competitive",
       "type": "topic_entity",
       "name": "competitive",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'competitive' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "competitive"
@@ -1042,7 +1043,7 @@
       "id": "topic:active",
       "type": "topic_entity",
       "name": "active",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'active' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "active"
@@ -1277,7 +1278,7 @@
       "id": "topic:governance",
       "type": "topic_entity",
       "name": "governance",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'governance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "governance"
@@ -2255,7 +2256,7 @@
       "id": "topic:transportation",
       "type": "topic_entity",
       "name": "transportation",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job36_Ciena_R031966_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'transportation' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "transportation"
@@ -3034,6 +3035,7 @@
           "Skipped Per Cathy:",
           "|",
           "APPLIED (2026-11-14)",
+          "APPLIED (2026-11-14) -> REJECTED (2026-11-18)",
           "10",
           "Roblox",
           "Vendor Operations, Automation (`8174264` \u2014 IC)",
@@ -4947,20 +4949,10 @@
       "id": "topic:manager",
       "type": "topic_entity",
       "name": "manager",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
       "description": "Shared domain topic 'manager' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "manager"
-      }
-    },
-    {
-      "id": "topic:hard",
-      "type": "topic_entity",
-      "name": "hard",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'hard' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "hard"
       }
     },
     {
@@ -4971,6 +4963,16 @@
       "description": "Shared domain topic 'rejected' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "rejected"
+      }
+    },
+    {
+      "id": "topic:hard",
+      "type": "topic_entity",
+      "name": "hard",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'hard' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "hard"
       }
     },
     {
@@ -5004,6 +5006,16 @@
       }
     },
     {
+      "id": "topic:remote",
+      "type": "topic_entity",
+      "name": "remote",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'remote' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "remote"
+      }
+    },
+    {
       "id": "chat_session:SHAREDSE",
       "type": "chat_session",
       "name": "Chat Session SHAREDSE",
@@ -5017,13 +5029,13 @@
         "source": "chats_folder",
         "topics": [
           "manager",
-          "hard",
           "rejected",
+          "hard",
           "lockheed",
           "applied",
           "nasdaq",
           "sourcing",
-          "active"
+          "remote"
         ]
       }
     },
@@ -5151,7 +5163,7 @@
       "id": "topic:cathy",
       "type": "topic_entity",
       "name": "cathy",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'cathy' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cathy"
@@ -5298,23 +5310,147 @@
       }
     },
     {
-      "id": "topic:docx",
+      "id": "topic:model",
       "type": "topic_entity",
-      "name": "docx",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'docx' connecting multi-modal documents and workspace chats",
+      "name": "model",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'model' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "docx"
+        "keyword": "model"
       }
     },
     {
-      "id": "topic:apply",
+      "id": "topic:user_settings_change",
       "type": "topic_entity",
-      "name": "apply",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'apply' connecting multi-modal documents and workspace chats",
+      "name": "user_settings_change",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'user_settings_change' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "apply"
+        "keyword": "user_settings_change"
+      }
+    },
+    {
+      "id": "topic:carbon",
+      "type": "topic_entity",
+      "name": "carbon",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'carbon' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "carbon"
+      }
+    },
+    {
+      "id": "topic:change",
+      "type": "topic_entity",
+      "name": "change",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'change' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "change"
+      }
+    },
+    {
+      "id": "topic:changed",
+      "type": "topic_entity",
+      "name": "changed",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'changed' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "changed"
+      }
+    },
+    {
+      "id": "topic:comment",
+      "type": "topic_entity",
+      "name": "comment",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'comment' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "comment"
+      }
+    },
+    {
+      "id": "topic:doesn",
+      "type": "topic_entity",
+      "name": "doesn",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'doesn' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "doesn"
+      }
+    },
+    {
+      "id": "topic:exact",
+      "type": "topic_entity",
+      "name": "exact",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'exact' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "exact"
+      }
+    },
+    {
+      "id": "chat_session:4dda7faa",
+      "type": "chat_session",
+      "name": "Chat Session 4dda7faa",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Chat Session 4dda7faa (1 turns): hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "short_id": "4dda7faa",
+        "turn_count": 1,
+        "first_question": "hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
+        "source": "antigravity_transcript",
+        "topics": [
+          "model",
+          "user_settings_change",
+          "carbon",
+          "change",
+          "changed",
+          "comment",
+          "doesn",
+          "exact"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S0",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S0 (user)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[USER S0] hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user doesn't ask about ",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 0,
+        "role": "user",
+        "created_at": "2026-11-18T18:13:04Z",
+        "content_excerpt": "hey can you pls update that waymo got rejected too\n\n<USER_SETTINGS_CHANGE>\nThe user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.\n</USER_SETTINGS_CHANGE>",
+        "topics": [
+          "model",
+          "user_settings_change",
+          "carbon",
+          "change"
+        ]
+      }
+    },
+    {
+      "id": "topic:right",
+      "type": "topic_entity",
+      "name": "right",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "right"
+      }
+    },
+    {
+      "id": "topic:adobe",
+      "type": "topic_entity",
+      "name": "adobe",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'adobe' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "adobe"
       }
     },
     {
@@ -5328,33 +5464,13 @@
       }
     },
     {
-      "id": "topic:asq-bb-exam",
+      "id": "topic:leaders",
       "type": "topic_entity",
-      "name": "asq-bb-exam",
+      "name": "leaders",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'leaders' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "asq-bb-exam"
-      }
-    },
-    {
-      "id": "topic:workspace",
-      "type": "topic_entity",
-      "name": "workspace",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'workspace' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "workspace"
-      }
-    },
-    {
-      "id": "topic:zillow",
-      "type": "topic_entity",
-      "name": "zillow",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'zillow' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "zillow"
+        "keyword": "leaders"
       }
     },
     {
@@ -5362,192 +5478,22 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (449 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (454 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 449,
+        "turn_count": 454,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
-          "docx",
-          "apply",
-          "home",
           "quality",
-          "krithika",
-          "asq-bb-exam",
-          "workspace",
-          "zillow"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1647",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1647 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1647] I checked **\"Transportation Project Manager\"** across Indeed and Lensa right away \u2014 quick heads-up on what came back: - Most literal *\"Transportation Project Manager\"* titles on Indeed/Lensa are **Civil Engineering / Roa",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1647,
-        "role": "assistant",
-        "created_at": "2026-11-18T15:26:30Z",
-        "content_excerpt": "I checked **\"Transportation Project Manager\"** across Indeed and Lensa right away \u2014 quick heads-up on what came back:\n- Most literal *\"Transportation Project Manager\"* titles on Indeed/Lensa are **Civil Engineering / Roadway / Highway P.E.** construction roles, and **Abbott's *Project Manager - Freight & Distribution (`31155665`)* requires 5 days onsite in Alameda** (~28 miles across the bridge).\n- *(Also, I dropped `NVIDIA JR2024063` after checking your master resume because that one requires hands-on SAP S/4HANA configuration, whereas your true stack is Dynamics 365, EDI, WMS, and Power Platform \u2014 zero fake news.)*\n\nTo make applying effortless, I went ahead and generated **3 tailored `.docx` resumes** (with your exact 4 real job titles untouched) for the **3 strongest Transportation / Di",
-        "topics": [
-          "docx",
-          "apply",
-          "transportation",
-          "manager"
-        ]
-      }
-    },
-    {
-      "id": "topic:amgen",
-      "type": "topic_entity",
-      "name": "amgen",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'amgen' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "amgen"
-      }
-    },
-    {
-      "id": "topic:bring",
-      "type": "topic_entity",
-      "name": "bring",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'bring' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "bring"
-      }
-    },
-    {
-      "id": "topic:market",
-      "type": "topic_entity",
-      "name": "market",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'market' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "market"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1648",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1648 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1648] let us do zillow - Amgen, Waymo, Nvidia we applied yesteray,can you bring in new plz - are you saying the job market is bad now?",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1648,
-        "role": "user",
-        "created_at": "2026-11-18T15:27:02Z",
-        "content_excerpt": "let us do zillow - Amgen, Waymo, Nvidia we applied yesteray,can you bring in new plz - are you saying the job market is bad now?",
-        "topics": [
-          "amgen",
-          "applied",
-          "bring",
-          "market"
-        ]
-      }
-    },
-    {
-      "id": "topic:work",
-      "type": "topic_entity",
-      "name": "work",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'work' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "work"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1666",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1666 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1666] Not bad at all, Cathy \u2014 mid-November through December is simply the normal **Q4 holiday budget slowdown** before **January/February**, when fresh annual corporate headcount opens up and postings jump 2x to 3x. Plus, your",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1666,
-        "role": "assistant",
-        "created_at": "2026-11-18T15:31:46Z",
-        "content_excerpt": "Not bad at all, Cathy \u2014 mid-November through December is simply the normal **Q4 holiday budget slowdown** before **January/February**, when fresh annual corporate headcount opens up and postings jump 2x to 3x. Plus, your Lockheed Stage-2 screen in November proves your profile is getting traction even during Q4!\n\nI swept a fresh batch of **brand-new public companies** (skipping Amgen, Waymo, Gilead, and NVIDIA completely) and built ready-to-upload `.docx` resumes for **4 brand-new employers** \u2014 **3 are 100% US Remote** and **1 is San Jose Hybrid**:\n\n---\n\n### 4 Brand-New Companies Ready to Submit Today\n\n#### 1. Zillow Group (NASDAQ: Z) \u2014 Sourcing Project Manager (`P751645`)\n- **Work Mode & Pay:** **100% US Remote** | California band up to **`150,100 USD`** + RSUs\n- **Resume:** [Job32_Zillow_",
-        "topics": [
-          "apply",
-          "docx",
+          "right",
+          "adobe",
+          "cathy",
+          "control",
           "home",
-          "work"
-        ]
-      }
-    },
-    {
-      "id": "topic:mind",
-      "type": "topic_entity",
-      "name": "mind",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'mind' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "mind"
-      }
-    },
-    {
-      "id": "topic:resmes",
-      "type": "topic_entity",
-      "name": "resmes",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'resmes' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "resmes"
-      }
-    },
-    {
-      "id": "topic:sending",
-      "type": "topic_entity",
-      "name": "sending",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'sending' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "sending"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1667",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1667 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1667] sure, let us apply to all 4 plz - do you mind sending resmes for each?",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1667,
-        "role": "user",
-        "created_at": "2026-11-18T15:33:52Z",
-        "content_excerpt": "sure, let us apply to all 4 plz - do you mind sending resmes for each?",
-        "topics": [
-          "apply",
-          "mind",
-          "resmes",
-          "sending"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1673",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1673 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1673] Here are all **4 tailored resumes** in full plain text (plus the ready-to-upload `.docx` files already saved inside `/home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/` so you can browse directly to that folder in eac",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1673,
-        "role": "assistant",
-        "created_at": "2026-11-18T15:34:05Z",
-        "content_excerpt": "Here are all **4 tailored resumes** in full plain text (plus the ready-to-upload `.docx` files already saved inside `/home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/` so you can browse directly to that folder in each portal's upload box):\n\n---\n\n### 1. Zillow Group \u2014 Sourcing Project Manager (`P751645` \u2014 100% US Remote)\n- **Apply Link:** [Zillow `P751645`](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Sourcing-Project-Manager_P751645-1)\n- **Upload File:** [Job32_Zillow_P751645_Krithika_Nagarajan_Resume.docx](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Job32_Zillow_P751645_Krithika_Nagarajan_Resume.docx) | [Text View](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Job32_Zillow_Sourcing_Project_Manager_Remote_P751645.md)\n\n```",
-        "topics": [
-          "power",
-          "competitive",
-          "governance",
-          "krithika"
+          "leaders",
+          "active"
         ]
       }
     },
@@ -5649,16 +5595,6 @@
           "ahead",
           "approve"
         ]
-      }
-    },
-    {
-      "id": "topic:adobe",
-      "type": "topic_entity",
-      "name": "adobe",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'adobe' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "adobe"
       }
     },
     {
@@ -5790,26 +5726,6 @@
       }
     },
     {
-      "id": "topic:change",
-      "type": "topic_entity",
-      "name": "change",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'change' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "change"
-      }
-    },
-    {
-      "id": "topic:leaders",
-      "type": "topic_entity",
-      "name": "leaders",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'leaders' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "leaders"
-      }
-    },
-    {
       "id": "chat_turn:b6556366:S1696",
       "type": "chat_turn",
       "name": "Chat b6556366 Turn S1696 (assistant)",
@@ -5860,6 +5776,16 @@
       }
     },
     {
+      "id": "topic:work",
+      "type": "topic_entity",
+      "name": "work",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'work' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "work"
+      }
+    },
+    {
       "id": "chat_turn:b6556366:S1697",
       "type": "chat_turn",
       "name": "Chat b6556366 Turn S1697 (user)",
@@ -5877,6 +5803,264 @@
           "soon",
           "work"
         ]
+      }
+    },
+    {
+      "id": "topic:career_applications_tracker",
+      "type": "topic_entity",
+      "name": "career_applications_tracker",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'career_applications_tracker' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "career_applications_tracker"
+      }
+    },
+    {
+      "id": "topic:synced",
+      "type": "topic_entity",
+      "name": "synced",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'synced' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "synced"
+      }
+    },
+    {
+      "id": "topic:a816bbf",
+      "type": "topic_entity",
+      "name": "a816bbf",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'a816bbf' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "a816bbf"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1706",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1706 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1706] Got your Lockheed dashboard count synced too (`19` Submitted Active, `2` Inactive, plus `1` Draft you can finish anytime \u2014 **`45` active applications in flight overall**, commit `a816bbf`, KG synced: `440` nodes, `857` e",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1706,
+        "role": "assistant",
+        "created_at": "2026-11-18T16:04:15Z",
+        "content_excerpt": "Got your Lockheed dashboard count synced too (`19` Submitted Active, `2` Inactive, plus `1` Draft you can finish anytime \u2014 **`45` active applications in flight overall**, commit `a816bbf`, KG synced: `440` nodes, `857` edges, `440` vectors, tracked in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md)).\n\nHave a smooth workday, Cathy \u2014 ping me whenever you're back and we will jump right into the **Unit 1 Leaders** questions!",
+        "topics": [
+          "active",
+          "career_applications_tracker",
+          "synced",
+          "a816bbf"
+        ]
+      }
+    },
+    {
+      "id": "topic:applying",
+      "type": "topic_entity",
+      "name": "applying",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'applying' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "applying"
+      }
+    },
+    {
+      "id": "topic:click",
+      "type": "topic_entity",
+      "name": "click",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'click' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "click"
+      }
+    },
+    {
+      "id": "topic:giving",
+      "type": "topic_entity",
+      "name": "giving",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'giving' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "giving"
+      }
+    },
+    {
+      "id": "topic:keep",
+      "type": "topic_entity",
+      "name": "keep",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'keep' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "keep"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1707",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1707 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S1707] if we keep applying, something will click, right? it is not about giving up?",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1707,
+        "role": "user",
+        "created_at": "2026-11-18T16:05:01Z",
+        "content_excerpt": "if we keep applying, something will click, right? it is not about giving up?",
+        "topics": [
+          "applying",
+          "click",
+          "giving",
+          "keep"
+        ]
+      }
+    },
+    {
+      "id": "topic:lands",
+      "type": "topic_entity",
+      "name": "lands",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'lands' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "lands"
+      }
+    },
+    {
+      "id": "topic:steady",
+      "type": "topic_entity",
+      "name": "steady",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'steady' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "steady"
+      }
+    },
+    {
+      "id": "topic:already",
+      "type": "topic_entity",
+      "name": "already",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "already"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1708",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1708 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1708] 100% yes, Cathy \u2014 **you only need one great \"yes,\"** and steady daily consistency always wins this game. Most corporate rejections have nothing to do with you (roles get frozen, filled internally, or closed after 200+ up",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1708,
+        "role": "assistant",
+        "created_at": "2026-11-18T16:05:01Z",
+        "content_excerpt": "100% yes, Cathy \u2014 **you only need one great \"yes,\"** and steady daily consistency always wins this game.\n\nMost corporate rejections have nothing to do with you (roles get frozen, filled internally, or closed after 200+ uploads), whereas putting in 3 to 5 clean, targeted applications a day with `PMP + CSCP + Six Sigma + M.C.A.` guarantees your resume lands on the right hiring manager's desk at the exact right moment \u2014 just like Lockheed `13013` moving to Stage 2.\n\nYou already have a steady paycheck while we search, so time is on your side \u2014 we just keep showing up calmly every day until the right offer lands. Have a good morning at work!",
+        "topics": [
+          "right",
+          "lands",
+          "steady",
+          "already"
+        ]
+      }
+    },
+    {
+      "id": "topic:support",
+      "type": "topic_entity",
+      "name": "support",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'support' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "support"
+      }
+    },
+    {
+      "id": "topic:thanks",
+      "type": "topic_entity",
+      "name": "thanks",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'thanks' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "thanks"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1709",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1709 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S1709] okm thanks for the support",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1709,
+        "role": "user",
+        "created_at": "2026-11-18T16:05:37Z",
+        "content_excerpt": "okm thanks for the support",
+        "topics": [
+          "support",
+          "thanks"
+        ]
+      }
+    },
+    {
+      "id": "topic:anytime",
+      "type": "topic_entity",
+      "name": "anytime",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'anytime' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "anytime"
+      }
+    },
+    {
+      "id": "topic:calm",
+      "type": "topic_entity",
+      "name": "calm",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'calm' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "calm"
+      }
+    },
+    {
+      "id": "topic:smooth",
+      "type": "topic_entity",
+      "name": "smooth",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'smooth' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "smooth"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1710",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1710 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1710] Anytime, Cathy \u2014 have a calm, smooth day at work and talk to you soon!",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1710,
+        "role": "assistant",
+        "created_at": "2026-11-18T16:05:37Z",
+        "content_excerpt": "Anytime, Cathy \u2014 have a calm, smooth day at work and talk to you soon!",
+        "topics": [
+          "anytime",
+          "calm",
+          "cathy",
+          "smooth"
+        ]
+      }
+    },
+    {
+      "id": "topic:workspace",
+      "type": "topic_entity",
+      "name": "workspace",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'workspace' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "workspace"
       }
     },
     {
@@ -6516,16 +6700,6 @@
       }
     },
     {
-      "id": "topic:exact",
-      "type": "topic_entity",
-      "name": "exact",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'exact' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "exact"
-      }
-    },
-    {
       "id": "topic:reports",
       "type": "topic_entity",
       "name": "reports",
@@ -6557,26 +6731,6 @@
           "exact",
           "reports"
         ]
-      }
-    },
-    {
-      "id": "topic:model",
-      "type": "topic_entity",
-      "name": "model",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'model' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "model"
-      }
-    },
-    {
-      "id": "topic:user_settings_change",
-      "type": "topic_entity",
-      "name": "user_settings_change",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'user_settings_change' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "user_settings_change"
       }
     },
     {
@@ -11360,20 +11514,20 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 19
-      }
-    },
-    {
-      "source": "chat_session:SHAREDSE",
-      "target": "topic:hard",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 13
+        "count": 20
       }
     },
     {
       "source": "chat_session:SHAREDSE",
       "target": "topic:rejected",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 16
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "topic:hard",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 13
@@ -11413,7 +11567,7 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:active",
+      "target": "topic:remote",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 9
@@ -11618,7 +11772,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 19
+        "count": 20
       }
     },
     {
@@ -11626,7 +11780,7 @@
       "target": "topic:rejected",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 13
+        "count": 16
       }
     },
     {
@@ -11652,64 +11806,110 @@
       "metadata": {}
     },
     {
-      "source": "chat_session:b6556366",
-      "target": "topic:docx",
+      "source": "chat_session:4dda7faa",
+      "target": "topic:model",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 19
+        "count": 2
       }
     },
     {
-      "source": "chat_session:b6556366",
-      "target": "topic:apply",
+      "source": "chat_session:4dda7faa",
+      "target": "topic:user_settings_change",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 18
+        "count": 2
       }
     },
     {
-      "source": "chat_session:b6556366",
-      "target": "topic:home",
+      "source": "chat_session:4dda7faa",
+      "target": "topic:carbon",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 15
+        "count": 1
       }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:change",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:changed",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:comment",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:doesn",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:exact",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S0",
+      "target": "topic:model",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S0",
+      "target": "topic:user_settings_change",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S0",
+      "target": "topic:carbon",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S0",
+      "target": "topic:change",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S0",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
     },
     {
       "source": "chat_session:b6556366",
       "target": "topic:quality",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 15
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:krithika",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 14
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:asq-bb-exam",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 13
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:workspace",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 13
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:zillow",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 12
@@ -11717,45 +11917,59 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc_file:Resume_And_Jobs/Job32_Zillow_P751645_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
+      "target": "topic:right",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc:Resume_And_Jobs/Job32_Zillow_Sourcing_Project_Manager_Remote_P751645.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
+      "target": "topic:adobe",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc_file:Resume_And_Jobs/Job33_Amgen_R245341_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
+      "target": "topic:cathy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc_file:Resume_And_Jobs/Job34_NVIDIA_JR2022577_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
+      "target": "topic:control",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc_file:Resume_And_Jobs/Job35_NetApp_137163_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
+      "target": "topic:home",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc_file:Resume_And_Jobs/Job36_Ciena_R031966_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
+      "target": "topic:leaders",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc_file:Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
     },
     {
       "source": "chat_session:b6556366",
@@ -11766,250 +11980,6 @@
     {
       "source": "chat_session:b6556366",
       "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1647",
-      "target": "topic:docx",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1647",
-      "target": "topic:apply",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1647",
-      "target": "topic:transportation",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1647",
-      "target": "topic:manager",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1647",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1647",
-      "target": "doc_file:Resume_And_Jobs/Job32_Zillow_P751645_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1647",
-      "target": "doc_file:Resume_And_Jobs/Job33_Amgen_R245341_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1647",
-      "target": "doc_file:Resume_And_Jobs/Job34_NVIDIA_JR2022577_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1648",
-      "target": "topic:amgen",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1648",
-      "target": "topic:applied",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1648",
-      "target": "topic:bring",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1648",
-      "target": "topic:market",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1648",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1666",
-      "target": "topic:apply",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 10
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1666",
-      "target": "topic:docx",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1666",
-      "target": "topic:home",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1666",
-      "target": "topic:work",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1666",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1666",
-      "target": "doc_file:Resume_And_Jobs/Job32_Zillow_P751645_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1666",
-      "target": "doc_file:Resume_And_Jobs/Job35_NetApp_137163_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1666",
-      "target": "doc_file:Resume_And_Jobs/Job36_Ciena_R031966_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1666",
-      "target": "doc_file:Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1667",
-      "target": "topic:apply",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1667",
-      "target": "topic:mind",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1667",
-      "target": "topic:resmes",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1667",
-      "target": "topic:sending",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1667",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1673",
-      "target": "topic:power",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1673",
-      "target": "topic:competitive",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1673",
-      "target": "topic:governance",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1673",
-      "target": "topic:krithika",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1673",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1673",
-      "target": "doc_file:Resume_And_Jobs/Job32_Zillow_P751645_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1673",
-      "target": "doc:Resume_And_Jobs/Job32_Zillow_Sourcing_Project_Manager_Remote_P751645.md",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
@@ -12272,6 +12242,186 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S1697",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1706",
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1706",
+      "target": "topic:career_applications_tracker",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1706",
+      "target": "topic:synced",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1706",
+      "target": "topic:a816bbf",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1706",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1706",
+      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1707",
+      "target": "topic:applying",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1707",
+      "target": "topic:click",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1707",
+      "target": "topic:giving",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1707",
+      "target": "topic:keep",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1707",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1708",
+      "target": "topic:right",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1708",
+      "target": "topic:lands",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1708",
+      "target": "topic:steady",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1708",
+      "target": "topic:already",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1708",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1709",
+      "target": "topic:support",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1709",
+      "target": "topic:thanks",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1709",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1710",
+      "target": "topic:anytime",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1710",
+      "target": "topic:calm",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1710",
+      "target": "topic:cathy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1710",
+      "target": "topic:smooth",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1710",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -13192,15 +13342,15 @@
     "Resume_And_Jobs/Job9_Zoox_Procurement_Operations_Manager_FosterCity.md": "a1268a50cc3c4945a6ecc3260264089ee05b40feee00a35025d25e0f18a99f48",
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
-    "Resume_And_Jobs/Target_Jobs_Tracker.md": "484353ebcccfa105f4b77b29bc3c102e443beeffc000ed45fa057721bbe5393e",
-    "chats/SHARED_SESSION_STATE.md": "b2f79f9c366e9fa15e4a2ae0b03f5d3bab0b2cf16e88c2732fcac7571f5249fa",
+    "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
+    "chats/SHARED_SESSION_STATE.md": "212acd6284dfe09424e21deac84b9d92e875bc5ed62eeeaad306005b635f7dff",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "30d680a4c7cfb19dd519baa98dadf80aa38b63e04da048747250eebfe8b28595",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
-    "documents/CAREER_APPLICATIONS_TRACKER.md": "95037d5b61f2f730e49f464c7b9da9d6d9d34298e2f77e70368c6a5826738dc5",
+    "documents/CAREER_APPLICATIONS_TRACKER.md": "865bb07780768b79578914e406e0ec470ceeebb5cf21bbe1a7b43f36b8e163c5",
     "documents/QUESTION_BANK_LOG.md": "a01b6ec569f2bbb88e222fcd69f8606beac28f2c19c76f9a3b4dd24a73d53f06",
-    "repo.md": "a75dc5b63da2b2bd31bf4590f4bdb2a3a8556b87bdacedb5616f92c86df0b410"
+    "repo.md": "9425a416015dd44d822fb2627eb47b83058768fa0fe42f409871cf0865a90f8d"
   }
 }

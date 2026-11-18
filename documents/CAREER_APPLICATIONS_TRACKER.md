@@ -18,7 +18,7 @@
 5. **Intuitive Surgical** — *Sr. Analyst, Supply Chain Risk & Network Visibility* (`Job ID JOB214003`, Sunnyvale Flexible Hybrid, ~9 mi, IC) — **APPLIED (2026-11-14)**
 6. **Genentech (Roche)** — *Vendor Operations / Procurement & Supplier Contracts* (South San Francisco Hybrid, ~20 mi, IC) — **APPLIED (2026-11-14)**
 7. **SB Energy (SoftBank Group)** — *Manager, Supply Chain Governance & Assurance* (`ID 6207734004`, Redwood City Hybrid, ~6 mi, 140K to 170K USD, IC) — **APPLIED (2026-11-14)**
-8. **Waymo (Alphabet)** — *Global Vendor Operations Manager* (`ID 8348363`, Mountain View Hybrid, ~5 mi, 190K to 234K USD) — **APPLIED (2026-11-14)**
+8. **Waymo (Alphabet)** — *Global Vendor Operations Manager* (`ID 8348363`, Mountain View Hybrid, ~5 mi, 190K to 234K USD) — **APPLIED (2026-11-14) -> REJECTED (2026-11-18)**
 9. **Zoox (Amazon)** — *Procurement Operations Manager* (`ID 68996f74-85e8-435d-9369-906438670794`, Foster City Hybrid, ~14 mi, 161K to 219K USD + RSUs, IC) — **APPLIED (2026-11-14)**
 10. **Roblox** — *Vendor Operations, Automation* (`ID 8174264`, San Mateo Tue–Thu Hybrid, ~15 mi, 144.6K to 174.1K USD + RBLX equity, IC) — **APPLIED (2026-11-14)**
 
@@ -83,6 +83,7 @@
   - **Lockheed Eightfold AI Candidate Profile & Resume-Match Portal:** `https://lockheedmartin.eightfold.ai/careers/profile?utm_source=indeed&domain=lockheedmartin.com&Codes=IND` *(use to upload resume and view auto-matched Lockheed Martin Space openings, including Christian Sieg's upcoming roles)*.
 
 ## Closed / Rejected Applications Log
+- **Waymo (Alphabet)** — *Global Vendor Operations Manager (`ID 8348363`, Mountain View)* — **REJECTED / CLOSED (2026-11-18)**.
 - **Stanford Health Care** — *Category Manager – SC Category Management (`Req R2659261`, Palo Alto)* — **REJECTED / CLOSED (2026-11-18)**.
 - **Wing (Alphabet)** — *Sourcing Manager (`ID 8929330002`, Palo Alto)* — **REJECTED / CLOSED (2026-11-17)**.
 - **Symbotic (NASDAQ: SYM)** — *Applied prior to 2026-11-17* — **REJECTED / CLOSED (2026-11-17)**.
