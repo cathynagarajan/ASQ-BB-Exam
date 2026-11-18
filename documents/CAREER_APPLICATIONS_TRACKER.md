@@ -53,10 +53,10 @@
 32. **NetApp (NASDAQ: NTAP)** — *Global Procurement Category Manager - AI & Emerging Technology Solutions* (`Job ID 137163`, 100% US Remote / San Jose, 147.9K to 220K USD + RSUs, IC) — **APPLIED (2026-11-18)**
 33. **Adobe (NASDAQ: ADBE)** — *Procurement - Technology - Cloud Category Manager* (`Req R166065`, San Jose Hybrid ~15 mi, California band 169.1K to 244.85K USD + bonus & RSUs, IC) — **APPLIED (2026-11-18)**
 
-## Full Lockheed Martin Eightfold Application History (`20` Roles — Indexed for Zero Repeats!)
+## Full Lockheed Martin Eightfold Application History (`21` Roles: `19` Active Submitted + `2` Inactive + `1` Draft — Verified `2026-11-18`!)
 - **Active Stage-2 / Recruiter Screen (`1`):**
   - `Job ID 13013` — *Subcontract Management Sr - E3* (Highlands Ranch CO / Sunnyvale CA +3, applied 2026-10-19) — **Stage-2 Reasonable Accommodation Updated (`✓`), Questionnaire Sent to Christian Sieg (`2026-11-16`)**
-- **Active Submitted / Under Review (`17`):**
+- **Active Submitted / Under Review (`18` additional = `19` Total Submitted Active on Eightfold Dashboard):**
   - `Job ID 9343` — *Subcontract Management Sr - E3* (Littleton CO +2, applied **2026-11-17**)
   - `Job ID 24775` — *Subcontract Administration Stf - E4* (Huntsville AL +3, applied **2026-11-17**)
   - `Job ID 23028` — *Subcontract Management Stf - E4* (Sunnyvale CA +2, applied **2026-11-17**)

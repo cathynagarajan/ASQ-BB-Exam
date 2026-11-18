@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-18T16:02:07.637603+00:00",
+    "generated_at": "2026-11-18T16:04:11.854229+00:00",
     "total_files_indexed": 60,
     "total_nodes": 440,
-    "total_edges": 853,
+    "total_edges": 857,
     "node_type_counts": {
       "chat_session": 5,
       "chat_turn": 36,
@@ -17,41 +17,27 @@
   },
   "last_change_check": {
     "changed": true,
-    "added": [
-      "Resume_And_Jobs/Job32_Zillow_P751645_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job32_Zillow_Sourcing_Project_Manager_Remote_P751645.md",
-      "Resume_And_Jobs/Job33_Amgen_Global_Process_Owner_Distribution_Logistics_Remote_R245341.md",
-      "Resume_And_Jobs/Job33_Amgen_R245341_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job34_NVIDIA_JR2022577_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job34_NVIDIA_Sr_Supply_Chain_Business_Transformation_Manager_SantaClara_JR2022577.md",
-      "Resume_And_Jobs/Job35_NetApp_137163_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job35_NetApp_Global_Procurement_Category_Manager_Remote_137163.md",
-      "Resume_And_Jobs/Job36_Ciena_Business_Analyst_Service_Logistics_Remote_R031966.md",
-      "Resume_And_Jobs/Job36_Ciena_R031966_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job37_Adobe_Procurement_Cloud_Category_Manager_SanJose_R166065.md",
-      "Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx"
-    ],
+    "added": [],
     "modified": [
       "chats/SHARED_SESSION_STATE.md",
-      "documents/ASQ_CSSBB_Cheat_Sheet.txt",
       "documents/CAREER_APPLICATIONS_TRACKER.md"
     ],
     "removed": [],
-    "files_parsed": 14,
-    "files_cached_reused": 45,
+    "files_parsed": 1,
+    "files_cached_reused": 58,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 150,
-      "nodes_deleted": 42,
-      "edges_upserted": 312,
-      "edges_deleted": 70,
-      "wiki_pages_upserted": 7,
+      "nodes_upserted": 15,
+      "nodes_deleted": 8,
+      "edges_upserted": 23,
+      "edges_deleted": 15,
+      "wiki_pages_upserted": 1,
       "wiki_pages_deleted": 0,
-      "files_upserted": 16,
+      "files_upserted": 3,
       "files_deleted": 0,
       "total_nodes_in_db": 440,
-      "total_edges_in_db": 853,
+      "total_edges_in_db": 857,
       "total_files_tracked": 61
     }
   },
@@ -958,7 +944,7 @@
       "id": "topic:quality",
       "type": "topic_entity",
       "name": "quality",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'quality' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "quality"
@@ -978,7 +964,7 @@
       "id": "topic:sourcing",
       "type": "topic_entity",
       "name": "sourcing",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
       "description": "Shared domain topic 'sourcing' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "sourcing"
@@ -1056,7 +1042,7 @@
       "id": "topic:active",
       "type": "topic_entity",
       "name": "active",
-      "file_path": "Resume_And_Jobs/Job30_Gilead_R0056314_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
       "description": "Shared domain topic 'active' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "active"
@@ -3107,7 +3093,7 @@
       "id": "topic:control",
       "type": "topic_entity",
       "name": "control",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'control' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "control"
@@ -4540,7 +4526,7 @@
           "Completed Applications \u2014 Day 3 Weekday Cadence (3 Submitted \u2014 2026-11-16)",
           "Completed Applications \u2014 Day 4 Weekday Cadence (6 Submitted Today \u2014 2026-11-17 \u2014 Weekday Goal Exceeded!)",
           "Completed Applications \u2014 Day 5 Weekday Cadence (4 Brand-New Companies Submitted \u2014 2026-11-18 \u2014 Weekday Goal Complete!)",
-          "Full Lockheed Martin Eightfold Application History (`20` Roles \u2014 Indexed for Zero Repeats!)",
+          "Full Lockheed Martin Eightfold Application History (`21` Roles: `19` Active Submitted + `2` Inactive + `1` Draft \u2014 Verified `2026-11-18`!)",
           "Active Employer Responses / Stage-2 Advancements",
           "Closed / Rejected Applications Log"
         ],
@@ -4594,7 +4580,6 @@
           "NetApp (NASDAQ: NTAP)",
           "Adobe (NASDAQ: ADBE)",
           "Active Stage-2 / Recruiter Screen (`1`):",
-          "Active Submitted / Under Review (`17`):",
           "2026-11-17",
           "Rejected at Lockheed Martin (`2`):",
           "REJECTED",
@@ -4644,10 +4629,13 @@
           "Req R031966",
           "Job ID 137163",
           "Req R166065",
-          "20",
+          "21",
+          "19",
+          "Inactive +",
+          "Draft \u2014 Verified",
           "Job ID 13013",
           "), Questionnaire Sent to Christian Sieg (",
-          "17",
+          "18",
           "Job ID 9054",
           "Job ID 16519",
           "Job ID 16516",
@@ -5016,16 +5004,6 @@
       }
     },
     {
-      "id": "topic:remote",
-      "type": "topic_entity",
-      "name": "remote",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'remote' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "remote"
-      }
-    },
-    {
       "id": "chat_session:SHAREDSE",
       "type": "chat_session",
       "name": "Chat Session SHAREDSE",
@@ -5045,7 +5023,7 @@
           "applied",
           "nasdaq",
           "sourcing",
-          "remote"
+          "active"
         ]
       }
     },
@@ -5340,26 +5318,6 @@
       }
     },
     {
-      "id": "topic:zillow",
-      "type": "topic_entity",
-      "name": "zillow",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'zillow' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "zillow"
-      }
-    },
-    {
-      "id": "topic:link",
-      "type": "topic_entity",
-      "name": "link",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'link' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "link"
-      }
-    },
-    {
       "id": "topic:home",
       "type": "topic_entity",
       "name": "home",
@@ -5370,106 +5328,56 @@
       }
     },
     {
+      "id": "topic:asq-bb-exam",
+      "type": "topic_entity",
+      "name": "asq-bb-exam",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "asq-bb-exam"
+      }
+    },
+    {
+      "id": "topic:workspace",
+      "type": "topic_entity",
+      "name": "workspace",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'workspace' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "workspace"
+      }
+    },
+    {
+      "id": "topic:zillow",
+      "type": "topic_entity",
+      "name": "zillow",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'zillow' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "zillow"
+      }
+    },
+    {
       "id": "chat_session:b6556366",
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (447 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (449 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 447,
+        "turn_count": 449,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
           "docx",
           "apply",
-          "manager",
-          "zillow",
-          "remote",
-          "sourcing",
-          "link",
-          "home"
-        ]
-      }
-    },
-    {
-      "id": "topic:direct",
-      "type": "topic_entity",
-      "name": "direct",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'direct' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "direct"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1612",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1612 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1612] I just ran a sweep across **Indeed and Lensa** and cross-checked every hit directly on the official company portals (so you never hit a middleman recruiter site like `kloudhire`). ### Top 4 Fresh Indeed / Lensa Matches (",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1612,
-        "role": "assistant",
-        "created_at": "2026-11-18T15:13:24Z",
-        "content_excerpt": "I just ran a sweep across **Indeed and Lensa** and cross-checked every hit directly on the official company portals (so you never hit a middleman recruiter site like `kloudhire`).\n\n### Top 4 Fresh Indeed / Lensa Matches (Verified Live, Pure IC, `125K+ USD`)\n\n1. **Zillow Group (NASDAQ: Z) \u2014 Sourcing Project Manager (`P751645`)** *(Top new Indeed/Lensa Remote hit!)*\n   - **Location:** **100% Permanent US Remote** (\"Cloud HQ\" \u2014 California approved)\n   - **Base Salary:** California band up to **`150,100 USD`** (`93,900 to 150,100 USD` + Zillow RSUs)\n   - **Why it fits:** Pure IC in Zillow's Strategic Sourcing Center of Excellence \u2014 asks for **5+ years in Strategic Sourcing / Procurement / Supply Chain, RFPs/RFQs, supplier performance, Source-to-Pay workflows, and Lean / Six Sigma** process imp",
-        "topics": [
-          "sourcing",
-          "manager",
-          "remote",
-          "direct"
-        ]
-      }
-    },
-    {
-      "id": "topic:looking",
-      "type": "topic_entity",
-      "name": "looking",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'looking' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "looking"
-      }
-    },
-    {
-      "id": "topic:project",
-      "type": "topic_entity",
-      "name": "project",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'project' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "project"
-      }
-    },
-    {
-      "id": "topic:right",
-      "type": "topic_entity",
-      "name": "right",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "right"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1613",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1613 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1613] you are right, it is looking at tranposrtation project manager too",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1613,
-        "role": "user",
-        "created_at": "2026-11-18T15:20:39Z",
-        "content_excerpt": "you are right, it is looking at tranposrtation project manager too",
-        "topics": [
-          "looking",
-          "manager",
-          "project",
-          "right"
+          "home",
+          "quality",
+          "krithika",
+          "asq-bb-exam",
+          "workspace",
+          "zillow"
         ]
       }
     },
@@ -5882,13 +5790,93 @@
       }
     },
     {
-      "id": "topic:workspace",
+      "id": "topic:change",
       "type": "topic_entity",
-      "name": "workspace",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'workspace' connecting multi-modal documents and workspace chats",
+      "name": "change",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'change' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "workspace"
+        "keyword": "change"
+      }
+    },
+    {
+      "id": "topic:leaders",
+      "type": "topic_entity",
+      "name": "leaders",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'leaders' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "leaders"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1696",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1696 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1696] Jai Jagannath, Cathy \u2014 steady effort and faith always open the right door at the right time. All **4 brand-new applications** (**#30 Zillow `P751645`**, **#31 Ciena `R031966`**, **#32 NetApp `137163`**, and **#33 Adobe `",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1696,
+        "role": "assistant",
+        "created_at": "2026-11-18T16:02:16Z",
+        "content_excerpt": "Jai Jagannath, Cathy \u2014 steady effort and faith always open the right door at the right time.\n\nAll **4 brand-new applications** (**#30 Zillow `P751645`**, **#31 Ciena `R031966`**, **#32 NetApp `137163`**, and **#33 Adobe `R166065`**) are now logged in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md#L50-L55), synced to Qwen's [SHARED_SESSION_STATE.md](file:///home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md#L90-L95), pushed to GitHub (`5734b4d`), and indexed in your Knowledge Graph (`440` nodes, `853` edges, `440` active vectors). That puts you at **50 total applications tracked (`44` active in flight)** and completes your Wednesday application goal!\n\n---\n\n### ASQ CSSBB \u2014 Unit 1 Complete Quality, Lean & Ch",
+        "topics": [
+          "quality",
+          "control",
+          "change",
+          "leaders"
+        ]
+      }
+    },
+    {
+      "id": "topic:connect",
+      "type": "topic_entity",
+      "name": "connect",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'connect' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "connect"
+      }
+    },
+    {
+      "id": "topic:need",
+      "type": "topic_entity",
+      "name": "need",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'need' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "need"
+      }
+    },
+    {
+      "id": "topic:soon",
+      "type": "topic_entity",
+      "name": "soon",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'soon' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "soon"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1697",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1697 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S1697] i need to work, we will connect soon;",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1697,
+        "role": "user",
+        "created_at": "2026-11-18T16:03:32Z",
+        "content_excerpt": "i need to work, we will connect soon;",
+        "topics": [
+          "connect",
+          "need",
+          "soon",
+          "work"
+        ]
       }
     },
     {
@@ -11425,7 +11413,7 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:remote",
+      "target": "topic:active",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 9
@@ -11668,7 +11656,7 @@
       "target": "topic:docx",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 20
+        "count": 19
       }
     },
     {
@@ -11676,44 +11664,36 @@
       "target": "topic:apply",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 19
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:manager",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
         "count": 18
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:zillow",
+      "target": "topic:home",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 17
+        "count": 15
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:remote",
+      "target": "topic:quality",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 16
+        "count": 15
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:sourcing",
+      "target": "topic:krithika",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 16
+        "count": 14
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:link",
+      "target": "topic:asq-bb-exam",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 13
@@ -11721,7 +11701,15 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:home",
+      "target": "topic:workspace",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 13
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:zillow",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 12
@@ -11770,79 +11758,15 @@
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S1612",
-      "target": "topic:sourcing",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1612",
-      "target": "topic:manager",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1612",
-      "target": "topic:remote",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1612",
-      "target": "topic:direct",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1612",
-      "relation": "HAS_CHAT_TURN",
+      "target": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S1613",
-      "target": "topic:looking",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1613",
-      "target": "topic:manager",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1613",
-      "target": "topic:project",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1613",
-      "target": "topic:right",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1613",
-      "relation": "HAS_CHAT_TURN",
+      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
@@ -12260,6 +12184,94 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S1681",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1696",
+      "target": "topic:quality",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1696",
+      "target": "topic:control",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1696",
+      "target": "topic:change",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1696",
+      "target": "topic:leaders",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1696",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1696",
+      "target": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1696",
+      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1697",
+      "target": "topic:connect",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1697",
+      "target": "topic:need",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1697",
+      "target": "topic:soon",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1697",
+      "target": "topic:work",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1697",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -13181,14 +13193,14 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "484353ebcccfa105f4b77b29bc3c102e443beeffc000ed45fa057721bbe5393e",
-    "chats/SHARED_SESSION_STATE.md": "6012cffa76e7958120a3e722494cb7110244c62c455bac16bcb7012f21e53663",
+    "chats/SHARED_SESSION_STATE.md": "b2f79f9c366e9fa15e4a2ae0b03f5d3bab0b2cf16e88c2732fcac7571f5249fa",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "30d680a4c7cfb19dd519baa98dadf80aa38b63e04da048747250eebfe8b28595",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
-    "documents/CAREER_APPLICATIONS_TRACKER.md": "7b9aa9e4767ca75a2fdd275e498e3bc32111051b02ddc2f4c8592c3c0d94f27d",
+    "documents/CAREER_APPLICATIONS_TRACKER.md": "95037d5b61f2f730e49f464c7b9da9d6d9d34298e2f77e70368c6a5826738dc5",
     "documents/QUESTION_BANK_LOG.md": "a01b6ec569f2bbb88e222fcd69f8606beac28f2c19c76f9a3b4dd24a73d53f06",
-    "repo.md": "63e4c7c58ad6de78e334799cf6cd397dad2ac6aec2e06c0c7c39de70f313f0e2"
+    "repo.md": "a75dc5b63da2b2bd31bf4590f4bdb2a3a8556b87bdacedb5616f92c86df0b410"
   }
 }

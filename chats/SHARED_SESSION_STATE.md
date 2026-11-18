@@ -87,7 +87,7 @@
   27. **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Job ID 9343`, Littleton CO +2 — applied **2026-11-17**)
   28. **Gilead Sciences (NASDAQ: GILD)** — *Sr Procurement Manager, Category Management* (`Req R0056314`, Foster City Hybrid, 157.6K–203.9K USD — applied **2026-11-17**)
   29. **SoFi (NASDAQ: SOFI)** — *Financial Services Strategic Sourcing Analyst* (`ID 7979520003`, 100% US Remote, up to 150K USD — applied **2026-11-17**)
-- **Day-5 Weekday Applications (2026-11-18 — `4` Brand-New Companies Submitted Today [Wednesday Goal Complete!]; `50` Total Tracked Across All Portals: `30` Non-Lockheed + `20` Lockheed Eightfold = `44` Active, `6` Rejected!)**:
+- **Day-5 Weekday Applications (2026-11-18 — `4` Brand-New Companies Submitted Today [Wednesday Goal Complete!]; `51` Total Tracked Across All Portals: `30` Non-Lockheed + `21` Lockheed Eightfold [`19` Submitted Active + `2` Inactive + `1` Draft] = `45` Active, `6` Rejected!)**:
   30. **Zillow Group (NASDAQ: Z)** — *Sourcing Project Manager* (`Req P751645`, 100% US Remote, up to 150.1K USD — applied **2026-11-18**)
   31. **Ciena (NYSE: CIEN)** — *Business Analyst, Service Logistics* (`Req R031966`, 100% US Remote — applied **2026-11-18**)
   32. **NetApp (NASDAQ: NTAP)** — *Global Procurement Category Manager* (`Job ID 137163`, 100% US Remote / San Jose, 147.9K–220K USD — applied **2026-11-18**)
