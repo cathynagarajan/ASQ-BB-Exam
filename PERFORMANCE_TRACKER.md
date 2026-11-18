@@ -2,16 +2,16 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Round 14 — `I.A & I.B` Six Sigma vs. Lean & Belt Roles Level 1 Easy `Q161`–`Q170`):** **`10 / 10` (`100%`)** *(Clean sweep across Six Sigma, Lean, DMAIC, DFSS, Champion, MBB, BB, GB, Process Owner, & YB!)*
-- **Overall Cumulative Score (`Q1`–`Q170` + `C1`–`C95` = `265` Qs):** **`203 / 265` (`76.6%`)**
+- **Latest Batch Score (Round 15 — `I.A & I.B` Chapter 1 Level 2 Medium `Q171`–`Q180`):** **`9 / 10` (`90.0%`)** *(Zero notes upfront! Missed only `Q10/Q180` Juran vs Taguchi; reinforced Kurt Lewin `Q8/Q178` & 3 Org Structures `Q6/Q176`)*
+- **Overall Cumulative Score (`Q1`–`Q180` + `C1`–`C95` = `275` Qs):** **`212 / 275` (`77.1%`)**
 
 ---
 
-## 1. Domain Mastery Summary (Strictly ASQ 2022 BoK — 170 Scored Qs)
+## 1. Domain Mastery Summary (Strictly ASQ 2022 BoK — 180 Scored Qs)
 
 | ASQ Domain | DMAIC Phase | Exam Weight | Attempted | Correct | Accuracy | Status / Priority |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 17 | 17 | **100%** | **Level 1 `10/10` (`100%`)!** Ready for Level 2 (Medium) on Chapter 1 Roles & Deployment |
+| **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 27 | 26 | **96.3%** | **Level 1 `10/10` + Level 2 `9/10`!** Review 6 Quality Gurus & Lewin/Kotter -> Ready for Level 3 (Hard) on Chapter 1! |
 | **II. Org Process Mgmt & Measures** | Pre-DMAIC | 12 Qs (8.0%) | 8 | 6 | **75.0%** | Strong on ROI/Payback/NPV/Leading-Lagging/Internal-External COQ; review `II.B` Benchmarking & `II.C.2` Appraisal COQ |
 | **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 7 | 5 | **71.4%** | Review `III.B` Tuckman (Storming), `III.B` Lencioni 5 Dysfunctions, `III.C` Thomas-Kilmann Conflict Modes |
 | **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 48 | 38 | **79.2%** | **Define Basics Level 1 set ready on screen!** Review PERT variance `sqrt(sum var)`, ID `0 incoming`, PDPC vs PFMEA |

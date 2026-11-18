@@ -8,13 +8,13 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`265` (`Q1`–`Q170` + Copilot `C1`–`C95`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Latest Set (Round 14 — `I.A & I.B` Six Sigma vs. Lean & Belt Roles Level 1 Easy `Q161`–`Q170`)**: **`10 / 10 = 100%`!** *(Next: Step this exact topic up gently to **Level 2 Medium** once Cathy reads the short Level-2 add-on and says `"ready"`!)*
-- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`66 / 80 = 82.5%`**
+- **Completed Unique Questions**: **`275` (`Q1`–`Q180` + Copilot `C1`–`C95`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Latest Set (Round 15 — `I.A & I.B` Chapter 1 Level 2 Medium `Q171`–`Q180`, no notes upfront)**: **`9 / 10 = 90.0%`!** *(Taught 6 Quality Gurus, Lewin/Kotter Change Management, and 3 Org Structures; next: **Chapter 1 Level 3 Hard `Q181`–`Q190`** when Cathy says `"ready"`!)*
+- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`75 / 90 = 83.3%`**
 - **Stage 2 Status (`Domain V — Measure Phase`)**: **`35 / 50 = 70.0%`**
 - **Stage 3 Status (`Domain VI — Analyze Phase`)**: **`24 / 30 = 80.0%`**
 - **Stage 5 Preview (`Domain VIII — Control Charts`)**: **`8 / 10 = 80.0%`**
-- **Copilot External Sets (`C1`–`C95`)**: **`70 / 95` (`73.7%` — Set 4 `C61`–`C95`: `26 / 35 = 74.3%`)** — Grand Cumulative: **`203 / 265` (`76.6%`)**
+- **Copilot External Sets (`C1`–`C95`)**: **`70 / 95` (`73.7%` — Set 4 `C61`–`C95`: `26 / 35 = 74.3%`)** — Grand Cumulative: **`212 / 275` (`77.1%`)**
 - **Active Weak Points Scheduled for Spaced Re-Testing**:
   1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)
   2. `IV.A.3` CTQ measurable numerical target vs. vague VOC (`Q18`)
