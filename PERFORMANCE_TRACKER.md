@@ -2,16 +2,16 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Round 16 — `I.A & I.B` Chapter 1 Hard Set 1 of 2 `Q181`–`Q190`):** **`8 / 10` (`80.0%`)** *(Mastered Taguchi, Deming, Lewin Refreeze, Hard/Soft Savings, Matrix, PESTLE, Resistance; missed only `Q3/Q183` DFSS entitlement ceiling & `Q8/Q188` Kotter Step 1 Urgency)*
-- **Overall Cumulative Score (`Q1`–`Q190` + `C1`–`C95` = `285` Qs):** **`220 / 285` (`77.2%`)**
+- **Latest Batch Score (Round 17 — `I.A & I.B` Chapter 1 Hard Set 2 of 2 `Q191`–`Q200`):** **`9 / 10` (`90.0%`)** *(Chapter 1 so far: `10/10 -> 9/10 -> 8/10 -> 9/10 = 36/40 = 90.0%`! Today's total: **`70 / 85 = 82.4%`**!)*
+- **Overall Cumulative Score (`Q1`–`Q200` + `C1`–`C95` = `295` Qs):** **`229 / 295` (`77.6%`)**
 
 ---
 
-## 1. Domain Mastery Summary (Strictly ASQ 2022 BoK — 190 Scored Qs)
+## 1. Domain Mastery Summary (Strictly ASQ 2022 BoK — 200 Scored Qs)
 
 | ASQ Domain | DMAIC Phase | Exam Weight | Attempted | Correct | Accuracy | Status / Priority |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 37 | 34 | **91.9%** | **Easy `10/10` -> Medium `9/10` -> Hard Set 1 `8/10`!** Next: Hard Set 2 -> Really Hard -> Notoriously Hard |
+| **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 47 | 43 | **91.5%** | **Easy `10/10` -> Med `9/10` -> Hard `8/10` & `9/10`!** Next tomorrow: **Really Hard** -> **Notoriously Hard** on Chapter 1! |
 | **II. Org Process Mgmt & Measures** | Pre-DMAIC | 12 Qs (8.0%) | 8 | 6 | **75.0%** | Strong on ROI/Payback/NPV/Leading-Lagging/Internal-External COQ; review `II.B` Benchmarking & `II.C.2` Appraisal COQ |
 | **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 7 | 5 | **71.4%** | Review `III.B` Tuckman (Storming), `III.B` Lencioni 5 Dysfunctions, `III.C` Thomas-Kilmann Conflict Modes |
 | **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 48 | 38 | **79.2%** | **Define Basics Level 1 set ready on screen!** Review PERT variance `sqrt(sum var)`, ID `0 incoming`, PDPC vs PFMEA |

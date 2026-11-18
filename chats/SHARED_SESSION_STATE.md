@@ -8,13 +8,13 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`285` (`Q1`–`Q190` + Copilot `C1`–`C95`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Latest Set (Round 16 — `I.A & I.B` Chapter 1 Hard Set 1 of 2 `Q181`–`Q190`)**: **`8 / 10 = 80.0%`!** *(Today's total: **`75` questions = `61 / 75 = 81.3%`**! Next on Chapter 1 when Cathy says `"ready"`: **Hard Set 2 (`Q191`–`Q200`)** -> **Really Hard** -> **Notoriously Hard**)*
-- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`83 / 100 = 83.0%`**
+- **Completed Unique Questions**: **`295` (`Q1`–`Q200` + Copilot `C1`–`C95`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Latest Set (Round 17 — `I.A & I.B` Chapter 1 Hard Set 2 of 2 `Q191`–`Q200`)**: **`9 / 10 = 90.0%`!** *(Chapter 1 ladder so far: Easy `10/10`, Medium `9/10`, Hard Set 1 `8/10`, Hard Set 2 `9/10` = `36 / 40 = 90.0%`! Today's grand total: **`85` questions (`70 / 85 = 82.4%`)** + **`6` job applications**! Next session on Chapter 1 when Cathy says `"ready"`: **Rung 4: Really Hard (`Q201`–`Q210`)** -> **Rung 5: Notoriously Hard (`Q211`–`Q220`)**)*
+- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`92 / 110 = 83.6%`**
 - **Stage 2 Status (`Domain V — Measure Phase`)**: **`35 / 50 = 70.0%`**
 - **Stage 3 Status (`Domain VI — Analyze Phase`)**: **`24 / 30 = 80.0%`**
 - **Stage 5 Preview (`Domain VIII — Control Charts`)**: **`8 / 10 = 80.0%`**
-- **Copilot External Sets (`C1`–`C95`)**: **`70 / 95` (`73.7%` — Set 4 `C61`–`C95`: `26 / 35 = 74.3%`)** — Grand Cumulative: **`220 / 285` (`77.2%`)**
+- **Copilot External Sets (`C1`–`C95`)**: **`70 / 95` (`73.7%` — Set 4 `C61`–`C95`: `26 / 35 = 74.3%`)** — Grand Cumulative: **`229 / 295` (`77.6%`)**
 - **Active Weak Points Scheduled for Spaced Re-Testing**:
   1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)
   2. `IV.A.3` CTQ measurable numerical target vs. vague VOC (`Q18`)
