@@ -9,7 +9,10 @@
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
 - **Completed Unique Questions**: **`295` (`Q1`–`Q200` + Copilot `C1`–`C95`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Latest Set (Round 17 — `I.A & I.B` Chapter 1 Hard Set 2 of 2 `Q191`–`Q200`)**: **`9 / 10 = 90.0%`!** *(Chapter 1 ladder so far: Easy `10/10`, Medium `9/10`, Hard Set 1 `8/10`, Hard Set 2 `9/10` = `36 / 40 = 90.0%`! Today's grand total: **`85` questions (`70 / 85 = 82.4%`)** + **`6` job applications**! Next session on Chapter 1 when Cathy says `"ready"`: **Rung 4: Really Hard (`Q201`–`Q210`)** -> **Rung 5: Notoriously Hard (`Q211`–`Q220`)**)*
+- **Latest Set (Round 17 — `I.A & I.B` Chapter 1 Hard Set 2 of 2 `Q191`–`Q200`)**: **`9 / 10 = 90.0%`!** *(Chapter 1 ladder so far: Easy `10/10`, Medium `9/10`, Hard Set 1 `8/10`, Hard Set 2 `9/10` = `36 / 40 = 90.0%`! Today's grand total: **`85` questions (`70 / 85 = 82.4%`)** + **`6` job applications**!)*
+- **LOCKED PLAN FOR TOMORROW (`2026-11-18`)**:
+  1. Bring in **ALL Unit 1 Quality & Change Leaders** (*Juran, Deming, Crosby, Ishikawa, Taguchi, Shigeo Shingo, Taiichi Ohno, Walter Shewhart, Feigenbaum, Bill Smith, Kurt Lewin, John Kotter, William Bridges*) + any remaining `Domain I` sub-items with **steady repetition** so 100% of Unit 1 is thoroughly covered.
+  2. Give a **Very Hard / Notoriously Hard Unit 1 Final Mastery Set** to honestly judge readiness before moving on to **Unit 2 (`Domain II`)**.
 - **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`92 / 110 = 83.6%`**
 - **Stage 2 Status (`Domain V — Measure Phase`)**: **`35 / 50 = 70.0%`**
 - **Stage 3 Status (`Domain VI — Analyze Phase`)**: **`24 / 30 = 80.0%`**
