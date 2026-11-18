@@ -8,13 +8,13 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`275` (`Q1`–`Q180` + Copilot `C1`–`C95`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Latest Set (Round 15 — `I.A & I.B` Chapter 1 Level 2 Medium `Q171`–`Q180`, no notes upfront)**: **`9 / 10 = 90.0%`!** *(Taught 6 Quality Gurus, Lewin/Kotter Change Management, and 3 Org Structures; next: **Chapter 1 Level 3 Hard `Q181`–`Q190`** when Cathy says `"ready"`!)*
-- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`75 / 90 = 83.3%`**
+- **Completed Unique Questions**: **`285` (`Q1`–`Q190` + Copilot `C1`–`C95`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Latest Set (Round 16 — `I.A & I.B` Chapter 1 Hard Set 1 of 2 `Q181`–`Q190`)**: **`8 / 10 = 80.0%`!** *(Today's total: **`75` questions = `61 / 75 = 81.3%`**! Next on Chapter 1 when Cathy says `"ready"`: **Hard Set 2 (`Q191`–`Q200`)** -> **Really Hard** -> **Notoriously Hard**)*
+- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`83 / 100 = 83.0%`**
 - **Stage 2 Status (`Domain V — Measure Phase`)**: **`35 / 50 = 70.0%`**
 - **Stage 3 Status (`Domain VI — Analyze Phase`)**: **`24 / 30 = 80.0%`**
 - **Stage 5 Preview (`Domain VIII — Control Charts`)**: **`8 / 10 = 80.0%`**
-- **Copilot External Sets (`C1`–`C95`)**: **`70 / 95` (`73.7%` — Set 4 `C61`–`C95`: `26 / 35 = 74.3%`)** — Grand Cumulative: **`212 / 275` (`77.1%`)**
+- **Copilot External Sets (`C1`–`C95`)**: **`70 / 95` (`73.7%` — Set 4 `C61`–`C95`: `26 / 35 = 74.3%`)** — Grand Cumulative: **`220 / 285` (`77.2%`)**
 - **Active Weak Points Scheduled for Spaced Re-Testing**:
   1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)
   2. `IV.A.3` CTQ measurable numerical target vs. vague VOC (`Q18`)
@@ -31,11 +31,12 @@
   13. `V.F.5`, `VII.A`, `VIII.A` (Copilot `C19/C21/C24/C25/C52/C57/C59`): `Cp > Pp` under long-term drift, `2-sample t-test` vs `Chi-Square` (never Chi-Square for continuous averages!), `8+ consecutive points above/below centerline = Special Cause`, `np-chart` (count of defectives, fixed `n`) vs `p-chart` (`%` defective), DOE Designs (`CCD/RSM` vs `Plackett-Burman` vs `Latin Square`)
 - **NEXT EXAM STEP**: Pause and wait for Cathy to return from her dermatology appointment and say **"ready"**. **PERMANENT COACHING RESET (8-MONTH BREAK REFRESH)**:
   - **DELETED OLD RULE**: The leftover "final-2-weeks 100% crooked/notoriously-hard questions ONLY" rule has been **permanently removed** from `rules.md`, `.agents/rules/rules.md`, `QWEN.md`, and `SHARED_SESSION_STATE.md`.
-  - **Progressive Difficulty Ladder (`Easy -> Medium -> Hard`) on 1 Narrow Topic at a Time**:
-    1. Teach **3–5 calm, everyday-English lines** right on screen (with a simple real-life example, zero PhD footnotes) and wait for `"ready"`.
-    2. **Round 1 = EASY**: Clean, 1-line Copilot-style questions to rebuild memory after the 8-month break.
-    3. **Round 2 = MEDIUM**: Straightforward 1–2 sentence ASQ application questions once Easy is comfortable.
-    4. **Round 3 = HARD**: Harder questions ONLY after Easy and Medium are solid.
+  - **5-Rung Progressive Difficulty Ladder (`Easy -> Medium -> Hard x2 -> Really Hard -> Notoriously Hard`) on 1 Chapter at a Time**:
+    1. **Easy**: Quick warm-up notes + 10 clean 1-line questions.
+    2. **Medium**: 10 questions (zero notes upfront) to uncover any rusty spots.
+    3. **Hard (2 Sets)**: Repeat Hard twice so exam-level judgment settles comfortably.
+    4. **Really Hard**: Deeper multi-detail application scenarios.
+    5. **Notoriously Hard**: Final stress-test traps before checking the chapter off completely (taking a couple of days per chapter is great — zero rushing!).
   - **Human Explanations ONLY**: Explain misses in 1–2 normal conversational sentences using a real-life analogy — zero robotic 4-bullet templates, zero jargon-on-jargon, zero `$` signs.
 
 ---
