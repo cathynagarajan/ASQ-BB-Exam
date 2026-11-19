@@ -1,9 +1,9 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-19T04:29:12.537668+00:00",
+    "generated_at": "2026-11-19T04:30:26.018615+00:00",
     "total_files_indexed": 61,
-    "total_nodes": 509,
+    "total_nodes": 508,
     "total_edges": 959,
     "node_type_counts": {
       "chat_session": 6,
@@ -12,34 +12,31 @@
       "document_file": 16,
       "document_section": 107,
       "html_template": 1,
-      "topic_entity": 288
+      "topic_entity": 287
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [
-      "documents/Unit1_Quality_And_Change_Leaders_Table.docx"
-    ],
+    "added": [],
     "modified": [
-      "PERFORMANCE_TRACKER.md",
       "chats/SHARED_SESSION_STATE.md",
-      "documents/QUESTION_BANK_LOG.md"
+      "documents/CAREER_APPLICATIONS_TRACKER.md"
     ],
     "removed": [],
-    "files_parsed": 3,
-    "files_cached_reused": 57,
+    "files_parsed": 1,
+    "files_cached_reused": 59,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 53,
-      "nodes_deleted": 15,
-      "edges_upserted": 84,
-      "edges_deleted": 38,
-      "wiki_pages_upserted": 2,
+      "nodes_upserted": 12,
+      "nodes_deleted": 7,
+      "edges_upserted": 23,
+      "edges_deleted": 13,
+      "wiki_pages_upserted": 1,
       "wiki_pages_deleted": 0,
-      "files_upserted": 5,
+      "files_upserted": 3,
       "files_deleted": 0,
-      "total_nodes_in_db": 509,
+      "total_nodes_in_db": 508,
       "total_edges_in_db": 959,
       "total_files_tracked": 62
     }
@@ -3536,7 +3533,7 @@
       "id": "topic:cycle",
       "type": "topic_entity",
       "name": "cycle",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
       "description": "Shared domain topic 'cycle' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cycle"
@@ -4624,8 +4621,9 @@
           "Pure Storage / Everpure (NYSE: PSTG)",
           "GitLab (NASDAQ: GTLB)",
           "Intuit (NASDAQ: INTU)",
-          "APPLIED (2026-11-16)",
+          "APPLIED (2026-11-16) -> REJECTED (2026-11-19)",
           "NVIDIA (NASDAQ: NVDA)",
+          "APPLIED (2026-11-16)",
           "Amgen (NASDAQ: AMGN)",
           "Lockheed Martin Space",
           "APPLIED (2026-11-17)",
@@ -4641,6 +4639,7 @@
           "Rejected at Lockheed Martin (`2`):",
           "REJECTED",
           "Lockheed Eightfold AI Candidate Profile & Resume-Match Portal:",
+          "REJECTED / CLOSED (2026-11-19)",
           "REJECTED / CLOSED (2026-11-18)",
           "REJECTED / CLOSED (2026-11-17)",
           "Symbotic (NASDAQ: SYM)",
@@ -5072,7 +5071,7 @@
       "id": "topic:shewhart",
       "type": "topic_entity",
       "name": "shewhart",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
       "description": "Shared domain topic 'shewhart' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "shewhart"
@@ -5310,7 +5309,7 @@
       "id": "topic:rejected",
       "type": "topic_entity",
       "name": "rejected",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
       "description": "Shared domain topic 'rejected' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "rejected"
@@ -5357,6 +5356,16 @@
       }
     },
     {
+      "id": "topic:strategic",
+      "type": "topic_entity",
+      "name": "strategic",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'strategic' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "strategic"
+      }
+    },
+    {
       "id": "chat_session:SHAREDSE",
       "type": "chat_session",
       "name": "Chat Session SHAREDSE",
@@ -5373,10 +5382,10 @@
           "rejected",
           "lockheed",
           "applied",
-          "nasdaq",
           "sourcing",
+          "nasdaq",
           "remote",
-          "active"
+          "strategic"
         ]
       }
     },
@@ -5671,16 +5680,6 @@
       }
     },
     {
-      "id": "topic:word",
-      "type": "topic_entity",
-      "name": "word",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'word' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "word"
-      }
-    },
-    {
       "id": "topic:question",
       "type": "topic_entity",
       "name": "question",
@@ -5691,13 +5690,13 @@
       }
     },
     {
-      "id": "topic:juran",
+      "id": "topic:word",
       "type": "topic_entity",
-      "name": "juran",
+      "name": "word",
       "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'juran' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'word' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "juran"
+        "keyword": "word"
       }
     },
     {
@@ -5705,123 +5704,33 @@
       "type": "chat_session",
       "name": "Chat Session 4dda7faa",
       "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Chat Session 4dda7faa (58 turns): hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
+      "description": "Chat Session 4dda7faa (60 turns): hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
       "metadata": {
         "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
         "short_id": "4dda7faa",
-        "turn_count": 58,
+        "turn_count": 60,
         "first_question": "hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
         "source": "antigravity_transcript",
         "topics": [
-          "quality",
           "right",
-          "step",
-          "word",
+          "quality",
+          "answer",
           "question",
-          "unit",
-          "zone",
-          "juran"
+          "part",
+          "word",
+          "step",
+          "zone"
         ]
       }
     },
     {
-      "id": "topic:deming",
+      "id": "topic:juran",
       "type": "topic_entity",
-      "name": "deming",
+      "name": "juran",
       "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'deming' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'juran' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "deming"
-      }
-    },
-    {
-      "id": "topic:pdsa",
-      "type": "topic_entity",
-      "name": "pdsa",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'pdsa' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "pdsa"
-      }
-    },
-    {
-      "id": "chat_turn:4dda7faa:S146",
-      "type": "chat_turn",
-      "name": "Chat 4dda7faa Turn S146 (assistant)",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "[ASSISTANT S146] Ooh, what a sharp catch, Cathy! **Walter Shewhart** actually *originated* both the **Control Chart** and the **PDSA cycle** at Bell Labs (it was originally called the *Shewhart Cycle*), and **W. Edwards Deming** (Shewhar",
-      "metadata": {
-        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "step_index": 146,
-        "role": "assistant",
-        "created_at": "2026-11-19T03:59:09Z",
-        "content_excerpt": "Ooh, what a sharp catch, Cathy!\n\n**Walter Shewhart** actually *originated* both the **Control Chart** and the **PDSA cycle** at Bell Labs (it was originally called the *Shewhart Cycle*), and **W. Edwards Deming** (Shewhart's student!) popularized it worldwide as **PDCA / PDSA** \u2014 Deming himself always gave Shewhart the credit! That's why Deming isn't listed as a choice on Q201.\n\nGo ahead and send all 10 letters (`Q201`\u2013`Q210`) whenever you're ready!",
-        "topics": [
-          "shewhart",
-          "deming",
-          "cycle",
-          "pdsa"
-        ]
-      }
-    },
-    {
-      "id": "topic:every",
-      "type": "topic_entity",
-      "name": "every",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'every' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "every"
-      }
-    },
-    {
-      "id": "topic:honest",
-      "type": "topic_entity",
-      "name": "honest",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'honest' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "honest"
-      }
-    },
-    {
-      "id": "topic:need",
-      "type": "topic_entity",
-      "name": "need",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'need' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "need"
-      }
-    },
-    {
-      "id": "topic:notes",
-      "type": "topic_entity",
-      "name": "notes",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'notes' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "notes"
-      }
-    },
-    {
-      "id": "chat_turn:4dda7faa:S147",
-      "type": "chat_turn",
-      "name": "Chat 4dda7faa Turn S147 (user)",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "[USER S147] b,c,a,d,b,a,c,d,b,c - hey to be honest, i struggled with every question, had to see the notes and was not sure, may be i will need a short and sweet table on these",
-      "metadata": {
-        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "step_index": 147,
-        "role": "user",
-        "created_at": "2026-11-19T04:08:49Z",
-        "content_excerpt": "b,c,a,d,b,a,c,d,b,c - hey to be honest, i struggled with every question, had to see the notes and was not sure, may be i will need a short and sweet table on these",
-        "topics": [
-          "every",
-          "honest",
-          "need",
-          "notes"
-        ]
+        "keyword": "juran"
       }
     },
     {
@@ -5882,6 +5791,16 @@
       "description": "Shared domain topic 'leaders' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "leaders"
+      }
+    },
+    {
+      "id": "topic:need",
+      "type": "topic_entity",
+      "name": "need",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'need' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "need"
       }
     },
     {
@@ -6217,6 +6136,75 @@
         "created_at": "2026-11-19T04:28:26Z",
         "content_excerpt": "b,a,a,a,b,c,a,d,c,c",
         "topics": []
+      }
+    },
+    {
+      "id": "topic:customer",
+      "type": "topic_entity",
+      "name": "customer",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'customer' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "customer"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S190",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S190 (assistant)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[ASSISTANT S190] Great job pacing yourself, Cathy \u2014 and you **nailed Joseph Juran (`Q211`)** right away after missing him last round, plus Shingo, A3, Maturity Model, Risk Transfer, Process Owner, and ADKAR! ### Round 19 Part 1 (`Q211`\u2013`",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 190,
+        "role": "assistant",
+        "created_at": "2026-11-19T04:29:18Z",
+        "content_excerpt": "Great job pacing yourself, Cathy \u2014 and you **nailed Joseph Juran (`Q211`)** right away after missing him last round, plus Shingo, A3, Maturity Model, Risk Transfer, Process Owner, and ADKAR!\n\n### Round 19 Part 1 (`Q211`\u2013`Q220`) Score: **`7 / 10` (`70.0%`)**\n*(Logged to [PERFORMANCE_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/PERFORMANCE_TRACKER.md), [SHARED_SESSION_STATE.md](file:///home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md), Knowledge Graph `509` nodes / `959` edges / `509` vectors, and GitHub `b69d682`!)*\n- **Got right:** `Q211 (B)`, `Q213 (A)`, `Q215 (B)`, `Q216 (C)`, `Q217 (A)`, `Q218 (D)`, `Q220 (C)`\n\n---\n\n### Your 3 Misses (Question + Right Answer + Why)\n\n#### 1. Q212\n> **Question:** Two machined parts are both within customer specification limits ",
+        "topics": [
+          "right",
+          "answer",
+          "customer",
+          "part"
+        ]
+      }
+    },
+    {
+      "id": "topic:intuit",
+      "type": "topic_entity",
+      "name": "intuit",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'intuit' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "intuit"
+      }
+    },
+    {
+      "id": "topic:update",
+      "type": "topic_entity",
+      "name": "update",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'update' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "update"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S191",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S191 (user)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[USER S191] intuit rejected me, you can update it",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 191,
+        "role": "user",
+        "created_at": "2026-11-19T04:29:32Z",
+        "content_excerpt": "intuit rejected me, you can update it",
+        "topics": [
+          "intuit",
+          "rejected",
+          "update"
+        ]
       }
     },
     {
@@ -12595,7 +12583,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 20
+        "count": 21
       }
     },
     {
@@ -12603,7 +12591,7 @@
       "target": "topic:rejected",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 16
+        "count": 18
       }
     },
     {
@@ -12624,15 +12612,15 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:nasdaq",
+      "target": "topic:sourcing",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 10
+        "count": 11
       }
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:sourcing",
+      "target": "topic:nasdaq",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 10
@@ -12648,10 +12636,10 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:active",
+      "target": "topic:strategic",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 8
+        "count": 9
       }
     },
     {
@@ -12853,7 +12841,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 20
+        "count": 21
       }
     },
     {
@@ -12861,7 +12849,7 @@
       "target": "topic:rejected",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 16
+        "count": 18
       }
     },
     {
@@ -12888,18 +12876,50 @@
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "topic:quality",
+      "target": "topic:right",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 17
+        "count": 21
       }
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "topic:right",
+      "target": "topic:quality",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 13
+        "count": 18
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:answer",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 16
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:question",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 15
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:part",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 14
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:word",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 14
       }
     },
     {
@@ -12912,42 +12932,10 @@
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "topic:word",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 12
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "topic:question",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 11
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "topic:unit",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 11
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
       "target": "topic:zone",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 11
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "topic:juran",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 10
+        "count": 12
       }
     },
     {
@@ -12972,82 +12960,6 @@
       "source": "chat_session:4dda7faa",
       "target": "doc_file:documents/Unit1_Quality_And_Change_Leaders_Table.docx",
       "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:4dda7faa:S146",
-      "target": "topic:shewhart",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S146",
-      "target": "topic:deming",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S146",
-      "target": "topic:cycle",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S146",
-      "target": "topic:pdsa",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "chat_turn:4dda7faa:S146",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:4dda7faa:S147",
-      "target": "topic:every",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S147",
-      "target": "topic:honest",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S147",
-      "target": "topic:need",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S147",
-      "target": "topic:notes",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "chat_turn:4dda7faa:S147",
-      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -13425,6 +13337,80 @@
     {
       "source": "chat_session:4dda7faa",
       "target": "chat_turn:4dda7faa:S182",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S190",
+      "target": "topic:right",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S190",
+      "target": "topic:answer",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S190",
+      "target": "topic:customer",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S190",
+      "target": "topic:part",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S190",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S190",
+      "target": "doc:PERFORMANCE_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S191",
+      "target": "topic:intuit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S191",
+      "target": "topic:rejected",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S191",
+      "target": "topic:update",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S191",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -14848,15 +14834,15 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "4fadee189cc482fbde56fbd30ab0a56f4e354c8fb3f772a79653221630e3e107",
+    "chats/SHARED_SESSION_STATE.md": "1f9d8800f2ebae9774a768574c43ee8388aa2c411869bd037f3f6c350f4a89d4",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "242980d0d57705182315309f2f9cdbe7f850c434466bfd604cba12031ad24554",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
-    "documents/CAREER_APPLICATIONS_TRACKER.md": "865bb07780768b79578914e406e0ec470ceeebb5cf21bbe1a7b43f36b8e163c5",
+    "documents/CAREER_APPLICATIONS_TRACKER.md": "101b88f4c5ac53b7383220204ad5570f85a7dd5d85190ab6d801bfcd783702d0",
     "documents/QUESTION_BANK_LOG.md": "ebc9aa637c2c69f1655ade4eff24e13f1d235e7748253b4acc62e27121f8d2b6",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
-    "repo.md": "22426cbd28ea427c1481ce0d94d9dfb93de07b68ee175927f07f6c3648be8b22"
+    "repo.md": "b04836f9a30a9b01fe8df0a226e5e495553de6dfd66eea973f1eb1be08b0f854"
   }
 }

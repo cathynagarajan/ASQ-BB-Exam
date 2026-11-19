@@ -35,7 +35,7 @@
 20. **GitLab (NASDAQ: GTLB)** — *Principal Strategic Sourcing Lead – Technology* (`ID 8642786002`, 100% Remote US, 139.2K to 235.2K USD, IC) — **APPLIED (2026-11-15)**
 
 ## Completed Applications — Day 3 Weekday Cadence (3 Submitted — 2026-11-16)
-21. **Intuit (NASDAQ: INTU)** — *Senior Strategic Sourcing Manager, Corporate Services* (`Job ID 25188` / `103274381152`, Mountain View Hybrid, ~5 mi, 129K to 174K USD, IC) — **APPLIED (2026-11-16)**
+21. **Intuit (NASDAQ: INTU)** — *Senior Strategic Sourcing Manager, Corporate Services* (`Job ID 25188` / `103274381152`, Mountain View Hybrid, ~5 mi, 129K to 174K USD, IC) — **APPLIED (2026-11-16) -> REJECTED (2026-11-19)**
 22. **NVIDIA (NASDAQ: NVDA)** — *Manager, Strategic Sourcing – Professional Services* (`Req JR2021687`, Santa Clara, ~11 mi, 168K to 270.25K USD, IC) — **APPLIED (2026-11-16)**
 23. **Amgen (NASDAQ: AMGN)** — *Strategic Sourcing Manager* (`Req R-260996`, 100% US Remote, up to 132.98K USD, IC) — **APPLIED (2026-11-16)**
 
@@ -83,6 +83,7 @@
   - **Lockheed Eightfold AI Candidate Profile & Resume-Match Portal:** `https://lockheedmartin.eightfold.ai/careers/profile?utm_source=indeed&domain=lockheedmartin.com&Codes=IND` *(use to upload resume and view auto-matched Lockheed Martin Space openings, including Christian Sieg's upcoming roles)*.
 
 ## Closed / Rejected Applications Log
+- **Intuit (NASDAQ: INTU)** — *Senior Strategic Sourcing Manager, Corporate Services (`Job ID 25188` / `103274381152`, Mountain View)* — **REJECTED / CLOSED (2026-11-19)**.
 - **Waymo (Alphabet)** — *Global Vendor Operations Manager (`ID 8348363`, Mountain View)* — **REJECTED / CLOSED (2026-11-18)**.
 - **Stanford Health Care** — *Category Manager – SC Category Management (`Req R2659261`, Palo Alto)* — **REJECTED / CLOSED (2026-11-18)**.
 - **Wing (Alphabet)** — *Sourcing Manager (`ID 8929330002`, Palo Alto)* — **REJECTED / CLOSED (2026-11-17)**.
