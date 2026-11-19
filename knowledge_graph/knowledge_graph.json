@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-19T16:12:14.207786+00:00",
+    "generated_at": "2026-11-19T16:37:22.877928+00:00",
     "total_files_indexed": 71,
-    "total_nodes": 606,
-    "total_edges": 1207,
+    "total_nodes": 605,
+    "total_edges": 1213,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
@@ -12,41 +12,32 @@
       "document_file": 22,
       "document_section": 147,
       "html_template": 1,
-      "topic_entity": 335
+      "topic_entity": 334
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [
-      "Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job38_NorthropGrumman_Sr_Principal_Project_Manager_Sunnyvale_R10260907.md",
-      "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job39_WesternDigital_Supply_Chain_Transformation_Program_Manager_SanJose_REF34953P.md",
-      "Resume_And_Jobs/Job40_Jabil_Consulting_Supply_Chain_Manager_Remote_J2464637.md",
-      "Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job41_Humana_Vendor_Performance_Lead_Remote_R433994.md"
-    ],
+    "added": [],
     "modified": [
       "chats/SHARED_SESSION_STATE.md",
       "documents/CAREER_APPLICATIONS_TRACKER.md"
     ],
     "removed": [],
-    "files_parsed": 9,
-    "files_cached_reused": 61,
+    "files_parsed": 1,
+    "files_cached_reused": 69,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 101,
-      "nodes_deleted": 18,
-      "edges_upserted": 195,
-      "edges_deleted": 45,
-      "wiki_pages_upserted": 5,
+      "nodes_upserted": 5,
+      "nodes_deleted": 3,
+      "edges_upserted": 21,
+      "edges_deleted": 8,
+      "wiki_pages_upserted": 1,
       "wiki_pages_deleted": 0,
-      "files_upserted": 11,
+      "files_upserted": 3,
       "files_deleted": 0,
-      "total_nodes_in_db": 606,
-      "total_edges_in_db": 1207,
+      "total_nodes_in_db": 605,
+      "total_edges_in_db": 1213,
       "total_files_tracked": 72
     }
   },
@@ -5270,6 +5261,8 @@
           "Adobe (NASDAQ: ADBE)",
           "Northrop Grumman (NYSE: NOC)",
           "APPLIED / UNDER CONSIDERATION (2026-11-19)",
+          "Humana (NYSE: HUM)",
+          "APPLIED (2026-11-19 \u2014 beat deadline!)",
           "Active Stage-2 / Recruiter Screen (`1`):",
           "2026-11-17",
           "Rejected at Lockheed Martin (`2`):",
@@ -5324,6 +5317,7 @@
           "Req R10260907",
           "R10257650",
           "R10252052",
+          "Req R-433994",
           "21",
           "19",
           "Inactive +",
@@ -6617,8 +6611,8 @@
         "topics": [
           "manager",
           "rejected",
-          "unit",
           "applied",
+          "unit",
           "lockheed",
           "active",
           "sourcing",
@@ -6907,26 +6901,6 @@
       }
     },
     {
-      "id": "topic:right",
-      "type": "topic_entity",
-      "name": "right",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "right"
-      }
-    },
-    {
-      "id": "topic:sunnyvale",
-      "type": "topic_entity",
-      "name": "sunnyvale",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'sunnyvale' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "sunnyvale"
-      }
-    },
-    {
       "id": "topic:apply",
       "type": "topic_entity",
       "name": "apply",
@@ -6941,72 +6915,22 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (463 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (464 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 463,
+        "turn_count": 464,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
           "northrop",
           "grumman",
-          "project",
-          "right",
-          "sunnyvale",
-          "cathy",
           "management",
-          "apply"
-        ]
-      }
-    },
-    {
-      "id": "topic:lands",
-      "type": "topic_entity",
-      "name": "lands",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'lands' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "lands"
-      }
-    },
-    {
-      "id": "topic:steady",
-      "type": "topic_entity",
-      "name": "steady",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'steady' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "steady"
-      }
-    },
-    {
-      "id": "topic:already",
-      "type": "topic_entity",
-      "name": "already",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "already"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1708",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1708 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1708] 100% yes, Cathy \u2014 **you only need one great \"yes,\"** and steady daily consistency always wins this game. Most corporate rejections have nothing to do with you (roles get frozen, filled internally, or closed after 200+ up",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1708,
-        "role": "assistant",
-        "created_at": "2026-11-18T16:05:01Z",
-        "content_excerpt": "100% yes, Cathy \u2014 **you only need one great \"yes,\"** and steady daily consistency always wins this game.\n\nMost corporate rejections have nothing to do with you (roles get frozen, filled internally, or closed after 200+ uploads), whereas putting in 3 to 5 clean, targeted applications a day with `PMP + CSCP + Six Sigma + M.C.A.` guarantees your resume lands on the right hiring manager's desk at the exact right moment \u2014 just like Lockheed `13013` moving to Stage 2.\n\nYou already have a steady paycheck while we search, so time is on your side \u2014 we just keep showing up calmly every day until the right offer lands. Have a good morning at work!",
-        "topics": [
-          "right",
-          "lands",
-          "steady",
-          "already"
+          "project",
+          "procurement",
+          "apply",
+          "krithika",
+          "logistics"
         ]
       }
     },
@@ -7159,6 +7083,16 @@
       }
     },
     {
+      "id": "topic:right",
+      "type": "topic_entity",
+      "name": "right",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "right"
+      }
+    },
+    {
       "id": "topic:arrow",
       "type": "topic_entity",
       "name": "arrow",
@@ -7294,6 +7228,16 @@
       }
     },
     {
+      "id": "topic:sunnyvale",
+      "type": "topic_entity",
+      "name": "sunnyvale",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'sunnyvale' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "sunnyvale"
+      }
+    },
+    {
       "id": "chat_turn:b6556366:S1728",
       "type": "chat_turn",
       "name": "Chat b6556366 Turn S1728 (assistant)",
@@ -7422,6 +7366,16 @@
       }
     },
     {
+      "id": "topic:asq-bb-exam",
+      "type": "topic_entity",
+      "name": "asq-bb-exam",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "asq-bb-exam"
+      }
+    },
+    {
       "id": "topic:home",
       "type": "topic_entity",
       "name": "home",
@@ -7432,6 +7386,36 @@
       }
     },
     {
+      "id": "topic:humana",
+      "type": "topic_entity",
+      "name": "humana",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'humana' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "humana"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1783",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1783 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1783] Logged and synced \u2014 **Northrop Grumman `R10260907`** (along with your two other active Northrop applications `R10257650` and `R10252052`) is saved in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-B",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1783,
+        "role": "assistant",
+        "created_at": "2026-11-19T16:12:21Z",
+        "content_excerpt": "Logged and synced \u2014 **Northrop Grumman `R10260907`** (along with your two other active Northrop applications `R10257650` and `R10252052`) is saved in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md) and [SHARED_SESSION_STATE.md](file:///home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md) (`d6de70b`, Knowledge Graph synced: `606` nodes, `1,207` edges, `606` vectors; **`48` active applications in flight**).\n\nHere are **3 brand-new Fortune 500 companies** for Thursday (zero overlap with any prior application \u2014 **2 are 100% US Remote** and **1 is San Jose HQ / Remote-eligible**), with tailored `.docx` resumes already built and ready to upload:\n\n---\n\n### 1. Humana (NYSE: HUM \u2014 Fortune 50) \u2014 Behavioral Health Ve",
+        "topics": [
+          "krithika",
+          "asq-bb-exam",
+          "home",
+          "humana"
+        ]
+      }
+    },
+    {
       "id": "topic:workspace",
       "type": "topic_entity",
       "name": "workspace",
@@ -7439,16 +7423,6 @@
       "description": "Shared domain topic 'workspace' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "workspace"
-      }
-    },
-    {
-      "id": "topic:asq-bb-exam",
-      "type": "topic_entity",
-      "name": "asq-bb-exam",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "asq-bb-exam"
       }
     },
     {
@@ -7720,6 +7694,16 @@
           "exam",
           "final"
         ]
+      }
+    },
+    {
+      "id": "topic:already",
+      "type": "topic_entity",
+      "name": "already",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "already"
       }
     },
     {
@@ -15695,7 +15679,7 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:unit",
+      "target": "topic:applied",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 13
@@ -15703,10 +15687,10 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:applied",
+      "target": "topic:unit",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 12
+        "count": 13
       }
     },
     {
@@ -15980,7 +15964,7 @@
       "target": "topic:applied",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 12
+        "count": 13
       }
     },
     {
@@ -16002,7 +15986,7 @@
       "target": "topic:northrop",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 21
+        "count": 23
       }
     },
     {
@@ -16010,39 +15994,7 @@
       "target": "topic:grumman",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 12
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:project",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 10
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:right",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:sunnyvale",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:cathy",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
+        "count": 13
       }
     },
     {
@@ -16050,7 +16002,23 @@
       "target": "topic:management",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 7
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:project",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:procurement",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
       }
     },
     {
@@ -16058,7 +16026,23 @@
       "target": "topic:apply",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 6
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:krithika",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:logistics",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
       }
     },
     {
@@ -16074,41 +16058,21 @@
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S1708",
-      "target": "topic:right",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1708",
-      "target": "topic:lands",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1708",
-      "target": "topic:steady",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1708",
-      "target": "topic:already",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
+      "source": "chat_session:b6556366",
+      "target": "doc_file:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1708",
-      "relation": "HAS_CHAT_TURN",
+      "target": "doc:Resume_And_Jobs/Job41_Humana_Vendor_Performance_Lead_Remote_R433994.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
@@ -16475,6 +16439,62 @@
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S1734",
       "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1783",
+      "target": "topic:krithika",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1783",
+      "target": "topic:asq-bb-exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1783",
+      "target": "topic:home",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1783",
+      "target": "topic:humana",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1783",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1783",
+      "target": "doc_file:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1783",
+      "target": "doc:Resume_And_Jobs/Job41_Humana_Vendor_Performance_Lead_Remote_R433994.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1783",
+      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
@@ -17935,17 +17955,17 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "9115da5bb0b003936363158661fea4dbea23584939f9fa8e28f615fbb2a9637d",
+    "chats/SHARED_SESSION_STATE.md": "94a5f800a19d4c84e20aba457c6fd4103cf4694250d22985bcb82e004cdef973",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "dedc49018d472c6663bb64892838fa492d664b024e1159b8db9749a20cf25f96",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
-    "documents/CAREER_APPLICATIONS_TRACKER.md": "5a89f08750a049d88d628d4fc8959af66eeca40076388886841014c0f4735507",
+    "documents/CAREER_APPLICATIONS_TRACKER.md": "0db061df7e099bff71af5793a89273309238cad3d96018eb05774c8eb8d4f4a1",
     "documents/QUESTION_BANK_LOG.md": "559c54c56542d41704ab38329c3c35ef4cc73f4c07d798aa7a1af4346d7683f3",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
-    "repo.md": "fc7535434e1c52185ba19821166c5d0f281c96fa2fac7d8964373a3e6511c44f"
+    "repo.md": "b9da2aad50d240ec592cc6f79099ab385a3da6ecb64382220bc7ec261e5bc435"
   }
 }

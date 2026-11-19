@@ -5,7 +5,7 @@ This file maintains the authoritative inventory of all **top-level parent folder
 - **Repository Root**: `/home/krithika/workspace/ASQ-BB-Exam`
 - **Top-Level Parent Folders Processed**: `3` (plus repository root `.` files)
 - **Total Indexed Files**: `71`
-- **Total Knowledge Graph Nodes**: `606`
+- **Total Knowledge Graph Nodes**: `605`
 
 ---
 
@@ -14,7 +14,7 @@ This file maintains the authoritative inventory of all **top-level parent folder
 | # | Top-Level Parent Folder | Absolute Path | Indexed Files | Extracted KG Nodes | Key Subfolders | Description & Scope |
 | :---: | :--- | :--- | :---: | :---: | :--- | :--- |
 | 1 | [`Resume_And_Jobs/`](Resume_And_Jobs) | `/home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/` | `56` | `228` | — | Top-level repository folder `Resume_And_Jobs/` indexed by Knowledge Graph |
-| 2 | [`chats/`](chats) | `/home/krithika/workspace/ASQ-BB-Exam/chats/` | `1` | `173` | — | Exported or synced Zed/Antigravity AI assistant chat transcripts and conversation logs indexed into the Knowledge Graph |
+| 2 | [`chats/`](chats) | `/home/krithika/workspace/ASQ-BB-Exam/chats/` | `1` | `172` | — | Exported or synced Zed/Antigravity AI assistant chat transcripts and conversation logs indexed into the Knowledge Graph |
 | 3 | [`documents/`](documents) | `/home/krithika/workspace/ASQ-BB-Exam/documents/` | `10` | `201` | — | Multi-modal documents, PDFs, Office files (`.docx`, `.pptx`, `.xlsx`), CSV/TSV datasets, OCR images, and audio recordings indexed into the Knowledge Graph |
 
 ### Repository Root (`.` Top-Level Files)
@@ -30,7 +30,7 @@ This file maintains the authoritative inventory of all **top-level parent folder
 | Top-Level Parent Folder | Extracted Entity Types (`type: count`) |
 | :--- | :--- |
 | `Resume_And_Jobs/` | `document`: 39, `document_file`: 17, `document_section`: 94, `topic_entity`: 78 |
-| `chats/` | `chat_session`: 6, `chat_turn`: 48, `topic_entity`: 119 |
+| `chats/` | `chat_session`: 6, `chat_turn`: 48, `topic_entity`: 118 |
 | `documents/` | `document`: 4, `document_file`: 5, `document_section`: 53, `html_template`: 1, `topic_entity`: 138 |
 | `.` (Root Files) | `document`: 4 |
 

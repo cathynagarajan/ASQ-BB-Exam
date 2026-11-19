@@ -55,6 +55,7 @@
 
 ## Completed Applications — Day 6 Weekday Cadence (In Progress — 2026-11-19)
 34. **Northrop Grumman (NYSE: NOC)** — *Principal / Sr. Principal Project Manager (Marine Logistics Support)* (`Req R10260907`, Sunnyvale CA ~9 mi, 117.5K to 176.3K USD Level 4, IC) — **APPLIED / UNDER CONSIDERATION (2026-11-19)** *(also active on Northrop Workday: `R10257650` Sr. Principal Supply Chain Planning Specialist [Nov 1] & `R10252052` Principal Supply Chain Procurement Specialist [Oct 15] — 3 Active Total at Northrop!)*
+35. **Humana (NYSE: HUM)** — *Behavioral Health Vendor Performance Lead* (`Req R-433994`, 100% Remote Nationwide, 115.2K to 158.4K USD, IC) — **APPLIED (2026-11-19 — beat deadline!)**
 
 ## Full Lockheed Martin Eightfold Application History (`21` Roles: `19` Active Submitted + `2` Inactive + `1` Draft — Verified `2026-11-18`!)
 - **Active Stage-2 / Recruiter Screen (`1`):**

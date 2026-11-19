@@ -91,8 +91,9 @@
   31. **Ciena (NYSE: CIEN)** — *Business Analyst, Service Logistics* (`Req R031966`, 100% US Remote — applied **2026-11-18**)
   32. **NetApp (NASDAQ: NTAP)** — *Global Procurement Category Manager* (`Job ID 137163`, 100% US Remote / San Jose, 147.9K–220K USD — applied **2026-11-18**)
   33. **Adobe (NASDAQ: ADBE)** — *Procurement - Technology - Cloud Category Manager* (`Req R166065`, San Jose Hybrid ~15 mi, 169.1K–244.85K USD — applied **2026-11-18**)
-- **Day-6 Weekday Applications (2026-11-19 — In Progress: `1` Submitted + `3` Ready Below; `54` Total Tracked Across Portals = `48` Active [incl. `3` Active Under Consideration at Northrop: `R10260907`, `R10257650`, `R10252052`], `6` Rejected)**:
+- **Day-6 Weekday Applications (2026-11-19 — In Progress: `2` Submitted + `2` Ready [Jabil, Western Digital]; `55` Total Tracked Across Portals = `49` Active [incl. `3` Active Under Consideration at Northrop: `R10260907`, `R10257650`, `R10252052`], `6` Rejected)**:
   34. **Northrop Grumman (NYSE: NOC)** — *Principal / Sr. Principal Project Manager (Marine Logistics Support)* (`Req R10260907`, Sunnyvale CA ~9 mi, 117.5K–176.3K USD — applied **2026-11-19**, *Under Consideration*!)
+  35. **Humana (NYSE: HUM)** — *Behavioral Health Vendor Performance Lead* (`Req R-433994`, 100% Remote Nationwide, 115.2K–158.4K USD — applied **2026-11-19**!)
   - **All 20 Lockheed Job IDs Indexed (Never Repeat)**: `9343`, `24775`, `23028`, `9306`, `9054`, `16519`, `16516`, `11582`, `13918` (Rejected), `17417`, `11141`, `8363`, `9581`, `13924`, `16508`, `13013` (Active Stage-2!), `13178`, `8492` (Rejected), `20038`, `19487`.
 - **Active Recruiter / Stage-2 Callbacks**:
   - **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req 13013`, Sunnyvale CA, IC Level E3, 125K–135K USD base) — **Stage-2 Portal Updated (`✓`) & Recruiter Questionnaire SENT to Christian Sieg (2026-11-16 — Ready for Hiring Manager advancement!)**!
