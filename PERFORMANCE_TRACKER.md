@@ -2,8 +2,8 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Round 19 Block 2 — `I.A & I.B` Unit 1 Spaced Reinforcement `Q231`–`Q240`, Open-Book):** **`8 / 10` (`80.0%`)** *(MASTERED Taguchi Loss Function `Q231`, 8D Containment `Q232`, Crosby, Feigenbaum, Shingo SMED, Risk Avoidance, ADKAR! Only 2 misses: Bridges Neutral Zone vs Ending `Q233`, Porter Supplier vs Buyer Power `Q238`.)*
-- **Overall Cumulative Score (`Q1`–`Q240` + `C1`–`C130` = `370` Qs):** **`292 / 370` (`78.9%`)**
+- **Latest Batch Score (Round 19 Block 3 — `II.A–II.C` Unit 2 Preview `Q241`–`Q250`, Open-Book):** **`9 / 10` (`90.0%`!)** *(Full 30-Q Marathon `Q221`–`Q250`: **`27 / 30 = 90.0%`** [`10/10` Exam-Hard Unit 1 + `8/10` Unit 1 Spaced + `9/10` Unit 2 Preview]!)*
+- **Overall Cumulative Score (`Q1`–`Q250` + `C1`–`C130` = `380` Qs):** **`301 / 380` (`79.2%`)**
 
 ---
 
@@ -11,8 +11,8 @@
 
 | ASQ Domain | DMAIC Phase | Exam Weight | Attempted | Correct | Accuracy | Status / Priority |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 87 | 75 | **86.2%** | **UNIT 1 SOLID (`86.2%` across 87 Qs; `10/10` Exam-Hard + `8/10` Spaced Check)!** Mastered Taguchi & 8D; tiny review on Bridges Neutral Zone vs Ending & Porter Supplier vs Buyer power. Block 3 (`Q241–Q250` Unit 2 Preview) next! |
-| **II. Org Process Mgmt & Measures** | Pre-DMAIC | 12 Qs (8.0%) | 8 | 6 | **75.0%** | Strong on ROI/Payback/NPV/Leading-Lagging/Internal-External COQ; review `II.B` Benchmarking & `II.C.2` Appraisal COQ |
+| **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 87 | 75 | **86.2%** | **UNIT 1 COMPLETE & MASTERED (`86.2%` across 87 Qs; `10/10` Exam-Hard + `8/10` Spaced Check)!** Light spaced re-test on Bridges Neutral Zone & Porter Suppliers later. |
+| **II. Org Process Mgmt & Measures** | Pre-DMAIC | 12 Qs (8.0%) | 18 | 15 | **83.3%** | **UNIT 2 PREVIEW `9 / 10` (`90.0%`!)** Mastered Functional/Competitive Benchmarking, Balanced Scorecard, OKRs, Leading/Lagging, Payback, NPV; repeat-trap check on **`II.C.2` Appraisal COQ (gage calibration + incoming inspection = Appraisal, NOT Prevention!)** |
 | **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 7 | 5 | **71.4%** | Review `III.B` Tuckman (Storming), `III.B` Lencioni 5 Dysfunctions, `III.C` Thomas-Kilmann Conflict Modes |
 | **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 48 | 38 | **79.2%** | **Define Basics Level 1 set ready on screen!** Review PERT variance `sqrt(sum var)`, ID `0 incoming`, PDPC vs PFMEA |
 | **V. Measure** | **Measure (M)** | 25 Qs (16.7%) | 50 | 35 | **70.0%** | **Stability (`Q130`), Nested MSA (`Q122`), EV (`Q124`), P/T (`Q126`) Mastered!** Review `%Contribution` (`1%–9%`), Linearity (`Q127`), 10-to-1 Resolution (`Q125`) |
