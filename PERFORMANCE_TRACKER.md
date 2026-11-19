@@ -2,8 +2,8 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Round 18 — `I.A.1 & I.B.3` Unit 1 Quality & Change Leaders `Q201`–`Q210`):** **`7 / 10` (`70.0%` — open-notes; Cathy requested a short & sweet memory-hook table + closed-notes drill!)**
-- **Overall Cumulative Score (`Q1`–`Q210` + `C1`–`C130` = `340` Qs):** **`267 / 340` (`78.5%`)**
+- **Latest Batch Score (Round 19 Part 1 — `I.A & I.B` Unit 1 Medium-Hard `Q211`–`Q220`, Open-Book):** **`7 / 10` (`70.0%`)** *(Nailed Juran, Shingo, A3, Maturity Model, Risk Transfer, Process Owner, ADKAR! Missed Taguchi Loss Function `Q212`, 8D Containment `Q214`, Bridges Ending/Letting Go `Q219`.)*
+- **Overall Cumulative Score (`Q1`–`Q220` + `C1`–`C130` = `350` Qs):** **`274 / 350` (`78.3%`)**
 
 ---
 
@@ -11,7 +11,7 @@
 
 | ASQ Domain | DMAIC Phase | Exam Weight | Attempted | Correct | Accuracy | Status / Priority |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 57 | 50 | **87.7%** | **Round 18 Leaders: `7/10` (open-notes).** Drill **13 Quality & Change Leaders** closed-notes using short memory hooks (esp. Juran vs. Taguchi, Bridges Neutral Zone, Jack Welch at GE) before Unit 1 Very Hard Mastery Set! |
+| **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 67 | 57 | **85.1%** | **Round 19 Part 1 (`Q211–Q220`): `7/10` (Open-Book)!** Nailed Juran, Shingo, A3, Maturity, Risk Transfer, ADKAR; review Taguchi Loss Function (goalpost trap), 8D urgent containment, & Bridges Phase 1 (Ending). Part 2 (`Q221–Q230` Exam-Hard) up next! |
 | **II. Org Process Mgmt & Measures** | Pre-DMAIC | 12 Qs (8.0%) | 8 | 6 | **75.0%** | Strong on ROI/Payback/NPV/Leading-Lagging/Internal-External COQ; review `II.B` Benchmarking & `II.C.2` Appraisal COQ |
 | **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 7 | 5 | **71.4%** | Review `III.B` Tuckman (Storming), `III.B` Lencioni 5 Dysfunctions, `III.C` Thomas-Kilmann Conflict Modes |
 | **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 48 | 38 | **79.2%** | **Define Basics Level 1 set ready on screen!** Review PERT variance `sqrt(sum var)`, ID `0 incoming`, PDPC vs PFMEA |

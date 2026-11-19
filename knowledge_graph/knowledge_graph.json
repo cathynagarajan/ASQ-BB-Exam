@@ -1,44 +1,47 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-19T04:12:16.227703+00:00",
-    "total_files_indexed": 60,
-    "total_nodes": 483,
-    "total_edges": 917,
+    "generated_at": "2026-11-19T04:29:12.537668+00:00",
+    "total_files_indexed": 61,
+    "total_nodes": 509,
+    "total_edges": 959,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
       "document": 43,
-      "document_file": 15,
-      "document_section": 100,
+      "document_file": 16,
+      "document_section": 107,
       "html_template": 1,
-      "topic_entity": 270
+      "topic_entity": 288
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [],
+    "added": [
+      "documents/Unit1_Quality_And_Change_Leaders_Table.docx"
+    ],
     "modified": [
-      "QWEN.md",
-      "chats/SHARED_SESSION_STATE.md"
+      "PERFORMANCE_TRACKER.md",
+      "chats/SHARED_SESSION_STATE.md",
+      "documents/QUESTION_BANK_LOG.md"
     ],
     "removed": [],
-    "files_parsed": 1,
-    "files_cached_reused": 58,
+    "files_parsed": 3,
+    "files_cached_reused": 57,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 20,
-      "nodes_deleted": 13,
-      "edges_upserted": 34,
-      "edges_deleted": 21,
-      "wiki_pages_upserted": 1,
+      "nodes_upserted": 53,
+      "nodes_deleted": 15,
+      "edges_upserted": 84,
+      "edges_deleted": 38,
+      "wiki_pages_upserted": 2,
       "wiki_pages_deleted": 0,
-      "files_upserted": 3,
+      "files_upserted": 5,
       "files_deleted": 0,
-      "total_nodes_in_db": 483,
-      "total_edges_in_db": 917,
-      "total_files_tracked": 61
+      "total_nodes_in_db": 509,
+      "total_edges_in_db": 959,
+      "total_files_tracked": 62
     }
   },
   "nodes": [
@@ -60,12 +63,12 @@
           "Stage 2 (`V. Measure`) COMPLETE!",
           "Stage 3 (`VI. Analyze`) IN PROGRESS",
           "Project 2 (`50+ Qs`) COMPLETE (`Q51`\u2013`Q100`)!",
-          "Overall Cumulative Score (`Q1`\u2013`Q210` + `C1`\u2013`C130` = `340` Qs):",
-          "`267 / 340` (`78.5%`)",
+          "`7 / 10` (`70.0%`)",
+          "Overall Cumulative Score (`Q1`\u2013`Q220` + `C1`\u2013`C130` = `350` Qs):",
+          "`274 / 350` (`78.3%`)",
           "I. Org-Wide Planning & Deployment",
-          "87.7%",
-          "Round 18 Leaders: `7/10` (open-notes).",
-          "13 Quality & Change Leaders",
+          "85.1%",
+          "Round 19 Part 1 (`Q211\u2013Q220`): `7/10` (Open-Book)!",
           "II. Org Process Mgmt & Measures",
           "75.0%",
           "III. Team Management",
@@ -169,17 +172,22 @@
           "50+ Qs",
           "Q51",
           "Q100",
-          "I.A.1 & I.B.3",
-          "Q201",
-          "Q210",
+          "I.A & I.B",
+          "Q211",
+          "Q220",
           "7 / 10",
+          "Q212",
+          "Q214",
+          "Q219",
           "Q1",
           "C1",
           "C130",
-          "340",
-          "267 / 340",
-          "78.5%",
+          "350",
+          "274 / 350",
+          "78.3%",
+          "Q211\u2013Q220",
           "7/10",
+          "Q221\u2013Q230",
           "II.B",
           "II.C.2",
           "III.B",
@@ -257,6 +265,7 @@
           "= centering (",
           "= spread only);",
           "= no difference;",
+          "I.A.1 & I.B.3",
           "Q201\u2013Q210",
           "Q205",
           "Q206",
@@ -656,7 +665,7 @@
       "id": "topic:cost",
       "type": "topic_entity",
       "name": "cost",
-      "file_path": "Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
       "description": "Shared domain topic 'cost' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cost"
@@ -1478,7 +1487,7 @@
       "id": "topic:analysis",
       "type": "topic_entity",
       "name": "analysis",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
       "description": "Shared domain topic 'analysis' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "analysis"
@@ -2063,7 +2072,7 @@
       "id": "topic:angular",
       "type": "topic_entity",
       "name": "angular",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "file_path": "Resume_And_Jobs/Job32_Zillow_P751645_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'angular' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "angular"
@@ -3560,7 +3569,7 @@
       "id": "topic:system",
       "type": "topic_entity",
       "name": "system",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
       "description": "Shared domain topic 'system' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "system"
@@ -3570,7 +3579,7 @@
       "id": "topic:charts",
       "type": "topic_entity",
       "name": "charts",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
       "description": "Shared domain topic 'charts' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "charts"
@@ -3613,7 +3622,7 @@
       "id": "topic:zone",
       "type": "topic_entity",
       "name": "zone",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
       "description": "Shared domain topic 'zone' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "zone"
@@ -4094,7 +4103,7 @@
       "id": "topic:part",
       "type": "topic_entity",
       "name": "part",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
       "description": "Shared domain topic 'part' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "part"
@@ -4736,7 +4745,8 @@
           "Round 16 (Chapter 1 Level 3 Hard Set 1 of 2: `I.A & I.B` \u2014 `Q181`\u2013`Q190` \u2014 2026-11-18 | Score: `8/10 = 80.0%`)",
           "Round 17 (Chapter 1 Level 3 Hard Set 2 of 2: `I.A & I.B` \u2014 `Q191`\u2013`Q200` \u2014 2026-11-18 | Score: `9/10 = 90.0%`)",
           "External Practice Batch \u2014 Copilot Set 5 (`C96`\u2013`C130`, `35` Qs \u2014 `31 / 35 = 88.6%` on `2026-11-18/19`)",
-          "Round 18 (Topic: `I.A.1 & I.B.3` Unit 1 Quality, Lean & Change Leaders \u2014 `Q201`\u2013`Q210` \u2014 2026-11-19 | Score: `7/10 = 70.0%` [open-notes])"
+          "Round 18 (Topic: `I.A.1 & I.B.3` Unit 1 Quality, Lean & Change Leaders \u2014 `Q201`\u2013`Q210` \u2014 2026-11-19 | Score: `7/10 = 70.0%` [open-notes])",
+          "Round 19 Part 1 (Topic: `I.A & I.B` Unit 1 Medium-Hard Open-Book \u2014 `Q211`\u2013`Q220` \u2014 2026-11-19 | Score: `7/10 = 70.0%`)"
         ],
         "keywords": [
           "Rule:",
@@ -4994,6 +5004,299 @@
       }
     },
     {
+      "id": "topic:change",
+      "type": "topic_entity",
+      "name": "change",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'change' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "change"
+      }
+    },
+    {
+      "id": "topic:bonus",
+      "type": "topic_entity",
+      "name": "bonus",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'bonus' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "bonus"
+      }
+    },
+    {
+      "id": "topic:bottleneck",
+      "type": "topic_entity",
+      "name": "bottleneck",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'bottleneck' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "bottleneck"
+      }
+    },
+    {
+      "id": "doc_file:documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "type": "document_file",
+      "name": "Unit1_Quality_And_Change_Leaders_Table.docx",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Document Unit1_Quality_And_Change_Leaders_Table.docx (7 section(s)): ASQ CSSBB Unit 1 \u2014 Quality, Lean & Change Leaders (Short & Sweet Table) Name 2-Word Exam Trigger Sticky Memory Picture Walter Shewhart Control Charts \"S-C\" = Shewhart Charts (also ",
+      "metadata": {
+        "format": "docx",
+        "section_count": 7,
+        "size_bytes": 2476,
+        "topics": [
+          "change",
+          "quality",
+          "step",
+          "bonus",
+          "control",
+          "system",
+          "bottleneck",
+          "charts"
+        ]
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:1",
+      "type": "document_section",
+      "name": "Unit1_Quality_And_Change_Leaders_Table.docx [Section 1]",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Section 1 of Unit1_Quality_And_Change_Leaders_Table.docx: ASQ CSSBB Unit 1 \u2014 Quality, Lean & Change Leaders (Short & Sweet Table) Name 2-Word Exam Trigger Sticky Memory Picture Walter Shewhart Control Charts \"S-C\" = Shewhart Charts (also started PDSA) W. Edwards Deming",
+      "metadata": {
+        "section_index": 1,
+        "section_type": "section",
+        "text_excerpt": "ASQ CSSBB Unit 1 \u2014 Quality, Lean & Change Leaders (Short & Sweet Table)\nName\n2-Word Exam Trigger\nSticky Memory Picture\nWalter Shewhart\nControl Charts\n\"S-C\" = Shewhart Charts (also started PDSA)\nW. Edwards Deming",
+        "char_count": 211
+      }
+    },
+    {
+      "id": "topic:shewhart",
+      "type": "topic_entity",
+      "name": "shewhart",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'shewhart' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "shewhart"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:2",
+      "type": "document_section",
+      "name": "Unit1_Quality_And_Change_Leaders_Table.docx [Section 2]",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Section 2 of Unit1_Quality_And_Change_Leaders_Table.docx: System / 14 Points Blames management's system (85%-94%), made PDCA famous Joseph Juran Trilogy + Fitness \"Fitness for Use\" + 3-part Trilogy (Plan, Control, Improve) + Pareto 80/20 Philip Crosby Zero Defects \"Quality is F",
+      "metadata": {
+        "section_index": 2,
+        "section_type": "section",
+        "text_excerpt": "System / 14 Points\nBlames management's system (85%-94%), made PDCA famous\nJoseph Juran\nTrilogy + Fitness\n\"Fitness for Use\" + 3-part Trilogy (Plan, Control, Improve) + Pareto 80/20\nPhilip Crosby\nZero Defects\n\"Quality is Free\" - do it right the first time, Conformance",
+        "char_count": 266
+      }
+    },
+    {
+      "id": "topic:fitness",
+      "type": "topic_entity",
+      "name": "fitness",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'fitness' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "fitness"
+      }
+    },
+    {
+      "id": "topic:trilogy",
+      "type": "topic_entity",
+      "name": "trilogy",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'trilogy' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "trilogy"
+      }
+    },
+    {
+      "id": "topic:blames",
+      "type": "topic_entity",
+      "name": "blames",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'blames' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "blames"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:3",
+      "type": "document_section",
+      "name": "Unit1_Quality_And_Change_Leaders_Table.docx [Section 3]",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Section 3 of Unit1_Quality_And_Change_Leaders_Table.docx: Kaoru Ishikawa Fishbone \"I-shikawa\" -> Fishbone + 7 Basic Tools + Quality Circles Armand Feigenbaum Hidden Plant Total Quality Control - everyone's job, not just QA's Genichi Taguchi Target / Noise",
+      "metadata": {
+        "section_index": 3,
+        "section_type": "section",
+        "text_excerpt": "Kaoru Ishikawa\nFishbone\n\"I-shikawa\" -> Fishbone + 7 Basic Tools + Quality Circles\nArmand Feigenbaum\nHidden Plant\nTotal Quality Control - everyone's job, not just QA's\nGenichi Taguchi\nTarget / Noise",
+        "char_count": 197
+      }
+    },
+    {
+      "id": "topic:fishbone",
+      "type": "topic_entity",
+      "name": "fishbone",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'fishbone' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "fishbone"
+      }
+    },
+    {
+      "id": "topic:armand",
+      "type": "topic_entity",
+      "name": "armand",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'armand' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "armand"
+      }
+    },
+    {
+      "id": "topic:basic",
+      "type": "topic_entity",
+      "name": "basic",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'basic' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "basic"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:4",
+      "type": "document_section",
+      "name": "Unit1_Quality_And_Change_Leaders_Table.docx [Section 4]",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Section 4 of Unit1_Quality_And_Change_Leaders_Table.docx: Loss Function (off-target = cost) + Robust against noise Taiichi Ohno 7 Wastes / TPS \"Oh-no, Waste!\" - Toyota Production System + JIT pull Shigeo Shingo Poka-Yoke / SMED Mistake-proofing plugs + fast under-10-min setups ",
+      "metadata": {
+        "section_index": 4,
+        "section_type": "section",
+        "text_excerpt": "Loss Function (off-target = cost) + Robust against noise\nTaiichi Ohno\n7 Wastes / TPS\n\"Oh-no, Waste!\" - Toyota Production System + JIT pull\nShigeo Shingo\nPoka-Yoke / SMED\nMistake-proofing plugs + fast under-10-min setups\nBill Smith / Jack Welch",
+        "char_count": 243
+      }
+    },
+    {
+      "id": "topic:against",
+      "type": "topic_entity",
+      "name": "against",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'against' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "against"
+      }
+    },
+    {
+      "id": "topic:bill",
+      "type": "topic_entity",
+      "name": "bill",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'bill' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "bill"
+      }
+    },
+    {
+      "id": "topic:fast",
+      "type": "topic_entity",
+      "name": "fast",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'fast' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "fast"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:5",
+      "type": "document_section",
+      "name": "Unit1_Quality_And_Change_Leaders_Table.docx [Section 5]",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Section 5 of Unit1_Quality_And_Change_Leaders_Table.docx: Motorola -> GE Smith built Six Sigma (Motorola); Welch scaled it (GE) Kurt Lewin Ice Cube Unfreeze -> Change -> Refreeze + Force Field Analysis John Kotter 8 Steps Step 1 Urgency -> Step 2 Coalition -> Step 6 Wins -> Ste",
+      "metadata": {
+        "section_index": 5,
+        "section_type": "section",
+        "text_excerpt": "Motorola -> GE\nSmith built Six Sigma (Motorola); Welch scaled it (GE)\nKurt Lewin\nIce Cube\nUnfreeze -> Change -> Refreeze + Force Field Analysis\nJohn Kotter\n8 Steps\nStep 1 Urgency -> Step 2 Coalition -> Step 6 Wins -> Step 8 Culture",
+        "char_count": 231
+      }
+    },
+    {
+      "id": "topic:motorola",
+      "type": "topic_entity",
+      "name": "motorola",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'motorola' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "motorola"
+      }
+    },
+    {
+      "id": "topic:built",
+      "type": "topic_entity",
+      "name": "built",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'built' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "built"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:6",
+      "type": "document_section",
+      "name": "Unit1_Quality_And_Change_Leaders_Table.docx [Section 6]",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Section 6 of Unit1_Quality_And_Change_Leaders_Table.docx: William Bridges Neutral Zone Feelings bridge: Ending -> Neutral Zone -> New Beginning Michael Porter (Bonus) 5 Forces Industry competition map (I.A.4 Strategy): rivals, buyers, suppliers, entrants, substitutes Prosci ADK",
+      "metadata": {
+        "section_index": 6,
+        "section_type": "section",
+        "text_excerpt": "William Bridges\nNeutral Zone\nFeelings bridge: Ending -> Neutral Zone -> New Beginning\nMichael Porter (Bonus)\n5 Forces\nIndustry competition map (I.A.4 Strategy): rivals, buyers, suppliers, entrants, substitutes\nProsci ADKAR (Bonus)\n5-Letter Change",
+        "char_count": 246
+      }
+    },
+    {
+      "id": "topic:adkar",
+      "type": "topic_entity",
+      "name": "adkar",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'adkar' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "adkar"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:7",
+      "type": "document_section",
+      "name": "Unit1_Quality_And_Change_Leaders_Table.docx [Section 7]",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Section 7 of Unit1_Quality_And_Change_Leaders_Table.docx: Individual change checklist: Awareness, Desire, Knowledge, Ability, Reinforcement Eliyahu Goldratt (Bonus) Bottleneck (TOC) Theory of Constraints (Unit 7 Improve): fix the single slowest bottleneck",
+      "metadata": {
+        "section_index": 7,
+        "section_type": "section",
+        "text_excerpt": "Individual change checklist: Awareness, Desire, Knowledge, Ability, Reinforcement\nEliyahu Goldratt (Bonus)\nBottleneck (TOC)\nTheory of Constraints (Unit 7 Improve): fix the single slowest bottleneck",
+        "char_count": 197
+      }
+    },
+    {
+      "id": "topic:ability",
+      "type": "topic_entity",
+      "name": "ability",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'ability' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "ability"
+      }
+    },
+    {
+      "id": "topic:awareness",
+      "type": "topic_entity",
+      "name": "awareness",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'awareness' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "awareness"
+      }
+    },
+    {
       "id": "topic:manager",
       "type": "topic_entity",
       "name": "manager",
@@ -5034,16 +5337,6 @@
       }
     },
     {
-      "id": "topic:hard",
-      "type": "topic_entity",
-      "name": "hard",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'hard' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "hard"
-      }
-    },
-    {
       "id": "topic:nasdaq",
       "type": "topic_entity",
       "name": "nasdaq",
@@ -5080,10 +5373,10 @@
           "rejected",
           "lockheed",
           "applied",
-          "hard",
           "nasdaq",
           "sourcing",
-          "remote"
+          "remote",
+          "active"
         ]
       }
     },
@@ -5273,6 +5566,16 @@
       }
     },
     {
+      "id": "topic:hard",
+      "type": "topic_entity",
+      "name": "hard",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'hard' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "hard"
+      }
+    },
+    {
       "id": "topic:zero",
       "type": "topic_entity",
       "name": "zero",
@@ -5280,16 +5583,6 @@
       "description": "Shared domain topic 'zero' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "zero"
-      }
-    },
-    {
-      "id": "topic:questions",
-      "type": "topic_entity",
-      "name": "questions",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'questions' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "questions"
       }
     },
     {
@@ -5303,22 +5596,32 @@
       }
     },
     {
+      "id": "topic:questions",
+      "type": "topic_entity",
+      "name": "questions",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'questions' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "questions"
+      }
+    },
+    {
       "id": "chat_turn:SHAREDSE:S5",
       "type": "chat_turn",
       "name": "Chat SHAREDSE Turn S5 (assistant)",
       "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`340` (`Q1`\u2013`Q210` + Copilot `C1`\u2013`C130`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). - **Latest Set (Round 18",
+      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`350` (`Q1`\u2013`Q220` + Copilot `C1`\u2013`C130`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). - **Latest Set (Round 19",
       "metadata": {
         "conversation_id": "SHAREDSE",
         "step_index": 5,
         "role": "assistant",
         "created_at": "",
-        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`340` (`Q1`\u2013`Q210` + Copilot `C1`\u2013`C130`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Latest Set (Round 18 \u2014 `I.A.1 & I.B.3` Unit 1 Quality & Change Leaders `Q201`\u2013`Q210`)**: **`7 / 10 = 70.0%` (open-notes)** \u2014 Cathy honestly flagged struggling on the names and asked for a **short & sweet 1-glance memory-hook table** (now added to `ASQ_CSSBB_Cheat_Sheet.txt`). Missed `Q205` (Juran vs. Taguchi), `Q206` (Bridges Neutral Zone vs. Lewin Refreeze), `Q207` (Jack Welch at GE).\n- **LOCKED PLAN FOR NEXT SESSION**:\n  1. Give a quick **closed-notes flash drill** on the **13 Unit 1 Quality & Change Leaders** using the short & sweet memory-hook table until all 13 feel effortless without loo",
+        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`350` (`Q1`\u2013`Q220` + Copilot `C1`\u2013`C130`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Latest Set (Round 19 Part 1 \u2014 `I.A & I.B` Unit 1 Medium-Hard Open-Book `Q211`\u2013`Q220`)**: **`7 / 10 = 70.0%`** \u2014 Nailed Juran (`Q211`), Shingo (`Q213`), A3 (`Q215`), Maturity (`Q216`), Risk Transfer (`Q217`), Process Owner (`Q218`), ADKAR (`Q220`)! Missed `Q212` (Taguchi Loss Function vs goalpost myth), `Q214` (8D urgent customer containment vs DFSS), `Q219` (Bridges Ending/Letting Go vs Lewin Refreeze).\n- **LOCKED PLAN FOR NEXT STEP**:\n  1. Complete **Round 19 Part 2 (`Q221`\u2013`Q230`, True ASQ Exam-Hard Unit 1, Open-Book with Word Bible!)** already waiting on screen!\n  2. Review any misses using",
         "topics": [
           "hard",
           "zero",
-          "questions",
-          "answer"
+          "answer",
+          "questions"
         ]
       }
     },
@@ -5358,33 +5661,67 @@
       }
     },
     {
-      "id": "topic:change",
+      "id": "topic:right",
       "type": "topic_entity",
-      "name": "change",
+      "name": "right",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'change' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "change"
+        "keyword": "right"
       }
     },
     {
-      "id": "topic:shewhart",
+      "id": "topic:word",
       "type": "topic_entity",
-      "name": "shewhart",
+      "name": "word",
       "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'shewhart' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'word' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "shewhart"
+        "keyword": "word"
       }
     },
     {
-      "id": "topic:asq-bb-exam",
+      "id": "topic:question",
       "type": "topic_entity",
-      "name": "asq-bb-exam",
+      "name": "question",
       "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'question' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "asq-bb-exam"
+        "keyword": "question"
+      }
+    },
+    {
+      "id": "topic:juran",
+      "type": "topic_entity",
+      "name": "juran",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'juran' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "juran"
+      }
+    },
+    {
+      "id": "chat_session:4dda7faa",
+      "type": "chat_session",
+      "name": "Chat Session 4dda7faa",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Chat Session 4dda7faa (58 turns): hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "short_id": "4dda7faa",
+        "turn_count": 58,
+        "first_question": "hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
+        "source": "antigravity_transcript",
+        "topics": [
+          "quality",
+          "right",
+          "step",
+          "word",
+          "question",
+          "unit",
+          "zone",
+          "juran"
+        ]
       }
     },
     {
@@ -5398,256 +5735,6 @@
       }
     },
     {
-      "id": "topic:home",
-      "type": "topic_entity",
-      "name": "home",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'home' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "home"
-      }
-    },
-    {
-      "id": "chat_session:4dda7faa",
-      "type": "chat_session",
-      "name": "Chat Session 4dda7faa",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Chat Session 4dda7faa (52 turns): hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
-      "metadata": {
-        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "short_id": "4dda7faa",
-        "turn_count": 52,
-        "first_question": "hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
-        "source": "antigravity_transcript",
-        "topics": [
-          "quality",
-          "change",
-          "unit",
-          "control",
-          "shewhart",
-          "asq-bb-exam",
-          "deming",
-          "home"
-        ]
-      }
-    },
-    {
-      "id": "topic:workspace",
-      "type": "topic_entity",
-      "name": "workspace",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'workspace' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "workspace"
-      }
-    },
-    {
-      "id": "chat_turn:4dda7faa:S138",
-      "type": "chat_turn",
-      "name": "Chat 4dda7faa Turn S138 (assistant)",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "[ASSISTANT S138] HAHAHA you got me, Cathy \u2014 **\"terrible\" = `96%` (`24 / 25`)?!** That is **outstanding**!! Look at that jump on your scorecard: - **Part A (`10` Qs):** `7 / 10` (`70.0%`) - **Part B (`25` Qs):** **`24 / 25` (`96.0%`)** \u2014 ",
-      "metadata": {
-        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "step_index": 138,
-        "role": "assistant",
-        "created_at": "2026-11-19T03:55:15Z",
-        "content_excerpt": "HAHAHA you got me, Cathy \u2014 **\"terrible\" = `96%` (`24 / 25`)?!** That is **outstanding**!!\n\nLook at that jump on your scorecard:\n- **Part A (`10` Qs):** `7 / 10` (`70.0%`)\n- **Part B (`25` Qs):** **`24 / 25` (`96.0%`)** \u2014 only **1** miss in 25 questions!\n- **Full Copilot Set 5 (`35` Qs):** **`31 / 35` (`88.6%`)** \u2014 up **`+14.3%`** from Copilot Set 4 (`74.3%`)!\n- **New Grand Total (`330` unique Qs):** **`260 / 330` (`78.8%`)** \u2014 all synced to [PERFORMANCE_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/PERFORMANCE_TRACKER.md), [QUESTION_BANK_LOG.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/QUESTION_BANK_LOG.md), [SHARED_SESSION_STATE.md](file:///home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md), Knowledge Graph (`485` nodes / `901` edges / `485` vectors)",
-        "topics": [
-          "asq-bb-exam",
-          "home",
-          "krithika",
-          "workspace"
-        ]
-      }
-    },
-    {
-      "id": "topic:come",
-      "type": "topic_entity",
-      "name": "come",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'come' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "come"
-      }
-    },
-    {
-      "id": "topic:help",
-      "type": "topic_entity",
-      "name": "help",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'help' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "help"
-      }
-    },
-    {
-      "id": "chat_turn:4dda7faa:S139",
-      "type": "chat_turn",
-      "name": "Chat 4dda7faa Turn S139 (user)",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "[USER S139] now can i come to you and you can help?",
-      "metadata": {
-        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "step_index": 139,
-        "role": "user",
-        "created_at": "2026-11-19T03:56:00Z",
-        "content_excerpt": "now can i come to you and you can help?",
-        "topics": [
-          "come",
-          "help"
-        ]
-      }
-    },
-    {
-      "id": "topic:right",
-      "type": "topic_entity",
-      "name": "right",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "right"
-      }
-    },
-    {
-      "id": "topic:tell",
-      "type": "topic_entity",
-      "name": "tell",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'tell' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "tell"
-      }
-    },
-    {
-      "id": "topic:always",
-      "type": "topic_entity",
-      "name": "always",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'always' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "always"
-      }
-    },
-    {
-      "id": "chat_turn:4dda7faa:S140",
-      "type": "chat_turn",
-      "name": "Chat 4dda7faa Turn S140 (assistant)",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "[ASSISTANT S140] Always, Cathy \u2014 I'm right here! What would you like to jump into right now? 1. **ASQ CSSBB \u2014 Unit 1 Quality & Change Leaders (10 fresh questions, `Q201`\u2013`Q210`)** \u2014 building right off your 96% momentum! 2. **Ardent Mills",
-      "metadata": {
-        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "step_index": 140,
-        "role": "assistant",
-        "created_at": "2026-11-19T03:56:00Z",
-        "content_excerpt": "Always, Cathy \u2014 I'm right here!\n\nWhat would you like to jump into right now?\n1. **ASQ CSSBB \u2014 Unit 1 Quality & Change Leaders (10 fresh questions, `Q201`\u2013`Q210`)** \u2014 building right off your 96% momentum!\n2. **Ardent Mills Vault Angular Study \u2014 Lines 62\u201363** (super slow, 1\u20132 lines at a time with your live `http://localhost:4200` screen!)\n3. **Something else** (or tell me that 1 missed question from Copilot first!)\n\nJust say **`1`**, **`2`**, or tell me what's on your mind!",
-        "topics": [
-          "right",
-          "tell",
-          "always",
-          "angular"
-        ]
-      }
-    },
-    {
-      "id": "topic:need",
-      "type": "topic_entity",
-      "name": "need",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'need' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "need"
-      }
-    },
-    {
-      "id": "topic:please",
-      "type": "topic_entity",
-      "name": "please",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'please' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "please"
-      }
-    },
-    {
-      "id": "chat_turn:4dda7faa:S141",
-      "type": "chat_turn",
-      "name": "Chat 4dda7faa Turn S141 (user)",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "[USER S141] we need to do ASQ please",
-      "metadata": {
-        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "step_index": 141,
-        "role": "user",
-        "created_at": "2026-11-19T03:57:32Z",
-        "content_excerpt": "we need to do ASQ please",
-        "topics": [
-          "need",
-          "please"
-        ]
-      }
-    },
-    {
-      "id": "topic:crosby",
-      "type": "topic_entity",
-      "name": "crosby",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'crosby' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "crosby"
-      }
-    },
-    {
-      "id": "topic:philip",
-      "type": "topic_entity",
-      "name": "philip",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'philip' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "philip"
-      }
-    },
-    {
-      "id": "chat_turn:4dda7faa:S144",
-      "type": "chat_turn",
-      "name": "Chat 4dda7faa Turn S144 (assistant)",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "[ASSISTANT S144] Let's do it! Here is **Round 18 (`Q201`\u2013`Q210`) \u2014 Unit 1 Quality, Lean & Change Leaders (`I.A.1` & `I.B.3`)**. Take your time, send your 10 letters (like `201B, 202C, ...`), and flag any you guessed on so we can reinforc",
-      "metadata": {
-        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "step_index": 144,
-        "role": "assistant",
-        "created_at": "2026-11-19T03:57:42Z",
-        "content_excerpt": "Let's do it! Here is **Round 18 (`Q201`\u2013`Q210`) \u2014 Unit 1 Quality, Lean & Change Leaders (`I.A.1` & `I.B.3`)**.  \nTake your time, send your 10 letters (like `201B, 202C, ...`), and flag any you guessed on so we can reinforce them!\n\n---\n\n**Q201.** A manufacturing plant begins plotting hourly measurements on a chart with upper and lower control limits so operators can tell normal background noise apart from sudden machine shifts. Which quality pioneer originated this control chart method and the original PDSA cycle?  \nA. Philip Crosby  \nB. Walter Shewhart  \nC. Genichi Taguchi  \nD. Taiichi Ohno  \n\n**Q202.** A Black Belt facilitates a shop-floor Quality Circle where operators brainstorm potential causes of shipping damage using a fishbone diagram and the 7 Basic Quality Tools. Which pioneer is ",
-        "topics": [
-          "quality",
-          "change",
-          "crosby",
-          "philip"
-        ]
-      }
-    },
-    {
-      "id": "topic:foor",
-      "type": "topic_entity",
-      "name": "foor",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'foor' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "foor"
-      }
-    },
-    {
-      "id": "topic:isnt",
-      "type": "topic_entity",
-      "name": "isnt",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'isnt' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "isnt"
-      }
-    },
-    {
       "id": "topic:pdsa",
       "type": "topic_entity",
       "name": "pdsa",
@@ -5655,26 +5742,6 @@
       "description": "Shared domain topic 'pdsa' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "pdsa"
-      }
-    },
-    {
-      "id": "chat_turn:4dda7faa:S145",
-      "type": "chat_turn",
-      "name": "Chat 4dda7faa Turn S145 (user)",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "[USER S145] isnt pdsa Deming foor 201",
-      "metadata": {
-        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "step_index": 145,
-        "role": "user",
-        "created_at": "2026-11-19T03:59:08Z",
-        "content_excerpt": "isnt pdsa Deming foor 201",
-        "topics": [
-          "deming",
-          "foor",
-          "isnt",
-          "pdsa"
-        ]
       }
     },
     {
@@ -5718,6 +5785,16 @@
       }
     },
     {
+      "id": "topic:need",
+      "type": "topic_entity",
+      "name": "need",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'need' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "need"
+      }
+    },
+    {
       "id": "topic:notes",
       "type": "topic_entity",
       "name": "notes",
@@ -5745,16 +5822,6 @@
           "need",
           "notes"
         ]
-      }
-    },
-    {
-      "id": "topic:juran",
-      "type": "topic_entity",
-      "name": "juran",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'juran' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "juran"
       }
     },
     {
@@ -5838,16 +5905,6 @@
       }
     },
     {
-      "id": "topic:bonus",
-      "type": "topic_entity",
-      "name": "bonus",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'bonus' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "bonus"
-      }
-    },
-    {
       "id": "topic:asq_cssbb_cheat_sheet",
       "type": "topic_entity",
       "name": "asq_cssbb_cheat_sheet",
@@ -5925,6 +5982,241 @@
           "correct",
           "give"
         ]
+      }
+    },
+    {
+      "id": "topic:rules",
+      "type": "topic_entity",
+      "name": "rules",
+      "file_path": "chats/transcript_6e8422d1.jsonl",
+      "description": "Shared domain topic 'rules' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "rules"
+      }
+    },
+    {
+      "id": "topic:asq-bb-exam",
+      "type": "topic_entity",
+      "name": "asq-bb-exam",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "asq-bb-exam"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S175",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S175 (assistant)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[ASSISTANT S175] Done and permanently committed (`a50ddc4`), Cathy! That rule is now locked into [rules.md](file:///home/krithika/workspace/ASQ-BB-Exam/rules.md), [.agents/rules/rules.md](file:///home/krithika/workspace/ASQ-BB-Exam/.agen",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 175,
+        "role": "assistant",
+        "created_at": "2026-11-19T04:12:20Z",
+        "content_excerpt": "Done and permanently committed (`a50ddc4`), Cathy! That rule is now locked into [rules.md](file:///home/krithika/workspace/ASQ-BB-Exam/rules.md), [.agents/rules/rules.md](file:///home/krithika/workspace/ASQ-BB-Exam/.agents/rules/rules.md), [QWEN.md](file:///home/krithika/workspace/ASQ-BB-Exam/QWEN.md), [SHARED_SESSION_STATE.md](file:///home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md), and your Knowledge Graph (`483` nodes / `917` edges / `483` vectors in `kg_vectors_asq_bb_exam`) so both Antigravity and Qwen follow it every single time.\n\nHere are your **3 misses from Round 18**, using your new rule right away:\n\n---\n\n### 1. Q205\n> **Question:** A quality director emphasizes that meeting written engineering drawings is not enough\u2014a product must actually satisfy how the cust",
+        "topics": [
+          "quality",
+          "answer",
+          "rules",
+          "asq-bb-exam"
+        ]
+      }
+    },
+    {
+      "id": "topic:copy",
+      "type": "topic_entity",
+      "name": "copy",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'copy' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "copy"
+      }
+    },
+    {
+      "id": "topic:paste",
+      "type": "topic_entity",
+      "name": "paste",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'paste' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "paste"
+      }
+    },
+    {
+      "id": "topic:pastes",
+      "type": "topic_entity",
+      "name": "pastes",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'pastes' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "pastes"
+      }
+    },
+    {
+      "id": "topic:plain",
+      "type": "topic_entity",
+      "name": "plain",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'plain' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "plain"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S176",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S176 (user)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[USER S176] i am unable to copy paste your table, it pastes as plain text",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 176,
+        "role": "user",
+        "created_at": "2026-11-19T04:14:03Z",
+        "content_excerpt": "i am unable to copy paste your table, it pastes as plain text",
+        "topics": [
+          "copy",
+          "paste",
+          "pastes",
+          "plain"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S179",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S179 (assistant)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[ASSISTANT S179] Yes \u2014 Zed chat tables copy as plain text into Word! Here are **2 super-easy ways** to get a real 3-column table in 2 seconds: ### Option 1: Copy This Tab-Separated Box (Works in Both Excel & Word!) - **In Excel:** Click ",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 179,
+        "role": "assistant",
+        "created_at": "2026-11-19T04:14:23Z",
+        "content_excerpt": "Yes \u2014 Zed chat tables copy as plain text into Word! Here are **2 super-easy ways** to get a real 3-column table in 2 seconds:\n\n### Option 1: Copy This Tab-Separated Box (Works in Both Excel & Word!)\n- **In Excel:** Click Copy -> paste (`Ctrl+V`) -> snaps straight into 3 clean columns!\n- **In Microsoft Word:** Paste (`Ctrl+V`) -> highlight the pasted lines -> click **Insert -> Table -> Convert Text to Table** -> click **OK**!\n\n```tsv\nName\t2-Word Exam Trigger\tSticky Memory Picture\nWalter Shewhart\tControl Charts\t\"S-C\" = Shewhart Charts (also started PDSA)\nW. Edwards Deming\tSystem / 14 Points\tBlames management's system (85%-94%), made PDCA famous\nJoseph Juran\tTrilogy + Fitness\t\"Fitness for Use\" + 3-part Trilogy (Plan, Control, Improve) + Pareto 80/20\nPhilip Crosby\tZero Defects\t\"Quality is Free",
+        "topics": [
+          "word",
+          "step",
+          "bonus",
+          "change"
+        ]
+      }
+    },
+    {
+      "id": "topic:actually",
+      "type": "topic_entity",
+      "name": "actually",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'actually' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "actually"
+      }
+    },
+    {
+      "id": "topic:bible",
+      "type": "topic_entity",
+      "name": "bible",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'bible' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "bible"
+      }
+    },
+    {
+      "id": "topic:brain",
+      "type": "topic_entity",
+      "name": "brain",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'brain' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "brain"
+      }
+    },
+    {
+      "id": "topic:cant",
+      "type": "topic_entity",
+      "name": "cant",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'cant' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cant"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S180",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S180 (user)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[USER S180] next 20 please - are these hard or you are still in simple zone? I am actually slow - too many to remember which i cant due to brain fog, I am 50 years old, no more young - I will need to refer to bible - are you ok with",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 180,
+        "role": "user",
+        "created_at": "2026-11-19T04:21:13Z",
+        "content_excerpt": "next 20 please - are these hard or you are still in simple zone? I am actually slow - too many to remember which i cant due to brain fog, I am 50 years old, no more young - I will need to refer to bible - are you ok with that",
+        "topics": [
+          "actually",
+          "bible",
+          "brain",
+          "cant"
+        ]
+      }
+    },
+    {
+      "id": "topic:q211",
+      "type": "topic_entity",
+      "name": "q211",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'q211' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "q211"
+      }
+    },
+    {
+      "id": "topic:q230",
+      "type": "topic_entity",
+      "name": "q230",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'q230' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "q230"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S181",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S181 (assistant)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[ASSISTANT S181] **1000% YES \u2014 please USE your Word Bible on every single question, Cathy!** Here is the best news about the ASQ CSSBB exam: **the real exam in March 2027 is 100% OPEN-BOOK!** Nobody \u2014 25 years old or 50 years old \u2014 is su",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 181,
+        "role": "assistant",
+        "created_at": "2026-11-19T04:21:14Z",
+        "content_excerpt": "**1000% YES \u2014 please USE your Word Bible on every single question, Cathy!**\n\nHere is the best news about the ASQ CSSBB exam: **the real exam in March 2027 is 100% OPEN-BOOK!** Nobody \u2014 25 years old or 50 years old \u2014 is supposed to cram every name and formula into memory. The real exam skill is **knowing which table in your Word Bible to glance at in 5 seconds** and then using your 10+ years of real-world business judgment to pick the right choice. Your experience is a *massive* advantage here!\n\nTo answer you honestly on difficulty:\n- **Round 18 (`Q201`\u2013`Q210`)** was **Medium** (direct recall on the leaders).\n- Below is **Round 19 (`Q211`\u2013`Q230` \u2014 20 Unit 1 Questions, Open-Book Allowed!)**:\n  - **`Q211`\u2013`Q220`** = **Medium-Hard** (clean application scenarios)\n  - **`Q221`\u2013`Q230`** = **True ",
+        "topics": [
+          "part",
+          "q211",
+          "q230",
+          "bible"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S182",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S182 (user)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[USER S182] b,a,a,a,b,c,a,d,c,c",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 182,
+        "role": "user",
+        "created_at": "2026-11-19T04:28:26Z",
+        "content_excerpt": "b,a,a,a,b,c,a,d,c,c",
+        "topics": []
       }
     },
     {
@@ -6475,6 +6767,26 @@
       }
     },
     {
+      "id": "topic:workspace",
+      "type": "topic_entity",
+      "name": "workspace",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'workspace' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "workspace"
+      }
+    },
+    {
+      "id": "topic:home",
+      "type": "topic_entity",
+      "name": "home",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'home' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "home"
+      }
+    },
+    {
       "id": "topic:fuel",
       "type": "topic_entity",
       "name": "fuel",
@@ -6482,16 +6794,6 @@
       "description": "Shared domain topic 'fuel' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "fuel"
-      }
-    },
-    {
-      "id": "topic:rules",
-      "type": "topic_entity",
-      "name": "rules",
-      "file_path": "chats/transcript_6e8422d1.jsonl",
-      "description": "Shared domain topic 'rules' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "rules"
       }
     },
     {
@@ -11959,6 +12261,336 @@
       }
     },
     {
+      "source": "doc_file:documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "target": "topic:change",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "target": "topic:quality",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "target": "topic:step",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "target": "topic:bonus",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "target": "topic:control",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "target": "topic:system",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "target": "topic:bottleneck",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "target": "topic:charts",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "target": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:1",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:1",
+      "target": "topic:charts",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:1",
+      "target": "topic:shewhart",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:1",
+      "target": "topic:change",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:1",
+      "target": "topic:control",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "target": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:2",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:2",
+      "target": "topic:fitness",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:2",
+      "target": "topic:system",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:2",
+      "target": "topic:trilogy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:2",
+      "target": "topic:blames",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "target": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:3",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:3",
+      "target": "topic:fishbone",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:3",
+      "target": "topic:quality",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:3",
+      "target": "topic:armand",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:3",
+      "target": "topic:basic",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "target": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:4",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:4",
+      "target": "topic:against",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:4",
+      "target": "topic:bill",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:4",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:4",
+      "target": "topic:fast",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "target": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:5",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:5",
+      "target": "topic:step",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:5",
+      "target": "topic:motorola",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:5",
+      "target": "topic:analysis",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:5",
+      "target": "topic:built",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "target": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:6",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:6",
+      "target": "topic:bonus",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:6",
+      "target": "topic:neutral",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:6",
+      "target": "topic:zone",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:6",
+      "target": "topic:adkar",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "target": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:7",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:7",
+      "target": "topic:bottleneck",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:7",
+      "target": "topic:ability",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:7",
+      "target": "topic:awareness",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit1_Quality_And_Change_Leaders_Table.docx:7",
+      "target": "topic:bonus",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
       "source": "chat_session:SHAREDSE",
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
@@ -11992,14 +12624,6 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:hard",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 10
-      }
-    },
-    {
-      "source": "chat_session:SHAREDSE",
       "target": "topic:nasdaq",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
@@ -12024,13 +12648,15 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "doc:QWEN.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "target": "doc:QWEN.md",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
@@ -12171,7 +12797,7 @@
       "target": "topic:hard",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 9
+        "count": 7
       }
     },
     {
@@ -12184,7 +12810,7 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:questions",
+      "target": "topic:answer",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 5
@@ -12192,10 +12818,10 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:answer",
+      "target": "topic:questions",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 4
+        "count": 5
       }
     },
     {
@@ -12207,12 +12833,6 @@
     {
       "source": "chat_turn:SHAREDSE:S5",
       "target": "doc:QWEN.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:SHAREDSE:S5",
-      "target": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
@@ -12271,12 +12891,36 @@
       "target": "topic:quality",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 16
+        "count": 17
       }
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "topic:change",
+      "target": "topic:right",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 13
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:step",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 13
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:word",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:question",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 11
@@ -12287,52 +12931,34 @@
       "target": "topic:unit",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:zone",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:juran",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
         "count": 10
       }
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "topic:control",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "topic:shewhart",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "topic:asq-bb-exam",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "topic:deming",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "topic:home",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
       "target": "doc:PERFORMANCE_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "doc:QWEN.md",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
@@ -12344,216 +12970,8 @@
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "doc:documents/QUESTION_BANK_LOG.md",
+      "target": "doc_file:documents/Unit1_Quality_And_Change_Leaders_Table.docx",
       "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:4dda7faa:S138",
-      "target": "topic:asq-bb-exam",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S138",
-      "target": "topic:home",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S138",
-      "target": "topic:krithika",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S138",
-      "target": "topic:workspace",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "chat_turn:4dda7faa:S138",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:4dda7faa:S138",
-      "target": "doc:PERFORMANCE_TRACKER.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:4dda7faa:S138",
-      "target": "doc:documents/QUESTION_BANK_LOG.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:4dda7faa:S139",
-      "target": "topic:come",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S139",
-      "target": "topic:help",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "chat_turn:4dda7faa:S139",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:4dda7faa:S140",
-      "target": "topic:right",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S140",
-      "target": "topic:tell",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S140",
-      "target": "topic:always",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S140",
-      "target": "topic:angular",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "chat_turn:4dda7faa:S140",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:4dda7faa:S141",
-      "target": "topic:need",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S141",
-      "target": "topic:please",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "chat_turn:4dda7faa:S141",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:4dda7faa:S144",
-      "target": "topic:quality",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 11
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S144",
-      "target": "topic:change",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S144",
-      "target": "topic:crosby",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S144",
-      "target": "topic:philip",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "chat_turn:4dda7faa:S144",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:4dda7faa:S145",
-      "target": "topic:deming",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S145",
-      "target": "topic:foor",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S145",
-      "target": "topic:isnt",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S145",
-      "target": "topic:pdsa",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "chat_turn:4dda7faa:S145",
-      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -12799,6 +13217,214 @@
     {
       "source": "chat_session:4dda7faa",
       "target": "chat_turn:4dda7faa:S164",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S175",
+      "target": "topic:quality",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S175",
+      "target": "topic:answer",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S175",
+      "target": "topic:rules",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S175",
+      "target": "topic:asq-bb-exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S175",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S175",
+      "target": "doc:QWEN.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S176",
+      "target": "topic:copy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S176",
+      "target": "topic:paste",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S176",
+      "target": "topic:pastes",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S176",
+      "target": "topic:plain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S176",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S179",
+      "target": "topic:word",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S179",
+      "target": "topic:step",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S179",
+      "target": "topic:bonus",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S179",
+      "target": "topic:change",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S179",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S179",
+      "target": "doc_file:documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S180",
+      "target": "topic:actually",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S180",
+      "target": "topic:bible",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S180",
+      "target": "topic:brain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S180",
+      "target": "topic:cant",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S180",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S181",
+      "target": "topic:part",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S181",
+      "target": "topic:q211",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S181",
+      "target": "topic:q230",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S181",
+      "target": "topic:bible",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S181",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S182",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -14170,7 +14796,7 @@
     }
   ],
   "file_hashes": {
-    "PERFORMANCE_TRACKER.md": "870600b8c83c247f6609857a518d812e1cf4a103ec24a3f1fbb6da0311ffcc5b",
+    "PERFORMANCE_TRACKER.md": "5687f9e2464b1b54dfb9b0f4a8a07d3f525887f7da6b2261085cc97fd572d49f",
     "QWEN.md": "bae6509f282b7dc93d5960f716519bd33708dad83742f1a000aac59d99c76c0d",
     "README.md": "506319462ce0f0d62f6cbed53d6d0cdfa3c40623a05eacd6b881d9c3ddd8facf",
     "STUDY_ROADMAP_MAR2027.md": "0565fb20c8f9008ab7629f78fed3bdf076952045a4567cca7ccebd4e1e986a27",
@@ -14222,14 +14848,15 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "c6f4ff5b32bf40034c7dc0756154abc5a6a2d7bcc6cfc11d938d490bc9bd4ede",
+    "chats/SHARED_SESSION_STATE.md": "4fadee189cc482fbde56fbd30ab0a56f4e354c8fb3f772a79653221630e3e107",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "242980d0d57705182315309f2f9cdbe7f850c434466bfd604cba12031ad24554",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
     "documents/CAREER_APPLICATIONS_TRACKER.md": "865bb07780768b79578914e406e0ec470ceeebb5cf21bbe1a7b43f36b8e163c5",
-    "documents/QUESTION_BANK_LOG.md": "94f77bae3a7fd1204aff086669f4d07442e5a875b56aaf21543fc474241530bb",
-    "repo.md": "de953ffe6bc3ca6c8e9f29446cdfa8d4241119c183401879bfa8afb36547e300"
+    "documents/QUESTION_BANK_LOG.md": "ebc9aa637c2c69f1655ade4eff24e13f1d235e7748253b4acc62e27121f8d2b6",
+    "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
+    "repo.md": "22426cbd28ea427c1481ce0d94d9dfb93de07b68ee175927f07f6c3648be8b22"
   }
 }
