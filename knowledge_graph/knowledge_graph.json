@@ -1,27 +1,27 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-18T18:15:19.508413+00:00",
+    "generated_at": "2026-11-19T03:55:10.135549+00:00",
     "total_files_indexed": 60,
-    "total_nodes": 453,
-    "total_edges": 853,
+    "total_nodes": 485,
+    "total_edges": 901,
     "node_type_counts": {
       "chat_session": 6,
-      "chat_turn": 37,
+      "chat_turn": 48,
       "document": 43,
       "document_file": 15,
       "document_section": 99,
       "html_template": 1,
-      "topic_entity": 252
+      "topic_entity": 273
     }
   },
   "last_change_check": {
     "changed": true,
     "added": [],
     "modified": [
-      "Resume_And_Jobs/Target_Jobs_Tracker.md",
+      "PERFORMANCE_TRACKER.md",
       "chats/SHARED_SESSION_STATE.md",
-      "documents/CAREER_APPLICATIONS_TRACKER.md"
+      "documents/QUESTION_BANK_LOG.md"
     ],
     "removed": [],
     "files_parsed": 2,
@@ -29,16 +29,16 @@
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 38,
-      "nodes_deleted": 15,
-      "edges_upserted": 50,
-      "edges_deleted": 48,
+      "nodes_upserted": 66,
+      "nodes_deleted": 21,
+      "edges_upserted": 87,
+      "edges_deleted": 35,
       "wiki_pages_upserted": 2,
       "wiki_pages_deleted": 0,
       "files_upserted": 4,
       "files_deleted": 0,
-      "total_nodes_in_db": 453,
-      "total_edges_in_db": 853,
+      "total_nodes_in_db": 485,
+      "total_edges_in_db": 901,
       "total_files_tracked": 61
     }
   },
@@ -61,10 +61,11 @@
           "Stage 2 (`V. Measure`) COMPLETE!",
           "Stage 3 (`VI. Analyze`) IN PROGRESS",
           "Project 2 (`50+ Qs`) COMPLETE (`Q51`\u2013`Q100`)!",
-          "`9 / 10` (`90.0%`)",
-          "`70 / 85 = 82.4%`",
-          "Overall Cumulative Score (`Q1`\u2013`Q200` + `C1`\u2013`C95` = `295` Qs):",
-          "`229 / 295` (`77.6%`)",
+          "Latest Batch Score (Copilot Set 5 \u2014 `C96`\u2013`C130`, `35` Qs):",
+          "`31 / 35` (`88.6%`)",
+          "`24 / 25` (`96.0%` \u2014 HUGE jump from Set 4's `74.3%`!)",
+          "Overall Cumulative Score (`Q1`\u2013`Q200` + `C1`\u2013`C130` = `330` Qs):",
+          "`260 / 330` (`78.8%`)",
           "I. Org-Wide Planning & Deployment",
           "91.5%",
           "Easy `10/10` -> Med `9/10` -> Hard `8/10` & `9/10`!",
@@ -170,19 +171,23 @@
           "50+ Qs",
           "Q51",
           "Q100",
-          "I.A & I.B",
-          "Q191",
-          "Q200",
-          "9 / 10",
-          "90.0%",
-          "10/10 -> 9/10 -> 8/10 -> 9/10 = 36/40 = 90.0%",
-          "70 / 85 = 82.4%",
+          "C96",
+          "C130",
+          "35",
+          "31 / 35",
+          "88.6%",
+          "C105",
+          "7 / 10",
+          "C106",
+          "24 / 25",
+          "96.0%",
+          "74.3%",
           "Q1",
+          "Q200",
           "C1",
-          "C95",
-          "295",
-          "229 / 295",
-          "77.6%",
+          "330",
+          "260 / 330",
+          "78.8%",
           "10/10",
           "9/10",
           "8/10",
@@ -1089,7 +1094,7 @@
       "id": "topic:process",
       "type": "topic_entity",
       "name": "process",
-      "file_path": "Resume_And_Jobs/Job34_NVIDIA_JR2022577_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
       "description": "Shared domain topic 'process' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "process"
@@ -1895,7 +1900,7 @@
       "id": "topic:measurement",
       "type": "topic_entity",
       "name": "measurement",
-      "file_path": "Resume_And_Jobs/Job30_Gilead_R0056314_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
       "description": "Shared domain topic 'measurement' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "measurement"
@@ -2060,7 +2065,7 @@
       "id": "topic:angular",
       "type": "topic_entity",
       "name": "angular",
-      "file_path": "Resume_And_Jobs/Job32_Zillow_P751645_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
       "description": "Shared domain topic 'angular' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "angular"
@@ -3125,7 +3130,7 @@
       "id": "topic:unit",
       "type": "topic_entity",
       "name": "unit",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'unit' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "unit"
@@ -3135,7 +3140,7 @@
       "id": "topic:chart",
       "type": "topic_entity",
       "name": "chart",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
       "description": "Shared domain topic 'chart' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "chart"
@@ -4688,10 +4693,13 @@
           "Round 14 (Chapter 1 Level 1 Easy: `I.A & I.B` Six Sigma vs. Lean & Belt Roles \u2014 `Q161`\u2013`Q170` \u2014 2026-11-18 | Score: `10/10 = 100%`)",
           "Round 15 (Chapter 1 Level 2 Medium: `I.A & I.B` Foundations, Roles, Barriers & Change \u2014 `Q171`\u2013`Q180` \u2014 2026-11-18 | Score: `9/10 = 90.0%`)",
           "Round 16 (Chapter 1 Level 3 Hard Set 1 of 2: `I.A & I.B` \u2014 `Q181`\u2013`Q190` \u2014 2026-11-18 | Score: `8/10 = 80.0%`)",
-          "Round 17 (Chapter 1 Level 3 Hard Set 2 of 2: `I.A & I.B` \u2014 `Q191`\u2013`Q200` \u2014 2026-11-18 | Score: `9/10 = 90.0%`)"
+          "Round 17 (Chapter 1 Level 3 Hard Set 2 of 2: `I.A & I.B` \u2014 `Q191`\u2013`Q200` \u2014 2026-11-18 | Score: `9/10 = 90.0%`)",
+          "External Practice Batch \u2014 Copilot Set 5 (`C96`\u2013`C130`, `35` Qs \u2014 `31 / 35 = 88.6%` on `2026-11-18/19`)"
         ],
         "keywords": [
           "Rule:",
+          "Part A (`C96`\u2013`C105`, `7 / 10 = 70.0%`):",
+          "Part B (`C106`\u2013`C130`, `24 / 25 = 96.0%` \u2014 Outstanding Mastery!):",
           "Q1",
           "Q15",
           "14/15",
@@ -4938,9 +4946,7 @@
           "Q132",
           "Q133",
           "Q134",
-          "Q135",
-          "Q136",
-          "Q137"
+          "Q135"
         ],
         "format": "md"
       }
@@ -4966,16 +4972,6 @@
       }
     },
     {
-      "id": "topic:hard",
-      "type": "topic_entity",
-      "name": "hard",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'hard' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "hard"
-      }
-    },
-    {
       "id": "topic:lockheed",
       "type": "topic_entity",
       "name": "lockheed",
@@ -4993,6 +4989,16 @@
       "description": "Shared domain topic 'applied' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "applied"
+      }
+    },
+    {
+      "id": "topic:hard",
+      "type": "topic_entity",
+      "name": "hard",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'hard' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "hard"
       }
     },
     {
@@ -5030,9 +5036,9 @@
         "topics": [
           "manager",
           "rejected",
-          "hard",
           "lockheed",
           "applied",
+          "hard",
           "nasdaq",
           "sourcing",
           "remote"
@@ -5194,13 +5200,13 @@
       "type": "chat_turn",
       "name": "Chat SHAREDSE Turn S3 (assistant)",
       "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "[ASSISTANT S3] - **Candidate Preferred Name**: **Cathy** - **Last Synced**: `2026-11-18`",
+      "description": "[ASSISTANT S3] - **Candidate Preferred Name**: **Cathy** - **Last Synced**: `2026-11-19`",
       "metadata": {
         "conversation_id": "SHAREDSE",
         "step_index": 3,
         "role": "assistant",
         "created_at": "",
-        "content_excerpt": "- **Candidate Preferred Name**: **Cathy**\n- **Last Synced**: `2026-11-18`",
+        "content_excerpt": "- **Candidate Preferred Name**: **Cathy**\n- **Last Synced**: `2026-11-19`",
         "topics": [
           "candidate",
           "cathy",
@@ -5235,23 +5241,23 @@
       }
     },
     {
-      "id": "topic:chapter",
+      "id": "topic:c130",
       "type": "topic_entity",
-      "name": "chapter",
+      "name": "c130",
       "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'chapter' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'c130' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "chapter"
+        "keyword": "c130"
       }
     },
     {
-      "id": "topic:domain",
+      "id": "topic:copilot",
       "type": "topic_entity",
-      "name": "domain",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'domain' connecting multi-modal documents and workspace chats",
+      "name": "copilot",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'copilot' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "domain"
+        "keyword": "copilot"
       }
     },
     {
@@ -5259,18 +5265,18 @@
       "type": "chat_turn",
       "name": "Chat SHAREDSE Turn S5 (assistant)",
       "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`295` (`Q1`\u2013`Q200` + Copilot `C1`\u2013`C95`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). - **Latest Set (Round 17 ",
+      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`330` (`Q1`\u2013`Q200` + Copilot `C1`\u2013`C130`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). - **Latest Set (Copilot ",
       "metadata": {
         "conversation_id": "SHAREDSE",
         "step_index": 5,
         "role": "assistant",
         "created_at": "",
-        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`295` (`Q1`\u2013`Q200` + Copilot `C1`\u2013`C95`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Latest Set (Round 17 \u2014 `I.A & I.B` Chapter 1 Hard Set 2 of 2 `Q191`\u2013`Q200`)**: **`9 / 10 = 90.0%`!** *(Chapter 1 ladder so far: Easy `10/10`, Medium `9/10`, Hard Set 1 `8/10`, Hard Set 2 `9/10` = `36 / 40 = 90.0%`! Today's grand total: **`85` questions (`70 / 85 = 82.4%`)** + **`6` job applications**!)*\n- **LOCKED PLAN FOR TOMORROW (`2026-11-18`)**:\n  1. Bring in **ALL Unit 1 Quality & Change Leaders** (*Juran, Deming, Crosby, Ishikawa, Taguchi, Shigeo Shingo, Taiichi Ohno, Walter Shewhart, Feigenbaum, Bill Smith, Kurt Lewin, John Kotter, William Bridges*) + any remaining `Domain I` sub-items w",
+        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`330` (`Q1`\u2013`Q200` + Copilot `C1`\u2013`C130`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Latest Set (Copilot Set 5 \u2014 `C96`\u2013`C130`, `35` Qs)**: **`31 / 35 = 88.6%`!** *(Part A `C96`\u2013`C105`: `7 / 10 = 70.0%`; Part B `C106`\u2013`C130`: **`24 / 25 = 96.0%`** \u2014 up `+14.3%` from Copilot Set 4's `74.3%`!)*\n- **LOCKED PLAN FOR NEXT SESSION**:\n  1. Bring in **ALL Unit 1 Quality & Change Leaders** (*Juran, Deming, Crosby, Ishikawa, Taguchi, Shigeo Shingo, Taiichi Ohno, Walter Shewhart, Feigenbaum, Bill Smith, Kurt Lewin, John Kotter, William Bridges*) + any remaining `Domain I` sub-items with **steady repetition** so 100% of Unit 1 is thoroughly covered.\n  2. Give a **Very Hard / Notoriously Ha",
         "topics": [
           "hard",
           "zero",
-          "chapter",
-          "domain"
+          "c130",
+          "copilot"
         ]
       }
     },
@@ -5310,83 +5316,73 @@
       }
     },
     {
-      "id": "topic:model",
+      "id": "topic:e103446",
       "type": "topic_entity",
-      "name": "model",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'model' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "model"
-      }
-    },
-    {
-      "id": "topic:user_settings_change",
-      "type": "topic_entity",
-      "name": "user_settings_change",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'user_settings_change' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "user_settings_change"
-      }
-    },
-    {
-      "id": "topic:carbon",
-      "type": "topic_entity",
-      "name": "carbon",
+      "name": "e103446",
       "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'carbon' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'e103446' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "carbon"
+        "keyword": "e103446"
       }
     },
     {
-      "id": "topic:change",
+      "id": "topic:users",
       "type": "topic_entity",
-      "name": "change",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'change' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "change"
-      }
-    },
-    {
-      "id": "topic:changed",
-      "type": "topic_entity",
-      "name": "changed",
+      "name": "users",
       "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'changed' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'users' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "changed"
+        "keyword": "users"
       }
     },
     {
-      "id": "topic:comment",
+      "id": "topic:cathy_angular_portfolio",
       "type": "topic_entity",
-      "name": "comment",
+      "name": "cathy_angular_portfolio",
       "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'comment' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'cathy_angular_portfolio' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "comment"
+        "keyword": "cathy_angular_portfolio"
       }
     },
     {
-      "id": "topic:doesn",
+      "id": "topic:desktop",
       "type": "topic_entity",
-      "name": "doesn",
+      "name": "desktop",
       "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'doesn' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'desktop' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "doesn"
+        "keyword": "desktop"
       }
     },
     {
-      "id": "topic:exact",
+      "id": "topic:vault",
       "type": "topic_entity",
-      "name": "exact",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'exact' connecting multi-modal documents and workspace chats",
+      "name": "vault",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'vault' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "exact"
+        "keyword": "vault"
+      }
+    },
+    {
+      "id": "topic:localhost",
+      "type": "topic_entity",
+      "name": "localhost",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'localhost' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "localhost"
+      }
+    },
+    {
+      "id": "topic:powershell",
+      "type": "topic_entity",
+      "name": "powershell",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'powershell' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "powershell"
       }
     },
     {
@@ -5394,42 +5390,112 @@
       "type": "chat_session",
       "name": "Chat Session 4dda7faa",
       "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Chat Session 4dda7faa (1 turns): hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
+      "description": "Chat Session 4dda7faa (40 turns): hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
       "metadata": {
         "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
         "short_id": "4dda7faa",
-        "turn_count": 1,
+        "turn_count": 40,
         "first_question": "hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
         "source": "antigravity_transcript",
         "topics": [
-          "model",
-          "user_settings_change",
-          "carbon",
-          "change",
-          "changed",
-          "comment",
-          "doesn",
-          "exact"
+          "e103446",
+          "users",
+          "cathy_angular_portfolio",
+          "desktop",
+          "vault",
+          "control",
+          "localhost",
+          "powershell"
         ]
       }
     },
     {
-      "id": "chat_turn:4dda7faa:S0",
-      "type": "chat_turn",
-      "name": "Chat 4dda7faa Turn S0 (user)",
+      "id": "topic:serve",
+      "type": "topic_entity",
+      "name": "serve",
       "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "[USER S0] hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user doesn't ask about ",
+      "description": "Shared domain topic 'serve' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "serve"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S117",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S117 (assistant)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[ASSISTANT S117] Yes \u2014 I remember that **Demo Switcher**! It sits in your **`Cathy_Angular_Portfolio`** folder and swaps **`app.ts`** between your saved **SBX** and **Vault** files (while `ng serve` / `npm start` runs in the background t",
       "metadata": {
         "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "step_index": 0,
-        "role": "user",
-        "created_at": "2026-11-18T18:13:04Z",
-        "content_excerpt": "hey can you pls update that waymo got rejected too\n\n<USER_SETTINGS_CHANGE>\nThe user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.\n</USER_SETTINGS_CHANGE>",
+        "step_index": 117,
+        "role": "assistant",
+        "created_at": "2026-11-19T03:43:45Z",
+        "content_excerpt": "Yes \u2014 I remember that **Demo Switcher**! It sits in your **`Cathy_Angular_Portfolio`** folder and swaps **`app.ts`** between your saved **SBX** and **Vault** files (while `ng serve` / `npm start` runs in the background to serve `http://localhost:4200`).\n\nBefore I give you the fresh **2-option script (`1 = SBX`, `2 = Vault`)** with zero path errors, run this **1 line** in your `PS C:\\Users\\e103446>` window and paste the output here so I see the exact filenames saved on your office laptop:\n\n```powershell\nGet-ChildItem \"C:\\Users\\e103446\\Desktop\\Cathy_Angular_Portfolio\", \"C:\\Users\\e103446\\Documents\\hello-cathy\\src\\app\" -ErrorAction SilentlyContinue | Select-Object FullName\n```\n\n*(Also let me know if **`http://localhost:4200`** opened after `npm start` \u2014 once I see those exact file paths, I'll ",
         "topics": [
-          "model",
-          "user_settings_change",
-          "carbon",
-          "change"
+          "e103446",
+          "serve",
+          "users",
+          "vault"
+        ]
+      }
+    },
+    {
+      "id": "topic:came",
+      "type": "topic_entity",
+      "name": "came",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'came' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "came"
+      }
+    },
+    {
+      "id": "topic:host",
+      "type": "topic_entity",
+      "name": "host",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'host' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "host"
+      }
+    },
+    {
+      "id": "topic:local",
+      "type": "topic_entity",
+      "name": "local",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'local' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "local"
+      }
+    },
+    {
+      "id": "topic:slow",
+      "type": "topic_entity",
+      "name": "slow",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'slow' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "slow"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S118",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S118 (user)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[USER S118] local host was soooooooooooooooooooooo slow just came",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 118,
+        "role": "user",
+        "created_at": "2026-11-19T03:43:59Z",
+        "content_excerpt": "local host was soooooooooooooooooooooo slow just came",
+        "topics": [
+          "came",
+          "host",
+          "local",
+          "slow"
         ]
       }
     },
@@ -5444,23 +5510,368 @@
       }
     },
     {
-      "id": "topic:adobe",
-      "type": "topic_entity",
-      "name": "adobe",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'adobe' connecting multi-modal documents and workspace chats",
+      "id": "chat_turn:4dda7faa:S119",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S119 (assistant)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[ASSISTANT S119] Yay \u2014 **`http://localhost:4200` is live!** After a laptop restart, Angular's very first build is always slow while it warms up its cache; from now on, refreshes will take ~1\u20132 seconds. **Quick tip:** **Minimize** that Po",
       "metadata": {
-        "keyword": "adobe"
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 119,
+        "role": "assistant",
+        "created_at": "2026-11-19T03:43:59Z",
+        "content_excerpt": "Yay \u2014 **`http://localhost:4200` is live!** After a laptop restart, Angular's very first build is always slow while it warms up its cache; from now on, refreshes will take ~1\u20132 seconds.\n\n**Quick tip:** **Minimize** that PowerShell window (don't close it or click inside it) so Angular stays awake!\n\nWhenever you're ready:\n- Want the **2-option `1 = SBX / 2 = Vault` switcher** in a second PowerShell tab? Just run that `Get-ChildItem` line and paste the output.\n- Or jump right back into your **25 remaining Copilot ASQ CSSBB questions** (or **Vault study**) \u2014 I'm right here!",
+        "topics": [
+          "angular",
+          "powershell",
+          "right",
+          "vault"
+        ]
       }
     },
     {
-      "id": "topic:home",
-      "type": "topic_entity",
-      "name": "home",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'home' connecting multi-modal documents and workspace chats",
+      "id": "chat_turn:4dda7faa:S120",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S120 (user)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[USER S120] FullName -------- C:\\Users\\e103446\\Desktop\\Cathy_Angular_Portfolio\\app.ts C:\\Users\\e103446\\Desktop\\Cathy_Angular_Portfolio\\Class2_Add_Multiply.txt C:\\Users\\e103446\\Desktop\\Cathy_Angular_Portfolio\\Class3_ArithmeticGeometr",
       "metadata": {
-        "keyword": "home"
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 120,
+        "role": "user",
+        "created_at": "2026-11-19T03:44:39Z",
+        "content_excerpt": "FullName\n--------\nC:\\Users\\e103446\\Desktop\\Cathy_Angular_Portfolio\\app.ts\nC:\\Users\\e103446\\Desktop\\Cathy_Angular_Portfolio\\Class2_Add_Multiply.txt\nC:\\Users\\e103446\\Desktop\\Cathy_Angular_Portfolio\\Class3_ArithmeticGeometric.txt\nC:\\Users\\e103446\\Desktop\\Cathy_Angular_Portfolio\\Class3_Divide_IfElse.txt\nC:\\Users\\e103446\\Desktop\\Cathy_Angular_Portfolio\\Class3_Fibonacci.txt\nC:\\Users\\e103446\\Desktop\\Cathy_Angular_Portfolio\\Class4_GreatestSmallestOf3.txt\nC:\\Users\\e103446\\Desktop\\Cathy_Angular_Portfolio\\Class5_Mini_Vault_CopyRates.txt\nC:\\Users\\e103446\\Desktop\\Cathy_Angular_Portfolio\\Class5_Mini_Vault_Dropdowns.txt\nC:\\Users\\e103446\\Desktop\\Cathy_Angular_Portfolio\\Class6A_Vault_Grid_Hardcoded.txt\nC:\\Users\\e103446\\Desktop\\Cathy_Angular_Portfolio\\Class6B_Vault_Grid_Dynamic.txt\nC:\\Users\\e103446\\Desktop\\",
+        "topics": [
+          "e103446",
+          "users",
+          "cathy_angular_portfolio",
+          "desktop"
+        ]
+      }
+    },
+    {
+      "id": "topic:write-host",
+      "type": "topic_entity",
+      "name": "write-host",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'write-host' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "write-host"
+      }
+    },
+    {
+      "id": "topic:choice",
+      "type": "topic_entity",
+      "name": "choice",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'choice' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "choice"
+      }
+    },
+    {
+      "id": "topic:foregroundcolor",
+      "type": "topic_entity",
+      "name": "foregroundcolor",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'foregroundcolor' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "foregroundcolor"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S121",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S121 (assistant)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[ASSISTANT S121] Found both exact backup files on your office laptop! - **Option 1 (SBX):** `Class8_SBX_Final_Backup.txt` - **Option 2 (Vault):** `Class9_Vault_Final_Backup.txt` ### Your 2-Option Switcher (`1 = SBX`, `2 = Vault`) Keep yo",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 121,
+        "role": "assistant",
+        "created_at": "2026-11-19T03:44:39Z",
+        "content_excerpt": "Found both exact backup files on your office laptop!\n- **Option 1 (SBX):** `Class8_SBX_Final_Backup.txt`\n- **Option 2 (Vault):** `Class9_Vault_Final_Backup.txt`\n\n### Your 2-Option Switcher (`1 = SBX`, `2 = Vault`)\nKeep your **1st PowerShell tab** running `npm start` (minimized), then paste this into a **2nd PowerShell tab** and press **Enter**:\n\n```powershell\n$sbx   = \"C:\\Users\\e103446\\Desktop\\Cathy_Angular_Portfolio\\Class8_SBX_Final_Backup.txt\"\n$vault = \"C:\\Users\\e103446\\Desktop\\Cathy_Angular_Portfolio\\Class9_Vault_Final_Backup.txt\"\n$app   = \"C:\\Users\\e103446\\Documents\\hello-cathy\\src\\app\\app.ts\"\n\nwhile ($true) {\n  Write-Host \"`n--- CATHY'S APP SWITCHER ---\" -ForegroundColor Cyan\n  Write-Host \"  [1] SBX Cafe\"\n  Write-Host \"  [2] Ardent Mills Vault\"\n  $choice = Read-Host \"`nPick 1 or 2 (or",
+        "topics": [
+          "vault",
+          "write-host",
+          "choice",
+          "foregroundcolor"
+        ]
+      }
+    },
+    {
+      "id": "topic:happening",
+      "type": "topic_entity",
+      "name": "happening",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'happening' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "happening"
+      }
+    },
+    {
+      "id": "topic:nothing",
+      "type": "topic_entity",
+      "name": "nothing",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'nothing' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "nothing"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S122",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S122 (user)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[USER S122] nothing is happening",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 122,
+        "role": "user",
+        "created_at": "2026-11-19T03:46:07Z",
+        "content_excerpt": "nothing is happening",
+        "topics": [
+          "happening",
+          "nothing"
+        ]
+      }
+    },
+    {
+      "id": "topic:window",
+      "type": "topic_entity",
+      "name": "window",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'window' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "window"
+      }
+    },
+    {
+      "id": "topic:windows",
+      "type": "topic_entity",
+      "name": "windows",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'windows' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "windows"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S123",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S123 (assistant)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[ASSISTANT S123] Aha \u2014 the screenshot shows the exact reason in 1 second! Look at the **two tabs at the very top** of that black window: 1. You pasted into **Tab 1 (`ng serve (hello-cathy)`)**, where Angular is already busy running `http",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 123,
+        "role": "assistant",
+        "created_at": "2026-11-19T03:46:07Z",
+        "content_excerpt": "Aha \u2014 the screenshot shows the exact reason in 1 second!\n\nLook at the **two tabs at the very top** of that black window:\n1. You pasted into **Tab 1 (`ng serve (hello-cathy)`)**, where Angular is already busy running `http://localhost:4200/` \u2014 so Tab 1 ignores anything typed into it!\n2. Right next to it is **Tab 2 (`Windows PowerShell` with the blue icon)**.\n\n### Do This (2 Seconds!)\n1. **Leave Tab 1 alone** (don't close it!).\n2. Click **Tab 2 (`Windows PowerShell`)** at the top of that window \u2014 you'll see the `PS C:\\Users\\e103446>` prompt.\n3. Paste the switcher script into **Tab 2** and press **Enter** \u2014 the `[1] SBX Cafe / [2] Ardent Mills Vault` menu will pop right up!",
+        "topics": [
+          "powershell",
+          "right",
+          "window",
+          "windows"
+        ]
+      }
+    },
+    {
+      "id": "topic:didn",
+      "type": "topic_entity",
+      "name": "didn",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'didn' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "didn"
+      }
+    },
+    {
+      "id": "topic:fault",
+      "type": "topic_entity",
+      "name": "fault",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'fault' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "fault"
+      }
+    },
+    {
+      "id": "topic:realize",
+      "type": "topic_entity",
+      "name": "realize",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'realize' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "realize"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S124",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S124 (user)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[USER S124] shoot my fault, didn't realize ng serve",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 124,
+        "role": "user",
+        "created_at": "2026-11-19T03:47:11Z",
+        "content_excerpt": "shoot my fault, didn't realize ng serve",
+        "topics": [
+          "didn",
+          "fault",
+          "realize",
+          "serve"
+        ]
+      }
+    },
+    {
+      "id": "topic:blend",
+      "type": "topic_entity",
+      "name": "blend",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'blend' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "blend"
+      }
+    },
+    {
+      "id": "topic:dark",
+      "type": "topic_entity",
+      "name": "dark",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'dark' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "dark"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S125",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S125 (assistant)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[ASSISTANT S125] Happens to everyone \u2014 those dark tabs blend right into each other! You're all set now: **Tab 1** keeps `http://localhost:4200` running, and **Tab 2** lets you flip between **`1` (SBX)** and **`2` (Vault)** in 1 second. P",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 125,
+        "role": "assistant",
+        "created_at": "2026-11-19T03:47:11Z",
+        "content_excerpt": "Happens to everyone \u2014 those dark tabs blend right into each other!\n\nYou're all set now: **Tab 1** keeps `http://localhost:4200` running, and **Tab 2** lets you flip between **`1` (SBX)** and **`2` (Vault)** in 1 second. Ping me whenever you're ready with your next **25 Copilot questions** or **Vault Line 62**!",
+        "topics": [
+          "vault",
+          "blend",
+          "copilot",
+          "dark"
+        ]
+      }
+    },
+    {
+      "id": "topic:terrible",
+      "type": "topic_entity",
+      "name": "terrible",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'terrible' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "terrible"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S126",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S126 (user)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[USER S126] i did terrible",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 126,
+        "role": "user",
+        "created_at": "2026-11-19T03:53:45Z",
+        "content_excerpt": "i did terrible",
+        "topics": [
+          "terrible"
+        ]
+      }
+    },
+    {
+      "id": "topic:miss",
+      "type": "topic_entity",
+      "name": "miss",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'miss' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "miss"
+      }
+    },
+    {
+      "id": "topic:doing",
+      "type": "topic_entity",
+      "name": "doing",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'doing' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "doing"
+      }
+    },
+    {
+      "id": "topic:every",
+      "type": "topic_entity",
+      "name": "every",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'every' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "every"
+      }
+    },
+    {
+      "id": "topic:march",
+      "type": "topic_entity",
+      "name": "march",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'march' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "march"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S127",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S127 (assistant)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[ASSISTANT S127] Hey Cathy \u2014 take a deep breath, you did **not** fail anything! You already put in a full workday, submitted 4 job applications, handled PFG ZIP lookups, and wrangled Angular \u2014 doing 35 Black Belt questions at the end of ",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 127,
+        "role": "assistant",
+        "created_at": "2026-11-19T03:53:45Z",
+        "content_excerpt": "Hey Cathy \u2014 take a deep breath, you did **not** fail anything!\n\nYou already put in a full workday, submitted 4 job applications, handled PFG ZIP lookups, and wrangled Angular \u2014 doing 35 Black Belt questions at the end of a long day (while shaking off an 8-month break, **4 months before your March 2027 exam**) is *supposed* to uncover rusty spots. Every single question you miss in November is a free gift that guarantees you won't miss it in March!\n\nPaste the questions and which ones tripped you up (or just your score) whenever you feel up to it \u2014 tonight or tomorrow with fresh eyes \u2014 and we'll clean up every miss calmly in 1\u20132 plain-English sentences each. You've got plenty of time and you're doing great!",
+        "topics": [
+          "miss",
+          "doing",
+          "every",
+          "march"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S128",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S128 (user)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[USER S128] got 96% Q1 A process has: USL = 100 LSL = 70 \u03c3 = 5 What is Cp? A. 0.50 B. 1.00 C. 1.50 D. 2.00 Q2 A process has excellent Cp but poor Cpk. What does this indicate? A. High variation B. Process off-center C. Wrong specifi",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 128,
+        "role": "user",
+        "created_at": "2026-11-19T03:54:13Z",
+        "content_excerpt": "got 96% Q1\n\nA process has:\n\nUSL = 100\nLSL = 70\n\u03c3 = 5\n\nWhat is Cp?\n\nA. 0.50\n B. 1.00\n C. 1.50\n D. 2.00\n\nQ2\n\nA process has excellent Cp but poor Cpk.\n\nWhat does this indicate?\n\nA. High variation\n B. Process off-center\n C. Wrong specifications\n D. Measurement error\n\nQ3\n\nAn operator measures one part per hour.\n\nBest control chart?\n\nA. X\u0304-R\n B. X\u0304-S\n C. I-MR\n D. p\n\nQ4\n\nA subgroup contains 8 observations.\n\nControl chart?\n\nA. I-MR\n B. X\u0304-R\n C. X\u0304-S\n D. u\n\nQ5\n\nA subgroup contains 15 observations.\n\nControl chart?\n\nA. p\n B. X\u0304-R\n C. X\u0304-S\n D. c\n\nQ6\n\nA process is stable but fails customer specifications.\n\nThis means:\n\nA. In control and capable\n B. Out of control and capable\n C. In control but not capable\n D. Neither\n\nQ7\n\nWhich MSA result is generally considered acceptable?\n\nA. 25% GRR\n B. 35% GRR\n C. ",
+        "topics": [
+          "control",
+          "chart",
+          "process",
+          "measurement"
+        ]
       }
     },
     {
@@ -5474,204 +5885,36 @@
       }
     },
     {
+      "id": "topic:change",
+      "type": "topic_entity",
+      "name": "change",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'change' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "change"
+      }
+    },
+    {
       "id": "chat_session:b6556366",
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (454 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (458 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 454,
+        "turn_count": 458,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
           "quality",
           "right",
-          "adobe",
-          "cathy",
-          "control",
-          "home",
           "leaders",
+          "cathy",
+          "change",
+          "control",
+          "unit",
           "active"
-        ]
-      }
-    },
-    {
-      "id": "topic:send",
-      "type": "topic_entity",
-      "name": "send",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'send' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "send"
-      }
-    },
-    {
-      "id": "topic:able",
-      "type": "topic_entity",
-      "name": "able",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'able' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "able"
-      }
-    },
-    {
-      "id": "topic:accessorial",
-      "type": "topic_entity",
-      "name": "accessorial",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'accessorial' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "accessorial"
-      }
-    },
-    {
-      "id": "topic:approve",
-      "type": "topic_entity",
-      "name": "approve",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'approve' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "approve"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1674",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1674 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1674] professional pls Sue - Please send the FTI for $1599.38, billing to Transportation accessorial 530065. When able, pls send me the copy of FTI once Finance approves it, this is just for my reference. Laura or yourself wil",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1674,
-        "role": "user",
-        "created_at": "2026-11-18T15:36:09Z",
-        "content_excerpt": "professional pls Sue - Please send the FTI for $1599.38, billing to Transportation accessorial 530065. When able, pls send me the copy of FTI once Finance approves it, this is just for my reference. Laura or yourself will send it to the customer.\u00a0\nMeanwhile, I will approve this invoice for payment at the carrier end.",
-        "topics": [
-          "send",
-          "able",
-          "accessorial",
-          "approve"
-        ]
-      }
-    },
-    {
-      "id": "topic:please",
-      "type": "topic_entity",
-      "name": "please",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'please' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "please"
-      }
-    },
-    {
-      "id": "topic:ahead",
-      "type": "topic_entity",
-      "name": "ahead",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'ahead' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "ahead"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1675",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1675 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1675] Here is a clean, ready-to-send version: ```text Hi Sue, Could you please submit the FTI for $1,599.38, coded to Transportation Accessorial (530065)? Once Finance approves it, please share a copy with me for my records, a",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1675,
-        "role": "assistant",
-        "created_at": "2026-11-18T15:36:09Z",
-        "content_excerpt": "Here is a clean, ready-to-send version:\n\n```text\nHi Sue,\n\nCould you please submit the FTI for $1,599.38, coded to Transportation Accessorial (530065)?\n\nOnce Finance approves it, please share a copy with me for my records, and either you or Laura can forward it to the customer. In the meantime, I will go ahead and approve the carrier invoice for payment.\n\nThank you,\nCathy\n```",
-        "topics": [
-          "please",
-          "accessorial",
-          "ahead",
-          "approve"
-        ]
-      }
-    },
-    {
-      "id": "topic:hybrid",
-      "type": "topic_entity",
-      "name": "hybrid",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'hybrid' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "hybrid"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1676",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1676 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1676] is adobe hybrid?",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1676,
-        "role": "user",
-        "created_at": "2026-11-18T15:56:29Z",
-        "content_excerpt": "is adobe hybrid?",
-        "topics": [
-          "adobe",
-          "hybrid"
-        ]
-      }
-    },
-    {
-      "id": "topic:days",
-      "type": "topic_entity",
-      "name": "days",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'days' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "days"
-      }
-    },
-    {
-      "id": "topic:jose",
-      "type": "topic_entity",
-      "name": "jose",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'jose' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "jose"
-      }
-    },
-    {
-      "id": "topic:company-wide",
-      "type": "topic_entity",
-      "name": "company-wide",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'company-wide' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "company-wide"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1680",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1680 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1680] **Yes \u2014 Adobe operates on a company-wide \"digital-first\" hybrid model** (`2 to 3 days/week` in the office, ~50% from home). Two helpful details on `R166065`: 1. In Workday it lists **San Jose** (and Lehi, UT) as the assi",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1680,
-        "role": "assistant",
-        "created_at": "2026-11-18T15:57:00Z",
-        "content_excerpt": "**Yes \u2014 Adobe operates on a company-wide \"digital-first\" hybrid model** (`2 to 3 days/week` in the office, ~50% from home).\n\nTwo helpful details on `R166065`:\n1. In Workday it lists **San Jose** (and Lehi, UT) as the assigned hub rather than \"100% Remote,\" which at Adobe maps to their standard **2\u20133 days/week hybrid** schedule (team-specific days, confirmed with the recruiter).\n2. Adobe's San Jose HQ (`345 Park Ave`) is right next to **San Jose Diridon Caltrain** \u2014 so from Palo Alto it is a direct ~22-minute Baby Bullet train ride without highway traffic (plus Adobe has two full company-wide paid shutdown weeks in July and December).",
-        "topics": [
-          "adobe",
-          "days",
-          "jose",
-          "company-wide"
         ]
       }
     },
@@ -6054,6 +6297,171 @@
       }
     },
     {
+      "id": "topic:gemini",
+      "type": "topic_entity",
+      "name": "gemini",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'gemini' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "gemini"
+      }
+    },
+    {
+      "id": "topic:model",
+      "type": "topic_entity",
+      "name": "model",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'model' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "model"
+      }
+    },
+    {
+      "id": "topic:user_settings_change",
+      "type": "topic_entity",
+      "name": "user_settings_change",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'user_settings_change' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "user_settings_change"
+      }
+    },
+    {
+      "id": "topic:carbon",
+      "type": "topic_entity",
+      "name": "carbon",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'carbon' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "carbon"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1711",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1711 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S1711] how to get rid of the wide space on the top that says pack <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from Gemini 4 Carbon (Medium) to Gemini 4 Neon (High). No need to comment on this change if the",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1711,
+        "role": "user",
+        "created_at": "2026-11-18T23:10:21Z",
+        "content_excerpt": "how to get rid of the wide space on the top that says pack \n\n<USER_SETTINGS_CHANGE>\nThe user changed setting `Model Selection` from Gemini 4 Carbon (Medium) to Gemini 4 Neon (High). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.\n</USER_SETTINGS_CHANGE>",
+        "topics": [
+          "gemini",
+          "model",
+          "user_settings_change",
+          "carbon"
+        ]
+      }
+    },
+    {
+      "id": "topic:arrow",
+      "type": "topic_entity",
+      "name": "arrow",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'arrow' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "arrow"
+      }
+    },
+    {
+      "id": "topic:back",
+      "type": "topic_entity",
+      "name": "back",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'back' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "back"
+      }
+    },
+    {
+      "id": "topic:down",
+      "type": "topic_entity",
+      "name": "down",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'down' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "down"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1713",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1713 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1713] That big white box is Excel's **Formula Bar** expanded down. Here are the two fastest 1-second fixes: 1. **Click the tiny `^` (up arrow)** at the **far top-right edge of that white box** (right underneath the `X` on the ",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1713,
+        "role": "assistant",
+        "created_at": "2026-11-18T23:10:21Z",
+        "content_excerpt": "That big white box is Excel's **Formula Bar** expanded down. Here are the two fastest 1-second fixes:\n\n1. **Click the tiny `^` (up arrow)** at the **far top-right edge of that white box** (right underneath the `X` on the yellow \"BACK UP THIS DOCUMENT\" bar).\n2. **Or press `Ctrl + Shift + U`** on your keyboard \u2014 that snaps it right back to a single normal line.\n\n*(If it still stays slightly taller than one line, hover over the bottom border of the box right above column letters `A, B, C` until you see an up/down arrow and drag it up.)*",
+        "topics": [
+          "right",
+          "arrow",
+          "back",
+          "down"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1714",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1714 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S1714] yay",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1714,
+        "role": "user",
+        "created_at": "2026-11-18T23:11:19Z",
+        "content_excerpt": "yay",
+        "topics": []
+      }
+    },
+    {
+      "id": "topic:glad",
+      "type": "topic_entity",
+      "name": "glad",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'glad' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "glad"
+      }
+    },
+    {
+      "id": "topic:jump",
+      "type": "topic_entity",
+      "name": "jump",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'jump' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "jump"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1715",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1715 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1715] Glad that snapped right back, Cathy! Ping me whenever you wrap up work and want to jump into the **Unit 1 Leaders** questions.",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1715,
+        "role": "assistant",
+        "created_at": "2026-11-18T23:11:19Z",
+        "content_excerpt": "Glad that snapped right back, Cathy! Ping me whenever you wrap up work and want to jump into the **Unit 1 Leaders** questions.",
+        "topics": [
+          "back",
+          "cathy",
+          "glad",
+          "jump"
+        ]
+      }
+    },
+    {
       "id": "topic:workspace",
       "type": "topic_entity",
       "name": "workspace",
@@ -6061,6 +6469,16 @@
       "description": "Shared domain topic 'workspace' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "workspace"
+      }
+    },
+    {
+      "id": "topic:home",
+      "type": "topic_entity",
+      "name": "home",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'home' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "home"
       }
     },
     {
@@ -6697,6 +7115,16 @@
       "description": "Shared domain topic 'left' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "left"
+      }
+    },
+    {
+      "id": "topic:exact",
+      "type": "topic_entity",
+      "name": "exact",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'exact' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "exact"
       }
     },
     {
@@ -11527,14 +11955,6 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:hard",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 13
-      }
-    },
-    {
-      "source": "chat_session:SHAREDSE",
       "target": "topic:lockheed",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
@@ -11547,6 +11967,14 @@
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 11
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "topic:hard",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
       }
     },
     {
@@ -11716,7 +12144,7 @@
       "target": "topic:hard",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 12
+        "count": 9
       }
     },
     {
@@ -11729,7 +12157,7 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:chapter",
+      "target": "topic:c130",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 5
@@ -11737,7 +12165,7 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:domain",
+      "target": "topic:copilot",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 5
@@ -11807,7 +12235,171 @@
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "topic:model",
+      "target": "topic:e103446",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 23
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:users",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 23
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:cathy_angular_portfolio",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 18
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:desktop",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 18
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:vault",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 15
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:control",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:localhost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:powershell",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S117",
+      "target": "topic:e103446",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S117",
+      "target": "topic:serve",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S117",
+      "target": "topic:users",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S117",
+      "target": "topic:vault",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S117",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S118",
+      "target": "topic:came",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S118",
+      "target": "topic:host",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S118",
+      "target": "topic:local",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S118",
+      "target": "topic:slow",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S118",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S119",
+      "target": "topic:angular",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S119",
+      "target": "topic:powershell",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S119",
+      "target": "topic:right",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S119",
+      "target": "topic:vault",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
@@ -11815,7 +12407,135 @@
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "topic:user_settings_change",
+      "target": "chat_turn:4dda7faa:S119",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S120",
+      "target": "topic:e103446",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 16
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S120",
+      "target": "topic:users",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 16
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S120",
+      "target": "topic:cathy_angular_portfolio",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 14
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S120",
+      "target": "topic:desktop",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 14
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S120",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S121",
+      "target": "topic:vault",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S121",
+      "target": "topic:write-host",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S121",
+      "target": "topic:choice",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S121",
+      "target": "topic:foregroundcolor",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S121",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S122",
+      "target": "topic:happening",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S122",
+      "target": "topic:nothing",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S122",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S123",
+      "target": "topic:powershell",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S123",
+      "target": "topic:right",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S123",
+      "target": "topic:window",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S123",
+      "target": "topic:windows",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
@@ -11823,7 +12543,37 @@
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "topic:carbon",
+      "target": "chat_turn:4dda7faa:S123",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S124",
+      "target": "topic:didn",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S124",
+      "target": "topic:fault",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S124",
+      "target": "topic:realize",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S124",
+      "target": "topic:serve",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
@@ -11831,71 +12581,37 @@
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "topic:change",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
+      "target": "chat_turn:4dda7faa:S124",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
     },
     {
-      "source": "chat_session:4dda7faa",
-      "target": "topic:changed",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "topic:comment",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "topic:doesn",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "topic:exact",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S0",
-      "target": "topic:model",
+      "source": "chat_turn:4dda7faa:S125",
+      "target": "topic:vault",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
       }
     },
     {
-      "source": "chat_turn:4dda7faa:S0",
-      "target": "topic:user_settings_change",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S0",
-      "target": "topic:carbon",
+      "source": "chat_turn:4dda7faa:S125",
+      "target": "topic:blend",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
       }
     },
     {
-      "source": "chat_turn:4dda7faa:S0",
-      "target": "topic:change",
+      "source": "chat_turn:4dda7faa:S125",
+      "target": "topic:copilot",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S125",
+      "target": "topic:dark",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
@@ -11903,7 +12619,97 @@
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "chat_turn:4dda7faa:S0",
+      "target": "chat_turn:4dda7faa:S125",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S126",
+      "target": "topic:terrible",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S126",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S127",
+      "target": "topic:miss",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S127",
+      "target": "topic:doing",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S127",
+      "target": "topic:every",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S127",
+      "target": "topic:march",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S127",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S128",
+      "target": "topic:control",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S128",
+      "target": "topic:chart",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S128",
+      "target": "topic:process",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S128",
+      "target": "topic:measurement",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S128",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -11920,12 +12726,12 @@
       "target": "topic:right",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 9
+        "count": 12
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:adobe",
+      "target": "topic:leaders",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 6
@@ -11941,6 +12747,14 @@
     },
     {
       "source": "chat_session:b6556366",
+      "target": "topic:change",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
       "target": "topic:control",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
@@ -11949,15 +12763,7 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:home",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:leaders",
+      "target": "topic:unit",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 5
@@ -11981,142 +12787,6 @@
       "source": "chat_session:b6556366",
       "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
       "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1674",
-      "target": "topic:send",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1674",
-      "target": "topic:able",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1674",
-      "target": "topic:accessorial",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1674",
-      "target": "topic:approve",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1674",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1675",
-      "target": "topic:please",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1675",
-      "target": "topic:accessorial",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1675",
-      "target": "topic:ahead",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1675",
-      "target": "topic:approve",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1675",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1676",
-      "target": "topic:adobe",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1676",
-      "target": "topic:hybrid",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1676",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1680",
-      "target": "topic:adobe",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1680",
-      "target": "topic:days",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1680",
-      "target": "topic:jose",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1680",
-      "target": "topic:company-wide",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1680",
-      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -12422,6 +13092,126 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S1710",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1711",
+      "target": "topic:gemini",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1711",
+      "target": "topic:model",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1711",
+      "target": "topic:user_settings_change",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1711",
+      "target": "topic:carbon",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1711",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1713",
+      "target": "topic:right",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1713",
+      "target": "topic:arrow",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1713",
+      "target": "topic:back",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1713",
+      "target": "topic:down",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1713",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1714",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1715",
+      "target": "topic:back",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1715",
+      "target": "topic:cathy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1715",
+      "target": "topic:glad",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1715",
+      "target": "topic:jump",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1715",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -13291,7 +14081,7 @@
     }
   ],
   "file_hashes": {
-    "PERFORMANCE_TRACKER.md": "eb8f3d12e65eb118df55f2223342341e5d4c418d48df25ff585769a510f74956",
+    "PERFORMANCE_TRACKER.md": "870027ba7b1800f88c4ef77d6b0663c3d7fa738fdc5616d13e0b19b032a8aaff",
     "QWEN.md": "5b4ee5a9dcc1a416b6381c505f5449f08b44088631a0e3b09d785bb7505d01e2",
     "README.md": "506319462ce0f0d62f6cbed53d6d0cdfa3c40623a05eacd6b881d9c3ddd8facf",
     "STUDY_ROADMAP_MAR2027.md": "0565fb20c8f9008ab7629f78fed3bdf076952045a4567cca7ccebd4e1e986a27",
@@ -13343,14 +14133,14 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "212acd6284dfe09424e21deac84b9d92e875bc5ed62eeeaad306005b635f7dff",
+    "chats/SHARED_SESSION_STATE.md": "690d94a37ba56470bd494b601483dbcd3845048a343f85cbff9d17f9b4d96904",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "30d680a4c7cfb19dd519baa98dadf80aa38b63e04da048747250eebfe8b28595",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
     "documents/CAREER_APPLICATIONS_TRACKER.md": "865bb07780768b79578914e406e0ec470ceeebb5cf21bbe1a7b43f36b8e163c5",
-    "documents/QUESTION_BANK_LOG.md": "a01b6ec569f2bbb88e222fcd69f8606beac28f2c19c76f9a3b4dd24a73d53f06",
-    "repo.md": "9425a416015dd44d822fb2627eb47b83058768fa0fe42f409871cf0865a90f8d"
+    "documents/QUESTION_BANK_LOG.md": "60ba8b8a315335f65dac1f0e548264bdf6164c9d8b35449f7c7068ba3fb9882d",
+    "repo.md": "165086ab30d4bec0e8c2938940f26a76e307dd52980a9870c3daba89277cd525"
   }
 }
