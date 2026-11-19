@@ -2,8 +2,8 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Copilot Set 5 — `C96`–`C130`, `35` Qs):** **`31 / 35` (`88.6%`)** — Part A (`C96`–`C105`): `7 / 10` (`70.0%`), Part B (`C106`–`C130`): **`24 / 25` (`96.0%` — HUGE jump from Set 4's `74.3%`!)**
-- **Overall Cumulative Score (`Q1`–`Q200` + `C1`–`C130` = `330` Qs):** **`260 / 330` (`78.8%`)**
+- **Latest Batch Score (Round 18 — `I.A.1 & I.B.3` Unit 1 Quality & Change Leaders `Q201`–`Q210`):** **`7 / 10` (`70.0%` — open-notes; Cathy requested a short & sweet memory-hook table + closed-notes drill!)**
+- **Overall Cumulative Score (`Q1`–`Q210` + `C1`–`C130` = `340` Qs):** **`267 / 340` (`78.5%`)**
 
 ---
 
@@ -11,7 +11,7 @@
 
 | ASQ Domain | DMAIC Phase | Exam Weight | Attempted | Correct | Accuracy | Status / Priority |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 47 | 43 | **91.5%** | **Easy `10/10` -> Med `9/10` -> Hard `8/10` & `9/10`!** Next tomorrow: **Really Hard** -> **Notoriously Hard** on Chapter 1! |
+| **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 57 | 50 | **87.7%** | **Round 18 Leaders: `7/10` (open-notes).** Drill **13 Quality & Change Leaders** closed-notes using short memory hooks (esp. Juran vs. Taguchi, Bridges Neutral Zone, Jack Welch at GE) before Unit 1 Very Hard Mastery Set! |
 | **II. Org Process Mgmt & Measures** | Pre-DMAIC | 12 Qs (8.0%) | 8 | 6 | **75.0%** | Strong on ROI/Payback/NPV/Leading-Lagging/Internal-External COQ; review `II.B` Benchmarking & `II.C.2` Appraisal COQ |
 | **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 7 | 5 | **71.4%** | Review `III.B` Tuckman (Storming), `III.B` Lencioni 5 Dysfunctions, `III.C` Thomas-Kilmann Conflict Modes |
 | **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 48 | 38 | **79.2%** | **Define Basics Level 1 set ready on screen!** Review PERT variance `sqrt(sum var)`, ID `0 incoming`, PDPC vs PFMEA |
@@ -47,3 +47,4 @@
 | 2026-11-15 | **`V.E.2` & `V.F.5`** | Measure (M) | **Poisson vs. Exponential & `Cp > Pp` Drift** | **Poisson** = count of arrivals/defects per unit/time; **Exponential** = time *between* Poisson arrivals. With long-term drift, overall `s` > short-term `sigma`, so **`Cp > Pp`**. | **Add to Word Bible** |
 | 2026-11-15 | **`VII.A` & `VIII.A`** | Improve / Control | **DOE Designs (CCD/RSM) & Control Chart Rules (`p/np/c/u` + Nelson Rules)** | **RSM** = **CCD**; **Plackett-Burman** = screening. Pass/fail `%` or varying `n` = **`p-chart`**; Pass/fail **count** with fixed `n` = **`np-chart`**; 8+ consecutive points on one side of centerline = **Special Cause**. | **Add to Word Bible** |
 | 2026-11-17 | **`IV–VIII` Vocab** | Mixed (Copilot Set 4) | **9 Quick 2-Word Vocabulary Distinctions (`C64–C87`)** | `Alpha` = Type I error (Power = `1-Beta`); `Median` resists outliers; `CTQ` = measurable requirement (`VOC` = raw words); `c-chart` = defect count (`np` = defective count); `X-bar` = mean shift (`R` = spread); Control limits = `VOP` (Spec = `VOC`); `Cpk` = centering (`Cp` = spread only); `H0` = no difference; `Simple Random` = equal chance per item. | **Added to Cheat Sheet Sec 8** |
+| 2026-11-19 | **`I.A.1 & I.B.3`** | Pre-DMAIC | **13 Quality, Lean & Change Leaders (`Q201–Q210`)** | Cathy scored `7/10` open-notes & flagged needing a short memory-hook table. Missed `Q205` (Juran = Fitness for Use + Trilogy vs. Taguchi = Robust Design + Loss Function), `Q206` (Bridges = Neutral Zone vs. Lewin = Refreeze), `Q207` (Jack Welch = scaled Six Sigma at GE). Re-drill closed-notes! | **Added Short Table to Cheat Sheet Sec 9B** |

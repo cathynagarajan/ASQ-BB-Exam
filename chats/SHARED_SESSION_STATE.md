@@ -8,16 +8,16 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`330` (`Q1`–`Q200` + Copilot `C1`–`C130`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Latest Set (Copilot Set 5 — `C96`–`C130`, `35` Qs)**: **`31 / 35 = 88.6%`!** *(Part A `C96`–`C105`: `7 / 10 = 70.0%`; Part B `C106`–`C130`: **`24 / 25 = 96.0%`** — up `+14.3%` from Copilot Set 4's `74.3%`!)*
+- **Completed Unique Questions**: **`340` (`Q1`–`Q210` + Copilot `C1`–`C130`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Latest Set (Round 18 — `I.A.1 & I.B.3` Unit 1 Quality & Change Leaders `Q201`–`Q210`)**: **`7 / 10 = 70.0%` (open-notes)** — Cathy honestly flagged struggling on the names and asked for a **short & sweet 1-glance memory-hook table** (now added to `ASQ_CSSBB_Cheat_Sheet.txt`). Missed `Q205` (Juran vs. Taguchi), `Q206` (Bridges Neutral Zone vs. Lewin Refreeze), `Q207` (Jack Welch at GE).
 - **LOCKED PLAN FOR NEXT SESSION**:
-  1. Bring in **ALL Unit 1 Quality & Change Leaders** (*Juran, Deming, Crosby, Ishikawa, Taguchi, Shigeo Shingo, Taiichi Ohno, Walter Shewhart, Feigenbaum, Bill Smith, Kurt Lewin, John Kotter, William Bridges*) + any remaining `Domain I` sub-items with **steady repetition** so 100% of Unit 1 is thoroughly covered.
-  2. Give a **Very Hard / Notoriously Hard Unit 1 Final Mastery Set** to honestly judge readiness before moving on to **Unit 2 (`Domain II`)**.
-- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`92 / 110 = 83.6%`**
+  1. Give a quick **closed-notes flash drill** on the **13 Unit 1 Quality & Change Leaders** using the short & sweet memory-hook table until all 13 feel effortless without looking at notes!
+  2. Then run the **Very Hard / Notoriously Hard Unit 1 Final Mastery Set** to honestly judge readiness before moving on to **Unit 2 (`Domain II`)**.
+- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`99 / 120 = 82.5%`**
 - **Stage 2 Status (`Domain V — Measure Phase`)**: **`35 / 50 = 70.0%`**
 - **Stage 3 Status (`Domain VI — Analyze Phase`)**: **`24 / 30 = 80.0%`**
 - **Stage 5 Preview (`Domain VIII — Control Charts`)**: **`8 / 10 = 80.0%`**
-- **Copilot External Sets (`C1`–`C130`)**: **`101 / 130` (`77.7%` — Set 5 `C96`–`C130`: `31 / 35 = 88.6%`!)** — Grand Cumulative: **`260 / 330` (`78.8%`)**
+- **Copilot External Sets (`C1`–`C130`)**: **`101 / 130` (`77.7%` — Set 5 `C96`–`C130`: `31 / 35 = 88.6%`!)** — Grand Cumulative: **`267 / 340` (`78.5%`)**
 - **Active Weak Points Scheduled for Spaced Re-Testing**:
   1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)
   2. `IV.A.3` CTQ measurable numerical target vs. vague VOC (`Q18`)

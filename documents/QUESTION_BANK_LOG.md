@@ -258,3 +258,15 @@
   - `C96` (`V.F` Cp calculation: USL=56, LSL=44, sigma=2 -> `1.00`), `C97` (`VI.B` 3 suppliers cycle time -> `ANOVA`), `C98` (`VIII.A` Repeating Monday startup spike -> `Special cause`), `C99` (`V.C` `%GRR = 7%` -> `Generally acceptable`), `C100` (`VII.B` Workers walking for tools -> `Motion`), `C101` (`VI.A` Upside-down U scatterplot -> `Pearson r near zero`), `C102` (`VIII.A` Within-subgroup variation `n=5` -> `R chart`), `C103` (`VI.C` FMEA RPN `9*5*4 = 180`), `C104` (`I.A` Majority of quality problems from management/system -> `Deming`), `C105` (`I.A` `3.4 DPMO` -> `6 sigma`).
 - **Part B (`C106`–`C130`, `24 / 25 = 96.0%` — Outstanding Mastery!):**
   - `C106` (`Cp = 1.00`), `C107` (High `Cp`/poor `Cpk` = off-center), `C108` (`n=1/hr` -> `I-MR`), `C109` (`n=8` -> `X-bar - R`), `C110` (`n=15` -> `X-bar - S`), `C111` (Stable, fails specs = In control, not capable), `C112` (`7% GRR` acceptable), `C113` (2 lines -> `2-sample t-test`), `C114` (4 lines -> `ANOVA`), `C115` (Temp vs yield -> `Correlation/Regression`), `C116` (`r=0.80` -> `R^2=0.64`), `C117` (`r=-0.70` -> `R^2=0.49`), `C118` (`p=0.02 < 0.05` -> `Reject H0`), `C119` (Type I = reject true `H0`), `C120` (Type II = accept false `H0`), `C121` (Unused raw material -> `Inventory`), `C122` (Moving material -> `Transportation`), `C123` (Loss Function -> `Taguchi`), `C124` (Zero Defects -> `Crosby`), `C125` (`RPN 8*4*5=160`), `C126` (Multiple scratches/varying `n` -> `u chart`), `C127` (Defective/varying `n` -> `p chart`), `C128` (6 outgoing, 1 incoming -> `Input driver/root cause`), `C129` (Six Sigma DPMO -> `3.4`), `C130` (45% tolerance MSA -> `Unacceptable`).
+
+## Round 18 (Topic: `I.A.1 & I.B.3` Unit 1 Quality, Lean & Change Leaders — `Q201`–`Q210` — 2026-11-19 | Score: `7/10 = 70.0%` [open-notes])
+- `Q201` (`I.A.1` Control charts + originated PDSA = Walter Shewhart): `B` (`✅` — clarified Shewhart originated PDSA, Deming popularized PDCA)
+- `Q202` (`I.A.1` Fishbone, 7 Basic Tools, Quality Circles = Kaoru Ishikawa): `C` (`✅`)
+- `Q203` (`I.A.1` Hidden Plant & Total Quality Control across all depts = Armand Feigenbaum): `A` (`✅`)
+- `Q204` (`I.A.1` Toyota Production System, JIT, 7 Wastes = Taiichi Ohno): `D` (`✅`)
+- `Q205` (`I.A.1` Fitness for Use + Quality Planning/Control/Improvement = Joseph Juran): Picked `B` (Taguchi) vs. Correct `C` (Juran) (`❌` — needs memory hook)
+- `Q206` (`I.B.3` Awkward confused middle phase in William Bridges model = Neutral Zone): Picked `A` (Refreeze) vs. Correct `B` (Neutral Zone) (`❌` — needs memory hook)
+- `Q207` (`I.A.1` Scaled Motorola's Six Sigma across GE & tied bonuses = Jack Welch): Picked `C` (Juran) vs. Correct `A` (Jack Welch) (`❌` — needs memory hook)
+- `Q208` (`I.B.3` Kotter Step 2 after Urgency = Guiding Coalition): `D` (`✅`)
+- `Q209` (`I.B.3` Lewin Force Field Analysis = reduce restraining forces rather than pushing harder): `B` (`✅`)
+- `Q210` (`I.A.1` Robust Design insensitive to humidity/temp noise = Genichi Taguchi): `C` (`✅`)
