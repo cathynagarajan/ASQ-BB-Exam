@@ -91,10 +91,11 @@
   31. **Ciena (NYSE: CIEN)** — *Business Analyst, Service Logistics* (`Req R031966`, 100% US Remote — applied **2026-11-18**)
   32. **NetApp (NASDAQ: NTAP)** — *Global Procurement Category Manager* (`Job ID 137163`, 100% US Remote / San Jose, 147.9K–220K USD — applied **2026-11-18**)
   33. **Adobe (NASDAQ: ADBE)** — *Procurement - Technology - Cloud Category Manager* (`Req R166065`, San Jose Hybrid ~15 mi, 169.1K–244.85K USD — applied **2026-11-18**)
-- **Day-6 Weekday Applications (2026-11-19 — `3` Submitted [Thursday Goal Met!], `1` Ready [Western Digital]; `56` Total Tracked Across Portals = `50` Active [incl. `3` Active Under Consideration at Northrop], `6` Rejected)**:
+- **Day-6 Weekday Applications (2026-11-19 — `4` Submitted Today [Thursday Goal Complete!]; `57` Total Tracked Across Portals = `49` Active [`27` Non-Lockheed + `19` Lockheed incl. Stage-2 `13013` + `3` Active Northrop `R10260907`, `R10257650`, `R10252052`], `8` Rejected)**:
   34. **Northrop Grumman (NYSE: NOC)** — *Principal / Sr. Principal Project Manager (Marine Logistics Support)* (`Req R10260907`, Sunnyvale CA ~9 mi, 117.5K–176.3K USD — applied **2026-11-19**, *Under Consideration*!)
   35. **Humana (NYSE: HUM)** — *Behavioral Health Vendor Performance Lead* (`Req R-433994`, 100% Remote Nationwide, 115.2K–158.4K USD — applied **2026-11-19**!)
   36. **Jabil (NYSE: JBL)** — *Consulting Supply Chain Manager* (`Req J2464637`, 100% Remote USA, 98.2K–176.8K USD — applied **2026-11-19**, *Application Received*!)
+  37. **Analog Devices (NASDAQ: ADI)** — *Senior Analyst, Supply Chain Planning* (`Req R266612`, North San Jose ~13 mi, 99.36K–136.62K USD — applied **2026-11-19**, *Under Review*!)
   - **All 20 Lockheed Job IDs Indexed (Never Repeat)**: `9343`, `24775`, `23028`, `9306`, `9054`, `16519`, `16516`, `11582`, `13918` (Rejected), `17417`, `11141`, `8363`, `9581`, `13924`, `16508`, `13013` (Active Stage-2!), `13178`, `8492` (Rejected), `20038`, `19487`.
 - **Active Recruiter / Stage-2 Callbacks**:
   - **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req 13013`, Sunnyvale CA, IC Level E3, 125K–135K USD base) — **Stage-2 Portal Updated (`✓`) & Recruiter Questionnaire SENT to Christian Sieg (2026-11-16 — Ready for Hiring Manager advancement!)**!
@@ -108,4 +109,4 @@
   - **GitHub / GitLab (`8642786002`)** — **Rejected (2026-11-17)**.
   - **Northrop Grumman** — Prior apps rejected (skip Northrop going forward).
   - **Lockheed Martin `Job ID 13918` & `Job ID 8492`** — **Rejected**.
-- **NEXT JOB STEP**: **Daily Application Cadence**: **Weekdays (Mon–Fri) = `3 to 5` high-fit jobs/day**; **Weekends (Sat–Sun) = `10` jobs/day**. (**Wednesday 2026-11-18 Complete: `4` brand-new companies submitted! `51` Total Tracked = `43` Active [`24` Non-Lockheed + `19` Lockheed including Stage-2 `13013`], `8` Rejected**; ready for Thursday `2026-11-19` `3–5` jobs!).
+- **NEXT JOB STEP**: **Daily Application Cadence**: **Weekdays (Mon–Fri) = `3 to 5` high-fit jobs/day**; **Weekends (Sat–Sun) = `10` jobs/day**. (**Thursday 2026-11-19 Complete: `4` roles submitted [Northrop `R10260907`, Humana `R-433994`, Jabil `J2464637`, Analog Devices `R266612`]! `57` Total Tracked = `49` Active, `8` Rejected**; ready for Friday `2026-11-20` `3–5` jobs!).

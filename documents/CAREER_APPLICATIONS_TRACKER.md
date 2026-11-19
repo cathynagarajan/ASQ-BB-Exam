@@ -53,10 +53,11 @@
 32. **NetApp (NASDAQ: NTAP)** — *Global Procurement Category Manager - AI & Emerging Technology Solutions* (`Job ID 137163`, 100% US Remote / San Jose, 147.9K to 220K USD + RSUs, IC) — **APPLIED (2026-11-18)**
 33. **Adobe (NASDAQ: ADBE)** — *Procurement - Technology - Cloud Category Manager* (`Req R166065`, San Jose Hybrid ~15 mi, California band 169.1K to 244.85K USD + bonus & RSUs, IC) — **APPLIED (2026-11-18)**
 
-## Completed Applications — Day 6 Weekday Cadence (In Progress — 2026-11-19)
+## Completed Applications — Day 6 Weekday Cadence (4 Submitted — 2026-11-19 — Weekday Goal Complete!)
 34. **Northrop Grumman (NYSE: NOC)** — *Principal / Sr. Principal Project Manager (Marine Logistics Support)* (`Req R10260907`, Sunnyvale CA ~9 mi, 117.5K to 176.3K USD Level 4, IC) — **APPLIED / UNDER CONSIDERATION (2026-11-19)** *(also active on Northrop Workday: `R10257650` Sr. Principal Supply Chain Planning Specialist [Nov 1] & `R10252052` Principal Supply Chain Procurement Specialist [Oct 15] — 3 Active Total at Northrop!)*
 35. **Humana (NYSE: HUM)** — *Behavioral Health Vendor Performance Lead* (`Req R-433994`, 100% Remote Nationwide, 115.2K to 158.4K USD, IC) — **APPLIED (2026-11-19 — beat deadline!)**
 36. **Jabil (NYSE: JBL)** — *Consulting Supply Chain Manager* (`Req J2464637`, 100% Remote USA, 98.2K to 176.8K USD [CA tier 140K–176.8K USD], IC) — **APPLIED / APPLICATION RECEIVED (2026-11-19)**
+37. **Analog Devices (NASDAQ: ADI)** — *Senior Analyst, Supply Chain Planning* (`Req R266612`, North San Jose `Rio Robles` ~13 mi, 99.36K to 136.62K USD + bonus, IC) — **APPLIED / UNDER REVIEW (2026-11-19)**
 
 ## Full Lockheed Martin Eightfold Application History (`21` Roles: `19` Active Submitted + `2` Inactive + `1` Draft — Verified `2026-11-18`!)
 - **Active Stage-2 / Recruiter Screen (`1`):**
