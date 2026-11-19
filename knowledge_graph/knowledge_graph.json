@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-19T16:37:22.877928+00:00",
+    "generated_at": "2026-11-19T16:42:54.484821+00:00",
     "total_files_indexed": 71,
-    "total_nodes": 605,
-    "total_edges": 1213,
+    "total_nodes": 604,
+    "total_edges": 1216,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
@@ -12,7 +12,7 @@
       "document_file": 22,
       "document_section": 147,
       "html_template": 1,
-      "topic_entity": 334
+      "topic_entity": 333
     }
   },
   "last_change_check": {
@@ -28,16 +28,16 @@
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 5,
-      "nodes_deleted": 3,
-      "edges_upserted": 21,
-      "edges_deleted": 8,
+      "nodes_upserted": 6,
+      "nodes_deleted": 4,
+      "edges_upserted": 13,
+      "edges_deleted": 5,
       "wiki_pages_upserted": 1,
       "wiki_pages_deleted": 0,
       "files_upserted": 3,
       "files_deleted": 0,
-      "total_nodes_in_db": 605,
-      "total_edges_in_db": 1213,
+      "total_nodes_in_db": 604,
+      "total_edges_in_db": 1216,
       "total_files_tracked": 72
     }
   },
@@ -5263,6 +5263,8 @@
           "APPLIED / UNDER CONSIDERATION (2026-11-19)",
           "Humana (NYSE: HUM)",
           "APPLIED (2026-11-19 \u2014 beat deadline!)",
+          "Jabil (NYSE: JBL)",
+          "APPLIED / APPLICATION RECEIVED (2026-11-19)",
           "Active Stage-2 / Recruiter Screen (`1`):",
           "2026-11-17",
           "Rejected at Lockheed Martin (`2`):",
@@ -5318,6 +5320,7 @@
           "R10257650",
           "R10252052",
           "Req R-433994",
+          "Req J2464637",
           "21",
           "19",
           "Inactive +",
@@ -6587,13 +6590,13 @@
       }
     },
     {
-      "id": "topic:nasdaq",
+      "id": "topic:remote",
       "type": "topic_entity",
-      "name": "nasdaq",
+      "name": "remote",
       "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'nasdaq' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'remote' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "nasdaq"
+        "keyword": "remote"
       }
     },
     {
@@ -6615,8 +6618,8 @@
           "unit",
           "lockheed",
           "active",
-          "sourcing",
-          "nasdaq"
+          "remote",
+          "sourcing"
         ]
       }
     },
@@ -6911,15 +6914,25 @@
       }
     },
     {
+      "id": "topic:asq-bb-exam",
+      "type": "topic_entity",
+      "name": "asq-bb-exam",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "asq-bb-exam"
+      }
+    },
+    {
       "id": "chat_session:b6556366",
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (464 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (465 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 464,
+        "turn_count": 465,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
@@ -6927,48 +6940,10 @@
           "grumman",
           "management",
           "project",
+          "krithika",
           "procurement",
           "apply",
-          "krithika",
-          "logistics"
-        ]
-      }
-    },
-    {
-      "id": "topic:support",
-      "type": "topic_entity",
-      "name": "support",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'support' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "support"
-      }
-    },
-    {
-      "id": "topic:thanks",
-      "type": "topic_entity",
-      "name": "thanks",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'thanks' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "thanks"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1709",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1709 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1709] okm thanks for the support",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1709,
-        "role": "user",
-        "created_at": "2026-11-18T16:05:37Z",
-        "content_excerpt": "okm thanks for the support",
-        "topics": [
-          "support",
-          "thanks"
+          "asq-bb-exam"
         ]
       }
     },
@@ -7366,16 +7341,6 @@
       }
     },
     {
-      "id": "topic:asq-bb-exam",
-      "type": "topic_entity",
-      "name": "asq-bb-exam",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "asq-bb-exam"
-      }
-    },
-    {
       "id": "topic:home",
       "type": "topic_entity",
       "name": "home",
@@ -7412,6 +7377,36 @@
           "asq-bb-exam",
           "home",
           "humana"
+        ]
+      }
+    },
+    {
+      "id": "topic:career_applications_tracker",
+      "type": "topic_entity",
+      "name": "career_applications_tracker",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'career_applications_tracker' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "career_applications_tracker"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1790",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1790 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1790] Got **#35 Humana (`R-433994`)** logged right before today's deadline \u2014 synced to [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md), [SHARED_SESSION_STA",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1790,
+        "role": "assistant",
+        "created_at": "2026-11-19T16:37:26Z",
+        "content_excerpt": "Got **#35 Humana (`R-433994`)** logged right before today's deadline \u2014 synced to [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md), [SHARED_SESSION_STATE.md](file:///home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md), GitHub (`c922db2`), and your Knowledge Graph (`605` nodes, `1,213` edges, `605` vectors; **`49` active applications in flight**).\n\nJust **Jabil (`J2464637`)** and **Western Digital (`REF34953P`)** left right above to hit **4 submitted today** \u2014 ping me once those are in!",
+        "topics": [
+          "asq-bb-exam",
+          "career_applications_tracker",
+          "home",
+          "krithika"
         ]
       }
     },
@@ -15666,7 +15661,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 22
+        "count": 23
       }
     },
     {
@@ -15682,7 +15677,7 @@
       "target": "topic:applied",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 13
+        "count": 14
       }
     },
     {
@@ -15711,7 +15706,7 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:sourcing",
+      "target": "topic:remote",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 11
@@ -15719,10 +15714,10 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:nasdaq",
+      "target": "topic:sourcing",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 10
+        "count": 11
       }
     },
     {
@@ -15948,7 +15943,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 22
+        "count": 23
       }
     },
     {
@@ -15964,7 +15959,7 @@
       "target": "topic:applied",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 13
+        "count": 14
       }
     },
     {
@@ -16015,6 +16010,14 @@
     },
     {
       "source": "chat_session:b6556366",
+      "target": "topic:krithika",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
       "target": "topic:procurement",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
@@ -16031,15 +16034,7 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:krithika",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:logistics",
+      "target": "topic:asq-bb-exam",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 8
@@ -16073,28 +16068,6 @@
       "source": "chat_session:b6556366",
       "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
       "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1709",
-      "target": "topic:support",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1709",
-      "target": "topic:thanks",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1709",
-      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -16493,6 +16466,50 @@
     },
     {
       "source": "chat_turn:b6556366:S1783",
+      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1790",
+      "target": "topic:asq-bb-exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1790",
+      "target": "topic:career_applications_tracker",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1790",
+      "target": "topic:home",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1790",
+      "target": "topic:krithika",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1790",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1790",
       "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
@@ -17955,17 +17972,17 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "94a5f800a19d4c84e20aba457c6fd4103cf4694250d22985bcb82e004cdef973",
+    "chats/SHARED_SESSION_STATE.md": "bea57577eb0e18ac84494903ba8248de1538db4bba0bcd2ea8510722b364eb4f",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "dedc49018d472c6663bb64892838fa492d664b024e1159b8db9749a20cf25f96",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
-    "documents/CAREER_APPLICATIONS_TRACKER.md": "0db061df7e099bff71af5793a89273309238cad3d96018eb05774c8eb8d4f4a1",
+    "documents/CAREER_APPLICATIONS_TRACKER.md": "ffc04fe6ee2b82be28d229aca7bf28791cce3bb10d3bd68071aba0e47be8d685",
     "documents/QUESTION_BANK_LOG.md": "559c54c56542d41704ab38329c3c35ef4cc73f4c07d798aa7a1af4346d7683f3",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
-    "repo.md": "b9da2aad50d240ec592cc6f79099ab385a3da6ecb64382220bc7ec261e5bc435"
+    "repo.md": "be57e315e461628016989563c3758f8ba2380a3f929da04d4b9760106848ad65"
   }
 }
