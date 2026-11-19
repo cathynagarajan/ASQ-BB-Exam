@@ -2,8 +2,8 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Round 19 Part 1 — `I.A & I.B` Unit 1 Medium-Hard `Q211`–`Q220`, Open-Book):** **`7 / 10` (`70.0%`)** *(Nailed Juran, Shingo, A3, Maturity Model, Risk Transfer, Process Owner, ADKAR! Missed Taguchi Loss Function `Q212`, 8D Containment `Q214`, Bridges Ending/Letting Go `Q219`.)*
-- **Overall Cumulative Score (`Q1`–`Q220` + `C1`–`C130` = `350` Qs):** **`274 / 350` (`78.3%`)**
+- **Latest Batch Score (Round 19 Part 2 / Block 1 — `I.A & I.B` Unit 1 TRUE EXAM-HARD `Q221`–`Q230`, Open-Book):** **`10 / 10` (`100.0%` — PERFECT SCORE ON EXAM-HARD UNIT 1!!)**
+- **Overall Cumulative Score (`Q1`–`Q230` + `C1`–`C130` = `360` Qs):** **`284 / 360` (`78.9%`)**
 
 ---
 
@@ -11,7 +11,7 @@
 
 | ASQ Domain | DMAIC Phase | Exam Weight | Attempted | Correct | Accuracy | Status / Priority |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 67 | 57 | **85.1%** | **Round 19 Part 1 (`Q211–Q220`): `7/10` (Open-Book)!** Nailed Juran, Shingo, A3, Maturity, Risk Transfer, ADKAR; review Taguchi Loss Function (goalpost trap), 8D urgent containment, & Bridges Phase 1 (Ending). Part 2 (`Q221–Q230` Exam-Hard) up next! |
+| **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 77 | 67 | **87.0%** | **PERFECT `10 / 10` (`100%`) ON TRUE EXAM-HARD UNIT 1 (`Q221–Q230`)!** Block 2 (`Q231–Q240` spaced check) & Block 3 (`Q241–Q250` Unit 2 preview) waiting on screen! |
 | **II. Org Process Mgmt & Measures** | Pre-DMAIC | 12 Qs (8.0%) | 8 | 6 | **75.0%** | Strong on ROI/Payback/NPV/Leading-Lagging/Internal-External COQ; review `II.B` Benchmarking & `II.C.2` Appraisal COQ |
 | **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 7 | 5 | **71.4%** | Review `III.B` Tuckman (Storming), `III.B` Lencioni 5 Dysfunctions, `III.C` Thomas-Kilmann Conflict Modes |
 | **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 48 | 38 | **79.2%** | **Define Basics Level 1 set ready on screen!** Review PERT variance `sqrt(sum var)`, ID `0 incoming`, PDPC vs PFMEA |
