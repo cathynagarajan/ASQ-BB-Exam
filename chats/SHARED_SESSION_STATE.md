@@ -10,9 +10,12 @@
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
 - **Completed Unique Questions**: **`380` (`Q1`–`Q250` + Copilot `C1`–`C130`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
 - **Latest Set (Round 19 Block 3 — `II.A–II.C` Unit 2 Preview Open-Book `Q241`–`Q250`)**: **`9 / 10 = 90.0%`!** *(Full 30-Q Pack `Q221`–`Q250`: **`27 / 30 = 90.0%`** [`10/10` Exam-Hard Unit 1 + `8/10` Unit 1 Spaced + `9/10` Unit 2 Preview]! Unit 1 officially MASTERED at `75 / 87 = 86.2%`! Only 1 miss on Unit 2 Preview: `Q247` Gage calibration & incoming inspection = Appraisal COQ, NOT Prevention!)*
-- **LOCKED PLAN FOR NEXT SESSION**:
-  1. **Unit 1 (`Domain I`) COMPLETE!** **Short & Sweet Unit 2 (`Domain II`) Word Bible Table** (`Unit2_Process_Mgmt_And_Measures_Table.docx` + Cheat Sheet Sec 10: DPU/DPO/DPMO/FTY/RTY, COQ PAF, ROI/NPV/IRR/Payback/CBA/ROA, Balanced Scorecard, KPI/KBI/OKR, Benchmarking) is already delivered for Cathy to review first!
-  2. **WAIT for Cathy to read the Unit 2 Bible Notes and ask questions / say `"ready"`**, then run Unit 2 Open-Book Practice (`Easy -> Medium -> Exam-Hard`) — starting gently with 1-line DPU/DPO/DPMO/FTY/RTY warm-up reps!
+- **LOCKED PLAN FOR DAY 6 (THURSDAY `2026-11-19`)**:
+  1. **Unit 1 (`Domain I`) COMPLETE & MASTERED (`75 / 87 = 86.2%`; `10/10` Exam-Hard)!**
+  2. **Unit 2 (`Domain II`) Bible Notes & Complete Formula Master Sheet ALREADY BUILT**: `Unit2_Process_Mgmt_And_Measures_Table.docx`, `Unit2_Formulas_Master_Sheet.docx`, and Cheat Sheet Sec 10A–10E (`DPU/DPO/DPMO/FTY/RTY`, `COQ PAF`, `ROI/Payback/FV/PV/NPV/IRR/CBA/ROA`, `Balanced Scorecard`, `KPI/KBI/OKR`, `Benchmarking`).
+  3. **WAIT for Cathy to brush up Unit 2 formulas with her Word Bible first**, then run Unit 2 Open-Book practice (`Easy -> Medium -> Exam-Hard`) and finish Unit 2 with her **1st Timed Prometric Mini-Sprint (`15` crooked ASQ Qs in `24` mins)**! *(Long-term: full 165-Q `4h 18m` Prometric CBT mocks in Jan–Feb 2027 once all 9 units are done.)*
+  4. **Credentials Check for Master Resume**: Verify exact active codes on Cathy's Microsoft Learn transcript (Power Platform `PL-*` / Solution Architect path) and note her **ASQ Yellow Belt (`CSSYB`)** alongside `PMP`, `CSCP`, `CSSGB`, and `M.C.A.`.
+  5. **Vault Angular Demo (`Vault-Study-Session`)**: Office laptop `e103446` `http://localhost:4200` + `1 = SBX / 2 = Vault` switcher restored; resume at **Line 62 of `app.ts`** (~15 calm mins/day for early-Dec Carl demo).
 - **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`133 / 160 = 83.1%`**
 - **Stage 2 Status (`Domain V — Measure Phase`)**: **`35 / 50 = 70.0%`**
 - **Stage 3 Status (`Domain VI — Analyze Phase`)**: **`24 / 30 = 80.0%`**
@@ -32,14 +35,10 @@
   11. `V.E.2` Hypergeometric (small finite lot without replacement) (`Q86`)
   12. `VI.B.3` & `VI.B.4` `Two-Proportion Z-test` (`18/400 vs 9/400` Pass/Fail %, `Q137`) & `Chi-Square Independence` (`3x3` category counts, `Q138`) — *(Note: `t-test`, `Paired t`, `ANOVA`, `Kruskal-Wallis`, `Paired Wilcoxon`, `F-test`, `Levene's` ALL PASSED on `Q131–Q140`!)*
   13. `V.F.5`, `VII.A`, `VIII.A` (Copilot `C19/C21/C24/C25/C52/C57/C59`): `Cp > Pp` under long-term drift, `2-sample t-test` vs `Chi-Square` (never Chi-Square for continuous averages!), `8+ consecutive points above/below centerline = Special Cause`, `np-chart` (count of defectives, fixed `n`) vs `p-chart` (`%` defective), DOE Designs (`CCD/RSM` vs `Plackett-Burman` vs `Latin Square`)
-- **NEXT EXAM STEP**: Pause and wait for Cathy to return from her dermatology appointment and say **"ready"**. **PERMANENT COACHING RESET (8-MONTH BREAK REFRESH)**:
+- **NEXT EXAM STEP**: Wait for Cathy on **Day 6 (Thu `2026-11-19`)** to review her Unit 2 Formula Master Sheet (`Unit2_Formulas_Master_Sheet.docx`) and say **"ready"**. **PERMANENT COACHING RULES**:
+  - **Open-Book Practice Approved**: Always encourage Cathy to use her Word Bible freely (matches the real open-book Prometric ASQ CSSBB exam!).
   - **DELETED OLD RULE**: The leftover "final-2-weeks 100% crooked/notoriously-hard questions ONLY" rule has been **permanently removed** from `rules.md`, `.agents/rules/rules.md`, `QWEN.md`, and `SHARED_SESSION_STATE.md`.
-  - **5-Rung Progressive Difficulty Ladder (`Easy -> Medium -> Hard x2 -> Really Hard -> Notoriously Hard`) on 1 Chapter at a Time**:
-    1. **Easy**: Quick warm-up notes + 10 clean 1-line questions.
-    2. **Medium**: 10 questions (zero notes upfront) to uncover any rusty spots.
-    3. **Hard (2 Sets)**: Repeat Hard twice so exam-level judgment settles comfortably.
-    4. **Really Hard**: Deeper multi-detail application scenarios.
-    5. **Notoriously Hard**: Final stress-test traps before checking the chapter off completely (taking a couple of days per chapter is great — zero rushing!).
+  - **5-Rung Progressive Difficulty Ladder (`Easy -> Medium -> Hard x2 -> Really Hard -> Notoriously Hard`) on 1 Chapter at a Time**, capped by a **Timed Prometric Mini-Sprint (`15` Qs / `24` mins)** at the end of each unit.
   - **Human Explanations ONLY + ALWAYS Repeat Missed Questions**: For every missed question, ALWAYS (1) repeat the full missed question, (2) state Cathy's answer vs. the correct answer, and (3) explain why her answer was wrong and why the correct answer is right in 1–2 normal conversational sentences using a real-life analogy — zero robotic 4-bullet templates, zero jargon-on-jargon, zero `$` signs.
 
 ---
