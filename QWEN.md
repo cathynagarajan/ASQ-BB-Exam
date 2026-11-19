@@ -24,7 +24,7 @@
   - Plain-text numbered questions, 4 choices (`A, B, C, D`), **NEVER show answers or hints upfront**.
 - **Human, Plain-English Grading & Explanations**:
   1. Score cleanly and clearly.
-  2. Explain any missed question in **1–2 normal, everyday human sentences with a simple real-life picture/analogy** — **NEVER** explain jargon with more jargon, and **NEVER** use stiff robotic templates or visual clutter.
+  2. **ALWAYS Repeat Missed Questions First**: For every missed question, (a) repeat the full missed question so Cathy doesn't have to scroll up, (b) show her answer vs. the correct answer, and (c) explain **why her choice was wrong** and **why the right answer is right** in **1–2 normal, everyday human sentences with a simple real-life picture/analogy** — **NEVER** explain jargon with more jargon, and **NEVER** use stiff robotic templates or visual clutter.
   3. Update `PERFORMANCE_TRACKER.md`, `documents/QUESTION_BANK_LOG.md`, and `chats/SHARED_SESSION_STATE.md`, then **ALWAYS update and verify the Knowledge Graph (`query_kg.py --commit-push` + `kg_vectors_asq_bb_exam`, NEVER `--no-verify`) on EVERY commit**.
 
 ## 3. Job Search & Resume Guardrails

@@ -40,7 +40,7 @@
     3. **Hard (2 Sets)**: Repeat Hard twice so exam-level judgment settles comfortably.
     4. **Really Hard**: Deeper multi-detail application scenarios.
     5. **Notoriously Hard**: Final stress-test traps before checking the chapter off completely (taking a couple of days per chapter is great — zero rushing!).
-  - **Human Explanations ONLY**: Explain misses in 1–2 normal conversational sentences using a real-life analogy — zero robotic 4-bullet templates, zero jargon-on-jargon, zero `$` signs.
+  - **Human Explanations ONLY + ALWAYS Repeat Missed Questions**: For every missed question, ALWAYS (1) repeat the full missed question, (2) state Cathy's answer vs. the correct answer, and (3) explain why her answer was wrong and why the correct answer is right in 1–2 normal conversational sentences using a real-life analogy — zero robotic 4-bullet templates, zero jargon-on-jargon, zero `$` signs.
 
 ---
 
