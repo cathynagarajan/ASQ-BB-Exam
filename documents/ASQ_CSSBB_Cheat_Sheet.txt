@@ -213,4 +213,23 @@ D. BENCHMARKING TYPES
 - Competitive          : Compare directly against rival companies in your same industry.
 - Functional / Process : Study a similar workflow in a DIFFERENT industry (hospital ER studying NASCAR pit crew).
 - Strategic/Breakthru  : Long-term business model leap studied from world-class leaders.
+
+E. COMPLETE UNIT 2 EXACT FORMULAS (ALL QUANTITATIVE METRICS)
+- DPU                  : Total Defects / Total Units
+- DPO                  : Total Defects / (Total Units x Opportunities per Unit)
+- DPMO                 : DPO x 1,000,000
+- Final Yield          : Good Units Shipped (incl. reworked) / Total Started
+- FTY (First Time Yld) : (Units Entered - Scrap - Rework) / Units Entered
+- RTY (Rolled Yield)   : FTY1 x FTY2 x ... x FTYk   (or Poisson shortcut: e^(-DPU))
+- Total COQ            : Prevention + Appraisal + Internal Failure + External Failure
+- COPQ & COPQ %        : COPQ = Internal Failure + External Failure  |  COPQ % = (COPQ / Revenue) x 100%
+- ROI (%)              : [(Total Benefits - Total Costs) / Total Costs] x 100%
+- Payback Period (yrs) : Initial Upfront Investment / Annual Net Cash Savings
+- Future Value (FV)    : PV x (1 + r)^n
+- Present Value (PV)   : FV / (1 + r)^n
+- NPV                  : [CF1/(1+r)^1 + CF2/(1+r)^2 + ... + CFn/(1+r)^n] - Initial Investment (NPV > 0 = Approve)
+- IRR                  : Discount rate r where NPV = 0 (Approve if IRR > Hurdle Rate / MARR)
+- CBA / BCR            : Total Discounted Benefits / Total Discounted Costs (Approve if BCR > 1.0)
+- ROA (%)              : (Net Income / Total Assets) x 100%
+- Sigma <-> DPMO Key   : 2s = 308,538 | 3s = 66,807 | 4s = 6,210 | 5s = 233 | 6s = 3.4 DPMO (with 1.5s shift)
 ================================================================================

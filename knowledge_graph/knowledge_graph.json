@@ -1,46 +1,45 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-19T05:00:34.955740+00:00",
-    "total_files_indexed": 62,
-    "total_nodes": 550,
-    "total_edges": 1019,
+    "generated_at": "2026-11-19T05:03:49.128199+00:00",
+    "total_files_indexed": 63,
+    "total_nodes": 569,
+    "total_edges": 1075,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
       "document": 43,
-      "document_file": 17,
-      "document_section": 119,
+      "document_file": 18,
+      "document_section": 127,
       "html_template": 1,
-      "topic_entity": 316
+      "topic_entity": 326
     }
   },
   "last_change_check": {
     "changed": true,
     "added": [
-      "documents/Unit2_Process_Mgmt_And_Measures_Table.docx"
+      "documents/Unit2_Formulas_Master_Sheet.docx"
     ],
     "modified": [
-      "chats/SHARED_SESSION_STATE.md",
       "documents/ASQ_CSSBB_Cheat_Sheet.txt"
     ],
     "removed": [],
     "files_parsed": 2,
-    "files_cached_reused": 59,
+    "files_cached_reused": 60,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 81,
-      "nodes_deleted": 16,
-      "edges_upserted": 123,
-      "edges_deleted": 39,
+      "nodes_upserted": 33,
+      "nodes_deleted": 4,
+      "edges_upserted": 77,
+      "edges_deleted": 16,
       "wiki_pages_upserted": 0,
       "wiki_pages_deleted": 0,
-      "files_upserted": 4,
+      "files_upserted": 3,
       "files_deleted": 0,
-      "total_nodes_in_db": 550,
-      "total_edges_in_db": 1019,
-      "total_files_tracked": 63
+      "total_nodes_in_db": 569,
+      "total_edges_in_db": 1075,
+      "total_files_tracked": 64
     }
   },
   "nodes": [
@@ -663,7 +662,7 @@
       "id": "topic:cost",
       "type": "topic_entity",
       "name": "cost",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
       "description": "Shared domain topic 'cost' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cost"
@@ -804,7 +803,7 @@
       "id": "topic:annual",
       "type": "topic_entity",
       "name": "annual",
-      "file_path": "Resume_And_Jobs/Job31_SoFi_7979520003_Krithika_Nagarajan_Resume.docx",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
       "description": "Shared domain topic 'annual' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "annual"
@@ -2092,7 +2091,7 @@
       "id": "topic:sigma",
       "type": "topic_entity",
       "name": "sigma",
-      "file_path": "Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
       "description": "Shared domain topic 'sigma' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "sigma"
@@ -3085,20 +3084,20 @@
       "id": "topic:defects",
       "type": "topic_entity",
       "name": "defects",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
       "description": "Shared domain topic 'defects' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "defects"
       }
     },
     {
-      "id": "topic:test",
+      "id": "topic:total",
       "type": "topic_entity",
-      "name": "test",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
-      "description": "Shared domain topic 'test' connecting multi-modal documents and workspace chats",
+      "name": "total",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'total' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "test"
+        "keyword": "total"
       }
     },
     {
@@ -3112,13 +3111,13 @@
       }
     },
     {
-      "id": "topic:control",
+      "id": "topic:test",
       "type": "topic_entity",
-      "name": "control",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'control' connecting multi-modal documents and workspace chats",
+      "name": "test",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "description": "Shared domain topic 'test' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "control"
+        "keyword": "test"
       }
     },
     {
@@ -3132,23 +3131,23 @@
       }
     },
     {
-      "id": "topic:sample",
+      "id": "topic:control",
       "type": "topic_entity",
-      "name": "sample",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
-      "description": "Shared domain topic 'sample' connecting multi-modal documents and workspace chats",
+      "name": "control",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'control' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "sample"
+        "keyword": "control"
       }
     },
     {
-      "id": "topic:step",
+      "id": "topic:units",
       "type": "topic_entity",
-      "name": "step",
-      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
-      "description": "Shared domain topic 'step' connecting multi-modal documents and workspace chats",
+      "name": "units",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'units' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "step"
+        "keyword": "units"
       }
     },
     {
@@ -3156,20 +3155,20 @@
       "type": "document_file",
       "name": "ASQ_CSSBB_Cheat_Sheet.txt",
       "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
-      "description": "Document ASQ_CSSBB_Cheat_Sheet.txt (13 section(s)): ================================================================================ ASQ CSSBB EXAM CHEAT SHEET (2022 BoK) - EASY SKIM EDITION =========================================",
+      "description": "Document ASQ_CSSBB_Cheat_Sheet.txt (14 section(s)): ================================================================================ ASQ CSSBB EXAM CHEAT SHEET (2022 BoK) - EASY SKIM EDITION =========================================",
       "metadata": {
         "format": "txt",
-        "section_count": 13,
-        "size_bytes": 15083,
+        "section_count": 14,
+        "size_bytes": 16458,
         "topics": [
           "defects",
+          "total",
+          "unit",
           "quality",
           "test",
-          "unit",
-          "control",
           "time",
-          "sample",
-          "step"
+          "control",
+          "units"
         ]
       }
     },
@@ -3194,6 +3193,16 @@
       "description": "Shared domain topic 'means' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "means"
+      }
+    },
+    {
+      "id": "topic:sample",
+      "type": "topic_entity",
+      "name": "sample",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "description": "Shared domain topic 'sample' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "sample"
       }
     },
     {
@@ -3564,6 +3573,16 @@
       }
     },
     {
+      "id": "topic:step",
+      "type": "topic_entity",
+      "name": "step",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'step' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "step"
+      }
+    },
+    {
       "id": "topic:system",
       "type": "topic_entity",
       "name": "system",
@@ -3658,48 +3677,61 @@
       "metadata": {
         "section_index": 13,
         "section_type": "section",
-        "text_excerpt": "PI / KBI / OKR      : KPI = result; KBI = daily habit/behavior; OKR = Big Objective + measurable Key Results.\n- Leading vs. Lagging  : Leading = predicts future (brake checks); Lagging = past result (accidents).\n\nD. BENCHMARKING TYPES\n- Internal             : Compare teams/plants INSIDE your own company.\n- Competitive          : Compare directly against rival companies in your same industry.\n- Functional / Process : Study a similar workflow in a DIFFERENT industry (hospital ER studying NASCAR pit crew).\n- Strategic/Breakthru  : Long-term business model leap studied from world-class leaders.\n================================================================================",
-        "char_count": 678
+        "text_excerpt": "PI / KBI / OKR      : KPI = result; KBI = daily habit/behavior; OKR = Big Objective + measurable Key Results.\n- Leading vs. Lagging  : Leading = predicts future (brake checks); Lagging = past result (accidents).\n\nD. BENCHMARKING TYPES\n- Internal             : Compare teams/plants INSIDE your own company.\n- Competitive          : Compare directly against rival companies in your same industry.\n- Functional / Process : Study a similar workflow in a DIFFERENT industry (hospital ER studying NASCAR pit crew).\n- Strategic/Breakthru  : Long-term business model leap studied from world-class leaders.\n\nE. COMPLETE UNIT 2 EXACT FORMULAS (ALL QUANTITATIVE METRICS)\n- DPU                  : Total Defects / Total Units\n- DPO                  : Total Defects / (Total Units x Opportunities per Unit)\n- DPMO ",
+        "char_count": 1200
       }
     },
     {
-      "id": "topic:compare",
+      "id": "topic:copq",
       "type": "topic_entity",
-      "name": "compare",
+      "name": "copq",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
+      "description": "Shared domain topic 'copq' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "copq"
+      }
+    },
+    {
+      "id": "topic:internal",
+      "type": "topic_entity",
+      "name": "internal",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'internal' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "internal"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:14",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Cheat_Sheet.txt [Section 14]",
       "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
-      "description": "Shared domain topic 'compare' connecting multi-modal documents and workspace chats",
+      "description": "Section 14 of ASQ_CSSBB_Cheat_Sheet.txt: ure + External Failure | COPQ % = (COPQ / Revenue) x 100% - ROI (%) : [(Total Benefits - Total Costs) / Total Costs] x 100% - Payback Period (yrs) : Initial Upfront Investment / Annual Net Cash Savings - Future Value (FV",
       "metadata": {
-        "keyword": "compare"
+        "section_index": 14,
+        "section_type": "section",
+        "text_excerpt": "ure + External Failure  |  COPQ % = (COPQ / Revenue) x 100%\n- ROI (%)              : [(Total Benefits - Total Costs) / Total Costs] x 100%\n- Payback Period (yrs) : Initial Upfront Investment / Annual Net Cash Savings\n- Future Value (FV)    : PV x (1 + r)^n\n- Present Value (PV)   : FV / (1 + r)^n\n- NPV                  : [CF1/(1+r)^1 + CF2/(1+r)^2 + ... + CFn/(1+r)^n] - Initial Investment (NPV > 0 = Approve)\n- IRR                  : Discount rate r where NPV = 0 (Approve if IRR > Hurdle Rate / MARR)\n- CBA / BCR            : Total Discounted Benefits / Total Discounted Costs (Approve if BCR > 1.0)\n- ROA (%)              : (Net Income / Total Assets) x 100%\n- Sigma <-> DPMO Key   : 2s = 308,538 | 3s = 66,807 | 4s = 6,210 | 5s = 233 | 6s = 3.4 DPMO (with 1.5s shift)\n===========================",
+        "char_count": 853
       }
     },
     {
-      "id": "topic:industry",
+      "id": "topic:costs",
       "type": "topic_entity",
-      "name": "industry",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
-      "description": "Shared domain topic 'industry' connecting multi-modal documents and workspace chats",
+      "name": "costs",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
+      "description": "Shared domain topic 'costs' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "industry"
+        "keyword": "costs"
       }
     },
     {
-      "id": "topic:lagging",
+      "id": "topic:benefits",
       "type": "topic_entity",
-      "name": "lagging",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
-      "description": "Shared domain topic 'lagging' connecting multi-modal documents and workspace chats",
+      "name": "benefits",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
+      "description": "Shared domain topic 'benefits' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "lagging"
-      }
-    },
-    {
-      "id": "topic:leading",
-      "type": "topic_entity",
-      "name": "leading",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
-      "description": "Shared domain topic 'leading' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "leading"
+        "keyword": "benefits"
       }
     },
     {
@@ -5386,20 +5418,263 @@
       }
     },
     {
-      "id": "topic:total",
+      "id": "topic:dpmo",
       "type": "topic_entity",
-      "name": "total",
+      "name": "dpmo",
       "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
-      "description": "Shared domain topic 'total' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'dpmo' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "total"
+        "keyword": "dpmo"
+      }
+    },
+    {
+      "id": "topic:yield",
+      "type": "topic_entity",
+      "name": "yield",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'yield' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "yield"
+      }
+    },
+    {
+      "id": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "type": "document_file",
+      "name": "Unit2_Formulas_Master_Sheet.docx",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
+      "description": "Document Unit2_Formulas_Master_Sheet.docx (7 section(s)): ASQ CSSBB Unit 2 (Domain II) \u2014 Complete Formula Master Sheet (With Worked Examples) Metric Exact Formula (Plain Text) Worked Step-by-Step Example DPU (Defects Per Unit) DPU = Total",
+      "metadata": {
+        "format": "docx",
+        "section_count": 7,
+        "size_bytes": 2841,
+        "topics": [
+          "total",
+          "defects",
+          "cost",
+          "copq",
+          "dpmo",
+          "benefits",
+          "costs",
+          "yield"
+        ]
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:1",
+      "type": "document_section",
+      "name": "Unit2_Formulas_Master_Sheet.docx [Section 1]",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
+      "description": "Section 1 of Unit2_Formulas_Master_Sheet.docx: ASQ CSSBB Unit 2 (Domain II) \u2014 Complete Formula Master Sheet (With Worked Examples) Metric Exact Formula (Plain Text) Worked Step-by-Step Example DPU (Defects Per Unit) DPU = Total Defects / Total Units 15 defects on 10 ",
+      "metadata": {
+        "section_index": 1,
+        "section_type": "section",
+        "text_excerpt": "ASQ CSSBB Unit 2 (Domain II) \u2014 Complete Formula Master Sheet (With Worked Examples)\nMetric\nExact Formula (Plain Text)\nWorked Step-by-Step Example\nDPU (Defects Per Unit)\nDPU = Total Defects / Total Units\n15 defects on 10 invoices -> 15 / 10 = 1.50 DPU\nDPO (Defects Per Opportunity)",
+        "char_count": 280
+      }
+    },
+    {
+      "id": "topic:formula",
+      "type": "topic_entity",
+      "name": "formula",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'formula' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "formula"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:2",
+      "type": "document_section",
+      "name": "Unit2_Formulas_Master_Sheet.docx [Section 2]",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
+      "description": "Section 2 of Unit2_Formulas_Master_Sheet.docx: DPO = Total Defects / (Units x Opportunities per Unit) 15 defects, 10 invoices, 5 fields each -> 15 / (10 x 5) = 15 / 50 = 0.30 DPO DPMO (Defects Per Million Opp.) DPMO = DPO x 1,000,000 0.00621 DPO x 1,000,000 = 6,210 D",
+      "metadata": {
+        "section_index": 2,
+        "section_type": "section",
+        "text_excerpt": "DPO = Total Defects / (Units x Opportunities per Unit)\n15 defects, 10 invoices, 5 fields each -> 15 / (10 x 5) = 15 / 50 = 0.30 DPO\nDPMO (Defects Per Million Opp.)\nDPMO = DPO x 1,000,000\n0.00621 DPO x 1,000,000 = 6,210 DPMO (4 Sigma)\nFinal Yield (Traditional)\nFinal Yield = (Good Shipped incl. Rework) / Total Started\n100 started, 90 good 1st pass + 8 reworked = 98 / 100 = 98% (hides rework!)",
+        "char_count": 393
+      }
+    },
+    {
+      "id": "topic:final",
+      "type": "topic_entity",
+      "name": "final",
+      "file_path": "chats/transcript_6e8422d1.jsonl",
+      "description": "Shared domain topic 'final' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "final"
+      }
+    },
+    {
+      "id": "topic:good",
+      "type": "topic_entity",
+      "name": "good",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'good' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "good"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:3",
+      "type": "document_section",
+      "name": "Unit2_Formulas_Master_Sheet.docx [Section 3]",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
+      "description": "Section 3 of Unit2_Formulas_Master_Sheet.docx: FTY (First Time Yield) FTY = (Entered - Scrap - Rework) / Entered 100 entered, 2 scrap, 8 reworked -> (100 - 2 - 8) / 100 = 90 / 100 = 90% RTY (Rolled Throughput Yield) RTY = FTY1 x FTY2 x FTY3 ... (or shortcut: e^(-DPU)",
+      "metadata": {
+        "section_index": 3,
+        "section_type": "section",
+        "text_excerpt": "FTY (First Time Yield)\nFTY = (Entered - Scrap - Rework) / Entered\n100 entered, 2 scrap, 8 reworked -> (100 - 2 - 8) / 100 = 90 / 100 = 90%\nRTY (Rolled Throughput Yield)\nRTY = FTY1 x FTY2 x FTY3 ...  (or shortcut: e^(-DPU))\n3 steps at 90%, 95%, 80% -> 0.90 x 0.95 x 0.80 = 0.684 = 68.4% (e^-0.38 = 68.4%)\nTotal Cost of Quality (COQ)\nCOQ = Prevention + Appraisal + Internal Fail + External Fail",
+        "char_count": 392
+      }
+    },
+    {
+      "id": "topic:entered",
+      "type": "topic_entity",
+      "name": "entered",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
+      "description": "Shared domain topic 'entered' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "entered"
+      }
+    },
+    {
+      "id": "topic:fail",
+      "type": "topic_entity",
+      "name": "fail",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
+      "description": "Shared domain topic 'fail' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "fail"
+      }
+    },
+    {
+      "id": "topic:scrap",
+      "type": "topic_entity",
+      "name": "scrap",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
+      "description": "Shared domain topic 'scrap' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "scrap"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:4",
+      "type": "document_section",
+      "name": "Unit2_Formulas_Master_Sheet.docx [Section 4]",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
+      "description": "Section 4 of Unit2_Formulas_Master_Sheet.docx: 10K + 20K + 35K + 55K = 120K Total COQ COPQ (Cost of Poor Quality) COPQ = Internal Failure + External Failure | COPQ % = (COPQ / Revenue) x 100% 35K + 55K = 90K COPQ; on 1,000K revenue -> 90 / 1000 = 9.0% ROI (Return on ",
+      "metadata": {
+        "section_index": 4,
+        "section_type": "section",
+        "text_excerpt": "10K + 20K + 35K + 55K = 120K Total COQ\nCOPQ (Cost of Poor Quality)\nCOPQ = Internal Failure + External Failure  |  COPQ % = (COPQ / Revenue) x 100%\n35K + 55K = 90K COPQ; on 1,000K revenue -> 90 / 1000 = 9.0%\nROI (Return on Investment)\nROI (%) = [(Total Benefits - Total Costs) / Total Costs] x 100%\n150K benefits, 100K cost -> [(150 - 100) / 100] x 100% = 50% ROI\nPayback Period",
+        "char_count": 377
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:5",
+      "type": "document_section",
+      "name": "Unit2_Formulas_Master_Sheet.docx [Section 5]",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
+      "description": "Section 5 of Unit2_Formulas_Master_Sheet.docx: Payback (yrs) = Initial Upfront Investment / Annual Cash Savings 120K investment / 40K annual savings = 3.0 years (shorter = better) Future Value (FV) FV = PV x (1 + r)^n 10,000 USD at 10% for 2 yrs -> 10,000 x (1.10)^2 ",
+      "metadata": {
+        "section_index": 5,
+        "section_type": "section",
+        "text_excerpt": "Payback (yrs) = Initial Upfront Investment / Annual Cash Savings\n120K investment / 40K annual savings = 3.0 years (shorter = better)\nFuture Value (FV)\nFV = PV x (1 + r)^n\n10,000 USD at 10% for 2 yrs -> 10,000 x (1.10)^2 = 12,100 USD\nPresent Value (PV)\nPV = FV / (1 + r)^n\n12,100 USD received in 2 yrs at 10% -> 12,100 / (1.10)^2 = 10,000 USD",
+        "char_count": 341
+      }
+    },
+    {
+      "id": "topic:investment",
+      "type": "topic_entity",
+      "name": "investment",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'investment' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "investment"
+      }
+    },
+    {
+      "id": "topic:savings",
+      "type": "topic_entity",
+      "name": "savings",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'savings' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "savings"
+      }
+    },
+    {
+      "id": "topic:value",
+      "type": "topic_entity",
+      "name": "value",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'value' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "value"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:6",
+      "type": "document_section",
+      "name": "Unit2_Formulas_Master_Sheet.docx [Section 6]",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
+      "description": "Section 6 of Unit2_Formulas_Master_Sheet.docx: NPV (Net Present Value) NPV = [CF1/(1+r)^1 + CF2/(1+r)^2 + ... + CFn/(1+r)^n] - Initial Cost Cost 100K, r=10%, CF1=60K, CF2=60K -> (60/1.1 + 60/1.21) - 100 = 54.55+49.59-100 = +4.14K (Approve!) IRR (Internal Rate of Retu",
+      "metadata": {
+        "section_index": 6,
+        "section_type": "section",
+        "text_excerpt": "NPV (Net Present Value)\nNPV = [CF1/(1+r)^1 + CF2/(1+r)^2 + ... + CFn/(1+r)^n] - Initial Cost\nCost 100K, r=10%, CF1=60K, CF2=60K -> (60/1.1 + 60/1.21) - 100 = 54.55+49.59-100 = +4.14K (Approve!)\nIRR (Internal Rate of Return)\nSolve for rate r where NPV = 0: Sum[CFt/(1+IRR)^t] - Initial Cost = 0\nIf IRR = 16% and company Hurdle Rate (MARR) = 12% -> Approve (16% > 12%)\nCBA / BCR (Benefit-Cost Ratio)\nBCR = Total Discounted Benefits / Total Discounted Costs",
+        "char_count": 454
+      }
+    },
+    {
+      "id": "topic:discounted",
+      "type": "topic_entity",
+      "name": "discounted",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
+      "description": "Shared domain topic 'discounted' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "discounted"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:7",
+      "type": "document_section",
+      "name": "Unit2_Formulas_Master_Sheet.docx [Section 7]",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
+      "description": "Section 7 of Unit2_Formulas_Master_Sheet.docx: 180K benefits / 120K costs = 1.50 (BCR > 1.0 = Approve!) ROA (Return on Assets) ROA (%) = (Net Income / Total Assets) x 100% 2M net income / 25M total assets = 8.0% ROA Sigma Level <-> DPMO Key 2s=308,538 | 3s=66,807 | 4",
+      "metadata": {
+        "section_index": 7,
+        "section_type": "section",
+        "text_excerpt": "180K benefits / 120K costs = 1.50 (BCR > 1.0 = Approve!)\nROA (Return on Assets)\nROA (%) = (Net Income / Total Assets) x 100%\n2M net income / 25M total assets = 8.0% ROA\nSigma Level <-> DPMO Key\n2s=308,538 | 3s=66,807 | 4s=6,210 | 5s=233 | 6s=3.4 DPMO\nAll include ASQ's standard 1.5-sigma long-term shift",
+        "char_count": 303
+      }
+    },
+    {
+      "id": "topic:assets",
+      "type": "topic_entity",
+      "name": "assets",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'assets' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "assets"
+      }
+    },
+    {
+      "id": "topic:income",
+      "type": "topic_entity",
+      "name": "income",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
+      "description": "Shared domain topic 'income' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "income"
       }
     },
     {
       "id": "topic:benchmarking",
       "type": "topic_entity",
       "name": "benchmarking",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
       "description": "Shared domain topic 'benchmarking' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "benchmarking"
@@ -5413,16 +5688,6 @@
       "description": "Shared domain topic 'company' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "company"
-      }
-    },
-    {
-      "id": "topic:internal",
-      "type": "topic_entity",
-      "name": "internal",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
-      "description": "Shared domain topic 'internal' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "internal"
       }
     },
     {
@@ -5484,16 +5749,6 @@
       }
     },
     {
-      "id": "topic:dpmo",
-      "type": "topic_entity",
-      "name": "dpmo",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
-      "description": "Shared domain topic 'dpmo' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "dpmo"
-      }
-    },
-    {
       "id": "topic:invoices",
       "type": "topic_entity",
       "name": "invoices",
@@ -5527,36 +5782,6 @@
       }
     },
     {
-      "id": "topic:good",
-      "type": "topic_entity",
-      "name": "good",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
-      "description": "Shared domain topic 'good' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "good"
-      }
-    },
-    {
-      "id": "topic:units",
-      "type": "topic_entity",
-      "name": "units",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
-      "description": "Shared domain topic 'units' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "units"
-      }
-    },
-    {
-      "id": "topic:yield",
-      "type": "topic_entity",
-      "name": "yield",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
-      "description": "Shared domain topic 'yield' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "yield"
-      }
-    },
-    {
       "id": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:4",
       "type": "document_section",
       "name": "Unit2_Process_Mgmt_And_Measures_Table.docx [Section 4]",
@@ -5573,7 +5798,7 @@
       "id": "topic:failure",
       "type": "topic_entity",
       "name": "failure",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
       "description": "Shared domain topic 'failure' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "failure"
@@ -5613,26 +5838,6 @@
       }
     },
     {
-      "id": "topic:savings",
-      "type": "topic_entity",
-      "name": "savings",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
-      "description": "Shared domain topic 'savings' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "savings"
-      }
-    },
-    {
-      "id": "topic:investment",
-      "type": "topic_entity",
-      "name": "investment",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
-      "description": "Shared domain topic 'investment' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "investment"
-      }
-    },
-    {
       "id": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:6",
       "type": "document_section",
       "name": "Unit2_Process_Mgmt_And_Measures_Table.docx [Section 6]",
@@ -5646,16 +5851,6 @@
       }
     },
     {
-      "id": "topic:value",
-      "type": "topic_entity",
-      "name": "value",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
-      "description": "Shared domain topic 'value' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "value"
-      }
-    },
-    {
       "id": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:7",
       "type": "document_section",
       "name": "Unit2_Process_Mgmt_And_Measures_Table.docx [Section 7]",
@@ -5666,16 +5861,6 @@
         "section_type": "section",
         "text_excerpt": "Ratio > 1.0 means benefits beat costs\nROA (Return on Assets)\nNet Income / Total Assets\nHow efficiently the company turns equipment/assets into profit\nBalanced Scorecard (4 Views)\nFinancial, Customer, Internal Process, Learning & Growth\nPrevents chasing short-term profit while burning out people/quality\nKPI vs. KBI vs. OKR",
         "char_count": 323
-      }
-    },
-    {
-      "id": "topic:assets",
-      "type": "topic_entity",
-      "name": "assets",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
-      "description": "Shared domain topic 'assets' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "assets"
       }
     },
     {
@@ -5722,6 +5907,26 @@
       }
     },
     {
+      "id": "topic:lagging",
+      "type": "topic_entity",
+      "name": "lagging",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'lagging' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "lagging"
+      }
+    },
+    {
+      "id": "topic:leading",
+      "type": "topic_entity",
+      "name": "leading",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'leading' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "leading"
+      }
+    },
+    {
       "id": "topic:ardent",
       "type": "topic_entity",
       "name": "ardent",
@@ -5762,6 +5967,16 @@
       "description": "Shared domain topic 'bank' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "bank"
+      }
+    },
+    {
+      "id": "topic:industry",
+      "type": "topic_entity",
+      "name": "industry",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'industry' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "industry"
       }
     },
     {
@@ -6172,13 +6387,33 @@
       }
     },
     {
-      "id": "topic:block",
+      "id": "topic:home",
       "type": "topic_entity",
-      "name": "block",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'block' connecting multi-modal documents and workspace chats",
+      "name": "home",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'home' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "block"
+        "keyword": "home"
+      }
+    },
+    {
+      "id": "topic:asq-bb-exam",
+      "type": "topic_entity",
+      "name": "asq-bb-exam",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "asq-bb-exam"
+      }
+    },
+    {
+      "id": "topic:workspace",
+      "type": "topic_entity",
+      "name": "workspace",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'workspace' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "workspace"
       }
     },
     {
@@ -6192,23 +6427,13 @@
       }
     },
     {
-      "id": "topic:home",
+      "id": "topic:shared_session_state",
       "type": "topic_entity",
-      "name": "home",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'home' connecting multi-modal documents and workspace chats",
+      "name": "shared_session_state",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'shared_session_state' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "home"
-      }
-    },
-    {
-      "id": "topic:answer",
-      "type": "topic_entity",
-      "name": "answer",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'answer' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "answer"
+        "keyword": "shared_session_state"
       }
     },
     {
@@ -6216,78 +6441,23 @@
       "type": "chat_session",
       "name": "Chat Session 4dda7faa",
       "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Chat Session 4dda7faa (76 turns): hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
+      "description": "Chat Session 4dda7faa (78 turns): hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
       "metadata": {
         "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
         "short_id": "4dda7faa",
-        "turn_count": 76,
+        "turn_count": 78,
         "first_question": "hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
         "source": "antigravity_transcript",
         "topics": [
           "unit",
-          "cost",
           "right",
-          "block",
-          "question",
           "home",
-          "answer",
-          "appraisal"
+          "asq-bb-exam",
+          "krithika",
+          "workspace",
+          "question",
+          "shared_session_state"
         ]
-      }
-    },
-    {
-      "id": "topic:project",
-      "type": "topic_entity",
-      "name": "project",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'project' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "project"
-      }
-    },
-    {
-      "id": "chat_turn:4dda7faa:S206",
-      "type": "chat_turn",
-      "name": "Chat 4dda7faa Turn S206 (assistant)",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "[ASSISTANT S206] Here is your **30-question open-book pack (`Q221`\u2013`Q250`)** \u2014 keep your Word Bible open and answer **10 at a time** or **all 30 together**, whichever feels best! - **Block 1 (`Q221`\u2013`Q230`):** Unit 1 True Exam-Hard (`Dom",
-      "metadata": {
-        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "step_index": 206,
-        "role": "assistant",
-        "created_at": "2026-11-19T04:34:09Z",
-        "content_excerpt": "Here is your **30-question open-book pack (`Q221`\u2013`Q250`)** \u2014 keep your Word Bible open and answer **10 at a time** or **all 30 together**, whichever feels best!\n- **Block 1 (`Q221`\u2013`Q230`):** Unit 1 True Exam-Hard (`Domain I` \u2014 repeated right here so you don't have to scroll up!)\n- **Block 2 (`Q231`\u2013`Q240`):** Unit 1 Spaced Reinforcement (`Domain I` \u2014 Taguchi, 8D, Bridges, Crosby, Feigenbaum, Shingo, Risk, Porter, ADKAR)\n- **Block 3 (`Q241`\u2013`Q250`):** Unit 2 Preview (`Domain II` \u2014 Benchmarking, Balanced Scorecard, OKRs, Leading/Lagging, Cost of Quality, Payback & NPV)\n\n---\n\n### Block 1: Unit 1 True Exam-Hard (`Q221`\u2013`Q230`)\n\n**Q221.** A stable call center has normal random call-length variation caused by a slow computer system. Every Friday, the supervisor hands a gift card to the fastest",
-        "topics": [
-          "cost",
-          "project",
-          "block",
-          "failure"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:4dda7faa:S207",
-      "type": "chat_turn",
-      "name": "Chat 4dda7faa Turn S207 (user)",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "[USER S207] a,c,d,b,a,c,b,d,a,c",
-      "metadata": {
-        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "step_index": 207,
-        "role": "user",
-        "created_at": "2026-11-19T04:43:09Z",
-        "content_excerpt": "a,c,d,b,a,c,b,d,a,c",
-        "topics": []
-      }
-    },
-    {
-      "id": "topic:asq-bb-exam",
-      "type": "topic_entity",
-      "name": "asq-bb-exam",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "asq-bb-exam"
       }
     },
     {
@@ -6336,6 +6506,16 @@
       }
     },
     {
+      "id": "topic:answer",
+      "type": "topic_entity",
+      "name": "answer",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'answer' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "answer"
+      }
+    },
+    {
       "id": "topic:carriers",
       "type": "topic_entity",
       "name": "carriers",
@@ -6378,6 +6558,16 @@
         "created_at": "2026-11-19T04:55:21Z",
         "content_excerpt": "c,a,b,d,a,b,a,a,c,b",
         "topics": []
+      }
+    },
+    {
+      "id": "topic:block",
+      "type": "topic_entity",
+      "name": "block",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'block' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "block"
       }
     },
     {
@@ -6671,6 +6861,76 @@
       }
     },
     {
+      "id": "chat_turn:4dda7faa:S246",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S246 (assistant)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[ASSISTANT S246] 100% agree \u2014 **notes first, zero questions until everything feels crystal clear!** I built your **Short & Sweet Unit 2 (`Domain II`) Word Bible Table** right now in two ready-to-use formats (synced to [ASQ_CSSBB_Cheat_Sh",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 246,
+        "role": "assistant",
+        "created_at": "2026-11-19T05:00:41Z",
+        "content_excerpt": "100% agree \u2014 **notes first, zero questions until everything feels crystal clear!**\n\nI built your **Short & Sweet Unit 2 (`Domain II`) Word Bible Table** right now in two ready-to-use formats (synced to [ASQ_CSSBB_Cheat_Sheet.txt](file:///home/krithika/workspace/ASQ-BB-Exam/documents/ASQ_CSSBB_Cheat_Sheet.txt#L184-L215), [SHARED_SESSION_STATE.md](file:///home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md), Knowledge Graph `550` nodes / `1,019` edges / `550` vectors, and GitHub `a069014`):\n\n### Option 1: Ready-Made Formatted Word Table (`.docx`)\n- [Unit2_Process_Mgmt_And_Measures_Table.docx](file:///home/krithika/workspace/ASQ-BB-Exam/documents/Unit2_Process_Mgmt_And_Measures_Table.docx) *(navy header, borders, alternating shaded rows \u2014 ready to open and drop straight into you",
+        "topics": [
+          "defects",
+          "total",
+          "unit",
+          "benchmarking"
+        ]
+      }
+    },
+    {
+      "id": "topic:every",
+      "type": "topic_entity",
+      "name": "every",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'every' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "every"
+      }
+    },
+    {
+      "id": "topic:need",
+      "type": "topic_entity",
+      "name": "need",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'need' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "need"
+      }
+    },
+    {
+      "id": "topic:them",
+      "type": "topic_entity",
+      "name": "them",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'them' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "them"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S247",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S247 (user)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[USER S247] we need formula for every one of them",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 247,
+        "role": "user",
+        "created_at": "2026-11-19T05:02:53Z",
+        "content_excerpt": "we need formula for every one of them",
+        "topics": [
+          "every",
+          "formula",
+          "need",
+          "them"
+        ]
+      }
+    },
+    {
       "id": "chat_session:b6556366",
       "type": "chat_session",
       "name": "Chat Session b6556366",
@@ -6762,16 +7022,6 @@
       "description": "Shared domain topic 'connect' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "connect"
-      }
-    },
-    {
-      "id": "topic:need",
-      "type": "topic_entity",
-      "name": "need",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'need' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "need"
       }
     },
     {
@@ -7218,16 +7468,6 @@
       }
     },
     {
-      "id": "topic:workspace",
-      "type": "topic_entity",
-      "name": "workspace",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'workspace' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "workspace"
-      }
-    },
-    {
       "id": "topic:fuel",
       "type": "topic_entity",
       "name": "fuel",
@@ -7419,16 +7659,6 @@
       "description": "Shared domain topic 'confirming' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "confirming"
-      }
-    },
-    {
-      "id": "topic:final",
-      "type": "topic_entity",
-      "name": "final",
-      "file_path": "chats/transcript_6e8422d1.jsonl",
-      "description": "Shared domain topic 'final' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "final"
       }
     },
     {
@@ -11600,7 +11830,23 @@
       "target": "topic:defects",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 16
+        "count": 18
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "target": "topic:total",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 18
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "target": "topic:unit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 15
       }
     },
     {
@@ -11621,7 +11867,7 @@
     },
     {
       "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
-      "target": "topic:unit",
+      "target": "topic:time",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 13
@@ -11637,26 +11883,10 @@
     },
     {
       "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
-      "target": "topic:time",
+      "target": "topic:units",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 12
-      }
-    },
-    {
-      "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
-      "target": "topic:sample",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 10
-      }
-    },
-    {
-      "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
-      "target": "topic:step",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
       }
     },
     {
@@ -12123,31 +12353,69 @@
     },
     {
       "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:13",
-      "target": "topic:compare",
+      "target": "topic:total",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 2
+        "count": 6
       }
     },
     {
       "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:13",
-      "target": "topic:industry",
+      "target": "topic:units",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 2
+        "count": 5
       }
     },
     {
       "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:13",
-      "target": "topic:lagging",
+      "target": "topic:copq",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 2
+        "count": 3
       }
     },
     {
       "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:13",
-      "target": "topic:leading",
+      "target": "topic:internal",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "target": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:14",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:14",
+      "target": "topic:total",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:14",
+      "target": "topic:approve",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:14",
+      "target": "topic:costs",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:14",
+      "target": "topic:benefits",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
@@ -13118,6 +13386,336 @@
       }
     },
     {
+      "source": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "target": "topic:total",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 13
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "target": "topic:defects",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "target": "topic:copq",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "target": "topic:dpmo",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "target": "topic:benefits",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "target": "topic:costs",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "target": "topic:yield",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "target": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:1",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:1",
+      "target": "topic:defects",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:1",
+      "target": "topic:formula",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:1",
+      "target": "topic:total",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:1",
+      "target": "topic:unit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "target": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:2",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:2",
+      "target": "topic:defects",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:2",
+      "target": "topic:dpmo",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:2",
+      "target": "topic:final",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:2",
+      "target": "topic:good",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "target": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:3",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:3",
+      "target": "topic:entered",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:3",
+      "target": "topic:fail",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:3",
+      "target": "topic:scrap",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:3",
+      "target": "topic:yield",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "target": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:4",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:4",
+      "target": "topic:copq",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:4",
+      "target": "topic:total",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:4",
+      "target": "topic:benefits",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:4",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "target": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:5",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:5",
+      "target": "topic:annual",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:5",
+      "target": "topic:investment",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:5",
+      "target": "topic:savings",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:5",
+      "target": "topic:value",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "target": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:6",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:6",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:6",
+      "target": "topic:rate",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:6",
+      "target": "topic:approve",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:6",
+      "target": "topic:discounted",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "target": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:7",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:7",
+      "target": "topic:assets",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:7",
+      "target": "topic:dpmo",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:7",
+      "target": "topic:income",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Formulas_Master_Sheet.docx:7",
+      "target": "topic:sigma",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
       "source": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
       "target": "topic:defects",
       "relation": "MENTIONS_TOPIC",
@@ -13874,15 +14472,7 @@
       "target": "topic:unit",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 34
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "topic:cost",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 24
+        "count": 35
       }
     },
     {
@@ -13895,10 +14485,34 @@
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "topic:block",
+      "target": "topic:home",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 14
+        "count": 13
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:asq-bb-exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:krithika",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:workspace",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 12
       }
     },
     {
@@ -13911,26 +14525,10 @@
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "topic:home",
+      "target": "topic:shared_session_state",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 10
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "topic:answer",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "topic:appraisal",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
       }
     },
     {
@@ -13941,52 +14539,20 @@
     },
     {
       "source": "chat_session:4dda7faa",
+      "target": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:4dda7faa",
       "target": "doc:documents/QUESTION_BANK_LOG.md",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
-      "source": "chat_turn:4dda7faa:S206",
-      "target": "topic:cost",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 19
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S206",
-      "target": "topic:project",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S206",
-      "target": "topic:block",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S206",
-      "target": "topic:failure",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
       "source": "chat_session:4dda7faa",
-      "target": "chat_turn:4dda7faa:S206",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "chat_turn:4dda7faa:S207",
-      "relation": "HAS_CHAT_TURN",
+      "target": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
@@ -14332,6 +14898,94 @@
     {
       "source": "chat_session:4dda7faa",
       "target": "chat_turn:4dda7faa:S238",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S246",
+      "target": "topic:defects",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S246",
+      "target": "topic:total",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S246",
+      "target": "topic:unit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S246",
+      "target": "topic:benchmarking",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S246",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S246",
+      "target": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S246",
+      "target": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S247",
+      "target": "topic:every",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S247",
+      "target": "topic:formula",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S247",
+      "target": "topic:need",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S247",
+      "target": "topic:them",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S247",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -15756,7 +16410,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
     "chats/SHARED_SESSION_STATE.md": "e8da75f2ff87a1f3a9b9c47b59476ec12fab13836ed2f81bd8938b197874e259",
-    "documents/ASQ_CSSBB_Cheat_Sheet.txt": "57beaf6db9ca1b22ba9cfb71a9df47bfc4cfdf0469241f7eff9cfa3a08b2fdfa",
+    "documents/ASQ_CSSBB_Cheat_Sheet.txt": "dedc49018d472c6663bb64892838fa492d664b024e1159b8db9749a20cf25f96",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
@@ -15764,7 +16418,8 @@
     "documents/CAREER_APPLICATIONS_TRACKER.md": "101b88f4c5ac53b7383220204ad5570f85a7dd5d85190ab6d801bfcd783702d0",
     "documents/QUESTION_BANK_LOG.md": "559c54c56542d41704ab38329c3c35ef4cc73f4c07d798aa7a1af4346d7683f3",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
+    "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
-    "repo.md": "b917d0ab67964a53a641a46a65c7a5c5124829cc21fc43a3ac331adb5276dfbf"
+    "repo.md": "2b41e947dbb1516360c4a32bfaa182f265163e51d4c5d2d3de84af31fffb0f7b"
   }
 }
