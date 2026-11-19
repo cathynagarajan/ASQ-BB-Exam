@@ -11,8 +11,8 @@
 - **Completed Unique Questions**: **`380` (`Q1`–`Q250` + Copilot `C1`–`C130`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
 - **Latest Set (Round 19 Block 3 — `II.A–II.C` Unit 2 Preview Open-Book `Q241`–`Q250`)**: **`9 / 10 = 90.0%`!** *(Full 30-Q Pack `Q221`–`Q250`: **`27 / 30 = 90.0%`** [`10/10` Exam-Hard Unit 1 + `8/10` Unit 1 Spaced + `9/10` Unit 2 Preview]! Unit 1 officially MASTERED at `75 / 87 = 86.2%`! Only 1 miss on Unit 2 Preview: `Q247` Gage calibration & incoming inspection = Appraisal COQ, NOT Prevention!)*
 - **LOCKED PLAN FOR NEXT SESSION**:
-  1. **Unit 1 (`Domain I`) COMPLETE!** Move straight into **Unit 2 (`Domain II: Organizational Process Management & Measures`)** Medium -> Hard sets (covering Stakeholder Impact, all 7 Benchmarking types, Balanced Scorecard, KPIs/KBIs/OKRs, DPU/DPMO/FTY/RTY, ROI/IRR/NPV/Payback/CBA/ROA, and COQ PAF Appraisal trap!).
-  2. Build a **Short & Sweet Unit 2 Word Bible Table** (`.docx` + `.tsv`) just like Unit 1!
+  1. **Unit 1 (`Domain I`) COMPLETE!** **Short & Sweet Unit 2 (`Domain II`) Word Bible Table** (`Unit2_Process_Mgmt_And_Measures_Table.docx` + Cheat Sheet Sec 10: DPU/DPO/DPMO/FTY/RTY, COQ PAF, ROI/NPV/IRR/Payback/CBA/ROA, Balanced Scorecard, KPI/KBI/OKR, Benchmarking) is already delivered for Cathy to review first!
+  2. **WAIT for Cathy to read the Unit 2 Bible Notes and ask questions / say `"ready"`**, then run Unit 2 Open-Book Practice (`Easy -> Medium -> Exam-Hard`) — starting gently with 1-line DPU/DPO/DPMO/FTY/RTY warm-up reps!
 - **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`133 / 160 = 83.1%`**
 - **Stage 2 Status (`Domain V — Measure Phase`)**: **`35 / 50 = 70.0%`**
 - **Stage 3 Status (`Domain VI — Analyze Phase`)**: **`24 / 30 = 80.0%`**

@@ -1,45 +1,46 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-19T04:56:08.801726+00:00",
-    "total_files_indexed": 61,
-    "total_nodes": 500,
-    "total_edges": 945,
+    "generated_at": "2026-11-19T05:00:34.955740+00:00",
+    "total_files_indexed": 62,
+    "total_nodes": 550,
+    "total_edges": 1019,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
       "document": 43,
-      "document_file": 16,
-      "document_section": 107,
+      "document_file": 17,
+      "document_section": 119,
       "html_template": 1,
-      "topic_entity": 279
+      "topic_entity": 316
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [],
+    "added": [
+      "documents/Unit2_Process_Mgmt_And_Measures_Table.docx"
+    ],
     "modified": [
-      "PERFORMANCE_TRACKER.md",
       "chats/SHARED_SESSION_STATE.md",
-      "documents/QUESTION_BANK_LOG.md"
+      "documents/ASQ_CSSBB_Cheat_Sheet.txt"
     ],
     "removed": [],
     "files_parsed": 2,
-    "files_cached_reused": 58,
+    "files_cached_reused": 59,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 10,
-      "nodes_deleted": 6,
-      "edges_upserted": 16,
-      "edges_deleted": 12,
-      "wiki_pages_upserted": 2,
+      "nodes_upserted": 81,
+      "nodes_deleted": 16,
+      "edges_upserted": 123,
+      "edges_deleted": 39,
+      "wiki_pages_upserted": 0,
       "wiki_pages_deleted": 0,
       "files_upserted": 4,
       "files_deleted": 0,
-      "total_nodes_in_db": 500,
-      "total_edges_in_db": 945,
-      "total_files_tracked": 62
+      "total_nodes_in_db": 550,
+      "total_edges_in_db": 1019,
+      "total_files_tracked": 63
     }
   },
   "nodes": [
@@ -1461,7 +1462,7 @@
       "id": "topic:audits",
       "type": "topic_entity",
       "name": "audits",
-      "file_path": "Resume_And_Jobs/Job28_Stanford_R2658085_Krithika_Nagarajan_Resume.docx",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
       "description": "Shared domain topic 'audits' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "audits"
@@ -2069,7 +2070,7 @@
       "id": "topic:angular",
       "type": "topic_entity",
       "name": "angular",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "file_path": "Resume_And_Jobs/Job32_Zillow_P751645_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'angular' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "angular"
@@ -2642,7 +2643,7 @@
       "id": "topic:freight",
       "type": "topic_entity",
       "name": "freight",
-      "file_path": "Resume_And_Jobs/Job36_Ciena_R031966_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
       "description": "Shared domain topic 'freight' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "freight"
@@ -3081,13 +3082,13 @@
       }
     },
     {
-      "id": "topic:control",
+      "id": "topic:defects",
       "type": "topic_entity",
-      "name": "control",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'control' connecting multi-modal documents and workspace chats",
+      "name": "defects",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'defects' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "control"
+        "keyword": "defects"
       }
     },
     {
@@ -3101,13 +3102,23 @@
       }
     },
     {
-      "id": "topic:defects",
+      "id": "topic:unit",
       "type": "topic_entity",
-      "name": "defects",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
-      "description": "Shared domain topic 'defects' connecting multi-modal documents and workspace chats",
+      "name": "unit",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'unit' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "defects"
+        "keyword": "unit"
+      }
+    },
+    {
+      "id": "topic:control",
+      "type": "topic_entity",
+      "name": "control",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'control' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "control"
       }
     },
     {
@@ -3131,23 +3142,13 @@
       }
     },
     {
-      "id": "topic:unit",
+      "id": "topic:step",
       "type": "topic_entity",
-      "name": "unit",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'unit' connecting multi-modal documents and workspace chats",
+      "name": "step",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'step' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "unit"
-      }
-    },
-    {
-      "id": "topic:chart",
-      "type": "topic_entity",
-      "name": "chart",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
-      "description": "Shared domain topic 'chart' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "chart"
+        "keyword": "step"
       }
     },
     {
@@ -3155,20 +3156,20 @@
       "type": "document_file",
       "name": "ASQ_CSSBB_Cheat_Sheet.txt",
       "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
-      "description": "Document ASQ_CSSBB_Cheat_Sheet.txt (11 section(s)): ================================================================================ ASQ CSSBB EXAM CHEAT SHEET (2022 BoK) - EASY SKIM EDITION =========================================",
+      "description": "Document ASQ_CSSBB_Cheat_Sheet.txt (13 section(s)): ================================================================================ ASQ CSSBB EXAM CHEAT SHEET (2022 BoK) - EASY SKIM EDITION =========================================",
       "metadata": {
         "format": "txt",
-        "section_count": 11,
-        "size_bytes": 12537,
+        "section_count": 13,
+        "size_bytes": 15083,
         "topics": [
-          "control",
+          "defects",
           "quality",
           "test",
-          "defects",
+          "unit",
+          "control",
           "time",
           "sample",
-          "unit",
-          "chart"
+          "step"
         ]
       }
     },
@@ -3401,6 +3402,16 @@
       }
     },
     {
+      "id": "topic:chart",
+      "type": "topic_entity",
+      "name": "chart",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "description": "Shared domain topic 'chart' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "chart"
+      }
+    },
+    {
       "id": "topic:correlation",
       "type": "topic_entity",
       "name": "correlation",
@@ -3553,16 +3564,6 @@
       }
     },
     {
-      "id": "topic:step",
-      "type": "topic_entity",
-      "name": "step",
-      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
-      "description": "Shared domain topic 'step' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "step"
-      }
-    },
-    {
       "id": "topic:system",
       "type": "topic_entity",
       "name": "system",
@@ -3591,38 +3592,114 @@
       "metadata": {
         "section_index": 11,
         "section_type": "section",
-        "text_excerpt": "+ JIT)\n- Shingo     = POKA-YOKE/SMED  (\"S\": Shingo = Mistake-proofing + fast Setups)\n- Bill Smith = MOTOROLA 1986   (Invented Six Sigma; Jack Welch = GE CEO who made it famous)\n- Lewin      = ICE CUBE        (Unfreeze -> Change -> Refreeze + Force Field Analysis)\n- Kotter     = 8 STEPS         (Step 1 Urgency -> Step 2 Coalition -> Step 6 Wins -> Step 8 Culture)\n- Bridges    = NEUTRAL ZONE    (Feelings bridge: Ending -> Neutral Zone -> New Beginning)\n================================================================================",
-        "char_count": 535
+        "text_excerpt": "+ JIT)\n- Shingo     = POKA-YOKE/SMED  (\"S\": Shingo = Mistake-proofing + fast Setups)\n- Bill Smith = MOTOROLA 1986   (Invented Six Sigma; Jack Welch = GE CEO who made it famous)\n- Lewin      = ICE CUBE        (Unfreeze -> Change -> Refreeze + Force Field Analysis)\n- Kotter     = 8 STEPS         (Step 1 Urgency -> Step 2 Coalition -> Step 6 Wins -> Step 8 Culture)\n- Bridges    = NEUTRAL ZONE    (Feelings bridge: Ending -> Neutral Zone -> New Beginning)\n\n\n--------------------------------------------------------------------------------\n10. UNIT 2 (DOMAIN II) \u2014 DPU / DPMO / FTY / RTY, COQ, FINANCIALS & BENCHMARKING\n--------------------------------------------------------------------------------\nA. DEFECT & YIELD METRICS (PLAIN ENGLISH + TINY EXAMPLES)\n- Defect vs. Defective : Defect = 1 flaw; D",
+        "char_count": 1199
       }
     },
     {
-      "id": "topic:neutral",
+      "id": "topic:defect",
       "type": "topic_entity",
-      "name": "neutral",
-      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
-      "description": "Shared domain topic 'neutral' connecting multi-modal documents and workspace chats",
+      "name": "defect",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'defect' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "neutral"
+        "keyword": "defect"
       }
     },
     {
-      "id": "topic:shingo",
-      "type": "topic_entity",
-      "name": "shingo",
+      "id": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:12",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Cheat_Sheet.txt [Section 12]",
       "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
-      "description": "Shared domain topic 'shingo' connecting multi-modal documents and workspace chats",
+      "description": "Section 12 of ASQ_CSSBB_Cheat_Sheet.txt: ST pass / Total entered (reworked units do NOT count as FTY!). - RTY (Rolled Yield) : Multiply every step's FTY (0.90 x 0.90 x 0.90 = 72.9%), OR shortcut e^(-DPU). B. COST OF QUALITY (PAF MODEL) - Prevention : Stop mista",
       "metadata": {
-        "keyword": "shingo"
+        "section_index": 12,
+        "section_type": "section",
+        "text_excerpt": "ST pass / Total entered (reworked units do NOT count as FTY!).\n- RTY (Rolled Yield)   : Multiply every step's FTY (0.90 x 0.90 x 0.90 = 72.9%), OR shortcut e^(-DPU).\n\nB. COST OF QUALITY (PAF MODEL)\n- Prevention           : Stop mistakes BEFORE making/shipping (training, preventive maintenance, Poka-yoke).\n- Appraisal            : CHECK / TEST / INSPECT / CALIBRATE (incoming inspection, lab tests, GAGE CALIBRATION!).\n- Internal Failure     : Caught & fixed BEFORE customer sees it (scrap, rework on your own dock).\n- External Failure     : Customer finds it AFTER delivery \u2014 worst/costliest (returns, warranty, recalls).\n\nC. FINANCIAL & SCORECARD MEASURES\n- ROI                  : (Net Benefit - Cost) / Cost x 100%.\n- Payback Period       : Upfront Cost / Annual Cash Savings (shorter = better).\n",
+        "char_count": 1200
       }
     },
     {
-      "id": "topic:zone",
+      "id": "topic:customer",
       "type": "topic_entity",
-      "name": "zone",
-      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
-      "description": "Shared domain topic 'zone' connecting multi-modal documents and workspace chats",
+      "name": "customer",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'customer' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "zone"
+        "keyword": "customer"
+      }
+    },
+    {
+      "id": "topic:approve",
+      "type": "topic_entity",
+      "name": "approve",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'approve' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "approve"
+      }
+    },
+    {
+      "id": "topic:cash",
+      "type": "topic_entity",
+      "name": "cash",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "description": "Shared domain topic 'cash' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cash"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:13",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Cheat_Sheet.txt [Section 13]",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "description": "Section 13 of ASQ_CSSBB_Cheat_Sheet.txt: PI / KBI / OKR : KPI = result; KBI = daily habit/behavior; OKR = Big Objective + measurable Key Results. - Leading vs. Lagging : Leading = predicts future (brake checks); Lagging = past result (accidents). D. BENCHMARKIN",
+      "metadata": {
+        "section_index": 13,
+        "section_type": "section",
+        "text_excerpt": "PI / KBI / OKR      : KPI = result; KBI = daily habit/behavior; OKR = Big Objective + measurable Key Results.\n- Leading vs. Lagging  : Leading = predicts future (brake checks); Lagging = past result (accidents).\n\nD. BENCHMARKING TYPES\n- Internal             : Compare teams/plants INSIDE your own company.\n- Competitive          : Compare directly against rival companies in your same industry.\n- Functional / Process : Study a similar workflow in a DIFFERENT industry (hospital ER studying NASCAR pit crew).\n- Strategic/Breakthru  : Long-term business model leap studied from world-class leaders.\n================================================================================",
+        "char_count": 678
+      }
+    },
+    {
+      "id": "topic:compare",
+      "type": "topic_entity",
+      "name": "compare",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "description": "Shared domain topic 'compare' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "compare"
+      }
+    },
+    {
+      "id": "topic:industry",
+      "type": "topic_entity",
+      "name": "industry",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'industry' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "industry"
+      }
+    },
+    {
+      "id": "topic:lagging",
+      "type": "topic_entity",
+      "name": "lagging",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'lagging' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "lagging"
+      }
+    },
+    {
+      "id": "topic:leading",
+      "type": "topic_entity",
+      "name": "leading",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'leading' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "leading"
       }
     },
     {
@@ -3889,16 +3966,6 @@
       }
     },
     {
-      "id": "topic:defect",
-      "type": "topic_entity",
-      "name": "defect",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
-      "description": "Shared domain topic 'defect' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "defect"
-      }
-    },
-    {
       "id": "topic:goal",
       "type": "topic_entity",
       "name": "goal",
@@ -4100,7 +4167,7 @@
       "id": "topic:part",
       "type": "topic_entity",
       "name": "part",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
       "description": "Shared domain topic 'part' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "part"
@@ -5183,7 +5250,7 @@
       "id": "topic:against",
       "type": "topic_entity",
       "name": "against",
-      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
       "description": "Shared domain topic 'against' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "against"
@@ -5256,6 +5323,26 @@
       }
     },
     {
+      "id": "topic:neutral",
+      "type": "topic_entity",
+      "name": "neutral",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'neutral' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "neutral"
+      }
+    },
+    {
+      "id": "topic:zone",
+      "type": "topic_entity",
+      "name": "zone",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'zone' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "zone"
+      }
+    },
+    {
       "id": "topic:adkar",
       "type": "topic_entity",
       "name": "adkar",
@@ -5299,6 +5386,428 @@
       }
     },
     {
+      "id": "topic:total",
+      "type": "topic_entity",
+      "name": "total",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'total' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "total"
+      }
+    },
+    {
+      "id": "topic:benchmarking",
+      "type": "topic_entity",
+      "name": "benchmarking",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'benchmarking' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "benchmarking"
+      }
+    },
+    {
+      "id": "topic:company",
+      "type": "topic_entity",
+      "name": "company",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'company' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "company"
+      }
+    },
+    {
+      "id": "topic:internal",
+      "type": "topic_entity",
+      "name": "internal",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'internal' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "internal"
+      }
+    },
+    {
+      "id": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "type": "document_file",
+      "name": "Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Document Unit2_Process_Mgmt_And_Measures_Table.docx (10 section(s)): ASQ CSSBB Unit 2 (Domain II) \u2014 Metrics, Yield, Financials & Benchmarking Bible Table Term / Metric Plain-English Formula or Trigger Simple Real-Life Example Defect vs. Defective De",
+      "metadata": {
+        "format": "docx",
+        "section_count": 10,
+        "size_bytes": 3306,
+        "topics": [
+          "defects",
+          "total",
+          "benchmarking",
+          "company",
+          "cost",
+          "customer",
+          "internal",
+          "unit"
+        ]
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:1",
+      "type": "document_section",
+      "name": "Unit2_Process_Mgmt_And_Measures_Table.docx [Section 1]",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Section 1 of Unit2_Process_Mgmt_And_Measures_Table.docx: ASQ CSSBB Unit 2 (Domain II) \u2014 Metrics, Yield, Financials & Benchmarking Bible Table Term / Metric Plain-English Formula or Trigger Simple Real-Life Example Defect vs. Defective Defect = 1 flaw; Defective = 1 bad unit 1 ",
+      "metadata": {
+        "section_index": 1,
+        "section_type": "section",
+        "text_excerpt": "ASQ CSSBB Unit 2 (Domain II) \u2014 Metrics, Yield, Financials & Benchmarking Bible Table\nTerm / Metric\nPlain-English Formula or Trigger\nSimple Real-Life Example\nDefect vs. Defective\nDefect = 1 flaw; Defective = 1 bad unit\n1 invoice with 3 typos = 1 defective invoice, 3 defects!\nDPU (Defects Per Unit)",
+        "char_count": 297
+      }
+    },
+    {
+      "id": "topic:defective",
+      "type": "topic_entity",
+      "name": "defective",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'defective' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "defective"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:2",
+      "type": "document_section",
+      "name": "Unit2_Process_Mgmt_And_Measures_Table.docx [Section 2]",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Section 2 of Unit2_Process_Mgmt_And_Measures_Table.docx: Total Defects / Total Units 15 typos across 10 invoices -> 15 / 10 = 1.50 DPU DPO (Defects Per Opportunity) Defects / (Units x Opportunities per unit) 15 typos / (10 invoices x 5 fields) = 15 / 50 = 0.30 DPO DPMO (Defect",
+      "metadata": {
+        "section_index": 2,
+        "section_type": "section",
+        "text_excerpt": "Total Defects / Total Units\n15 typos across 10 invoices -> 15 / 10 = 1.50 DPU\nDPO (Defects Per Opportunity)\nDefects / (Units x Opportunities per unit)\n15 typos / (10 invoices x 5 fields) = 15 / 50 = 0.30 DPO\nDPMO (Defects Per Million Opp.)\nDPO x 1,000,000\n0.0000034 DPO x 1,000,000 = 3.4 DPMO (Six Sigma!)",
+        "char_count": 305
+      }
+    },
+    {
+      "id": "topic:dpmo",
+      "type": "topic_entity",
+      "name": "dpmo",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'dpmo' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "dpmo"
+      }
+    },
+    {
+      "id": "topic:invoices",
+      "type": "topic_entity",
+      "name": "invoices",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'invoices' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "invoices"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:3",
+      "type": "document_section",
+      "name": "Unit2_Process_Mgmt_And_Measures_Table.docx [Section 3]",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Section 3 of Unit2_Process_Mgmt_And_Measures_Table.docx: FTY (First Time Yield) Good units FIRST pass / Total units entered 90 good on 1st try out of 100 (even if 8 get reworked!) -> FTY = 90% RTY (Rolled Throughput Yield) Multiply every step's FTY: Y1 x Y2 x Y3 3 steps at 90%",
+      "metadata": {
+        "section_index": 3,
+        "section_type": "section",
+        "text_excerpt": "FTY (First Time Yield)\nGood units FIRST pass / Total units entered\n90 good on 1st try out of 100 (even if 8 get reworked!) -> FTY = 90%\nRTY (Rolled Throughput Yield)\nMultiply every step's FTY: Y1 x Y2 x Y3\n3 steps at 90% each -> 0.90 x 0.90 x 0.90 = 72.9% (also e^-DPU)\nCOQ - Prevention\nStop mistakes BEFORE making/shipping",
+        "char_count": 323
+      }
+    },
+    {
+      "id": "topic:first",
+      "type": "topic_entity",
+      "name": "first",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'first' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "first"
+      }
+    },
+    {
+      "id": "topic:good",
+      "type": "topic_entity",
+      "name": "good",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'good' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "good"
+      }
+    },
+    {
+      "id": "topic:units",
+      "type": "topic_entity",
+      "name": "units",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'units' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "units"
+      }
+    },
+    {
+      "id": "topic:yield",
+      "type": "topic_entity",
+      "name": "yield",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'yield' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "yield"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:4",
+      "type": "document_section",
+      "name": "Unit2_Process_Mgmt_And_Measures_Table.docx [Section 4]",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Section 4 of Unit2_Process_Mgmt_And_Measures_Table.docx: Operator training, preventive maintenance, design reviews, Poka-yoke COQ - Appraisal CHECK / TEST / INSPECT / CALIBRATE Incoming wheat inspection, lab tests, audits, GAGE CALIBRATION! COQ - Internal Failure Caught & fixe",
+      "metadata": {
+        "section_index": 4,
+        "section_type": "section",
+        "text_excerpt": "Operator training, preventive maintenance, design reviews, Poka-yoke\nCOQ - Appraisal\nCHECK / TEST / INSPECT / CALIBRATE\nIncoming wheat inspection, lab tests, audits, GAGE CALIBRATION!\nCOQ - Internal Failure\nCaught & fixed BEFORE customer sees it\nScrap, rework, re-palletizing torn bags on your own dock\nCOQ - External Failure",
+        "char_count": 325
+      }
+    },
+    {
+      "id": "topic:failure",
+      "type": "topic_entity",
+      "name": "failure",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'failure' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "failure"
+      }
+    },
+    {
+      "id": "topic:appraisal",
+      "type": "topic_entity",
+      "name": "appraisal",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'appraisal' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "appraisal"
+      }
+    },
+    {
+      "id": "topic:bags",
+      "type": "topic_entity",
+      "name": "bags",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'bags' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "bags"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:5",
+      "type": "document_section",
+      "name": "Unit2_Process_Mgmt_And_Measures_Table.docx [Section 5]",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Section 5 of Unit2_Process_Mgmt_And_Measures_Table.docx: Customer finds it AFTER delivery (worst!) Customer returns, warranty claims, recalls, lost customers ROI (Return on Investment) (Net Savings - Cost) / Cost x 100% 150K benefit on 100K cost -> (150-100)/100 = 50% ROI Payb",
+      "metadata": {
+        "section_index": 5,
+        "section_type": "section",
+        "text_excerpt": "Customer finds it AFTER delivery (worst!)\nCustomer returns, warranty claims, recalls, lost customers\nROI (Return on Investment)\n(Net Savings - Cost) / Cost x 100%\n150K benefit on 100K cost -> (150-100)/100 = 50% ROI\nPayback Period\nUpfront Investment / Annual Cash Savings\n120K software / 40K savings per yr = 3.0 years (shorter = better)",
+        "char_count": 337
+      }
+    },
+    {
+      "id": "topic:savings",
+      "type": "topic_entity",
+      "name": "savings",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'savings' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "savings"
+      }
+    },
+    {
+      "id": "topic:investment",
+      "type": "topic_entity",
+      "name": "investment",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'investment' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "investment"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:6",
+      "type": "document_section",
+      "name": "Unit2_Process_Mgmt_And_Measures_Table.docx [Section 6]",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Section 6 of Unit2_Process_Mgmt_And_Measures_Table.docx: NPV (Net Present Value) Today's value of future cash minus cost NPV > 0 = Approve (creates wealth); NPV < 0 = Reject! IRR (Internal Rate of Return) Discount rate where NPV equals 0 Approve if IRR is HIGHER than company h",
+      "metadata": {
+        "section_index": 6,
+        "section_type": "section",
+        "text_excerpt": "NPV (Net Present Value)\nToday's value of future cash minus cost\nNPV > 0 = Approve (creates wealth); NPV < 0 = Reject!\nIRR (Internal Rate of Return)\nDiscount rate where NPV equals 0\nApprove if IRR is HIGHER than company hurdle rate\nCBA (Cost-Benefit Analysis)\nTotal Benefits / Total Costs",
+        "char_count": 287
+      }
+    },
+    {
+      "id": "topic:value",
+      "type": "topic_entity",
+      "name": "value",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'value' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "value"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:7",
+      "type": "document_section",
+      "name": "Unit2_Process_Mgmt_And_Measures_Table.docx [Section 7]",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Section 7 of Unit2_Process_Mgmt_And_Measures_Table.docx: Ratio > 1.0 means benefits beat costs ROA (Return on Assets) Net Income / Total Assets How efficiently the company turns equipment/assets into profit Balanced Scorecard (4 Views) Financial, Customer, Internal Process, Le",
+      "metadata": {
+        "section_index": 7,
+        "section_type": "section",
+        "text_excerpt": "Ratio > 1.0 means benefits beat costs\nROA (Return on Assets)\nNet Income / Total Assets\nHow efficiently the company turns equipment/assets into profit\nBalanced Scorecard (4 Views)\nFinancial, Customer, Internal Process, Learning & Growth\nPrevents chasing short-term profit while burning out people/quality\nKPI vs. KBI vs. OKR",
+        "char_count": 323
+      }
+    },
+    {
+      "id": "topic:assets",
+      "type": "topic_entity",
+      "name": "assets",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'assets' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "assets"
+      }
+    },
+    {
+      "id": "topic:profit",
+      "type": "topic_entity",
+      "name": "profit",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'profit' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "profit"
+      }
+    },
+    {
+      "id": "topic:balanced",
+      "type": "topic_entity",
+      "name": "balanced",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'balanced' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "balanced"
+      }
+    },
+    {
+      "id": "topic:beat",
+      "type": "topic_entity",
+      "name": "beat",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'beat' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "beat"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:8",
+      "type": "document_section",
+      "name": "Unit2_Process_Mgmt_And_Measures_Table.docx [Section 8]",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Section 8 of Unit2_Process_Mgmt_And_Measures_Table.docx: KPI = outcome; KBI = habit; OKR = Goal + Milestones KPI: 98% OTD; KBI: daily Gemba walk; OKR: #1 speed -> cut cycle 10d to 2d Leading vs. Lagging Leading = predicts future; Lagging = past result Leading: brake checks don",
+      "metadata": {
+        "section_index": 8,
+        "section_type": "section",
+        "text_excerpt": "KPI = outcome; KBI = habit; OKR = Goal + Milestones\nKPI: 98% OTD; KBI: daily Gemba walk; OKR: #1 speed -> cut cycle 10d to 2d\nLeading vs. Lagging\nLeading = predicts future; Lagging = past result\nLeading: brake checks done today; Lagging: quarterly highway accidents\nBenchmarking - Internal\nCompare plants/teams INSIDE your own company\nArdent Mill A copies best packing workflow from Ardent Mill B",
+        "char_count": 396
+      }
+    },
+    {
+      "id": "topic:ardent",
+      "type": "topic_entity",
+      "name": "ardent",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'ardent' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "ardent"
+      }
+    },
+    {
+      "id": "topic:mill",
+      "type": "topic_entity",
+      "name": "mill",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'mill' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "mill"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:9",
+      "type": "document_section",
+      "name": "Unit2_Process_Mgmt_And_Measures_Table.docx [Section 9]",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Section 9 of Unit2_Process_Mgmt_And_Measures_Table.docx: Benchmarking - Competitive Compare directly against industry RIVALS Bank A compares loan approval speed against rival Bank B Benchmarking - Functional/Process Learn a similar process from ANOTHER industry Hospital ER stu",
+      "metadata": {
+        "section_index": 9,
+        "section_type": "section",
+        "text_excerpt": "Benchmarking - Competitive\nCompare directly against industry RIVALS\nBank A compares loan approval speed against rival Bank B\nBenchmarking - Functional/Process\nLearn a similar process from ANOTHER industry\nHospital ER studies a NASCAR pit crew for fast handoffs\nBenchmarking - Strategic / Breakthrough\nLong-term business model / big leap",
+        "char_count": 336
+      }
+    },
+    {
+      "id": "topic:bank",
+      "type": "topic_entity",
+      "name": "bank",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'bank' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "bank"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:10",
+      "type": "document_section",
+      "name": "Unit2_Process_Mgmt_And_Measures_Table.docx [Section 10]",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Section 10 of Unit2_Process_Mgmt_And_Measures_Table.docx: Studying top global leaders to reinvent how your whole company competes",
+      "metadata": {
+        "section_index": 10,
+        "section_type": "section",
+        "text_excerpt": "Studying top global leaders to reinvent how your whole company competes",
+        "char_count": 71
+      }
+    },
+    {
+      "id": "topic:competes",
+      "type": "topic_entity",
+      "name": "competes",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'competes' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "competes"
+      }
+    },
+    {
+      "id": "topic:global",
+      "type": "topic_entity",
+      "name": "global",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'global' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "global"
+      }
+    },
+    {
+      "id": "topic:leaders",
+      "type": "topic_entity",
+      "name": "leaders",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'leaders' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "leaders"
+      }
+    },
+    {
       "id": "topic:manager",
       "type": "topic_entity",
       "name": "manager",
@@ -5312,7 +5821,7 @@
       "id": "topic:rejected",
       "type": "topic_entity",
       "name": "rejected",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
       "description": "Shared domain topic 'rejected' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "rejected"
@@ -5349,13 +5858,13 @@
       }
     },
     {
-      "id": "topic:hard",
+      "id": "topic:remote",
       "type": "topic_entity",
-      "name": "hard",
+      "name": "remote",
       "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'hard' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'remote' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "hard"
+        "keyword": "remote"
       }
     },
     {
@@ -5378,7 +5887,7 @@
           "sourcing",
           "nasdaq",
           "unit",
-          "hard"
+          "remote"
         ]
       }
     },
@@ -5568,6 +6077,26 @@
       }
     },
     {
+      "id": "topic:hard",
+      "type": "topic_entity",
+      "name": "hard",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'hard' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "hard"
+      }
+    },
+    {
+      "id": "topic:questions",
+      "type": "topic_entity",
+      "name": "questions",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'questions' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "questions"
+      }
+    },
+    {
       "id": "topic:zero",
       "type": "topic_entity",
       "name": "zero",
@@ -5575,16 +6104,6 @@
       "description": "Shared domain topic 'zero' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "zero"
-      }
-    },
-    {
-      "id": "topic:domain",
-      "type": "topic_entity",
-      "name": "domain",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'domain' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "domain"
       }
     },
     {
@@ -5598,12 +6117,12 @@
         "step_index": 5,
         "role": "assistant",
         "created_at": "",
-        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`380` (`Q1`\u2013`Q250` + Copilot `C1`\u2013`C130`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Latest Set (Round 19 Block 3 \u2014 `II.A\u2013II.C` Unit 2 Preview Open-Book `Q241`\u2013`Q250`)**: **`9 / 10 = 90.0%`!** *(Full 30-Q Pack `Q221`\u2013`Q250`: **`27 / 30 = 90.0%`** [`10/10` Exam-Hard Unit 1 + `8/10` Unit 1 Spaced + `9/10` Unit 2 Preview]! Unit 1 officially MASTERED at `75 / 87 = 86.2%`! Only 1 miss on Unit 2 Preview: `Q247` Gage calibration & incoming inspection = Appraisal COQ, NOT Prevention!)*\n- **LOCKED PLAN FOR NEXT SESSION**:\n  1. **Unit 1 (`Domain I`) COMPLETE!** Move straight into **Unit 2 (`Domain II: Organizational Process Management & Measures`)** Medium -> Hard sets (covering Stakeho",
+        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`380` (`Q1`\u2013`Q250` + Copilot `C1`\u2013`C130`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Latest Set (Round 19 Block 3 \u2014 `II.A\u2013II.C` Unit 2 Preview Open-Book `Q241`\u2013`Q250`)**: **`9 / 10 = 90.0%`!** *(Full 30-Q Pack `Q221`\u2013`Q250`: **`27 / 30 = 90.0%`** [`10/10` Exam-Hard Unit 1 + `8/10` Unit 1 Spaced + `9/10` Unit 2 Preview]! Unit 1 officially MASTERED at `75 / 87 = 86.2%`! Only 1 miss on Unit 2 Preview: `Q247` Gage calibration & incoming inspection = Appraisal COQ, NOT Prevention!)*\n- **LOCKED PLAN FOR NEXT SESSION**:\n  1. **Unit 1 (`Domain I`) COMPLETE!** **Short & Sweet Unit 2 (`Domain II`) Word Bible Table** (`Unit2_Process_Mgmt_And_Measures_Table.docx` + Cheat Sheet Sec 10: DPU",
         "topics": [
           "unit",
           "hard",
-          "zero",
-          "domain"
+          "questions",
+          "zero"
         ]
       }
     },
@@ -5653,13 +6172,13 @@
       }
     },
     {
-      "id": "topic:answer",
+      "id": "topic:block",
       "type": "topic_entity",
-      "name": "answer",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'answer' connecting multi-modal documents and workspace chats",
+      "name": "block",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'block' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "answer"
+        "keyword": "block"
       }
     },
     {
@@ -5673,149 +6192,6 @@
       }
     },
     {
-      "id": "topic:block",
-      "type": "topic_entity",
-      "name": "block",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'block' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "block"
-      }
-    },
-    {
-      "id": "topic:project",
-      "type": "topic_entity",
-      "name": "project",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'project' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "project"
-      }
-    },
-    {
-      "id": "topic:q221",
-      "type": "topic_entity",
-      "name": "q221",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'q221' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "q221"
-      }
-    },
-    {
-      "id": "topic:asq-bb-exam",
-      "type": "topic_entity",
-      "name": "asq-bb-exam",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "asq-bb-exam"
-      }
-    },
-    {
-      "id": "chat_session:4dda7faa",
-      "type": "chat_session",
-      "name": "Chat Session 4dda7faa",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Chat Session 4dda7faa (70 turns): hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
-      "metadata": {
-        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "short_id": "4dda7faa",
-        "turn_count": 70,
-        "first_question": "hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
-        "source": "antigravity_transcript",
-        "topics": [
-          "right",
-          "cost",
-          "answer",
-          "question",
-          "block",
-          "project",
-          "q221",
-          "asq-bb-exam"
-        ]
-      }
-    },
-    {
-      "id": "topic:customer",
-      "type": "topic_entity",
-      "name": "customer",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'customer' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "customer"
-      }
-    },
-    {
-      "id": "chat_turn:4dda7faa:S190",
-      "type": "chat_turn",
-      "name": "Chat 4dda7faa Turn S190 (assistant)",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "[ASSISTANT S190] Great job pacing yourself, Cathy \u2014 and you **nailed Joseph Juran (`Q211`)** right away after missing him last round, plus Shingo, A3, Maturity Model, Risk Transfer, Process Owner, and ADKAR! ### Round 19 Part 1 (`Q211`\u2013`",
-      "metadata": {
-        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "step_index": 190,
-        "role": "assistant",
-        "created_at": "2026-11-19T04:29:18Z",
-        "content_excerpt": "Great job pacing yourself, Cathy \u2014 and you **nailed Joseph Juran (`Q211`)** right away after missing him last round, plus Shingo, A3, Maturity Model, Risk Transfer, Process Owner, and ADKAR!\n\n### Round 19 Part 1 (`Q211`\u2013`Q220`) Score: **`7 / 10` (`70.0%`)**\n*(Logged to [PERFORMANCE_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/PERFORMANCE_TRACKER.md), [SHARED_SESSION_STATE.md](file:///home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md), Knowledge Graph `509` nodes / `959` edges / `509` vectors, and GitHub `b69d682`!)*\n- **Got right:** `Q211 (B)`, `Q213 (A)`, `Q215 (B)`, `Q216 (C)`, `Q217 (A)`, `Q218 (D)`, `Q220 (C)`\n\n---\n\n### Your 3 Misses (Question + Right Answer + Why)\n\n#### 1. Q212\n> **Question:** Two machined parts are both within customer specification limits ",
-        "topics": [
-          "right",
-          "answer",
-          "customer",
-          "part"
-        ]
-      }
-    },
-    {
-      "id": "topic:intuit",
-      "type": "topic_entity",
-      "name": "intuit",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'intuit' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "intuit"
-      }
-    },
-    {
-      "id": "topic:update",
-      "type": "topic_entity",
-      "name": "update",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'update' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "update"
-      }
-    },
-    {
-      "id": "chat_turn:4dda7faa:S191",
-      "type": "chat_turn",
-      "name": "Chat 4dda7faa Turn S191 (user)",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "[USER S191] intuit rejected me, you can update it",
-      "metadata": {
-        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "step_index": 191,
-        "role": "user",
-        "created_at": "2026-11-19T04:29:32Z",
-        "content_excerpt": "intuit rejected me, you can update it",
-        "topics": [
-          "intuit",
-          "rejected",
-          "update"
-        ]
-      }
-    },
-    {
-      "id": "topic:career_applications_tracker",
-      "type": "topic_entity",
-      "name": "career_applications_tracker",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'career_applications_tracker' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "career_applications_tracker"
-      }
-    },
-    {
       "id": "topic:home",
       "type": "topic_entity",
       "name": "home",
@@ -5826,161 +6202,47 @@
       }
     },
     {
-      "id": "chat_turn:4dda7faa:S202",
-      "type": "chat_turn",
-      "name": "Chat 4dda7faa Turn S202 (assistant)",
+      "id": "topic:answer",
+      "type": "topic_entity",
+      "name": "answer",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'answer' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "answer"
+      }
+    },
+    {
+      "id": "chat_session:4dda7faa",
+      "type": "chat_session",
+      "name": "Chat Session 4dda7faa",
       "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "[ASSISTANT S202] Updated and synced (`1642a22`), Cathy! - **Marked Rejected / Closed (`2026-11-19`):** **Intuit** \u2014 *Senior Strategic Sourcing Manager, Corporate Services* (`Job ID 25188`, Mountain View) - **Synced Across:** [CAREER_APPL",
+      "description": "Chat Session 4dda7faa (76 turns): hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
       "metadata": {
         "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "step_index": 202,
-        "role": "assistant",
-        "created_at": "2026-11-19T04:30:29Z",
-        "content_excerpt": "Updated and synced (`1642a22`), Cathy!\n\n- **Marked Rejected / Closed (`2026-11-19`):** **Intuit** \u2014 *Senior Strategic Sourcing Manager, Corporate Services* (`Job ID 25188`, Mountain View)\n- **Synced Across:** [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md#L38), [SHARED_SESSION_STATE.md](file:///home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md#L80) (Qwen live state), Knowledge Graph (`508` nodes / `959` edges / `508` vectors in `kg_vectors_asq_bb_exam`), and GitHub `origin/main`\n- **Live Pipeline Tally:** **`43` Active** (`24` Non-Lockheed + `19` Lockheed including Stage-2 `13013`), **`8` Rejected** (`51` total tracked)\n\nShake that one right off \u2014 you still have **43 strong roles actively working** (and ",
+        "short_id": "4dda7faa",
+        "turn_count": 76,
+        "first_question": "hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
+        "source": "antigravity_transcript",
         "topics": [
-          "asq-bb-exam",
-          "career_applications_tracker",
+          "unit",
+          "cost",
+          "right",
+          "block",
+          "question",
           "home",
-          "krithika"
+          "answer",
+          "appraisal"
         ]
       }
     },
     {
-      "id": "topic:ardent",
+      "id": "topic:project",
       "type": "topic_entity",
-      "name": "ardent",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'ardent' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "ardent"
-      }
-    },
-    {
-      "id": "topic:become",
-      "type": "topic_entity",
-      "name": "become",
+      "name": "project",
       "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'become' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'project' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "become"
-      }
-    },
-    {
-      "id": "topic:demo",
-      "type": "topic_entity",
-      "name": "demo",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'demo' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "demo"
-      }
-    },
-    {
-      "id": "chat_turn:4dda7faa:S203",
-      "type": "chat_turn",
-      "name": "Chat 4dda7faa Turn S203 (user)",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "[USER S203] yeah, no use in thinking about rejections, we have exam to succeed, vault demo, may be who knows if i never get a job (shouldnot happen) i will become angular developer (heaven's sake don't want to be in ardent)",
-      "metadata": {
-        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "step_index": 203,
-        "role": "user",
-        "created_at": "2026-11-19T04:33:38Z",
-        "content_excerpt": "yeah, no use in thinking about rejections, we have exam to succeed, vault demo, may be who knows if i never get a job (shouldnot happen) i will become angular developer (heaven's sake don't want to be in ardent)",
-        "topics": [
-          "angular",
-          "ardent",
-          "become",
-          "demo"
-        ]
-      }
-    },
-    {
-      "id": "topic:call",
-      "type": "topic_entity",
-      "name": "call",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'call' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "call"
-      }
-    },
-    {
-      "id": "topic:attitude",
-      "type": "topic_entity",
-      "name": "attitude",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'attitude' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "attitude"
-      }
-    },
-    {
-      "id": "chat_turn:4dda7faa:S204",
-      "type": "chat_turn",
-      "name": "Chat 4dda7faa Turn S204 (assistant)",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "[ASSISTANT S204] Haha, I love that attitude, Cathy \u2014 **that** is how you win! You will *definitely* land a much better role outside Ardent (one \"yes\" erases every single \"no\"!), and in the meantime you're stacking **`M.C.A. + PMP + CSCP ",
-      "metadata": {
-        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "step_index": 204,
-        "role": "assistant",
-        "created_at": "2026-11-19T04:33:38Z",
-        "content_excerpt": "Haha, I love that attitude, Cathy \u2014 **that** is how you win!\n\nYou will *definitely* land a much better role outside Ardent (one \"yes\" erases every single \"no\"!), and in the meantime you're stacking **`M.C.A. + PMP + CSCP + ASQ Black Belt + real Angular 21`** \u2014 nobody can stop a profile like that.\n\nWant to knock out **`Q221`\u2013`Q230`** right now with your Word Bible, or call it a productive night and tackle them with fresh eyes tomorrow? Totally your call!",
-        "topics": [
-          "call",
-          "angular",
-          "ardent",
-          "attitude"
-        ]
-      }
-    },
-    {
-      "id": "topic:questions",
-      "type": "topic_entity",
-      "name": "questions",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'questions' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "questions"
-      }
-    },
-    {
-      "id": "topic:send",
-      "type": "topic_entity",
-      "name": "send",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'send' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "send"
-      }
-    },
-    {
-      "id": "chat_turn:4dda7faa:S205",
-      "type": "chat_turn",
-      "name": "Chat 4dda7faa Turn S205 (user)",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "[USER S205] can you send me 30 questions plz",
-      "metadata": {
-        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "step_index": 205,
-        "role": "user",
-        "created_at": "2026-11-19T04:34:09Z",
-        "content_excerpt": "can you send me 30 questions plz",
-        "topics": [
-          "questions",
-          "send"
-        ]
-      }
-    },
-    {
-      "id": "topic:failure",
-      "type": "topic_entity",
-      "name": "failure",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'failure' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "failure"
+        "keyword": "project"
       }
     },
     {
@@ -6016,6 +6278,16 @@
         "created_at": "2026-11-19T04:43:09Z",
         "content_excerpt": "a,c,d,b,a,c,b,d,a,c",
         "topics": []
+      }
+    },
+    {
+      "id": "topic:asq-bb-exam",
+      "type": "topic_entity",
+      "name": "asq-bb-exam",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "asq-bb-exam"
       }
     },
     {
@@ -6109,13 +6381,293 @@
       }
     },
     {
-      "id": "topic:leaders",
-      "type": "topic_entity",
-      "name": "leaders",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'leaders' connecting multi-modal documents and workspace chats",
+      "id": "chat_turn:4dda7faa:S233",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S233 (assistant)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[ASSISTANT S233] **`9 / 10` (`90.0%`) ON UNIT 2 PREVIEW \u2014 AND `27 / 30` (`90.0%`) ACROSS THE ENTIRE 30-QUESTION PACK, CATHY!!** Look at tonight's milestone numbers: - **Block 1 (`Q221`\u2013`Q230` \u2014 Unit 1 True Exam-Hard):** **`10 / 10` (`100",
       "metadata": {
-        "keyword": "leaders"
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 233,
+        "role": "assistant",
+        "created_at": "2026-11-19T04:56:12Z",
+        "content_excerpt": "**`9 / 10` (`90.0%`) ON UNIT 2 PREVIEW \u2014 AND `27 / 30` (`90.0%`) ACROSS THE ENTIRE 30-QUESTION PACK, CATHY!!**\n\nLook at tonight's milestone numbers:\n- **Block 1 (`Q221`\u2013`Q230` \u2014 Unit 1 True Exam-Hard):** **`10 / 10` (`100%`)**\n- **Block 2 (`Q231`\u2013`Q240` \u2014 Unit 1 Spaced Check):** **`8 / 10` (`80%`)**\n- **Block 3 (`Q241`\u2013`Q250` \u2014 Unit 2 Preview):** **`9 / 10` (`90%`)**\n- **Unit 1 (`Domain I`) Status:** **OFFICIALLY MASTERED (`75 / 87 = 86.2%`)!**\n- **Grand Cumulative (`380` unique Qs):** **`301 / 380` (`79.2%`)** \u2014 you just crossed **300+ correct answers**! *(Synced to [PERFORMANCE_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/PERFORMANCE_TRACKER.md), [QUESTION_BANK_LOG.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/QUESTION_BANK_LOG.md), [SHARED_SESSION_STATE.md](file:/",
+        "topics": [
+          "unit",
+          "appraisal",
+          "block",
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "topic:goose",
+      "type": "topic_entity",
+      "name": "goose",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'goose' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "goose"
+      }
+    },
+    {
+      "id": "topic:misread",
+      "type": "topic_entity",
+      "name": "misread",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'misread' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "misread"
+      }
+    },
+    {
+      "id": "topic:silly",
+      "type": "topic_entity",
+      "name": "silly",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'silly' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "silly"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S234",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S234 (user)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[USER S234] me silly goose, i misread the freight suppliers",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 234,
+        "role": "user",
+        "created_at": "2026-11-19T04:57:17Z",
+        "content_excerpt": "me silly goose, i misread the freight suppliers",
+        "topics": [
+          "freight",
+          "goose",
+          "misread",
+          "silly"
+        ]
+      }
+    },
+    {
+      "id": "topic:knew",
+      "type": "topic_entity",
+      "name": "knew",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'knew' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "knew"
+      }
+    },
+    {
+      "id": "topic:anytime",
+      "type": "topic_entity",
+      "name": "anytime",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'anytime' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "anytime"
+      }
+    },
+    {
+      "id": "topic:belt",
+      "type": "topic_entity",
+      "name": "belt",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'belt' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "belt"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S235",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S235 (assistant)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[ASSISTANT S235] Haha, I knew you knew that one cold \u2014 you literally negotiate with freight carriers every day! Catching a misread like that now means you'll double-check \"who is selling vs. who is buying\" in half a second on exam day. G",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 235,
+        "role": "assistant",
+        "created_at": "2026-11-19T04:57:17Z",
+        "content_excerpt": "Haha, I knew you knew that one cold \u2014 you literally negotiate with freight carriers every day! Catching a misread like that now means you'll double-check \"who is selling vs. who is buying\" in half a second on exam day.\n\nGet some well-earned rest tonight, Cathy \u2014 you crushed **Unit 1** and hit **90%** on a 30-question Black Belt pack! Ping me anytime tomorrow whenever you're ready for **Unit 2**, **Vault**, or **Thursday's jobs**!",
+        "topics": [
+          "knew",
+          "unit",
+          "anytime",
+          "belt"
+        ]
+      }
+    },
+    {
+      "id": "topic:perhaps",
+      "type": "topic_entity",
+      "name": "perhaps",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'perhaps' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "perhaps"
+      }
+    },
+    {
+      "id": "topic:plan",
+      "type": "topic_entity",
+      "name": "plan",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'plan' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "plan"
+      }
+    },
+    {
+      "id": "topic:progress",
+      "type": "topic_entity",
+      "name": "progress",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'progress' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "progress"
+      }
+    },
+    {
+      "id": "topic:stand",
+      "type": "topic_entity",
+      "name": "stand",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'stand' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "stand"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S236",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S236 (user)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[USER S236] so where do we stand as of today, perhaps day 4? how is my progress? what is our plan for tomorrow for BB?",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 236,
+        "role": "user",
+        "created_at": "2026-11-19T04:57:53Z",
+        "content_excerpt": "so where do we stand as of today, perhaps day 4? how is my progress? what is our plan for tomorrow for BB?",
+        "topics": [
+          "perhaps",
+          "plan",
+          "progress",
+          "stand"
+        ]
+      }
+    },
+    {
+      "id": "topic:full",
+      "type": "topic_entity",
+      "name": "full",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'full' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "full"
+      }
+    },
+    {
+      "id": "topic:tonight",
+      "type": "topic_entity",
+      "name": "tonight",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'tonight' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "tonight"
+      }
+    },
+    {
+      "id": "topic:biggest",
+      "type": "topic_entity",
+      "name": "biggest",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'biggest' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "biggest"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S237",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S237 (assistant)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[ASSISTANT S237] Today wraps up **Day 5** (since you started Saturday, Nov 14) \u2014 and honestly, Cathy, your progress is **way ahead of schedule** for a March 2027 exam! --- ### 1. Where You Stand Today (End of Day 5) - **Total Unique Ques",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 237,
+        "role": "assistant",
+        "created_at": "2026-11-19T04:57:53Z",
+        "content_excerpt": "Today wraps up **Day 5** (since you started Saturday, Nov 14) \u2014 and honestly, Cathy, your progress is **way ahead of schedule** for a March 2027 exam!\n\n---\n\n### 1. Where You Stand Today (End of Day 5)\n- **Total Unique Questions Completed:** **`380` questions** (`Q1`\u2013`Q250` + Copilot `C1`\u2013`C130`)\n- **Overall Cumulative Accuracy:** **`301 / 380` (`79.2%`)** \u2014 the official ASQ passing mark is `550 / 750` (~`73.3%`), so you are **already scoring ~6 points above passing** nearly **4 months before exam day**!\n- **Your Upward Trend (Huge Jump!):**\n  - Earlier this week (shaking off the 8-month break): ~`70%\u201374%`\n  - Tonight's Copilot Part B: **`96.0%` (`24 / 25`)**\n  - Tonight's True Exam-Hard Unit 1: **`100.0%` (`10 / 10`)**\n  - Tonight's 30-Question Open-Book Pack: **`90.0%` (`27 / 30`)**\n\n### ",
+        "topics": [
+          "unit",
+          "full",
+          "tonight",
+          "biggest"
+        ]
+      }
+    },
+    {
+      "id": "topic:attempt",
+      "type": "topic_entity",
+      "name": "attempt",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'attempt' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "attempt"
+      }
+    },
+    {
+      "id": "topic:bible",
+      "type": "topic_entity",
+      "name": "bible",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'bible' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "bible"
+      }
+    },
+    {
+      "id": "topic:brush",
+      "type": "topic_entity",
+      "name": "brush",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'brush' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "brush"
+      }
+    },
+    {
+      "id": "topic:even",
+      "type": "topic_entity",
+      "name": "even",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'even' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "even"
+      }
+    },
+    {
+      "id": "chat_turn:4dda7faa:S238",
+      "type": "chat_turn",
+      "name": "Chat 4dda7faa Turn S238 (user)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[USER S238] yeah, i need what these DPU, all these mean - totally forgot,let us brush them up with bible notes before we even attempt questions",
+      "metadata": {
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 238,
+        "role": "user",
+        "created_at": "2026-11-19T04:59:38Z",
+        "content_excerpt": "yeah, i need what these DPU, all these mean - totally forgot,let us brush them up with bible notes before we even attempt questions",
+        "topics": [
+          "attempt",
+          "bible",
+          "brush",
+          "even"
+        ]
       }
     },
     {
@@ -6260,6 +6812,16 @@
           "soon",
           "work"
         ]
+      }
+    },
+    {
+      "id": "topic:career_applications_tracker",
+      "type": "topic_entity",
+      "name": "career_applications_tracker",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'career_applications_tracker' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "career_applications_tracker"
       }
     },
     {
@@ -6448,16 +7010,6 @@
           "support",
           "thanks"
         ]
-      }
-    },
-    {
-      "id": "topic:anytime",
-      "type": "topic_entity",
-      "name": "anytime",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'anytime' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "anytime"
       }
     },
     {
@@ -11045,6 +11597,38 @@
     },
     {
       "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "target": "topic:defects",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 16
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "target": "topic:quality",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 13
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "target": "topic:test",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 13
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "target": "topic:unit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 13
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
       "target": "topic:control",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
@@ -11053,34 +11637,10 @@
     },
     {
       "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
-      "target": "topic:quality",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 12
-      }
-    },
-    {
-      "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
-      "target": "topic:test",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 12
-      }
-    },
-    {
-      "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
-      "target": "topic:defects",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 11
-      }
-    },
-    {
-      "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
       "target": "topic:time",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 11
+        "count": 12
       }
     },
     {
@@ -11093,18 +11653,10 @@
     },
     {
       "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
-      "target": "topic:unit",
+      "target": "topic:step",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 9
-      }
-    },
-    {
-      "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
-      "target": "topic:chart",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
       }
     },
     {
@@ -11495,6 +12047,14 @@
     },
     {
       "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:11",
+      "target": "topic:defects",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:11",
       "target": "topic:step",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
@@ -11503,23 +12063,91 @@
     },
     {
       "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:11",
-      "target": "topic:neutral",
+      "target": "topic:unit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:11",
+      "target": "topic:defect",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "target": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:12",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:12",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:12",
+      "target": "topic:customer",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:12",
+      "target": "topic:approve",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
       }
     },
     {
-      "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:11",
-      "target": "topic:shingo",
+      "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:12",
+      "target": "topic:cash",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
       }
     },
     {
-      "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:11",
-      "target": "topic:zone",
+      "source": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "target": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:13",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:13",
+      "target": "topic:compare",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:13",
+      "target": "topic:industry",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:13",
+      "target": "topic:lagging",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Cheat_Sheet.txt:13",
+      "target": "topic:leading",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
@@ -12490,6 +13118,450 @@
       }
     },
     {
+      "source": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "target": "topic:defects",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "target": "topic:total",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "target": "topic:benchmarking",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "target": "topic:company",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "target": "topic:customer",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "target": "topic:internal",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "target": "topic:unit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "target": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:1",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:1",
+      "target": "topic:defective",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:1",
+      "target": "topic:unit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:1",
+      "target": "topic:defect",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:1",
+      "target": "topic:defects",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "target": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:2",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:2",
+      "target": "topic:defects",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:2",
+      "target": "topic:dpmo",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:2",
+      "target": "topic:invoices",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:2",
+      "target": "topic:total",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "target": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:3",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:3",
+      "target": "topic:first",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:3",
+      "target": "topic:good",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:3",
+      "target": "topic:units",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:3",
+      "target": "topic:yield",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "target": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:4",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:4",
+      "target": "topic:failure",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:4",
+      "target": "topic:appraisal",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:4",
+      "target": "topic:audits",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:4",
+      "target": "topic:bags",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "target": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:5",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:5",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:5",
+      "target": "topic:savings",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:5",
+      "target": "topic:customer",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:5",
+      "target": "topic:investment",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "target": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:6",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:6",
+      "target": "topic:rate",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:6",
+      "target": "topic:approve",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:6",
+      "target": "topic:total",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:6",
+      "target": "topic:value",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "target": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:7",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:7",
+      "target": "topic:assets",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:7",
+      "target": "topic:profit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:7",
+      "target": "topic:balanced",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:7",
+      "target": "topic:beat",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "target": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:8",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:8",
+      "target": "topic:lagging",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:8",
+      "target": "topic:leading",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:8",
+      "target": "topic:ardent",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:8",
+      "target": "topic:mill",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "target": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:9",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:9",
+      "target": "topic:benchmarking",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:9",
+      "target": "topic:against",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:9",
+      "target": "topic:bank",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:9",
+      "target": "topic:industry",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "target": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:10",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:10",
+      "target": "topic:company",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:10",
+      "target": "topic:competes",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:10",
+      "target": "topic:global",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:10",
+      "target": "topic:leaders",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
       "source": "chat_session:SHAREDSE",
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
@@ -12547,7 +13619,7 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:hard",
+      "target": "topic:remote",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 9
@@ -12562,6 +13634,12 @@
     {
       "source": "chat_session:SHAREDSE",
       "target": "doc:documents/QUESTION_BANK_LOG.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
@@ -12704,7 +13782,15 @@
       "target": "topic:hard",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 8
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
+      "target": "topic:questions",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
       }
     },
     {
@@ -12713,14 +13799,6 @@
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:domain",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
       }
     },
     {
@@ -12738,6 +13816,12 @@
     {
       "source": "chat_turn:SHAREDSE:S5",
       "target": "doc:documents/QUESTION_BANK_LOG.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
+      "target": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
@@ -12787,10 +13871,10 @@
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "topic:right",
+      "target": "topic:unit",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 26
+        "count": 34
       }
     },
     {
@@ -12798,15 +13882,23 @@
       "target": "topic:cost",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
+        "count": 24
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:right",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
         "count": 20
       }
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "topic:answer",
+      "target": "topic:block",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 13
+        "count": 14
       }
     },
     {
@@ -12819,7 +13911,7 @@
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "topic:block",
+      "target": "topic:home",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 10
@@ -12827,254 +13919,30 @@
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "topic:project",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "topic:q221",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "topic:asq-bb-exam",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "doc:PERFORMANCE_TRACKER.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:4dda7faa:S190",
-      "target": "topic:right",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S190",
       "target": "topic:answer",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S190",
-      "target": "topic:customer",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S190",
-      "target": "topic:part",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
+        "count": 9
       }
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "chat_turn:4dda7faa:S190",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
+      "target": "topic:appraisal",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
     },
     {
-      "source": "chat_turn:4dda7faa:S190",
+      "source": "chat_session:4dda7faa",
       "target": "doc:PERFORMANCE_TRACKER.md",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
-      "source": "chat_turn:4dda7faa:S191",
-      "target": "topic:intuit",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S191",
-      "target": "topic:rejected",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S191",
-      "target": "topic:update",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
       "source": "chat_session:4dda7faa",
-      "target": "chat_turn:4dda7faa:S191",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:4dda7faa:S202",
-      "target": "topic:asq-bb-exam",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S202",
-      "target": "topic:career_applications_tracker",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S202",
-      "target": "topic:home",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S202",
-      "target": "topic:krithika",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "chat_turn:4dda7faa:S202",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:4dda7faa:S202",
-      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "target": "doc:documents/QUESTION_BANK_LOG.md",
       "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:4dda7faa:S203",
-      "target": "topic:angular",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S203",
-      "target": "topic:ardent",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S203",
-      "target": "topic:become",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S203",
-      "target": "topic:demo",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "chat_turn:4dda7faa:S203",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:4dda7faa:S204",
-      "target": "topic:call",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S204",
-      "target": "topic:angular",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S204",
-      "target": "topic:ardent",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S204",
-      "target": "topic:attitude",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "chat_turn:4dda7faa:S204",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:4dda7faa:S205",
-      "target": "topic:questions",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S205",
-      "target": "topic:send",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "chat_turn:4dda7faa:S205",
-      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -13218,6 +14086,252 @@
     {
       "source": "chat_session:4dda7faa",
       "target": "chat_turn:4dda7faa:S225",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S233",
+      "target": "topic:unit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S233",
+      "target": "topic:appraisal",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S233",
+      "target": "topic:block",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S233",
+      "target": "topic:home",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S233",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S233",
+      "target": "doc:PERFORMANCE_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S233",
+      "target": "doc:documents/QUESTION_BANK_LOG.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S234",
+      "target": "topic:freight",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S234",
+      "target": "topic:goose",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S234",
+      "target": "topic:misread",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S234",
+      "target": "topic:silly",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S234",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S235",
+      "target": "topic:knew",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S235",
+      "target": "topic:unit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S235",
+      "target": "topic:anytime",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S235",
+      "target": "topic:belt",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S235",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S236",
+      "target": "topic:perhaps",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S236",
+      "target": "topic:plan",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S236",
+      "target": "topic:progress",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S236",
+      "target": "topic:stand",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S236",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S237",
+      "target": "topic:unit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 18
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S237",
+      "target": "topic:full",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S237",
+      "target": "topic:tonight",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S237",
+      "target": "topic:biggest",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S237",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S237",
+      "target": "doc:PERFORMANCE_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S238",
+      "target": "topic:attempt",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S238",
+      "target": "topic:bible",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S238",
+      "target": "topic:brush",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:4dda7faa:S238",
+      "target": "topic:even",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S238",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -14641,8 +15755,8 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "cd7fd87b37b4989177db84e79e648ee33b15c524fc7fac385103783fe78486f7",
-    "documents/ASQ_CSSBB_Cheat_Sheet.txt": "242980d0d57705182315309f2f9cdbe7f850c434466bfd604cba12031ad24554",
+    "chats/SHARED_SESSION_STATE.md": "e8da75f2ff87a1f3a9b9c47b59476ec12fab13836ed2f81bd8938b197874e259",
+    "documents/ASQ_CSSBB_Cheat_Sheet.txt": "57beaf6db9ca1b22ba9cfb71a9df47bfc4cfdf0469241f7eff9cfa3a08b2fdfa",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
@@ -14650,6 +15764,7 @@
     "documents/CAREER_APPLICATIONS_TRACKER.md": "101b88f4c5ac53b7383220204ad5570f85a7dd5d85190ab6d801bfcd783702d0",
     "documents/QUESTION_BANK_LOG.md": "559c54c56542d41704ab38329c3c35ef4cc73f4c07d798aa7a1af4346d7683f3",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
-    "repo.md": "37f4c18a19af9ddf464045db03469bd9408f0594b4aa64119d136091110de774"
+    "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
+    "repo.md": "b917d0ab67964a53a641a46a65c7a5c5124829cc21fc43a3ac331adb5276dfbf"
   }
 }
