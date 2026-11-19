@@ -8,16 +8,16 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`360` (`Q1`–`Q230` + Copilot `C1`–`C130`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Latest Set (Round 19 Block 1 — `I.A & I.B` Unit 1 TRUE EXAM-HARD Open-Book `Q221`–`Q230`)**: **`10 / 10 = 100.0%` PERFECT SCORE!!** *(Crushed Deming tampering, DMAIC selection, sub-optimization, SWOT, Hard vs. Soft savings, MBB vs. Champion, Weak Matrix fix, Kotter Steps 7–8, Lewin Force Field, and DFSS entitlement!)*
+- **Completed Unique Questions**: **`370` (`Q1`–`Q240` + Copilot `C1`–`C130`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Latest Set (Round 19 Block 2 — `I.A & I.B` Unit 1 Spaced Reinforcement Open-Book `Q231`–`Q240`)**: **`8 / 10 = 80.0%`!** *(MASTERED Taguchi `Q231` & 8D `Q232`, plus Crosby, Feigenbaum, Shingo SMED, Risk Avoidance, Green Belt, ADKAR! Only 2 misses: Bridges Neutral Zone vs Ending `Q233`, Porter Supplier vs Buyer Power `Q238`. Unit 1 overall now `75 / 87 = 86.2%`!)*
 - **LOCKED PLAN FOR NEXT STEP**:
-  1. Complete **Block 2 (`Q231`–`Q240` Unit 1 Spaced Reinforcement)** & **Block 3 (`Q241`–`Q250` Unit 2 Preview)** already on screen!
-  2. Once Block 2 is solid, officially mark **Unit 1 (`Domain I`) MASTERED** and launch **Unit 2 (`Domain II`)**!
-- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`116 / 140 = 82.9%`**
+  1. Complete **Block 3 (`Q241`–`Q250` Unit 2 Preview: `Domain II` Benchmarking, Balanced Scorecard, OKRs, Leading/Lagging, Cost of Quality, Payback & NPV)** already on screen!
+  2. Begin **Unit 2 (`Domain II`)** full progressive ladder (`Easy -> Medium -> Hard`) with a short & sweet Unit 2 Word Bible table!
+- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`124 / 150 = 82.7%`**
 - **Stage 2 Status (`Domain V — Measure Phase`)**: **`35 / 50 = 70.0%`**
 - **Stage 3 Status (`Domain VI — Analyze Phase`)**: **`24 / 30 = 80.0%`**
 - **Stage 5 Preview (`Domain VIII — Control Charts`)**: **`8 / 10 = 80.0%`**
-- **Copilot External Sets (`C1`–`C130`)**: **`101 / 130` (`77.7%` — Set 5 `C96`–`C130`: `31 / 35 = 88.6%`!)** — Grand Cumulative: **`284 / 360` (`78.9%`)**
+- **Copilot External Sets (`C1`–`C130`)**: **`101 / 130` (`77.7%` — Set 5 `C96`–`C130`: `31 / 35 = 88.6%`!)** — Grand Cumulative: **`292 / 370` (`78.9%`)**
 - **Active Weak Points Scheduled for Spaced Re-Testing**:
   1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)
   2. `IV.A.3` CTQ measurable numerical target vs. vague VOC (`Q18`)
