@@ -1,43 +1,53 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-19T05:18:02.448481+00:00",
-    "total_files_indexed": 63,
-    "total_nodes": 567,
-    "total_edges": 1068,
+    "generated_at": "2026-11-19T16:12:14.207786+00:00",
+    "total_files_indexed": 71,
+    "total_nodes": 606,
+    "total_edges": 1207,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
-      "document": 43,
-      "document_file": 18,
-      "document_section": 127,
+      "document": 47,
+      "document_file": 22,
+      "document_section": 147,
       "html_template": 1,
-      "topic_entity": 324
+      "topic_entity": 335
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [],
+    "added": [
+      "Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "Resume_And_Jobs/Job38_NorthropGrumman_Sr_Principal_Project_Manager_Sunnyvale_R10260907.md",
+      "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "Resume_And_Jobs/Job39_WesternDigital_Supply_Chain_Transformation_Program_Manager_SanJose_REF34953P.md",
+      "Resume_And_Jobs/Job40_Jabil_Consulting_Supply_Chain_Manager_Remote_J2464637.md",
+      "Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "Resume_And_Jobs/Job41_Humana_Vendor_Performance_Lead_Remote_R433994.md"
+    ],
     "modified": [
-      "chats/SHARED_SESSION_STATE.md"
+      "chats/SHARED_SESSION_STATE.md",
+      "documents/CAREER_APPLICATIONS_TRACKER.md"
     ],
     "removed": [],
-    "files_parsed": 0,
-    "files_cached_reused": 62,
+    "files_parsed": 9,
+    "files_cached_reused": 61,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 49,
-      "nodes_deleted": 39,
-      "edges_upserted": 70,
-      "edges_deleted": 75,
-      "wiki_pages_upserted": 0,
+      "nodes_upserted": 101,
+      "nodes_deleted": 18,
+      "edges_upserted": 195,
+      "edges_deleted": 45,
+      "wiki_pages_upserted": 5,
       "wiki_pages_deleted": 0,
-      "files_upserted": 2,
+      "files_upserted": 11,
       "files_deleted": 0,
-      "total_nodes_in_db": 567,
-      "total_edges_in_db": 1068,
-      "total_files_tracked": 64
+      "total_nodes_in_db": 606,
+      "total_edges_in_db": 1207,
+      "total_files_tracked": 72
     }
   },
   "nodes": [
@@ -610,7 +620,7 @@
       "id": "topic:vendor",
       "type": "topic_entity",
       "name": "vendor",
-      "file_path": "Resume_And_Jobs/Job28_Stanford_R2658085_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'vendor' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "vendor"
@@ -620,7 +630,7 @@
       "id": "topic:power",
       "type": "topic_entity",
       "name": "power",
-      "file_path": "Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'power' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "power"
@@ -630,7 +640,7 @@
       "id": "topic:spend",
       "type": "topic_entity",
       "name": "spend",
-      "file_path": "Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'spend' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "spend"
@@ -715,7 +725,7 @@
       "id": "topic:computer",
       "type": "topic_entity",
       "name": "computer",
-      "file_path": "Resume_And_Jobs/Job32_Zillow_P751645_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'computer' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "computer"
@@ -725,7 +735,7 @@
       "id": "topic:cscp",
       "type": "topic_entity",
       "name": "cscp",
-      "file_path": "Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'cscp' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cscp"
@@ -748,7 +758,7 @@
       "id": "topic:certified",
       "type": "topic_entity",
       "name": "certified",
-      "file_path": "Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'certified' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "certified"
@@ -758,7 +768,7 @@
       "id": "topic:management",
       "type": "topic_entity",
       "name": "management",
-      "file_path": "Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'management' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "management"
@@ -854,7 +864,7 @@
       "id": "topic:controls",
       "type": "topic_entity",
       "name": "controls",
-      "file_path": "Resume_And_Jobs/Job21_Intuit_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'controls' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "controls"
@@ -877,7 +887,7 @@
       "id": "topic:compliance",
       "type": "topic_entity",
       "name": "compliance",
-      "file_path": "Resume_And_Jobs/Job35_NetApp_137163_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'compliance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "compliance"
@@ -920,7 +930,7 @@
       "id": "topic:cross-functional",
       "type": "topic_entity",
       "name": "cross-functional",
-      "file_path": "Resume_And_Jobs/Job21_Intuit_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'cross-functional' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cross-functional"
@@ -952,7 +962,7 @@
       "id": "topic:quality",
       "type": "topic_entity",
       "name": "quality",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
       "description": "Shared domain topic 'quality' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "quality"
@@ -1017,7 +1027,7 @@
       "id": "topic:cssgb",
       "type": "topic_entity",
       "name": "cssgb",
-      "file_path": "Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'cssgb' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cssgb"
@@ -1050,7 +1060,7 @@
       "id": "topic:active",
       "type": "topic_entity",
       "name": "active",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
       "description": "Shared domain topic 'active' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "active"
@@ -1096,7 +1106,7 @@
       "id": "topic:process",
       "type": "topic_entity",
       "name": "process",
-      "file_path": "Resume_And_Jobs/Job34_NVIDIA_JR2022577_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'process' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "process"
@@ -1142,7 +1152,7 @@
       "id": "topic:delivery",
       "type": "topic_entity",
       "name": "delivery",
-      "file_path": "Resume_And_Jobs/Job29_Stanford_R2659644_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'delivery' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "delivery"
@@ -1285,7 +1295,7 @@
       "id": "topic:governance",
       "type": "topic_entity",
       "name": "governance",
-      "file_path": "Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'governance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "governance"
@@ -1391,7 +1401,7 @@
       "id": "topic:performance",
       "type": "topic_entity",
       "name": "performance",
-      "file_path": "Resume_And_Jobs/Job35_NetApp_137163_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'performance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "performance"
@@ -1449,7 +1459,7 @@
       "id": "topic:professional",
       "type": "topic_entity",
       "name": "professional",
-      "file_path": "Resume_And_Jobs/Job34_NVIDIA_JR2022577_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'professional' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "professional"
@@ -1541,7 +1551,7 @@
       "id": "topic:systems",
       "type": "topic_entity",
       "name": "systems",
-      "file_path": "Resume_And_Jobs/Job33_Amgen_R245341_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'systems' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "systems"
@@ -1563,7 +1573,7 @@
       "id": "topic:chain",
       "type": "topic_entity",
       "name": "chain",
-      "file_path": "Resume_And_Jobs/Job34_NVIDIA_JR2022577_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'chain' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "chain"
@@ -1573,7 +1583,7 @@
       "id": "topic:supply",
       "type": "topic_entity",
       "name": "supply",
-      "file_path": "Resume_And_Jobs/Job34_NVIDIA_JR2022577_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'supply' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "supply"
@@ -1593,7 +1603,7 @@
       "id": "topic:digital",
       "type": "topic_entity",
       "name": "digital",
-      "file_path": "Resume_And_Jobs/Job29_Stanford_R2659644_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'digital' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "digital"
@@ -1603,7 +1613,7 @@
       "id": "topic:operational",
       "type": "topic_entity",
       "name": "operational",
-      "file_path": "Resume_And_Jobs/Job29_Stanford_R2659644_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'operational' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "operational"
@@ -1743,7 +1753,7 @@
       "id": "topic:enterprise",
       "type": "topic_entity",
       "name": "enterprise",
-      "file_path": "Resume_And_Jobs/Job35_NetApp_137163_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'enterprise' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "enterprise"
@@ -1753,7 +1763,7 @@
       "id": "topic:operations",
       "type": "topic_entity",
       "name": "operations",
-      "file_path": "Resume_And_Jobs/Job34_NVIDIA_JR2022577_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'operations' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "operations"
@@ -1866,7 +1876,7 @@
       "id": "topic:efficiency",
       "type": "topic_entity",
       "name": "efficiency",
-      "file_path": "Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'efficiency' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "efficiency"
@@ -2360,7 +2370,7 @@
       "id": "topic:procurement",
       "type": "topic_entity",
       "name": "procurement",
-      "file_path": "Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'procurement' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "procurement"
@@ -2380,7 +2390,7 @@
       "id": "topic:logistics",
       "type": "topic_entity",
       "name": "logistics",
-      "file_path": "Resume_And_Jobs/Job36_Ciena_R031966_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'logistics' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "logistics"
@@ -2747,7 +2757,7 @@
       "id": "topic:microsoft",
       "type": "topic_entity",
       "name": "microsoft",
-      "file_path": "Resume_And_Jobs/Job36_Ciena_R031966_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'microsoft' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "microsoft"
@@ -2873,11 +2883,557 @@
       }
     },
     {
+      "id": "topic:project",
+      "type": "topic_entity",
+      "name": "project",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'project' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "project"
+      }
+    },
+    {
+      "id": "topic:schedule",
+      "type": "topic_entity",
+      "name": "schedule",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'schedule' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "schedule"
+      }
+    },
+    {
+      "id": "doc_file:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "type": "document_file",
+      "name": "Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "description": "Document Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx (5 section(s)): KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY PMP-, APICS CSCP-, and ASQ Six Sigma Green Belt (CSSG",
+      "metadata": {
+        "format": "docx",
+        "section_count": 5,
+        "size_bytes": 3156,
+        "topics": [
+          "cost",
+          "logistics",
+          "project",
+          "management",
+          "schedule",
+          "operations",
+          "procurement",
+          "cross-functional"
+        ]
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:1",
+      "type": "document_section",
+      "name": "Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx [Section 1]",
+      "file_path": "Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 1 of Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx: KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY PMP-, APICS CSCP-, and ASQ Six Sigma Green Belt (CSSGB)\u2013certified Project Manager and Supply ",
+      "metadata": {
+        "section_index": 1,
+        "section_type": "section",
+        "text_excerpt": "KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB\nPalo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com\nPROFESSIONAL SUMMARY\nPMP-, APICS CSCP-, and ASQ Six Sigma Green Belt (CSSGB)\u2013certified Project Manager and Supply Chain / Logistics Operations Leader with a Master of Computer Applications\u2014M.C.A. (Engineering)\u2014and 10+ years of experience delivering complex logistics, procurement, and operational programs on cost and on schedule across a 50M+ USD, 40+-site network. Proven track record managing program plans, cost and schedule baselines, financial forecasting, Risk & Opportunity Management, contract scope adherence, and cross-functional Integrated Product/Operations Teams (internal and external stakeholders). U.S. Citizen eligible to obtain and maintain a DoD Secret clearance.\nEDUCATION ",
+        "char_count": 928
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:2",
+      "type": "document_section",
+      "name": "Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx [Section 2]",
+      "file_path": "Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 2 of Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx: \u2022 Active Certifications: Project Management Professional (PMP), Certified Supply Chain Professional (CSCP), ASQ Certified Six Sigma Green Belt (CSSGB) CORE COMPETENCIES \u2022 Program & Project Management: Cost & Schedule Bas",
+      "metadata": {
+        "section_index": 2,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Active Certifications: Project Management Professional (PMP), Certified Supply Chain Professional (CSCP), ASQ Certified Six Sigma Green Belt (CSSGB)\nCORE COMPETENCIES\n\u2022 Program & Project Management: Cost & Schedule Baseline Monitoring & Control, Project Charters & Milestone Plans, Scope & Change Control, Customer Deliverable Tracking, MS Project\n\u2022 Supply Chain, Material Procurement & Logistics Support: End-to-End Logistics Support & Fulfillment, Supplier & Vendor Contracting, Spares/Distribution Coordination, SLA Compliance (+40% OTD)\n\u2022 Financial & Cost Account Management: 50M+ USD Budget Forecasting & Monthly Accruals, Variance Analysis & Performance Reporting, 2M+ USD Billing & Contract Audits, ROI Business Cases\n\u2022 Risk & Opportunity Management & Stakeholder Alignment: Risk Identificat",
+        "char_count": 943
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:3",
+      "type": "document_section",
+      "name": "Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx [Section 3]",
+      "file_path": "Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 3 of Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx: PROFESSIONAL EXPERIENCE Ardent Mills \u2013 Denver, CO (Remote from Palo Alto, CA) Transportation Cost & Operations Analyst | 2016 \u2013 Present \u2022 End-to-End Logistics Program Execution (50M+ USD Portfolio): Manage cross-function",
+      "metadata": {
+        "section_index": 3,
+        "section_type": "section",
+        "text_excerpt": "PROFESSIONAL EXPERIENCE\nArdent Mills \u2013 Denver, CO (Remote from Palo Alto, CA)\nTransportation Cost & Operations Analyst | 2016 \u2013 Present\n\u2022 End-to-End Logistics Program Execution (50M+ USD Portfolio): Manage cross-functional logistics, transportation, and procurement projects across 40+ facilities, ensuring contractual requirements and operational deliverables are met on cost and on schedule.\n\u2022 Cost Account Management, Financial Tracking & Forecasting: Lead monthly US/CAD accruals, budget variance tracking, financial forecasting, and executive performance reporting in close partnership with Finance and Operations leadership.\n\u2022 Risk & Opportunity Management & Scope Control: Identify operational, capacity, and supplier risks early, maintain structured mitigation plans, and enforce contractual ",
+        "char_count": 1128
+      }
+    },
+    {
+      "id": "topic:program",
+      "type": "topic_entity",
+      "name": "program",
+      "file_path": "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "description": "Shared domain topic 'program' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "program"
+      }
+    },
+    {
+      "id": "topic:tracking",
+      "type": "topic_entity",
+      "name": "tracking",
+      "file_path": "Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "description": "Shared domain topic 'tracking' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "tracking"
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:4",
+      "type": "document_section",
+      "name": "Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx [Section 4]",
+      "file_path": "Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 4 of Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx: \u2022 Continuous Process Improvement (Lean Six Sigma DMAIC): Standardized cross-functional project execution and vendor governance workflows, improving operational efficiency by 20%. Ardent Mills \u2013 Denver, CO Transportation ",
+      "metadata": {
+        "section_index": 4,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Continuous Process Improvement (Lean Six Sigma DMAIC): Standardized cross-functional project execution and vendor governance workflows, improving operational efficiency by 20%.\nArdent Mills \u2013 Denver, CO\nTransportation Data & Contracts Specialist | 2015 \u2013 2016\n\u2022 Contractual Compliance & Deliverable Tracking: Monitored supplier contract obligations, rate schedules, and compliance documentation while maintaining structured performance scorecards for leadership reviews.\nWhiteWave Foods \u2013 Broomfield, CO\nTransportation & Logistics Specialist | 2014 \u2013 2015\n\u2022 Cross-Functional Schedule & Customer Delivery Performance (+40% OTD): Coordinated internal operations, customer service, and external logistics partners to resolve schedule bottlenecks and improve On-Time Delivery by 40%.\nDalin Inc. \u2013 Carls",
+        "char_count": 808
+      }
+    },
+    {
+      "id": "topic:customer",
+      "type": "topic_entity",
+      "name": "customer",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'customer' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "customer"
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:5",
+      "type": "document_section",
+      "name": "Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx [Section 5]",
+      "file_path": "Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 5 of Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx: EDI / Shipping & Procurement Specialist | 2010 \u2013 2012 \u2022 Material Procurement, RFP Proposals & Cost Reduction (-30% Spend): Supported supplier bid packages, proposal evaluations, and material procurement negotiations, red",
+      "metadata": {
+        "section_index": 5,
+        "section_type": "section",
+        "text_excerpt": "EDI / Shipping & Procurement Specialist | 2010 \u2013 2012\n\u2022 Material Procurement, RFP Proposals & Cost Reduction (-30% Spend): Supported supplier bid packages, proposal evaluations, and material procurement negotiations, reducing annual spend by 30%.\nTECHNICAL & ENTERPRISE SYSTEMS\n\u2022 Project & Office Suite: Advanced Microsoft Office Suite (Excel Data Analysis & Reporting, Word Formal Documentation, PowerPoint Executive Briefings, MS Project), SharePoint, Power Apps, Power Automate, Microsoft Dynamics 365, EDI, WMS",
+        "char_count": 514
+      }
+    },
+    {
+      "id": "topic:material",
+      "type": "topic_entity",
+      "name": "material",
+      "file_path": "Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "description": "Shared domain topic 'material' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "material"
+      }
+    },
+    {
+      "id": "topic:office",
+      "type": "topic_entity",
+      "name": "office",
+      "file_path": "Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "description": "Shared domain topic 'office' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "office"
+      }
+    },
+    {
+      "id": "doc:Resume_And_Jobs/Job38_NorthropGrumman_Sr_Principal_Project_Manager_Sunnyvale_R10260907.md",
+      "type": "document",
+      "name": "Job38_NorthropGrumman_Sr_Principal_Project_Manager_Sunnyvale_R10260907.md",
+      "file_path": "Resume_And_Jobs/Job38_NorthropGrumman_Sr_Principal_Project_Manager_Sunnyvale_R10260907.md",
+      "description": "Documentation: Job38_NorthropGrumman_Sr_Principal_Project_Manager_Sunnyvale_R10260907.md (Resume_And_Jobs/Job38_NorthropGrumman_Sr_Principal_Project_Manager_Sunnyvale_R10260907.md)",
+      "metadata": {
+        "sections": [],
+        "keywords": [],
+        "format": "md"
+      }
+    },
+    {
+      "id": "doc_file:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "type": "document_file",
+      "name": "Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "description": "Document Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx (5 section(s)): KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY PMP-, APICS CSCP-, and ASQ Six Sigma Green Belt (CSSG",
+      "metadata": {
+        "format": "docx",
+        "section_count": 5,
+        "size_bytes": 3151,
+        "topics": [
+          "power",
+          "process",
+          "chain",
+          "delivery",
+          "operational",
+          "operations",
+          "program",
+          "supply"
+        ]
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:1",
+      "type": "document_section",
+      "name": "Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx [Section 1]",
+      "file_path": "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 1 of Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx: KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY PMP-, APICS CSCP-, and ASQ Six Sigma Green Belt (CSSGB)\u2013certified Supply Chain Transformation",
+      "metadata": {
+        "section_index": 1,
+        "section_type": "section",
+        "text_excerpt": "KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB\nPalo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com\nPROFESSIONAL SUMMARY\nPMP-, APICS CSCP-, and ASQ Six Sigma Green Belt (CSSGB)\u2013certified Supply Chain Transformation Program Manager with a Master of Computer Applications\u2014M.C.A. (Engineering)\u2014and 10+ years of hands-on delivery leadership translating end-to-end process and technology designs into executable program plans across a 50M+ USD, 40+-site supply chain network. Proven ability to synchronize business requirements, process design, testing, deployment, stabilization, and transition to run-the-business teams while moving matrixed cross-functional stakeholders toward clear decisions, milestone closure, and measurable operational results (+66% data accuracy, +20% workflow efficiency).",
+        "char_count": 939
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:2",
+      "type": "document_section",
+      "name": "Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx [Section 2]",
+      "file_path": "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 2 of Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx: \u2022 Active Certifications: Project Management Professional (PMP), Certified Supply Chain Professional (CSCP), ASQ Certified Six Sigma Green Belt (CSSGB) CORE COMPETENCIES \u2022 Supply Chain Program Delivery & Governance: Integ",
+      "metadata": {
+        "section_index": 2,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Active Certifications: Project Management Professional (PMP), Certified Supply Chain Professional (CSCP), ASQ Certified Six Sigma Green Belt (CSSGB)\nCORE COMPETENCIES\n\u2022 Supply Chain Program Delivery & Governance: Integrated Workstream Plans, Scope/Milestones/Dependencies, Acceptance Criteria, Decision & Action Logs, Executive Status Reporting\n\u2022 Process, Solution & Technology Enablement: Translating Business Requirements into Functional Workflows, Testing, Readiness, Cutover & Stabilization, Transition to Operations\n\u2022 Risk, Issue & Dependency Management: RAID Logs (Risks, Assumptions, Issues, Dependencies), Escalation with Clear Options & Impacts, Change Control & Audit Readiness\n\u2022 Continuous Improvement & Systems: Lean Six Sigma (DMAIC +20% Efficiency), Power Apps (+66% Accuracy), Power ",
+        "char_count": 944
+      }
+    },
+    {
+      "id": "topic:dependencies",
+      "type": "topic_entity",
+      "name": "dependencies",
+      "file_path": "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "description": "Shared domain topic 'dependencies' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "dependencies"
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:3",
+      "type": "document_section",
+      "name": "Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx [Section 3]",
+      "file_path": "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 3 of Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx: Transportation Cost & Operations Analyst | 2016 \u2013 Present \u2022 End-to-End Supply Chain Transformation Delivery (40+ Sites, 50M+ USD Network): Lead process, workflow, and digital enablement initiatives from requirements and ",
+      "metadata": {
+        "section_index": 3,
+        "section_type": "section",
+        "text_excerpt": "Transportation Cost & Operations Analyst | 2016 \u2013 Present\n\u2022 End-to-End Supply Chain Transformation Delivery (40+ Sites, 50M+ USD Network): Lead process, workflow, and digital enablement initiatives from requirements and design through testing, rollout, stabilization, and handoff to operational teams.\n\u2022 Integrated Program Cadence & Executive Reporting: Maintain milestone plans, decision logs, action trackers, and cross-functional status reviews aligning Operations, Procurement, Finance, IT, and external logistics partners.\n\u2022 Digital Visibility & Workflow Deployment (+66% Accuracy): Translated operational requirements into a centralized Power Apps, Power Automate, and SharePoint platform deployed across 40+ facilities, improving exception-reporting accuracy by 66%.\n\u2022 Lean Six Sigma Process R",
+        "char_count": 977
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:4",
+      "type": "document_section",
+      "name": "Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx [Section 4]",
+      "file_path": "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 4 of Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx: \u2022 Risk, Variance & Governance Controls (2M USD Audit Scope): Audited 2M USD in supplemental charges across 40 locations, resolved root-cause process gaps, and established preventive controls and 24-month forward rate vis",
+      "metadata": {
+        "section_index": 4,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Risk, Variance & Governance Controls (2M USD Audit Scope): Audited 2M USD in supplemental charges across 40 locations, resolved root-cause process gaps, and established preventive controls and 24-month forward rate visibility.\nArdent Mills \u2013 Denver, CO\nTransportation Data & Contracts Specialist | 2015 \u2013 2016\n\u2022 Cross-Workstream Data Synchronization & Scorecards: Standardized supplier master data, contractual compliance records, and recurring KPI scorecards across national logistics operations.\nWhiteWave Foods \u2013 Broomfield, CO\nTransportation & Logistics Specialist | 2014 \u2013 2015\n\u2022 Matrixed Operational Execution (+40% OTD): Coordinated internal operations and external 3PL/carrier partners to close systemic delivery gaps and lift On-Time Delivery by 40%.\nDalin Inc. \u2013 Carlstadt, NJ",
+        "char_count": 788
+      }
+    },
+    {
+      "id": "topic:gaps",
+      "type": "topic_entity",
+      "name": "gaps",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "description": "Shared domain topic 'gaps' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "gaps"
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:5",
+      "type": "document_section",
+      "name": "Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx [Section 5]",
+      "file_path": "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 5 of Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx: EDI / Shipping & Procurement Specialist | 2010 \u2013 2012 \u2022 EDI, WMS & Procurement Rollout (-30% Cost): Synchronized EDI transaction workflows, warehouse systems, and competitive supplier transitions, reducing annual spend b",
+      "metadata": {
+        "section_index": 5,
+        "section_type": "section",
+        "text_excerpt": "EDI / Shipping & Procurement Specialist | 2010 \u2013 2012\n\u2022 EDI, WMS & Procurement Rollout (-30% Cost): Synchronized EDI transaction workflows, warehouse systems, and competitive supplier transitions, reducing annual spend by 30%.\nTECHNICAL & ENTERPRISE SYSTEMS\n\u2022 Program & Enterprise Platforms: MS Project, Advanced Excel & PowerPoint (Executive Reporting), Microsoft Dynamics 365, Power Apps, Power Automate, SharePoint, EDI, WMS, Angular / TypeScript",
+        "char_count": 449
+      }
+    },
+    {
+      "id": "doc:Resume_And_Jobs/Job39_WesternDigital_Supply_Chain_Transformation_Program_Manager_SanJose_REF34953P.md",
+      "type": "document",
+      "name": "Job39_WesternDigital_Supply_Chain_Transformation_Program_Manager_SanJose_REF34953P.md",
+      "file_path": "Resume_And_Jobs/Job39_WesternDigital_Supply_Chain_Transformation_Program_Manager_SanJose_REF34953P.md",
+      "description": "Documentation: Job39_WesternDigital_Supply_Chain_Transformation_Program_Manager_SanJose_REF34953P.md (Resume_And_Jobs/Job39_WesternDigital_Supply_Chain_Transformation_Program_Manager_SanJose_REF34953P.md)",
+      "metadata": {
+        "sections": [],
+        "keywords": [],
+        "format": "md"
+      }
+    },
+    {
       "id": "doc:Resume_And_Jobs/Job3_Gilead_Cold_Chain_Logistics_R0055571.md",
       "type": "document",
       "name": "Job3_Gilead_Cold_Chain_Logistics_R0055571.md",
       "file_path": "Resume_And_Jobs/Job3_Gilead_Cold_Chain_Logistics_R0055571.md",
       "description": "Documentation: Job3_Gilead_Cold_Chain_Logistics_R0055571.md (Resume_And_Jobs/Job3_Gilead_Cold_Chain_Logistics_R0055571.md)",
+      "metadata": {
+        "sections": [],
+        "keywords": [],
+        "format": "md"
+      }
+    },
+    {
+      "id": "doc:Resume_And_Jobs/Job40_Jabil_Consulting_Supply_Chain_Manager_Remote_J2464637.md",
+      "type": "document",
+      "name": "Job40_Jabil_Consulting_Supply_Chain_Manager_Remote_J2464637.md",
+      "file_path": "Resume_And_Jobs/Job40_Jabil_Consulting_Supply_Chain_Manager_Remote_J2464637.md",
+      "description": "Documentation: Job40_Jabil_Consulting_Supply_Chain_Manager_Remote_J2464637.md (Resume_And_Jobs/Job40_Jabil_Consulting_Supply_Chain_Manager_Remote_J2464637.md)",
+      "metadata": {
+        "sections": [],
+        "keywords": [],
+        "format": "md"
+      }
+    },
+    {
+      "id": "topic:savings",
+      "type": "topic_entity",
+      "name": "savings",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'savings' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "savings"
+      }
+    },
+    {
+      "id": "topic:executive",
+      "type": "topic_entity",
+      "name": "executive",
+      "file_path": "Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "description": "Shared domain topic 'executive' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "executive"
+      }
+    },
+    {
+      "id": "doc_file:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "type": "document_file",
+      "name": "Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "description": "Document Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx (5 section(s)): KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY PMP-, APICS CSCP-, and ASQ Six Sigma Green Belt (CSSG",
+      "metadata": {
+        "format": "docx",
+        "section_count": 5,
+        "size_bytes": 3113,
+        "topics": [
+          "spend",
+          "supplier",
+          "power",
+          "procurement",
+          "project",
+          "savings",
+          "sourcing",
+          "executive"
+        ]
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:1",
+      "type": "document_section",
+      "name": "Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx [Section 1]",
+      "file_path": "Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 1 of Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx: KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY PMP-, APICS CSCP-, and ASQ Six Sigma Green Belt (CSSGB)\u2013certified Supply Chain and Procuremen",
+      "metadata": {
+        "section_index": 1,
+        "section_type": "section",
+        "text_excerpt": "KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB\nPalo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com\nPROFESSIONAL SUMMARY\nPMP-, APICS CSCP-, and ASQ Six Sigma Green Belt (CSSGB)\u2013certified Supply Chain and Procurement Transformation Leader with a Master of Computer Applications\u2014M.C.A. (Engineering)\u2014and 10+ years of experience driving strategic sourcing, procurement cost reduction, spend and contract analysis, financial modeling, and operational improvement across a 50M+ USD, 40+-location network. Proven track record managing complex project scopes, timelines, savings tracking, supplier negotiations, and executive-ready business cases that deliver validated bottom-line value (2M+ USD billing audit recoveries, -30% category spend reduction, +20% process efficiency).\nEDUCATION & ACTIVE CE",
+        "char_count": 917
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:2",
+      "type": "document_section",
+      "name": "Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx [Section 2]",
+      "file_path": "Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 2 of Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx: \u2022 Active Certifications: Project Management Professional (PMP), Certified Supply Chain Professional (CSCP), ASQ Certified Six Sigma Green Belt (CSSGB) CORE COMPETENCIES \u2022 Strategic Sourcing & Procurement Transformation: ",
+      "metadata": {
+        "section_index": 2,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Active Certifications: Project Management Professional (PMP), Certified Supply Chain Professional (CSCP), ASQ Certified Six Sigma Green Belt (CSSGB)\nCORE COMPETENCIES\n\u2022 Strategic Sourcing & Procurement Transformation: End-to-End RFx & Competitive Bidding, Supplier Negotiations, Rate & Volume-Tier Structuring, 24-Month Renewal Visibility\n\u2022 Cost Reduction & Financial Modeling: Spend & Contract Diagnostics (50M+ USD Portfolio), TCO & Savings Business Cases, 2M+ USD Billing Audits, Validated Savings & Accrual Tracking\n\u2022 Project & Engagement Delivery (PMP): Project Scope, Timelines, Milestones, RAID Risk Logs, Executive Dashboards & Presentations, Cross-Functional Implementation\n\u2022 Operational Excellence & Tools: Lean Six Sigma (DMAIC +20% Efficiency), Advanced Microsoft Excel & PowerPoint, Po",
+        "char_count": 954
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:3",
+      "type": "document_section",
+      "name": "Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx [Section 3]",
+      "file_path": "Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 3 of Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx: Transportation Cost & Operations Analyst | 2016 \u2013 Present \u2022 Strategic Sourcing & Cost-Reduction Leadership (50M+ USD Annual Spend): Analyze enterprise spend, supplier contracts, operational workflows, and market benchmar",
+      "metadata": {
+        "section_index": 3,
+        "section_type": "section",
+        "text_excerpt": "Transportation Cost & Operations Analyst | 2016 \u2013 Present\n\u2022 Strategic Sourcing & Cost-Reduction Leadership (50M+ USD Annual Spend): Analyze enterprise spend, supplier contracts, operational workflows, and market benchmarks across 40+ locations to identify and capture measurable cost savings.\n\u2022 Supplier Negotiations & Commercial Commitments: Develop sourcing strategies, execute competitive RFPs/RFQs, and negotiate pricing structures, SLAs, and volume terms alongside Finance, Legal, and Operations stakeholders.\n\u2022 Executive Business Cases & Validated Savings Tracking: Build financial models, monthly US/CAD accrual forecasts, and executive reporting packages tracking realized savings, project milestones, and commercial risks.\n\u2022 Spend Audit & Value Recovery (2M USD Scope): Audited 2M USD in sup",
+        "char_count": 962
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:4",
+      "type": "document_section",
+      "name": "Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx [Section 4]",
+      "file_path": "Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 4 of Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx: \u2022 Procurement Workflow Modernization (+20% Efficiency / +66% Accuracy): Applied Lean Six Sigma DMAIC and deployed automated Power Apps / Power Automate tracking workflows across 40+ sites, boosting reporting accuracy by ",
+      "metadata": {
+        "section_index": 4,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Procurement Workflow Modernization (+20% Efficiency / +66% Accuracy): Applied Lean Six Sigma DMAIC and deployed automated Power Apps / Power Automate tracking workflows across 40+ sites, boosting reporting accuracy by 66% and efficiency by 20%.\nArdent Mills \u2013 Denver, CO\nTransportation Data & Contracts Specialist | 2015 \u2013 2016\n\u2022 Contract Analytics & Supplier Scorecards: Audited supplier rate tables, compliance obligations, and performance KPIs to support sourcing negotiations and executive reviews.\nWhiteWave Foods \u2013 Broomfield, CO\nTransportation & Logistics Specialist | 2014 \u2013 2015\n\u2022 Supply Chain Operational Improvement (+40% OTD): Led cross-functional root-cause diagnostics and corrective action plans with 3PL and logistics partners, lifting On-Time Delivery by 40%.\nDalin Inc. \u2013 Carlstad",
+        "char_count": 805
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:5",
+      "type": "document_section",
+      "name": "Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx [Section 5]",
+      "file_path": "Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 5 of Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx: EDI / Shipping & Procurement Specialist | 2010 \u2013 2012 \u2022 Sourcing Value Creation (-30% Spend): Led competitive supplier evaluations and volume-tiered negotiations, cutting annual procurement and freight spend by 30%. TECH",
+      "metadata": {
+        "section_index": 5,
+        "section_type": "section",
+        "text_excerpt": "EDI / Shipping & Procurement Specialist | 2010 \u2013 2012\n\u2022 Sourcing Value Creation (-30% Spend): Led competitive supplier evaluations and volume-tiered negotiations, cutting annual procurement and freight spend by 30%.\nTECHNICAL & ENTERPRISE SYSTEMS\n\u2022 Analytics & Delivery Tools: Advanced Microsoft Excel (Financial & Spend Modeling) & PowerPoint (Executive Briefings), MS Project, Power Apps, Power Automate, Microsoft Dynamics 365, SharePoint, EDI, WMS",
+        "char_count": 451
+      }
+    },
+    {
+      "id": "topic:external",
+      "type": "topic_entity",
+      "name": "external",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "description": "Shared domain topic 'external' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "external"
+      }
+    },
+    {
+      "id": "topic:partner",
+      "type": "topic_entity",
+      "name": "partner",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "description": "Shared domain topic 'partner' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "partner"
+      }
+    },
+    {
+      "id": "topic:contractual",
+      "type": "topic_entity",
+      "name": "contractual",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "description": "Shared domain topic 'contractual' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "contractual"
+      }
+    },
+    {
+      "id": "topic:accountability",
+      "type": "topic_entity",
+      "name": "accountability",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "description": "Shared domain topic 'accountability' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "accountability"
+      }
+    },
+    {
+      "id": "doc_file:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "type": "document_file",
+      "name": "Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "description": "Document Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx (5 section(s)): KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY PMP-, APICS CSCP-, and ASQ Six Sigma Green Belt (CSSG",
+      "metadata": {
+        "format": "docx",
+        "section_count": 5,
+        "size_bytes": 3001,
+        "topics": [
+          "vendor",
+          "performance",
+          "external",
+          "partner",
+          "contractual",
+          "governance",
+          "power",
+          "accountability"
+        ]
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:1",
+      "type": "document_section",
+      "name": "Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx [Section 1]",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 1 of Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx: KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY PMP-, APICS CSCP-, and ASQ Six Sigma Green Belt (CSSGB)\u2013certified Vendor Performance Manageme",
+      "metadata": {
+        "section_index": 1,
+        "section_type": "section",
+        "text_excerpt": "KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB\nPalo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com\nPROFESSIONAL SUMMARY\nPMP-, APICS CSCP-, and ASQ Six Sigma Green Belt (CSSGB)\u2013certified Vendor Performance Management and Strategic Program Leader with a Master of Computer Applications\u2014M.C.A. (Engineering)\u2014and 10+ years of experience driving external vendor oversight, SLA/contractual accountability, operational governance, and data-driven performance improvement across a 50M+ USD, 40+-site partner portfolio. Proven track record influencing internal cross-functional partners (Operations, Finance, Legal, Quality, Analytics) and external vendor executives without direct authority to close performance gaps (+40% OTD, +66% reporting accuracy, 2M+ USD compliance audits).\nEDUCATION & ACTIVE C",
+        "char_count": 918
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:2",
+      "type": "document_section",
+      "name": "Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx [Section 2]",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 2 of Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx: \u2022 Active Certifications: Project Management Professional (PMP), Certified Supply Chain Professional (CSCP), ASQ Certified Six Sigma Green Belt (CSSGB) CORE COMPETENCIES \u2022 Vendor Performance & Contractual Governance: Exte",
+      "metadata": {
+        "section_index": 2,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Active Certifications: Project Management Professional (PMP), Certified Supply Chain Professional (CSCP), ASQ Certified Six Sigma Green Belt (CSSGB)\nCORE COMPETENCIES\n\u2022 Vendor Performance & Contractual Governance: External Partner Portfolio Oversight (50M+ USD), KPI & SLA Scorecards, Contractual Accountability, Issue Escalation & Corrective Action Plans\n\u2022 Cross-Functional Program Leadership (PMP): Leading Multi-Team Initiatives Without Direct Authority, Strategic Planning to Operational Execution, Executive Insights & Recommendations\n\u2022 Data-Driven Performance Improvement: Operational, Financial & Quality Metrics Analysis, Lean Six Sigma (DMAIC +20% Efficiency), Root-Cause Diagnostics, 2M+ USD Variance & Compliance Audits\n\u2022 Governance & Reporting Systems: Power Apps (+66% Reporting Accura",
+        "char_count": 918
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:3",
+      "type": "document_section",
+      "name": "Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx [Section 3]",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 3 of Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx: Ardent Mills \u2013 Denver, CO (Remote from Palo Alto, CA) Transportation Cost & Operations Analyst | 2016 \u2013 Present \u2022 Enterprise Vendor Portfolio & Performance Governance (50M+ USD Scope): Lead ongoing vendor performance man",
+      "metadata": {
+        "section_index": 3,
+        "section_type": "section",
+        "text_excerpt": "Ardent Mills \u2013 Denver, CO (Remote from Palo Alto, CA)\nTransportation Cost & Operations Analyst | 2016 \u2013 Present\n\u2022 Enterprise Vendor Portfolio & Performance Governance (50M+ USD Scope): Lead ongoing vendor performance management, operational governance, and contractual accountability across external partners supporting 40+ locations.\n\u2022 Executive Insights & Data-Driven Accountability: Analyze operational, financial, quality, and service-level metrics to surface emerging vendor risks, quantify financial impacts, and deliver actionable recommendations to senior leadership.\n\u2022 Cross-Functional Performance Improvement (+20% Efficiency): Partner with Operations, Finance, Legal, and external vendor leaders without direct authority to execute Lean Six Sigma DMAIC improvement initiatives, raising wor",
+        "char_count": 1046
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:4",
+      "type": "document_section",
+      "name": "Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx [Section 4]",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 4 of Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx: \u2022 Financial Compliance & Contract Audit (2M USD Scope): Audited 2M USD in supplemental vendor charges across 40 sites, enforcing contractual terms, recovering billing discrepancies, and extending contract renewal visibil",
+      "metadata": {
+        "section_index": 4,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Financial Compliance & Contract Audit (2M USD Scope): Audited 2M USD in supplemental vendor charges across 40 sites, enforcing contractual terms, recovering billing discrepancies, and extending contract renewal visibility to 24 months.\nArdent Mills \u2013 Denver, CO\nTransportation Data & Contracts Specialist | 2015 \u2013 2016\n\u2022 Vendor Compliance & Quarterly Scorecards: Monitored external partner contractual obligations, onboarding compliance, and standardized performance scorecards to drive vendor accountability.\nWhiteWave Foods \u2013 Broomfield, CO\nTransportation & Logistics Specialist | 2014 \u2013 2015\n\u2022 External Partner Performance Turnaround (+40% OTD): Led structured vendor reviews and root-cause corrective action plans, improving external partner On-Time Delivery by 40%.\nDalin Inc. \u2013 Carlstadt, NJ",
+        "char_count": 799
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:5",
+      "type": "document_section",
+      "name": "Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx [Section 5]",
+      "file_path": "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 5 of Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx: EDI / Shipping & Procurement Specialist | 2010 \u2013 2012 \u2022 Vendor Negotiations & Value Realization (-30% Spend): Evaluated partner performance and negotiated structured commercial terms, cutting annual external vendor spend",
+      "metadata": {
+        "section_index": 5,
+        "section_type": "section",
+        "text_excerpt": "EDI / Shipping & Procurement Specialist | 2010 \u2013 2012\n\u2022 Vendor Negotiations & Value Realization (-30% Spend): Evaluated partner performance and negotiated structured commercial terms, cutting annual external vendor spend by 30%.\nTECHNICAL & ENTERPRISE SYSTEMS\n\u2022 Performance & Reporting Stack: Advanced Microsoft Excel & PowerPoint, Power Apps, Power Automate, SharePoint, Microsoft Dynamics 365, EDI, WMS",
+        "char_count": 404
+      }
+    },
+    {
+      "id": "doc:Resume_And_Jobs/Job41_Humana_Vendor_Performance_Lead_Remote_R433994.md",
+      "type": "document",
+      "name": "Job41_Humana_Vendor_Performance_Lead_Remote_R433994.md",
+      "file_path": "Resume_And_Jobs/Job41_Humana_Vendor_Performance_Lead_Remote_R433994.md",
+      "description": "Documentation: Job41_Humana_Vendor_Performance_Lead_Remote_R433994.md (Resume_And_Jobs/Job41_Humana_Vendor_Performance_Lead_Remote_R433994.md)",
       "metadata": {
         "sections": [],
         "keywords": [],
@@ -3102,7 +3658,7 @@
       "id": "topic:unit",
       "type": "topic_entity",
       "name": "unit",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
       "description": "Shared domain topic 'unit' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "unit"
@@ -3132,7 +3688,7 @@
       "id": "topic:control",
       "type": "topic_entity",
       "name": "control",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
       "description": "Shared domain topic 'control' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "control"
@@ -3320,16 +3876,6 @@
         "section_type": "section",
         "text_excerpt": "-------------------------------------------------------------\n- N = Nominal  : Names/Labels only, no order (Shift A/B/C, Defect Type)\n- O = Ordinal  : Ordered ranks, unequal gaps (1-to-5 Survey, 1st/2nd/3rd place)\n- I = Interval : Equal gaps, NO true zero (Celsius, Fahrenheit, Calendar Year)\n- R = Ratio    : Equal gaps WITH true zero (Time, Weight, Cost, Length, Kelvin)\n\n\n--------------------------------------------------------------------------------\n4. PROBABILITY RULES & DISTRIBUTIONS (V.E)\n--------------------------------------------------------------------------------\n- Complement (NOT A)     : P(not A) = 1 - P(A)\n- Addition (A OR B)      : P(A or B) = P(A) + P(B) - P(A and B)\n- Multiplication (A & B) : Independent: P(A)*P(B) | Dependent: P(A)*P(B|A)\n- Permutations vs Combos : Order M",
         "char_count": 1200
-      }
-    },
-    {
-      "id": "topic:gaps",
-      "type": "topic_entity",
-      "name": "gaps",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
-      "description": "Shared domain topic 'gaps' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "gaps"
       }
     },
     {
@@ -3634,16 +4180,6 @@
         "section_type": "section",
         "text_excerpt": "ST pass / Total entered (reworked units do NOT count as FTY!).\n- RTY (Rolled Yield)   : Multiply every step's FTY (0.90 x 0.90 x 0.90 = 72.9%), OR shortcut e^(-DPU).\n\nB. COST OF QUALITY (PAF MODEL)\n- Prevention           : Stop mistakes BEFORE making/shipping (training, preventive maintenance, Poka-yoke).\n- Appraisal            : CHECK / TEST / INSPECT / CALIBRATE (incoming inspection, lab tests, GAGE CALIBRATION!).\n- Internal Failure     : Caught & fixed BEFORE customer sees it (scrap, rework on your own dock).\n- External Failure     : Customer finds it AFTER delivery \u2014 worst/costliest (returns, warranty, recalls).\n\nC. FINANCIAL & SCORECARD MEASURES\n- ROI                  : (Net Benefit - Cost) / Cost x 100%.\n- Payback Period       : Upfront Cost / Annual Cash Savings (shorter = better).\n",
         "char_count": 1200
-      }
-    },
-    {
-      "id": "topic:customer",
-      "type": "topic_entity",
-      "name": "customer",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
-      "description": "Shared domain topic 'customer' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "customer"
       }
     },
     {
@@ -4677,6 +5213,7 @@
           "Completed Applications \u2014 Day 3 Weekday Cadence (3 Submitted \u2014 2026-11-16)",
           "Completed Applications \u2014 Day 4 Weekday Cadence (6 Submitted Today \u2014 2026-11-17 \u2014 Weekday Goal Exceeded!)",
           "Completed Applications \u2014 Day 5 Weekday Cadence (4 Brand-New Companies Submitted \u2014 2026-11-18 \u2014 Weekday Goal Complete!)",
+          "Completed Applications \u2014 Day 6 Weekday Cadence (In Progress \u2014 2026-11-19)",
           "Full Lockheed Martin Eightfold Application History (`21` Roles: `19` Active Submitted + `2` Inactive + `1` Draft \u2014 Verified `2026-11-18`!)",
           "Active Employer Responses / Stage-2 Advancements",
           "Closed / Rejected Applications Log"
@@ -4731,6 +5268,8 @@
           "Ciena (NYSE: CIEN)",
           "NetApp (NASDAQ: NTAP)",
           "Adobe (NASDAQ: ADBE)",
+          "Northrop Grumman (NYSE: NOC)",
+          "APPLIED / UNDER CONSIDERATION (2026-11-19)",
           "Active Stage-2 / Recruiter Screen (`1`):",
           "2026-11-17",
           "Rejected at Lockheed Martin (`2`):",
@@ -4782,6 +5321,9 @@
           "Req R031966",
           "Job ID 137163",
           "Req R166065",
+          "Req R10260907",
+          "R10257650",
+          "R10252052",
           "21",
           "19",
           "Inactive +",
@@ -5106,7 +5648,7 @@
       "id": "topic:change",
       "type": "topic_entity",
       "name": "change",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
       "description": "Shared domain topic 'change' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "change"
@@ -5593,16 +6135,6 @@
       }
     },
     {
-      "id": "topic:savings",
-      "type": "topic_entity",
-      "name": "savings",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
-      "description": "Shared domain topic 'savings' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "savings"
-      }
-    },
-    {
       "id": "topic:value",
       "type": "topic_entity",
       "name": "value",
@@ -6014,7 +6546,7 @@
       "id": "topic:leaders",
       "type": "topic_entity",
       "name": "leaders",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
       "description": "Shared domain topic 'leaders' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "leaders"
@@ -6041,6 +6573,16 @@
       }
     },
     {
+      "id": "topic:applied",
+      "type": "topic_entity",
+      "name": "applied",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'applied' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "applied"
+      }
+    },
+    {
       "id": "topic:lockheed",
       "type": "topic_entity",
       "name": "lockheed",
@@ -6048,16 +6590,6 @@
       "description": "Shared domain topic 'lockheed' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "lockheed"
-      }
-    },
-    {
-      "id": "topic:applied",
-      "type": "topic_entity",
-      "name": "applied",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'applied' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "applied"
       }
     },
     {
@@ -6086,11 +6618,11 @@
           "manager",
           "rejected",
           "unit",
-          "lockheed",
           "applied",
+          "lockheed",
+          "active",
           "sourcing",
-          "nasdaq",
-          "active"
+          "nasdaq"
         ]
       }
     },
@@ -6218,7 +6750,7 @@
       "id": "topic:cathy",
       "type": "topic_entity",
       "name": "cathy",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
       "description": "Shared domain topic 'cathy' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cathy"
@@ -6293,7 +6825,7 @@
       "id": "topic:answer",
       "type": "topic_entity",
       "name": "answer",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
       "description": "Shared domain topic 'answer' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "answer"
@@ -6349,9 +6881,574 @@
         "topics": [
           "manager",
           "rejected",
-          "lockheed",
-          "applied"
+          "applied",
+          "lockheed"
         ]
+      }
+    },
+    {
+      "id": "topic:northrop",
+      "type": "topic_entity",
+      "name": "northrop",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'northrop' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "northrop"
+      }
+    },
+    {
+      "id": "topic:grumman",
+      "type": "topic_entity",
+      "name": "grumman",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'grumman' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "grumman"
+      }
+    },
+    {
+      "id": "topic:right",
+      "type": "topic_entity",
+      "name": "right",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "right"
+      }
+    },
+    {
+      "id": "topic:sunnyvale",
+      "type": "topic_entity",
+      "name": "sunnyvale",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'sunnyvale' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "sunnyvale"
+      }
+    },
+    {
+      "id": "topic:apply",
+      "type": "topic_entity",
+      "name": "apply",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'apply' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "apply"
+      }
+    },
+    {
+      "id": "chat_session:b6556366",
+      "type": "chat_session",
+      "name": "Chat Session b6556366",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Chat Session b6556366 (463 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "short_id": "b6556366",
+        "turn_count": 463,
+        "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+        "source": "antigravity_transcript",
+        "topics": [
+          "northrop",
+          "grumman",
+          "project",
+          "right",
+          "sunnyvale",
+          "cathy",
+          "management",
+          "apply"
+        ]
+      }
+    },
+    {
+      "id": "topic:lands",
+      "type": "topic_entity",
+      "name": "lands",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'lands' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "lands"
+      }
+    },
+    {
+      "id": "topic:steady",
+      "type": "topic_entity",
+      "name": "steady",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'steady' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "steady"
+      }
+    },
+    {
+      "id": "topic:already",
+      "type": "topic_entity",
+      "name": "already",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "already"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1708",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1708 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1708] 100% yes, Cathy \u2014 **you only need one great \"yes,\"** and steady daily consistency always wins this game. Most corporate rejections have nothing to do with you (roles get frozen, filled internally, or closed after 200+ up",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1708,
+        "role": "assistant",
+        "created_at": "2026-11-18T16:05:01Z",
+        "content_excerpt": "100% yes, Cathy \u2014 **you only need one great \"yes,\"** and steady daily consistency always wins this game.\n\nMost corporate rejections have nothing to do with you (roles get frozen, filled internally, or closed after 200+ uploads), whereas putting in 3 to 5 clean, targeted applications a day with `PMP + CSCP + Six Sigma + M.C.A.` guarantees your resume lands on the right hiring manager's desk at the exact right moment \u2014 just like Lockheed `13013` moving to Stage 2.\n\nYou already have a steady paycheck while we search, so time is on your side \u2014 we just keep showing up calmly every day until the right offer lands. Have a good morning at work!",
+        "topics": [
+          "right",
+          "lands",
+          "steady",
+          "already"
+        ]
+      }
+    },
+    {
+      "id": "topic:support",
+      "type": "topic_entity",
+      "name": "support",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'support' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "support"
+      }
+    },
+    {
+      "id": "topic:thanks",
+      "type": "topic_entity",
+      "name": "thanks",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'thanks' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "thanks"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1709",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1709 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S1709] okm thanks for the support",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1709,
+        "role": "user",
+        "created_at": "2026-11-18T16:05:37Z",
+        "content_excerpt": "okm thanks for the support",
+        "topics": [
+          "support",
+          "thanks"
+        ]
+      }
+    },
+    {
+      "id": "topic:anytime",
+      "type": "topic_entity",
+      "name": "anytime",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'anytime' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "anytime"
+      }
+    },
+    {
+      "id": "topic:calm",
+      "type": "topic_entity",
+      "name": "calm",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'calm' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "calm"
+      }
+    },
+    {
+      "id": "topic:smooth",
+      "type": "topic_entity",
+      "name": "smooth",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'smooth' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "smooth"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1710",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1710 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1710] Anytime, Cathy \u2014 have a calm, smooth day at work and talk to you soon!",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1710,
+        "role": "assistant",
+        "created_at": "2026-11-18T16:05:37Z",
+        "content_excerpt": "Anytime, Cathy \u2014 have a calm, smooth day at work and talk to you soon!",
+        "topics": [
+          "anytime",
+          "calm",
+          "cathy",
+          "smooth"
+        ]
+      }
+    },
+    {
+      "id": "topic:gemini",
+      "type": "topic_entity",
+      "name": "gemini",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'gemini' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "gemini"
+      }
+    },
+    {
+      "id": "topic:model",
+      "type": "topic_entity",
+      "name": "model",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'model' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "model"
+      }
+    },
+    {
+      "id": "topic:user_settings_change",
+      "type": "topic_entity",
+      "name": "user_settings_change",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'user_settings_change' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "user_settings_change"
+      }
+    },
+    {
+      "id": "topic:carbon",
+      "type": "topic_entity",
+      "name": "carbon",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'carbon' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "carbon"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1711",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1711 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S1711] how to get rid of the wide space on the top that says pack <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from Gemini 4 Carbon (Medium) to Gemini 4 Neon (High). No need to comment on this change if the",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1711,
+        "role": "user",
+        "created_at": "2026-11-18T23:10:21Z",
+        "content_excerpt": "how to get rid of the wide space on the top that says pack \n\n<USER_SETTINGS_CHANGE>\nThe user changed setting `Model Selection` from Gemini 4 Carbon (Medium) to Gemini 4 Neon (High). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.\n</USER_SETTINGS_CHANGE>",
+        "topics": [
+          "gemini",
+          "model",
+          "user_settings_change",
+          "carbon"
+        ]
+      }
+    },
+    {
+      "id": "topic:arrow",
+      "type": "topic_entity",
+      "name": "arrow",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'arrow' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "arrow"
+      }
+    },
+    {
+      "id": "topic:back",
+      "type": "topic_entity",
+      "name": "back",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'back' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "back"
+      }
+    },
+    {
+      "id": "topic:down",
+      "type": "topic_entity",
+      "name": "down",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'down' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "down"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1713",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1713 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1713] That big white box is Excel's **Formula Bar** expanded down. Here are the two fastest 1-second fixes: 1. **Click the tiny `^` (up arrow)** at the **far top-right edge of that white box** (right underneath the `X` on the ",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1713,
+        "role": "assistant",
+        "created_at": "2026-11-18T23:10:21Z",
+        "content_excerpt": "That big white box is Excel's **Formula Bar** expanded down. Here are the two fastest 1-second fixes:\n\n1. **Click the tiny `^` (up arrow)** at the **far top-right edge of that white box** (right underneath the `X` on the yellow \"BACK UP THIS DOCUMENT\" bar).\n2. **Or press `Ctrl + Shift + U`** on your keyboard \u2014 that snaps it right back to a single normal line.\n\n*(If it still stays slightly taller than one line, hover over the bottom border of the box right above column letters `A, B, C` until you see an up/down arrow and drag it up.)*",
+        "topics": [
+          "right",
+          "arrow",
+          "back",
+          "down"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1714",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1714 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S1714] yay",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1714,
+        "role": "user",
+        "created_at": "2026-11-18T23:11:19Z",
+        "content_excerpt": "yay",
+        "topics": []
+      }
+    },
+    {
+      "id": "topic:glad",
+      "type": "topic_entity",
+      "name": "glad",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'glad' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "glad"
+      }
+    },
+    {
+      "id": "topic:jump",
+      "type": "topic_entity",
+      "name": "jump",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'jump' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "jump"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1715",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1715 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1715] Glad that snapped right back, Cathy! Ping me whenever you wrap up work and want to jump into the **Unit 1 Leaders** questions.",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1715,
+        "role": "assistant",
+        "created_at": "2026-11-18T23:11:19Z",
+        "content_excerpt": "Glad that snapped right back, Cathy! Ping me whenever you wrap up work and want to jump into the **Unit 1 Leaders** questions.",
+        "topics": [
+          "back",
+          "cathy",
+          "glad",
+          "jump"
+        ]
+      }
+    },
+    {
+      "id": "topic:explore",
+      "type": "topic_entity",
+      "name": "explore",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'explore' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "explore"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1716",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1716 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S1716] good monring, got this email again, may be you can see if there is an opening, always get rejected but let us pray Lord Jaganath that something appears in northrop - what do you think? Cathy, explore next steps with Nort",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1716,
+        "role": "user",
+        "created_at": "2026-11-19T15:42:24Z",
+        "content_excerpt": "good monring, got this email again, may be you can see if there is an opening, always get rejected but let us pray Lord Jaganath that something appears in northrop - what do you think? Cathy, explore next steps with Northrop Grumman!\nNorthrop Grumman Talent Acquisition\nYou\nImage\nHi Cathy,\n\n \n\nWe hope you were able to join us for our Northrop\u202fGrumman Virtual Information Session!\u202fWe enjoyed sharing how our team is expanding and how you can play a pivotal role in that growth.\n\n \n\nReady to take the next step?\n\n \n\nExplore current openings and apply for positions that match your skills and interests:\n\n \n\nVisit Northrop Grumman Careers to explore career opportunities and apply, learn what to expect about our hiring process, and read about our award-winning benefits in NG Total Rewards.\n\n \n\nLearn ",
+        "topics": [
+          "northrop",
+          "grumman",
+          "apply",
+          "explore"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1728",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1728 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1728] Good morning, Cathy \u2014 Jai Jagannath! First, the honest read on that email: it is an **automated follow-up blast** sent to everyone who signed up for Northrop's Virtual Info Session (not a personal recruiter note). That s",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1728,
+        "role": "assistant",
+        "created_at": "2026-11-19T15:43:53Z",
+        "content_excerpt": "Good morning, Cathy \u2014 Jai Jagannath!\n\nFirst, the honest read on that email: it is an **automated follow-up blast** sent to everyone who signed up for Northrop's Virtual Info Session (not a personal recruiter note).\n\nThat said, I just checked Northrop Grumman's live Workday portal right now for **Sunnyvale (~9 miles) and Remote** Supply Chain, Subcontracts, and Project Management openings \u2014 and there **is** one brand-new Sunnyvale role where you check **100% of the Basic Qualifications** (unlike their Subcontracts roles, which auto-reject without FAR/DFARS):\n\n---\n\n### The 1 Genuine Northrop Grumman Match Open Right Now\n\n**Northrop Grumman \u2014 Principal / Sr. Principal Project Manager (Marine Logistics Support) (`R10260907`)**\n- **Location:** **Sunnyvale, CA (~9 miles)** \u2014 **One caveat to chec",
+        "topics": [
+          "northrop",
+          "sunnyvale",
+          "grumman",
+          "management"
+        ]
+      }
+    },
+    {
+      "id": "topic:going",
+      "type": "topic_entity",
+      "name": "going",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'going' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "going"
+      }
+    },
+    {
+      "id": "topic:hehe",
+      "type": "topic_entity",
+      "name": "hehe",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'hehe' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "hehe"
+      }
+    },
+    {
+      "id": "topic:know",
+      "type": "topic_entity",
+      "name": "know",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'know' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "know"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1729",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1729 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S1729] yeah, why can't we just apply for PM role, we know that we are going to get rejected hehe",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1729,
+        "role": "user",
+        "created_at": "2026-11-19T15:46:51Z",
+        "content_excerpt": "yeah, why can't we just apply for PM role, we know that we are going to get rejected hehe",
+        "topics": [
+          "apply",
+          "going",
+          "hehe",
+          "know"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1732",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1732 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1732] Here is your tailored resume for **Northrop Grumman `R10260907`** \u2014 honestly, since this one has **zero FAR/DFARS wall** and **zero clearance required to start** and matches your **PMP + M.C.A. + Material Procurement/Sup",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1732,
+        "role": "assistant",
+        "created_at": "2026-11-19T15:47:17Z",
+        "content_excerpt": "Here is your tailored resume for **Northrop Grumman `R10260907`** \u2014 honestly, since this one has **zero FAR/DFARS wall** and **zero clearance required to start** and matches your **PMP + M.C.A. + Material Procurement/Supply Chain + Financial Tracking + Risk & Opportunity Management** word-for-word, it is by far your strongest shot at Northrop Sunnyvale!\n\n- **Apply Link:** [Northrop Grumman `R10260907` \u2014 Principal / Sr. Principal Project Manager (Sunnyvale)](https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-California-Sunnyvale/Principal---Sr-Principal-Project-Manager_R10260907)\n- **Upload File:** [Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Job38_NorthropGrumman_R10260907_",
+        "topics": [
+          "project",
+          "procurement",
+          "schedule",
+          "logistics"
+        ]
+      }
+    },
+    {
+      "id": "topic:another",
+      "type": "topic_entity",
+      "name": "another",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'another' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "another"
+      }
+    },
+    {
+      "id": "topic:roles",
+      "type": "topic_entity",
+      "name": "roles",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'roles' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "roles"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1734",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1734 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S1734] let us do another 2 or 3 roles",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1734,
+        "role": "user",
+        "created_at": "2026-11-19T16:04:50Z",
+        "content_excerpt": "let us do another 2 or 3 roles",
+        "topics": [
+          "another",
+          "roles"
+        ]
+      }
+    },
+    {
+      "id": "topic:home",
+      "type": "topic_entity",
+      "name": "home",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'home' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "home"
+      }
+    },
+    {
+      "id": "topic:workspace",
+      "type": "topic_entity",
+      "name": "workspace",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'workspace' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "workspace"
+      }
+    },
+    {
+      "id": "topic:asq-bb-exam",
+      "type": "topic_entity",
+      "name": "asq-bb-exam",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "asq-bb-exam"
       }
     },
     {
@@ -6375,26 +7472,6 @@
       }
     },
     {
-      "id": "topic:already",
-      "type": "topic_entity",
-      "name": "already",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "already"
-      }
-    },
-    {
-      "id": "topic:pl-200",
-      "type": "topic_entity",
-      "name": "pl-200",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'pl-200' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "pl-200"
-      }
-    },
-    {
       "id": "topic:tomorrow",
       "type": "topic_entity",
       "name": "tomorrow",
@@ -6405,66 +7482,26 @@
       }
     },
     {
-      "id": "topic:black",
-      "type": "topic_entity",
-      "name": "black",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'black' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "black"
-      }
-    },
-    {
       "id": "chat_session:4dda7faa",
       "type": "chat_session",
       "name": "Chat Session 4dda7faa",
       "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Chat Session 4dda7faa (94 turns): hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
+      "description": "Chat Session 4dda7faa (95 turns): hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
       "metadata": {
         "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
         "short_id": "4dda7faa",
-        "turn_count": 94,
+        "turn_count": 95,
         "first_question": "hey can you pls update that waymo got rejected too <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No n",
         "source": "antigravity_transcript",
         "topics": [
+          "home",
+          "krithika",
+          "workspace",
+          "asq-bb-exam",
           "belt",
           "cathy",
           "pl-600",
-          "already",
-          "exam",
-          "pl-200",
-          "tomorrow",
-          "black"
-        ]
-      }
-    },
-    {
-      "id": "topic:calm",
-      "type": "topic_entity",
-      "name": "calm",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'calm' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "calm"
-      }
-    },
-    {
-      "id": "chat_turn:4dda7faa:S258",
-      "type": "chat_turn",
-      "name": "Chat 4dda7faa Turn S258 (assistant)",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "[ASSISTANT S258] Of course you're not ready *today*, Cathy \u2014 **you are on Day 5, and the exam is nearly 4 months away in March 2027!** Nobody on earth is ready for ASQ Black Belt on Day 5, and you're 100% right: ASQ *is* notorious for it",
-      "metadata": {
-        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
-        "step_index": 258,
-        "role": "assistant",
-        "created_at": "2026-11-19T05:08:11Z",
-        "content_excerpt": "Of course you're not ready *today*, Cathy \u2014 **you are on Day 5, and the exam is nearly 4 months away in March 2027!** Nobody on earth is ready for ASQ Black Belt on Day 5, and you're 100% right: ASQ *is* notorious for its sneaky wording.\n\nBut take a calm breath and look at the **real facts** from tonight (not fear talking):\n1. **You already beat ASQ once** when you earned your **ASQ Green Belt** \u2014 you know how they write.\n2. **You don't need 100% \u2014 you need ~73% (`550 / 750`), OPEN-BOOK** with your own tabbed Word Bible sitting right next to you on the Prometric desk.\n3. On **Day 5** \u2014 after an 8-month break and a full workday \u2014 you scored **`100%` on Exam-Hard Unit 1**, **`96%` on a 25-question mixed Black Belt set**, and **`79.2%` across 380 questions**.\n\nYou have **110+ days** left, a c",
-        "topics": [
-          "belt",
-          "black",
-          "calm",
-          "cathy"
+          "tomorrow"
         ]
       }
     },
@@ -6504,6 +7541,16 @@
           "tell",
           "yellow"
         ]
+      }
+    },
+    {
+      "id": "topic:black",
+      "type": "topic_entity",
+      "name": "black",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'black' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "black"
       }
     },
     {
@@ -6583,6 +7630,16 @@
           "title",
           "yeah"
         ]
+      }
+    },
+    {
+      "id": "topic:pl-200",
+      "type": "topic_entity",
+      "name": "pl-200",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'pl-200' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "pl-200"
       }
     },
     {
@@ -6886,7 +7943,7 @@
       "id": "topic:keep",
       "type": "topic_entity",
       "name": "keep",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
       "description": "Shared domain topic 'keep' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "keep"
@@ -6913,560 +7970,23 @@
       }
     },
     {
-      "id": "topic:right",
-      "type": "topic_entity",
-      "name": "right",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "right"
-      }
-    },
-    {
-      "id": "chat_session:b6556366",
-      "type": "chat_session",
-      "name": "Chat Session b6556366",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (458 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "short_id": "b6556366",
-        "turn_count": 458,
-        "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
-        "source": "antigravity_transcript",
-        "topics": [
-          "quality",
-          "right",
-          "leaders",
-          "cathy",
-          "change",
-          "control",
-          "unit",
-          "active"
-        ]
-      }
-    },
-    {
-      "id": "topic:database",
-      "type": "topic_entity",
-      "name": "database",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'database' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "database"
-      }
-    },
-    {
-      "id": "topic:great",
-      "type": "topic_entity",
-      "name": "great",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'great' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "great"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1681",
+      "id": "chat_turn:4dda7faa:S283",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1681 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1681] hurray, applied for all 4, pls update your database, KG and qwen - let us keep searching and prayers will answer one day - Lord Jagannath is great",
+      "name": "Chat 4dda7faa Turn S283 (assistant)",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "[ASSISTANT S283] **100% Committed, Synced to Qwen, Indexed in Knowledge Graph, and Verified in `pgvector` (`9ee108f`), Cathy!** ### Live Verification Status - **GitHub (`origin/main`):** Pushed **`9ee108f`** cleanly - **Local Knowledge G",
       "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1681,
-        "role": "user",
-        "created_at": "2026-11-18T15:59:46Z",
-        "content_excerpt": "hurray, applied for all 4, pls update your database, KG and qwen - let us keep searching and prayers will answer one day - Lord Jagannath is great",
-        "topics": [
-          "answer",
-          "applied",
-          "database",
-          "great"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1696",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1696 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1696] Jai Jagannath, Cathy \u2014 steady effort and faith always open the right door at the right time. All **4 brand-new applications** (**#30 Zillow `P751645`**, **#31 Ciena `R031966`**, **#32 NetApp `137163`**, and **#33 Adobe `",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1696,
+        "conversation_id": "4dda7faa-7b9f-4eb1-bd02-ab5f0b683187",
+        "step_index": 283,
         "role": "assistant",
-        "created_at": "2026-11-18T16:02:16Z",
-        "content_excerpt": "Jai Jagannath, Cathy \u2014 steady effort and faith always open the right door at the right time.\n\nAll **4 brand-new applications** (**#30 Zillow `P751645`**, **#31 Ciena `R031966`**, **#32 NetApp `137163`**, and **#33 Adobe `R166065`**) are now logged in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md#L50-L55), synced to Qwen's [SHARED_SESSION_STATE.md](file:///home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md#L90-L95), pushed to GitHub (`5734b4d`), and indexed in your Knowledge Graph (`440` nodes, `853` edges, `440` active vectors). That puts you at **50 total applications tracked (`44` active in flight)** and completes your Wednesday application goal!\n\n---\n\n### ASQ CSSBB \u2014 Unit 1 Complete Quality, Lean & Ch",
+        "created_at": "2026-11-19T05:18:09Z",
+        "content_excerpt": "**100% Committed, Synced to Qwen, Indexed in Knowledge Graph, and Verified in `pgvector` (`9ee108f`), Cathy!**\n\n### Live Verification Status\n- **GitHub (`origin/main`):** Pushed **`9ee108f`** cleanly\n- **Local Knowledge Graph:** **`567` nodes / `1,068` edges** (`63` files indexed)\n- **PostgreSQL `pgvector` (`kg_vectors_asq_bb_exam`):** **`567` vectors** live & healthy (`agx` GPU)\n- **Qwen + Antigravity Shared Brain:** [SHARED_SESSION_STATE.md](file:///home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md), [QWEN.md](file:///home/krithika/workspace/ASQ-BB-Exam/QWEN.md), [rules.md](file:///home/krithika/workspace/ASQ-BB-Exam/rules.md), and [.agents/rules/rules.md](file:///home/krithika/workspace/ASQ-BB-Exam/.agents/rules/rules.md)\n\n### Everything Safely Locked In for Tomorrow (Da",
         "topics": [
-          "quality",
-          "control",
-          "change",
-          "leaders"
+          "asq-bb-exam",
+          "home",
+          "krithika",
+          "workspace"
         ]
-      }
-    },
-    {
-      "id": "topic:connect",
-      "type": "topic_entity",
-      "name": "connect",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'connect' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "connect"
-      }
-    },
-    {
-      "id": "topic:need",
-      "type": "topic_entity",
-      "name": "need",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'need' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "need"
-      }
-    },
-    {
-      "id": "topic:soon",
-      "type": "topic_entity",
-      "name": "soon",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'soon' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "soon"
-      }
-    },
-    {
-      "id": "topic:work",
-      "type": "topic_entity",
-      "name": "work",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'work' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "work"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1697",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1697 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1697] i need to work, we will connect soon;",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1697,
-        "role": "user",
-        "created_at": "2026-11-18T16:03:32Z",
-        "content_excerpt": "i need to work, we will connect soon;",
-        "topics": [
-          "connect",
-          "need",
-          "soon",
-          "work"
-        ]
-      }
-    },
-    {
-      "id": "topic:career_applications_tracker",
-      "type": "topic_entity",
-      "name": "career_applications_tracker",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'career_applications_tracker' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "career_applications_tracker"
-      }
-    },
-    {
-      "id": "topic:synced",
-      "type": "topic_entity",
-      "name": "synced",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'synced' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "synced"
-      }
-    },
-    {
-      "id": "topic:a816bbf",
-      "type": "topic_entity",
-      "name": "a816bbf",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'a816bbf' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "a816bbf"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1706",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1706 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1706] Got your Lockheed dashboard count synced too (`19` Submitted Active, `2` Inactive, plus `1` Draft you can finish anytime \u2014 **`45` active applications in flight overall**, commit `a816bbf`, KG synced: `440` nodes, `857` e",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1706,
-        "role": "assistant",
-        "created_at": "2026-11-18T16:04:15Z",
-        "content_excerpt": "Got your Lockheed dashboard count synced too (`19` Submitted Active, `2` Inactive, plus `1` Draft you can finish anytime \u2014 **`45` active applications in flight overall**, commit `a816bbf`, KG synced: `440` nodes, `857` edges, `440` vectors, tracked in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md)).\n\nHave a smooth workday, Cathy \u2014 ping me whenever you're back and we will jump right into the **Unit 1 Leaders** questions!",
-        "topics": [
-          "active",
-          "career_applications_tracker",
-          "synced",
-          "a816bbf"
-        ]
-      }
-    },
-    {
-      "id": "topic:applying",
-      "type": "topic_entity",
-      "name": "applying",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'applying' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "applying"
-      }
-    },
-    {
-      "id": "topic:click",
-      "type": "topic_entity",
-      "name": "click",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'click' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "click"
-      }
-    },
-    {
-      "id": "topic:giving",
-      "type": "topic_entity",
-      "name": "giving",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'giving' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "giving"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1707",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1707 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1707] if we keep applying, something will click, right? it is not about giving up?",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1707,
-        "role": "user",
-        "created_at": "2026-11-18T16:05:01Z",
-        "content_excerpt": "if we keep applying, something will click, right? it is not about giving up?",
-        "topics": [
-          "applying",
-          "click",
-          "giving",
-          "keep"
-        ]
-      }
-    },
-    {
-      "id": "topic:lands",
-      "type": "topic_entity",
-      "name": "lands",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'lands' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "lands"
-      }
-    },
-    {
-      "id": "topic:steady",
-      "type": "topic_entity",
-      "name": "steady",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'steady' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "steady"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1708",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1708 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1708] 100% yes, Cathy \u2014 **you only need one great \"yes,\"** and steady daily consistency always wins this game. Most corporate rejections have nothing to do with you (roles get frozen, filled internally, or closed after 200+ up",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1708,
-        "role": "assistant",
-        "created_at": "2026-11-18T16:05:01Z",
-        "content_excerpt": "100% yes, Cathy \u2014 **you only need one great \"yes,\"** and steady daily consistency always wins this game.\n\nMost corporate rejections have nothing to do with you (roles get frozen, filled internally, or closed after 200+ uploads), whereas putting in 3 to 5 clean, targeted applications a day with `PMP + CSCP + Six Sigma + M.C.A.` guarantees your resume lands on the right hiring manager's desk at the exact right moment \u2014 just like Lockheed `13013` moving to Stage 2.\n\nYou already have a steady paycheck while we search, so time is on your side \u2014 we just keep showing up calmly every day until the right offer lands. Have a good morning at work!",
-        "topics": [
-          "right",
-          "lands",
-          "steady",
-          "already"
-        ]
-      }
-    },
-    {
-      "id": "topic:support",
-      "type": "topic_entity",
-      "name": "support",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'support' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "support"
-      }
-    },
-    {
-      "id": "topic:thanks",
-      "type": "topic_entity",
-      "name": "thanks",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'thanks' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "thanks"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1709",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1709 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1709] okm thanks for the support",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1709,
-        "role": "user",
-        "created_at": "2026-11-18T16:05:37Z",
-        "content_excerpt": "okm thanks for the support",
-        "topics": [
-          "support",
-          "thanks"
-        ]
-      }
-    },
-    {
-      "id": "topic:anytime",
-      "type": "topic_entity",
-      "name": "anytime",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'anytime' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "anytime"
-      }
-    },
-    {
-      "id": "topic:smooth",
-      "type": "topic_entity",
-      "name": "smooth",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'smooth' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "smooth"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1710",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1710 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1710] Anytime, Cathy \u2014 have a calm, smooth day at work and talk to you soon!",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1710,
-        "role": "assistant",
-        "created_at": "2026-11-18T16:05:37Z",
-        "content_excerpt": "Anytime, Cathy \u2014 have a calm, smooth day at work and talk to you soon!",
-        "topics": [
-          "anytime",
-          "calm",
-          "cathy",
-          "smooth"
-        ]
-      }
-    },
-    {
-      "id": "topic:gemini",
-      "type": "topic_entity",
-      "name": "gemini",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'gemini' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "gemini"
-      }
-    },
-    {
-      "id": "topic:model",
-      "type": "topic_entity",
-      "name": "model",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'model' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "model"
-      }
-    },
-    {
-      "id": "topic:user_settings_change",
-      "type": "topic_entity",
-      "name": "user_settings_change",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'user_settings_change' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "user_settings_change"
-      }
-    },
-    {
-      "id": "topic:carbon",
-      "type": "topic_entity",
-      "name": "carbon",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'carbon' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "carbon"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1711",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1711 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1711] how to get rid of the wide space on the top that says pack <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from Gemini 4 Carbon (Medium) to Gemini 4 Neon (High). No need to comment on this change if the",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1711,
-        "role": "user",
-        "created_at": "2026-11-18T23:10:21Z",
-        "content_excerpt": "how to get rid of the wide space on the top that says pack \n\n<USER_SETTINGS_CHANGE>\nThe user changed setting `Model Selection` from Gemini 4 Carbon (Medium) to Gemini 4 Neon (High). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.\n</USER_SETTINGS_CHANGE>",
-        "topics": [
-          "gemini",
-          "model",
-          "user_settings_change",
-          "carbon"
-        ]
-      }
-    },
-    {
-      "id": "topic:arrow",
-      "type": "topic_entity",
-      "name": "arrow",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'arrow' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "arrow"
-      }
-    },
-    {
-      "id": "topic:back",
-      "type": "topic_entity",
-      "name": "back",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'back' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "back"
-      }
-    },
-    {
-      "id": "topic:down",
-      "type": "topic_entity",
-      "name": "down",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'down' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "down"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1713",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1713 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1713] That big white box is Excel's **Formula Bar** expanded down. Here are the two fastest 1-second fixes: 1. **Click the tiny `^` (up arrow)** at the **far top-right edge of that white box** (right underneath the `X` on the ",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1713,
-        "role": "assistant",
-        "created_at": "2026-11-18T23:10:21Z",
-        "content_excerpt": "That big white box is Excel's **Formula Bar** expanded down. Here are the two fastest 1-second fixes:\n\n1. **Click the tiny `^` (up arrow)** at the **far top-right edge of that white box** (right underneath the `X` on the yellow \"BACK UP THIS DOCUMENT\" bar).\n2. **Or press `Ctrl + Shift + U`** on your keyboard \u2014 that snaps it right back to a single normal line.\n\n*(If it still stays slightly taller than one line, hover over the bottom border of the box right above column letters `A, B, C` until you see an up/down arrow and drag it up.)*",
-        "topics": [
-          "right",
-          "arrow",
-          "back",
-          "down"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1714",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1714 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1714] yay",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1714,
-        "role": "user",
-        "created_at": "2026-11-18T23:11:19Z",
-        "content_excerpt": "yay",
-        "topics": []
-      }
-    },
-    {
-      "id": "topic:glad",
-      "type": "topic_entity",
-      "name": "glad",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'glad' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "glad"
-      }
-    },
-    {
-      "id": "topic:jump",
-      "type": "topic_entity",
-      "name": "jump",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'jump' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "jump"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1715",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1715 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1715] Glad that snapped right back, Cathy! Ping me whenever you wrap up work and want to jump into the **Unit 1 Leaders** questions.",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1715,
-        "role": "assistant",
-        "created_at": "2026-11-18T23:11:19Z",
-        "content_excerpt": "Glad that snapped right back, Cathy! Ping me whenever you wrap up work and want to jump into the **Unit 1 Leaders** questions.",
-        "topics": [
-          "back",
-          "cathy",
-          "glad",
-          "jump"
-        ]
-      }
-    },
-    {
-      "id": "topic:workspace",
-      "type": "topic_entity",
-      "name": "workspace",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'workspace' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "workspace"
-      }
-    },
-    {
-      "id": "topic:home",
-      "type": "topic_entity",
-      "name": "home",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'home' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "home"
       }
     },
     {
@@ -11802,6 +12322,1022 @@
       }
     },
     {
+      "source": "doc_file:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:logistics",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:project",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:management",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:schedule",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:operations",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:procurement",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:cross-functional",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:1",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:applications",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:computer",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:cscp",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:2",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:management",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:project",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:certified",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:chain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:3",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:program",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:tracking",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:4",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:compliance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:cross-functional",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:customer",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:delivery",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:5",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:procurement",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:material",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:microsoft",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:office",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:power",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:process",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:chain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:delivery",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:operational",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:operations",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:program",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:supply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:1",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:applications",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:chain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:computer",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:cscp",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:2",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:professional",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:certified",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:chain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:dependencies",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:3",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:operational",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:accuracy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:digital",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:efficiency",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:4",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:controls",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:delivery",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:gaps",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:5",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:enterprise",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:power",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:procurement",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:systems",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:spend",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:power",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:procurement",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:project",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:savings",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:sourcing",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:executive",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:1",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:applications",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:computer",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:cscp",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:cssgb",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:2",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:professional",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:project",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:certified",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:power",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:3",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:savings",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:spend",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:4",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:accuracy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:efficiency",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:logistics",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:power",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:5",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:spend",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:microsoft",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:power",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:procurement",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:vendor",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 15
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:performance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:external",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:partner",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:contractual",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:governance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:power",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:accountability",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:1",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:performance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:vendor",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:applications",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:computer",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:2",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:professional",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:certified",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:contractual",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:governance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:3",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:vendor",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:governance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:performance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:accountability",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:4",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:vendor",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:compliance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:external",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:partner",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:5",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:microsoft",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:performance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:power",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:spend",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
       "source": "doc:Resume_And_Jobs/Job8_SBEnergy_Logistics_Control_Tower_Analytics_6196167004.md",
       "target": "cluster_node:tower",
       "relation": "DOCUMENTS_NODE",
@@ -14146,7 +15682,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 21
+        "count": 22
       }
     },
     {
@@ -14154,7 +15690,7 @@
       "target": "topic:rejected",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 18
+        "count": 19
       }
     },
     {
@@ -14167,6 +15703,14 @@
     },
     {
       "source": "chat_session:SHAREDSE",
+      "target": "topic:applied",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
       "target": "topic:lockheed",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
@@ -14175,7 +15719,7 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:applied",
+      "target": "topic:active",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 11
@@ -14195,14 +15739,6 @@
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 10
-      }
-    },
-    {
-      "source": "chat_session:SHAREDSE",
-      "target": "topic:active",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
       }
     },
     {
@@ -14428,7 +15964,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 21
+        "count": 22
       }
     },
     {
@@ -14436,7 +15972,15 @@
       "target": "topic:rejected",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 18
+        "count": 19
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S7",
+      "target": "topic:applied",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 12
       }
     },
     {
@@ -14448,25 +15992,529 @@
       }
     },
     {
-      "source": "chat_turn:SHAREDSE:S7",
-      "target": "topic:applied",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 11
-      }
-    },
-    {
       "source": "chat_session:SHAREDSE",
       "target": "chat_turn:SHAREDSE:S7",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
+      "source": "chat_session:b6556366",
+      "target": "topic:northrop",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 21
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:grumman",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:project",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:right",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:sunnyvale",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:cathy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:management",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:apply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "doc_file:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "doc:Resume_And_Jobs/Job38_NorthropGrumman_Sr_Principal_Project_Manager_Sunnyvale_R10260907.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1708",
+      "target": "topic:right",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1708",
+      "target": "topic:lands",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1708",
+      "target": "topic:steady",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1708",
+      "target": "topic:already",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1708",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1709",
+      "target": "topic:support",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1709",
+      "target": "topic:thanks",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1709",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1710",
+      "target": "topic:anytime",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1710",
+      "target": "topic:calm",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1710",
+      "target": "topic:cathy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1710",
+      "target": "topic:smooth",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1710",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1711",
+      "target": "topic:gemini",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1711",
+      "target": "topic:model",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1711",
+      "target": "topic:user_settings_change",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1711",
+      "target": "topic:carbon",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1711",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1713",
+      "target": "topic:right",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1713",
+      "target": "topic:arrow",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1713",
+      "target": "topic:back",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1713",
+      "target": "topic:down",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1713",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1714",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1715",
+      "target": "topic:back",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1715",
+      "target": "topic:cathy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1715",
+      "target": "topic:glad",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1715",
+      "target": "topic:jump",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1715",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1716",
+      "target": "topic:northrop",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1716",
+      "target": "topic:grumman",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1716",
+      "target": "topic:apply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1716",
+      "target": "topic:explore",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1716",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1728",
+      "target": "topic:northrop",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1728",
+      "target": "topic:sunnyvale",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1728",
+      "target": "topic:grumman",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1728",
+      "target": "topic:management",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1728",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1729",
+      "target": "topic:apply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1729",
+      "target": "topic:going",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1729",
+      "target": "topic:hehe",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1729",
+      "target": "topic:know",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1729",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1732",
+      "target": "topic:project",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1732",
+      "target": "topic:procurement",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1732",
+      "target": "topic:schedule",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1732",
+      "target": "topic:logistics",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1732",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1732",
+      "target": "doc_file:Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1732",
+      "target": "doc:Resume_And_Jobs/Job38_NorthropGrumman_Sr_Principal_Project_Manager_Sunnyvale_R10260907.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1734",
+      "target": "topic:another",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1734",
+      "target": "topic:roles",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1734",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:home",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:krithika",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:workspace",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "topic:asq-bb-exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
       "source": "chat_session:4dda7faa",
       "target": "topic:belt",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 9
+        "count": 7
       }
     },
     {
@@ -14487,80 +16535,40 @@
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "topic:already",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "topic:exam",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
-      "target": "topic:pl-200",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_session:4dda7faa",
       "target": "topic:tomorrow",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 6
+        "count": 7
       }
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "topic:black",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S258",
-      "target": "topic:belt",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S258",
-      "target": "topic:black",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S258",
-      "target": "topic:calm",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:4dda7faa:S258",
-      "target": "topic:cathy",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
+      "target": "doc:PERFORMANCE_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
     },
     {
       "source": "chat_session:4dda7faa",
-      "target": "chat_turn:4dda7faa:S258",
-      "relation": "HAS_CHAT_TURN",
+      "target": "doc:QWEN.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:4dda7faa",
+      "target": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
@@ -14934,505 +16942,71 @@
       "metadata": {}
     },
     {
-      "source": "chat_session:b6556366",
-      "target": "topic:quality",
+      "source": "chat_turn:4dda7faa:S283",
+      "target": "topic:asq-bb-exam",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 12
+        "count": 8
       }
     },
     {
-      "source": "chat_session:b6556366",
-      "target": "topic:right",
+      "source": "chat_turn:4dda7faa:S283",
+      "target": "topic:home",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 12
+        "count": 8
       }
     },
     {
-      "source": "chat_session:b6556366",
-      "target": "topic:leaders",
+      "source": "chat_turn:4dda7faa:S283",
+      "target": "topic:krithika",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 6
+        "count": 8
       }
     },
     {
-      "source": "chat_session:b6556366",
-      "target": "topic:cathy",
+      "source": "chat_turn:4dda7faa:S283",
+      "target": "topic:workspace",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 5
+        "count": 8
       }
     },
     {
-      "source": "chat_session:b6556366",
-      "target": "topic:change",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
+      "source": "chat_session:4dda7faa",
+      "target": "chat_turn:4dda7faa:S283",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
     },
     {
-      "source": "chat_session:b6556366",
-      "target": "topic:control",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:unit",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:active",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "source": "chat_turn:4dda7faa:S283",
+      "target": "doc:PERFORMANCE_TRACKER.md",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
-      "source": "chat_session:b6556366",
+      "source": "chat_turn:4dda7faa:S283",
+      "target": "doc:QWEN.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:4dda7faa:S283",
       "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S1681",
-      "target": "topic:answer",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1681",
-      "target": "topic:applied",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1681",
-      "target": "topic:database",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1681",
-      "target": "topic:great",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1681",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1696",
-      "target": "topic:quality",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 12
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1696",
-      "target": "topic:control",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1696",
-      "target": "topic:change",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1696",
-      "target": "topic:leaders",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1696",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1696",
-      "target": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "source": "chat_turn:4dda7faa:S283",
+      "target": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S1696",
-      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "source": "chat_turn:4dda7faa:S283",
+      "target": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
       "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1697",
-      "target": "topic:connect",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1697",
-      "target": "topic:need",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1697",
-      "target": "topic:soon",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1697",
-      "target": "topic:work",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1697",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1706",
-      "target": "topic:active",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1706",
-      "target": "topic:career_applications_tracker",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1706",
-      "target": "topic:synced",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1706",
-      "target": "topic:a816bbf",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1706",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1706",
-      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1707",
-      "target": "topic:applying",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1707",
-      "target": "topic:click",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1707",
-      "target": "topic:giving",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1707",
-      "target": "topic:keep",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1707",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1708",
-      "target": "topic:right",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1708",
-      "target": "topic:lands",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1708",
-      "target": "topic:steady",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1708",
-      "target": "topic:already",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1708",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1709",
-      "target": "topic:support",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1709",
-      "target": "topic:thanks",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1709",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1710",
-      "target": "topic:anytime",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1710",
-      "target": "topic:calm",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1710",
-      "target": "topic:cathy",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1710",
-      "target": "topic:smooth",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1710",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1711",
-      "target": "topic:gemini",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1711",
-      "target": "topic:model",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1711",
-      "target": "topic:user_settings_change",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1711",
-      "target": "topic:carbon",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1711",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1713",
-      "target": "topic:right",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1713",
-      "target": "topic:arrow",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1713",
-      "target": "topic:back",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1713",
-      "target": "topic:down",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1713",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1714",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1715",
-      "target": "topic:back",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1715",
-      "target": "topic:cathy",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1715",
-      "target": "topic:glad",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1715",
-      "target": "topic:jump",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1715",
-      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -16343,7 +17917,15 @@
     "Resume_And_Jobs/Job36_Ciena_R031966_Krithika_Nagarajan_Resume.docx": "c3335cadf22d948acf11523876cbea39fec17f7bd24c212728dfce4c7858288f",
     "Resume_And_Jobs/Job37_Adobe_Procurement_Cloud_Category_Manager_SanJose_R166065.md": "4170903b88054fa5fee042d851188717210d06b51c1367830aab2113e861b06c",
     "Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx": "6b9f4d9cd8aa002993b8a25092e4d91083dbaee6c1a699d2a1144c2776ffa6ea",
+    "Resume_And_Jobs/Job38_NorthropGrumman_R10260907_Krithika_Nagarajan_Resume.docx": "852bad554bba2ad7d9d07346c60fe7b3725400f6ef8094a1bed0d6ca4fc32cfa",
+    "Resume_And_Jobs/Job38_NorthropGrumman_Sr_Principal_Project_Manager_Sunnyvale_R10260907.md": "af74207aba846c7bd55f5852cf5f2146f33c91158190a3c94039b3e9154ee3fc",
+    "Resume_And_Jobs/Job39_WesternDigital_REF34953P_Krithika_Nagarajan_Resume.docx": "aec377312d6bbb3ce382e1567c23a289177c3b8d9223e5126a071b400ec5929b",
+    "Resume_And_Jobs/Job39_WesternDigital_Supply_Chain_Transformation_Program_Manager_SanJose_REF34953P.md": "a29612caab9bc22c9d7d281428244c540f390e26d7efe845d62437823dc0a4e0",
     "Resume_And_Jobs/Job3_Gilead_Cold_Chain_Logistics_R0055571.md": "47b257a9e0c6c18d7001021458a7aa52d9683344c8746fa74feb46e775df2a13",
+    "Resume_And_Jobs/Job40_Jabil_Consulting_Supply_Chain_Manager_Remote_J2464637.md": "ef4b8f8bedee5b2ac1369a27e06a625dc66e5e2cc04880a45c0b8121969e3d57",
+    "Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx": "9eb5ed7a262238d5898f5e7542ceef5212faa89b1522a9325e8d2e36ea7370c4",
+    "Resume_And_Jobs/Job41_Humana_R433994_Krithika_Nagarajan_Resume.docx": "aad9663db19ae57db9daf77de80b1a93c0835479b3b0c02dbdf608b8495dd24a",
+    "Resume_And_Jobs/Job41_Humana_Vendor_Performance_Lead_Remote_R433994.md": "f723ccc1d02788e3edb2509f8293df8168763f5f16bc3768b34fde82df453b8a",
     "Resume_And_Jobs/Job5_Intuitive_Supply_Chain_Risk_Visibility_JOB214003.md": "2173a8bf2d72f21ffbf2d2974fe27aba10085de0f92c90a12055b09ea4007363",
     "Resume_And_Jobs/Job6_Applied_Materials_Purchasing_SupplyChain_SantaClara.md": "b1c5d57b896fb9b977a5d594def0879f0b1b09a3cfcd68d03f9a22eb7b3bf344",
     "Resume_And_Jobs/Job7_SBEnergy_Supply_Chain_Governance_RedwoodCity.md": "6ae28457006ad1fe3a534e473e7fe9aa11c71686527f376618e2596b4facff2c",
@@ -16353,17 +17935,17 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "cc1b810c01ae0dc1f05d89e62ae541a66fc7b6b5ce878b36930fae75579c7685",
+    "chats/SHARED_SESSION_STATE.md": "9115da5bb0b003936363158661fea4dbea23584939f9fa8e28f615fbb2a9637d",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "dedc49018d472c6663bb64892838fa492d664b024e1159b8db9749a20cf25f96",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
-    "documents/CAREER_APPLICATIONS_TRACKER.md": "101b88f4c5ac53b7383220204ad5570f85a7dd5d85190ab6d801bfcd783702d0",
+    "documents/CAREER_APPLICATIONS_TRACKER.md": "5a89f08750a049d88d628d4fc8959af66eeca40076388886841014c0f4735507",
     "documents/QUESTION_BANK_LOG.md": "559c54c56542d41704ab38329c3c35ef4cc73f4c07d798aa7a1af4346d7683f3",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
-    "repo.md": "f9c7754c35ba8e1e096d1a8654d71cc9821496e0e5c1addba7b7a8ebf310a0c1"
+    "repo.md": "fc7535434e1c52185ba19821166c5d0f281c96fa2fac7d8964373a3e6511c44f"
   }
 }

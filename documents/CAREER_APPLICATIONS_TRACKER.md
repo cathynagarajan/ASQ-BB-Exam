@@ -53,6 +53,9 @@
 32. **NetApp (NASDAQ: NTAP)** — *Global Procurement Category Manager - AI & Emerging Technology Solutions* (`Job ID 137163`, 100% US Remote / San Jose, 147.9K to 220K USD + RSUs, IC) — **APPLIED (2026-11-18)**
 33. **Adobe (NASDAQ: ADBE)** — *Procurement - Technology - Cloud Category Manager* (`Req R166065`, San Jose Hybrid ~15 mi, California band 169.1K to 244.85K USD + bonus & RSUs, IC) — **APPLIED (2026-11-18)**
 
+## Completed Applications — Day 6 Weekday Cadence (In Progress — 2026-11-19)
+34. **Northrop Grumman (NYSE: NOC)** — *Principal / Sr. Principal Project Manager (Marine Logistics Support)* (`Req R10260907`, Sunnyvale CA ~9 mi, 117.5K to 176.3K USD Level 4, IC) — **APPLIED / UNDER CONSIDERATION (2026-11-19)** *(also active on Northrop Workday: `R10257650` Sr. Principal Supply Chain Planning Specialist [Nov 1] & `R10252052` Principal Supply Chain Procurement Specialist [Oct 15] — 3 Active Total at Northrop!)*
+
 ## Full Lockheed Martin Eightfold Application History (`21` Roles: `19` Active Submitted + `2` Inactive + `1` Draft — Verified `2026-11-18`!)
 - **Active Stage-2 / Recruiter Screen (`1`):**
   - `Job ID 13013` — *Subcontract Management Sr - E3* (Highlands Ranch CO / Sunnyvale CA +3, applied 2026-10-19) — **Stage-2 Reasonable Accommodation Updated (`✓`), Questionnaire Sent to Christian Sieg (`2026-11-16`)**
