@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-20T02:19:33.934721+00:00",
+    "generated_at": "2026-11-20T02:21:08.788620+00:00",
     "total_files_indexed": 75,
-    "total_nodes": 655,
-    "total_edges": 1313,
+    "total_nodes": 659,
+    "total_edges": 1319,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
@@ -12,35 +12,31 @@
       "document_file": 25,
       "document_section": 165,
       "html_template": 1,
-      "topic_entity": 362
+      "topic_entity": 366
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [
+    "added": [],
+    "modified": [
       "documents/ASQ_Sampling_Methods_Quick_Table.docx"
     ],
-    "modified": [
-      "PERFORMANCE_TRACKER.md",
-      "chats/SHARED_SESSION_STATE.md",
-      "documents/QUESTION_BANK_LOG.md"
-    ],
     "removed": [],
-    "files_parsed": 3,
-    "files_cached_reused": 71,
+    "files_parsed": 1,
+    "files_cached_reused": 73,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 68,
-      "nodes_deleted": 36,
-      "edges_upserted": 92,
-      "edges_deleted": 77,
-      "wiki_pages_upserted": 2,
+      "nodes_upserted": 31,
+      "nodes_deleted": 14,
+      "edges_upserted": 47,
+      "edges_deleted": 32,
+      "wiki_pages_upserted": 0,
       "wiki_pages_deleted": 0,
-      "files_upserted": 5,
+      "files_upserted": 2,
       "files_deleted": 0,
-      "total_nodes_in_db": 655,
-      "total_edges_in_db": 1313,
+      "total_nodes_in_db": 659,
+      "total_edges_in_db": 1319,
       "total_files_tracked": 76
     }
   },
@@ -4027,7 +4023,7 @@
       "id": "topic:equal",
       "type": "topic_entity",
       "name": "equal",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
       "description": "Shared domain topic 'equal' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "equal"
@@ -4222,7 +4218,7 @@
       "id": "topic:bias",
       "type": "topic_entity",
       "name": "bias",
-      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
       "description": "Shared domain topic 'bias' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "bias"
@@ -4232,7 +4228,7 @@
       "id": "topic:consecutive",
       "type": "topic_entity",
       "name": "consecutive",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
       "description": "Shared domain topic 'consecutive' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "consecutive"
@@ -4430,7 +4426,7 @@
       "id": "topic:groups",
       "type": "topic_entity",
       "name": "groups",
-      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
       "description": "Shared domain topic 'groups' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "groups"
@@ -4789,7 +4785,7 @@
       "id": "topic:cluster",
       "type": "topic_entity",
       "name": "cluster",
-      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
       "description": "Shared domain topic 'cluster' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cluster"
@@ -5377,13 +5373,23 @@
       }
     },
     {
-      "id": "topic:shift",
+      "id": "topic:pick",
       "type": "topic_entity",
-      "name": "shift",
+      "name": "pick",
       "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
-      "description": "Shared domain topic 'shift' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'pick' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "shift"
+        "keyword": "pick"
+      }
+    },
+    {
+      "id": "topic:random",
+      "type": "topic_entity",
+      "name": "random",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Shared domain topic 'random' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "random"
       }
     },
     {
@@ -5397,13 +5403,13 @@
       }
     },
     {
-      "id": "topic:items",
+      "id": "topic:back-to-back",
       "type": "topic_entity",
-      "name": "items",
+      "name": "back-to-back",
       "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
-      "description": "Shared domain topic 'items' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'back-to-back' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "items"
+        "keyword": "back-to-back"
       }
     },
     {
@@ -5411,20 +5417,20 @@
       "type": "document_file",
       "name": "ASQ_Sampling_Methods_Quick_Table.docx",
       "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
-      "description": "Document ASQ_Sampling_Methods_Quick_Table.docx (5 section(s)): ASQ CSSBB Sampling Methods Quick-Reference Table (BoK V.B.2) Sampling Method Plain-English Picture When to Use / ASQ Exam Clue Watch-Out / Bias Simple Random Put every single name ",
+      "description": "Document ASQ_Sampling_Methods_Quick_Table.docx (5 section(s)): ASQ CSSBB Sampling Methods \u2014 Magic Trigger Words Table (BoK V.B.2) Sampling Method MAGIC TRIGGER WORDS (Spot in 2 Secs!) Plain-English Picture Watch-Out / Trap Simple Random \"equal",
       "metadata": {
         "format": "docx",
         "section_count": 5,
-        "size_bytes": 2541,
+        "size_bytes": 2526,
         "topics": [
           "every",
-          "shift",
-          "stratified",
-          "cluster",
+          "chart",
           "control",
-          "exam",
-          "groups",
-          "items"
+          "pick",
+          "random",
+          "stratified",
+          "back-to-back",
+          "consecutive"
         ]
       }
     },
@@ -5433,32 +5439,32 @@
       "type": "document_section",
       "name": "ASQ_Sampling_Methods_Quick_Table.docx [Section 1]",
       "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
-      "description": "Section 1 of ASQ_Sampling_Methods_Quick_Table.docx: ASQ CSSBB Sampling Methods Quick-Reference Table (BoK V.B.2) Sampling Method Plain-English Picture When to Use / ASQ Exam Clue Watch-Out / Bias Simple Random Put every single name in one big hat and draw blindfolded. Eve",
+      "description": "Section 1 of ASQ_Sampling_Methods_Quick_Table.docx: ASQ CSSBB Sampling Methods \u2014 Magic Trigger Words Table (BoK V.B.2) Sampling Method MAGIC TRIGGER WORDS (Spot in 2 Secs!) Plain-English Picture Watch-Out / Trap Simple Random \"equal probability\" | \"equal chance\" | \"random",
       "metadata": {
         "section_index": 1,
         "section_type": "section",
-        "text_excerpt": "ASQ CSSBB Sampling Methods Quick-Reference Table (BoK V.B.2)\nSampling Method\nPlain-English Picture\nWhen to Use / ASQ Exam Clue\nWatch-Out / Bias\nSimple Random\nPut every single name in one big hat and draw blindfolded.\nEvery unit has an EQUAL probability of selection.",
-        "char_count": 266
+        "text_excerpt": "ASQ CSSBB Sampling Methods \u2014 Magic Trigger Words Table (BoK V.B.2)\nSampling Method\nMAGIC TRIGGER WORDS (Spot in 2 Secs!)\nPlain-English Picture\nWatch-Out / Trap\nSimple Random\n\"equal probability\" | \"equal chance\" | \"random draw\"\nPut every single name in one big hat and draw blindfolded.",
+        "char_count": 285
       }
     },
     {
-      "id": "topic:sampling",
+      "id": "topic:draw",
       "type": "topic_entity",
-      "name": "sampling",
+      "name": "draw",
       "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
-      "description": "Shared domain topic 'sampling' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'draw' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "sampling"
+        "keyword": "draw"
       }
     },
     {
-      "id": "topic:blindfolded",
+      "id": "topic:magic",
       "type": "topic_entity",
-      "name": "blindfolded",
-      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
-      "description": "Shared domain topic 'blindfolded' connecting multi-modal documents and workspace chats",
+      "name": "magic",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'magic' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "blindfolded"
+        "keyword": "magic"
       }
     },
     {
@@ -5466,32 +5472,42 @@
       "type": "document_section",
       "name": "ASQ_Sampling_Methods_Quick_Table.docx [Section 2]",
       "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
-      "description": "Section 2 of ASQ_Sampling_Methods_Quick_Table.docx: Unbiased; needs a full list of the population. Stratified Split into buckets FIRST (Shift 1, Shift 2, Shift 3), then randomly sample EACH bucket. Guarantees every subgroup/shift/plant is fairly represented. Best when gro",
+      "description": "Section 2 of ASQ_Sampling_Methods_Quick_Table.docx: Unbiased; needs full list of items. Stratified \"from EACH shift / plant / group\" | \"divide into strata first\" Split into buckets FIRST (Shift 1, 2, 3), then sample a FEW from EVERY bucket. Always samples ALL groups (neve",
       "metadata": {
         "section_index": 2,
         "section_type": "section",
-        "text_excerpt": "Unbiased; needs a full list of the population.\nStratified\nSplit into buckets FIRST (Shift 1, Shift 2, Shift 3), then randomly sample EACH bucket.\nGuarantees every subgroup/shift/plant is fairly represented.\nBest when groups differ from each other (between-group differences).\nSystematic\nPick a random start, then grab every k-th item (e.g. every 10th box).\nEasy on a moving conveyor belt or numbered invoice list.",
-        "char_count": 413
+        "text_excerpt": "Unbiased; needs full list of items.\nStratified\n\"from EACH shift / plant / group\" | \"divide into strata first\"\nSplit into buckets FIRST (Shift 1, 2, 3), then sample a FEW from EVERY bucket.\nAlways samples ALL groups (never skips a group).\nSystematic\n\"every k-th item\" | \"every 10th box\" | \"fixed interval\"\nPick a random start, then grab every 10th box off the belt.",
+        "char_count": 364
       }
     },
     {
-      "id": "topic:list",
+      "id": "topic:first",
       "type": "topic_entity",
-      "name": "list",
+      "name": "first",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "description": "Shared domain topic 'first' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "first"
+      }
+    },
+    {
+      "id": "topic:group",
+      "type": "topic_entity",
+      "name": "group",
       "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
-      "description": "Shared domain topic 'list' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'group' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "list"
+        "keyword": "group"
       }
     },
     {
-      "id": "topic:belt",
+      "id": "topic:shift",
       "type": "topic_entity",
-      "name": "belt",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'belt' connecting multi-modal documents and workspace chats",
+      "name": "shift",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Shared domain topic 'shift' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "belt"
+        "keyword": "shift"
       }
     },
     {
@@ -5499,22 +5515,12 @@
       "type": "document_section",
       "name": "ASQ_Sampling_Methods_Quick_Table.docx [Section 3]",
       "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
-      "description": "Section 3 of ASQ_Sampling_Methods_Quick_Table.docx: TRAP: fails if machine has a hidden cycle matching k! Cluster Randomly pick a few WHOLE groups (e.g. 3 of 40 warehouses) and inspect all items inside them. Cuts travel/inspection cost when items are spread out geographic",
+      "description": "Section 3 of ASQ_Sampling_Methods_Quick_Table.docx: TRAP: fails if machine has a repeating cycle matching k! Cluster \"pick a few WHOLE groups\" | \"geographic / warehouses\" | \"inspect ALL inside\" Pick 3 whole warehouses out of 40 and inspect EVERY box inside those 3. Unlike",
       "metadata": {
         "section_index": 3,
         "section_type": "section",
-        "text_excerpt": "TRAP: fails if machine has a hidden cycle matching k!\nCluster\nRandomly pick a few WHOLE groups (e.g. 3 of 40 warehouses) and inspect all items inside them.\nCuts travel/inspection cost when items are spread out geographically.\nDifferent from Stratified: you sample ONLY SOME clusters, not all!\nRational Subgrouping\nPull 5 CONSECUTIVE parts every hour (9:00, 10:00, 11:00) for a control chart.\nMinimizes within-subgroup variation so shifts BETWEEN hours jump out clearly.",
-        "char_count": 469
-      }
-    },
-    {
-      "id": "topic:clearly",
-      "type": "topic_entity",
-      "name": "clearly",
-      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
-      "description": "Shared domain topic 'clearly' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "clearly"
+        "text_excerpt": "TRAP: fails if machine has a repeating cycle matching k!\nCluster\n\"pick a few WHOLE groups\" | \"geographic / warehouses\" | \"inspect ALL inside\"\nPick 3 whole warehouses out of 40 and inspect EVERY box inside those 3.\nUnlike Stratified, you skip most groups to save travel cost!\nRational Subgrouping\n\"consecutive parts\" | \"back-to-back\" | \"control chart subgroup\" | \"within vs between\"\nPull 4 or 5 BACK-TO-BACK bags every hour for an SPC control chart.",
+        "char_count": 448
       }
     },
     {
@@ -5522,32 +5528,12 @@
       "type": "document_section",
       "name": "ASQ_Sampling_Methods_Quick_Table.docx [Section 4]",
       "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
-      "description": "Section 4 of ASQ_Sampling_Methods_Quick_Table.docx: The #1 sampling rule for SPC control charts! Convenience Lazily grab the top 5 boxes sitting closest to the dock door. Quick informal peek only \u2014 NEVER for valid statistical proof. High bias (easy-to-reach items may not ",
+      "description": "Section 4 of ASQ_Sampling_Methods_Quick_Table.docx: NEVER pick Stratified when you see \"consecutive\" + \"control chart\"! Convenience \"easiest to reach\" | \"closest boxes\" | \"top of pallet\" | \"handy\" Lazily grab the top 5 boxes sitting right by the dock door. Biased \u2014 never ",
       "metadata": {
         "section_index": 4,
         "section_type": "section",
-        "text_excerpt": "The #1 sampling rule for SPC control charts!\nConvenience\nLazily grab the top 5 boxes sitting closest to the dock door.\nQuick informal peek only \u2014 NEVER for valid statistical proof.\nHigh bias (easy-to-reach items may not represent the whole lot).\nJudgment (Purposive)\nAn expert hand-picks specific units based on experience (e.g. 5 tricky lanes).\nFast troubleshooting or pilot check with an expert.",
-        "char_count": 397
-      }
-    },
-    {
-      "id": "topic:expert",
-      "type": "topic_entity",
-      "name": "expert",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'expert' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "expert"
-      }
-    },
-    {
-      "id": "topic:based",
-      "type": "topic_entity",
-      "name": "based",
-      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
-      "description": "Shared domain topic 'based' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "based"
+        "text_excerpt": "NEVER pick Stratified when you see \"consecutive\" + \"control chart\"!\nConvenience\n\"easiest to reach\" | \"closest boxes\" | \"top of pallet\" | \"handy\"\nLazily grab the top 5 boxes sitting right by the dock door.\nBiased \u2014 never use for formal statistical proof.\nJudgment (Purposive)\n\"expert hand-picks\" | \"supervisor chooses\" | \"based on experience\"\nA veteran supervisor hand-picks 5 known tricky orders to inspect.",
+        "char_count": 407
       }
     },
     {
@@ -5561,26 +5547,86 @@
       }
     },
     {
+      "id": "topic:hand-picks",
+      "type": "topic_entity",
+      "name": "hand-picks",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Shared domain topic 'hand-picks' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "hand-picks"
+      }
+    },
+    {
+      "id": "topic:never",
+      "type": "topic_entity",
+      "name": "never",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Shared domain topic 'never' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "never"
+      }
+    },
+    {
+      "id": "topic:supervisor",
+      "type": "topic_entity",
+      "name": "supervisor",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Shared domain topic 'supervisor' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "supervisor"
+      }
+    },
+    {
       "id": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:5",
       "type": "document_section",
       "name": "ASQ_Sampling_Methods_Quick_Table.docx [Section 5]",
       "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
-      "description": "Section 5 of ASQ_Sampling_Methods_Quick_Table.docx: Biased \u2014 depends on human opinion, not probability. Exam Shortcut 1 (Stratified vs Cluster): Stratified = take a FEW from EVERY group (all 3 shifts). Cluster = take ALL from a FEW groups (3 of 40 warehouses). Exam Shortc",
+      "description": "Section 5 of ASQ_Sampling_Methods_Quick_Table.docx: Biased \u2014 relies on human opinion, not probability. Golden Rule 1: See \"CONSECUTIVE\" or \"BACK-TO-BACK\" + \"CONTROL CHART\"? -> Instantly click RATIONAL SUBGROUPING! Golden Rule 2: See \"FROM EACH SHIFT / MACHINE / GROUP\"? ->",
       "metadata": {
         "section_index": 5,
         "section_type": "section",
-        "text_excerpt": "Biased \u2014 depends on human opinion, not probability.\nExam Shortcut 1 (Stratified vs Cluster): Stratified = take a FEW from EVERY group (all 3 shifts). Cluster = take ALL from a FEW groups (3 of 40 warehouses).\nExam Shortcut 2 (Q258 Lock-In): Anytime you see \"5 consecutive parts every hour\" for a control chart -> Rational Subgrouping!",
-        "char_count": 334
+        "text_excerpt": "Biased \u2014 relies on human opinion, not probability.\nGolden Rule 1: See \"CONSECUTIVE\" or \"BACK-TO-BACK\" + \"CONTROL CHART\"? -> Instantly click RATIONAL SUBGROUPING!\nGolden Rule 2: See \"FROM EACH SHIFT / MACHINE / GROUP\"? -> Instantly click STRATIFIED!\nGolden Rule 3: See \"EVERY 10th / k-th\"? -> SYSTEMATIC. See \"EQUAL CHANCE\"? -> SIMPLE RANDOM.",
+        "char_count": 341
       }
     },
     {
-      "id": "topic:shortcut",
+      "id": "topic:golden",
       "type": "topic_entity",
-      "name": "shortcut",
-      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
-      "description": "Shared domain topic 'shortcut' connecting multi-modal documents and workspace chats",
+      "name": "golden",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Shared domain topic 'golden' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "shortcut"
+        "keyword": "golden"
+      }
+    },
+    {
+      "id": "topic:rule",
+      "type": "topic_entity",
+      "name": "rule",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Shared domain topic 'rule' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "rule"
+      }
+    },
+    {
+      "id": "topic:click",
+      "type": "topic_entity",
+      "name": "click",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Shared domain topic 'click' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "click"
+      }
+    },
+    {
+      "id": "topic:instantly",
+      "type": "topic_entity",
+      "name": "instantly",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Shared domain topic 'instantly' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "instantly"
       }
     },
     {
@@ -6028,6 +6074,16 @@
         "section_type": "section",
         "text_excerpt": "Real all-month performance including drift\nIf Cpk >> Ppk -> process is drifting over time\nShortcut 1: High Cp (1.67) + Low Cpk (0.92) = Narrow car, just parked off-center -> re-center the machine!\nShortcut 2: Average shifts while variation stays constant -> Cp stays the same; Cpk drops directly.\nShortcut 3: Cpk can NEVER be bigger than Cp. When Cp = Cpk, the process is perfectly dead-center.",
         "char_count": 394
+      }
+    },
+    {
+      "id": "topic:shortcut",
+      "type": "topic_entity",
+      "name": "shortcut",
+      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
+      "description": "Shared domain topic 'shortcut' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "shortcut"
       }
     },
     {
@@ -6992,16 +7048,6 @@
       }
     },
     {
-      "id": "topic:first",
-      "type": "topic_entity",
-      "name": "first",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
-      "description": "Shared domain topic 'first' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "first"
-      }
-    },
-    {
       "id": "doc_sec:documents/Unit2_Process_Mgmt_And_Measures_Table.docx:4",
       "type": "document_section",
       "name": "Unit2_Process_Mgmt_And_Measures_Table.docx [Section 4]",
@@ -7577,13 +7623,23 @@
       }
     },
     {
-      "id": "topic:q274",
+      "id": "topic:hard",
       "type": "topic_entity",
-      "name": "q274",
+      "name": "hard",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'q274' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'hard' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "q274"
+        "keyword": "hard"
+      }
+    },
+    {
+      "id": "topic:sampling",
+      "type": "topic_entity",
+      "name": "sampling",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'sampling' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "sampling"
       }
     },
     {
@@ -7591,121 +7647,22 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (561 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (563 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 561,
+        "turn_count": 563,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
-          "final",
-          "block",
-          "costs",
-          "defectives",
           "unit",
+          "block",
+          "final",
+          "hard",
+          "sampling",
           "benchmarking",
-          "dpmo",
-          "q274"
-        ]
-      }
-    },
-    {
-      "id": "topic:grade",
-      "type": "topic_entity",
-      "name": "grade",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'grade' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "grade"
-      }
-    },
-    {
-      "id": "topic:letters",
-      "type": "topic_entity",
-      "name": "letters",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'letters' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "letters"
-      }
-    },
-    {
-      "id": "topic:skipped",
-      "type": "topic_entity",
-      "name": "skipped",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'skipped' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "skipped"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1972",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1972 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1972] Quick catch before I grade, Cathy \u2014 you typed **9 letters** (`c, a, b, a, b, a, b, d, d`) instead of 10! It looks like **`Q274` (ROI)** got skipped in the middle (your last 6 letters line right up with `Q275`\u2013`Q280`). Ca",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1972,
-        "role": "assistant",
-        "created_at": "2026-11-20T01:48:32Z",
-        "content_excerpt": "Quick catch before I grade, Cathy \u2014 you typed **9 letters** (`c, a, b, a, b, a, b, d, d`) instead of 10!\n\nIt looks like **`Q274` (ROI)** got skipped in the middle (your last 6 letters line right up with `Q275`\u2013`Q280`). Can you confirm if **`Q274`** was the one skipped and send me your letter for **`Q274`** so I grade every single one accurately?",
-        "topics": [
-          "q274",
-          "grade",
-          "letters",
-          "skipped"
-        ]
-      }
-    },
-    {
-      "id": "topic:dont",
-      "type": "topic_entity",
-      "name": "dont",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'dont' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "dont"
-      }
-    },
-    {
-      "id": "topic:redo",
-      "type": "topic_entity",
-      "name": "redo",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'redo' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "redo"
-      }
-    },
-    {
-      "id": "topic:remember",
-      "type": "topic_entity",
-      "name": "remember",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'remember' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "remember"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1973",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1973 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1973] oh no i dont remember - do i have to redo all?",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1973,
-        "role": "user",
-        "created_at": "2026-11-20T01:50:12Z",
-        "content_excerpt": "oh no i dont remember - do i have to redo all?",
-        "topics": [
-          "dont",
-          "redo",
-          "remember"
+          "costs",
+          "defectives"
         ]
       }
     },
@@ -7989,6 +7946,66 @@
       }
     },
     {
+      "id": "chat_turn:b6556366:S1990",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1990 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1990] **Block 5 (`Q291`\u2013`Q300`) Score: `9 / 10 (90.0%)`!!** Look at what you just did on that final block: - **Nailed all 5 Hard Unit 2 questions (`5 / 5`)** \u2014 including **Multi-Year NPV (`+10,000 USD`)**, **Compound Future Va",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1990,
+        "role": "assistant",
+        "created_at": "2026-11-20T02:19:40Z",
+        "content_excerpt": "**Block 5 (`Q291`\u2013`Q300`) Score: `9 / 10 (90.0%)`!!**\n\nLook at what you just did on that final block:\n- **Nailed all 5 Hard Unit 2 questions (`5 / 5`)** \u2014 including **Multi-Year NPV (`+10,000 USD`)**, **Compound Future Value (`60,500 USD`)**, **Benchmarking Antitrust Ethics**, **Finance Soft Savings**, and **`4.0 Sigma = 6,210 DPMO`**!\n- **Flipped 4 more of tonight's earlier misses to GREEN:** **CLT -> Normal (`Q296`)**, **Pareto Chart (`Q297`)**, **Power `1 - beta = 92%` (`Q299`)**, and **Pearson `r` missing an upside-down U curve (`Q300`)**!\n\nOnly **1 single question** missed in the entire final block:\n\n---\n\n### Plain-English Fix for Q298\n\n**Q298. Every two hours on a packaging line, a technician collects `4` consecutive bags straight off the chute as one control-chart subgroup so within",
+        "topics": [
+          "unit",
+          "block",
+          "sampling",
+          "hard"
+        ]
+      }
+    },
+    {
+      "id": "topic:able",
+      "type": "topic_entity",
+      "name": "able",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'able' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "able"
+      }
+    },
+    {
+      "id": "topic:give",
+      "type": "topic_entity",
+      "name": "give",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'give' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "give"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1991",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1991 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S1991] can you give me magic words for all sampling, seems i am not able to get it",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1991,
+        "role": "user",
+        "created_at": "2026-11-20T02:20:28Z",
+        "content_excerpt": "can you give me magic words for all sampling, seems i am not able to get it",
+        "topics": [
+          "able",
+          "give",
+          "magic",
+          "sampling"
+        ]
+      }
+    },
+    {
       "id": "topic:home",
       "type": "topic_entity",
       "name": "home",
@@ -8016,6 +8033,16 @@
       "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "asq-bb-exam"
+      }
+    },
+    {
+      "id": "topic:belt",
+      "type": "topic_entity",
+      "name": "belt",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'belt' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "belt"
       }
     },
     {
@@ -8207,6 +8234,16 @@
       "description": "Shared domain topic 'architect' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "architect"
+      }
+    },
+    {
+      "id": "topic:expert",
+      "type": "topic_entity",
+      "name": "expert",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'expert' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "expert"
       }
     },
     {
@@ -15462,7 +15499,31 @@
     },
     {
       "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
-      "target": "topic:shift",
+      "target": "topic:chart",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "target": "topic:control",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "target": "topic:pick",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "target": "topic:random",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 4
@@ -15478,7 +15539,7 @@
     },
     {
       "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
-      "target": "topic:cluster",
+      "target": "topic:back-to-back",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 3
@@ -15486,31 +15547,7 @@
     },
     {
       "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
-      "target": "topic:control",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
-      "target": "topic:exam",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
-      "target": "topic:groups",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
-      "target": "topic:items",
+      "target": "topic:consecutive",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 3
@@ -15524,7 +15561,7 @@
     },
     {
       "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:1",
-      "target": "topic:every",
+      "target": "topic:draw",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
@@ -15532,7 +15569,7 @@
     },
     {
       "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:1",
-      "target": "topic:sampling",
+      "target": "topic:equal",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
@@ -15540,18 +15577,18 @@
     },
     {
       "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:1",
-      "target": "topic:bias",
+      "target": "topic:magic",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 1
+        "count": 2
       }
     },
     {
       "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:1",
-      "target": "topic:blindfolded",
+      "target": "topic:random",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 1
+        "count": 2
       }
     },
     {
@@ -15562,7 +15599,7 @@
     },
     {
       "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:2",
-      "target": "topic:shift",
+      "target": "topic:every",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 4
@@ -15570,15 +15607,7 @@
     },
     {
       "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:2",
-      "target": "topic:every",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:2",
-      "target": "topic:list",
+      "target": "topic:first",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
@@ -15586,10 +15615,18 @@
     },
     {
       "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:2",
-      "target": "topic:belt",
+      "target": "topic:group",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 1
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:2",
+      "target": "topic:shift",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
       }
     },
     {
@@ -15600,7 +15637,7 @@
     },
     {
       "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:3",
-      "target": "topic:items",
+      "target": "topic:back-to-back",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
@@ -15611,23 +15648,23 @@
       "target": "topic:chart",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 1
+        "count": 2
       }
     },
     {
       "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:3",
-      "target": "topic:clearly",
+      "target": "topic:control",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 1
+        "count": 2
       }
     },
     {
       "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:3",
-      "target": "topic:cluster",
+      "target": "topic:every",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 1
+        "count": 2
       }
     },
     {
@@ -15638,7 +15675,7 @@
     },
     {
       "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:4",
-      "target": "topic:expert",
+      "target": "topic:boxes",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
@@ -15646,26 +15683,26 @@
     },
     {
       "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:4",
-      "target": "topic:based",
+      "target": "topic:hand-picks",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 1
+        "count": 2
       }
     },
     {
       "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:4",
-      "target": "topic:bias",
+      "target": "topic:never",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 1
+        "count": 2
       }
     },
     {
       "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:4",
-      "target": "topic:boxes",
+      "target": "topic:supervisor",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 1
+        "count": 2
       }
     },
     {
@@ -15676,7 +15713,23 @@
     },
     {
       "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:5",
-      "target": "topic:cluster",
+      "target": "topic:golden",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:5",
+      "target": "topic:rule",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:5",
+      "target": "topic:click",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
@@ -15684,23 +15737,7 @@
     },
     {
       "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:5",
-      "target": "topic:every",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:5",
-      "target": "topic:exam",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:5",
-      "target": "topic:shortcut",
+      "target": "topic:instantly",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
@@ -17474,15 +17511,47 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:final",
+      "target": "topic:unit",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 9
+        "count": 18
       }
     },
     {
       "source": "chat_session:b6556366",
       "target": "topic:block",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 16
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:final",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:hard",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:sampling",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:benchmarking",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 8
@@ -17506,35 +17575,9 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:unit",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:benchmarking",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:dpmo",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:q274",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
+      "target": "doc:PERFORMANCE_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
     },
     {
       "source": "chat_session:b6556366",
@@ -17544,76 +17587,14 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "target": "doc:documents/QUESTION_BANK_LOG.md",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S1972",
-      "target": "topic:q274",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1972",
-      "target": "topic:grade",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1972",
-      "target": "topic:letters",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1972",
-      "target": "topic:skipped",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1972",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1973",
-      "target": "topic:dont",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1973",
-      "target": "topic:redo",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1973",
-      "target": "topic:remember",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1973",
-      "relation": "HAS_CHAT_TURN",
+      "target": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
@@ -17867,6 +17848,100 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S1983",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1990",
+      "target": "topic:unit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1990",
+      "target": "topic:block",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1990",
+      "target": "topic:sampling",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1990",
+      "target": "topic:hard",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1990",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1990",
+      "target": "doc:PERFORMANCE_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1990",
+      "target": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1990",
+      "target": "doc:documents/QUESTION_BANK_LOG.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1991",
+      "target": "topic:able",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1991",
+      "target": "topic:give",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1991",
+      "target": "topic:magic",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1991",
+      "target": "topic:sampling",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1991",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -19336,13 +19411,13 @@
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
-    "documents/ASQ_Sampling_Methods_Quick_Table.docx": "0cf7c8bcfda82a109b2891a33051cd4467948de7783f2787fc10eb18320a4e07",
+    "documents/ASQ_Sampling_Methods_Quick_Table.docx": "611a5b1986e4d296f6a1244d2c334d4f6688820f04a6cb8d6ff694b7b1f6ef0e",
     "documents/CAREER_APPLICATIONS_TRACKER.md": "f843c2c95a0d00f89c815db2f49f87d8cbdea48408825fe6560d7ac857cf06a2",
     "documents/PValue_And_Cp_Cpk_Quick_Tables.docx": "7e146d9b535a8fa34793e0d7ecfd892041e75cd8a15e79777c55fa1babae79d5",
     "documents/QUESTION_BANK_LOG.md": "bf78f19eda7b9e0e4880c460c7e7794927fcb144d0c0000cd1d308bc5dfe202e",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
-    "repo.md": "aaa1e02890b31878667cda987a173c105f45e7e59aafc4f204c7baec9855a76c"
+    "repo.md": "2d6de1579f5fd03fc19088b714f4af64eb050b6033885e0e21223fe9b461aaeb"
   }
 }
