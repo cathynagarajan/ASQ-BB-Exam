@@ -8,19 +8,19 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`415` (`Q1`–`Q250` + Copilot `C1`–`C165`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Latest Set (Copilot Set 6 — `C131`–`C165`, Mixed Cold Set post-workday)**: **Verified `23 / 35 = 65.7%`** *(Q1–8 `8/8 = 100%`; Q9–16 verified `2/8` — caught Copilot hallucinating answer keys on `Q9` [Cathy right on B!], `Q13` [true B Reject H0], & `Q15` [true C Longest path]; Q17–35 `13/19 = 68.4%`, Copilot key 100% accurate. Previous Unit 2 Preview `Q241`–`Q250`: **`9 / 10 = 90.0%`**; Unit 1 MASTERED at `75 / 87 = 86.2%`!)*
-- **LOCKED PLAN FOR DAY 6 (THURSDAY `2026-11-19`)**:
-  1. **Unit 1 (`Domain I`) COMPLETE & MASTERED (`75 / 87 = 86.2%`; `10/10` Exam-Hard)!**
-  2. **Unit 2 (`Domain II`) Bible Notes & Complete Formula Master Sheet ALREADY BUILT**: `Unit2_Process_Mgmt_And_Measures_Table.docx`, `Unit2_Formulas_Master_Sheet.docx`, and Cheat Sheet Sec 10A–10E (`DPU/DPO/DPMO/FTY/RTY`, `COQ PAF`, `ROI/Payback/FV/PV/NPV/IRR/CBA/ROA`, `Balanced Scorecard`, `KPI/KBI/OKR`, `Benchmarking`).
-  3. **WAIT for Cathy to brush up Unit 2 formulas with her Word Bible first**, then run Unit 2 Open-Book practice (`Easy -> Medium -> Exam-Hard`) and finish Unit 2 with her **1st Timed Prometric Mini-Sprint (`15` crooked ASQ Qs in `24` mins)**! *(Long-term: full 165-Q `4h 18m` Prometric CBT mocks in Jan–Feb 2027 once all 9 units are done.)*
+- **Completed Unique Questions**: **`465` (`Q1`–`Q300` + Copilot `C1`–`C165`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Latest Set (Round 20 — 50-Question Evening Marathon `Q251`–`Q300`, Open-Book)**: **`40 / 50 = 80.0%` (`40 / 49 = 81.6%` answered)** — **Unit 2 Hard (`Q281`–`Q295`): `15 / 15 = 100.0%` PERFECT!!** *(Block 1 `6/10`, Block 2 `8/10`, Block 3 `7/9`, Block 4 `10/10`, Block 5 `9/10`! Flipped 10/11 Copilot Set 6 misses to green: `Cpk`, Control limits, `p<=alpha`, Critical Path, Bias, Process Owner, CLT Normal, Pareto, Power `1-beta`, Pearson nonlinear; only 1 sticky item: `Q298` Rational Subgrouping vs. Stratified! Also built 2 new Word-native Bible tables: `PValue_And_Cp_Cpk_Quick_Tables.docx` & `ASQ_Sampling_Methods_Quick_Table.docx`!)*
+- **NEXT EXAM MILESTONE (FRIDAY `2026-11-20`+)**:
+  1. **Unit 1 (`Domain I`) COMPLETE & MASTERED (`76 / 88 = 86.4%`)** AND **Unit 2 (`Domain II`) Level 1–3 COMPLETE (`45 / 53 = 84.9%`; `15/15 = 100%` on Level 3 Hard!)**.
+  2. **Next Unit 2 Cap**: Run Cathy's **Unit 2 Final Check / 1st Timed Prometric Mini-Sprint (`15` exam Qs in `24` mins, Open-Book)** — then declare Unit 2 MASTERED and move smoothly into **Unit 3 (`Domain III`: Team Management — Tuckman, Lencioni, Thomas-Kilmann, Coaching/Facilitating)**!
+  3. **Permanent Formatting Preference**: Whenever Cathy asks for a study table for her Word Bible, **ALWAYS generate a real `.docx` file** in `documents/` (plus optional tab-separated TSV in chat) — never expect raw Markdown pipe tables to paste into Word!
   4. **Credentials Check for Master Resume**: Verify exact active codes on Cathy's Microsoft Learn transcript (Power Platform `PL-*` / Solution Architect path) and note her **ASQ Yellow Belt (`CSSYB`)** alongside `PMP`, `CSCP`, `CSSGB`, and `M.C.A.`.
   5. **Vault Angular Demo (`Vault-Study-Session`)**: Office laptop `e103446` `http://localhost:4200` + `1 = SBX / 2 = Vault` switcher restored; resume at **Line 62 of `app.ts`** (~15 calm mins/day for early-Dec Carl demo).
-- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`133 / 160 = 83.1%`**
-- **Stage 2 Status (`Domain V — Measure Phase`)**: **`35 / 50 = 70.0%`**
-- **Stage 3 Status (`Domain VI — Analyze Phase`)**: **`24 / 30 = 80.0%`**
-- **Stage 5 Preview (`Domain VIII — Control Charts`)**: **`8 / 10 = 80.0%`**
-- **Copilot External Sets (`C1`–`C165`)**: **`124 / 165` (`75.2%` — Set 6 `C131`–`C165`: verified `23 / 35 = 65.7%` after auditing Copilot key bugs on Q9/Q13/Q15!)** — Grand Cumulative: **`324 / 415` (`78.1%`)**
+- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`166 / 199 = 83.4%`**
+- **Stage 2 Status (`Domain V — Measure Phase`)**: **`38 / 56 = 67.9%`**
+- **Stage 3 Status (`Domain VI — Analyze Phase`)**: **`27 / 34 = 79.4%`**
+- **Stage 5 Preview (`Domain VIII — Control Charts`)**: **`9 / 11 = 81.8%`**
+- **Copilot External Sets (`C1`–`C165`)**: **`124 / 165` (`75.2%` — Set 6 `C131`–`C165`: verified `23 / 35 = 65.7%` after auditing Copilot key bugs on Q9/Q13/Q15!)** — Grand Cumulative: **`364 / 465` (`78.3%`)**
 - **Active Weak Points Scheduled for Spaced Re-Testing**:
   1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)
   2. `IV.A.3` CTQ measurable numerical target vs. vague VOC (`Q18`)

@@ -1,43 +1,47 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-20T01:09:56.261213+00:00",
-    "total_files_indexed": 74,
-    "total_nodes": 647,
-    "total_edges": 1298,
+    "generated_at": "2026-11-20T02:19:33.934721+00:00",
+    "total_files_indexed": 75,
+    "total_nodes": 655,
+    "total_edges": 1313,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
       "document": 48,
-      "document_file": 24,
-      "document_section": 160,
+      "document_file": 25,
+      "document_section": 165,
       "html_template": 1,
-      "topic_entity": 360
+      "topic_entity": 362
     }
   },
   "last_change_check": {
     "changed": true,
     "added": [
-      "documents/PValue_And_Cp_Cpk_Quick_Tables.docx"
+      "documents/ASQ_Sampling_Methods_Quick_Table.docx"
     ],
-    "modified": [],
+    "modified": [
+      "PERFORMANCE_TRACKER.md",
+      "chats/SHARED_SESSION_STATE.md",
+      "documents/QUESTION_BANK_LOG.md"
+    ],
     "removed": [],
-    "files_parsed": 1,
-    "files_cached_reused": 72,
+    "files_parsed": 3,
+    "files_cached_reused": 71,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 50,
-      "nodes_deleted": 11,
-      "edges_upserted": 81,
-      "edges_deleted": 25,
-      "wiki_pages_upserted": 0,
+      "nodes_upserted": 68,
+      "nodes_deleted": 36,
+      "edges_upserted": 92,
+      "edges_deleted": 77,
+      "wiki_pages_upserted": 2,
       "wiki_pages_deleted": 0,
-      "files_upserted": 2,
+      "files_upserted": 5,
       "files_deleted": 0,
-      "total_nodes_in_db": 647,
-      "total_edges_in_db": 1298,
-      "total_files_tracked": 75
+      "total_nodes_in_db": 655,
+      "total_edges_in_db": 1313,
+      "total_files_tracked": 76
     }
   },
   "nodes": [
@@ -50,7 +54,7 @@
       "metadata": {
         "sections": [
           "Krithika's ASQ CSSBB Performance & Weak-Topic Tracker",
-          "1. Domain Mastery Summary (Strictly ASQ 2022 BoK \u2014 200 Scored Qs)",
+          "1. Domain Mastery Summary (Strictly ASQ 2022 BoK \u2014 300 Scored Qs)",
           "2. Active Weak Topics & Guessed-Topic Teach List (Synced to Knowledge Graph)"
         ],
         "keywords": [
@@ -59,33 +63,38 @@
           "Stage 2 (`V. Measure`) COMPLETE!",
           "Stage 3 (`VI. Analyze`) IN PROGRESS",
           "Project 2 (`50+ Qs`) COMPLETE (`Q51`\u2013`Q100`)!",
-          "Verified `23 / 35` (`65.7%`)",
-          "Overall Cumulative Score (`Q1`\u2013`Q250` + `C1`\u2013`C165` = `415` Qs):",
-          "`324 / 415` (`78.1%`)",
+          "`40 / 50` (`80.0%` | `40/49 = 81.6%` answered)",
+          "Unit 2 Hard `Q281\u2013Q295`: `15 / 15 = 100.0%` PERFECT!",
+          "`10/10`",
+          "`9/10`",
+          "Overall Cumulative Score (`Q1`\u2013`Q300` + `C1`\u2013`C165` = `465` Qs):",
+          "`364 / 465` (`78.3%`)",
           "I. Org-Wide Planning & Deployment",
-          "86.2%",
+          "86.4%",
           "II. Org Process Mgmt & Measures",
-          "83.3%",
-          "UNIT 2 PREVIEW `9 / 10` (`90.0%`!)",
+          "84.9%",
+          "UNIT 2 HARD `15 / 15 = 100.0%`!!",
+          "Unit 2 Timed Prometric Mini-Sprint (`15 Qs / 24 min`)",
           "III. Team Management",
           "71.4%",
           "IV. Define",
           "Define (D)",
-          "79.2%",
-          "Define Basics Level 1 set ready on screen!",
+          "78.4%",
+          "Critical Path (`Q255`) & Pareto (`Q297`) FIXED!",
           "V. Measure",
           "Measure (M)",
-          "70.0%",
-          "Stability (`Q130`), Nested MSA (`Q122`), EV (`Q124`), P/T (`Q126`) Mastered!",
+          "67.9%",
+          "`Cpk` (`Q251`), Gage Bias (`Q256`), & CLT Normal (`Q296`) FIXED!",
+          "Rational Subgrouping vs. Stratified (`Q298`)",
           "VI. Analyze",
           "Analyze (A)",
-          "80.0%",
-          "Correlation Level 1 `8/10` (`80%`)!",
+          "79.4%",
           "VII. Improve",
           "Improve (I)",
           "VIII. Control",
           "Control (C)",
-          "Strong start (`80%`!)",
+          "81.8%",
+          "Control Limits = Special Causes (`Q252`) FIXED!",
           "IX. Design for Six Sigma (DFSS)",
           "`IV.A.2`",
           "`IV.A.3`",
@@ -170,53 +179,49 @@
           "50+ Qs",
           "Q51",
           "Q100",
-          "C131",
-          "C165",
-          "23 / 35",
-          "65.7%",
-          "8/8 = 100%",
-          "2/8",
-          "13/19 = 68.4%",
-          "Q241\u2013Q250",
-          "9/10 = 90.0%",
-          "Q1",
-          "Q250",
-          "C1",
-          "415",
-          "324 / 415",
-          "78.1%",
-          "10/10",
+          "Q251",
+          "Q300",
+          "40 / 50",
+          "80.0%",
+          "40/49 = 81.6%",
+          "Q281\u2013Q295",
+          "15 / 15 = 100.0%",
+          "6/10",
           "8/10",
-          "9 / 10",
-          "90.0%",
-          "II.C.2",
-          "III.B",
-          "III.C",
+          "7/9",
+          "10/10",
+          "9/10",
+          "Q1",
+          "C1",
+          "C165",
+          "465",
+          "364 / 465",
+          "78.3%",
+          "e^(-DPU)",
+          "15 Qs / 24 min",
+          "Q255",
+          "Q297",
           "sqrt(sum var)",
           "0 incoming",
-          "Q130",
-          "Q122",
-          "Q124",
-          "Q126",
-          "%Contribution",
-          "1%\u20139%",
-          "Q127",
-          "Q125",
-          "80%",
-          "|r|",
-          "-0.95",
-          "+0.75",
-          "+0.12",
-          "np-chart",
-          ") &",
+          "Cpk",
+          "Q256",
+          "Q296",
+          "Q298",
+          "p <= alpha",
+          "Q253",
+          "1-beta",
+          "Q299",
+          "Q252",
           "IV.A.2",
           "IV.A.3",
           "IV.C",
-          "9/10",
           "Q101",
           "Q110",
           "IV.D",
           "II.B",
+          "II.C.2",
+          "III.B",
+          "III.C",
           "(*Accommodating* = Lose-Win giving in) instead of **",
           "III.D",
           "(Right: Level 3 = Behavior on the job). Low-frequency Handbook detail (",
@@ -274,7 +279,6 @@
           "I\u2013VIII",
           "C131\u2013C165",
           "23/35 = 65.7%",
-          "Cpk",
           "p < alpha",
           "1 - beta"
         ],
@@ -3789,7 +3793,7 @@
       "id": "topic:unit",
       "type": "topic_entity",
       "name": "unit",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'unit' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "unit"
@@ -4056,7 +4060,7 @@
       "id": "topic:defectives",
       "type": "topic_entity",
       "name": "defectives",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'defectives' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "defectives"
@@ -4089,7 +4093,7 @@
       "id": "topic:chart",
       "type": "topic_entity",
       "name": "chart",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'chart' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "chart"
@@ -4122,7 +4126,7 @@
       "id": "topic:alpha",
       "type": "topic_entity",
       "name": "alpha",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
       "description": "Shared domain topic 'alpha' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "alpha"
@@ -4218,7 +4222,7 @@
       "id": "topic:bias",
       "type": "topic_entity",
       "name": "bias",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
       "description": "Shared domain topic 'bias' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "bias"
@@ -4383,7 +4387,7 @@
       "id": "topic:failure",
       "type": "topic_entity",
       "name": "failure",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'failure' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "failure"
@@ -4416,7 +4420,7 @@
       "id": "topic:dpmo",
       "type": "topic_entity",
       "name": "dpmo",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'dpmo' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "dpmo"
@@ -4426,7 +4430,7 @@
       "id": "topic:groups",
       "type": "topic_entity",
       "name": "groups",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
       "description": "Shared domain topic 'groups' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "groups"
@@ -4603,7 +4607,7 @@
       "id": "topic:spread",
       "type": "topic_entity",
       "name": "spread",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
       "description": "Shared domain topic 'spread' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "spread"
@@ -4785,7 +4789,7 @@
       "id": "topic:cluster",
       "type": "topic_entity",
       "name": "cluster",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
       "description": "Shared domain topic 'cluster' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cluster"
@@ -5363,6 +5367,223 @@
       }
     },
     {
+      "id": "topic:every",
+      "type": "topic_entity",
+      "name": "every",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Shared domain topic 'every' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "every"
+      }
+    },
+    {
+      "id": "topic:shift",
+      "type": "topic_entity",
+      "name": "shift",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Shared domain topic 'shift' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "shift"
+      }
+    },
+    {
+      "id": "topic:stratified",
+      "type": "topic_entity",
+      "name": "stratified",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Shared domain topic 'stratified' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "stratified"
+      }
+    },
+    {
+      "id": "topic:items",
+      "type": "topic_entity",
+      "name": "items",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Shared domain topic 'items' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "items"
+      }
+    },
+    {
+      "id": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "type": "document_file",
+      "name": "ASQ_Sampling_Methods_Quick_Table.docx",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Document ASQ_Sampling_Methods_Quick_Table.docx (5 section(s)): ASQ CSSBB Sampling Methods Quick-Reference Table (BoK V.B.2) Sampling Method Plain-English Picture When to Use / ASQ Exam Clue Watch-Out / Bias Simple Random Put every single name ",
+      "metadata": {
+        "format": "docx",
+        "section_count": 5,
+        "size_bytes": 2541,
+        "topics": [
+          "every",
+          "shift",
+          "stratified",
+          "cluster",
+          "control",
+          "exam",
+          "groups",
+          "items"
+        ]
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:1",
+      "type": "document_section",
+      "name": "ASQ_Sampling_Methods_Quick_Table.docx [Section 1]",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Section 1 of ASQ_Sampling_Methods_Quick_Table.docx: ASQ CSSBB Sampling Methods Quick-Reference Table (BoK V.B.2) Sampling Method Plain-English Picture When to Use / ASQ Exam Clue Watch-Out / Bias Simple Random Put every single name in one big hat and draw blindfolded. Eve",
+      "metadata": {
+        "section_index": 1,
+        "section_type": "section",
+        "text_excerpt": "ASQ CSSBB Sampling Methods Quick-Reference Table (BoK V.B.2)\nSampling Method\nPlain-English Picture\nWhen to Use / ASQ Exam Clue\nWatch-Out / Bias\nSimple Random\nPut every single name in one big hat and draw blindfolded.\nEvery unit has an EQUAL probability of selection.",
+        "char_count": 266
+      }
+    },
+    {
+      "id": "topic:sampling",
+      "type": "topic_entity",
+      "name": "sampling",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Shared domain topic 'sampling' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "sampling"
+      }
+    },
+    {
+      "id": "topic:blindfolded",
+      "type": "topic_entity",
+      "name": "blindfolded",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Shared domain topic 'blindfolded' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "blindfolded"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:2",
+      "type": "document_section",
+      "name": "ASQ_Sampling_Methods_Quick_Table.docx [Section 2]",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Section 2 of ASQ_Sampling_Methods_Quick_Table.docx: Unbiased; needs a full list of the population. Stratified Split into buckets FIRST (Shift 1, Shift 2, Shift 3), then randomly sample EACH bucket. Guarantees every subgroup/shift/plant is fairly represented. Best when gro",
+      "metadata": {
+        "section_index": 2,
+        "section_type": "section",
+        "text_excerpt": "Unbiased; needs a full list of the population.\nStratified\nSplit into buckets FIRST (Shift 1, Shift 2, Shift 3), then randomly sample EACH bucket.\nGuarantees every subgroup/shift/plant is fairly represented.\nBest when groups differ from each other (between-group differences).\nSystematic\nPick a random start, then grab every k-th item (e.g. every 10th box).\nEasy on a moving conveyor belt or numbered invoice list.",
+        "char_count": 413
+      }
+    },
+    {
+      "id": "topic:list",
+      "type": "topic_entity",
+      "name": "list",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Shared domain topic 'list' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "list"
+      }
+    },
+    {
+      "id": "topic:belt",
+      "type": "topic_entity",
+      "name": "belt",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'belt' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "belt"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:3",
+      "type": "document_section",
+      "name": "ASQ_Sampling_Methods_Quick_Table.docx [Section 3]",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Section 3 of ASQ_Sampling_Methods_Quick_Table.docx: TRAP: fails if machine has a hidden cycle matching k! Cluster Randomly pick a few WHOLE groups (e.g. 3 of 40 warehouses) and inspect all items inside them. Cuts travel/inspection cost when items are spread out geographic",
+      "metadata": {
+        "section_index": 3,
+        "section_type": "section",
+        "text_excerpt": "TRAP: fails if machine has a hidden cycle matching k!\nCluster\nRandomly pick a few WHOLE groups (e.g. 3 of 40 warehouses) and inspect all items inside them.\nCuts travel/inspection cost when items are spread out geographically.\nDifferent from Stratified: you sample ONLY SOME clusters, not all!\nRational Subgrouping\nPull 5 CONSECUTIVE parts every hour (9:00, 10:00, 11:00) for a control chart.\nMinimizes within-subgroup variation so shifts BETWEEN hours jump out clearly.",
+        "char_count": 469
+      }
+    },
+    {
+      "id": "topic:clearly",
+      "type": "topic_entity",
+      "name": "clearly",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Shared domain topic 'clearly' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "clearly"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:4",
+      "type": "document_section",
+      "name": "ASQ_Sampling_Methods_Quick_Table.docx [Section 4]",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Section 4 of ASQ_Sampling_Methods_Quick_Table.docx: The #1 sampling rule for SPC control charts! Convenience Lazily grab the top 5 boxes sitting closest to the dock door. Quick informal peek only \u2014 NEVER for valid statistical proof. High bias (easy-to-reach items may not ",
+      "metadata": {
+        "section_index": 4,
+        "section_type": "section",
+        "text_excerpt": "The #1 sampling rule for SPC control charts!\nConvenience\nLazily grab the top 5 boxes sitting closest to the dock door.\nQuick informal peek only \u2014 NEVER for valid statistical proof.\nHigh bias (easy-to-reach items may not represent the whole lot).\nJudgment (Purposive)\nAn expert hand-picks specific units based on experience (e.g. 5 tricky lanes).\nFast troubleshooting or pilot check with an expert.",
+        "char_count": 397
+      }
+    },
+    {
+      "id": "topic:expert",
+      "type": "topic_entity",
+      "name": "expert",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'expert' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "expert"
+      }
+    },
+    {
+      "id": "topic:based",
+      "type": "topic_entity",
+      "name": "based",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Shared domain topic 'based' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "based"
+      }
+    },
+    {
+      "id": "topic:boxes",
+      "type": "topic_entity",
+      "name": "boxes",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Shared domain topic 'boxes' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "boxes"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:5",
+      "type": "document_section",
+      "name": "ASQ_Sampling_Methods_Quick_Table.docx [Section 5]",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "description": "Section 5 of ASQ_Sampling_Methods_Quick_Table.docx: Biased \u2014 depends on human opinion, not probability. Exam Shortcut 1 (Stratified vs Cluster): Stratified = take a FEW from EVERY group (all 3 shifts). Cluster = take ALL from a FEW groups (3 of 40 warehouses). Exam Shortc",
+      "metadata": {
+        "section_index": 5,
+        "section_type": "section",
+        "text_excerpt": "Biased \u2014 depends on human opinion, not probability.\nExam Shortcut 1 (Stratified vs Cluster): Stratified = take a FEW from EVERY group (all 3 shifts). Cluster = take ALL from a FEW groups (3 of 40 warehouses).\nExam Shortcut 2 (Q258 Lock-In): Anytime you see \"5 consecutive parts every hour\" for a control chart -> Rational Subgrouping!",
+        "char_count": 334
+      }
+    },
+    {
+      "id": "topic:shortcut",
+      "type": "topic_entity",
+      "name": "shortcut",
+      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
+      "description": "Shared domain topic 'shortcut' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "shortcut"
+      }
+    },
+    {
       "id": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
       "type": "document",
       "name": "Career & Job Application Progress Tracker (KG-Indexed, PII-Free)",
@@ -5540,7 +5761,7 @@
       "id": "topic:long-term",
       "type": "topic_entity",
       "name": "long-term",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
       "description": "Shared domain topic 'long-term' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "long-term"
@@ -5550,7 +5771,7 @@
       "id": "topic:centered",
       "type": "topic_entity",
       "name": "centered",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
       "description": "Shared domain topic 'centered' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "centered"
@@ -5625,7 +5846,7 @@
       "id": "topic:answer",
       "type": "topic_entity",
       "name": "answer",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
       "description": "Shared domain topic 'answer' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "answer"
@@ -5658,7 +5879,7 @@
       "id": "topic:reject",
       "type": "topic_entity",
       "name": "reject",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
       "description": "Shared domain topic 'reject' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "reject"
@@ -5790,7 +6011,7 @@
       "id": "topic:overall",
       "type": "topic_entity",
       "name": "overall",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
       "description": "Shared domain topic 'overall' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "overall"
@@ -5807,16 +6028,6 @@
         "section_type": "section",
         "text_excerpt": "Real all-month performance including drift\nIf Cpk >> Ppk -> process is drifting over time\nShortcut 1: High Cp (1.67) + Low Cpk (0.92) = Narrow car, just parked off-center -> re-center the machine!\nShortcut 2: Average shifts while variation stays constant -> Cp stays the same; Cpk drops directly.\nShortcut 3: Cpk can NEVER be bigger than Cp. When Cp = Cpk, the process is perfectly dead-center.",
         "char_count": 394
-      }
-    },
-    {
-      "id": "topic:shortcut",
-      "type": "topic_entity",
-      "name": "shortcut",
-      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
-      "description": "Shared domain topic 'shortcut' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "shortcut"
       }
     },
     {
@@ -5875,7 +6086,8 @@
           "Round 19 Part 2 / Block 1 (Topic: `I.A & I.B` Unit 1 TRUE EXAM-HARD Open-Book \u2014 `Q221`\u2013`Q230` \u2014 2026-11-19 | Score: `10/10 = 100.0%` PERFECT!)",
           "Round 19 Block 2 (Topic: `I.A & I.B` Unit 1 Spaced Reinforcement Open-Book \u2014 `Q231`\u2013`Q240` \u2014 2026-11-19 | Score: `8/10 = 80.0%`)",
           "Round 19 Block 3 (Topic: `II.A\u2013II.C` Unit 2 Preview Open-Book \u2014 `Q241`\u2013`Q250` \u2014 2026-11-19 | Score: `9/10 = 90.0%`!)",
-          "External Practice Batch \u2014 Copilot Set 6 (`C131`\u2013`C165`, `35` Qs \u2014 Verified `23 / 35 = 65.7%` on `2026-11-19/20`, tired post-workday; Copilot answer key audited & corrected on `Q9/Q13/Q15`!)"
+          "External Practice Batch \u2014 Copilot Set 6 (`C131`\u2013`C165`, `35` Qs \u2014 Verified `23 / 35 = 65.7%` on `2026-11-19/20`, tired post-workday; Copilot answer key audited & corrected on `Q9/Q13/Q15`!)",
+          "Round 20 \u2014 50-Question Evening Marathon (`Q251`\u2013`Q300` \u2014 2026-11-20 | Total: `40/50 = 80.0%` [`40/49 = 81.6%` answered]; Unit 2 Hard: `15/15 = 100.0%` PERFECT!)"
         ],
         "keywords": [
           "Rule:",
@@ -5884,6 +6096,14 @@
           "Q1\u20138 (`C131`\u2013`C138`, `8 / 8 = 100.0%` PERFECT!):",
           "Q9\u201316 (`C139`\u2013`C146`, True Verified `2 / 8 = 25.0%`):",
           "Q17\u201335 (`C147`\u2013`C165`, `13 / 19 = 68.4%` \u2014 Copilot key verified 100% accurate):",
+          "Block 1 (`Q251`\u2013`Q260`, Copilot Misses Basics Lock-In \u2014 `6/10 = 60.0%`):",
+          "Appraisal COQ = wheat testing + moisture gage calibration \u2014 MASTERED!",
+          "Multi-Year NPV `50k + 60k - 100k = +10,000 USD`",
+          "CLT -> Normal \u2014 FIXED!",
+          "Pareto chart \u2014 FIXED!",
+          "`beta=0.08` -> Power `92%` \u2014 FIXED!",
+          "Pearson `r` misses curved inverted-U \u2014 FIXED!",
+          "Rational subgrouping",
           "Q1",
           "Q15",
           "14/15",
@@ -6119,15 +6339,7 @@
           "Q125",
           "V.C.1",
           "Q126",
-          "Q127",
-          "Reproducibility vs. Correct",
-          "Q128",
-          "Q129",
-          "VI.B.3 & VI.B.4",
-          "Q131",
-          "Q140",
-          "8/10 = 80.0%",
-          "Q132"
+          "Q127"
         ],
         "format": "md"
       }
@@ -6449,7 +6661,7 @@
       "id": "topic:costs",
       "type": "topic_entity",
       "name": "costs",
-      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'costs' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "costs"
@@ -6459,7 +6671,7 @@
       "id": "topic:yield",
       "type": "topic_entity",
       "name": "yield",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'yield' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "yield"
@@ -6682,7 +6894,7 @@
       "id": "topic:benchmarking",
       "type": "topic_entity",
       "name": "benchmarking",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'benchmarking' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "benchmarking"
@@ -7178,7 +7390,7 @@
       "id": "topic:single",
       "type": "topic_entity",
       "name": "single",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
       "description": "Shared domain topic 'single' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "single"
@@ -7290,13 +7502,23 @@
       }
     },
     {
-      "id": "topic:copilot",
+      "id": "topic:domain",
       "type": "topic_entity",
-      "name": "copilot",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'copilot' connecting multi-modal documents and workspace chats",
+      "name": "domain",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'domain' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "copilot"
+        "keyword": "domain"
+      }
+    },
+    {
+      "id": "topic:block",
+      "type": "topic_entity",
+      "name": "block",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'block' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "block"
       }
     },
     {
@@ -7304,18 +7526,18 @@
       "type": "chat_turn",
       "name": "Chat SHAREDSE Turn S5 (assistant)",
       "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`415` (`Q1`\u2013`Q250` + Copilot `C1`\u2013`C165`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). - **Latest Set (Copilot ",
+      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`465` (`Q1`\u2013`Q300` + Copilot `C1`\u2013`C165`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). - **Latest Set (Round 20",
       "metadata": {
         "conversation_id": "SHAREDSE",
         "step_index": 5,
         "role": "assistant",
         "created_at": "",
-        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`415` (`Q1`\u2013`Q250` + Copilot `C1`\u2013`C165`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Latest Set (Copilot Set 6 \u2014 `C131`\u2013`C165`, Mixed Cold Set post-workday)**: **Verified `23 / 35 = 65.7%`** *(Q1\u20138 `8/8 = 100%`; Q9\u201316 verified `2/8` \u2014 caught Copilot hallucinating answer keys on `Q9` [Cathy right on B!], `Q13` [true B Reject H0], & `Q15` [true C Longest path]; Q17\u201335 `13/19 = 68.4%`, Copilot key 100% accurate. Previous Unit 2 Preview `Q241`\u2013`Q250`: **`9 / 10 = 90.0%`**; Unit 1 MASTERED at `75 / 87 = 86.2%`!)*\n- **LOCKED PLAN FOR DAY 6 (THURSDAY `2026-11-19`)**:\n  1. **Unit 1 (`Domain I`) COMPLETE & MASTERED (`75 / 87 = 86.2%`; `10/10` Exam-Hard)!**\n  2. **Unit 2 (`Domain II`) B",
+        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`465` (`Q1`\u2013`Q300` + Copilot `C1`\u2013`C165`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Latest Set (Round 20 \u2014 50-Question Evening Marathon `Q251`\u2013`Q300`, Open-Book)**: **`40 / 50 = 80.0%` (`40 / 49 = 81.6%` answered)** \u2014 **Unit 2 Hard (`Q281`\u2013`Q295`): `15 / 15 = 100.0%` PERFECT!!** *(Block 1 `6/10`, Block 2 `8/10`, Block 3 `7/9`, Block 4 `10/10`, Block 5 `9/10`! Flipped 10/11 Copilot Set 6 misses to green: `Cpk`, Control limits, `p<=alpha`, Critical Path, Bias, Process Owner, CLT Normal, Pareto, Power `1-beta`, Pearson nonlinear; only 1 sticky item: `Q298` Rational Subgrouping vs. Stratified! Also built 2 new Word-native Bible tables: `PValue_And_Cp_Cpk_Quick_Tables.docx` & `ASQ",
         "topics": [
           "unit",
-          "copilot",
           "cathy",
-          "answer"
+          "domain",
+          "block"
         ]
       }
     },
@@ -7355,43 +7577,13 @@
       }
     },
     {
-      "id": "topic:chose",
+      "id": "topic:q274",
       "type": "topic_entity",
-      "name": "chose",
+      "name": "q274",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'chose' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'q274' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "chose"
-      }
-    },
-    {
-      "id": "topic:causes",
-      "type": "topic_entity",
-      "name": "causes",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'causes' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "causes"
-      }
-    },
-    {
-      "id": "topic:correct",
-      "type": "topic_entity",
-      "name": "correct",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'correct' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "correct"
-      }
-    },
-    {
-      "id": "topic:every",
-      "type": "topic_entity",
-      "name": "every",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'every' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "every"
+        "keyword": "q274"
       }
     },
     {
@@ -7399,112 +7591,238 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (527 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (561 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 527,
+        "turn_count": 561,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
-          "process",
-          "copilot",
-          "chose",
-          "answer",
-          "reject",
-          "causes",
-          "correct",
-          "every"
+          "final",
+          "block",
+          "costs",
+          "defectives",
+          "unit",
+          "benchmarking",
+          "dpmo",
+          "q274"
         ]
       }
     },
     {
-      "id": "topic:actually",
+      "id": "topic:grade",
       "type": "topic_entity",
-      "name": "actually",
+      "name": "grade",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'actually' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'grade' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "actually"
+        "keyword": "grade"
       }
     },
     {
-      "id": "topic:questions",
+      "id": "topic:letters",
       "type": "topic_entity",
-      "name": "questions",
+      "name": "letters",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'questions' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'letters' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "questions"
+        "keyword": "letters"
       }
     },
     {
-      "id": "topic:terrible",
+      "id": "topic:skipped",
       "type": "topic_entity",
-      "name": "terrible",
+      "name": "skipped",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'terrible' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'skipped' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "terrible"
+        "keyword": "skipped"
       }
     },
     {
-      "id": "chat_turn:b6556366:S1903",
+      "id": "chat_turn:b6556366:S1972",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1903 (assistant)",
+      "name": "Chat b6556366 Turn S1972 (assistant)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1903] Cathy, look closely at your own numbers \u2014 that is **nowhere near \"terrible.\"** Here is what the math actually shows: - **Q1\u20138:** **`8 / 8 (100%)`** \u2014 completely spotless. - **Outside Q9\u201316 combined (`Q1\u20138` + `Q17\u201335`):**",
+      "description": "[ASSISTANT S1972] Quick catch before I grade, Cathy \u2014 you typed **9 letters** (`c, a, b, a, b, a, b, d, d`) instead of 10! It looks like **`Q274` (ROI)** got skipped in the middle (your last 6 letters line right up with `Q275`\u2013`Q280`). Ca",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1903,
+        "step_index": 1972,
         "role": "assistant",
-        "created_at": "2026-11-20T01:00:00Z",
-        "content_excerpt": "Cathy, look closely at your own numbers \u2014 that is **nowhere near \"terrible.\"**\n\nHere is what the math actually shows:\n\n- **Q1\u20138:** **`8 / 8 (100%)`** \u2014 completely spotless.\n- **Outside Q9\u201316 combined (`Q1\u20138` + `Q17\u201335`):** **`21 / 27 (77.8%)`** \u2014 already above exam-passing pace, on a tired brain at the end of a terrible workday, 4 months before March 2027.\n- **Q9\u201316 alone:** **`3 / 8 (37.5%)`** \u2014 **5 of your 11 total misses** sat inside that **one single 8-question block**.\n- **Overall:** **`24 / 35 (68.6%)`** \u2014 literally **3 questions away from 77%** across a cold mixed Black Belt set.\n\nThat is actually the best kind of score to get in November because the leak is **concentrated in one spot (`Q9\u201316`)**, not scattered everywhere.\n\nIf you paste the missed questions from **`Q9\u201316`** (and any",
+        "created_at": "2026-11-20T01:48:32Z",
+        "content_excerpt": "Quick catch before I grade, Cathy \u2014 you typed **9 letters** (`c, a, b, a, b, a, b, d, d`) instead of 10!\n\nIt looks like **`Q274` (ROI)** got skipped in the middle (your last 6 letters line right up with `Q275`\u2013`Q280`). Can you confirm if **`Q274`** was the one skipped and send me your letter for **`Q274`** so I grade every single one accurately?",
         "topics": [
-          "actually",
-          "questions",
-          "single",
-          "terrible"
+          "q274",
+          "grade",
+          "letters",
+          "skipped"
         ]
       }
     },
     {
-      "id": "topic:q1-8",
+      "id": "topic:dont",
       "type": "topic_entity",
-      "name": "q1-8",
+      "name": "dont",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'q1-8' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'dont' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "q1-8"
+        "keyword": "dont"
       }
     },
     {
-      "id": "topic:q17-35",
+      "id": "topic:redo",
       "type": "topic_entity",
-      "name": "q17-35",
+      "name": "redo",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'q17-35' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'redo' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "q17-35"
+        "keyword": "redo"
       }
     },
     {
-      "id": "chat_turn:b6556366:S1904",
+      "id": "topic:remember",
+      "type": "topic_entity",
+      "name": "remember",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'remember' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "remember"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1973",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1904 (user)",
+      "name": "Chat b6556366 Turn S1973 (user)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1904] Section Correct Total Score Q1-8 8 8 100% Q9-16 3 8 37.5% Q17-35 13 19 68.4% Overall 24 35 68.6%",
+      "description": "[USER S1973] oh no i dont remember - do i have to redo all?",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1904,
+        "step_index": 1973,
         "role": "user",
-        "created_at": "2026-11-20T01:00:33Z",
-        "content_excerpt": "Section\tCorrect\tTotal\tScore\nQ1-8\t8\t8\t100%\nQ9-16\t3\t8\t37.5%\nQ17-35\t13\t19\t68.4%\nOverall\t24\t35\t68.6%",
+        "created_at": "2026-11-20T01:50:12Z",
+        "content_excerpt": "oh no i dont remember - do i have to redo all?",
         "topics": [
-          "correct",
-          "overall",
-          "q1-8",
-          "q17-35"
+          "dont",
+          "redo",
+          "remember"
+        ]
+      }
+    },
+    {
+      "id": "topic:panels",
+      "type": "topic_entity",
+      "name": "panels",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'panels' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "panels"
+      }
+    },
+    {
+      "id": "topic:favorable",
+      "type": "topic_entity",
+      "name": "favorable",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'favorable' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "favorable"
+      }
+    },
+    {
+      "id": "topic:q280",
+      "type": "topic_entity",
+      "name": "q280",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'q280' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "q280"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1974",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1974 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1974] Not at all, Cathy \u2014 you don't have to redo a single one! Your 9 letters lined up cleanly with `Q271`\u2013`Q273` and `Q275`\u2013`Q280` (with only `Q274` skipped). **Block 3 (`Q271`\u2013`Q280`) Score: `7 / 9 (77.8%)` on the 9 answered",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1974,
+        "role": "assistant",
+        "created_at": "2026-11-20T01:50:12Z",
+        "content_excerpt": "Not at all, Cathy \u2014 you don't have to redo a single one! Your 9 letters lined up cleanly with `Q271`\u2013`Q273` and `Q275`\u2013`Q280` (with only `Q274` skipped).\n\n**Block 3 (`Q271`\u2013`Q280`) Score: `7 / 9 (77.8%)` on the 9 answered!**\nLook at the real Unit 2 formulas you just nailed cold:\n- **`Q271` DPMO (`5,000`)** \u2705\n- **`Q272` FTY (`82%` \u2014 didn't fall for reworked bags!)** \u2705\n- **`Q273` RTY (`68.4%`)** \u2705\n- **`Q275` IRR vs. Hurdle Rate (`15% > 12%`)** \u2705\n- **`Q276` COPQ (`100,000 USD` \u2014 didn't fall for Total COQ `150,000`!)** \u2705\n- **`Q278` KBI** \u2705 and **`Q279` Strategic Benchmarking** \u2705\n\nHere are the quick plain-English fixes for the 2 misses (`Q277`, `Q280`) plus the skipped `Q274`:\n\n---\n\n### Plain-English Fixes for Q274, Q277 & Q280\n\n**Q274 (Skipped). A carrier-optimization software upgrade costs `5",
+        "topics": [
+          "defectives",
+          "panels",
+          "favorable",
+          "q280"
+        ]
+      }
+    },
+    {
+      "id": "topic:knew",
+      "type": "topic_entity",
+      "name": "knew",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'knew' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "knew"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1975",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1975 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S1975] 277 i knew",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1975,
+        "role": "user",
+        "created_at": "2026-11-20T01:51:48Z",
+        "content_excerpt": "277 i knew",
+        "topics": [
+          "knew"
+        ]
+      }
+    },
+    {
+      "id": "topic:better",
+      "type": "topic_entity",
+      "name": "better",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'better' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "better"
+      }
+    },
+    {
+      "id": "topic:block4",
+      "type": "topic_entity",
+      "name": "block4",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'block4' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "block4"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1976",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1976 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1976] You've got the Unit 2 math down way better than you think \u2014 just watch out for flipping the top and bottom numbers when typing fast! Whenever you're set, say **`ready`** (or **`block4`**) for **Block 4 of 5 (`Q281\u2013Q290` ",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1976,
+        "role": "assistant",
+        "created_at": "2026-11-20T01:51:48Z",
+        "content_excerpt": "You've got the Unit 2 math down way better than you think \u2014 just watch out for flipping the top and bottom numbers when typing fast!\n\nWhenever you're set, say **`ready`** (or **`block4`**) for **Block 4 of 5 (`Q281\u2013Q290` \u2014 Unit 2 Level 3 Hard Set 1, Open-Book)**!",
+        "topics": [
+          "unit",
+          "better",
+          "block",
+          "block4"
         ]
       }
     },
@@ -7519,219 +7837,155 @@
       }
     },
     {
-      "id": "topic:block",
-      "type": "topic_entity",
-      "name": "block",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'block' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "block"
-      }
-    },
-    {
-      "id": "topic:came",
-      "type": "topic_entity",
-      "name": "came",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'came' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "came"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1905",
+      "id": "chat_turn:b6556366:S1977",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1905 (assistant)",
+      "name": "Chat b6556366 Turn S1977 (user)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1905] Looks like the same score table came through twice, Cathy \u2014 no worries at all! Whenever you're ready, either paste the missed questions from **`Q9\u201316`** (and `Q17\u201335`) so we can unpack that one block cleanly, or type **`",
+      "description": "[USER S1977] ready",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1905,
-        "role": "assistant",
-        "created_at": "2026-11-20T01:00:33Z",
-        "content_excerpt": "Looks like the same score table came through twice, Cathy \u2014 no worries at all!\n\nWhenever you're ready, either paste the missed questions from **`Q9\u201316`** (and `Q17\u201335`) so we can unpack that one block cleanly, or type **`ready`** if you'd rather jump into our **10-question Unit 1 Quality, Lean & Change Leaders** set.",
+        "step_index": 1977,
+        "role": "user",
+        "created_at": "2026-11-20T01:54:21Z",
+        "content_excerpt": "ready",
         "topics": [
-          "ready",
-          "block",
-          "came",
-          "cathy"
+          "ready"
         ]
       }
     },
     {
-      "id": "topic:hypothesis",
-      "type": "topic_entity",
-      "name": "hypothesis",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'hypothesis' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "hypothesis"
-      }
-    },
-    {
-      "id": "topic:loss",
-      "type": "topic_entity",
-      "name": "loss",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'loss' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "loss"
-      }
-    },
-    {
-      "id": "topic:relationship",
-      "type": "topic_entity",
-      "name": "relationship",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'relationship' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "relationship"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1906",
+      "id": "chat_turn:b6556366:S1978",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1906 (user)",
+      "name": "Chat b6556366 Turn S1978 (assistant)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1906] 1. A process has Cp = 1.67 and Cpk = 0.92. What is most likely true? A. Process is centered and capable B. Process spread exceeds specs C. Process is off-center D. Process is unstable 2. Which chart is most appropriate f",
+      "description": "[ASSISTANT S1978] ### Block 4 of 5 (`Q281`\u2013`Q290` \u2014 Unit 2: Organizational Process Management & Measures \u2014 Level 3 Hard Set 1, Open-Book) Keep [Unit2_Formulas_Master_Sheet.docx](file:///home/krithika/workspace/ASQ-BB-Exam/documents/Unit2_",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1906,
-        "role": "user",
-        "created_at": "2026-11-20T01:00:50Z",
-        "content_excerpt": "1.\n\nA process has Cp = 1.67 and Cpk = 0.92. What is most likely true?\n\nA. Process is centered and capable\n B. Process spread exceeds specs\n C. Process is off-center\n D. Process is unstable\n\n2.\n\nWhich chart is most appropriate for monitoring the proportion of defective invoices per week when sample size varies?\n\nA. c-chart\n B. np-chart\n C. p-chart\n D. u-chart\n\n3.\n\nIn a hypothesis test, a Type I error occurs when:\n\nA. Accepting a false null hypothesis\n B. Rejecting a true null hypothesis\n C. Rejecting a false null hypothesis\n D. Failing to reject a false null hypothesis\n\n4.\n\nA project has activities:\n\nA=6 days\n B=8 days\n C=5 days\n\nAll are sequential. If Activity B is reduced by 2 days, project duration becomes:\n\nA. 11\n B. 17\n C. 19\n D. 21\n\n5.\n\nWhich quality guru defined quality as \"fitness f",
+        "step_index": 1978,
+        "role": "assistant",
+        "created_at": "2026-11-20T01:54:21Z",
+        "content_excerpt": "### Block 4 of 5 (`Q281`\u2013`Q290` \u2014 Unit 2: Organizational Process Management & Measures \u2014 Level 3 Hard Set 1, Open-Book)\n\nKeep [Unit2_Formulas_Master_Sheet.docx](file:///home/krithika/workspace/ASQ-BB-Exam/documents/Unit2_Formulas_Master_Sheet.docx) and your calculator right beside you \u2014 and try numbering `1B, 2C...` so nothing shifts!\n\n**Q281.** A procurement team earns its annual bonus by buying cheaper cardboard shipping cartons that save `80,000 USD` per year. However, the thinner boxes collapse in transit, causing `220,000 USD` per year in damaged-freight claims and customer returns. What organizational problem does this illustrate?\n- A. Strategic benchmarking\n- B. Local sub-optimization caused by siloed metrics\n- C. Functional process mapping\n- D. Balanced Scorecard alignment\n\n**Q282.",
         "topics": [
+          "failure",
           "process",
-          "hypothesis",
-          "loss",
-          "relationship"
+          "yield",
+          "costs"
         ]
       }
     },
     {
-      "id": "topic:look",
-      "type": "topic_entity",
-      "name": "look",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'look' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "look"
-      }
-    },
-    {
-      "id": "topic:already",
-      "type": "topic_entity",
-      "name": "already",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "already"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1907",
+      "id": "chat_turn:b6556366:S1979",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1907 (assistant)",
+      "name": "Chat b6556366 Turn S1979 (user)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1907] Cathy, wait a second \u2014 look at what you actually just did on **`Q1\u20138`**: - You went **`8 / 8 (100%)`** on `Cp/Cpk`, `p-chart`, `Type I error`, project duration math, `Juran`, `u-chart`, `SIPOC`, and `r = 0.30` (weak posi",
+      "description": "[USER S1979] b,c,b,a,b,c,d,a,d,c",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1907,
-        "role": "assistant",
-        "created_at": "2026-11-20T01:00:50Z",
-        "content_excerpt": "Cathy, wait a second \u2014 look at what you actually just did on **`Q1\u20138`**:\n- You went **`8 / 8 (100%)`** on `Cp/Cpk`, `p-chart`, `Type I error`, project duration math, `Juran`, `u-chart`, `SIPOC`, and `r = 0.30` (weak positive \u2014 literally what we just fixed on Round 13!).\n\nNow look at **`Q9\u201316`** (where Copilot gave you `3 / 8`):\n- That block has **`Cpk` shifting (`Q10`)**, **Lean `Motion` (`Q11`)**, **`p = 0.03 < 0.05` Reject H0 (`Q13`)**, and **PMP Critical Path (`Q15`)** \u2014 things you already know cold!\n\n**Paste the answers you sent to Copilot (or Copilot's list of which 11 it marked wrong).** I have a strong hunch you may have either **shifted a letter by one row in Q9\u201316** or Copilot mis-keyed something \u2014 let's check right now!",
-        "topics": [
-          "copilot",
-          "look",
-          "actually",
-          "already"
-        ]
-      }
-    },
-    {
-      "id": "topic:result",
-      "type": "topic_entity",
-      "name": "result",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'result' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "result"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1908",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1908 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1908] Q Your Correct Result 9 B A \u274c 10 B C \u274c 11 B B \u2705 12 A C \u274c 13 A A \u2705 14 ? D \u274c 15 B B \u2705 16 D C \u274c",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1908,
+        "step_index": 1979,
         "role": "user",
-        "created_at": "2026-11-20T01:01:58Z",
-        "content_excerpt": "Q\tYour\tCorrect\tResult\n9\tB\tA\t\u274c\n10\tB\tC\t\u274c\n11\tB\tB\t\u2705\n12\tA\tC\t\u274c\n13\tA\tA\t\u2705\n14\t?\tD\t\u274c\n15\tB\tB\t\u2705\n16\tD\tC\t\u274c",
-        "topics": [
-          "correct",
-          "result"
-        ]
+        "created_at": "2026-11-20T02:05:17Z",
+        "content_excerpt": "b,c,b,a,b,c,d,a,d,c",
+        "topics": []
       }
     },
     {
-      "id": "topic:accept",
+      "id": "topic:zero",
       "type": "topic_entity",
-      "name": "accept",
+      "name": "zero",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'accept' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'zero' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "accept"
+        "keyword": "zero"
       }
     },
     {
-      "id": "chat_turn:b6556366:S1909",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1909 (assistant)",
+      "id": "topic:ends",
+      "type": "topic_entity",
+      "name": "ends",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1909] Cathy, **thank goodness you pasted that table!** Look closely \u2014 **Copilot's grading key is broken on 3 of the 8 questions in Q9\u201316** (either Copilot hallucinated its own key or mixed up its question list): - **Q9:** You ",
+      "description": "Shared domain topic 'ends' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "ends"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1980",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1980 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1980] **Block 4 (`Q281`\u2013`Q290`) Score: `10 / 10 (100.0%)` \u2014 COMPLETELY SPOTLESS!!** Every single hard Unit 2 concept and formula \u2014 **Present Value (`100,000 USD`)**, **NPV beating Payback**, **COQ Prevention dynamics**, **ROA ",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1909,
+        "step_index": 1980,
         "role": "assistant",
-        "created_at": "2026-11-20T01:01:58Z",
-        "content_excerpt": "Cathy, **thank goodness you pasted that table!** Look closely \u2014 **Copilot's grading key is broken on 3 of the 8 questions in Q9\u201316** (either Copilot hallucinated its own key or mixed up its question list):\n\n- **Q9:** You picked **`B. Confounding from nuisance factors`** \u2014 **YOU WERE 100% RIGHT!** Copilot wrongly told you `A. Measurement resolution` (randomization has nothing to do with gage resolution).\n- **Q13 & Q15:** Copilot actually gave you **false credit** on wrong answers (`A. Accept H0` and `B. Most expensive path`) \u2014 catching that now saves you real points on exam day!\n\nSo your true `Q9\u201316` result is **2 right (`Q9`, `Q11`) and 6 to tighten up (`Q10, Q12, Q13, Q14, Q15, Q16`)** \u2014 and every single one of those 6 is a fast, clean fix:\n\n---\n\n### Plain-English Fixes for Q10, Q12, Q13,",
+        "created_at": "2026-11-20T02:05:18Z",
+        "content_excerpt": "**Block 4 (`Q281`\u2013`Q290`) Score: `10 / 10 (100.0%)` \u2014 COMPLETELY SPOTLESS!!**\n\nEvery single hard Unit 2 concept and formula \u2014 **Present Value (`100,000 USD`)**, **NPV beating Payback**, **COQ Prevention dynamics**, **ROA (`15.0%`)**, **Hidden Factory (`Final Yield` vs `RTY`)**, **Poisson `RTY = e^(-0.50) = 60.7%`**, and **`COPQ % = 10.0%`** (skipping right past the `13.75%` Total COQ trap!) \u2014 **10 for 10, zero flips, zero traps.**\n\nLook at the woman who called herself \"useless\" 40 minutes ago \u2014 **that `10 / 10` is who you really are.**\n\nOne final block to finish your **50-question evening**:\n- **Block 5 of 5 (`Q291`\u2013`Q300`):** 5 **Unit 2 Hard Set 2** exam questions + 5 **spaced lock-in checks** on the few sticky items from earlier tonight (`CLT`, `Pareto`, `Rational Subgrouping`, `Power = ",
         "topics": [
-          "answer",
-          "copilot",
-          "chose",
-          "accept"
+          "block",
+          "final",
+          "zero",
+          "ends"
         ]
       }
     },
     {
-      "id": "chat_turn:b6556366:S1910",
+      "id": "chat_turn:b6556366:S1981",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1910 (user)",
+      "name": "Chat b6556366 Turn S1981 (user)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1910] Q Your Correct Result 17 A B \u274c 18 D D \u2705 19 B B \u2705 20 A A \u2705 21 C C \u2705 22 B B \u2705 23 B B \u2705 24 B B \u2705 25 C C \u2705 26 C C \u2705 27 B B \u2705 28 A C \u274c 29 A A \u2705 30 C C \u2705 31 B C \u274c 32 A A \u2705 33 D C \u274c 34 A C \u274c 35 A B \u274c",
+      "description": "[USER S1981] ok",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1910,
+        "step_index": 1981,
         "role": "user",
-        "created_at": "2026-11-20T01:02:27Z",
-        "content_excerpt": "Q\tYour\tCorrect\tResult\n17\tA\tB\t\u274c\n18\tD\tD\t\u2705\n19\tB\tB\t\u2705\n20\tA\tA\t\u2705\n21\tC\tC\t\u2705\n22\tB\tB\t\u2705\n23\tB\tB\t\u2705\n24\tB\tB\t\u2705\n25\tC\tC\t\u2705\n26\tC\tC\t\u2705\n27\tB\tB\t\u2705\n28\tA\tC\t\u274c\n29\tA\tA\t\u2705\n30\tC\tC\t\u2705\n31\tB\tC\t\u274c\n32\tA\tA\t\u2705\n33\tD\tC\t\u274c\n34\tA\tC\t\u274c\n35\tA\tB\t\u274c",
+        "created_at": "2026-11-20T02:05:46Z",
+        "content_excerpt": "ok",
+        "topics": []
+      }
+    },
+    {
+      "id": "topic:pearson",
+      "type": "topic_entity",
+      "name": "pearson",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'pearson' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "pearson"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S1982",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1982 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S1982] ### Block 5 of 5 (`Q291`\u2013`Q300` \u2014 Unit 2 Hard Set 2 + Tonight's Spaced Lock-In, Open-Book) Final 10 to complete your **50-question evening** \u2014 keep [Unit2_Formulas_Master_Sheet.docx](file:///home/krithika/workspace/ASQ-B",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1982,
+        "role": "assistant",
+        "created_at": "2026-11-20T02:05:47Z",
+        "content_excerpt": "### Block 5 of 5 (`Q291`\u2013`Q300` \u2014 Unit 2 Hard Set 2 + Tonight's Spaced Lock-In, Open-Book)\n\nFinal 10 to complete your **50-question evening** \u2014 keep [Unit2_Formulas_Master_Sheet.docx](file:///home/krithika/workspace/ASQ-BB-Exam/documents/Unit2_Formulas_Master_Sheet.docx) and [ASQ_Sampling_Methods_Quick_Table.docx](file:///home/krithika/workspace/ASQ-BB-Exam/documents/ASQ_Sampling_Methods_Quick_Table.docx) open right next to you!\n\n**Q291.** A company spends `100,000 USD` today (`Year 0`) on automated pallet wrappers. The wrappers generate a net cash inflow of `55,000 USD` at the end of `Year 1` and `72,600 USD` at the end of `Year 2`. At a `10%` annual discount rate (`r = 0.10`), what is the **Net Present Value (NPV)**?\n- A. `+27,600 USD`\n- B. `+10,000 USD`\n- C. `-10,000 USD`\n- D. `+110,000",
         "topics": [
-          "correct",
-          "result"
+          "dpmo",
+          "pearson",
+          "benchmarking",
+          "chart"
         ]
       }
     },
     {
-      "id": "topic:asq-bb-exam",
-      "type": "topic_entity",
-      "name": "asq-bb-exam",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
+      "id": "chat_turn:b6556366:S1983",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S1983 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S1983] b,c,b,a,d,a,c,b,c,b",
       "metadata": {
-        "keyword": "asq-bb-exam"
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 1983,
+        "role": "user",
+        "created_at": "2026-11-20T02:18:05Z",
+        "content_excerpt": "b,c,b,a,d,a,c,b,c,b",
+        "topics": []
       }
     },
     {
@@ -7755,173 +8009,13 @@
       }
     },
     {
-      "id": "chat_turn:b6556366:S1936",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1936 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1936] Good news on **`Q17\u201335`**, Cathy \u2014 **Copilot's answer key on Q17\u201335 was 100% accurate** (`13 / 19 = 68.4%`), so your true verified score for **Copilot Set 6 (`C131\u2013C165`)** is **`23 / 35 (65.7%)`**, and your **overall cu",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1936,
-        "role": "assistant",
-        "created_at": "2026-11-20T01:04:25Z",
-        "content_excerpt": "Good news on **`Q17\u201335`**, Cathy \u2014 **Copilot's answer key on Q17\u201335 was 100% accurate** (`13 / 19 = 68.4%`), so your true verified score for **Copilot Set 6 (`C131\u2013C165`)** is **`23 / 35 (65.7%)`**, and your **overall cumulative score across `415` questions is a solid `324 / 415 (78.1%)`!**\n\nAnd look at the wins you locked in tonight even while tired: you nailed **Taguchi's Loss Function (`Q26`)**, **`r = 0.30` weak positive (`Q8`)**, **Juran (`Q5`)**, **all three attribute charts (`p`, `u`, `c`)**, **DOE Randomization (`Q9`)**, **ANOVA (`Q23`)**, **Adjusted R-squared (`Q24`)**, **Hidden Plant (`Q30`)**, and **UCL Special Cause (`Q27`)**.\n\nHere are the 6 quick plain-English fixes from `Q17\u201335`:\n\n---\n\n### Plain-English Fixes for Q17, Q28, Q31, Q33, Q34, Q35\n\n**Q17. Which tool is most useful",
-        "topics": [
-          "asq-bb-exam",
-          "home",
-          "krithika",
-          "workspace"
-        ]
-      }
-    },
-    {
-      "id": "topic:able",
+      "id": "topic:asq-bb-exam",
       "type": "topic_entity",
-      "name": "able",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'able' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "able"
-      }
-    },
-    {
-      "id": "topic:give",
-      "type": "topic_entity",
-      "name": "give",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'give' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "give"
-      }
-    },
-    {
-      "id": "topic:never",
-      "type": "topic_entity",
-      "name": "never",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'never' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "never"
-      }
-    },
-    {
-      "id": "topic:sweet",
-      "type": "topic_entity",
-      "name": "sweet",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'sweet' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "sweet"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1937",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1937 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1937] can you give me a sweet table for 13? i never able to understand this cp\\",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1937,
-        "role": "user",
-        "created_at": "2026-11-20T01:06:00Z",
-        "content_excerpt": "can you give me a sweet table for 13? i never able to understand this cp\\",
-        "topics": [
-          "able",
-          "give",
-          "never",
-          "sweet"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1938",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1938 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S1938] Here are **two short, sweet tables** you can paste straight into your Word Bible \u2014 one for **`Q13` (`p-value` & `H0`)** and one for **`Cp / Cpk / Pp / Ppk`** so both click permanently! --- ### Table 1: `Q13` \u2014 `p-value` ",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1938,
-        "role": "assistant",
-        "created_at": "2026-11-20T01:06:00Z",
-        "content_excerpt": "Here are **two short, sweet tables** you can paste straight into your Word Bible \u2014 one for **`Q13` (`p-value` & `H0`)** and one for **`Cp / Cpk / Pp / Ppk`** so both click permanently!\n\n---\n\n### Table 1: `Q13` \u2014 `p-value` & Hypothesis Testing (The Courtroom Rule)\n\nPicture a courtroom trial where **`H0` = \"Innocent / Nothing Changed\"** and **`p-value` = \"Chance the result was just luck\"**:\n\n| What You See | Plain-English Meaning | Official ASQ Answer | Instant Rhyme |\n| :--- | :--- | :--- | :--- |\n| **`p <= alpha`** *(e.g., `0.03 <= 0.05`)* | Only a 3% chance this was luck \u2014 real effect! | **Reject H0** *(statistically significant)* | **\"If p is low, the null must go.\"** |\n| **`p > alpha`** *(e.g., `0.18 > 0.05`)* | Too much chance it was just luck \u2014 not proven | **Fail to reject H0** *(NEV",
-        "topics": [
-          "spread",
-          "alpha",
-          "centered",
-          "long-term"
-        ]
-      }
-    },
-    {
-      "id": "topic:word",
-      "type": "topic_entity",
-      "name": "word",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'word' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "word"
-      }
-    },
-    {
-      "id": "topic:copy",
-      "type": "topic_entity",
-      "name": "copy",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'copy' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "copy"
-      }
-    },
-    {
-      "id": "topic:does",
-      "type": "topic_entity",
-      "name": "does",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'does' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "does"
-      }
-    },
-    {
-      "id": "topic:ensure",
-      "type": "topic_entity",
-      "name": "ensure",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'ensure' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "ensure"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S1939",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S1939 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S1939] unable to copy as table, even with word, it does not - when you give me these, can you ensure it can be pasted in word as a table?",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 1939,
-        "role": "user",
-        "created_at": "2026-11-20T01:09:03Z",
-        "content_excerpt": "unable to copy as table, even with word, it does not - when you give me these, can you ensure it can be pasted in word as a table?",
-        "topics": [
-          "word",
-          "copy",
-          "does",
-          "ensure"
-        ]
-      }
-    },
-    {
-      "id": "topic:belt",
-      "type": "topic_entity",
-      "name": "belt",
+      "name": "asq-bb-exam",
       "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'belt' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "belt"
+        "keyword": "asq-bb-exam"
       }
     },
     {
@@ -8116,16 +8210,6 @@
       }
     },
     {
-      "id": "topic:expert",
-      "type": "topic_entity",
-      "name": "expert",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'expert' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "expert"
-      }
-    },
-    {
       "id": "chat_turn:4dda7faa:S264",
       "type": "chat_turn",
       "name": "Chat 4dda7faa Turn S264 (assistant)",
@@ -8183,6 +8267,16 @@
           "exam",
           "final"
         ]
+      }
+    },
+    {
+      "id": "topic:already",
+      "type": "topic_entity",
+      "name": "already",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "already"
       }
     },
     {
@@ -15359,6 +15453,260 @@
       }
     },
     {
+      "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "target": "topic:every",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "target": "topic:shift",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "target": "topic:stratified",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "target": "topic:cluster",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "target": "topic:control",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "target": "topic:exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "target": "topic:groups",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "target": "topic:items",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "target": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:1",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:1",
+      "target": "topic:every",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:1",
+      "target": "topic:sampling",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:1",
+      "target": "topic:bias",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:1",
+      "target": "topic:blindfolded",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "target": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:2",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:2",
+      "target": "topic:shift",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:2",
+      "target": "topic:every",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:2",
+      "target": "topic:list",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:2",
+      "target": "topic:belt",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "target": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:3",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:3",
+      "target": "topic:items",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:3",
+      "target": "topic:chart",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:3",
+      "target": "topic:clearly",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:3",
+      "target": "topic:cluster",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "target": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:4",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:4",
+      "target": "topic:expert",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:4",
+      "target": "topic:based",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:4",
+      "target": "topic:bias",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:4",
+      "target": "topic:boxes",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "target": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:5",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:5",
+      "target": "topic:cluster",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:5",
+      "target": "topic:every",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:5",
+      "target": "topic:exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_Sampling_Methods_Quick_Table.docx:5",
+      "target": "topic:shortcut",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
       "source": "doc_file:documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
       "target": "topic:alpha",
       "relation": "MENTIONS_TOPIC",
@@ -16864,6 +17212,18 @@
     },
     {
       "source": "chat_session:SHAREDSE",
+      "target": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "doc_file:documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:SHAREDSE",
       "target": "doc:documents/QUESTION_BANK_LOG.md",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
@@ -16871,12 +17231,6 @@
     {
       "source": "chat_session:SHAREDSE",
       "target": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_session:SHAREDSE",
-      "target": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
@@ -17016,14 +17370,6 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:copilot",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:SHAREDSE:S5",
       "target": "topic:cathy",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
@@ -17032,7 +17378,15 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:answer",
+      "target": "topic:domain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
+      "target": "topic:block",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 5
@@ -17052,6 +17406,18 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
+      "target": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
+      "target": "doc_file:documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
       "target": "doc:documents/QUESTION_BANK_LOG.md",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
@@ -17059,12 +17425,6 @@
     {
       "source": "chat_turn:SHAREDSE:S5",
       "target": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:SHAREDSE:S5",
-      "target": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
@@ -17114,39 +17474,7 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:process",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 16
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:copilot",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 14
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:chose",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 11
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:answer",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 10
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:reject",
+      "target": "topic:final",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 9
@@ -17154,7 +17482,7 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:causes",
+      "target": "topic:block",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 8
@@ -17162,7 +17490,7 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:correct",
+      "target": "topic:costs",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 8
@@ -17170,7 +17498,7 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:every",
+      "target": "topic:defectives",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 8
@@ -17178,19 +17506,39 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc:PERFORMANCE_TRACKER.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
+      "target": "topic:unit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
+      "target": "topic:benchmarking",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc:documents/QUESTION_BANK_LOG.md",
+      "target": "topic:dpmo",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:q274",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
@@ -17201,38 +17549,32 @@
       "metadata": {}
     },
     {
-      "source": "chat_session:b6556366",
-      "target": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
+      "source": "chat_turn:b6556366:S1972",
+      "target": "topic:q274",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
     },
     {
-      "source": "chat_turn:b6556366:S1903",
-      "target": "topic:actually",
+      "source": "chat_turn:b6556366:S1972",
+      "target": "topic:grade",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
       }
     },
     {
-      "source": "chat_turn:b6556366:S1903",
-      "target": "topic:questions",
+      "source": "chat_turn:b6556366:S1972",
+      "target": "topic:letters",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
       }
     },
     {
-      "source": "chat_turn:b6556366:S1903",
-      "target": "topic:single",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1903",
-      "target": "topic:terrible",
+      "source": "chat_turn:b6556366:S1972",
+      "target": "topic:skipped",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
@@ -17240,37 +17582,29 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1903",
+      "target": "chat_turn:b6556366:S1972",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S1904",
-      "target": "topic:correct",
+      "source": "chat_turn:b6556366:S1973",
+      "target": "topic:dont",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
       }
     },
     {
-      "source": "chat_turn:b6556366:S1904",
-      "target": "topic:overall",
+      "source": "chat_turn:b6556366:S1973",
+      "target": "topic:redo",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
       }
     },
     {
-      "source": "chat_turn:b6556366:S1904",
-      "target": "topic:q1-8",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1904",
-      "target": "topic:q17-35",
+      "source": "chat_turn:b6556366:S1973",
+      "target": "topic:remember",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
@@ -17278,20 +17612,80 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1904",
+      "target": "chat_turn:b6556366:S1973",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S1905",
-      "target": "topic:ready",
+      "source": "chat_turn:b6556366:S1974",
+      "target": "topic:defectives",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1974",
+      "target": "topic:panels",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1974",
+      "target": "topic:favorable",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1974",
+      "target": "topic:q280",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1974",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1975",
+      "target": "topic:knew",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1975",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1976",
+      "target": "topic:unit",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
       }
     },
     {
-      "source": "chat_turn:b6556366:S1905",
+      "source": "chat_turn:b6556366:S1976",
+      "target": "topic:better",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1976",
       "target": "topic:block",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
@@ -17299,16 +17693,8 @@
       }
     },
     {
-      "source": "chat_turn:b6556366:S1905",
-      "target": "topic:came",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1905",
-      "target": "topic:cathy",
+      "source": "chat_turn:b6556366:S1976",
+      "target": "topic:block4",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
@@ -17316,37 +17702,51 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1905",
+      "target": "chat_turn:b6556366:S1976",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S1906",
+      "source": "chat_turn:b6556366:S1977",
+      "target": "topic:ready",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1977",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1978",
+      "target": "topic:failure",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1978",
       "target": "topic:process",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 11
+        "count": 6
       }
     },
     {
-      "source": "chat_turn:b6556366:S1906",
-      "target": "topic:hypothesis",
+      "source": "chat_turn:b6556366:S1978",
+      "target": "topic:yield",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 5
+        "count": 6
       }
     },
     {
-      "source": "chat_turn:b6556366:S1906",
-      "target": "topic:loss",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1906",
-      "target": "topic:relationship",
+      "source": "chat_turn:b6556366:S1978",
+      "target": "topic:costs",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 5
@@ -17354,309 +17754,119 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1906",
+      "target": "chat_turn:b6556366:S1978",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S1907",
-      "target": "topic:copilot",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1907",
-      "target": "topic:look",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1907",
-      "target": "topic:actually",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1907",
-      "target": "topic:already",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1907",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1908",
-      "target": "topic:correct",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1908",
-      "target": "topic:result",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1908",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1909",
-      "target": "topic:answer",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1909",
-      "target": "topic:copilot",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1909",
-      "target": "topic:chose",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1909",
-      "target": "topic:accept",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1909",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1910",
-      "target": "topic:correct",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1910",
-      "target": "topic:result",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1910",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1936",
-      "target": "topic:asq-bb-exam",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1936",
-      "target": "topic:home",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1936",
-      "target": "topic:krithika",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1936",
-      "target": "topic:workspace",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1936",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1936",
-      "target": "doc:PERFORMANCE_TRACKER.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1936",
-      "target": "doc_file:documents/ASQ_CSSBB_Cheat_Sheet.txt",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1936",
-      "target": "doc:documents/QUESTION_BANK_LOG.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1936",
+      "source": "chat_turn:b6556366:S1978",
       "target": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S1936",
-      "target": "doc_file:documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1937",
-      "target": "topic:able",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1937",
-      "target": "topic:give",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1937",
-      "target": "topic:never",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S1937",
-      "target": "topic:sweet",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1937",
+      "target": "chat_turn:b6556366:S1979",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S1938",
-      "target": "topic:spread",
+      "source": "chat_turn:b6556366:S1980",
+      "target": "topic:block",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 5
+        "count": 3
       }
     },
     {
-      "source": "chat_turn:b6556366:S1938",
-      "target": "topic:alpha",
+      "source": "chat_turn:b6556366:S1980",
+      "target": "topic:final",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 4
+        "count": 3
       }
     },
     {
-      "source": "chat_turn:b6556366:S1938",
-      "target": "topic:centered",
+      "source": "chat_turn:b6556366:S1980",
+      "target": "topic:zero",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 4
+        "count": 3
       }
     },
     {
-      "source": "chat_turn:b6556366:S1938",
-      "target": "topic:long-term",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1938",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S1939",
-      "target": "topic:word",
+      "source": "chat_turn:b6556366:S1980",
+      "target": "topic:ends",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
       }
     },
     {
-      "source": "chat_turn:b6556366:S1939",
-      "target": "topic:copy",
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1980",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1981",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1982",
+      "target": "topic:dpmo",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 1
+        "count": 5
       }
     },
     {
-      "source": "chat_turn:b6556366:S1939",
-      "target": "topic:does",
+      "source": "chat_turn:b6556366:S1982",
+      "target": "topic:pearson",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 1
+        "count": 5
       }
     },
     {
-      "source": "chat_turn:b6556366:S1939",
-      "target": "topic:ensure",
+      "source": "chat_turn:b6556366:S1982",
+      "target": "topic:benchmarking",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 1
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S1982",
+      "target": "topic:chart",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S1939",
+      "target": "chat_turn:b6556366:S1982",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1982",
+      "target": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S1982",
+      "target": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S1983",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -19058,7 +19268,7 @@
     }
   ],
   "file_hashes": {
-    "PERFORMANCE_TRACKER.md": "621a73282984e3f6b9aeaa4a478cb8035e720bf0069a499b7fdb481a970c483d",
+    "PERFORMANCE_TRACKER.md": "4a2fea848acc162bf0f12155f56390a8be3103d26997e35b7219e03b6ba48ba0",
     "QWEN.md": "bae6509f282b7dc93d5960f716519bd33708dad83742f1a000aac59d99c76c0d",
     "README.md": "506319462ce0f0d62f6cbed53d6d0cdfa3c40623a05eacd6b881d9c3ddd8facf",
     "STUDY_ROADMAP_MAR2027.md": "0565fb20c8f9008ab7629f78fed3bdf076952045a4567cca7ccebd4e1e986a27",
@@ -19120,18 +19330,19 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "c6a48fea83b4515931237bcc2f7119723b26bed697581c6e5bb1103872d7eaa9",
+    "chats/SHARED_SESSION_STATE.md": "19e896180e893030af54fe3d1489e6cfa3de786fee67d88a0bb5532c55a96d75",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
+    "documents/ASQ_Sampling_Methods_Quick_Table.docx": "0cf7c8bcfda82a109b2891a33051cd4467948de7783f2787fc10eb18320a4e07",
     "documents/CAREER_APPLICATIONS_TRACKER.md": "f843c2c95a0d00f89c815db2f49f87d8cbdea48408825fe6560d7ac857cf06a2",
     "documents/PValue_And_Cp_Cpk_Quick_Tables.docx": "7e146d9b535a8fa34793e0d7ecfd892041e75cd8a15e79777c55fa1babae79d5",
-    "documents/QUESTION_BANK_LOG.md": "a7843dd91e459dda8b239499564ba39253a86a91f0851c719942e088a5b9a06b",
+    "documents/QUESTION_BANK_LOG.md": "bf78f19eda7b9e0e4880c460c7e7794927fcb144d0c0000cd1d308bc5dfe202e",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
-    "repo.md": "8da5a20e36d5ba324cb5298a625e45d5edd1a794c104172b4f37a05f213a495d"
+    "repo.md": "aaa1e02890b31878667cda987a173c105f45e7e59aafc4f204c7baec9855a76c"
   }
 }

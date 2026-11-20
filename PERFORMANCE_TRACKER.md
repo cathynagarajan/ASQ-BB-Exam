@@ -2,23 +2,23 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Copilot Set 6 — `C131`–`C165`, Mixed Cold Set, post-workday):** **Verified `23 / 35` (`65.7%`)** *(Q1–8 `8/8 = 100%`; Q9–16 verified `2/8` after auditing 3 Copilot key bugs on Q9/Q13/Q15; Q17–35 `13/19 = 68.4%`! Previous Unit 2 Preview `Q241–Q250`: `9/10 = 90.0%`)*
-- **Overall Cumulative Score (`Q1`–`Q250` + `C1`–`C165` = `415` Qs):** **`324 / 415` (`78.1%`)**
+- **Latest Batch Score (Round 20 — 50-Question Evening Marathon `Q251`–`Q300`, Open-Book):** **`40 / 50` (`80.0%` | `40/49 = 81.6%` answered)** — **Unit 2 Hard `Q281–Q295`: `15 / 15 = 100.0%` PERFECT!** *(Block 1 `6/10`, Block 2 `8/10`, Block 3 `7/9`, Block 4 **`10/10`**, Block 5 **`9/10`**!)*
+- **Overall Cumulative Score (`Q1`–`Q300` + `C1`–`C165` = `465` Qs):** **`364 / 465` (`78.3%`)**
 
 ---
 
-## 1. Domain Mastery Summary (Strictly ASQ 2022 BoK — 200 Scored Qs)
+## 1. Domain Mastery Summary (Strictly ASQ 2022 BoK — 300 Scored Qs)
 
 | ASQ Domain | DMAIC Phase | Exam Weight | Attempted | Correct | Accuracy | Status / Priority |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 87 | 75 | **86.2%** | **UNIT 1 COMPLETE & MASTERED (`86.2%` across 87 Qs; `10/10` Exam-Hard + `8/10` Spaced Check)!** Light spaced re-test on Bridges Neutral Zone & Porter Suppliers later. |
-| **II. Org Process Mgmt & Measures** | Pre-DMAIC | 12 Qs (8.0%) | 18 | 15 | **83.3%** | **UNIT 2 PREVIEW `9 / 10` (`90.0%`!)** Mastered Functional/Competitive Benchmarking, Balanced Scorecard, OKRs, Leading/Lagging, Payback, NPV; repeat-trap check on **`II.C.2` Appraisal COQ (gage calibration + incoming inspection = Appraisal, NOT Prevention!)** |
-| **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 7 | 5 | **71.4%** | Review `III.B` Tuckman (Storming), `III.B` Lencioni 5 Dysfunctions, `III.C` Thomas-Kilmann Conflict Modes |
-| **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 48 | 38 | **79.2%** | **Define Basics Level 1 set ready on screen!** Review PERT variance `sqrt(sum var)`, ID `0 incoming`, PDPC vs PFMEA |
-| **V. Measure** | **Measure (M)** | 25 Qs (16.7%) | 50 | 35 | **70.0%** | **Stability (`Q130`), Nested MSA (`Q122`), EV (`Q124`), P/T (`Q126`) Mastered!** Review `%Contribution` (`1%–9%`), Linearity (`Q127`), 10-to-1 Resolution (`Q125`) |
-| **VI. Analyze** | **Analyze (A)** | 22 Qs (14.7%) | 30 | 24 | **80.0%** | **Correlation Level 1 `8/10` (`80%`)!** Review `|r|` strength (`-0.95` beats `+0.75`; `+0.12` = weak positive) |
+| **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 88 | 76 | **86.4%** | **UNIT 1 COMPLETE & MASTERED (`86.4%` across 88 Qs; `10/10` Exam-Hard; Process Owner locked!)** |
+| **II. Org Process Mgmt & Measures** | Pre-DMAIC | 12 Qs (8.0%) | 53 | 45 | **84.9%** | **UNIT 2 HARD `15 / 15 = 100.0%`!!** Mastered Appraisal COQ, Multi-Year NPV, PV, FV, ROA, RTY/Poisson `e^(-DPU)`, COPQ %, Benchmarking Ethics, Soft Savings. Ready for **Unit 2 Timed Prometric Mini-Sprint (`15 Qs / 24 min`)**! |
+| **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 7 | 5 | **71.4%** | Next Unit after Unit 2 Sprint! Review Tuckman, Lencioni 5 Dysfunctions, Thomas-Kilmann |
+| **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 51 | 40 | **78.4%** | **Critical Path (`Q255`) & Pareto (`Q297`) FIXED!** Review PERT variance `sqrt(sum var)`, ID `0 incoming`, PDPC vs PFMEA |
+| **V. Measure** | **Measure (M)** | 25 Qs (16.7%) | 56 | 38 | **67.9%** | **`Cpk` (`Q251`), Gage Bias (`Q256`), & CLT Normal (`Q296`) FIXED!** Only sticky item: **Rational Subgrouping vs. Stratified (`Q298`)** |
+| **VI. Analyze** | **Analyze (A)** | 22 Qs (14.7%) | 34 | 27 | **79.4%** | **`p <= alpha` (`Q253`), Power `1-beta` (`Q299`), & Pearson Nonlinear (`Q300`) ALL FIXED!** |
 | **VII. Improve** | **Improve (I)** | 21 Qs (14.0%) | 0 | 0 | — | Not Started *(3rd Weight)* |
-| **VIII. Control** | **Control (C)** | 17 Qs (11.3%) | 10 | 8 | **80.0%** | **Strong start (`80%`!)** — Review `np-chart` (count with fixed `n`) & `6+ point trend = Special-cause` |
+| **VIII. Control** | **Control (C)** | 17 Qs (11.3%) | 11 | 9 | **81.8%** | **Control Limits = Special Causes (`Q252`) FIXED!** |
 | **IX. Design for Six Sigma (DFSS)** | Post-DMAIC | 6 Qs (4.0%) | 0 | 0 | — | Not Started |
 
 ---
