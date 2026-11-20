@@ -318,3 +318,13 @@
 - `Q248` (`II.C.2` Torn flour bags caught before leaving dock = Internal failure cost): `A` (`✅`)
 - `Q249` (`II.C.2` Payback Period: 120K upfront / 40K annual = 3.0 years): `C` (`✅`)
 - `Q250` (`II.C.2` NPV decision: approve +145K Alpha, reject -15K Beta): `B` (`✅`)
+
+## External Practice Batch — Copilot Set 6 (`C131`–`C165`, `35` Qs — Verified `23 / 35 = 65.7%` on `2026-11-19/20`, tired post-workday; Copilot answer key audited & corrected on `Q9/Q13/Q15`!)
+- **Q1–8 (`C131`–`C138`, `8 / 8 = 100.0%` PERFECT!):** `Cp/Cpk` off-center, `p-chart` varying `n`, Type I error, sequential duration math (`17`), Juran ("fitness for use"), `u-chart` varying area, SIPOC boundaries, `r = 0.30` weak positive.
+- **Q9–16 (`C139`–`C146`, True Verified `2 / 8 = 25.0%`):**
+  - *Copilot Key Bug Caught:* Cathy got `Q9` RIGHT (`B. Confounding from nuisance factors`; Copilot wrongly claimed `A`), while Copilot gave false credit on `Q13` (true `B. Reject H0`, not `A`) and `Q15` (true `C. Longest-duration path`, not `B`).
+  - Nailed (`✅`): `Q9` (DOE Randomization), `Q11` (Motion = people).
+  - True Misses (`❌`): `Q10` (`Cpk` shifts when mean shifts), `Q12` (Control charts detect special causes, not spec limits), `Q13` (`p = 0.03 < 0.05` -> Reject `H0`), `Q14` (CLT -> Normal), `Q15` (Critical path = longest duration), `Q16` (Same wrong value repeatedly = Bias).
+- **Q17–35 (`C147`–`C165`, `13 / 19 = 68.4%` — Copilot key verified 100% accurate):**
+  - Nailed (`✅`): `Q18` (`r²`), `Q19` (Poka-Yoke), `Q20` (`Cp=2.0/Cpk=0.8` off-center), `Q21` (Improve pilots), `Q22` (X-bar average), `Q23` (ANOVA means), `Q24` (Adjusted `R²`), `Q25` (Internal failure scrap/rework), `Q26` (Taguchi Loss Function — FIXED!), `Q27` (UCL violation = Special cause), `Q29` (DPMO), `Q30` (Hidden Plant), `Q32` (`c-chart` constant door scratches).
+  - Misses (`❌`): `Q17` (Pareto prioritizes causes by frequency, picked Scatter), `Q28` (Random = equal probability, picked Stratified), `Q31` (Pearson misses inverted-U nonlinear link), `Q33` (Process Owner sustains post-closure, picked Sponsor), `Q34` (Power = `1 - beta = 90%`, picked `10%`), `Q35` (5 consecutive parts hourly = Rational subgrouping, picked Stratification).

@@ -143,6 +143,13 @@ D. CONTROL CHART SIGNALS
 - Cp vs. Cpk               : Cp = spread only (ignores centering); Cpk = spread AND centering ("k" = centering).
 - H0 vs. Ha                : Null (H0) = NO difference / status quo ("0" = zero effect); Alternative (Ha) = desired improvement / difference.
 - Simple Random vs. Strat. : Simple Random = EVERY item has equal chance; Stratified = split into groups first, then sample each group.
+- Pareto vs. Scatter       : Pareto = rank causes by FREQUENCY (80/20 bar chart); Scatter = check relationship between X and Y.
+- Power = 1 - Beta         : If Beta = 0.10 (10% chance of missing a real change), Power = 1 - 0.10 = 0.90 (90% chance of catching it).
+- Pearson r on Curves      : Pearson r ONLY sees STRAIGHT lines -> on an inverted-U curve, r can look near 0 and MISS a strong nonlinear link.
+- Process Owner vs Sponsor : Sponsor funds & removes barriers DURING project; PROCESS OWNER runs & sustains gains AFTER closure.
+- Rational Subgrouping     : Take consecutive parts from 1 short window (e.g., 5 consecutive parts/hr) so shifts show up BETWEEN subgroups.
+- Gage Bias vs Instability : Same wrong reading every time = BIAS (shifted bathroom scale); readings drifting over days = INSTABILITY.
+- Central Limit Theorem    : Even from skewed data, the distribution of SAMPLE MEANS always approaches NORMAL (bell curve).
 
 
 --------------------------------------------------------------------------------

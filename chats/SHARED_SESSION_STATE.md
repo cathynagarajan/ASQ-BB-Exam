@@ -3,13 +3,13 @@
 > **Purpose**: Single source of truth shared between **Antigravity** and **Qwen** (`QWEN.md` + `rules.md` + `kg_vectors_asq_bb_exam`). Both agents MUST update this file whenever committing progress so mode switches (`use qwen` / `stop qwen`) never lose a single detail.
 
 - **Candidate Preferred Name**: **Cathy**
-- **Last Synced**: `2026-11-19`
+- **Last Synced**: `2026-11-20`
 
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`380` (`Q1`–`Q250` + Copilot `C1`–`C130`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Latest Set (Round 19 Block 3 — `II.A–II.C` Unit 2 Preview Open-Book `Q241`–`Q250`)**: **`9 / 10 = 90.0%`!** *(Full 30-Q Pack `Q221`–`Q250`: **`27 / 30 = 90.0%`** [`10/10` Exam-Hard Unit 1 + `8/10` Unit 1 Spaced + `9/10` Unit 2 Preview]! Unit 1 officially MASTERED at `75 / 87 = 86.2%`! Only 1 miss on Unit 2 Preview: `Q247` Gage calibration & incoming inspection = Appraisal COQ, NOT Prevention!)*
+- **Completed Unique Questions**: **`415` (`Q1`–`Q250` + Copilot `C1`–`C165`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Latest Set (Copilot Set 6 — `C131`–`C165`, Mixed Cold Set post-workday)**: **Verified `23 / 35 = 65.7%`** *(Q1–8 `8/8 = 100%`; Q9–16 verified `2/8` — caught Copilot hallucinating answer keys on `Q9` [Cathy right on B!], `Q13` [true B Reject H0], & `Q15` [true C Longest path]; Q17–35 `13/19 = 68.4%`, Copilot key 100% accurate. Previous Unit 2 Preview `Q241`–`Q250`: **`9 / 10 = 90.0%`**; Unit 1 MASTERED at `75 / 87 = 86.2%`!)*
 - **LOCKED PLAN FOR DAY 6 (THURSDAY `2026-11-19`)**:
   1. **Unit 1 (`Domain I`) COMPLETE & MASTERED (`75 / 87 = 86.2%`; `10/10` Exam-Hard)!**
   2. **Unit 2 (`Domain II`) Bible Notes & Complete Formula Master Sheet ALREADY BUILT**: `Unit2_Process_Mgmt_And_Measures_Table.docx`, `Unit2_Formulas_Master_Sheet.docx`, and Cheat Sheet Sec 10A–10E (`DPU/DPO/DPMO/FTY/RTY`, `COQ PAF`, `ROI/Payback/FV/PV/NPV/IRR/CBA/ROA`, `Balanced Scorecard`, `KPI/KBI/OKR`, `Benchmarking`).
@@ -20,7 +20,7 @@
 - **Stage 2 Status (`Domain V — Measure Phase`)**: **`35 / 50 = 70.0%`**
 - **Stage 3 Status (`Domain VI — Analyze Phase`)**: **`24 / 30 = 80.0%`**
 - **Stage 5 Preview (`Domain VIII — Control Charts`)**: **`8 / 10 = 80.0%`**
-- **Copilot External Sets (`C1`–`C130`)**: **`101 / 130` (`77.7%` — Set 5 `C96`–`C130`: `31 / 35 = 88.6%`!)** — Grand Cumulative: **`301 / 380` (`79.2%`)**
+- **Copilot External Sets (`C1`–`C165`)**: **`124 / 165` (`75.2%` — Set 6 `C131`–`C165`: verified `23 / 35 = 65.7%` after auditing Copilot key bugs on Q9/Q13/Q15!)** — Grand Cumulative: **`324 / 415` (`78.1%`)**
 - **Active Weak Points Scheduled for Spaced Re-Testing**:
   1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)
   2. `IV.A.3` CTQ measurable numerical target vs. vague VOC (`Q18`)

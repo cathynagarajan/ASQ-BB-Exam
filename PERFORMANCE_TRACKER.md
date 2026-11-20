@@ -2,8 +2,8 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Round 19 Block 3 — `II.A–II.C` Unit 2 Preview `Q241`–`Q250`, Open-Book):** **`9 / 10` (`90.0%`!)** *(Full 30-Q Marathon `Q221`–`Q250`: **`27 / 30 = 90.0%`** [`10/10` Exam-Hard Unit 1 + `8/10` Unit 1 Spaced + `9/10` Unit 2 Preview]!)*
-- **Overall Cumulative Score (`Q1`–`Q250` + `C1`–`C130` = `380` Qs):** **`301 / 380` (`79.2%`)**
+- **Latest Batch Score (Copilot Set 6 — `C131`–`C165`, Mixed Cold Set, post-workday):** **Verified `23 / 35` (`65.7%`)** *(Q1–8 `8/8 = 100%`; Q9–16 verified `2/8` after auditing 3 Copilot key bugs on Q9/Q13/Q15; Q17–35 `13/19 = 68.4%`! Previous Unit 2 Preview `Q241–Q250`: `9/10 = 90.0%`)*
+- **Overall Cumulative Score (`Q1`–`Q250` + `C1`–`C165` = `415` Qs):** **`324 / 415` (`78.1%`)**
 
 ---
 
@@ -48,3 +48,4 @@
 | 2026-11-15 | **`VII.A` & `VIII.A`** | Improve / Control | **DOE Designs (CCD/RSM) & Control Chart Rules (`p/np/c/u` + Nelson Rules)** | **RSM** = **CCD**; **Plackett-Burman** = screening. Pass/fail `%` or varying `n` = **`p-chart`**; Pass/fail **count** with fixed `n` = **`np-chart`**; 8+ consecutive points on one side of centerline = **Special Cause**. | **Add to Word Bible** |
 | 2026-11-17 | **`IV–VIII` Vocab** | Mixed (Copilot Set 4) | **9 Quick 2-Word Vocabulary Distinctions (`C64–C87`)** | `Alpha` = Type I error (Power = `1-Beta`); `Median` resists outliers; `CTQ` = measurable requirement (`VOC` = raw words); `c-chart` = defect count (`np` = defective count); `X-bar` = mean shift (`R` = spread); Control limits = `VOP` (Spec = `VOC`); `Cpk` = centering (`Cp` = spread only); `H0` = no difference; `Simple Random` = equal chance per item. | **Added to Cheat Sheet Sec 8** |
 | 2026-11-19 | **`I.A.1 & I.B.3`** | Pre-DMAIC | **13 Quality, Lean & Change Leaders (`Q201–Q210`)** | Cathy scored `7/10` open-notes & flagged needing a short memory-hook table. Missed `Q205` (Juran = Fitness for Use + Trilogy vs. Taguchi = Robust Design + Loss Function), `Q206` (Bridges = Neutral Zone vs. Lewin = Refreeze), `Q207` (Jack Welch = scaled Six Sigma at GE). Re-drill closed-notes! | **Added Short Table to Cheat Sheet Sec 9B** |
+| 2026-11-20 | **`I–VIII` Mixed** | Mixed (Copilot Set 6) | **Copilot Set 6 Audit (`C131–C165`: `23/35 = 65.7%`)** | Audited Copilot answer key (caught Copilot bugs on Q9/Q13/Q15!). True misses locked into Cheat Sheet Sec 8: `Cpk` centering, Control charts = Special causes, `p < alpha` = Reject H0, CLT -> Normal, Critical path = Longest duration, Gage Bias = same wrong reading, Pareto vs Scatter, Random vs Stratified, Pearson misses inverted-U curves, Process Owner sustains post-closure, Power = `1 - beta`, Rational subgrouping = consecutive parts/hr. | **Added to Cheat Sheet Sec 8** |
