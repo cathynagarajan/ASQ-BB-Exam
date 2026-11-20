@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-20T17:15:57.209062+00:00",
+    "generated_at": "2026-11-20T18:44:28.109997+00:00",
     "total_files_indexed": 85,
-    "total_nodes": 708,
-    "total_edges": 1502,
+    "total_nodes": 723,
+    "total_edges": 1494,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
@@ -12,32 +12,31 @@
       "document_file": 30,
       "document_section": 192,
       "html_template": 1,
-      "topic_entity": 378
+      "topic_entity": 393
     }
   },
   "last_change_check": {
     "changed": true,
     "added": [],
     "modified": [
-      "chats/SHARED_SESSION_STATE.md",
-      "documents/CAREER_APPLICATIONS_TRACKER.md"
+      "chats/SHARED_SESSION_STATE.md"
     ],
     "removed": [],
-    "files_parsed": 1,
-    "files_cached_reused": 83,
+    "files_parsed": 0,
+    "files_cached_reused": 84,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 17,
-      "nodes_deleted": 15,
-      "edges_upserted": 29,
-      "edges_deleted": 34,
-      "wiki_pages_upserted": 1,
+      "nodes_upserted": 59,
+      "nodes_deleted": 24,
+      "edges_upserted": 62,
+      "edges_deleted": 70,
+      "wiki_pages_upserted": 0,
       "wiki_pages_deleted": 0,
-      "files_upserted": 3,
+      "files_upserted": 2,
       "files_deleted": 0,
-      "total_nodes_in_db": 708,
-      "total_edges_in_db": 1502,
+      "total_nodes_in_db": 723,
+      "total_edges_in_db": 1494,
       "total_files_tracked": 86
     }
   },
@@ -632,7 +631,7 @@
       "id": "topic:vendor",
       "type": "topic_entity",
       "name": "vendor",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job47_Airbnb_8402949_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'vendor' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "vendor"
@@ -642,7 +641,7 @@
       "id": "topic:power",
       "type": "topic_entity",
       "name": "power",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job47_Airbnb_8402949_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'power' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "power"
@@ -662,7 +661,7 @@
       "id": "topic:supplier",
       "type": "topic_entity",
       "name": "supplier",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
       "description": "Shared domain topic 'supplier' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "supplier"
@@ -899,7 +898,7 @@
       "id": "topic:compliance",
       "type": "topic_entity",
       "name": "compliance",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job47_Airbnb_8402949_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'compliance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "compliance"
@@ -974,7 +973,7 @@
       "id": "topic:quality",
       "type": "topic_entity",
       "name": "quality",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
       "description": "Shared domain topic 'quality' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "quality"
@@ -994,7 +993,7 @@
       "id": "topic:sourcing",
       "type": "topic_entity",
       "name": "sourcing",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'sourcing' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "sourcing"
@@ -1307,7 +1306,7 @@
       "id": "topic:governance",
       "type": "topic_entity",
       "name": "governance",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job45_Cadence_R51338_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'governance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "governance"
@@ -1471,7 +1470,7 @@
       "id": "topic:professional",
       "type": "topic_entity",
       "name": "professional",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job44_Gilead_R0055591_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'professional' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "professional"
@@ -1595,7 +1594,7 @@
       "id": "topic:supply",
       "type": "topic_entity",
       "name": "supply",
-      "file_path": "Resume_And_Jobs/Job42_AnalogDevices_R266612_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'supply' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "supply"
@@ -1605,7 +1604,7 @@
       "id": "topic:finance",
       "type": "topic_entity",
       "name": "finance",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job35_NetApp_137163_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'finance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "finance"
@@ -1775,7 +1774,7 @@
       "id": "topic:operations",
       "type": "topic_entity",
       "name": "operations",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job47_Airbnb_8402949_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'operations' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "operations"
@@ -1797,7 +1796,7 @@
       "id": "topic:category",
       "type": "topic_entity",
       "name": "category",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job35_NetApp_137163_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'category' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "category"
@@ -2382,7 +2381,7 @@
       "id": "topic:procurement",
       "type": "topic_entity",
       "name": "procurement",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'procurement' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "procurement"
@@ -3853,7 +3852,7 @@
       "id": "topic:master",
       "type": "topic_entity",
       "name": "master",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job45_Cadence_R51338_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'master' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "master"
@@ -6281,7 +6280,7 @@
       "id": "topic:never",
       "type": "topic_entity",
       "name": "never",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
       "description": "Shared domain topic 'never' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "never"
@@ -6700,7 +6699,7 @@
       "id": "topic:person",
       "type": "topic_entity",
       "name": "person",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
       "description": "Shared domain topic 'person' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "person"
@@ -8004,7 +8003,7 @@
       "id": "topic:manager",
       "type": "topic_entity",
       "name": "manager",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
       "description": "Shared domain topic 'manager' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "manager"
@@ -8044,10 +8043,30 @@
       "id": "topic:lockheed",
       "type": "topic_entity",
       "name": "lockheed",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
       "description": "Shared domain topic 'lockheed' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "lockheed"
+      }
+    },
+    {
+      "id": "topic:remote",
+      "type": "topic_entity",
+      "name": "remote",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'remote' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "remote"
+      }
+    },
+    {
+      "id": "topic:cathy",
+      "type": "topic_entity",
+      "name": "cathy",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'cathy' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cathy"
       }
     },
     {
@@ -8069,8 +8088,8 @@
           "active",
           "nasdaq",
           "lockheed",
-          "sourcing",
-          "category"
+          "remote",
+          "cathy"
         ]
       }
     },
@@ -8192,16 +8211,6 @@
       "description": "Shared domain topic 'candidate' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "candidate"
-      }
-    },
-    {
-      "id": "topic:cathy",
-      "type": "topic_entity",
-      "name": "cathy",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'cathy' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "cathy"
       }
     },
     {
@@ -8335,13 +8344,73 @@
       }
     },
     {
-      "id": "topic:google",
+      "id": "topic:demand",
       "type": "topic_entity",
-      "name": "google",
+      "name": "demand",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'google' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'demand' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "google"
+        "keyword": "demand"
+      }
+    },
+    {
+      "id": "topic:jobright",
+      "type": "topic_entity",
+      "name": "jobright",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'jobright' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "jobright"
+      }
+    },
+    {
+      "id": "topic:early",
+      "type": "topic_entity",
+      "name": "early",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'early' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "early"
+      }
+    },
+    {
+      "id": "topic:applicant",
+      "type": "topic_entity",
+      "name": "applicant",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'applicant' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "applicant"
+      }
+    },
+    {
+      "id": "topic:planning",
+      "type": "topic_entity",
+      "name": "planning",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'planning' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "planning"
+      }
+    },
+    {
+      "id": "topic:apply",
+      "type": "topic_entity",
+      "name": "apply",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'apply' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "apply"
+      }
+    },
+    {
+      "id": "topic:icon",
+      "type": "topic_entity",
+      "name": "icon",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'icon' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "icon"
       }
     },
     {
@@ -8349,383 +8418,464 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (621 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (641 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 621,
+        "turn_count": 641,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
-          "vendor",
-          "compliance",
-          "procurement",
-          "active",
-          "professional",
-          "operations",
-          "google",
-          "supplier"
+          "demand",
+          "jobright",
+          "early",
+          "applicant",
+          "planning",
+          "apply",
+          "icon",
+          "supply"
         ]
       }
     },
     {
-      "id": "chat_turn:b6556366:S2132",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2132 (assistant)",
+      "id": "topic:invoice",
+      "type": "topic_entity",
+      "name": "invoice",
+      "file_path": "chats/transcript_6e8422d1.jsonl",
+      "description": "Shared domain topic 'invoice' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "invoice"
+      }
+    },
+    {
+      "id": "topic:reply",
+      "type": "topic_entity",
+      "name": "reply",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2132] **Job 1 of 4 (`Gilead R0055591`) \u2014 SUBMITTED & Under Review (`Active: 6` at Gilead!)** Nice work! ### Job 2 of 4 \u2014 Google (Google Procurement Organization) - **Role:** *Category Manager, Technical Professional Services, ",
+      "description": "Shared domain topic 'reply' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "reply"
+      }
+    },
+    {
+      "id": "topic:sou1001305585",
+      "type": "topic_entity",
+      "name": "sou1001305585",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'sou1001305585' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "sou1001305585"
+      }
+    },
+    {
+      "id": "topic:accrual_automation_guide",
+      "type": "topic_entity",
+      "name": "accrual_automation_guide",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'accrual_automation_guide' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "accrual_automation_guide"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2207",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2207 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2207] What a clean close-out on **`SOU1001305585`**! Logged the **Reply 2 State Override** straight into **Pattern E** of [ACCRUAL_AUTOMATION_GUIDE.md](file:///home/krithika/workspace/Power-Automate/ACCRUAL_AUTOMATION_GUIDE.md",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2132,
+        "step_index": 2207,
         "role": "assistant",
-        "created_at": "2026-11-20T16:49:05Z",
-        "content_excerpt": "**Job 1 of 4 (`Gilead R0055591`) \u2014 SUBMITTED & Under Review (`Active: 6` at Gilead!)** Nice work!\n\n### Job 2 of 4 \u2014 Google (Google Procurement Organization)\n- **Role:** *Category Manager, Technical Professional Services, Google Procurement*\n- **Location & Pay:** Sunnyvale Hybrid (~9 mi) | **`111,000 \u2013 159,000 USD`** + bonus + RSUs *(target ~`145K \u2013 155K USD`)*\n- **Apply Link:** Click **`Category Manager, Technical Professional Services, Google Procurement`** right in your Indeed alert email (or search it at [Google Careers](https://www.google.com/about/careers/applications/jobs/results/?q=%22Category%20Manager%2C%20Technical%20Professional%20Services%22&location=Sunnyvale%2C%20CA%2C%20USA))\n- **Upload This Exact Resume:** [Job43_Google_Category_Manager_Krithika_Nagarajan_Resume.docx](file:",
+        "created_at": "2026-11-20T17:19:18Z",
+        "content_excerpt": "What a clean close-out on **`SOU1001305585`**! Logged the **Reply 2 State Override** straight into **Pattern E** of [ACCRUAL_AUTOMATION_GUIDE.md](file:///home/krithika/workspace/Power-Automate/ACCRUAL_AUTOMATION_GUIDE.md#L78-L80):\n\n- **Reply 1 (`Sou1001305585`):** Ambiguous manual invoice -> **`Needs clarification`**\n- **Reply 2 (`SOU1001305585`):** Carrier confirmed in writing (*\"captured all charges on paid invoice / closed on our end\"*) -> **Overwrite `Needs clarification`** with:\n  - **`Carrier confirmed all charges captured on paid invoice, closed on their end, delete accrual`**\n\nNow Becky's file has a bulletproof audit trail on both Bulk Transit loads! Keep tossing any other replies my way anytime.",
         "topics": [
-          "google",
-          "category",
-          "manager",
-          "procurement"
+          "invoice",
+          "reply",
+          "sou1001305585",
+          "accrual_automation_guide"
         ]
       }
     },
     {
-      "id": "topic:paste",
+      "id": "topic:bulk",
       "type": "topic_entity",
-      "name": "paste",
+      "name": "bulk",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'paste' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'bulk' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "paste"
+        "keyword": "bulk"
       }
     },
     {
-      "id": "topic:resume",
+      "id": "topic:close",
       "type": "topic_entity",
-      "name": "resume",
+      "name": "close",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'resume' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'close' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "resume"
+        "keyword": "close"
       }
     },
     {
-      "id": "chat_turn:b6556366:S2133",
+      "id": "topic:going",
+      "type": "topic_entity",
+      "name": "going",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'going' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "going"
+      }
+    },
+    {
+      "id": "topic:point",
+      "type": "topic_entity",
+      "name": "point",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'point' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "point"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2208",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2133 (user)",
+      "name": "Chat b6556366 Turn S2208 (user)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2133] google no resume - can you paste it",
+      "description": "[USER S2208] at this point, i am going to close this Bulk/Spur one",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2133,
+        "step_index": 2208,
         "role": "user",
-        "created_at": "2026-11-20T16:51:06Z",
-        "content_excerpt": "google no resume - can you paste it",
+        "created_at": "2026-11-20T17:19:26Z",
+        "content_excerpt": "at this point, i am going to close this Bulk/Spur one",
         "topics": [
-          "google",
-          "paste",
-          "resume"
+          "bulk",
+          "close",
+          "going",
+          "point"
         ]
       }
     },
     {
-      "id": "chat_turn:b6556366:S2136",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2136 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2136] Here is the complete Google resume ready to copy-paste cleanly (or save into Word/PDF if Google asks for an upload): ```text KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB Palo Alto, CA 94306 | [REDACTED_PHONE] | [R",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2136,
-        "role": "assistant",
-        "created_at": "2026-11-20T16:51:15Z",
-        "content_excerpt": "Here is the complete Google resume ready to copy-paste cleanly (or save into Word/PDF if Google asks for an upload):\n\n```text\nKRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB\nPalo Alto, CA 94306 | [REDACTED_PHONE] | [REDACTED_EMAIL]\n\nPROFESSIONAL SUMMARY\nPMP-, APICS CSCP-, and ASQ Six Sigma Green & Yellow Belt\u2013certified Procurement, Indirect Services Category Governance, and Commercial Contracts Professional with an M.C.A. (Engineering) and 10+ years of experience overseeing a $50M+ annual third-party services spend portfolio across 40+ operating locations. Proven track record executing RFx sourcing and commercial negotiations, governing multi-year service agreements and legal/regulatory compliance, designing supplier KPI scorecards, auditing $2M+ in vendor billing variances, and automa",
-        "topics": [
-          "supplier",
-          "compliance",
-          "vendor",
-          "power"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2140",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2140 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2140] **Job 2 of 4 (`Google \u2014 Category Manager, Technical Professional Services, Google Procurement`) \u2014 SUBMITTED!** That's 2 down already! ### Job 3 of 4 \u2014 Cadence Design Systems (`Req R51338`) - **Role:** *Senior, Master Dat",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2140,
-        "role": "assistant",
-        "created_at": "2026-11-20T16:56:24Z",
-        "content_excerpt": "**Job 2 of 4 (`Google \u2014 Category Manager, Technical Professional Services, Google Procurement`) \u2014 SUBMITTED!** That's 2 down already!\n\n### Job 3 of 4 \u2014 Cadence Design Systems (`Req R51338`)\n- **Role:** *Senior, Master Data Management, Systems Analyst (Procurement Systems)*\n- **Location & Pay:** North San Jose Hybrid (~13 mi) | **`88,200 \u2013 163,800 USD`** + bonus + equity *(target ~`140K \u2013 155K USD`)*\n- **Apply Link:** [Cadence R51338 Workday](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE-05/Sr-Procurement-Systems-Analyst_R51338)\n- **Upload `.docx` File:** [Job45_Cadence_R51338_Krithika_Nagarajan_Resume.docx](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Job45_Cadence_R51338_Krithika_Nagarajan_Resume.docx)\n\nOr copy-paste straight from here:\n```text\nKRITHIK",
-        "topics": [
-          "master",
-          "governance",
-          "procurement",
-          "quality"
-        ]
-      }
-    },
-    {
-      "id": "topic:airbnb",
+      "id": "topic:break",
       "type": "topic_entity",
-      "name": "airbnb",
+      "name": "break",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'airbnb' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'break' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "airbnb"
+        "keyword": "break"
       }
     },
     {
-      "id": "chat_turn:b6556366:S2159",
+      "id": "chat_turn:b6556366:S2209",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2159 (assistant)",
+      "name": "Chat b6556366 Turn S2209 (assistant)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2159] **Job 3 of 4 (`Cadence R51338`) \u2014 SUBMITTED & Under Review!** *(Great catch on your screenshot too \u2014 you already applied to Cadence `R54483` back in August and it's still active in `Review`, so we skip `R54483` and count",
+      "description": "[ASSISTANT S2209] Closed out cleanly on both Bulk Transit / Spur loads \u2014 both `SOU1001358663` and `SOU1001305585` now have written carrier confirmation ending in `, delete accrual`. I'm right here whenever the next carrier reply, freight ",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2159,
+        "step_index": 2209,
         "role": "assistant",
-        "created_at": "2026-11-20T17:03:58Z",
-        "content_excerpt": "**Job 3 of 4 (`Cadence R51338`) \u2014 SUBMITTED & Under Review!**\n*(Great catch on your screenshot too \u2014 you already applied to Cadence `R54483` back in August and it's still active in `Review`, so we skip `R54483` and count it in your active pipeline!)*\n\nFor **Job 4 of 4**, I found a brand-new **100% mirror of your exact daily work** (monthly vendor accruals, reconciliations, contract/invoice audits, and process automation!):\n\n### Job 4 of 4 \u2014 Airbnb (NASDAQ: ABNB \u2014 `ID 8402949`)\n- **Role:** *Senior Financial Operations Lead, Vendor Operations* (Pure IC \u2014 zero direct reports, zero SQL/Python/SAP!)\n- **Location & Pay:** **San Francisco Bay Area** (Palo Alto qualifies under Airbnb's flexible Bay Area policy) | **`132,000 \u2013 155,000 USD`** + bonus + equity + Employee Travel Credits\n- **Why it fit",
+        "created_at": "2026-11-20T17:19:27Z",
+        "content_excerpt": "Closed out cleanly on both Bulk Transit / Spur loads \u2014 both `SOU1001358663` and `SOU1001305585` now have written carrier confirmation ending in `, delete accrual`.\n\nI'm right here whenever the next carrier reply, freight quote, or study break pops up!",
         "topics": [
-          "vendor",
-          "airbnb",
-          "compliance",
-          "operations"
+          "carrier",
+          "accrual",
+          "break",
+          "bulk"
         ]
       }
     },
     {
-      "id": "topic:alright",
-      "type": "topic_entity",
-      "name": "alright",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'alright' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "alright"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2160",
+      "id": "chat_turn:b6556366:S2210",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2160 (user)",
+      "name": "Chat b6556366 Turn S2210 (user)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2160] i am not a finance person, ops person is that alright? never worked in finance",
+      "description": "[USER S2210] one of the emails i get daily - are these making sense? can we try applying? Dear Krithika, I came across your background in Demand Planning Analyst and found 10 fresh new jobs that match your skills. Click APPLY NOW to ",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2160,
+        "step_index": 2210,
         "role": "user",
-        "created_at": "2026-11-20T17:04:54Z",
-        "content_excerpt": "i am not a finance person, ops person is that alright? never worked in finance",
+        "created_at": "2026-11-20T17:54:28Z",
+        "content_excerpt": "one of the emails i get daily - are these making sense? can we try applying? Dear Krithika, I came across your background in Demand Planning Analyst and found 10 fresh new jobs that match your skills. Click APPLY NOW to be an early applicant \u2014 it's 100% free.\n\nJobright.ai Job Icon\nGoogle\n\nTelecom & Communications \u00b7 Public\n\nProgram Manager III, Supply and Demand Planning, Infrastructure Supply Chain\n\n$159K/yr - $230K/yrSunnyvale, CA\n5 hours ago \u00b7 Be an early applicant \u00b7 H1B\n\nAPPLY NOW\nJobright.ai Job Icon\nByteDance\n\nTelecom & Communications \u00b7 Late Stage\n\nDemand Supply Planning Manager - Edge/POP/CDN\n\n$108K/yr - $209K/yrSan Jose, CA\n22 hours ago \u00b7 Be an early applicant \u00b7 H1B\n\nAPPLY NOW\nJobright.ai Job Icon\nLambda\n\nArtificial Intelligence (AI) \u00b7 Late Stage\n\nDemand & Supply Planning Manager\n\n$",
         "topics": [
-          "finance",
-          "person",
-          "alright",
-          "never"
+          "early",
+          "applicant",
+          "apply",
+          "demand"
         ]
       }
     },
     {
-      "id": "topic:exact",
+      "id": "topic:hardware",
       "type": "topic_entity",
-      "name": "exact",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'exact' connecting multi-modal documents and workspace chats",
+      "name": "hardware",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'hardware' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "exact"
+        "keyword": "hardware"
       }
     },
     {
-      "id": "chat_turn:b6556366:S2161",
+      "id": "chat_turn:b6556366:S2215",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2161 (assistant)",
+      "name": "Chat b6556366 Turn S2215 (assistant)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2161] **100% alright \u2014 this IS an Operations role, not corporate accounting!** Look at Airbnb's exact words from the posting: - **Department:** *Enterprise Operations \u2014 Workforce & Vendor Excellence* - **Exact Requirement:** *",
+      "description": "[ASSISTANT S2215] Honestly, Cathy \u2014 **I would skip ALL 10 in this Jobright email**, and here is the super easy reason why: Look at the first line of the email: Jobright.ai has your profile tagged as **`Demand Planning Analyst`**, so it is",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2161,
+        "step_index": 2215,
         "role": "assistant",
-        "created_at": "2026-11-20T17:04:54Z",
-        "content_excerpt": "**100% alright \u2014 this IS an Operations role, not corporate accounting!**\n\nLook at Airbnb's exact words from the posting:\n- **Department:** *Enterprise Operations \u2014 Workforce & Vendor Excellence*\n- **Exact Requirement:** *\"8+ years of experience in **vendor management, accounts payable, procurement operations**, or a related field.\"*\n- **What you do:** Partner *with* Finance on **vendor accruals, invoice checks against contracts, and automating vendor workflows** \u2014 which is literally what you just did with Becky's open accrual file 30 minutes ago! Zero CPA or finance degree needed.\n\nGo ahead and submit `Airbnb 8402949` with full confidence \u2014 and drop the confirmation screenshot when you're done!",
+        "created_at": "2026-11-20T17:54:58Z",
+        "content_excerpt": "Honestly, Cathy \u2014 **I would skip ALL 10 in this Jobright email**, and here is the super easy reason why:\n\nLook at the first line of the email: Jobright.ai has your profile tagged as **`Demand Planning Analyst`**, so it is sending you **hardware/memory-chip SIOP & statistical forecasting** roles instead of your true lane!\n\n### Quick Breakdown of Why These 10 Don't Fit Your Lane\n- **Below Pay Floor / Startups / SF Commute:** Confidential Employer (`80K\u2013100K USD`, early-stage startup), NeoGenomics (~`65K\u201395K USD` remote analyst), Lambda (San Francisco startup).\n- **Heavy Hardware / Chip / Statistical Forecasting / SAP:**\n  - **Intuitive (`Sr Demand and Supply Planner`, listed twice)** \u2014 Heavy medical-device SIOP statistical forecasting, constrained factory build plans, and heavily prefers **S",
         "topics": [
-          "vendor",
-          "operations",
-          "airbnb",
-          "exact"
+          "planning",
+          "demand",
+          "hardware",
+          "jobright"
         ]
       }
     },
     {
-      "id": "topic:submitted",
+      "id": "topic:thank",
       "type": "topic_entity",
-      "name": "submitted",
+      "name": "thank",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'submitted' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'thank' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "submitted"
+        "keyword": "thank"
       }
     },
     {
-      "id": "topic:cadence",
-      "type": "topic_entity",
-      "name": "cadence",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'cadence' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "cadence"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2171",
+      "id": "chat_turn:b6556366:S2216",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2171 (assistant)",
+      "name": "Chat b6556366 Turn S2216 (user)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2171] **Job 4 of 4 (`Airbnb 8402949`) \u2014 SUBMITTED!! Friday's Goal is 100% COMPLETE!** That **Poka-Yoke 1-by-1 flow** was smooth as butter \u2014 in under 25 minutes you submitted **4 huge, established Fortune 500 roles**, all pure ",
+      "description": "[USER S2216] got it thank you",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2171,
-        "role": "assistant",
-        "created_at": "2026-11-20T17:09:37Z",
-        "content_excerpt": "**Job 4 of 4 (`Airbnb 8402949`) \u2014 SUBMITTED!! Friday's Goal is 100% COMPLETE!**\n\nThat **Poka-Yoke 1-by-1 flow** was smooth as butter \u2014 in under 25 minutes you submitted **4 huge, established Fortune 500 roles**, all pure IC, all Peninsula Hybrid or Bay Area flexible, zero SAP/coding traps:\n\n1. **Gilead Sciences / Kite (`Req R0055591`)** \u2014 *Category Manager, Global Strategic Sourcing & Procurement (Logistics)* \u2014 **Under Review** (`Active: 6` at Gilead!)\n2. **Google** \u2014 *Category Manager, Technical Professional Services, Google Procurement* \u2014 **Submitted**\n3. **Cadence Design Systems (`Req R51338`)** \u2014 *Senior, Master Data Management, Systems Analyst (Procurement)* \u2014 **Review** *(plus existing active `Cadence R54483` Inventory & Logistics Manager = `2` Active at Cadence!)*\n4. **Airbnb (`ID 8",
-        "topics": [
-          "active",
-          "submitted",
-          "cadence",
-          "manager"
-        ]
-      }
-    },
-    {
-      "id": "topic:rejections",
-      "type": "topic_entity",
-      "name": "rejections",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'rejections' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "rejections"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2172",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2172 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2172] hey got few more rejections",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2172,
+        "step_index": 2216,
         "role": "user",
-        "created_at": "2026-11-20T17:14:00Z",
-        "content_excerpt": "hey got few more rejections",
+        "created_at": "2026-11-20T17:56:19Z",
+        "content_excerpt": "got it thank you",
         "topics": [
-          "rejections"
+          "thank"
         ]
       }
     },
     {
-      "id": "topic:inactive",
+      "id": "topic:anytime",
       "type": "topic_entity",
-      "name": "inactive",
+      "name": "anytime",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'inactive' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'anytime' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "inactive"
+        "keyword": "anytime"
       }
     },
     {
-      "id": "chat_turn:b6556366:S2173",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2173 (assistant)",
+      "id": "topic:evening",
+      "type": "topic_entity",
+      "name": "evening",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2173] Good news, Cathy \u2014 **there are ZERO new rejections on that Lockheed screen!** Look closely at the tabs at the top left: - **`Submitted: 19`** *(exact same 19 active roles as earlier this week!)* - **`Inactive: 2`** *(sti",
+      "description": "Shared domain topic 'evening' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "evening"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2217",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2217 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2217] You're very welcome, Cathy! Have a smooth, light rest of your Friday \u2014 ping me anytime you need freight quotes, accrual updates, or your evening **10-question Weak-Topic Warm-Up**!",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2173,
+        "step_index": 2217,
         "role": "assistant",
-        "created_at": "2026-11-20T17:14:00Z",
-        "content_excerpt": "Good news, Cathy \u2014 **there are ZERO new rejections on that Lockheed screen!**\n\nLook closely at the tabs at the top left:\n- **`Submitted: 19`** *(exact same 19 active roles as earlier this week!)*\n- **`Inactive: 2`** *(still only those same 2 old ones, `13918` and `8492`, already marked rejected!)*\n\nOn Lockheed's Eightfold portal, **`\"\u25cf Thank you for applying.\"`** in blue under the `Submitted` tab simply means **Active / Received** \u2014 NOT rejected! When Lockheed actually rejects a role, it leaves `Submitted` and moves over to **`Inactive`**.\n\nSo all **`52` active applications** (including all **`19`** active Lockheed roles and your Stage-2 **`13013`**) are **100% intact**! *(If you got any other rejection emails in your inbox from other companies, paste them here and I'll update them cleanly",
+        "created_at": "2026-11-20T17:56:19Z",
+        "content_excerpt": "You're very welcome, Cathy! Have a smooth, light rest of your Friday \u2014 ping me anytime you need freight quotes, accrual updates, or your evening **10-question Weak-Topic Warm-Up**!",
         "topics": [
-          "active",
-          "lockheed",
-          "submitted",
-          "inactive"
+          "accrual",
+          "anytime",
+          "cathy",
+          "evening"
         ]
       }
     },
     {
-      "id": "chat_turn:b6556366:S2174",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2174 (user)",
+      "id": "topic:another",
+      "type": "topic_entity",
+      "name": "another",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2174] no there are",
+      "description": "Shared domain topic 'another' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "another"
+      }
+    },
+    {
+      "id": "topic:help",
+      "type": "topic_entity",
+      "name": "help",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'help' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "help"
+      }
+    },
+    {
+      "id": "topic:leave",
+      "type": "topic_entity",
+      "name": "leave",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'leave' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "leave"
+      }
+    },
+    {
+      "id": "topic:lensa",
+      "type": "topic_entity",
+      "name": "lensa",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'lensa' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "lensa"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2218",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2218 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2218] hey another one, Lensa - may be this will help you widen? let us not worry about the lower salary ones - if they offer 80k, i am making 87 k why should i leave?",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2174,
+        "step_index": 2218,
         "role": "user",
-        "created_at": "2026-11-20T17:14:28Z",
-        "content_excerpt": "no there are",
-        "topics": []
+        "created_at": "2026-11-20T18:38:10Z",
+        "content_excerpt": "hey another one, Lensa - may be this will help you widen? let us not worry about the lower salary ones - if they offer 80k, i am making 87 k why should i leave?",
+        "topics": [
+          "another",
+          "help",
+          "leave",
+          "lensa"
+        ]
       }
     },
     {
-      "id": "topic:ahead",
+      "id": "topic:fortune",
       "type": "topic_entity",
-      "name": "ahead",
+      "name": "fortune",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'ahead' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'fortune' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "ahead"
+        "keyword": "fortune"
       }
     },
     {
-      "id": "topic:away",
+      "id": "topic:cbre",
       "type": "topic_entity",
-      "name": "away",
+      "name": "cbre",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'away' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'cbre' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "away"
+        "keyword": "cbre"
       }
     },
     {
-      "id": "topic:clean",
-      "type": "topic_entity",
-      "name": "clean",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'clean' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "clean"
-      }
-    },
-    {
-      "id": "topic:emails",
-      "type": "topic_entity",
-      "name": "emails",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'emails' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "emails"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2175",
+      "id": "chat_turn:b6556366:S2219",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2175 (assistant)",
+      "name": "Chat b6556366 Turn S2219 (assistant)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2175] Got it \u2014 go ahead and paste or screenshot the rejection emails whenever you're ready, and I'll clean them off your tracker right away!",
+      "description": "[ASSISTANT S2219] 100% agree on your pay floor, Cathy \u2014 you're making `87K USD` remote right now, so leaving for an `80K` or `95K` job makes zero sense. We stay locked at **`125,000 USD+` base** so your next move is a real, life-changing ",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2175,
+        "step_index": 2219,
         "role": "assistant",
-        "created_at": "2026-11-20T17:14:28Z",
-        "content_excerpt": "Got it \u2014 go ahead and paste or screenshot the rejection emails whenever you're ready, and I'll clean them off your tracker right away!",
+        "created_at": "2026-11-20T18:38:10Z",
+        "content_excerpt": "100% agree on your pay floor, Cathy \u2014 you're making `87K USD` remote right now, so leaving for an `80K` or `95K` job makes zero sense. We stay locked at **`125,000 USD+` base** so your next move is a real, life-changing jump!\n\n### Quick Honest Read on Those Lensa Emails\n- **Skip applying through Lensa itself** \u2014 Lensa is a click-aggregator that mixes **civil engineering highway/bridge construction \"Transportation\"** (`Jacobs`, `HNTB`, `BKF Engineers`, `HDR` in SF/Walnut Creek) with scraped reposts.\n- **Skip** `Aramark` (foodservice/meat), `Eliassen Group` (staffing agency), `Rippling` (intense startup culture), and `Bojay` (small vendor).\n- **Great Company Leads We DID Pull From Your Screenshot:**\n  1. **Fortinet (`NASDAQ: FTNT`)** \u2014 Established public Fortune 500 right in **Sunnyvale (~9 ",
         "topics": [
-          "ahead",
-          "away",
-          "clean",
-          "emails"
+          "lensa",
+          "fortune",
+          "remote",
+          "cbre"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2220",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2220 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2220] thank you",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2220,
+        "role": "user",
+        "created_at": "2026-11-20T18:43:36Z",
+        "content_excerpt": "thank you",
+        "topics": [
+          "thank"
+        ]
+      }
+    },
+    {
+      "id": "topic:friday",
+      "type": "topic_entity",
+      "name": "friday",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'friday' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "friday"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2221",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2221 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2221] Anytime, Cathy! Have a smooth rest of your Friday \u2014 I'll be right here whenever you're ready for work help, your evening **10-question Weak-Topic Warm-Up**, or tomorrow's Saturday 10-pack!",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2221,
+        "role": "assistant",
+        "created_at": "2026-11-20T18:43:36Z",
+        "content_excerpt": "Anytime, Cathy! Have a smooth rest of your Friday \u2014 I'll be right here whenever you're ready for work help, your evening **10-question Weak-Topic Warm-Up**, or tomorrow's Saturday 10-pack!",
+        "topics": [
+          "anytime",
+          "cathy",
+          "evening",
+          "friday"
+        ]
+      }
+    },
+    {
+      "id": "topic:commit",
+      "type": "topic_entity",
+      "name": "commit",
+      "file_path": "chats/transcript_6e8422d1.jsonl",
+      "description": "Shared domain topic 'commit' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "commit"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2222",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2222 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2222] commit to qwen kg",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2222,
+        "role": "user",
+        "created_at": "2026-11-20T18:43:48Z",
+        "content_excerpt": "commit to qwen kg",
+        "topics": [
+          "commit",
+          "qwen"
         ]
       }
     },
@@ -9098,6 +9248,16 @@
       }
     },
     {
+      "id": "topic:exact",
+      "type": "topic_entity",
+      "name": "exact",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'exact' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "exact"
+      }
+    },
+    {
       "id": "chat_turn:4dda7faa:S268",
       "type": "chat_turn",
       "name": "Chat 4dda7faa Turn S268 (assistant)",
@@ -9115,6 +9275,16 @@
           "codes",
           "exact"
         ]
+      }
+    },
+    {
+      "id": "topic:alright",
+      "type": "topic_entity",
+      "name": "alright",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'alright' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "alright"
       }
     },
     {
@@ -9225,16 +9395,6 @@
       "description": "Shared domain topic 'everything' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "everything"
-      }
-    },
-    {
-      "id": "topic:commit",
-      "type": "topic_entity",
-      "name": "commit",
-      "file_path": "chats/transcript_6e8422d1.jsonl",
-      "description": "Shared domain topic 'commit' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "commit"
       }
     },
     {
@@ -9599,16 +9759,6 @@
           "activemenu",
           "home"
         ]
-      }
-    },
-    {
-      "id": "topic:invoice",
-      "type": "topic_entity",
-      "name": "invoice",
-      "file_path": "chats/transcript_6e8422d1.jsonl",
-      "description": "Shared domain topic 'invoice' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "invoice"
       }
     },
     {
@@ -19257,18 +19407,18 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:sourcing",
+      "target": "topic:remote",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 12
+        "count": 13
       }
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:category",
+      "target": "topic:cathy",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 11
+        "count": 12
       }
     },
     {
@@ -19541,55 +19691,7 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:vendor",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 29
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:compliance",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 17
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:procurement",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 17
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:active",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 16
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:professional",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 16
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:operations",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 15
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:google",
+      "target": "topic:demand",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 14
@@ -19597,7 +19699,7 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:supplier",
+      "target": "topic:jobright",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 14
@@ -19605,91 +19707,117 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc_file:Resume_And_Jobs/Job43_Google_Category_Manager_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "doc_file:Resume_And_Jobs/Job45_Cadence_R51338_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "doc_file:Resume_And_Jobs/Job47_Airbnb_8402949_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2132",
-      "target": "topic:google",
+      "target": "topic:early",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 6
+        "count": 12
       }
     },
     {
-      "source": "chat_turn:b6556366:S2132",
-      "target": "topic:category",
+      "source": "chat_session:b6556366",
+      "target": "topic:applicant",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:planning",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:apply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:icon",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:supply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2207",
+      "target": "topic:invoice",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 3
       }
     },
     {
-      "source": "chat_turn:b6556366:S2132",
-      "target": "topic:manager",
+      "source": "chat_turn:b6556366:S2207",
+      "target": "topic:reply",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 3
       }
     },
     {
-      "source": "chat_turn:b6556366:S2132",
-      "target": "topic:procurement",
+      "source": "chat_turn:b6556366:S2207",
+      "target": "topic:sou1001305585",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 3
       }
     },
     {
+      "source": "chat_turn:b6556366:S2207",
+      "target": "topic:accrual_automation_guide",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2132",
+      "target": "chat_turn:b6556366:S2207",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S2132",
-      "target": "doc_file:Resume_And_Jobs/Job43_Google_Category_Manager_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2133",
-      "target": "topic:google",
+      "source": "chat_turn:b6556366:S2208",
+      "target": "topic:bulk",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
       }
     },
     {
-      "source": "chat_turn:b6556366:S2133",
-      "target": "topic:paste",
+      "source": "chat_turn:b6556366:S2208",
+      "target": "topic:close",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
       }
     },
     {
-      "source": "chat_turn:b6556366:S2133",
-      "target": "topic:resume",
+      "source": "chat_turn:b6556366:S2208",
+      "target": "topic:going",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2208",
+      "target": "topic:point",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
@@ -19697,239 +19825,241 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2133",
+      "target": "chat_turn:b6556366:S2208",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S2136",
-      "target": "topic:supplier",
+      "source": "chat_turn:b6556366:S2209",
+      "target": "topic:carrier",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 9
+        "count": 2
       }
     },
     {
-      "source": "chat_turn:b6556366:S2136",
-      "target": "topic:compliance",
+      "source": "chat_turn:b6556366:S2209",
+      "target": "topic:accrual",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 8
+        "count": 1
       }
     },
     {
-      "source": "chat_turn:b6556366:S2136",
-      "target": "topic:vendor",
+      "source": "chat_turn:b6556366:S2209",
+      "target": "topic:break",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 8
+        "count": 1
       }
     },
     {
-      "source": "chat_turn:b6556366:S2136",
-      "target": "topic:power",
+      "source": "chat_turn:b6556366:S2209",
+      "target": "topic:bulk",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 6
+        "count": 1
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2136",
+      "target": "chat_turn:b6556366:S2209",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S2140",
-      "target": "topic:master",
+      "source": "chat_turn:b6556366:S2210",
+      "target": "topic:early",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 7
+        "count": 12
       }
     },
     {
-      "source": "chat_turn:b6556366:S2140",
-      "target": "topic:governance",
+      "source": "chat_turn:b6556366:S2210",
+      "target": "topic:applicant",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 6
+        "count": 11
       }
     },
     {
-      "source": "chat_turn:b6556366:S2140",
-      "target": "topic:procurement",
+      "source": "chat_turn:b6556366:S2210",
+      "target": "topic:apply",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 6
+        "count": 10
       }
     },
     {
-      "source": "chat_turn:b6556366:S2140",
-      "target": "topic:quality",
+      "source": "chat_turn:b6556366:S2210",
+      "target": "topic:demand",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 6
+        "count": 10
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2140",
+      "target": "chat_turn:b6556366:S2210",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S2140",
-      "target": "doc_file:Resume_And_Jobs/Job45_Cadence_R51338_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2159",
-      "target": "topic:vendor",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 13
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2159",
-      "target": "topic:airbnb",
+      "source": "chat_turn:b6556366:S2215",
+      "target": "topic:planning",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 5
       }
     },
     {
-      "source": "chat_turn:b6556366:S2159",
-      "target": "topic:compliance",
+      "source": "chat_turn:b6556366:S2215",
+      "target": "topic:demand",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2215",
+      "target": "topic:hardware",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2215",
+      "target": "topic:jobright",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2215",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2216",
+      "target": "topic:thank",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2216",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2217",
+      "target": "topic:accrual",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2217",
+      "target": "topic:anytime",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2217",
+      "target": "topic:cathy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2217",
+      "target": "topic:evening",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2217",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2218",
+      "target": "topic:another",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2218",
+      "target": "topic:help",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2218",
+      "target": "topic:leave",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2218",
+      "target": "topic:lensa",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2218",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2219",
+      "target": "topic:lensa",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 5
       }
     },
     {
-      "source": "chat_turn:b6556366:S2159",
-      "target": "topic:operations",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2159",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2159",
-      "target": "doc_file:Resume_And_Jobs/Job47_Airbnb_8402949_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2160",
-      "target": "topic:finance",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2160",
-      "target": "topic:person",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2160",
-      "target": "topic:alright",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2160",
-      "target": "topic:never",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2160",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2161",
-      "target": "topic:vendor",
+      "source": "chat_turn:b6556366:S2219",
+      "target": "topic:fortune",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 4
       }
     },
     {
-      "source": "chat_turn:b6556366:S2161",
-      "target": "topic:operations",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2161",
-      "target": "topic:airbnb",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2161",
-      "target": "topic:exact",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2161",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2171",
-      "target": "topic:active",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2171",
-      "target": "topic:submitted",
+      "source": "chat_turn:b6556366:S2219",
+      "target": "topic:remote",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 4
       }
     },
     {
-      "source": "chat_turn:b6556366:S2171",
-      "target": "topic:cadence",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2171",
-      "target": "topic:manager",
+      "source": "chat_turn:b6556366:S2219",
+      "target": "topic:cbre",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 3
@@ -19937,19 +20067,13 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2171",
+      "target": "chat_turn:b6556366:S2219",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S2171",
-      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2172",
-      "target": "topic:rejections",
+      "source": "chat_turn:b6556366:S2220",
+      "target": "topic:thank",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
@@ -19957,81 +20081,37 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2172",
+      "target": "chat_turn:b6556366:S2220",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S2173",
-      "target": "topic:active",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2173",
-      "target": "topic:lockheed",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2173",
-      "target": "topic:submitted",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2173",
-      "target": "topic:inactive",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2173",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2174",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2175",
-      "target": "topic:ahead",
+      "source": "chat_turn:b6556366:S2221",
+      "target": "topic:anytime",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
       }
     },
     {
-      "source": "chat_turn:b6556366:S2175",
-      "target": "topic:away",
+      "source": "chat_turn:b6556366:S2221",
+      "target": "topic:cathy",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
       }
     },
     {
-      "source": "chat_turn:b6556366:S2175",
-      "target": "topic:clean",
+      "source": "chat_turn:b6556366:S2221",
+      "target": "topic:evening",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
       }
     },
     {
-      "source": "chat_turn:b6556366:S2175",
-      "target": "topic:emails",
+      "source": "chat_turn:b6556366:S2221",
+      "target": "topic:friday",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
@@ -20039,7 +20119,29 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2175",
+      "target": "chat_turn:b6556366:S2221",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2222",
+      "target": "topic:commit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2222",
+      "target": "topic:qwen",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2222",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -21513,7 +21615,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "ffc44707b2be7839805e0821955eb769a776538d576d885f311f83f1cdd1a2fd",
+    "chats/SHARED_SESSION_STATE.md": "6f56be580d9e0dcb33d1480ab12b057cd703c4362824faccba991ed4191960a5",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -21526,6 +21628,6 @@
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
-    "repo.md": "18c925bfee2ec58ff5b97943c3d2612e093a62c2349fb15e34c6bd74a4033d9f"
+    "repo.md": "189bd87ab1dc9f5d5dc5a0d20edd1df4427c32498d73f6b1c4b3df192ac31cb9"
   }
 }
