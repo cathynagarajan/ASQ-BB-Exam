@@ -98,6 +98,11 @@
   35. **Humana (NYSE: HUM)** — *Behavioral Health Vendor Performance Lead* (`Req R-433994`, 100% Remote Nationwide, 115.2K–158.4K USD — applied **2026-11-19** -> **Rejected 2026-11-19**)
   36. **Jabil (NYSE: JBL)** — *Consulting Supply Chain Manager* (`Req J2464637`, 100% Remote USA, 98.2K–176.8K USD — applied **2026-11-19**, *Application Received*!)
   37. **Analog Devices (NASDAQ: ADI)** — *Senior Analyst, Supply Chain Planning* (`Req R266612`, North San Jose ~13 mi, 99.36K–136.62K USD — applied **2026-11-19**, *Under Review*!)
+- **Day-7 Weekday Applications (2026-11-20 — `4` Submitted Today [Friday Goal Complete!]; `62` Total Tracked Across Portals = `52` Active [`31` Non-Lockheed incl. newly verified Cadence `R54483` + `19` Lockheed incl. Stage-2 `13013` + `2` Active Northrop `R10260907`, `R10252052`], `10` Rejected)**:
+  38. **Gilead Sciences / Kite (NASDAQ: GILD)** — *Category Manager, Global Strategic Sourcing & Procurement (Logistics)* (`Req R0055591`, Foster City Hybrid ~14 mi, 123.93K–160.38K USD — applied **2026-11-20**, *Under Review*! `Active: 6` at Gilead)
+  39. **Google (NASDAQ: GOOGL)** — *Category Manager, Technical Professional Services, Google Procurement* (Sunnyvale Hybrid ~9 mi, 111K–159K USD + bonus/RSUs — applied **2026-11-20**, *Submitted*!)
+  40. **Cadence Design Systems (NASDAQ: CDNS)** — *Senior, Master Data Management, Systems Analyst (Procurement)* (`Req R51338`, North San Jose Hybrid ~13 mi, 88.2K–163.8K USD — applied **2026-11-20**, *Review*! Plus existing active `R54483` Inventory & Logistics Manager [Aug 24] = `2` Active at Cadence)
+  41. **Airbnb (NASDAQ: ABNB)** — *Senior Financial Operations Lead, Vendor Operations* (`ID 8402949`, SF Bay Area flexible, 132K–155K USD + bonus/RSUs — applied **2026-11-20**, *Submitted*!)
   - **All 20 Lockheed Job IDs Indexed (Never Repeat)**: `9343`, `24775`, `23028`, `9306`, `9054`, `16519`, `16516`, `11582`, `13918` (Rejected), `17417`, `11141`, `8363`, `9581`, `13924`, `16508`, `13013` (Active Stage-2!), `13178`, `8492` (Rejected), `20038`, `19487`.
 - **Active Recruiter / Stage-2 Callbacks**:
   - **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req 13013`, Sunnyvale CA, IC Level E3, 125K–135K USD base) — **Stage-2 Portal Updated (`✓`) & Recruiter Questionnaire SENT to Christian Sieg (2026-11-16 — Ready for Hiring Manager advancement!)**!
@@ -113,4 +118,4 @@
   - **GitHub / GitLab (`8642786002`)** — **Rejected (2026-11-17)**.
   - **Northrop Grumman** — Prior apps rejected (skip Northrop going forward).
   - **Lockheed Martin `Job ID 13918` & `Job ID 8492`** — **Rejected**.
-- **NEXT JOB STEP**: **Daily Application Cadence**: **Weekdays (Mon–Fri) = `3 to 5` high-fit jobs/day**; **Weekends (Sat–Sun) = `10` jobs/day**. (**Current Total: `57` Tracked = `47` Active, `10` Rejected [NGC `R10257650` closed `2026-11-20` — skip NGC permanently!]**; ready for Friday `2026-11-20` `3–4` fresh non-NGC roles!).
+- **NEXT JOB STEP**: **Daily Application Cadence**: **Weekdays (Mon–Fri) = `3 to 5` high-fit jobs/day**; **Weekends (Sat–Sun) = `10` jobs/day**. (**Friday 2026-11-20 Complete: `4` roles submitted [Gilead `R0055591`, Google Procurement Category Mgr, Cadence `R51338`, Airbnb `8402949`]! `62` Total Tracked = `52` Active, `10` Rejected**; ready for Weekend Sat `2026-11-21` `10`-job sprint using Poka-Yoke 1-by-1 flow!).

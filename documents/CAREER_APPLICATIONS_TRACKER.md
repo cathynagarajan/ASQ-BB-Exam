@@ -59,6 +59,12 @@
 36. **Jabil (NYSE: JBL)** — *Consulting Supply Chain Manager* (`Req J2464637`, 100% Remote USA, 98.2K to 176.8K USD [CA tier 140K–176.8K USD], IC) — **APPLIED / APPLICATION RECEIVED (2026-11-19)**
 37. **Analog Devices (NASDAQ: ADI)** — *Senior Analyst, Supply Chain Planning* (`Req R266612`, North San Jose `Rio Robles` ~13 mi, 99.36K to 136.62K USD + bonus, IC) — **APPLIED / UNDER REVIEW (2026-11-19)**
 
+## Completed Applications — Day 7 Weekday Cadence (4 Submitted — 2026-11-20 — Friday Goal Complete! `62` Total Tracked = `52` Active, `10` Rejected!)
+38. **Gilead Sciences / Kite (NASDAQ: GILD)** — *Category Manager, Global Strategic Sourcing & Procurement (Logistics)* (`Req R0055591`, Foster City Hybrid Eligible ~14 mi, 123.93K to 160.38K USD + bonus/RSUs, IC) — **APPLIED / UNDER REVIEW (2026-11-20)** *(Active: `6` on Gilead Workday!)*
+39. **Google (NASDAQ: GOOGL)** — *Category Manager, Technical Professional Services, Google Procurement* (Sunnyvale Hybrid ~9 mi / Chicago multi-loc, 111K to 159K USD + bonus/RSUs, IC) — **SUBMITTED (2026-11-20)**
+40. **Cadence Design Systems (NASDAQ: CDNS)** — *Senior, Master Data Management, Systems Analyst (Procurement)* (`Req R51338`, North San Jose Hybrid ~13 mi, 88.2K to 163.8K USD + bonus/equity, IC) — **APPLIED / REVIEW (2026-11-20)** *(plus existing active `Req R54483` Inventory and Logistics Manager, applied `2026-08-24`, verified `Review` on Cadence Workday = `2` Active at Cadence!)*
+41. **Airbnb (NASDAQ: ABNB)** — *Senior Financial Operations Lead, Vendor Operations* (`ID 8402949`, SF Bay Area / Palo Alto flexible, 132K to 155K USD + bonus/equity/travel credits, IC) — **SUBMITTED (2026-11-20)**
+
 ## Full Lockheed Martin Eightfold Application History (`21` Roles: `19` Active Submitted + `2` Inactive + `1` Draft — Verified `2026-11-18`!)
 - **Active Stage-2 / Recruiter Screen (`1`):**
   - `Job ID 13013` — *Subcontract Management Sr - E3* (Highlands Ranch CO / Sunnyvale CA +3, applied 2026-10-19) — **Stage-2 Reasonable Accommodation Updated (`✓`), Questionnaire Sent to Christian Sieg (`2026-11-16`)**
