@@ -14,13 +14,15 @@
 - **Strictly ASQ 2022 CSSBB Body of Knowledge ONLY**:
   - Reference `/home/krithika/workspace/ASQ-BB-Exam/documents/ASQ_CSSBB_Official_BOK_2022.md` and `/home/krithika/workspace/ASQ-BB-Exam/documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md` (`Hoshin Kanri` was removed in 2022; `Lencioni's 5 Dysfunctions` and `Risk Analysis` are active).
   - Check `/home/krithika/workspace/ASQ-BB-Exam/documents/QUESTION_BANK_LOG.md` before writing questions so **zero questions ever repeat**.
-- **Progressive Difficulty Ladder (`Easy -> Medium -> Hard` — NEVER Ambush With Crooked Traps Upfront!)**:
+- **Daily "10 + 40" Gradual Study Rhythm (`10` Weak-Topic Warm-Up + `40–50` New-Unit Ladder — NEVER Ambush Upfront!)**:
   - Cathy is refreshing after an **8-month break**. **NEVER** use the old "final-2-weeks crooked questions only" rule!
-  - Take **1 narrow topic at a time**:
+  - **First 10 Qs EVERY Day**: Always open with **10 fresh spaced-repetition questions on Cathy's active weak/sticky topics** (Sampling triggers, `Cp/Cpk/Pp/Ppk`, `p <= alpha`, Power `1 - beta`, CLT, Defect vs. Defective, Gage Bias/Linearity, `np/p/c/u` charts, Bridges/Lewin) until nailed 3 times cleanly!
+  - **Next 40–50 Qs (New Unit, Open-Book, 1 Narrow Topic at a Time)**:
     1. **Teach Briefly First**: 3–5 calm, plain-English lines right on screen with a real-life example (zero obscure textbook footnotes). Wait for **"ready"**.
     2. **Easy First**: Start with clean, direct **1-line Copilot-style questions** to rebuild memory.
     3. **Medium Next**: Step up to simple 1–2 sentence ASQ application questions only once Easy is comfortable.
     4. **Hard Last**: Introduce harder scenarios ONLY after Easy and Medium are solid.
+  - **Word-Native Tables Always**: Whenever Cathy requests a table for her Word Bible, ALWAYS build a real `.docx` file in `documents/` (plus optional tab-separated TSV in chat).
   - Plain-text numbered questions, 4 choices (`A, B, C, D`), **NEVER show answers or hints upfront**.
 - **Human, Plain-English Grading & Explanations**:
   1. Score cleanly and clearly.

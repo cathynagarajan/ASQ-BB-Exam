@@ -13,7 +13,9 @@
 - **NEXT EXAM MILESTONE (FRIDAY `2026-11-20`+)**:
   1. **Unit 1 (`Domain I`) COMPLETE & MASTERED (`76 / 88 = 86.4%`)** AND **Unit 2 (`Domain II`) Level 1–3 COMPLETE (`45 / 53 = 84.9%`; `15/15 = 100%` on Level 3 Hard!)**.
   2. **Next Unit 2 Cap**: Run Cathy's **Unit 2 Final Check / 1st Timed Prometric Mini-Sprint (`15` exam Qs in `24` mins, Open-Book)** — then declare Unit 2 MASTERED and move smoothly into **Unit 3 (`Domain III`: Team Management — Tuckman, Lencioni, Thomas-Kilmann, Coaching/Facilitating)**!
-  3. **Permanent Formatting Preference**: Whenever Cathy asks for a study table for her Word Bible, **ALWAYS generate a real `.docx` file** in `documents/` (plus optional tab-separated TSV in chat) — never expect raw Markdown pipe tables to paste into Word!
+  3. **Permanent Coaching Preferences Locked (2026-11-20)**:
+     - **Daily "10 + 40" Gradual Rhythm**: Start **EVERY study day** with **10 fresh spaced-repetition questions on Cathy's active weak/sticky topics** (building automatic speed!), followed by **40–50 questions** advancing gradually (`Easy -> Medium -> Hard`, Open-Book) through the next unit!
+     - **Word-Native Tables Always**: Whenever Cathy asks for a study table for her Word Bible, **ALWAYS generate a real `.docx` file** in `documents/` (plus optional tab-separated TSV in chat) — never expect raw Markdown pipe tables to paste into Word!
   4. **Credentials Check for Master Resume**: Verify exact active codes on Cathy's Microsoft Learn transcript (Power Platform `PL-*` / Solution Architect path) and note her **ASQ Yellow Belt (`CSSYB`)** alongside `PMP`, `CSCP`, `CSSGB`, and `M.C.A.`.
   5. **Vault Angular Demo (`Vault-Study-Session`)**: Office laptop `e103446` `http://localhost:4200` + `1 = SBX / 2 = Vault` switcher restored; resume at **Line 62 of `app.ts`** (~15 calm mins/day for early-Dec Carl demo).
 - **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`166 / 199 = 83.4%`**
