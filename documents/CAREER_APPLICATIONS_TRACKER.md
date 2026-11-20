@@ -8,7 +8,7 @@
 - **Employer Stability:** Strictly **established / stable employers ONLY (NO startups)**.
 - **Scope Rule:** Strictly **Individual Contributor (IC) roles ONLY** (**ZERO direct reports / people-management requirements**), **NO heavy data-analytics / SQL / Python / BI roles**, and **NEVER change Cathy's real employer job titles** (`Transportation Cost & Operations Analyst`, `Transportation Data & Contracts Specialist`, `Transportation & Logistics Specialist`, `EDI / Shipping & Procurement Specialist`).
 - **Vegetarian Ethics Rule:** Strictly **NO meat, egg, poultry, fish/seafood, or animal-slaughter companies**!
-- **Skipped Employers (Per Cathy):** Skip Apple, Applied Materials, Supermicro, Cisco, Cardinal Health (low pay), Vital Farms (eggs), HP/HPE (hire/fire), Coinbase (legal degree), Matternet (lifting/onsite), startups.
+- **Skipped Employers (Per Cathy):** Skip Apple, Applied Materials, Supermicro, Cisco, Cardinal Health (low pay), Vital Farms (eggs), HP/HPE (hire/fire), Coinbase (legal degree), Matternet (lifting/onsite), Northrop Grumman (internal-wired federal compliance postings), startups.
 
 ## Completed Applications — Day 1 (10 Submitted — 2026-11-14)
 1. **Stanford Health Care** — *Supply Chain Strategic Initiatives Project Manager* (`Req R2656254`, Palo Alto Hybrid, ~2 mi, IC) — **APPLIED (2026-11-14)**
@@ -54,7 +54,7 @@
 33. **Adobe (NASDAQ: ADBE)** — *Procurement - Technology - Cloud Category Manager* (`Req R166065`, San Jose Hybrid ~15 mi, California band 169.1K to 244.85K USD + bonus & RSUs, IC) — **APPLIED (2026-11-18)**
 
 ## Completed Applications — Day 6 Weekday Cadence (4 Submitted — 2026-11-19 — Weekday Goal Complete!)
-34. **Northrop Grumman (NYSE: NOC)** — *Principal / Sr. Principal Project Manager (Marine Logistics Support)* (`Req R10260907`, Sunnyvale CA ~9 mi, 117.5K to 176.3K USD Level 4, IC) — **APPLIED / UNDER CONSIDERATION (2026-11-19)** *(also active on Northrop Workday: `R10257650` Sr. Principal Supply Chain Planning Specialist [Nov 1] & `R10252052` Principal Supply Chain Procurement Specialist [Oct 15] — 3 Active Total at Northrop!)*
+34. **Northrop Grumman (NYSE: NOC)** — *Principal / Sr. Principal Project Manager (Marine Logistics Support)* (`Req R10260907`, Sunnyvale CA ~9 mi, 117.5K to 176.3K USD Level 4, IC) — **APPLIED / UNDER CONSIDERATION (2026-11-19)** *(also active on Northrop Workday: `R10252052` Principal Supply Chain Procurement Specialist [Oct 15] — 2 Active remaining at Northrop after `R10257650` [Nov 1] rejected 2026-11-20; **SKIP NGC going forward**!)*
 35. **Humana (NYSE: HUM)** — *Behavioral Health Vendor Performance Lead* (`Req R-433994`, 100% Remote Nationwide, 115.2K to 158.4K USD, IC) — **APPLIED (2026-11-19) -> REJECTED (2026-11-19)**
 36. **Jabil (NYSE: JBL)** — *Consulting Supply Chain Manager* (`Req J2464637`, 100% Remote USA, 98.2K to 176.8K USD [CA tier 140K–176.8K USD], IC) — **APPLIED / APPLICATION RECEIVED (2026-11-19)**
 37. **Analog Devices (NASDAQ: ADI)** — *Senior Analyst, Supply Chain Planning* (`Req R266612`, North San Jose `Rio Robles` ~13 mi, 99.36K to 136.62K USD + bonus, IC) — **APPLIED / UNDER REVIEW (2026-11-19)**
@@ -89,6 +89,7 @@
   - **Lockheed Eightfold AI Candidate Profile & Resume-Match Portal:** `https://lockheedmartin.eightfold.ai/careers/profile?utm_source=indeed&domain=lockheedmartin.com&Codes=IND` *(use to upload resume and view auto-matched Lockheed Martin Space openings, including Christian Sieg's upcoming roles)*.
 
 ## Closed / Rejected Applications Log
+- **Northrop Grumman (NYSE: NOC)** — *Sr. Principal / Principal Supply Chain Planning Specialist (`Req R10257650`, applied Nov 1)* — **REJECTED / CLOSED (2026-11-20)** *(skip NGC going forward — federal compliance / internal-wired postings)*.
 - **Humana (NYSE: HUM)** — *Behavioral Health Vendor Performance Lead (`Req R-433994`, Remote)* — **REJECTED / CLOSED (2026-11-19)**.
 - **Intuit (NASDAQ: INTU)** — *Senior Strategic Sourcing Manager, Corporate Services (`Job ID 25188` / `103274381152`, Mountain View)* — **REJECTED / CLOSED (2026-11-19)**.
 - **Waymo (Alphabet)** — *Global Vendor Operations Manager (`ID 8348363`, Mountain View)* — **REJECTED / CLOSED (2026-11-18)**.
