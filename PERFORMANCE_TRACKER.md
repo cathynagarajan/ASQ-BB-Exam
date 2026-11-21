@@ -2,20 +2,20 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Round 22 — Unit 3 `Domain III` Level 3 Hard Set 1 `Q331`–`Q340`, Open-Book):** **`7 / 10` (`70.0%`)** — **Combined Unit 3 Tonight (`Q311–Q340`): `26 / 30 (86.7%)`!!** *(Crossed **500+ unique questions**! Nailed Virtual Teams, Tuckman Regression, Herzberg Hygiene, Lencioni chain, Avoiding cool-off, & Facilitator Neutrality! Missed only `Q336` Accommodating, `Q338` Multivoting, `Q339` Kirkpatrick L2 vs L3.)*
-- **Overall Cumulative Score (`Q1`–`Q340` + `C1`–`C165` = `505` Qs):** **`398 / 505` (`78.8%`)**
+- **Latest Batch Score (Round 22 Complete — 50-Q Evening `Q301`–`Q350`, Open-Book):** **`43 / 50` (`86.0%`!)** — **Unit 3 Hard Set 2 (`Q341–Q350`): `9 / 10 (90.0%`; `8 / 8 = 100%` on Unit 3 Hard Set 2 + Rational Subgrouping FIXED!)**
+- **Overall Cumulative Score (`Q1`–`Q350` + `C1`–`C165` = `515` Qs):** **`407 / 515` (`79.0%`)**
 
 ---
 
-## 1. Domain Mastery Summary (Strictly ASQ 2022 BoK — 340 Scored Qs)
+## 1. Domain Mastery Summary (Strictly ASQ 2022 BoK — 350 Scored Qs)
 
 | ASQ Domain | DMAIC Phase | Exam Weight | Attempted | Correct | Accuracy | Status / Priority |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 89 | 77 | **86.5%** | **UNIT 1 COMPLETE & MASTERED (`86.5%`; Bridges Neutral Zone FIXED!)** |
-| **II. Org Process Mgmt & Measures** | Pre-DMAIC | 12 Qs (8.0%) | 55 | 47 | **85.5%** | **UNIT 2 READY FOR TIMED SPRINT (`85.5%`; Defect vs Defective & Appraisal COQ LOCKED!)** |
-| **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 37 | 31 | **83.8%** | **UNIT 3 (`26/30 = 86.7%` tonight!)** Ready for **Unit 3 Hard Set 2 (`Q341–Q350`)** to lock in Accommodating, Multivoting, & Kirkpatrick L2 vs L3! |
-| **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 51 | 40 | **78.4%** | **Critical Path (`Q255`) & Pareto (`Q297`) FIXED!** Review PERT variance `sqrt(sum var)`, ID `0 incoming`, PDPC vs PFMEA |
-| **V. Measure** | **Measure (M)** | 25 Qs (16.7%) | 60 | 40 | **66.7%** | **`Cpk/Ppk`, Gage Bias, Linearity (`Q308`), & CLT Normal ALL FIXED!** Focus: Sampling (`Rational Subgrouping` vs `Stratified` vs `Cluster`) |
+| **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 89 | 77 | **86.5%** | **UNIT 1 COMPLETE & MASTERED (`86.5%`)!** |
+| **II. Org Process Mgmt & Measures** | Pre-DMAIC | 12 Qs (8.0%) | 55 | 47 | **85.5%** | **UNIT 2 COMPLETE & MASTERED (`85.5%`; `15/15` Hard)!** |
+| **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 45 | 39 | **86.7%** | **UNIT 3 COMPLETE & MASTERED (`86.7%`; `10/10` Easy, `9/10` Med, `8/8` Hard Set 2 + Zero-Gap Part E Bible)!** Ready for **Unit 4 (`Domain IV`: Define)!** |
+| **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 51 | 40 | **78.4%** | **NEXT UNIT (`Domain IV`: VOC, Kano, QFD, Charter, SMART, CPM/PERT, 7 M&P Tools)!** |
+| **V. Measure** | **Measure (M)** | 25 Qs (16.7%) | 62 | 41 | **66.1%** | **Rational Subgrouping (`Q349`) FIXED!!** Keep `Stratified ("from each") vs Cluster ("few whole")` in daily 10-Q warm-up! |
 | **VI. Analyze** | **Analyze (A)** | 22 Qs (14.7%) | 36 | 29 | **80.6%** | **`p <= alpha`, `p > alpha` Fail-to-Reject (`Q304`), Power `1-beta` (`Q305`), & Pearson Nonlinear ALL MASTERED!** |
 | **VII. Improve** | **Improve (I)** | 21 Qs (14.0%) | 0 | 0 | — | Not Started *(3rd Weight)* |
 | **VIII. Control** | **Control (C)** | 17 Qs (11.3%) | 12 | 10 | **83.3%** | **`np-chart` (`Q307`) & Control Limits = Special Causes (`Q252`) ALL MASTERED!** |
