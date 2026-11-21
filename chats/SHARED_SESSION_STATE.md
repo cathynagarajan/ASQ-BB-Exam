@@ -8,8 +8,8 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`515` (`Q1`–`Q350` + Copilot `C1`–`C165`) — 50-QUESTION FRIDAY EVENING COMPLETE (`43 / 50 = 86.0%`!)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Latest Set (Round 22 Final — Unit 3 Hard Set 2 + Sampling Lock-In `Q341`–`Q350`, Open-Book)**: **`9 / 10 = 90.0%`!!** *(`8 / 8 = 100%` on Unit 3 Hard Set 2 + **Rational Subgrouping `Q349` FIXED!** Only 1 miss: `Q350` Stratified `"from each"` vs Cluster. Upgraded `Unit3_Team_Management_Bible_Table.docx` with Part E Zero-Gap Appendix: Maslow 5 Tiers, all 4 Team Types, all 7 Team Roles, & Selection Criteria!)*
+- **Completed Unique Questions**: **`540` (`Q1`–`Q350` + Copilot `C1`–`C190`) — Latest: Copilot Set 7 (`C166`–`C190`) Audited `21 / 25 = 84.0%`!** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Latest Set (Copilot Set 7 `C166`–`C190` on `2026-11-21`)**: **`21 / 25 = 84.0%`!** *(Caught Copilot falsely marking `Q16` and `Q17` right when Cathy submitted `C` on both; true misses: `Q16` Chi-Square, `Q17` Control Plan, `Q23` Measure=MSA, `Q24` Taguchi Loss Function. Previous Round 22 `Q341`–`Q350`: `9 / 10 = 90.0%`!)*
 - **NEXT EXAM MILESTONE (SATURDAY `2026-11-21`+)**:
   1. **ALL THREE FIRST UNITS MASTERED AT `85%+`!!** **Unit 1 (`Domain I`: `86.5%`)**, **Unit 2 (`Domain II`: `85.5%`, `15/15` Hard)**, and **Unit 3 (`Domain III`: `86.7%`, `8/8` Hard Set 2)**!
   2. **Master Word Bible Rebuilt (Unabridged Full-Detail Lean 5S Edition — `2026-11-21`)**:
@@ -26,7 +26,7 @@
 - **Stage 2 Status (`Domain V — Measure Phase`)**: **`41 / 62 = 66.1%`**
 - **Stage 3 Status (`Domain VI — Analyze Phase`)**: **`29 / 36 = 80.6%`**
 - **Stage 5 Preview (`Domain VIII — Control Charts`)**: **`10 / 12 = 83.3%`**
-- **Copilot External Sets (`C1`–`C165`)**: **`124 / 165` (`75.2%` — Set 6 `C131`–`C165`: verified `23 / 35 = 65.7%` after auditing Copilot key bugs on Q9/Q13/Q15!)** — Grand Cumulative: **`407 / 515` (`79.0%`)**
+- **Copilot External Sets (`C1`–`C190`)**: **`145 / 190` (`76.3%` — Set 7 `C166`–`C190`: verified `21 / 25 = 84.0%` after catching Copilot misgrading `Q16/Q17`!)** — Grand Cumulative: **`428 / 540` (`79.3%`)**
 - **Active Weak Points Scheduled for Spaced Re-Testing**:
   1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)
   2. `IV.A.3` CTQ measurable numerical target vs. vague VOC (`Q18`)

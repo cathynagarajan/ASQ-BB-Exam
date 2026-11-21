@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-21T05:21:51.396465+00:00",
+    "generated_at": "2026-11-21T05:24:06.130711+00:00",
     "total_files_indexed": 87,
-    "total_nodes": 838,
-    "total_edges": 1669,
+    "total_nodes": 840,
+    "total_edges": 1667,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
@@ -12,32 +12,33 @@
       "document_file": 32,
       "document_section": 222,
       "html_template": 1,
-      "topic_entity": 476
+      "topic_entity": 478
     }
   },
   "last_change_check": {
     "changed": true,
     "added": [],
     "modified": [
+      "PERFORMANCE_TRACKER.md",
       "chats/SHARED_SESSION_STATE.md",
-      "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx"
+      "documents/QUESTION_BANK_LOG.md"
     ],
     "removed": [],
-    "files_parsed": 1,
-    "files_cached_reused": 85,
+    "files_parsed": 2,
+    "files_cached_reused": 84,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 62,
-      "nodes_deleted": 26,
-      "edges_upserted": 79,
-      "edges_deleted": 65,
-      "wiki_pages_upserted": 0,
+      "nodes_upserted": 17,
+      "nodes_deleted": 4,
+      "edges_upserted": 22,
+      "edges_deleted": 18,
+      "wiki_pages_upserted": 2,
       "wiki_pages_deleted": 0,
-      "files_upserted": 3,
+      "files_upserted": 4,
       "files_deleted": 0,
-      "total_nodes_in_db": 838,
-      "total_edges_in_db": 1669,
+      "total_nodes_in_db": 840,
+      "total_edges_in_db": 1667,
       "total_files_tracked": 88
     }
   },
@@ -60,10 +61,11 @@
           "Stage 2 (`V. Measure`) COMPLETE!",
           "Stage 3 (`VI. Analyze`) IN PROGRESS",
           "Project 2 (`50+ Qs`) COMPLETE (`Q51`\u2013`Q100`)!",
-          "Latest Batch Score (Round 22 Complete \u2014 50-Q Evening `Q301`\u2013`Q350`, Open-Book):",
-          "`43 / 50` (`86.0%`!)",
-          "Overall Cumulative Score (`Q1`\u2013`Q350` + `C1`\u2013`C165` = `515` Qs):",
-          "`407 / 515` (`79.0%`)",
+          "Latest Batch Score (Copilot Set 7 Audit `C166`\u2013`C190` on `2026-11-21`):",
+          "`21 / 25` (`84.0%`!)",
+          "`43 / 50 = 86.0%`",
+          "Overall Cumulative Score (`Q1`\u2013`Q350` + `C1`\u2013`C190` = `540` Qs):",
+          "`428 / 540` (`79.3%` \u2014 trending steadily NORTH!)",
           "I. Org-Wide Planning & Deployment",
           "86.5%",
           "UNIT 1 COMPLETE & MASTERED (`86.5%`)!",
@@ -174,19 +176,21 @@
           "50+ Qs",
           "Q51",
           "Q100",
+          "C166",
+          "C190",
+          "2026-11-21",
+          "21 / 25",
+          "84.0%",
+          "Q16",
+          "Q17",
           "Q301",
           "Q350",
-          "43 / 50",
-          "86.0%",
-          "Q341\u2013Q350",
-          "9 / 10 (90.0%",
-          "8 / 8 = 100%",
+          "43 / 50 = 86.0%",
           "Q1",
           "C1",
-          "C165",
-          "515",
-          "407 / 515",
-          "79.0%",
+          "540",
+          "428 / 540",
+          "79.3%",
           "15/15",
           "10/10",
           "9/10",
@@ -968,7 +972,7 @@
       "id": "topic:quality",
       "type": "topic_entity",
       "name": "quality",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
       "description": "Shared domain topic 'quality' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "quality"
@@ -988,7 +992,7 @@
       "id": "topic:sourcing",
       "type": "topic_entity",
       "name": "sourcing",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'sourcing' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "sourcing"
@@ -2105,7 +2109,7 @@
       "id": "topic:sigma",
       "type": "topic_entity",
       "name": "sigma",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
       "description": "Shared domain topic 'sigma' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "sigma"
@@ -4484,7 +4488,7 @@
       "id": "topic:defects",
       "type": "topic_entity",
       "name": "defects",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
       "description": "Shared domain topic 'defects' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "defects"
@@ -4599,7 +4603,7 @@
       "id": "topic:sample",
       "type": "topic_entity",
       "name": "sample",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'sample' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "sample"
@@ -4804,7 +4808,7 @@
       "id": "topic:chart",
       "type": "topic_entity",
       "name": "chart",
-      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'chart' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "chart"
@@ -7498,7 +7502,8 @@
           "External Practice Batch \u2014 Copilot Set 6 (`C131`\u2013`C165`, `35` Qs \u2014 Verified `23 / 35 = 65.7%` on `2026-11-19/20`, tired post-workday; Copilot answer key audited & corrected on `Q9/Q13/Q15`!)",
           "Round 20 \u2014 50-Question Evening Marathon (`Q251`\u2013`Q300` \u2014 2026-11-20 | Total: `40/50 = 80.0%` [`40/49 = 81.6%` answered]; Unit 2 Hard: `15/15 = 100.0%` PERFECT!)",
           "Round 21 \u2014 Daily Weak-Topic Warm-Up #1 (`Q301`\u2013`Q310` \u2014 2026-11-21 | Score: `8/10 = 80.0%` \u2014 PERFECT `8/8` on `Q303\u2013Q310`!)",
-          "Round 22 \u2014 Unit 3 (`Domain III`: Team Management) Easy + Medium (`Q311`\u2013`Q330` \u2014 2026-11-21 | Combined: `19/20 = 95.0%`!)"
+          "Round 22 \u2014 Unit 3 (`Domain III`: Team Management) Easy + Medium (`Q311`\u2013`Q330` \u2014 2026-11-21 | Combined: `19/20 = 95.0%`!)",
+          "External Practice Batch \u2014 Copilot Set 7 (`C166`\u2013`C190`, `25` Qs \u2014 Verified `21 / 25 = 84.0%` on `2026-11-21`; Copilot answer-table misgrade caught on `Q16` & `Q17`!)"
         ],
         "keywords": [
           "Rule:",
@@ -7525,6 +7530,14 @@
           "Multivoting \u2014 FIXED!",
           "Kirkpatrick L2 Learning + L3 Behavior \u2014 FIXED!",
           "Rational subgrouping `\"consecutive\"` \u2014 FIXED!!",
+          "Audit Note:",
+          "`21 / 25 = 84.0%`",
+          "Nailed (`\u2705` \u2014 `21` Qs):",
+          "True Misses (`\u274c` \u2014 `4` Qs):",
+          "A. Chi-Square",
+          "B. Sustain gains after project closure",
+          "B. Validate measurement system",
+          "B. All variation from target creates loss",
           "Q1",
           "Q15",
           "14/15",
@@ -7742,15 +7755,7 @@
           "(5.0) (",
           "Q113",
           "(W) vs. Correct",
-          "(Y) (",
-          "Q114",
-          "Q115",
-          "PFMEA vs. Correct",
-          "PDPC (",
-          "Q116",
-          "Q117",
-          "Q118",
-          "Q119"
+          "(Y) ("
         ],
         "format": "md"
       }
@@ -9351,6 +9356,16 @@
       }
     },
     {
+      "id": "topic:cathy",
+      "type": "topic_entity",
+      "name": "cathy",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'cathy' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cathy"
+      }
+    },
+    {
       "id": "chat_session:SHAREDSE",
       "type": "chat_session",
       "name": "Chat Session SHAREDSE",
@@ -9370,7 +9385,7 @@
           "nasdaq",
           "lockheed",
           "remote",
-          "sourcing"
+          "cathy"
         ]
       }
     },
@@ -9495,16 +9510,6 @@
       }
     },
     {
-      "id": "topic:cathy",
-      "type": "topic_entity",
-      "name": "cathy",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'cathy' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "cathy"
-      }
-    },
-    {
       "id": "topic:last",
       "type": "topic_entity",
       "name": "last",
@@ -9560,13 +9565,13 @@
       }
     },
     {
-      "id": "topic:hard",
+      "id": "topic:copilot",
       "type": "topic_entity",
-      "name": "hard",
+      "name": "copilot",
       "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'hard' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'copilot' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "hard"
+        "keyword": "copilot"
       }
     },
     {
@@ -9574,18 +9579,18 @@
       "type": "chat_turn",
       "name": "Chat SHAREDSE Turn S5 (assistant)",
       "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`515` (`Q1`\u2013`Q350` + Copilot `C1`\u2013`C165`) \u2014 50-QUESTION FRIDAY EVENING COMPLETE (`43 / 50 = 86.0%`!)** \u2014 logged in `documents/QUESTION_BA",
+      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`540` (`Q1`\u2013`Q350` + Copilot `C1`\u2013`C190`) \u2014 Latest: Copilot Set 7 (`C166`\u2013`C190`) Audited `21 / 25 = 84.0%`!** \u2014 logged in `documents/QUE",
       "metadata": {
         "conversation_id": "SHAREDSE",
         "step_index": 5,
         "role": "assistant",
         "created_at": "",
-        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`515` (`Q1`\u2013`Q350` + Copilot `C1`\u2013`C165`) \u2014 50-QUESTION FRIDAY EVENING COMPLETE (`43 / 50 = 86.0%`!)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Latest Set (Round 22 Final \u2014 Unit 3 Hard Set 2 + Sampling Lock-In `Q341`\u2013`Q350`, Open-Book)**: **`9 / 10 = 90.0%`!!** *(`8 / 8 = 100%` on Unit 3 Hard Set 2 + **Rational Subgrouping `Q349` FIXED!** Only 1 miss: `Q350` Stratified `\"from each\"` vs Cluster. Upgraded `Unit3_Team_Management_Bible_Table.docx` with Part E Zero-Gap Appendix: Maslow 5 Tiers, all 4 Team Types, all 7 Team Roles, & Selection Criteria!)*\n- **NEXT EXAM MILESTONE (SATURDAY `2026-11-21`+)**:\n  1. **ALL THREE FIRST UNITS MASTERED AT `85%+`!!** **Unit 1 (`Domain I`: `86.",
+        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`540` (`Q1`\u2013`Q350` + Copilot `C1`\u2013`C190`) \u2014 Latest: Copilot Set 7 (`C166`\u2013`C190`) Audited `21 / 25 = 84.0%`!** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Latest Set (Copilot Set 7 `C166`\u2013`C190` on `2026-11-21`)**: **`21 / 25 = 84.0%`!** *(Caught Copilot falsely marking `Q16` and `Q17` right when Cathy submitted `C` on both; true misses: `Q16` Chi-Square, `Q17` Control Plan, `Q23` Measure=MSA, `Q24` Taguchi Loss Function. Previous Round 22 `Q341`\u2013`Q350`: `9 / 10 = 90.0%`!)*\n- **NEXT EXAM MILESTONE (SATURDAY `2026-11-21`+)**:\n  1. **ALL THREE FIRST UNITS MASTERED AT `85%+`!!** **Unit 1 (`Domain I`: `86.5%`)**, **Unit 2 (`Domain II`: `85.5%`, `15/15` Hard)**, and **Unit 3 (`Domain ",
         "topics": [
-          "unit",
-          "hard",
+          "cathy",
+          "copilot",
           "domain",
-          "cathy"
+          "unit"
         ]
       }
     },
@@ -9635,13 +9640,13 @@
       }
     },
     {
-      "id": "topic:regression",
+      "id": "topic:variance",
       "type": "topic_entity",
-      "name": "regression",
+      "name": "variance",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'regression' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'variance' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "regression"
+        "keyword": "variance"
       }
     },
     {
@@ -9665,76 +9670,46 @@
       }
     },
     {
+      "id": "topic:regression",
+      "type": "topic_entity",
+      "name": "regression",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'regression' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "regression"
+      }
+    },
+    {
+      "id": "topic:right",
+      "type": "topic_entity",
+      "name": "right",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "right"
+      }
+    },
+    {
       "id": "chat_session:b6556366",
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (740 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (742 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 740,
+        "turn_count": 742,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
+          "full",
           "word",
-          "regression",
-          "quality",
-          "defects",
+          "variance",
           "docx",
-          "domain",
-          "full",
-          "tests"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2386",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2386 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2386] Letter Waste D Defects O Overproduction W Waiting N Non-utilized Talent T Transportation I Inventory M Motion E Extra Processing (Overprocessing) Pioneer Known For Philip Crosby \"Quality is Free\", Zero Defects Genichi Ta",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2386,
-        "role": "user",
-        "created_at": "2026-11-21T04:55:39Z",
-        "content_excerpt": "Letter\tWaste\nD\tDefects\nO\tOverproduction\nW\tWaiting\nN\tNon-utilized Talent\nT\tTransportation\nI\tInventory\nM\tMotion\nE\tExtra Processing (Overprocessing)\n\n\t\n\t\nPioneer\tKnown For\nPhilip Crosby\t\"Quality is Free\", Zero Defects\nGenichi Taguchi\tQuality Loss Function, Robust Design\nKaoru Ishikawa\tFishbone (Cause-and-Effect) Diagram, Quality Circles\nTaiichi Ohno\tToyota Production System, Seven Wastes\n\nTool\tPurpose\tTrigger Words\nPareto Chart\tPrioritize biggest contributors\tvital few, frequency\nFishbone\tOrganize possible causes\tbrainstorm causes\nScatter Plot\tRelationship between X and Y\tcorrelation\nHistogram\tDistribution shape\tspread, skewness\nBox Plot\tCompare distributions\tmedian, quartiles\nRun Chart\tTrend over time\ttime sequence\nControl Chart\tDetect special causes\tstability\nSIPOC\tDefine process boundaries",
-        "topics": [
-          "quality",
-          "defects",
-          "variation",
-          "process"
-        ]
-      }
-    },
-    {
-      "id": "topic:paste",
-      "type": "topic_entity",
-      "name": "paste",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'paste' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "paste"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2401",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2401 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2401] Cathy, I received and saved **Part 1** of your Word Bible (`3,902` lines), and I read every single line carefully so we do not lose a single formula, memory hook, or worked example. ### One Quick Catch Before I Build You",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2401,
-        "role": "assistant",
-        "created_at": "2026-11-21T04:57:58Z",
-        "content_excerpt": "Cathy, I received and saved **Part 1** of your Word Bible (`3,902` lines), and I read every single line carefully so we do not lose a single formula, memory hook, or worked example.\n\n### One Quick Catch Before I Build Your Clean Word File\nThe chat box automatically cut off the bottom **`118 KB`** of your paste right inside **`SECTION 3 \u2014 REGRESSION (FULL THEORY BLOCK)`** (at the `Normality` row of Table `3.1`).\n\nBecause I want to make sure **zero** of your remaining notes get left out, please send the rest using whichever option is easiest for you:\n\n1. **Option 1 (Easiest \u2014 Zero Cut-Off):** Copy your original `.docx` file into `/home/krithika/workspace/ASQ-BB-Exam/documents/` and tell me the filename. I can read 100% of it directly.\n2. **Option 2 (One More Paste):** Paste the rest of your ",
-        "topics": [
-          "domain",
-          "sigma",
-          "full",
-          "paste"
+          "tests",
+          "regression",
+          "right",
+          "sample"
         ]
       }
     },
@@ -9884,16 +9859,6 @@
           "click",
           "full"
         ]
-      }
-    },
-    {
-      "id": "topic:variance",
-      "type": "topic_entity",
-      "name": "variance",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'variance' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "variance"
       }
     },
     {
@@ -10142,6 +10107,66 @@
           "detailed",
           "need",
           "notes"
+        ]
+      }
+    },
+    {
+      "id": "topic:guide",
+      "type": "topic_entity",
+      "name": "guide",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'guide' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "guide"
+      }
+    },
+    {
+      "id": "topic:walkthrough",
+      "type": "topic_entity",
+      "name": "walkthrough",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'walkthrough' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "walkthrough"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2441",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2441 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2441] First, you do **not** have a poor brain, Cathy \u2014 you just scored `86%` across your last `50` Black Belt questions. Wanting detailed, step-by-step open-book notes is smart exam strategy, not a weakness. And you were `100%",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2441,
+        "role": "assistant",
+        "created_at": "2026-11-21T05:21:57Z",
+        "content_excerpt": "First, you do **not** have a poor brain, Cathy \u2014 you just scored `86%` across your last `50` Black Belt questions. Wanting detailed, step-by-step open-book notes is smart exam strategy, not a weakness.\n\nAnd you were `100%` right to call me out \u2014 my first version tightened and compressed too much of your step-by-step explanations. I just rebuilt the entire Word file as an **Unabridged Full-Detail Edition** (`~17,473` words, `55` tables, `24` full worked-example & callout boxes) that keeps **all** of your rich explanations intact and only removes true repeats and accidental chat messages.\n\n### Download the Updated Full-Detail Word File (Now Pushed!)\n- **GitHub Direct Link (Click Download Raw File on Your Ardent Computer):**\n  `https://github.com/cathynagarajan/ASQ-BB-Exam/blob/main/documents",
+        "topics": [
+          "full",
+          "guide",
+          "sample",
+          "walkthrough"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2442",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2442 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2442] Reply with just the letters (example: a,b,c,d...). I'll grade, explain misses, and build cheat sheets for weak areas. Q1. A process has Cp = 1.67 and Cpk = 0.92. What is the most likely conclusion? A. Process is centered",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2442,
+        "role": "user",
+        "created_at": "2026-11-21T05:22:53Z",
+        "content_excerpt": "Reply with just the letters (example: a,b,c,d...). I'll grade, explain misses, and build cheat sheets for weak areas.\n\nQ1. A process has Cp = 1.67 and Cpk = 0.92. What is the most likely conclusion?\n A. Process is centered and capable\n B. Process spread is acceptable but process is off-center\n C. Process is unstable\n D. Measurement system is poor\n\nQ2. Which chart is most appropriate for monitoring the proportion of defective shipments when sample size changes each day?\n A. np-chart\n B. p-chart\n C. c-chart\n D. u-chart\n\nQ3. In a Gage R&R study, which source of variation measures differences between operators?\n A. Repeatability\n B. Reproducibility\n C. Part-to-Part\n D. Stability\n\nQ4. A Pearson correlation coefficient of r = 0.60 means approximately what percentage of variation is explained?\n A",
+        "topics": [
+          "process",
+          "chart",
+          "sample",
+          "variation"
         ]
       }
     },
@@ -21949,7 +21974,7 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:sourcing",
+      "target": "topic:cathy",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 12
@@ -21976,12 +22001,6 @@
     {
       "source": "chat_session:SHAREDSE",
       "target": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_session:SHAREDSE",
-      "target": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
@@ -22113,18 +22132,18 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:unit",
+      "target": "topic:cathy",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 9
+        "count": 7
       }
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:hard",
+      "target": "topic:copilot",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 8
+        "count": 7
       }
     },
     {
@@ -22137,10 +22156,10 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:cathy",
+      "target": "topic:unit",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 6
+        "count": 7
       }
     },
     {
@@ -22170,12 +22189,6 @@
     {
       "source": "chat_turn:SHAREDSE:S5",
       "target": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:SHAREDSE:S5",
-      "target": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
@@ -22225,34 +22238,26 @@
     },
     {
       "source": "chat_session:b6556366",
+      "target": "topic:full",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 23
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
       "target": "topic:word",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 19
+        "count": 16
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:regression",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 15
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:quality",
+      "target": "topic:variance",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 13
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:defects",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 12
       }
     },
     {
@@ -22265,112 +22270,38 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:domain",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 12
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:full",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 12
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
       "target": "topic:tests",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 12
+        "count": 11
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2386",
-      "target": "topic:quality",
+      "target": "topic:regression",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 10
       }
     },
     {
-      "source": "chat_turn:b6556366:S2386",
-      "target": "topic:defects",
+      "source": "chat_session:b6556366",
+      "target": "topic:right",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2386",
-      "target": "topic:variation",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2386",
-      "target": "topic:process",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
+        "count": 10
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2386",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2401",
-      "target": "topic:domain",
+      "target": "topic:sample",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2401",
-      "target": "topic:sigma",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2401",
-      "target": "topic:full",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2401",
-      "target": "topic:paste",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
+        "count": 10
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2401",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2401",
       "target": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
@@ -22740,6 +22671,88 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S2426",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2441",
+      "target": "topic:full",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 17
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2441",
+      "target": "topic:guide",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2441",
+      "target": "topic:sample",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2441",
+      "target": "topic:walkthrough",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2441",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2441",
+      "target": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2442",
+      "target": "topic:process",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2442",
+      "target": "topic:chart",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2442",
+      "target": "topic:sample",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2442",
+      "target": "topic:variation",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2442",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -24141,7 +24154,7 @@
     }
   ],
   "file_hashes": {
-    "PERFORMANCE_TRACKER.md": "94b9376dce49eea652413e594b420706367d3aef5668f3f1911e048e9b99ab09",
+    "PERFORMANCE_TRACKER.md": "15df86732a130814c96c621bebe57163d00c9dee756cdae4883ced4086831e4c",
     "QWEN.md": "899c31752203ef14570b30ee8d02d0f9add0e474c6612610c12a39a01cb55f39",
     "README.md": "506319462ce0f0d62f6cbed53d6d0cdfa3c40623a05eacd6b881d9c3ddd8facf",
     "STUDY_ROADMAP_MAR2027.md": "0565fb20c8f9008ab7629f78fed3bdf076952045a4567cca7ccebd4e1e986a27",
@@ -24213,7 +24226,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "72c527505580ae457fad7ad90f18b078cf6705b2fe08ec21cb729acc54910d9e",
+    "chats/SHARED_SESSION_STATE.md": "02c5735a2a4cd67d5e7971da10903d48cb759f891f97c3f7ee8a66f5109c4b68",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -24223,11 +24236,11 @@
     "documents/ASQ_Sampling_Methods_Quick_Table.docx": "611a5b1986e4d296f6a1244d2c334d4f6688820f04a6cb8d6ff694b7b1f6ef0e",
     "documents/CAREER_APPLICATIONS_TRACKER.md": "8a62a332710cd7ca4b4eeb9d863e9cc76ab6b0afe0ddf146745618d2f8f226ea",
     "documents/PValue_And_Cp_Cpk_Quick_Tables.docx": "7e146d9b535a8fa34793e0d7ecfd892041e75cd8a15e79777c55fa1babae79d5",
-    "documents/QUESTION_BANK_LOG.md": "026bd590aafdfb867307fc92793b1c9daafd2f0df882b31f74449da3bae1ced8",
+    "documents/QUESTION_BANK_LOG.md": "170bfb4ce9b12c3d0be30708936da81a57ddbca71ba29075366ba27752296259",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "985cec56fc1607583cf38f420ade1929acfdf088080e021e8b29dc61dc8cf3b0"
+    "repo.md": "043912c1f126611e514cedf96f678396dace867b880b77a66f263c1d54d57f88"
   }
 }
