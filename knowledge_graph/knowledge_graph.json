@@ -1,45 +1,45 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-21T05:24:06.130711+00:00",
-    "total_files_indexed": 87,
-    "total_nodes": 840,
-    "total_edges": 1667,
+    "generated_at": "2026-11-21T05:31:05.073840+00:00",
+    "total_files_indexed": 88,
+    "total_nodes": 874,
+    "total_edges": 1756,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
       "document": 53,
-      "document_file": 32,
-      "document_section": 222,
+      "document_file": 33,
+      "document_section": 237,
       "html_template": 1,
-      "topic_entity": 478
+      "topic_entity": 496
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [],
+    "added": [
+      "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx"
+    ],
     "modified": [
-      "PERFORMANCE_TRACKER.md",
-      "chats/SHARED_SESSION_STATE.md",
-      "documents/QUESTION_BANK_LOG.md"
+      "chats/SHARED_SESSION_STATE.md"
     ],
     "removed": [],
-    "files_parsed": 2,
-    "files_cached_reused": 84,
+    "files_parsed": 1,
+    "files_cached_reused": 86,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 17,
-      "nodes_deleted": 4,
-      "edges_upserted": 22,
-      "edges_deleted": 18,
-      "wiki_pages_upserted": 2,
+      "nodes_upserted": 53,
+      "nodes_deleted": 7,
+      "edges_upserted": 106,
+      "edges_deleted": 13,
+      "wiki_pages_upserted": 0,
       "wiki_pages_deleted": 0,
-      "files_upserted": 4,
+      "files_upserted": 3,
       "files_deleted": 0,
-      "total_nodes_in_db": 840,
-      "total_edges_in_db": 1667,
-      "total_files_tracked": 88
+      "total_nodes_in_db": 874,
+      "total_edges_in_db": 1756,
+      "total_files_tracked": 89
     }
   },
   "nodes": [
@@ -778,7 +778,7 @@
       "id": "topic:management",
       "type": "topic_entity",
       "name": "management",
-      "file_path": "Resume_And_Jobs/Job46_Cadence_R54483_Krithika_Nagarajan_Resume.docx",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
       "description": "Shared domain topic 'management' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "management"
@@ -1876,7 +1876,7 @@
       "id": "topic:dmaic",
       "type": "topic_entity",
       "name": "dmaic",
-      "file_path": "Resume_And_Jobs/Job30_Gilead_R0056314_Krithika_Nagarajan_Resume.docx",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
       "description": "Shared domain topic 'dmaic' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "dmaic"
@@ -4656,7 +4656,7 @@
       "id": "topic:chi-square",
       "type": "topic_entity",
       "name": "chi-square",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'chi-square' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "chi-square"
@@ -5023,7 +5023,7 @@
       "id": "topic:charts",
       "type": "topic_entity",
       "name": "charts",
-      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'charts' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "charts"
@@ -5220,7 +5220,7 @@
       "id": "topic:cheat",
       "type": "topic_entity",
       "name": "cheat",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'cheat' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cheat"
@@ -5828,7 +5828,7 @@
       "id": "topic:phase",
       "type": "topic_entity",
       "name": "phase",
-      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
       "description": "Shared domain topic 'phase' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "phase"
@@ -6071,7 +6071,7 @@
       "id": "topic:design",
       "type": "topic_entity",
       "name": "design",
-      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
       "description": "Shared domain topic 'design' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "design"
@@ -6213,7 +6213,7 @@
       "id": "topic:causes",
       "type": "topic_entity",
       "name": "causes",
-      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
       "description": "Shared domain topic 'causes' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "causes"
@@ -6696,6 +6696,463 @@
           "Blocking"
         ],
         "format": "md"
+      }
+    },
+    {
+      "id": "topic:verbatim",
+      "type": "topic_entity",
+      "name": "verbatim",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'verbatim' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "verbatim"
+      }
+    },
+    {
+      "id": "topic:blocks",
+      "type": "topic_entity",
+      "name": "blocks",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'blocks' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "blocks"
+      }
+    },
+    {
+      "id": "topic:preserved",
+      "type": "topic_entity",
+      "name": "preserved",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'preserved' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "preserved"
+      }
+    },
+    {
+      "id": "topic:crosby",
+      "type": "topic_entity",
+      "name": "crosby",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'crosby' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "crosby"
+      }
+    },
+    {
+      "id": "topic:guide",
+      "type": "topic_entity",
+      "name": "guide",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'guide' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "guide"
+      }
+    },
+    {
+      "id": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "type": "document_file",
+      "name": "ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Document ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx (15 section(s)): CATHY'S 100% VERBATIM DMAIC-ORGANIZED WORD BIBLE | ZERO NOTES ELIMINATED! ASQ CSSBB VERBATIM ORGANIZED WORD BIBLE (2027 EXAM BINDER) Every Single Cheat Sheet, Chart Guide, Worked M",
+      "metadata": {
+        "format": "docx",
+        "section_count": 15,
+        "size_bytes": 179425,
+        "topics": [
+          "quality",
+          "verbatim",
+          "blocks",
+          "preserved",
+          "crosby",
+          "defects",
+          "guide",
+          "management"
+        ]
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:1",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx [Section 1]",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Section 1 of ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx: CATHY'S 100% VERBATIM DMAIC-ORGANIZED WORD BIBLE | ZERO NOTES ELIMINATED! ASQ CSSBB VERBATIM ORGANIZED WORD BIBLE (2027 EXAM BINDER) Every Single Cheat Sheet, Chart Guide, Worked Math Walkthrough & Note You Pasted \u2014 Kept",
+      "metadata": {
+        "section_index": 1,
+        "section_type": "section",
+        "text_excerpt": "CATHY'S 100% VERBATIM DMAIC-ORGANIZED WORD BIBLE  |  ZERO NOTES ELIMINATED!\nASQ CSSBB VERBATIM ORGANIZED WORD BIBLE (2027 EXAM BINDER)\nEvery Single Cheat Sheet, Chart Guide, Worked Math Walkthrough & Note You Pasted \u2014 Kept Word-for-Word & Organized Cleanly by DMAIC + Project Management\nMaster Binder Table of Contents (All Your Verbatim Notes Organized by DMAIC)\nTab\nSection / DMAIC Phase\nVerbatim Content Included\nTAB 1",
+        "char_count": 421
+      }
+    },
+    {
+      "id": "topic:organized",
+      "type": "topic_entity",
+      "name": "organized",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'organized' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "organized"
+      }
+    },
+    {
+      "id": "topic:bible",
+      "type": "topic_entity",
+      "name": "bible",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'bible' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "bible"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:2",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx [Section 2]",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Section 2 of ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx: QUALITY & LEAN PIONEERS, CHANGE MANAGEMENT, ROLES & ORG STRUCTURES 10 verbatim blocks preserved TAB 2 NPV, FORMULAS, DPU / DPO / DPMO, FTY / RTY, COQ & BENCHMARKING 6 verbatim blocks preserved TAB 3 TEAM ROLES, TUCKMAN, ",
+      "metadata": {
+        "section_index": 2,
+        "section_type": "section",
+        "text_excerpt": "QUALITY & LEAN PIONEERS, CHANGE MANAGEMENT, ROLES & ORG STRUCTURES\n10 verbatim blocks preserved\nTAB 2\nNPV, FORMULAS, DPU / DPO / DPMO, FTY / RTY, COQ & BENCHMARKING\n6 verbatim blocks preserved\nTAB 3\nTEAM ROLES, TUCKMAN, LENCIONI, MOTIVATION, CONFLICT MODES, GROUP TRAPS & TRAINING\n6 verbatim blocks preserved",
+        "char_count": 308
+      }
+    },
+    {
+      "id": "topic:roles",
+      "type": "topic_entity",
+      "name": "roles",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'roles' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "roles"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:3",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx [Section 3]",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Section 3 of ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx: TAB 4A DEFINE PHASE: VOC, KANO, CTQ, QFD, CHARTER, PROBLEM STATEMENT, SIPOC & 7 M&P TOOLS 7 verbatim blocks preserved TAB 4B PROJECT MANAGEMENT: CRITICAL PATH (CPM), SLACK/FLOAT, PERT, FAST TRACKING, CRASHING & RACI 3 ve",
+      "metadata": {
+        "section_index": 3,
+        "section_type": "section",
+        "text_excerpt": "TAB 4A\nDEFINE PHASE: VOC, KANO, CTQ, QFD, CHARTER, PROBLEM STATEMENT, SIPOC & 7 M&P TOOLS\n7 verbatim blocks preserved\nTAB 4B\nPROJECT MANAGEMENT: CRITICAL PATH (CPM), SLACK/FLOAT, PERT, FAST TRACKING, CRASHING & RACI\n3 verbatim blocks preserved\nTAB 5\nMEASURE PHASE: FLOW METRICS, BOTTLENECKS, CHARTS, SAMPLING, MSA, PROBABILITY & CAPABILITY",
+        "char_count": 339
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:4",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx [Section 4]",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Section 4 of ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx: 39 verbatim blocks preserved TAB 6 ANALYZE PHASE: ALL HYPOTHESIS TEST, CORRELATION, REGRESSION, RESIDUAL, FMEA & WORKED MATH SHEETS 34 verbatim blocks preserved TAB 7 IMPROVE PHASE: COMPLETE DOE UNIVERSE, RSM, LEAN TOOLS",
+      "metadata": {
+        "section_index": 4,
+        "section_type": "section",
+        "text_excerpt": "39 verbatim blocks preserved\nTAB 6\nANALYZE PHASE: ALL HYPOTHESIS TEST, CORRELATION, REGRESSION, RESIDUAL, FMEA & WORKED MATH SHEETS\n34 verbatim blocks preserved\nTAB 7\nIMPROVE PHASE: COMPLETE DOE UNIVERSE, RSM, LEAN TOOLS, 8 WASTES & PILOT vs. ROLLOUT\n21 verbatim blocks preserved\nTAB 8",
+        "char_count": 285
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:5",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx [Section 5]",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Section 5 of ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx: CONTROL PHASE: COMPLETE SPC CHART SELECTORS, WESTERN ELECTRIC RULES, UNDERDISPERSION & CONTROL PLANS 21 verbatim blocks preserved TAB 9 DFSS: DMADV PHASE CHEAT SHEET & DESIGN FOR X (DFX) 2 verbatim blocks preserved WHAT ",
+      "metadata": {
+        "section_index": 5,
+        "section_type": "section",
+        "text_excerpt": "CONTROL PHASE: COMPLETE SPC CHART SELECTORS, WESTERN ELECTRIC RULES, UNDERDISPERSION & CONTROL PLANS\n21 verbatim blocks preserved\nTAB 9\nDFSS: DMADV PHASE CHEAT SHEET & DESIGN FOR X (DFX)\n2 verbatim blocks preserved\nWHAT WAS CHANGED vs. KEPT 100% INTACT\n100% KEPT WORD-FOR-WORD: Every single chart cheat sheet, control chart pattern guide, residual/QQ plot guide, hypothesis test table, DOE/RSM table, MSA guide, Capability guide, Lean guide, Define/Project Management guide, and worked math walkthrough you pasted!\nONLY REMOVED: Accidental Copilot chat messages ('Krithika... you are not a failure', 'can you restate wrong questions') and raw 3x-repeated quiz dumps.",
+        "char_count": 666
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:6",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx [Section 6]",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Section 6 of ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx: ONLY CORRECTED (Inline Tagged): Obvious factual typos (4.0 sigma = 6,210 DPMO; Non-normal = Percentile-Based Capability; Res IV 2FI<->2FI; 'ano' -> np-chart) \u2014 marked with [Corrected] so you see them clearly! TAB 1 | PRE",
+      "metadata": {
+        "section_index": 6,
+        "section_type": "section",
+        "text_excerpt": "ONLY CORRECTED (Inline Tagged): Obvious factual typos (4.0 sigma = 6,210 DPMO; Non-normal = Percentile-Based Capability; Res IV 2FI<->2FI; 'ano' -> np-chart) \u2014 marked with [Corrected] so you see them clearly!\nTAB 1  |  PRE-DMAIC FOUNDATIONS, QUALITY PIONEERS & CHANGE MANAGEMENT (DOMAIN I)\nQUALITY & LEAN PIONEERS, CHANGE MANAGEMENT, ROLES & ORG STRUCTURES\nAll of Cathy's exact verbatim notes on Gurus, Lewin, Kotter, Bridges, 8D, Belt Roles, SWOT & Org Structures\nQuality Pioneers Quick Table\nPioneer\nKnown For\nPhilip Crosby",
+        "char_count": 525
+      }
+    },
+    {
+      "id": "topic:pioneers",
+      "type": "topic_entity",
+      "name": "pioneers",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'pioneers' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "pioneers"
+      }
+    },
+    {
+      "id": "topic:corrected",
+      "type": "topic_entity",
+      "name": "corrected",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'corrected' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "corrected"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:7",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx [Section 7]",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Section 7 of ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx: \"Quality is Free\", Zero Defects Genichi Taguchi Quality Loss Function, Robust Design Kaoru Ishikawa Fishbone (Cause-and-Effect) Diagram, Quality Circles Taiichi Ohno Toyota Production System, Seven Wastes Quality Pioneer",
+      "metadata": {
+        "section_index": 7,
+        "section_type": "section",
+        "text_excerpt": "\"Quality is Free\", Zero Defects\nGenichi Taguchi\nQuality Loss Function, Robust Design\nKaoru Ishikawa\nFishbone (Cause-and-Effect) Diagram, Quality Circles\nTaiichi Ohno\nToyota Production System, Seven Wastes\nQuality Pioneers, Crosby, Deming, Juran, Taguchi, Bonus Leaders, Lewin 3 Stages, 8D, Kotter 8 Steps, Belt Roles & OKR",
+        "char_count": 322
+      }
+    },
+    {
+      "id": "topic:taguchi",
+      "type": "topic_entity",
+      "name": "taguchi",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'taguchi' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "taguchi"
+      }
+    },
+    {
+      "id": "topic:bonus",
+      "type": "topic_entity",
+      "name": "bonus",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'bonus' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "bonus"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:8",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx [Section 8]",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Section 8 of ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx: BB Bible Note Guru Key Exam Association Deming PDCA/PDSA, variation Shewart First started pdca, control chart Juran",
+      "metadata": {
+        "section_index": 8,
+        "section_type": "section",
+        "text_excerpt": "BB Bible Note\nGuru\nKey Exam Association\nDeming\nPDCA/PDSA, variation\nShewart\nFirst started pdca, control chart\nJuran",
+        "char_count": 115
+      }
+    },
+    {
+      "id": "topic:pdca",
+      "type": "topic_entity",
+      "name": "pdca",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'pdca' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "pdca"
+      }
+    },
+    {
+      "id": "topic:association",
+      "type": "topic_entity",
+      "name": "association",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'association' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "association"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:9",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx [Section 9]",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Section 9 of ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx: Trilogy (Plan-Control-Improve) Crosby Zero Defects, Quality is Free Ishikawa Fishbone Diagram Taguchi Quality Loss Function, Robust Design Ohno",
+      "metadata": {
+        "section_index": 9,
+        "section_type": "section",
+        "text_excerpt": "Trilogy (Plan-Control-Improve)\nCrosby\nZero Defects, Quality is Free\nIshikawa\nFishbone Diagram\nTaguchi\nQuality Loss Function, Robust Design\nOhno",
+        "char_count": 143
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:10",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx [Section 10]",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Section 10 of ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx: Toyota Production System, 7 Wastes Exam Poke-Yoke If you see: \u2022 Target value \u2022 Loss increases as variation increases \u2022 Deviation causes societal cost \u2022 Quality Loss Function \u2022 Philip Crosby is famous for three phrases th",
+      "metadata": {
+        "section_index": 10,
+        "section_type": "section",
+        "text_excerpt": "Toyota Production System, 7 Wastes\nExam Poke-Yoke\nIf you see:\n\u2022 Target value\n\u2022 Loss increases as variation increases\n\u2022 Deviation causes societal cost\n\u2022 Quality Loss Function\n\u2022 Philip Crosby is famous for three phrases that ASQ loves to test:",
+        "char_count": 241
+      }
+    },
+    {
+      "id": "topic:increases",
+      "type": "topic_entity",
+      "name": "increases",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'increases' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "increases"
+      }
+    },
+    {
+      "id": "topic:loss",
+      "type": "topic_entity",
+      "name": "loss",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'loss' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "loss"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:11",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx [Section 11]",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Section 11 of ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx: \u2022 \"Quality is Free\" \u2022 His famous book (1979). \u2022 Argument: preventing defects costs less than fixing defects. \u2022 \"Zero Defects\" \u2022 Performance standard = zero defects. \u2022 Not \"acceptable quality level.\" \u2022 \"Conformance to Req",
+      "metadata": {
+        "section_index": 11,
+        "section_type": "section",
+        "text_excerpt": "\u2022 \"Quality is Free\"\n\u2022 His famous book (1979).\n\u2022 Argument: preventing defects costs less than fixing defects.\n\u2022 \"Zero Defects\"\n\u2022 Performance standard = zero defects.\n\u2022 Not \"acceptable quality level.\"\n\u2022 \"Conformance to Requirements\"\n\u2022 Crosby's definition of quality:",
+        "char_count": 264
+      }
+    },
+    {
+      "id": "topic:zero",
+      "type": "topic_entity",
+      "name": "zero",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'zero' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "zero"
+      }
+    },
+    {
+      "id": "topic:acceptable",
+      "type": "topic_entity",
+      "name": "acceptable",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'acceptable' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "acceptable"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:12",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx [Section 12]",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Section 12 of ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx: \u2022 Quality is conformance to requirements. \u2022 \"Do It Right the First Time\" \u2022 Another Crosby trademark philosophy. \u2022 BB Bible Pioneer Poka-Yoke Pioneer Remember Crosby Quality is Free, Zero Defects, Conformance to Requireme",
+      "metadata": {
+        "section_index": 12,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Quality is conformance to requirements.\n\u2022 \"Do It Right the First Time\"\n\u2022 Another Crosby trademark philosophy.\n\u2022 BB Bible Pioneer Poka-Yoke\nPioneer\nRemember\nCrosby\nQuality is Free, Zero Defects, Conformance to Requirements",
+        "char_count": 223
+      }
+    },
+    {
+      "id": "topic:conformance",
+      "type": "topic_entity",
+      "name": "conformance",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'conformance' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "conformance"
+      }
+    },
+    {
+      "id": "topic:pioneer",
+      "type": "topic_entity",
+      "name": "pioneer",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'pioneer' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "pioneer"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:13",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx [Section 13]",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Section 13 of ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx: Deming 14 Points, System Thinking, 85-94% of problems are management/system Juran Juran Trilogy (Planning, Control, Improvement), Fitness for Use Taguchi Loss Function, Target Value Matters, Robust Design \u2022 ASQ Memory Tr",
+      "metadata": {
+        "section_index": 13,
+        "section_type": "section",
+        "text_excerpt": "Deming\n14 Points, System Thinking, 85-94% of problems are management/system\nJuran\nJuran Trilogy (Planning, Control, Improvement), Fitness for Use\nTaguchi\nLoss Function, Target Value Matters, Robust Design\n\u2022 ASQ Memory Trigger\n\u2022 Crosby = C's",
+        "char_count": 240
+      }
+    },
+    {
+      "id": "topic:juran",
+      "type": "topic_entity",
+      "name": "juran",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'juran' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "juran"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:14",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx [Section 14]",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Section 14 of ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx: \u2022 Crosby \u2022 Conformance to Requirements \u2022 Cost of Quality \u2022 Costly defects avoided \u2022 Cero Defects (okay, that one's a stretch \ud83d\ude04) \u2022 Deming \u2022 Think: \u2022 14 Points",
+      "metadata": {
+        "section_index": 14,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Crosby\n\u2022 Conformance to Requirements\n\u2022 Cost of Quality\n\u2022 Costly defects avoided\n\u2022 Cero Defects (okay, that one's a stretch \ud83d\ude04)\n\u2022 Deming\n\u2022 Think:\n\u2022 14 Points",
+        "char_count": 157
+      }
+    },
+    {
+      "id": "topic:avoided",
+      "type": "topic_entity",
+      "name": "avoided",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'avoided' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "avoided"
+      }
+    },
+    {
+      "id": "topic:cero",
+      "type": "topic_entity",
+      "name": "cero",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Shared domain topic 'cero' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cero"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:15",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx [Section 15]",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "description": "Section 15 of ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx: \u2022 PDCA/PDSA \u2022 System causes most problems \u2022 Juran \u2022 Think: \u2022 Fitness for Use \u2022 Trilogy \u2022 Planning \u2022 Control",
+      "metadata": {
+        "section_index": 15,
+        "section_type": "section",
+        "text_excerpt": "\u2022 PDCA/PDSA\n\u2022 System causes most problems\n\u2022 Juran\n\u2022 Think:\n\u2022 Fitness for Use\n\u2022 Trilogy\n\u2022 Planning\n\u2022 Control",
+        "char_count": 107
+      }
+    },
+    {
+      "id": "topic:fitness",
+      "type": "topic_entity",
+      "name": "fitness",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'fitness' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "fitness"
       }
     },
     {
@@ -7249,7 +7706,7 @@
       "id": "topic:answer",
       "type": "topic_entity",
       "name": "answer",
-      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'answer' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "answer"
@@ -7761,16 +8218,6 @@
       }
     },
     {
-      "id": "topic:bonus",
-      "type": "topic_entity",
-      "name": "bonus",
-      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
-      "description": "Shared domain topic 'bonus' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "bonus"
-      }
-    },
-    {
       "id": "topic:bottleneck",
       "type": "topic_entity",
       "name": "bottleneck",
@@ -7836,16 +8283,6 @@
         "section_type": "section",
         "text_excerpt": "System / 14 Points\nBlames management's system (85%-94%), made PDCA famous\nJoseph Juran\nTrilogy + Fitness\n\"Fitness for Use\" + 3-part Trilogy (Plan, Control, Improve) + Pareto 80/20\nPhilip Crosby\nZero Defects\n\"Quality is Free\" - do it right the first time, Conformance",
         "char_count": 266
-      }
-    },
-    {
-      "id": "topic:fitness",
-      "type": "topic_entity",
-      "name": "fitness",
-      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
-      "description": "Shared domain topic 'fitness' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "fitness"
       }
     },
     {
@@ -9587,8 +10024,8 @@
         "created_at": "",
         "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`540` (`Q1`\u2013`Q350` + Copilot `C1`\u2013`C190`) \u2014 Latest: Copilot Set 7 (`C166`\u2013`C190`) Audited `21 / 25 = 84.0%`!** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Latest Set (Copilot Set 7 `C166`\u2013`C190` on `2026-11-21`)**: **`21 / 25 = 84.0%`!** *(Caught Copilot falsely marking `Q16` and `Q17` right when Cathy submitted `C` on both; true misses: `Q16` Chi-Square, `Q17` Control Plan, `Q23` Measure=MSA, `Q24` Taguchi Loss Function. Previous Round 22 `Q341`\u2013`Q350`: `9 / 10 = 90.0%`!)*\n- **NEXT EXAM MILESTONE (SATURDAY `2026-11-21`+)**:\n  1. **ALL THREE FIRST UNITS MASTERED AT `85%+`!!** **Unit 1 (`Domain I`: `86.5%`)**, **Unit 2 (`Domain II`: `85.5%`, `15/15` Hard)**, and **Unit 3 (`Domain ",
         "topics": [
-          "cathy",
           "copilot",
+          "cathy",
           "domain",
           "unit"
         ]
@@ -9650,16 +10087,6 @@
       }
     },
     {
-      "id": "topic:docx",
-      "type": "topic_entity",
-      "name": "docx",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'docx' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "docx"
-      }
-    },
-    {
       "id": "topic:tests",
       "type": "topic_entity",
       "name": "tests",
@@ -9670,23 +10097,23 @@
       }
     },
     {
-      "id": "topic:regression",
+      "id": "topic:asq-bb-exam",
       "type": "topic_entity",
-      "name": "regression",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'regression' connecting multi-modal documents and workspace chats",
+      "name": "asq-bb-exam",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "regression"
+        "keyword": "asq-bb-exam"
       }
     },
     {
-      "id": "topic:right",
+      "id": "topic:tails",
       "type": "topic_entity",
-      "name": "right",
+      "name": "tails",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'tails' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "right"
+        "keyword": "tails"
       }
     },
     {
@@ -9694,122 +10121,22 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (742 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (744 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 742,
+        "turn_count": 744,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
           "full",
           "word",
           "variance",
-          "docx",
+          "sample",
           "tests",
-          "regression",
-          "right",
-          "sample"
-        ]
-      }
-    },
-    {
-      "id": "topic:even",
-      "type": "topic_entity",
-      "name": "even",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'even' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "even"
-      }
-    },
-    {
-      "id": "topic:everything",
-      "type": "topic_entity",
-      "name": "everything",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'everything' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "everything"
-      }
-    },
-    {
-      "id": "topic:know",
-      "type": "topic_entity",
-      "name": "know",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'know' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "know"
-      }
-    },
-    {
-      "id": "topic:pasted",
-      "type": "topic_entity",
-      "name": "pasted",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'pasted' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "pasted"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2402",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2402 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2402] i don't know if everything even got pasted",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2402,
-        "role": "user",
-        "created_at": "2026-11-21T04:58:22Z",
-        "content_excerpt": "i don't know if everything even got pasted",
-        "topics": [
-          "even",
-          "everything",
-          "know",
-          "pasted"
-        ]
-      }
-    },
-    {
-      "id": "topic:bible",
-      "type": "topic_entity",
-      "name": "bible",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'bible' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "bible"
-      }
-    },
-    {
-      "id": "topic:block",
-      "type": "topic_entity",
-      "name": "block",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'block' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "block"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2403",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2403 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2403] No worries at all, Cathy \u2014 you were right to wonder! About `60%` made it through, and the chat box automatically cut off the bottom `40%` (`118 KB`) right inside **`SECTION 3 \u2014 REGRESSION (FULL THEORY BLOCK)`**. Here is ",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2403,
-        "role": "assistant",
-        "created_at": "2026-11-21T04:58:22Z",
-        "content_excerpt": "No worries at all, Cathy \u2014 you were right to wonder! About `60%` made it through, and the chat box automatically cut off the bottom `40%` (`118 KB`) right inside **`SECTION 3 \u2014 REGRESSION (FULL THEORY BLOCK)`**.\n\nHere is the easiest, zero-cutoff way so you don't have to wrestle with copy-pasting:\n\n1. **Best Way (Zero Cut-Off):** Open your original Word Bible -> **File -> Save As** -> save a copy into:\n   `/home/krithika/workspace/ASQ-BB-Exam/documents/` (for example, `Old_BB_Bible.docx`) and just tell me `\"done\"`. I will read `100%` of the `.docx` directly with nothing lost.\n2. **Or If You Prefer Paste:** In your Word file, press `Ctrl + F`, search for `SECTION 3 \u2014 REGRESSION (FULL THEORY BLOCK)`, highlight from that line down to the very end, and paste just that remaining part here.\n\nEith",
-        "topics": [
-          "docx",
-          "word",
-          "bible",
-          "block"
+          "asq-bb-exam",
+          "process",
+          "tails"
         ]
       }
     },
@@ -9842,6 +10169,16 @@
       }
     },
     {
+      "id": "topic:block",
+      "type": "topic_entity",
+      "name": "block",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'block' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "block"
+      }
+    },
+    {
       "id": "chat_turn:b6556366:S2405",
       "type": "chat_turn",
       "name": "Chat b6556366 Turn S2405 (assistant)",
@@ -9859,16 +10196,6 @@
           "click",
           "full"
         ]
-      }
-    },
-    {
-      "id": "topic:tails",
-      "type": "topic_entity",
-      "name": "tails",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'tails' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "tails"
       }
     },
     {
@@ -9981,6 +10308,16 @@
       }
     },
     {
+      "id": "topic:docx",
+      "type": "topic_entity",
+      "name": "docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'docx' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "docx"
+      }
+    },
+    {
       "id": "chat_turn:b6556366:S2422",
       "type": "chat_turn",
       "name": "Chat b6556366 Turn S2422 (assistant)",
@@ -10028,6 +10365,16 @@
       "description": "Shared domain topic 'eliminating' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "eliminating"
+      }
+    },
+    {
+      "id": "topic:everything",
+      "type": "topic_entity",
+      "name": "everything",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'everything' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "everything"
       }
     },
     {
@@ -10111,16 +10458,6 @@
       }
     },
     {
-      "id": "topic:guide",
-      "type": "topic_entity",
-      "name": "guide",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'guide' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "guide"
-      }
-    },
-    {
       "id": "topic:walkthrough",
       "type": "topic_entity",
       "name": "walkthrough",
@@ -10171,6 +10508,76 @@
       }
     },
     {
+      "id": "topic:correct",
+      "type": "topic_entity",
+      "name": "correct",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'correct' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "correct"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2458",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2458 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2458] Strong set, Cathy! Here is your audited score \u2014 I caught **another Copilot grading bug** on `Q16` and `Q17`: - **Verified True Score:** **`21 / 25` (`84.0%`)** \u2014 solid Black Belt passing level! *(Copilot wrote `23/25` be",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2458,
+        "role": "assistant",
+        "created_at": "2026-11-21T05:24:10Z",
+        "content_excerpt": "Strong set, Cathy! Here is your audited score \u2014 I caught **another Copilot grading bug** on `Q16` and `Q17`:\n\n- **Verified True Score:** **`21 / 25` (`84.0%`)** \u2014 solid Black Belt passing level! *(Copilot wrote `23/25` because it falsely showed your answers as `A` on `Q16` and `B` on `Q17`, when your actual typed string had `C` on both.)*\n- **Grand Cumulative Score:** **`428 / 540` (`79.3%`)** \u2014 still trending steadily north!\n- **Big Wins You Nailed Effortlessly:** `Cp/Cpk` off-center (`Q1`), `p-chart` varying `n` (`Q2`), Reproducibility (`Q3`), `r\u00b2 = 36%` (`Q4`), `Cp = 1.00` math (`Q9`), `NPV` (`Q12`), `DPMO` (`Q13`), `I-MR` (`Q20`), `Adjusted R\u00b2` (`Q22`), and `Functional` org structure (`Q25`)!\n\n---\n\n### Full Review of the 4 Misses (`Q16`, `Q17`, `Q23`, `Q24`)\n\n**Q16. Which hypothesis te",
+        "topics": [
+          "answer",
+          "loss",
+          "chi-square",
+          "correct"
+        ]
+      }
+    },
+    {
+      "id": "topic:based",
+      "type": "topic_entity",
+      "name": "based",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'based' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "based"
+      }
+    },
+    {
+      "id": "topic:became",
+      "type": "topic_entity",
+      "name": "became",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'became' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "became"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2459",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2459 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2459] are you sure you didn't eliminate my notes? i had lot of cheat sheets for charts, they are all gone, my 300 pages became 35 pages - all i said is just organize the knowledge based on DMAIC pls don't delete",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2459,
+        "role": "user",
+        "created_at": "2026-11-21T05:27:09Z",
+        "content_excerpt": "are you sure you didn't eliminate my notes? i had lot of cheat sheets for charts, they are all gone, my 300 pages became 35 pages - all i said is just organize the knowledge based on DMAIC pls don't delete",
+        "topics": [
+          "based",
+          "became",
+          "charts",
+          "cheat"
+        ]
+      }
+    },
+    {
       "id": "topic:home",
       "type": "topic_entity",
       "name": "home",
@@ -10188,16 +10595,6 @@
       "description": "Shared domain topic 'workspace' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "workspace"
-      }
-    },
-    {
-      "id": "topic:asq-bb-exam",
-      "type": "topic_entity",
-      "name": "asq-bb-exam",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "asq-bb-exam"
       }
     },
     {
@@ -19595,6 +19992,640 @@
       }
     },
     {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "topic:quality",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 17
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "topic:verbatim",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 15
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "topic:blocks",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "topic:preserved",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "topic:crosby",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "topic:defects",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "topic:guide",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "topic:management",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:1",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:1",
+      "target": "topic:verbatim",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:1",
+      "target": "topic:dmaic",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:1",
+      "target": "topic:organized",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:1",
+      "target": "topic:bible",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:2",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:2",
+      "target": "topic:blocks",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:2",
+      "target": "topic:preserved",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:2",
+      "target": "topic:verbatim",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:2",
+      "target": "topic:roles",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:3",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:3",
+      "target": "topic:blocks",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:3",
+      "target": "topic:phase",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:3",
+      "target": "topic:preserved",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:3",
+      "target": "topic:verbatim",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:4",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:4",
+      "target": "topic:blocks",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:4",
+      "target": "topic:preserved",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:4",
+      "target": "topic:verbatim",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:4",
+      "target": "topic:phase",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:5",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:5",
+      "target": "topic:guide",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:5",
+      "target": "topic:chart",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:5",
+      "target": "topic:control",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:5",
+      "target": "topic:blocks",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:6",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:6",
+      "target": "topic:pioneers",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:6",
+      "target": "topic:quality",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:6",
+      "target": "topic:change",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:6",
+      "target": "topic:corrected",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:7",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:7",
+      "target": "topic:quality",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:7",
+      "target": "topic:taguchi",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:7",
+      "target": "topic:belt",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:7",
+      "target": "topic:bonus",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:8",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:8",
+      "target": "topic:pdca",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:8",
+      "target": "topic:association",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:8",
+      "target": "topic:bible",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:8",
+      "target": "topic:chart",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:9",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:9",
+      "target": "topic:quality",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:9",
+      "target": "topic:crosby",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:9",
+      "target": "topic:defects",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:9",
+      "target": "topic:design",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:10",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:10",
+      "target": "topic:increases",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:10",
+      "target": "topic:loss",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:10",
+      "target": "topic:causes",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:10",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:11",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:11",
+      "target": "topic:defects",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:11",
+      "target": "topic:quality",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:11",
+      "target": "topic:zero",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:11",
+      "target": "topic:acceptable",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:12",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:12",
+      "target": "topic:conformance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:12",
+      "target": "topic:crosby",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:12",
+      "target": "topic:pioneer",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:12",
+      "target": "topic:quality",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:13",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:13",
+      "target": "topic:juran",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:13",
+      "target": "topic:system",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:13",
+      "target": "topic:control",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:13",
+      "target": "topic:crosby",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:14",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:14",
+      "target": "topic:defects",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:14",
+      "target": "topic:avoided",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:14",
+      "target": "topic:cero",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:14",
+      "target": "topic:conformance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:15",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:15",
+      "target": "topic:causes",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:15",
+      "target": "topic:control",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:15",
+      "target": "topic:fitness",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx:15",
+      "target": "topic:juran",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
       "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
       "target": "topic:every",
       "relation": "MENTIONS_TOPIC",
@@ -21994,6 +23025,12 @@
     },
     {
       "source": "chat_session:SHAREDSE",
+      "target": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:SHAREDSE",
       "target": "doc:documents/QUESTION_BANK_LOG.md",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
@@ -22132,15 +23169,15 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:cathy",
+      "target": "topic:copilot",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 7
+        "count": 8
       }
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:copilot",
+      "target": "topic:cathy",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 7
@@ -22177,6 +23214,12 @@
     {
       "source": "chat_turn:SHAREDSE:S5",
       "target": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
+      "target": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
@@ -22241,7 +23284,7 @@
       "target": "topic:full",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 23
+        "count": 22
       }
     },
     {
@@ -22249,7 +23292,7 @@
       "target": "topic:word",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 16
+        "count": 15
       }
     },
     {
@@ -22262,7 +23305,7 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:docx",
+      "target": "topic:sample",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 12
@@ -22278,7 +23321,7 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:regression",
+      "target": "topic:asq-bb-exam",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 10
@@ -22286,7 +23329,7 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:right",
+      "target": "topic:process",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 10
@@ -22294,11 +23337,17 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:sample",
+      "target": "topic:tails",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 10
       }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "doc:PERFORMANCE_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
     },
     {
       "source": "chat_session:b6556366",
@@ -22307,79 +23356,9 @@
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S2402",
-      "target": "topic:even",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2402",
-      "target": "topic:everything",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2402",
-      "target": "topic:know",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2402",
-      "target": "topic:pasted",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2402",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2403",
-      "target": "topic:docx",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2403",
-      "target": "topic:word",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2403",
-      "target": "topic:bible",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2403",
-      "target": "topic:block",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2403",
-      "relation": "HAS_CHAT_TURN",
+      "target": "doc:documents/QUESTION_BANK_LOG.md",
+      "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
@@ -22753,6 +23732,94 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S2442",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2458",
+      "target": "topic:answer",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2458",
+      "target": "topic:loss",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2458",
+      "target": "topic:chi-square",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2458",
+      "target": "topic:correct",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2458",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2458",
+      "target": "doc:PERFORMANCE_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2458",
+      "target": "doc:documents/QUESTION_BANK_LOG.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2459",
+      "target": "topic:based",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2459",
+      "target": "topic:became",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2459",
+      "target": "topic:charts",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2459",
+      "target": "topic:cheat",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2459",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -24226,13 +25293,14 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "02c5735a2a4cd67d5e7971da10903d48cb759f891f97c3f7ee8a66f5109c4b68",
+    "chats/SHARED_SESSION_STATE.md": "61c1752ffeca6000b818a4c9f5a64c047f2c3d3dae0db21de1cb586e1676203e",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
     "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx": "b9d08768c25cac65433bdd83026198686b58b679d9ac9b5309f8479cb3055d2d",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
+    "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx": "de352198ba3bc6bed27fd98b9e0a859490913145fa8c765356b44422039abe74",
     "documents/ASQ_Sampling_Methods_Quick_Table.docx": "611a5b1986e4d296f6a1244d2c334d4f6688820f04a6cb8d6ff694b7b1f6ef0e",
     "documents/CAREER_APPLICATIONS_TRACKER.md": "8a62a332710cd7ca4b4eeb9d863e9cc76ab6b0afe0ddf146745618d2f8f226ea",
     "documents/PValue_And_Cp_Cpk_Quick_Tables.docx": "7e146d9b535a8fa34793e0d7ecfd892041e75cd8a15e79777c55fa1babae79d5",
@@ -24241,6 +25309,6 @@
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "043912c1f126611e514cedf96f678396dace867b880b77a66f263c1d54d57f88"
+    "repo.md": "3dc741469b602bdbd6fe45da515d85ff910091dc17f7ab0e5cbc9408290e9a60"
   }
 }
