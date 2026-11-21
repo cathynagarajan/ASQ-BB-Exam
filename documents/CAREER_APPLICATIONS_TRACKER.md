@@ -65,12 +65,13 @@
 40. **Cadence Design Systems (NASDAQ: CDNS)** — *Senior, Master Data Management, Systems Analyst (Procurement)* (`Req R51338`, North San Jose Hybrid ~13 mi, 88.2K to 163.8K USD + bonus/equity, IC) — **APPLIED / REVIEW (2026-11-20)** *(plus existing active `Req R54483` Inventory and Logistics Manager, applied `2026-08-24`, verified `Review` on Cadence Workday = `2` Active at Cadence!)*
 41. **Airbnb (NASDAQ: ABNB)** — *Senior Financial Operations Lead, Vendor Operations* (`ID 8402949`, SF Bay Area / Palo Alto flexible, 132K to 155K USD + bonus/equity/travel credits, IC) — **SUBMITTED (2026-11-20)**
 
-## Completed Applications — Day 8 Weekend Sprint (`2026-11-21` — `5 / 10` Submitted So Far; `67` Total Tracked = `54` Active, `13` Rejected!)
+## Completed Applications — Day 8 Weekend Sprint (`2026-11-21` — `6 / 10` Submitted So Far; `68` Total Tracked = `55` Active, `13` Rejected!)
 42. **Amgen (NASDAQ: AMGN)** — *Global Category Senior Manager – Direct-to-Patient* (`Req R-260720`, 100% US Remote, 134.49K to 181.96K USD + bonus/stock, IC) — **APPLIED / APPLICATION RECEIVED (2026-11-21)** *(Active: `3` on Amgen Workday!)*
 43. **Cencora (NYSE: COR — Fortune #10)** — *Manager, Cell & Gene Sourcing* (`Req R2615474`, 100% Remote USA, 94.5K to 148.06K USD natl / up to 165.83K USD CA, IC) — **APPLIED / APPLICATION RECEIVED (2026-11-21)** *(Brand-new Fortune #10 employer!)*
 44. **Airbnb (NASDAQ: ABNB)** — *Senior Vendor Operations Manager* (`ID 8403001`, SF Bay Area / Palo Alto flexible, 132K to 155K USD + bonus/equity/travel credits, Pure L9 IC) — **SUBMITTED (2026-11-21)** *(Active: `2` at Airbnb!)*
 45. **Zoox (Amazon)** — *Senior Strategic Sourcing Manager, IT Software & Services* (`ID 4f5ce2df-d9ef-4fac-98a6-a80e0cf54252`, Foster City Hybrid 3d/wk ~14 mi, 182K to 219K USD + Amazon RSUs/SARs, IC) — **APPLIED / APPLICATION RECEIVED (2026-11-21)** *(Active: `2` at Zoox!)*
 46. **Western Digital (NASDAQ: WDC)** — *Supply Chain Transformation Program Manager* (`Ref REF34953P`, San Jose CA ~15 mi, 134.8K to 179.7K USD + bonus/RSUs, IC) — **SUBMITTED (2026-11-21)** *(Brand-new Fortune 500 employer!)*
+47. **Cerebras Systems (NASDAQ: CBRS)** — *Logistics Manager* (`ID 3ff4a790-91c0-42a9-b039-8bffab5d3ce5`, Sunnyvale CA Hybrid ~9 mi, 190K to 250K USD + bonus/equity, Pure IC) — **SUBMITTED (2026-11-21)** *(Brand-new NASDAQ public employer!)*
 
 ## Full Lockheed Martin Eightfold Application History (`21` Roles: `16` Active + `5` Rejected + `1` Draft — Updated `2026-11-21`!)
 - **Active Stage-2 / Recruiter Screen (`1`):**
