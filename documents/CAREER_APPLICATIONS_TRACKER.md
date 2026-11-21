@@ -8,7 +8,8 @@
 - **Employer Stability:** Strictly **established / stable employers ONLY (NO startups)**.
 - **Scope Rule:** Strictly **Individual Contributor (IC) roles ONLY** (**ZERO direct reports / people-management requirements**), **NO heavy data-analytics / SQL / Python / BI roles**, and **NEVER change Cathy's real employer job titles** (`Transportation Specialist` [2016–Present], `Transportation Data Specialist` [2015–2016], `Transportation & Logistics Specialist` [2014–2015], `EDI / Shipping & Procurement Specialist` [2010–2012]).
 - **Vegetarian Ethics Rule:** Strictly **NO meat, egg, poultry, fish/seafood, or animal-slaughter companies**!
-- **Skipped Employers (Per Cathy):** Skip Apple, Applied Materials, Supermicro, Cisco, Cardinal Health (low pay), Vital Farms (eggs), HP/HPE (hire/fire), Coinbase (legal degree), Matternet (lifting/onsite), Northrop Grumman (internal-wired federal compliance postings), startups.
+- **Skipped Employers (Per Cathy):** Skip Apple, Applied Materials, Supermicro, Cisco, Cardinal Health (low pay), Vital Farms (eggs), HP/HPE (hire/fire), Coinbase (legal degree), Matternet (lifting/onsite), startups.
+- **Defense & Aerospace Priority Lane (Updated `2026-11-21` Per Cathy):** Actively target **Lockheed Martin Space** (fresh Sunnyvale/Remote `E3/E4` Subcontracts, Procurement, Supply Chain — never repeating the 20 indexed IDs), **Northrop Grumman** (re-opened selectively for Sunnyvale/Remote IC roles with **NO Day-1 active Secret/TS clearance required**), and major Defense Primes (**Maxar / Lanteris Space Systems** Palo Alto, **BAE Systems** San Jose, **RTX**, **L3Harris**, **General Dynamics**, **Leidos**).
 
 ## Completed Applications — Day 1 (10 Submitted — 2026-11-14)
 1. **Stanford Health Care** — *Supply Chain Strategic Initiatives Project Manager* (`Req R2656254`, Palo Alto Hybrid, ~2 mi, IC) — **APPLIED (2026-11-14)**
