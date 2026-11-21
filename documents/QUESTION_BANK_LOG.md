@@ -381,3 +381,7 @@
 
 ## Round 26 — Unit 4 (`Domain IV`: Define Phase) Level 1 Easy Set 2 (`Q381`–`Q390` — 2026-11-21 | Score: `10/10 = 100.0%` PERFECT!!)
 - **All 10 Nailed (`✅`):** `Q381` (**Affinity Diagram — FIXED!**), `Q382` (Interrelationship Digraph 6 out / 0 in = Root Cause), `Q383` (Tree Diagram), `Q384` (Prioritization Matrix), `Q385` (PDPC), `Q386` (**QFD Roof `-` trade-off — FIXED!**), `Q387` (**Critical Path 18d / `0` Float — FIXED!**), `Q388` (PERT Expected Time `(4+28+16)/6 = 8d`), `Q389` (SMART Goal), `Q390` (Scope creep + Project Charter).
+
+## Round 27 — Unit 4 (`Domain IV`: Define Phase) Level 2 Medium Set 1 (`Q391`–`Q400` — 2026-11-21 | Score: `5/10 = 50.0%` Diagnostic — 50/100 Today!)
+- **Nailed (`✅` — `5` Qs):** `Q391` (Non-response bias), `Q395` (Business Case), `Q396` (RACI exactly 1 Accountable), `Q397` (Fast-tracking — requested cheat sheet), `Q400` (T-shaped Matrix — guessed right, requested 5-shape table).
+- **Missed (`❌` — `5` Qs — Built Full Unit 4 Define Mini-Cheat-Sheet Table!):** `Q392` (`IV.A.2` High Reliability / Low Validity = **B**, picked `C`), `Q393` (`IV.A.3` CTQ exact measurable target = **C**, picked `B` vague), `Q394` (`IV.A.3` QFD Weighted Score `(5x9)+(4x3)=57` = **C**, picked `B` 45), `Q398` (`IV.C.2` Earned Value `CPI 0.85` over budget / `SPI 1.12` ahead of schedule = **C**, picked `A` flipped), `Q399` (`IV.C.3` FMEA Risk X `8x3x5=120` vs Risk Y `9x2x4=72` + high Severity 9 = **A**, picked `B` flipped X/Y).

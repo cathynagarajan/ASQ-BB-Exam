@@ -8,8 +8,8 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`580` (`Q1`–`Q390` + Copilot `C1`–`C190`) — Latest: Round 26 Unit 4 Define Level 1 Easy Set 2 (`Q381`–`Q390`, `10 / 10 = 100%` PERFECT!!)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Latest Set (Round 26 Unit 4 Define Level 1 Easy Set 2 `Q381`–`Q390` on `2026-11-21`)**: **`10 / 10 = 100.0%` PERFECT!!** (Today: **`40 / 100 Qs`**!) — Fixed Affinity Diagram, QFD Roof trade-offs, Critical Path Float `0`, plus nailed Interrelationship Digraph, Tree, Prioritization Matrix, PDPC, PERT Expected Time (`8d`), SMART Goal, & Scope Creep! Domain IV now **`58 / 72 = 80.6%`** | Grand Cumulative: **`458 / 580 = 79.0%`**!
+- **Completed Unique Questions**: **`590` (`Q1`–`Q400` + Copilot `C1`–`C190`) — Latest: Round 27 Unit 4 Define Level 2 Medium Set 1 (`Q391`–`Q400`, `5 / 10` Diagnostic; `50 / 100` Today!)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Latest Set (Round 27 Unit 4 Define Level 2 Medium Set 1 `Q391`–`Q400` on `2026-11-21`)**: **`5 / 10` (`50.0%` — Today: `50 / 100 Qs` HALFWAY!)** — Nailed Non-response bias, Business Case, RACI `1` Accountable, Fast-tracking, T-shaped Matrix! Provided complete **Unit 4 Define Cheat-Sheet Table** (Validity/Reliability, QFD 9-3-1, Crashing/Fast-Tracking/Leveling, Earned Value CPI/SPI, 5 Matrix Shapes L/T/Y/X/C). Domain IV now **`63 / 82 = 76.8%`** | Grand Cumulative: **`463 / 590 = 78.5%`**!
 - **NEXT EXAM MILESTONE (SATURDAY `2026-11-21`+)**:
   1. **ALL THREE FIRST UNITS MASTERED AT `85%+`!!** **Unit 1 (`Domain I`: `86.5%`)**, **Unit 2 (`Domain II`: `85.5%`, `15/15` Hard)**, and **Unit 3 (`Domain III`: `86.7%`, `8/8` Hard Set 2)**!
   2. **Master Word Bibles Built (`2026-11-21` — BOTH Versions Available!)**:
