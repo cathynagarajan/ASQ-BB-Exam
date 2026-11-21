@@ -65,7 +65,7 @@
 40. **Cadence Design Systems (NASDAQ: CDNS)** — *Senior, Master Data Management, Systems Analyst (Procurement)* (`Req R51338`, North San Jose Hybrid ~13 mi, 88.2K to 163.8K USD + bonus/equity, IC) — **APPLIED / REVIEW (2026-11-20)** *(plus existing active `Req R54483` Inventory and Logistics Manager, applied `2026-08-24`, verified `Review` on Cadence Workday = `2` Active at Cadence!)*
 41. **Airbnb (NASDAQ: ABNB)** — *Senior Financial Operations Lead, Vendor Operations* (`ID 8402949`, SF Bay Area / Palo Alto flexible, 132K to 155K USD + bonus/equity/travel credits, IC) — **SUBMITTED (2026-11-20)**
 
-## Completed Applications — Day 8 Weekend Sprint (`2026-11-21` — `7 / 10` Submitted So Far; `69` Total Tracked = `56` Active, `13` Rejected!)
+## Completed Applications — Day 8 Weekend Sprint (`2026-11-21` — `8 / 10` Submitted So Far; `70` Total Tracked = `57` Active, `13` Rejected!)
 42. **Amgen (NASDAQ: AMGN)** — *Global Category Senior Manager – Direct-to-Patient* (`Req R-260720`, 100% US Remote, 134.49K to 181.96K USD + bonus/stock, IC) — **APPLIED / APPLICATION RECEIVED (2026-11-21)**
 43. **Cencora (NYSE: COR — Fortune #10)** — *Manager, Cell & Gene Sourcing* (`Req R2615474`, 100% Remote USA, 94.5K to 148.06K USD natl / up to 165.83K USD CA, IC) — **APPLIED / APPLICATION RECEIVED (2026-11-21)** *(Brand-new Fortune #10 employer!)*
 44. **Airbnb (NASDAQ: ABNB)** — *Senior Vendor Operations Manager* (`ID 8403001`, SF Bay Area / Palo Alto flexible, 132K to 155K USD + bonus/equity/travel credits, Pure L9 IC) — **SUBMITTED (2026-11-21)** *(Active: `2` at Airbnb!)*
@@ -73,6 +73,7 @@
 46. **Western Digital (NASDAQ: WDC)** — *Supply Chain Transformation Program Manager* (`Ref REF34953P`, San Jose CA ~15 mi, 134.8K to 179.7K USD + bonus/RSUs, IC) — **SUBMITTED (2026-11-21)** *(Brand-new Fortune 500 employer!)*
 47. **Cerebras Systems (NASDAQ: CBRS)** — *Logistics Manager* (`ID 3ff4a790-91c0-42a9-b039-8bffab5d3ce5`, Sunnyvale CA Hybrid ~9 mi, 190K to 250K USD + bonus/equity, Pure IC) — **SUBMITTED (2026-11-21)** *(Brand-new NASDAQ public employer!)*
 48. **Amgen (NASDAQ: AMGN)** — *Global Category Sr. Manager – Business Intelligence* (`Req R-226938`, 100% US Remote, 134.49K to 181.96K USD + bonus/stock, Pure IC Procurement) — **APPLIED / APPLICATION RECEIVED (2026-11-21)** *(Active: `4` on Amgen Workday!)*
+49. **Oracle (NYSE: ORCL)** — *Strategic Sourcing Manager – External Manufacturing* (`Job ID 335290`, United States / Santa Clara CA ~11 mi preferred, 102.3K to 209.5K USD + bonus/equity, Pure IC) — **APPLIED / NEW (2026-11-21)** *(Brand-new Fortune 100 employer!)*
 
 ## Full Lockheed Martin Eightfold Application History (`21` Roles: `16` Active + `5` Rejected + `1` Draft — Updated `2026-11-21`!)
 - **Active Stage-2 / Recruiter Screen (`1`):**
