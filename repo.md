@@ -4,8 +4,8 @@ This file maintains the authoritative inventory of all **top-level parent folder
 
 - **Repository Root**: `/home/krithika/workspace/ASQ-BB-Exam`
 - **Top-Level Parent Folders Processed**: `3` (plus repository root `.` files)
-- **Total Indexed Files**: `85`
-- **Total Knowledge Graph Nodes**: `725`
+- **Total Indexed Files**: `86`
+- **Total Knowledge Graph Nodes**: `782`
 
 ---
 
@@ -14,8 +14,8 @@ This file maintains the authoritative inventory of all **top-level parent folder
 | # | Top-Level Parent Folder | Absolute Path | Indexed Files | Extracted KG Nodes | Key Subfolders | Description & Scope |
 | :---: | :--- | :--- | :---: | :---: | :--- | :--- |
 | 1 | [`Resume_And_Jobs/`](Resume_And_Jobs) | `/home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/` | `68` | `294` | — | Top-level repository folder `Resume_And_Jobs/` indexed by Knowledge Graph |
-| 2 | [`chats/`](chats) | `/home/krithika/workspace/ASQ-BB-Exam/chats/` | `1` | `176` | — | Exported or synced Zed/Antigravity AI assistant chat transcripts and conversation logs indexed into the Knowledge Graph |
-| 3 | [`documents/`](documents) | `/home/krithika/workspace/ASQ-BB-Exam/documents/` | `12` | `251` | — | Multi-modal documents, PDFs, Office files (`.docx`, `.pptx`, `.xlsx`), CSV/TSV datasets, OCR images, and audio recordings indexed into the Knowledge Graph |
+| 2 | [`chats/`](chats) | `/home/krithika/workspace/ASQ-BB-Exam/chats/` | `1` | `174` | — | Exported or synced Zed/Antigravity AI assistant chat transcripts and conversation logs indexed into the Knowledge Graph |
+| 3 | [`documents/`](documents) | `/home/krithika/workspace/ASQ-BB-Exam/documents/` | `13` | `310` | — | Multi-modal documents, PDFs, Office files (`.docx`, `.pptx`, `.xlsx`), CSV/TSV datasets, OCR images, and audio recordings indexed into the Knowledge Graph |
 
 ### Repository Root (`.` Top-Level Files)
 
@@ -30,8 +30,8 @@ This file maintains the authoritative inventory of all **top-level parent folder
 | Top-Level Parent Folder | Extracted Entity Types (`type: count`) |
 | :--- | :--- |
 | `Resume_And_Jobs/` | `document`: 45, `document_file`: 23, `document_section`: 126, `topic_entity`: 100 |
-| `chats/` | `chat_session`: 6, `chat_turn`: 48, `topic_entity`: 122 |
-| `documents/` | `document`: 4, `document_file`: 7, `document_section`: 66, `html_template`: 1, `topic_entity`: 173 |
+| `chats/` | `chat_session`: 6, `chat_turn`: 48, `topic_entity`: 120 |
+| `documents/` | `document`: 4, `document_file`: 8, `document_section`: 81, `html_template`: 1, `topic_entity`: 216 |
 | `.` (Root Files) | `document`: 4 |
 
 ---

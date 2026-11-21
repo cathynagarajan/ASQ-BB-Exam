@@ -2,18 +2,18 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Round 21 — Daily Weak-Topic Warm-Up #1 `Q301`–`Q310`, Open-Book):** **`8 / 10` (`80.0%` — SPOTLESS `8/8` on `Q303–Q310`!)** *(Locked in `Cpk/Ppk`, `p > alpha`, Power, Defect vs Defective, `np-chart`, MSA Linearity, Bridges Neutral Zone, & Appraisal COQ! Only remaining warm-up focus: Sampling `Rational Subgrouping` vs `Stratified` vs `Cluster`!)*
-- **Overall Cumulative Score (`Q1`–`Q310` + `C1`–`C165` = `475` Qs):** **`372 / 475` (`78.3%`)**
+- **Latest Batch Score (Round 22 — Unit 3 `Domain III` Easy + Medium `Q311`–`Q330`, Open-Book):** **`19 / 20` (`95.0%` — `10/10` Easy + `9/10` Medium!)** *(Only 1 miss: `Q325` Thomas-Kilmann Competing/Forcing in a safety emergency — upgraded `Unit3_Team_Management_Bible_Table.docx` with full Thomas-Kilmann Exam Cheat Sheet!)*
+- **Overall Cumulative Score (`Q1`–`Q330` + `C1`–`C165` = `495` Qs):** **`391 / 495` (`79.0%`)**
 
 ---
 
-## 1. Domain Mastery Summary (Strictly ASQ 2022 BoK — 310 Scored Qs)
+## 1. Domain Mastery Summary (Strictly ASQ 2022 BoK — 330 Scored Qs)
 
 | ASQ Domain | DMAIC Phase | Exam Weight | Attempted | Correct | Accuracy | Status / Priority |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
 | **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 89 | 77 | **86.5%** | **UNIT 1 COMPLETE & MASTERED (`86.5%`; Bridges Neutral Zone FIXED!)** |
 | **II. Org Process Mgmt & Measures** | Pre-DMAIC | 12 Qs (8.0%) | 55 | 47 | **85.5%** | **UNIT 2 READY FOR TIMED SPRINT (`85.5%`; Defect vs Defective & Appraisal COQ LOCKED!)** |
-| **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 7 | 5 | **71.4%** | Next Unit after Unit 2 Sprint! Review Tuckman, Lencioni 5 Dysfunctions, Thomas-Kilmann |
+| **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 27 | 24 | **88.9%** | **UNIT 3 EASY (`10/10`) & MEDIUM (`9/10`) CRUSHED (`88.9%`!)** Built `Unit3_Team_Management_Bible_Table.docx`; ready for **Unit 3 Level 3 Hard (`Q331–Q340`)**! |
 | **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 51 | 40 | **78.4%** | **Critical Path (`Q255`) & Pareto (`Q297`) FIXED!** Review PERT variance `sqrt(sum var)`, ID `0 incoming`, PDPC vs PFMEA |
 | **V. Measure** | **Measure (M)** | 25 Qs (16.7%) | 60 | 40 | **66.7%** | **`Cpk/Ppk`, Gage Bias, Linearity (`Q308`), & CLT Normal ALL FIXED!** Focus: Sampling (`Rational Subgrouping` vs `Stratified` vs `Cluster`) |
 | **VI. Analyze** | **Analyze (A)** | 22 Qs (14.7%) | 36 | 29 | **80.6%** | **`p <= alpha`, `p > alpha` Fail-to-Reject (`Q304`), Power `1-beta` (`Q305`), & Pearson Nonlinear ALL MASTERED!** |

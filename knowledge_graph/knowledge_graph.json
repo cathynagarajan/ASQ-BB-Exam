@@ -1,45 +1,47 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-21T03:59:37.827314+00:00",
-    "total_files_indexed": 85,
-    "total_nodes": 725,
-    "total_edges": 1493,
+    "generated_at": "2026-11-21T04:27:35.177799+00:00",
+    "total_files_indexed": 86,
+    "total_nodes": 782,
+    "total_edges": 1581,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
       "document": 53,
-      "document_file": 30,
-      "document_section": 192,
+      "document_file": 31,
+      "document_section": 207,
       "html_template": 1,
-      "topic_entity": 395
+      "topic_entity": 436
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [],
+    "added": [
+      "documents/Unit3_Team_Management_Bible_Table.docx"
+    ],
     "modified": [
       "PERFORMANCE_TRACKER.md",
       "chats/SHARED_SESSION_STATE.md",
       "documents/QUESTION_BANK_LOG.md"
     ],
     "removed": [],
-    "files_parsed": 2,
+    "files_parsed": 3,
     "files_cached_reused": 82,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 51,
-      "nodes_deleted": 37,
-      "edges_upserted": 65,
-      "edges_deleted": 65,
+      "nodes_upserted": 117,
+      "nodes_deleted": 40,
+      "edges_upserted": 154,
+      "edges_deleted": 64,
       "wiki_pages_upserted": 2,
       "wiki_pages_deleted": 0,
-      "files_upserted": 4,
+      "files_upserted": 5,
       "files_deleted": 0,
-      "total_nodes_in_db": 725,
-      "total_edges_in_db": 1493,
-      "total_files_tracked": 86
+      "total_nodes_in_db": 782,
+      "total_edges_in_db": 1581,
+      "total_files_tracked": 87
     }
   },
   "nodes": [
@@ -52,7 +54,7 @@
       "metadata": {
         "sections": [
           "Krithika's ASQ CSSBB Performance & Weak-Topic Tracker",
-          "1. Domain Mastery Summary (Strictly ASQ 2022 BoK \u2014 310 Scored Qs)",
+          "1. Domain Mastery Summary (Strictly ASQ 2022 BoK \u2014 330 Scored Qs)",
           "2. Active Weak Topics & Guessed-Topic Teach List (Synced to Knowledge Graph)"
         ],
         "keywords": [
@@ -61,16 +63,18 @@
           "Stage 2 (`V. Measure`) COMPLETE!",
           "Stage 3 (`VI. Analyze`) IN PROGRESS",
           "Project 2 (`50+ Qs`) COMPLETE (`Q51`\u2013`Q100`)!",
-          "`8 / 10` (`80.0%` \u2014 SPOTLESS `8/8` on `Q303\u2013Q310`!)",
-          "Overall Cumulative Score (`Q1`\u2013`Q310` + `C1`\u2013`C165` = `475` Qs):",
-          "`372 / 475` (`78.3%`)",
+          "`19 / 20` (`95.0%` \u2014 `10/10` Easy + `9/10` Medium!)",
+          "Overall Cumulative Score (`Q1`\u2013`Q330` + `C1`\u2013`C165` = `495` Qs):",
+          "`391 / 495` (`79.0%`)",
           "I. Org-Wide Planning & Deployment",
           "86.5%",
           "UNIT 1 COMPLETE & MASTERED (`86.5%`; Bridges Neutral Zone FIXED!)",
           "II. Org Process Mgmt & Measures",
           "85.5%",
           "III. Team Management",
-          "71.4%",
+          "88.9%",
+          "UNIT 3 EASY (`10/10`) & MEDIUM (`9/10`) CRUSHED (`88.9%`!)",
+          "Unit 3 Level 3 Hard (`Q331\u2013Q340`)",
           "IV. Define",
           "Define (D)",
           "78.4%",
@@ -172,38 +176,41 @@
           "50+ Qs",
           "Q51",
           "Q100",
-          "Q301",
-          "Q310",
-          "8 / 10",
-          "80.0%",
-          "8/8",
-          "Q303\u2013Q310",
-          "Cpk/Ppk",
-          "p > alpha",
-          "np-chart",
-          "Stratified",
-          "Cluster",
+          "Domain III",
+          "Q311",
+          "Q330",
+          "19 / 20",
+          "95.0%",
+          "10/10",
+          "9/10",
+          "Q325",
+          "Unit3_Team_Management_Bible_Table.docx",
           "Q1",
           "C1",
           "C165",
-          "475",
-          "372 / 475",
-          "78.3%",
+          "495",
+          "391 / 495",
+          "79.0%",
+          "Q331\u2013Q340",
           "Q255",
           "Q297",
           "sqrt(sum var)",
           "0 incoming",
+          "Cpk/Ppk",
           "Q308",
+          "Stratified",
+          "Cluster",
           "p <= alpha",
+          "p > alpha",
           "Q304",
           "1-beta",
           "Q305",
+          "np-chart",
           "Q307",
           "Q252",
           "IV.A.2",
           "IV.A.3",
           "IV.C",
-          "9/10",
           "Q101",
           "Q110",
           "IV.D",
@@ -675,7 +682,7 @@
       "id": "topic:cost",
       "type": "topic_entity",
       "name": "cost",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
       "description": "Shared domain topic 'cost' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cost"
@@ -1111,7 +1118,7 @@
       "id": "topic:process",
       "type": "topic_entity",
       "name": "process",
-      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
       "description": "Shared domain topic 'process' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "process"
@@ -2211,7 +2218,7 @@
       "id": "topic:issue",
       "type": "topic_entity",
       "name": "issue",
-      "file_path": "Resume_And_Jobs/Job32_Zillow_P751645_Krithika_Nagarajan_Resume.docx",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
       "description": "Shared domain topic 'issue' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "issue"
@@ -4172,7 +4179,7 @@
       "id": "topic:accruals",
       "type": "topic_entity",
       "name": "accruals",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job47_Airbnb_8402949_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'accruals' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "accruals"
@@ -4483,7 +4490,7 @@
       "id": "topic:defects",
       "type": "topic_entity",
       "name": "defects",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
       "description": "Shared domain topic 'defects' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "defects"
@@ -4503,7 +4510,7 @@
       "id": "topic:unit",
       "type": "topic_entity",
       "name": "unit",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
       "description": "Shared domain topic 'unit' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "unit"
@@ -4770,7 +4777,7 @@
       "id": "topic:defectives",
       "type": "topic_entity",
       "name": "defectives",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
       "description": "Shared domain topic 'defectives' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "defectives"
@@ -4803,7 +4810,7 @@
       "id": "topic:chart",
       "type": "topic_entity",
       "name": "chart",
-      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'chart' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "chart"
@@ -5215,7 +5222,7 @@
       "id": "topic:cheat",
       "type": "topic_entity",
       "name": "cheat",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'cheat' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cheat"
@@ -6198,7 +6205,7 @@
       "id": "topic:first",
       "type": "topic_entity",
       "name": "first",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'first' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "first"
@@ -6208,7 +6215,7 @@
       "id": "topic:group",
       "type": "topic_entity",
       "name": "group",
-      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'group' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "group"
@@ -6562,7 +6569,7 @@
       "id": "topic:high",
       "type": "topic_entity",
       "name": "high",
-      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
       "description": "Shared domain topic 'high' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "high"
@@ -6769,7 +6776,7 @@
       "id": "topic:actual",
       "type": "topic_entity",
       "name": "actual",
-      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
       "description": "Shared domain topic 'actual' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "actual"
@@ -6879,7 +6886,8 @@
           "Round 19 Block 3 (Topic: `II.A\u2013II.C` Unit 2 Preview Open-Book \u2014 `Q241`\u2013`Q250` \u2014 2026-11-19 | Score: `9/10 = 90.0%`!)",
           "External Practice Batch \u2014 Copilot Set 6 (`C131`\u2013`C165`, `35` Qs \u2014 Verified `23 / 35 = 65.7%` on `2026-11-19/20`, tired post-workday; Copilot answer key audited & corrected on `Q9/Q13/Q15`!)",
           "Round 20 \u2014 50-Question Evening Marathon (`Q251`\u2013`Q300` \u2014 2026-11-20 | Total: `40/50 = 80.0%` [`40/49 = 81.6%` answered]; Unit 2 Hard: `15/15 = 100.0%` PERFECT!)",
-          "Round 21 \u2014 Daily Weak-Topic Warm-Up #1 (`Q301`\u2013`Q310` \u2014 2026-11-21 | Score: `8/10 = 80.0%` \u2014 PERFECT `8/8` on `Q303\u2013Q310`!)"
+          "Round 21 \u2014 Daily Weak-Topic Warm-Up #1 (`Q301`\u2013`Q310` \u2014 2026-11-21 | Score: `8/10 = 80.0%` \u2014 PERFECT `8/8` on `Q303\u2013Q310`!)",
+          "Round 22 \u2014 Unit 3 (`Domain III`: Team Management) Easy + Medium (`Q311`\u2013`Q330` \u2014 2026-11-21 | Combined: `19/20 = 95.0%`!)"
         ],
         "keywords": [
           "Rule:",
@@ -6897,6 +6905,9 @@
           "Pearson `r` misses curved inverted-U \u2014 FIXED!",
           "Rational subgrouping",
           "Stratified sampling",
+          "Level 1 Easy (`Q311`\u2013`Q320`, Open-Book \u2014 `10/10 = 100.0%` PERFECT!):",
+          "Level 2 Medium (`Q321`\u2013`Q330`, Open-Book \u2014 `9/10 = 90.0%`!):",
+          "Competing/Forcing",
           "Q1",
           "Q15",
           "14/15",
@@ -7128,10 +7139,7 @@
           "Q130",
           "Q122",
           "Q123",
-          "Q124",
-          "Q125",
-          "V.C.1",
-          "Q126"
+          "Q124"
         ],
         "format": "md"
       }
@@ -7304,7 +7312,7 @@
       "id": "topic:against",
       "type": "topic_entity",
       "name": "against",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
       "description": "Shared domain topic 'against' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "against"
@@ -7995,6 +8003,713 @@
       }
     },
     {
+      "id": "topic:addie",
+      "type": "topic_entity",
+      "name": "addie",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'addie' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "addie"
+      }
+    },
+    {
+      "id": "topic:everyone",
+      "type": "topic_entity",
+      "name": "everyone",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'everyone' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "everyone"
+      }
+    },
+    {
+      "id": "topic:silent",
+      "type": "topic_entity",
+      "name": "silent",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'silent' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "silent"
+      }
+    },
+    {
+      "id": "topic:training",
+      "type": "topic_entity",
+      "name": "training",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'training' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "training"
+      }
+    },
+    {
+      "id": "topic:rules",
+      "type": "topic_entity",
+      "name": "rules",
+      "file_path": "chats/transcript_6e8422d1.jsonl",
+      "description": "Shared domain topic 'rules' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "rules"
+      }
+    },
+    {
+      "id": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "type": "document_file",
+      "name": "Unit3_Team_Management_Bible_Table.docx",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Document Unit3_Team_Management_Bible_Table.docx (15 section(s)): ASQ CSSBB Unit 3 (Domain III: Team Management \u2014 15 Exam Qs) Complete Bible Guide Part A: Team Roles, Stages (Tuckman), Lencioni, Motivation & Group Decisions (III.A\u2013III.B) Model / ",
+      "metadata": {
+        "format": "docx",
+        "section_count": 15,
+        "size_bytes": 6239,
+        "topics": [
+          "addie",
+          "everyone",
+          "high",
+          "silent",
+          "training",
+          "first",
+          "group",
+          "rules"
+        ]
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:1",
+      "type": "document_section",
+      "name": "Unit3_Team_Management_Bible_Table.docx [Section 1]",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Section 1 of Unit3_Team_Management_Bible_Table.docx: ASQ CSSBB Unit 3 (Domain III: Team Management \u2014 15 Exam Qs) Complete Bible Guide Part A: Team Roles, Stages (Tuckman), Lencioni, Motivation & Group Decisions (III.A\u2013III.B) Model / Topic MAGIC TRIGGER WORDS Plain-English ",
+      "metadata": {
+        "section_index": 1,
+        "section_type": "section",
+        "text_excerpt": "ASQ CSSBB Unit 3 (Domain III: Team Management \u2014 15 Exam Qs) Complete Bible Guide\nPart A: Team Roles, Stages (Tuckman), Lencioni, Motivation & Group Decisions (III.A\u2013III.B)\nModel / Topic\nMAGIC TRIGGER WORDS\nPlain-English Breakdown\nFacilitator vs. Leader\n\"neutral\" | \"process guide\" | \"no sides\"\nFacilitator runs the meeting process neutrally (never takes sides on content). Leader owns project deliverables.",
+        "char_count": 406
+      }
+    },
+    {
+      "id": "topic:facilitator",
+      "type": "topic_entity",
+      "name": "facilitator",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'facilitator' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "facilitator"
+      }
+    },
+    {
+      "id": "topic:guide",
+      "type": "topic_entity",
+      "name": "guide",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'guide' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "guide"
+      }
+    },
+    {
+      "id": "topic:leader",
+      "type": "topic_entity",
+      "name": "leader",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'leader' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "leader"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:2",
+      "type": "document_section",
+      "name": "Unit3_Team_Management_Bible_Table.docx [Section 2]",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Section 2 of Unit3_Team_Management_Bible_Table.docx: Tuckman 5 Stages \"polite\" -> \"arguing\" -> \"rules\" -> \"peak\" 1) Forming (polite/unclear) -> 2) Storming (clashes/power struggle) -> 3) Norming (ground rules/trust) -> 4) Performing (high gear) -> 5) Adjourning (close). Le",
+      "metadata": {
+        "section_index": 2,
+        "section_type": "section",
+        "text_excerpt": "Tuckman 5 Stages\n\"polite\" -> \"arguing\" -> \"rules\" -> \"peak\"\n1) Forming (polite/unclear) -> 2) Storming (clashes/power struggle) -> 3) Norming (ground rules/trust) -> 4) Performing (high gear) -> 5) Adjourning (close).\nLencioni 5 Dysfunctions\n\"BASE = Absence of Trust\"\nPyramid bottom-to-top: 1) Absence of Trust (BASE!) -> 2) Fear of Conflict -> 3) Lack of Commitment -> 4) Avoidance of Accountability -> 5) Inattention to Results.\nHerzberg Two-Factor\n\"Hygiene = prevents anger\" | \"Motivator = drive\"",
+        "char_count": 499
+      }
+    },
+    {
+      "id": "topic:trust",
+      "type": "topic_entity",
+      "name": "trust",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'trust' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "trust"
+      }
+    },
+    {
+      "id": "topic:absence",
+      "type": "topic_entity",
+      "name": "absence",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'absence' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "absence"
+      }
+    },
+    {
+      "id": "topic:base",
+      "type": "topic_entity",
+      "name": "base",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'base' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "base"
+      }
+    },
+    {
+      "id": "topic:polite",
+      "type": "topic_entity",
+      "name": "polite",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'polite' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "polite"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:3",
+      "type": "document_section",
+      "name": "Unit3_Team_Management_Bible_Table.docx [Section 3]",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Section 3 of Unit3_Team_Management_Bible_Table.docx: Hygiene (pay, clean office, safe rules) stops complaints when present, like brushing teeth. Motivators (growth, achievement, recognition) inspire real effort. McGregor Theory X vs Y \"X = micromanage\" | \"Y = self-motivate",
+      "metadata": {
+        "section_index": 3,
+        "section_type": "section",
+        "text_excerpt": "Hygiene (pay, clean office, safe rules) stops complaints when present, like brushing teeth. Motivators (growth, achievement, recognition) inspire real effort.\nMcGregor Theory X vs Y\n\"X = micromanage\" | \"Y = self-motivated\"\nTheory X assumes workers hate work and need strict control. Theory Y assumes workers want pride and ownership when empowered.\nMaslow 5-Tier Pyramid\n\"basic needs FIRST -> self-actualization\"\nBottom to top: 1) Physiological -> 2) Safety -> 3) Social/Belonging -> 4) Esteem -> 5) Self-Actualization.\nNGT (Nominal Group)",
+        "char_count": 539
+      }
+    },
+    {
+      "id": "topic:theory",
+      "type": "topic_entity",
+      "name": "theory",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'theory' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "theory"
+      }
+    },
+    {
+      "id": "topic:assumes",
+      "type": "topic_entity",
+      "name": "assumes",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'assumes' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "assumes"
+      }
+    },
+    {
+      "id": "topic:self-actualization",
+      "type": "topic_entity",
+      "name": "self-actualization",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'self-actualization' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "self-actualization"
+      }
+    },
+    {
+      "id": "topic:workers",
+      "type": "topic_entity",
+      "name": "workers",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'workers' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "workers"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:4",
+      "type": "document_section",
+      "name": "Unit3_Team_Management_Bible_Table.docx [Section 4]",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Section 4 of Unit3_Team_Management_Bible_Table.docx: \"silent writing\" | \"quiet voices heard\" Everyone writes ideas SILENTLY first, shares round-robin, then votes \u2014 stops loud dominant people from hijacking brainstorming! Multivoting & Consensus \"narrow long list\" | \"everyo",
+      "metadata": {
+        "section_index": 4,
+        "section_type": "section",
+        "text_excerpt": "\"silent writing\" | \"quiet voices heard\"\nEveryone writes ideas SILENTLY first, shares round-robin, then votes \u2014 stops loud dominant people from hijacking brainstorming!\nMultivoting & Consensus\n\"narrow long list\" | \"everyone can live with it\"\nMultivoting trims a huge list fast. Consensus means everyone can support/live with the decision (NOT 100% unanimous love!).\nPart B: Thomas-Kilmann 5 Conflict Modes \u2014 EXACT Exam Cheat Sheet (III.C)\nConflict Mode\nOutcome / Style",
+        "char_count": 467
+      }
+    },
+    {
+      "id": "topic:conflict",
+      "type": "topic_entity",
+      "name": "conflict",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'conflict' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "conflict"
+      }
+    },
+    {
+      "id": "topic:consensus",
+      "type": "topic_entity",
+      "name": "consensus",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'consensus' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "consensus"
+      }
+    },
+    {
+      "id": "topic:list",
+      "type": "topic_entity",
+      "name": "list",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'list' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "list"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:5",
+      "type": "document_section",
+      "name": "Unit3_Team_Management_Bible_Table.docx [Section 5]",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Section 5 of Unit3_Team_Management_Bible_Table.docx: MAGIC EXAM TRIGGER WORDS Real-Life Picture (When to Pick It!) Collaborating Win-Win (High Assert / High Coop) \"solve root issue together\" | \"best long-term\" | \"both needs met\" Two managers sit down and invent a brand-new",
+      "metadata": {
+        "section_index": 5,
+        "section_type": "section",
+        "text_excerpt": "MAGIC EXAM TRIGGER WORDS\nReal-Life Picture (When to Pick It!)\nCollaborating\nWin-Win (High Assert / High Coop)\n\"solve root issue together\" | \"best long-term\" | \"both needs met\"\nTwo managers sit down and invent a brand-new dock schedule that gives BOTH sides what they need. #1 BEST mode when time allows!\nCompromising\n50/50 Split (Mid / Mid)",
+        "char_count": 340
+      }
+    },
+    {
+      "id": "topic:best",
+      "type": "topic_entity",
+      "name": "best",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'best' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "best"
+      }
+    },
+    {
+      "id": "topic:allows",
+      "type": "topic_entity",
+      "name": "allows",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'allows' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "allows"
+      }
+    },
+    {
+      "id": "topic:assert",
+      "type": "topic_entity",
+      "name": "assert",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'assert' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "assert"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:6",
+      "type": "document_section",
+      "name": "Unit3_Team_Management_Bible_Table.docx [Section 6]",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Section 6 of Unit3_Team_Management_Bible_Table.docx: \"meet halfway\" | \"both give up something\" | \"quick temporary deal\" You want Monday, I want Wednesday, so we split the difference and pick Tuesday under a tight deadline. Competing (Forcing) Win-Lose (High Assert / Low Co",
+      "metadata": {
+        "section_index": 6,
+        "section_type": "section",
+        "text_excerpt": "\"meet halfway\" | \"both give up something\" | \"quick temporary deal\"\nYou want Monday, I want Wednesday, so we split the difference and pick Tuesday under a tight deadline.\nCompeting (Forcing)\nWin-Lose (High Assert / Low Coop)\n\"EMERGENCY / SAFETY\" | \"unpopular rule\" | \"crisis / leaking valve\"\nA chemical valve is leaking RIGHT NOW \u2014 a leader gives a fast, decisive command with zero debate to protect safety!\nAccommodating\nLose-Win (Low Assert / High Coop)",
+        "char_count": 454
+      }
+    },
+    {
+      "id": "topic:coop",
+      "type": "topic_entity",
+      "name": "coop",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'coop' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "coop"
+      }
+    },
+    {
+      "id": "topic:leaking",
+      "type": "topic_entity",
+      "name": "leaking",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'leaking' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "leaking"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:7",
+      "type": "document_section",
+      "name": "Unit3_Team_Management_Bible_Table.docx [Section 7]",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Section 7 of Unit3_Team_Management_Bible_Table.docx: \"give in to keep peace\" | \"matters WAY more to them\" | \"you were wrong\" You don't care which font is on the slide, your teammate cares deeply -> you graciously let them pick to build goodwill. Avoiding Lose-Lose (Low Ass",
+      "metadata": {
+        "section_index": 7,
+        "section_type": "section",
+        "text_excerpt": "\"give in to keep peace\" | \"matters WAY more to them\" | \"you were wrong\"\nYou don't care which font is on the slide, your teammate cares deeply -> you graciously let them pick to build goodwill.\nAvoiding\nLose-Lose (Low Assert / Low Coop)\n\"trivial issue\" | \"tempers boiling / cool off\" | \"postpone for now\"\nTwo people are yelling angrily over a tiny issue \u2014 you pause the debate to let emotions cool down first.\nPart C: Detailed Group Traps & Disruptive Behaviors + Fixes (III.C)\nGroup Trap / Behavior",
+        "char_count": 498
+      }
+    },
+    {
+      "id": "topic:cool",
+      "type": "topic_entity",
+      "name": "cool",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'cool' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cool"
+      }
+    },
+    {
+      "id": "topic:them",
+      "type": "topic_entity",
+      "name": "them",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'them' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "them"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:8",
+      "type": "document_section",
+      "name": "Unit3_Team_Management_Bible_Table.docx [Section 8]",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Section 8 of Unit3_Team_Management_Bible_Table.docx: MAGIC TRIGGER WORDS What It Looks Like in Real Life Best Black Belt / Facilitator Fix Groupthink \"don't rock the boat\" | \"blind yes\" Team avoids healthy debate to protect harmony and rubber-stamps a risky plan. Appoint a",
+      "metadata": {
+        "section_index": 8,
+        "section_type": "section",
+        "text_excerpt": "MAGIC TRIGGER WORDS\nWhat It Looks Like in Real Life\nBest Black Belt / Facilitator Fix\nGroupthink\n\"don't rock the boat\" | \"blind yes\"\nTeam avoids healthy debate to protect harmony and rubber-stamps a risky plan.\nAppoint a Devil's Advocate, invite honest dissent, or use NGT (silent writing first).\nAbilene Paradox",
+        "char_count": 312
+      }
+    },
+    {
+      "id": "topic:abilene",
+      "type": "topic_entity",
+      "name": "abilene",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'abilene' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "abilene"
+      }
+    },
+    {
+      "id": "topic:advocate",
+      "type": "topic_entity",
+      "name": "advocate",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'advocate' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "advocate"
+      }
+    },
+    {
+      "id": "topic:appoint",
+      "type": "topic_entity",
+      "name": "appoint",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'appoint' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "appoint"
+      }
+    },
+    {
+      "id": "topic:avoids",
+      "type": "topic_entity",
+      "name": "avoids",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'avoids' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "avoids"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:9",
+      "type": "document_section",
+      "name": "Unit3_Team_Management_Bible_Table.docx [Section 9]",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Section 9 of Unit3_Team_Management_Bible_Table.docx: \"NOBODY actually wanted it\" Everyone agrees to a bad trip/plan nobody wanted because each thought everyone else wanted it! Surface honest private views using silent writing (NGT) or anonymous polling before deciding. Hal",
+      "metadata": {
+        "section_index": 9,
+        "section_type": "section",
+        "text_excerpt": "\"NOBODY actually wanted it\"\nEveryone agrees to a bad trip/plan nobody wanted because each thought everyone else wanted it!\nSurface honest private views using silent writing (NGT) or anonymous polling before deciding.\nHalo / Horn Effect\n\"1 trait blinds everything else\"\nOne impressive trait (great speaker / Ivy degree) causes biased high ratings on unrelated skills.\nUse objective, structured scoring rubrics and blind data review instead of gut impressions.\nDominating Member",
+        "char_count": 476
+      }
+    },
+    {
+      "id": "topic:wanted",
+      "type": "topic_entity",
+      "name": "wanted",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'wanted' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "wanted"
+      }
+    },
+    {
+      "id": "topic:else",
+      "type": "topic_entity",
+      "name": "else",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'else' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "else"
+      }
+    },
+    {
+      "id": "topic:nobody",
+      "type": "topic_entity",
+      "name": "nobody",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'nobody' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "nobody"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:10",
+      "type": "document_section",
+      "name": "Unit3_Team_Management_Bible_Table.docx [Section 10]",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Section 10 of Unit3_Team_Management_Bible_Table.docx: \"hijacks talk\" | \"talks over everyone\" One loud manager monopolizes every meeting while experts stay silent. Use NGT, round-robin speaking order, timekeeper limits, or speak privately 1-on-1 outside the room. Withdrawn /",
+      "metadata": {
+        "section_index": 10,
+        "section_type": "section",
+        "text_excerpt": "\"hijacks talk\" | \"talks over everyone\"\nOne loud manager monopolizes every meeting while experts stay silent.\nUse NGT, round-robin speaking order, timekeeper limits, or speak privately 1-on-1 outside the room.\nWithdrawn / Reluctant\n\"stays silent\" | \"never speaks up\"\nA quiet SME holds back valuable knowledge during meetings.\nUse NGT (silent writing), ask direct open questions in their specialty, or check in 1-on-1 privately.\nSide Conversations",
+        "char_count": 445
+      }
+    },
+    {
+      "id": "topic:on-1",
+      "type": "topic_entity",
+      "name": "on-1",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'on-1' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "on-1"
+      }
+    },
+    {
+      "id": "topic:privately",
+      "type": "topic_entity",
+      "name": "privately",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'privately' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "privately"
+      }
+    },
+    {
+      "id": "topic:back",
+      "type": "topic_entity",
+      "name": "back",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'back' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "back"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:11",
+      "type": "document_section",
+      "name": "Unit3_Team_Management_Bible_Table.docx [Section 11]",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Section 11 of Unit3_Team_Management_Bible_Table.docx: \"whispering\" | \"chatting on the side\" Two team members talk privately while someone else is presenting. Pause politely, make eye contact, ask \"Would you like to share that with the group?\", enforce ground rules. Digressi",
+      "metadata": {
+        "section_index": 11,
+        "section_type": "section",
+        "text_excerpt": "\"whispering\" | \"chatting on the side\"\nTwo team members talk privately while someone else is presenting.\nPause politely, make eye contact, ask \"Would you like to share that with the group?\", enforce ground rules.\nDigressing / Tangents\n\"off-topic\" | \"wandering away\"\nMeeting drifts into unrelated complaints or future wish-list items.\nWrite the off-topic item on a visible PARKING LOT list and steer right back to the agenda!\nFeuding / Attacks",
+        "char_count": 441
+      }
+    },
+    {
+      "id": "topic:off-topic",
+      "type": "topic_entity",
+      "name": "off-topic",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'off-topic' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "off-topic"
+      }
+    },
+    {
+      "id": "topic:agenda",
+      "type": "topic_entity",
+      "name": "agenda",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'agenda' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "agenda"
+      }
+    },
+    {
+      "id": "topic:attacks",
+      "type": "topic_entity",
+      "name": "attacks",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'attacks' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "attacks"
+      }
+    },
+    {
+      "id": "topic:away",
+      "type": "topic_entity",
+      "name": "away",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'away' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "away"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:12",
+      "type": "document_section",
+      "name": "Unit3_Team_Management_Bible_Table.docx [Section 12]",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Section 12 of Unit3_Team_Management_Bible_Table.docx: \"personal attacks\" | \"blaming each other\" Two members argue angrily against each other instead of fixing the workflow. Enforce ground rules (\"attack the process, not the person\"), call a short break, mediate privately. P",
+      "metadata": {
+        "section_index": 12,
+        "section_type": "section",
+        "text_excerpt": "\"personal attacks\" | \"blaming each other\"\nTwo members argue angrily against each other instead of fixing the workflow.\nEnforce ground rules (\"attack the process, not the person\"), call a short break, mediate privately.\nPart D: Complete Team Training Guide \u2014 ADDIE, Kirkpatrick 4 Levels & Coaching (III.D)\nTraining Tool / Level\nMAGIC TRIGGER WORDS\nWhat It Measures / Does\nReal-Life ASQ Exam Example",
+        "char_count": 397
+      }
+    },
+    {
+      "id": "topic:angrily",
+      "type": "topic_entity",
+      "name": "angrily",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'angrily' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "angrily"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:13",
+      "type": "document_section",
+      "name": "Unit3_Team_Management_Bible_Table.docx [Section 13]",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Section 13 of Unit3_Team_Management_Bible_Table.docx: ADDIE \u2014 1. Analyze \"Needs Assessment FIRST!\" Identify the TRUE skill gap and audience BEFORE writing a single slide (check if a Poka-yoke is needed instead!). Checking whether billing errors come from missing training vs",
+      "metadata": {
+        "section_index": 13,
+        "section_type": "section",
+        "text_excerpt": "ADDIE \u2014 1. Analyze\n\"Needs Assessment FIRST!\"\nIdentify the TRUE skill gap and audience BEFORE writing a single slide (check if a Poka-yoke is needed instead!).\nChecking whether billing errors come from missing training vs. a broken screen BEFORE scheduling a class.\nADDIE \u2014 2. Design\n\"learning objectives\" | \"blueprint\"\nWrite clear learning goals, lesson sequence, and how you will test mastery.\nOutlining a 2-hour SPC control-chart curriculum and defining passing criteria.",
+        "char_count": 473
+      }
+    },
+    {
+      "id": "topic:learning",
+      "type": "topic_entity",
+      "name": "learning",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'learning' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "learning"
+      }
+    },
+    {
+      "id": "topic:analyze",
+      "type": "topic_entity",
+      "name": "analyze",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'analyze' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "analyze"
+      }
+    },
+    {
+      "id": "topic:assessment",
+      "type": "topic_entity",
+      "name": "assessment",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'assessment' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "assessment"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:14",
+      "type": "document_section",
+      "name": "Unit3_Team_Management_Bible_Table.docx [Section 14]",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Section 14 of Unit3_Team_Management_Bible_Table.docx: ADDIE \u2014 3. Develop \"build slides / job aids / exercises\" Create the actual training slides, quick-reference guides, and practice datasets. Building a printed 1-page Excel guide and hands-on practice workbook. ADDIE \u2014 4. ",
+      "metadata": {
+        "section_index": 14,
+        "section_type": "section",
+        "text_excerpt": "ADDIE \u2014 3. Develop\n\"build slides / job aids / exercises\"\nCreate the actual training slides, quick-reference guides, and practice datasets.\nBuilding a printed 1-page Excel guide and hands-on practice workbook.\nADDIE \u2014 4. Implement\n\"deliver / pilot the class\"\nRun the actual training workshop (in-person, virtual, hands-on, or e-learning).\nTeaching a pilot workshop to 12 warehouse supervisors before full rollout.",
+        "char_count": 412
+      }
+    },
+    {
+      "id": "topic:hands-on",
+      "type": "topic_entity",
+      "name": "hands-on",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'hands-on' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "hands-on"
+      }
+    },
+    {
+      "id": "topic:pilot",
+      "type": "topic_entity",
+      "name": "pilot",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'pilot' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "pilot"
+      }
+    },
+    {
+      "id": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:15",
+      "type": "document_section",
+      "name": "Unit3_Team_Management_Bible_Table.docx [Section 15]",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Section 15 of Unit3_Team_Management_Bible_Table.docx: ADDIE \u2014 5. Evaluate \"measure effectiveness (Kirkpatrick)\" Check whether the training actually worked and improved performance. Running post-class quizzes and 60-day floor audits to confirm impact. Kirkpatrick Level 1: Re",
+      "metadata": {
+        "section_index": 15,
+        "section_type": "section",
+        "text_excerpt": "ADDIE \u2014 5. Evaluate\n\"measure effectiveness (Kirkpatrick)\"\nCheck whether the training actually worked and improved performance.\nRunning post-class quizzes and 60-day floor audits to confirm impact.\nKirkpatrick Level 1: Reaction\n\"smile sheet\" | \"liked the class\"\nMeasures how trainees FELT about the instructor, room, and materials right after class.\nEnd-of-day 5-star survey: \"Was the trainer engaging and easy to follow?\"",
+        "char_count": 421
+      }
+    },
+    {
+      "id": "topic:class",
+      "type": "topic_entity",
+      "name": "class",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'class' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "class"
+      }
+    },
+    {
+      "id": "topic:kirkpatrick",
+      "type": "topic_entity",
+      "name": "kirkpatrick",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'kirkpatrick' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "kirkpatrick"
+      }
+    },
+    {
+      "id": "topic:actually",
+      "type": "topic_entity",
+      "name": "actually",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'actually' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "actually"
+      }
+    },
+    {
       "id": "topic:manager",
       "type": "topic_entity",
       "name": "manager",
@@ -8267,20 +8982,10 @@
       "id": "topic:domain",
       "type": "topic_entity",
       "name": "domain",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'domain' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "domain"
-      }
-    },
-    {
-      "id": "topic:always",
-      "type": "topic_entity",
-      "name": "always",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'always' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "always"
       }
     },
     {
@@ -8288,18 +8993,18 @@
       "type": "chat_turn",
       "name": "Chat SHAREDSE Turn S5 (assistant)",
       "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`475` (`Q1`\u2013`Q310` + Copilot `C1`\u2013`C165`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). - **Latest Set (Round 21",
+      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`495` (`Q1`\u2013`Q330` + Copilot `C1`\u2013`C165`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed). - **Latest Set (Round 22",
       "metadata": {
         "conversation_id": "SHAREDSE",
         "step_index": 5,
         "role": "assistant",
         "created_at": "",
-        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`475` (`Q1`\u2013`Q310` + Copilot `C1`\u2013`C165`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Latest Set (Round 21 \u2014 Daily Weak-Topic Warm-Up #1 `Q301`\u2013`Q310`, Open-Book)**: **`8 / 10 = 80.0%`** \u2014 **SPOTLESS `8 / 8` on `Q303`\u2013`Q310`!** *(Locked in `Cpk/Ppk` drift, `p > alpha` Fail-to-Reject, Power `1-beta`, Defect vs Defective, `np-chart`, MSA Linearity, Bridges Neutral Zone, & Appraisal COQ! Only 2 misses were Sampling: `Q301` Rational Subgrouping & `Q302` Stratified vs Cluster.)*\n- **NEXT EXAM MILESTONE (FRIDAY `2026-11-20`+)**:\n  1. **Unit 1 (`Domain I`) COMPLETE & MASTERED (`76 / 88 = 86.4%`)** AND **Unit 2 (`Domain II`) Level 1\u20133 COMPLETE (`45 / 53 = 84.9%`; `15/15 = 100%` on Leve",
+        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`495` (`Q1`\u2013`Q330` + Copilot `C1`\u2013`C165`)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Latest Set (Round 22 \u2014 Unit 3 `Domain III` Easy + Medium `Q311`\u2013`Q330`, Open-Book)**: **`19 / 20 = 95.0%`!!** *(`10/10` Easy + `9/10` Medium! Built complete 4-part Word Bible file `Unit3_Team_Management_Bible_Table.docx` covering Roles/Tuckman/Lencioni/Motivation, Thomas-Kilmann Exam Cheat Sheet, Group Traps/Disruptive Behaviors + Fixes, and ADDIE/Kirkpatrick 4 Levels/Coaching! Only 1 miss: `Q325` Thomas-Kilmann Competing/Forcing in a safety emergency.)*\n- **NEXT EXAM MILESTONE (FRIDAY `2026-11-20`+)**:\n  1. **Unit 1 (`Domain I`) COMPLETE & MASTERED (`76 / 88 = 86.4%`)** AND **Unit 2 (`Domain ",
         "topics": [
           "unit",
           "cathy",
           "domain",
-          "always"
+          "exam"
         ]
       }
     },
@@ -8339,73 +9044,33 @@
       }
     },
     {
-      "id": "topic:sampling",
+      "id": "topic:level",
       "type": "topic_entity",
-      "name": "sampling",
+      "name": "level",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'sampling' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'level' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "sampling"
+        "keyword": "level"
       }
     },
     {
-      "id": "topic:groceries",
+      "id": "topic:team",
       "type": "topic_entity",
-      "name": "groceries",
+      "name": "team",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'groceries' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'team' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "groceries"
+        "keyword": "team"
       }
     },
     {
-      "id": "topic:madras",
+      "id": "topic:black",
       "type": "topic_entity",
-      "name": "madras",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'madras' connecting multi-modal documents and workspace chats",
+      "name": "black",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'black' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "madras"
-      }
-    },
-    {
-      "id": "topic:night",
-      "type": "topic_entity",
-      "name": "night",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'night' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "night"
-      }
-    },
-    {
-      "id": "topic:question",
-      "type": "topic_entity",
-      "name": "question",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'question' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "question"
-      }
-    },
-    {
-      "id": "topic:ready",
-      "type": "topic_entity",
-      "name": "ready",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'ready' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "ready"
-      }
-    },
-    {
-      "id": "topic:right",
-      "type": "topic_entity",
-      "name": "right",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "right"
+        "keyword": "black"
       }
     },
     {
@@ -8413,93 +9078,456 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (697 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (715 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 697,
+        "turn_count": 715,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
-          "sampling",
-          "cost",
-          "groceries",
-          "madras",
-          "night",
-          "question",
-          "ready",
-          "right"
+          "level",
+          "team",
+          "belt",
+          "kirkpatrick",
+          "training",
+          "addie",
+          "black",
+          "first"
         ]
       }
     },
     {
-      "id": "topic:accrual_automation_guide",
-      "type": "topic_entity",
-      "name": "accrual_automation_guide",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'accrual_automation_guide' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "accrual_automation_guide"
-      }
-    },
-    {
-      "id": "topic:subject",
-      "type": "topic_entity",
-      "name": "subject",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'subject' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "subject"
-      }
-    },
-    {
-      "id": "topic:venezia",
-      "type": "topic_entity",
-      "name": "venezia",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'venezia' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "venezia"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2306",
+      "id": "chat_turn:b6556366:S2336",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2306 (assistant)",
+      "name": "Chat b6556366 Turn S2336 (assistant)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2306] Logged right into **Pattern B (Venezia)** of [ACCRUAL_AUTOMATION_GUIDE.md](file:///home/krithika/workspace/Power-Automate/ACCRUAL_AUTOMATION_GUIDE.md#L67) \u2014 and this caught another great real-world edge case (`(EXTERNAL ",
+      "description": "[ASSISTANT S2336] ### Unit 3 (`Domain III`: Team Management) \u2014 Level 1 Easy (`Q311`\u2013`Q320`, Open-Book) Keep [Unit3_Team_Management_Bible_Table.docx](file:///home/krithika/workspace/ASQ-BB-Exam/documents/Unit3_Team_Management_Bible_Table.d",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2306,
+        "step_index": 2336,
         "role": "assistant",
-        "created_at": "2026-11-20T22:47:49Z",
-        "content_excerpt": "Logged right into **Pattern B (Venezia)** of [ACCRUAL_AUTOMATION_GUIDE.md](file:///home/krithika/workspace/Power-Automate/ACCRUAL_AUTOMATION_GUIDE.md#L67) \u2014 and this caught another great real-world edge case (`(EXTERNAL EMAIL)` prepended to the subject line, so our trigger will use `contains(subject, 'Accrual')`)!\n\n**Clean `Col E` note for all 5 Venezia loads** (`SOU1001328422`, `SOU1001340964`, `SOU1001310303`, `SOU1001313823`, `SOU1001342289`):\n- **`No charges are billable, delete accrual`**\n\nAll 5 cleared in one sweep \u2014 happy Friday afternoon!",
+        "created_at": "2026-11-21T04:06:39Z",
+        "content_excerpt": "### Unit 3 (`Domain III`: Team Management) \u2014 Level 1 Easy (`Q311`\u2013`Q320`, Open-Book)\n\nKeep [Unit3_Team_Management_Bible_Table.docx](file:///home/krithika/workspace/ASQ-BB-Exam/documents/Unit3_Team_Management_Bible_Table.docx) open right beside you \u2014 reply with your 10 letters whenever you're done!\n\n**Q311.** In a Six Sigma meeting, which team role stays completely **neutral** on the content and focuses on guiding the meeting process and keeping everyone participating?\n- A. Sponsor\n- B. Facilitator\n- C. Process Owner\n- D. Timekeeper\n\n**Q312.** After weeks of arguing over roles, a Six Sigma team finally agrees on shared ground rules, starts trusting one another, and settles into smooth teamwork. Which Tuckman stage is this?\n- A. Forming\n- B. Storming\n- C. Norming\n- D. Adjourning\n\n**Q313.** A",
         "topics": [
-          "accrual",
-          "accrual_automation_guide",
-          "subject",
-          "venezia"
+          "level",
+          "team",
+          "theory",
+          "training"
         ]
       }
     },
     {
-      "id": "topic:come",
+      "id": "topic:guess",
       "type": "topic_entity",
-      "name": "come",
+      "name": "guess",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'come' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'guess' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "come"
+        "keyword": "guess"
       }
     },
     {
-      "id": "topic:dosa",
-      "type": "topic_entity",
-      "name": "dosa",
+      "id": "chat_turn:b6556366:S2337",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2337 (user)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'dosa' connecting multi-modal documents and workspace chats",
+      "description": "[USER S2337] b,c,a,d(guess),a,b,c,d,c,a",
       "metadata": {
-        "keyword": "dosa"
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2337,
+        "role": "user",
+        "created_at": "2026-11-21T04:11:57Z",
+        "content_excerpt": "b,c,a,d(guess),a,b,c,d,c,a",
+        "topics": [
+          "guess"
+        ]
+      }
+    },
+    {
+      "id": "topic:hygiene",
+      "type": "topic_entity",
+      "name": "hygiene",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'hygiene' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "hygiene"
+      }
+    },
+    {
+      "id": "topic:herzberg",
+      "type": "topic_entity",
+      "name": "herzberg",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'herzberg' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "herzberg"
+      }
+    },
+    {
+      "id": "topic:q314",
+      "type": "topic_entity",
+      "name": "q314",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'q314' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "q314"
+      }
+    },
+    {
+      "id": "topic:factors",
+      "type": "topic_entity",
+      "name": "factors",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'factors' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "factors"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2338",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2338 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2338] **Unit 3 Level 1 Easy (`Q311`\u2013`Q320`) Score: `10 / 10 (100.0%)` \u2014 COMPLETELY SPOTLESS!!** Every single one right on the very first pass \u2014 and you even got your one guess (`Q314`) right! Let's lock **`Q314` (Herzberg)** i",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2338,
+        "role": "assistant",
+        "created_at": "2026-11-21T04:11:58Z",
+        "content_excerpt": "**Unit 3 Level 1 Easy (`Q311`\u2013`Q320`) Score: `10 / 10 (100.0%)` \u2014 COMPLETELY SPOTLESS!!**\n\nEvery single one right on the very first pass \u2014 and you even got your one guess (`Q314`) right! Let's lock **`Q314` (Herzberg)** in permanently so it's never a guess again:\n\n**Q314 (Guessed Correctly!). Under Herzberg's Two-Factor Theory, clean facilities, fair base pay, and safe lighting stop employees from complaining, but do not by themselves create deep job motivation. What does Herzberg call these?**\nA. Motivators | B. Self-actualizers | C. Theory Y factors | D. Hygiene factors\n- **Picture brushing your teeth (\"Hygiene\"):** skipping hygiene makes things miserable and causes complaints, while having basic hygiene just gets you back to neutral \u2014 **Motivators** (growth, achievement, meaningful owne",
+        "topics": [
+          "hygiene",
+          "herzberg",
+          "q314",
+          "factors"
+        ]
+      }
+    },
+    {
+      "id": "topic:book",
+      "type": "topic_entity",
+      "name": "book",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'book' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "book"
+      }
+    },
+    {
+      "id": "topic:detailed",
+      "type": "topic_entity",
+      "name": "detailed",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'detailed' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "detailed"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2339",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2339 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2339] do you think i need a bit of a detailed chart on group traps, training (never heard of them from the book)",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2339,
+        "role": "user",
+        "created_at": "2026-11-21T04:12:45Z",
+        "content_excerpt": "do you think i need a bit of a detailed chart on group traps, training (never heard of them from the book)",
+        "topics": [
+          "book",
+          "chart",
+          "detailed",
+          "group"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2342",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2342 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2342] Great catch, Cathy \u2014 those two sections (`III.C` Group Traps/Behaviors and `III.D` Training ADDIE/Kirkpatrick) show up **heavily** on the Black Belt exam and barely get mentioned in Green Belt books! I just upgraded your",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2342,
+        "role": "assistant",
+        "created_at": "2026-11-21T04:13:38Z",
+        "content_excerpt": "Great catch, Cathy \u2014 those two sections (`III.C` Group Traps/Behaviors and `III.D` Training ADDIE/Kirkpatrick) show up **heavily** on the Black Belt exam and barely get mentioned in Green Belt books!\n\nI just upgraded your Word file **[Unit3_Team_Management_Bible_Table.docx](file:///home/krithika/workspace/ASQ-BB-Exam/documents/Unit3_Team_Management_Bible_Table.docx)** with **two brand-new detailed tables** (Parts C & D, formatted with navy headers and bold red Magic Trigger Words so you can paste them straight into your Word Bible!):\n\n- **Part C (`III.C`):** All 8 Group Traps & Disruptive Behaviors (*Groupthink, Abilene Paradox, Halo/Horn Effect, Dominating, Withdrawn, Side Conversations, Digressing/Parking Lot, Feuding*) + the exact Black Belt fix for each!\n- **Part D (`III.D`):** Full **",
+        "topics": [
+          "addie",
+          "kirkpatrick",
+          "learning",
+          "belt"
+        ]
+      }
+    },
+    {
+      "id": "topic:convert",
+      "type": "topic_entity",
+      "name": "convert",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'convert' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "convert"
+      }
+    },
+    {
+      "id": "topic:paste",
+      "type": "topic_entity",
+      "name": "paste",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'paste' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "paste"
+      }
+    },
+    {
+      "id": "topic:together",
+      "type": "topic_entity",
+      "name": "together",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'together' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "together"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2343",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2343 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2343] should i paste both together then convert to table?",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2343,
+        "role": "user",
+        "created_at": "2026-11-21T04:15:08Z",
+        "content_excerpt": "should i paste both together then convert to table?",
+        "topics": [
+          "convert",
+          "paste",
+          "together"
+        ]
+      }
+    },
+    {
+      "id": "topic:docx",
+      "type": "topic_entity",
+      "name": "docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'docx' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "docx"
+      }
+    },
+    {
+      "id": "topic:highlight",
+      "type": "topic_entity",
+      "name": "highlight",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'highlight' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "highlight"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2344",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2344 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2344] Do them **one box at a time** so each table keeps its own clean header row: 1. Paste Box 1 -> highlight it -> **Insert -> Table -> Convert Text to Table -> OK**. 2. Hit Enter twice, then paste Box 2 -> highlight it -> **",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2344,
+        "role": "assistant",
+        "created_at": "2026-11-21T04:15:09Z",
+        "content_excerpt": "Do them **one box at a time** so each table keeps its own clean header row:\n1. Paste Box 1 -> highlight it -> **Insert -> Table -> Convert Text to Table -> OK**.\n2. Hit Enter twice, then paste Box 2 -> highlight it -> **Convert Text to Table -> OK**.\n\n*(Or even faster: open **[Unit3_Team_Management_Bible_Table.docx](file:///home/krithika/workspace/ASQ-BB-Exam/documents/Unit3_Team_Management_Bible_Table.docx)** directly in Word and copy-paste the already-formatted navy tables in one click!)*\n\nSay **`ready`** whenever you're done pasting and want **Unit 3 Level 2 Medium (`Q321`\u2013`Q330`)**!",
+        "topics": [
+          "convert",
+          "docx",
+          "highlight",
+          "paste"
+        ]
+      }
+    },
+    {
+      "id": "topic:asked",
+      "type": "topic_entity",
+      "name": "asked",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'asked' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "asked"
+      }
+    },
+    {
+      "id": "topic:deep",
+      "type": "topic_entity",
+      "name": "deep",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'deep' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "deep"
+      }
+    },
+    {
+      "id": "topic:dive",
+      "type": "topic_entity",
+      "name": "dive",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'dive' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "dive"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2345",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2345 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2345] hey never knew they are asked in the exam - may be do a deep dive or that is not necessary?",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2345,
+        "role": "user",
+        "created_at": "2026-11-21T04:16:54Z",
+        "content_excerpt": "hey never knew they are asked in the exam - may be do a deep dive or that is not necessary?",
+        "topics": [
+          "asked",
+          "deep",
+          "dive",
+          "exam"
+        ]
+      }
+    },
+    {
+      "id": "topic:bible",
+      "type": "topic_entity",
+      "name": "bible",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'bible' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "bible"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2346",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2346 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2346] No giant textbook deep dive needed, Cathy \u2014 here is the honest ASQ exam math: - **Domain III (`Team Management`) is `15` questions (`10%` of the exam)**, all tested at the **`[Apply]`** level \u2014 meaning ASQ gives you a sh",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2346,
+        "role": "assistant",
+        "created_at": "2026-11-21T04:16:55Z",
+        "content_excerpt": "No giant textbook deep dive needed, Cathy \u2014 here is the honest ASQ exam math:\n\n- **Domain III (`Team Management`) is `15` questions (`10%` of the exam)**, all tested at the **`[Apply]`** level \u2014 meaning ASQ gives you a short workplace team/training story and asks *\"Which trap is this?\"* or *\"What should the Black Belt do next?\"*\n- **The 4-part table you just pasted into your Word Bible already covers 100% of the official ASQ 2022 Domain III Body of Knowledge!**\n- All you need now to lock in those easy 15 exam points is practicing realistic scenarios (**Level 2 Medium `Q321\u2013Q330`**, then **Level 3 Hard**) with your new Bible table right beside you.\n\nSay **`ready`** whenever you want **Unit 3 Level 2 Medium (`Q321`\u2013`Q330`)** \u2014 10 practical scenarios covering Group Traps, Disruptive Behaviors",
+        "topics": [
+          "level",
+          "exam",
+          "bible",
+          "domain"
+        ]
+      }
+    },
+    {
+      "id": "topic:next",
+      "type": "topic_entity",
+      "name": "next",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'next' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "next"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2347",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2347 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2347] ok next",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2347,
+        "role": "user",
+        "created_at": "2026-11-21T04:17:24Z",
+        "content_excerpt": "ok next",
+        "topics": [
+          "next"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2348",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2348 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2348] ### Unit 3 (`Domain III`: Team Management) \u2014 Level 2 Medium (`Q321`\u2013`Q330`, Open-Book) Keep your new [Unit3_Team_Management_Bible_Table.docx](file:///home/krithika/workspace/ASQ-BB-Exam/documents/Unit3_Team_Management_Bi",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2348,
+        "role": "assistant",
+        "created_at": "2026-11-21T04:17:24Z",
+        "content_excerpt": "### Unit 3 (`Domain III`: Team Management) \u2014 Level 2 Medium (`Q321`\u2013`Q330`, Open-Book)\n\nKeep your new [Unit3_Team_Management_Bible_Table.docx](file:///home/krithika/workspace/ASQ-BB-Exam/documents/Unit3_Team_Management_Bible_Table.docx) right beside you!\n\n**Q321.** A tightly knit leadership team always rushes to agree with the VP's favorite proposal so nobody rocks the boat, ignoring obvious supply-chain risks. What is this group trap, and what is the best countermeasure?\n- A. Abilene paradox \u2014 cancel all future meetings\n- B. Groupthink \u2014 assign a rotating Devil's Advocate and invite safe dissent\n- C. Halo effect \u2014 replace the VP\n- D. Performing stage \u2014 celebrate harmony\n\n**Q322.** During a 45-minute DMAIC Define meeting on late carrier invoices, two managers drift off-topic for 10 minutes",
+        "topics": [
+          "level",
+          "belt",
+          "black",
+          "team"
+        ]
+      }
+    },
+    {
+      "id": "topic:dont",
+      "type": "topic_entity",
+      "name": "dont",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'dont' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "dont"
+      }
+    },
+    {
+      "id": "topic:know",
+      "type": "topic_entity",
+      "name": "know",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'know' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "know"
+      }
+    },
+    {
+      "id": "topic:need",
+      "type": "topic_entity",
+      "name": "need",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'need' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "need"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2349",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2349 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2349] b,b,c,a,a (need cheat sheet, dont know),d,a,c,d,b",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2349,
+        "role": "user",
+        "created_at": "2026-11-21T04:26:05Z",
+        "content_excerpt": "b,b,c,a,a (need cheat sheet, dont know),d,a,c,d,b",
+        "topics": [
+          "cheat",
+          "dont",
+          "know",
+          "need"
+        ]
       }
     },
     {
@@ -8510,396 +9538,6 @@
       "description": "Shared domain topic 'home' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "home"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2307",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2307 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2307] hey i want to go to madras groceries now rain had stopped, then to walmart by the time i come home need to make dosa - unsure how much i can study",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2307,
-        "role": "user",
-        "created_at": "2026-11-20T22:48:47Z",
-        "content_excerpt": "hey i want to go to madras groceries now rain had stopped, then to walmart by the time i come home need to make dosa - unsure how much i can study",
-        "topics": [
-          "come",
-          "dosa",
-          "groceries",
-          "home"
-        ]
-      }
-    },
-    {
-      "id": "topic:friday",
-      "type": "topic_entity",
-      "name": "friday",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'friday' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "friday"
-      }
-    },
-    {
-      "id": "topic:already",
-      "type": "topic_entity",
-      "name": "already",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "already"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2308",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2308 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2308] Go catch that break in the rain right now, Cathy \u2014 Madras Groceries, Walmart, and hot homemade dosas on a rainy Friday night sound wonderful! Zero guilt or pressure about tonight's studying. You already knocked out **4 F",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2308,
-        "role": "assistant",
-        "created_at": "2026-11-20T22:48:48Z",
-        "content_excerpt": "Go catch that break in the rain right now, Cathy \u2014 Madras Groceries, Walmart, and hot homemade dosas on a rainy Friday night sound wonderful!\n\nZero guilt or pressure about tonight's studying. You already knocked out **4 Fortune 500 applications**, cleared a ton of real work (Katey's LTL audit, PFG quotes, and accruals), and went **`15 for 15` on Hard Unit 2** last night.\n\nIf you have energy for just a quick **10-question warm-up** after dosa, say **`ready`** \u2014 and if you'd rather just enjoy your Friday night and start fresh tomorrow morning, that is 100% earned too. Drive safe!",
-        "topics": [
-          "night",
-          "friday",
-          "accruals",
-          "already"
-        ]
-      }
-    },
-    {
-      "id": "topic:alright",
-      "type": "topic_entity",
-      "name": "alright",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'alright' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "alright"
-      }
-    },
-    {
-      "id": "topic:miss",
-      "type": "topic_entity",
-      "name": "miss",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'miss' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "miss"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2309",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2309 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2309] is that alright if i miss",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2309,
-        "role": "user",
-        "created_at": "2026-11-20T22:48:59Z",
-        "content_excerpt": "is that alright if i miss",
-        "topics": [
-          "alright",
-          "miss"
-        ]
-      }
-    },
-    {
-      "id": "topic:enjoy",
-      "type": "topic_entity",
-      "name": "enjoy",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'enjoy' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "enjoy"
-      }
-    },
-    {
-      "id": "topic:actually",
-      "type": "topic_entity",
-      "name": "actually",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'actually' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "actually"
-      }
-    },
-    {
-      "id": "topic:ahead",
-      "type": "topic_entity",
-      "name": "ahead",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'ahead' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "ahead"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2310",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2310 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2310] **100% yes, Cathy \u2014 completely alright!** Your brain actually locks in everything you learned last night (`50` questions + `15/15` Hard Unit 2!) *better* when you give it an evening off to breathe, cook, and enjoy your f",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2310,
-        "role": "assistant",
-        "created_at": "2026-11-20T22:49:00Z",
-        "content_excerpt": "**100% yes, Cathy \u2014 completely alright!**\n\nYour brain actually locks in everything you learned last night (`50` questions + `15/15` Hard Unit 2!) *better* when you give it an evening off to breathe, cook, and enjoy your family. You still have 4 full months ahead of March 2027 (and May 2027 in your pocket).\n\nGo enjoy Madras Groceries, Walmart, and your hot dosas guilt-free \u2014 see you fresh tomorrow!",
-        "topics": [
-          "enjoy",
-          "actually",
-          "ahead",
-          "alright"
-        ]
-      }
-    },
-    {
-      "id": "topic:clothes",
-      "type": "topic_entity",
-      "name": "clothes",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'clothes' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "clothes"
-      }
-    },
-    {
-      "id": "topic:ironed",
-      "type": "topic_entity",
-      "name": "ironed",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'ironed' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "ironed"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2311",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2311 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2311] ok went to madras groceries, ironed his clothes for next week, then cut all veggies for palya sambar made dosa",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2311,
-        "role": "user",
-        "created_at": "2026-11-21T03:48:45Z",
-        "content_excerpt": "ok went to madras groceries, ironed his clothes for next week, then cut all veggies for palya sambar made dosa",
-        "topics": [
-          "clothes",
-          "dosa",
-          "groceries",
-          "ironed"
-        ]
-      }
-    },
-    {
-      "id": "topic:tonight",
-      "type": "topic_entity",
-      "name": "tonight",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'tonight' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "tonight"
-      }
-    },
-    {
-      "id": "topic:want",
-      "type": "topic_entity",
-      "name": "want",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'want' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "want"
-      }
-    },
-    {
-      "id": "topic:whole",
-      "type": "topic_entity",
-      "name": "whole",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'whole' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "whole"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2313",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2313 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2313] That is a **huge** Friday evening, Cathy \u2014 Madras Groceries, a whole week of ironing done, all the veggies prepped for palya and sambar, AND hot dosas on top of a full workday and 4 job applications! You set your whole w",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2313,
-        "role": "assistant",
-        "created_at": "2026-11-21T03:48:46Z",
-        "content_excerpt": "That is a **huge** Friday evening, Cathy \u2014 Madras Groceries, a whole week of ironing done, all the veggies prepped for palya and sambar, AND hot dosas on top of a full workday and 4 job applications! You set your whole weekend up so smoothly.\n\nZero pressure tonight \u2014 if you want to just put your feet up and rest, you more than earned it. Or if you want a quick, light **10-question Weak-Topic Warm-Up** before bed, just say **`ready`**! What sounds best to you tonight?",
-        "topics": [
-          "tonight",
-          "want",
-          "whole",
-          "applications"
-        ]
-      }
-    },
-    {
-      "id": "topic:copilot",
-      "type": "topic_entity",
-      "name": "copilot",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'copilot' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "copilot"
-      }
-    },
-    {
-      "id": "topic:drill",
-      "type": "topic_entity",
-      "name": "drill",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'drill' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "drill"
-      }
-    },
-    {
-      "id": "topic:finish",
-      "type": "topic_entity",
-      "name": "finish",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'finish' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "finish"
-      }
-    },
-    {
-      "id": "topic:firt",
-      "type": "topic_entity",
-      "name": "firt",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'firt' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "firt"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2314",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2314 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2314] can we start our BB Drill or i finish with copilot firt?",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2314,
-        "role": "user",
-        "created_at": "2026-11-21T03:49:39Z",
-        "content_excerpt": "can we start our BB Drill or i finish with copilot firt?",
-        "topics": [
-          "copilot",
-          "drill",
-          "finish",
-          "firt"
-        ]
-      }
-    },
-    {
-      "id": "topic:warm-up",
-      "type": "topic_entity",
-      "name": "warm-up",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'warm-up' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "warm-up"
-      }
-    },
-    {
-      "id": "topic:weak-topic",
-      "type": "topic_entity",
-      "name": "weak-topic",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'weak-topic' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "weak-topic"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2315",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2315 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2315] I'd start with **our 10-question Weak-Topic Warm-Up first** \u2014 here is why: 1. It only takes **5\u20137 minutes** (open-book with your Word Bible right beside you) and wakes up your Black Belt brain cleanly on your exact stick",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2315,
-        "role": "assistant",
-        "created_at": "2026-11-21T03:49:39Z",
-        "content_excerpt": "I'd start with **our 10-question Weak-Topic Warm-Up first** \u2014 here is why:\n\n1. It only takes **5\u20137 minutes** (open-book with your Word Bible right beside you) and wakes up your Black Belt brain cleanly on your exact sticky topics (Sampling trigger words, `Cp/Cpk`, `p <= alpha`, `Power`, `Defect vs. Defective`, `np/p/c/u` charts, `Bridges/Lewin`) \u2014 zero broken answer keys!\n2. Once those 10 warm you up, you can either keep going with us (**Unit 2 Timed Mini-Sprint / Unit 3 Team Management**) OR jump over to Copilot already warmed up and sharp!\n\nWhenever you're set, type **`ready`** and I'll drop your **10-question Weak-Topic Warm-Up (`Q301`\u2013`Q310`)**!",
-        "topics": [
-          "question",
-          "unit",
-          "warm-up",
-          "weak-topic"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2316",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2316 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2316] ready",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2316,
-        "role": "user",
-        "created_at": "2026-11-21T03:50:04Z",
-        "content_excerpt": "ready",
-        "topics": [
-          "ready"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2317",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2317 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2317] ### Daily 10-Question Weak-Topic Warm-Up #1 (`Q301`\u2013`Q310`, Open-Book) Keep [ASQ_Sampling_Methods_Quick_Table.docx](file:///home/krithika/workspace/ASQ-BB-Exam/documents/ASQ_Sampling_Methods_Quick_Table.docx) and [PValue",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2317,
-        "role": "assistant",
-        "created_at": "2026-11-21T03:50:04Z",
-        "content_excerpt": "### Daily 10-Question Weak-Topic Warm-Up #1 (`Q301`\u2013`Q310`, Open-Book)\n\nKeep [ASQ_Sampling_Methods_Quick_Table.docx](file:///home/krithika/workspace/ASQ-BB-Exam/documents/ASQ_Sampling_Methods_Quick_Table.docx) and [PValue_And_Cp_Cpk_Quick_Tables.docx](file:///home/krithika/workspace/ASQ-BB-Exam/documents/PValue_And_Cp_Cpk_Quick_Tables.docx) right beside you \u2014 reply with your 10 numbered letters (`1C, 2A...`)!\n\n**Q301.** Every hour at a bottling plant, a technician pulls `5` **consecutive** bottles right off the line as one **control-chart subgroup** so within-subgroup spread stays tiny and hourly shifts jump out between subgroups. Which sampling method is this?\n- A. Simple random sampling\n- B. Stratified sampling\n- C. Rational subgrouping\n- D. Cluster sampling\n\n**Q302.** A bakery runs 3 se",
-        "topics": [
-          "sampling",
-          "cost",
-          "defectives",
-          "defects"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2318",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2318 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2318] b,b,d,b,c,a,b,d,b,c",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2318,
-        "role": "user",
-        "created_at": "2026-11-21T03:58:30Z",
-        "content_excerpt": "b,b,d,b,c,a,b,d,b,c",
-        "topics": []
       }
     },
     {
@@ -9002,16 +9640,6 @@
           "tell",
           "yellow"
         ]
-      }
-    },
-    {
-      "id": "topic:black",
-      "type": "topic_entity",
-      "name": "black",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'black' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "black"
       }
     },
     {
@@ -9184,6 +9812,16 @@
       }
     },
     {
+      "id": "topic:already",
+      "type": "topic_entity",
+      "name": "already",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "already"
+      }
+    },
+    {
       "id": "topic:associate",
       "type": "topic_entity",
       "name": "associate",
@@ -9278,6 +9916,16 @@
           "codes",
           "exact"
         ]
+      }
+    },
+    {
+      "id": "topic:alright",
+      "type": "topic_entity",
+      "name": "alright",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'alright' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "alright"
       }
     },
     {
@@ -9458,16 +10106,6 @@
       "description": "Shared domain topic 'fuel' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "fuel"
-      }
-    },
-    {
-      "id": "topic:rules",
-      "type": "topic_entity",
-      "name": "rules",
-      "file_path": "chats/transcript_6e8422d1.jsonl",
-      "description": "Shared domain topic 'rules' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "rules"
       }
     },
     {
@@ -19371,6 +20009,640 @@
       }
     },
     {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "topic:addie",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "topic:everyone",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "topic:high",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "topic:silent",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "topic:training",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "topic:first",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "topic:group",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "topic:rules",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:1",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:1",
+      "target": "topic:facilitator",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:1",
+      "target": "topic:guide",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:1",
+      "target": "topic:leader",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:1",
+      "target": "topic:process",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:2",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:2",
+      "target": "topic:trust",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:2",
+      "target": "topic:absence",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:2",
+      "target": "topic:base",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:2",
+      "target": "topic:polite",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:3",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:3",
+      "target": "topic:theory",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:3",
+      "target": "topic:assumes",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:3",
+      "target": "topic:self-actualization",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:3",
+      "target": "topic:workers",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:4",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:4",
+      "target": "topic:everyone",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:4",
+      "target": "topic:conflict",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:4",
+      "target": "topic:consensus",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:4",
+      "target": "topic:list",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:5",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:5",
+      "target": "topic:best",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:5",
+      "target": "topic:high",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:5",
+      "target": "topic:allows",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:5",
+      "target": "topic:assert",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:6",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:6",
+      "target": "topic:assert",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:6",
+      "target": "topic:coop",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:6",
+      "target": "topic:high",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:6",
+      "target": "topic:leaking",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:7",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:7",
+      "target": "topic:cool",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:7",
+      "target": "topic:group",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:7",
+      "target": "topic:issue",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:7",
+      "target": "topic:them",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:8",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:8",
+      "target": "topic:abilene",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:8",
+      "target": "topic:advocate",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:8",
+      "target": "topic:appoint",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:8",
+      "target": "topic:avoids",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:9",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:9",
+      "target": "topic:wanted",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:9",
+      "target": "topic:else",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:9",
+      "target": "topic:everyone",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:9",
+      "target": "topic:nobody",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:10",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:10",
+      "target": "topic:silent",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:10",
+      "target": "topic:on-1",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:10",
+      "target": "topic:privately",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:10",
+      "target": "topic:back",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:11",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:11",
+      "target": "topic:off-topic",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:11",
+      "target": "topic:agenda",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:11",
+      "target": "topic:attacks",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:11",
+      "target": "topic:away",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:12",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:12",
+      "target": "topic:training",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:12",
+      "target": "topic:addie",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:12",
+      "target": "topic:against",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:12",
+      "target": "topic:angrily",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:13",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:13",
+      "target": "topic:addie",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:13",
+      "target": "topic:learning",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:13",
+      "target": "topic:analyze",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:13",
+      "target": "topic:assessment",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:14",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:14",
+      "target": "topic:actual",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:14",
+      "target": "topic:addie",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:14",
+      "target": "topic:hands-on",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:14",
+      "target": "topic:pilot",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:15",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:15",
+      "target": "topic:class",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:15",
+      "target": "topic:kirkpatrick",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:15",
+      "target": "topic:actually",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/Unit3_Team_Management_Bible_Table.docx:15",
+      "target": "topic:addie",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
       "source": "chat_session:SHAREDSE",
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
@@ -19449,6 +20721,12 @@
     {
       "source": "chat_session:SHAREDSE",
       "target": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
@@ -19583,7 +20861,7 @@
       "target": "topic:unit",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 9
+        "count": 10
       }
     },
     {
@@ -19599,15 +20877,15 @@
       "target": "topic:domain",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 6
+        "count": 7
       }
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:always",
+      "target": "topic:exam",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 5
+        "count": 6
       }
     },
     {
@@ -19631,6 +20909,12 @@
     {
       "source": "chat_turn:SHAREDSE:S5",
       "target": "doc_file:documents/Unit2_Formulas_Master_Sheet.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
+      "target": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
@@ -19680,7 +20964,47 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:sampling",
+      "target": "topic:level",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 27
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:team",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 14
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:belt",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 13
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:kirkpatrick",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:training",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:addie",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 10
@@ -19688,137 +21012,73 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:cost",
+      "target": "topic:black",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 5
+        "count": 10
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:groceries",
+      "target": "topic:first",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 5
+        "count": 10
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:madras",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:night",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:question",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:ready",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:right",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "target": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
+      "source": "chat_turn:b6556366:S2336",
+      "target": "topic:level",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2336",
+      "target": "topic:team",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2336",
+      "target": "topic:theory",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2336",
+      "target": "topic:training",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
       "source": "chat_session:b6556366",
-      "target": "doc_file:documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
+      "target": "chat_turn:b6556366:S2336",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2336",
+      "target": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S2306",
-      "target": "topic:accrual",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2306",
-      "target": "topic:accrual_automation_guide",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2306",
-      "target": "topic:subject",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2306",
-      "target": "topic:venezia",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2306",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2307",
-      "target": "topic:come",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2307",
-      "target": "topic:dosa",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2307",
-      "target": "topic:groceries",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2307",
-      "target": "topic:home",
+      "source": "chat_turn:b6556366:S2337",
+      "target": "topic:guess",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
@@ -19826,249 +21086,37 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2307",
+      "target": "chat_turn:b6556366:S2337",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S2308",
-      "target": "topic:night",
+      "source": "chat_turn:b6556366:S2338",
+      "target": "topic:hygiene",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2338",
+      "target": "topic:herzberg",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 3
       }
     },
     {
-      "source": "chat_turn:b6556366:S2308",
-      "target": "topic:friday",
+      "source": "chat_turn:b6556366:S2338",
+      "target": "topic:q314",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 2
+        "count": 3
       }
     },
     {
-      "source": "chat_turn:b6556366:S2308",
-      "target": "topic:accruals",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2308",
-      "target": "topic:already",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2308",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2309",
-      "target": "topic:alright",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2309",
-      "target": "topic:miss",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2309",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2310",
-      "target": "topic:enjoy",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2310",
-      "target": "topic:actually",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2310",
-      "target": "topic:ahead",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2310",
-      "target": "topic:alright",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2310",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2311",
-      "target": "topic:clothes",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2311",
-      "target": "topic:dosa",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2311",
-      "target": "topic:groceries",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2311",
-      "target": "topic:ironed",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2311",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2313",
-      "target": "topic:tonight",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2313",
-      "target": "topic:want",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2313",
-      "target": "topic:whole",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2313",
-      "target": "topic:applications",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2313",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2314",
-      "target": "topic:copilot",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2314",
-      "target": "topic:drill",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2314",
-      "target": "topic:finish",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2314",
-      "target": "topic:firt",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2314",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2315",
-      "target": "topic:question",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2315",
-      "target": "topic:unit",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2315",
-      "target": "topic:warm-up",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2315",
-      "target": "topic:weak-topic",
+      "source": "chat_turn:b6556366:S2338",
+      "target": "topic:factors",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
@@ -20076,13 +21124,37 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2315",
+      "target": "chat_turn:b6556366:S2338",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S2316",
-      "target": "topic:ready",
+      "source": "chat_turn:b6556366:S2339",
+      "target": "topic:book",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2339",
+      "target": "topic:chart",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2339",
+      "target": "topic:detailed",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2339",
+      "target": "topic:group",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
@@ -20090,63 +21162,297 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2316",
+      "target": "chat_turn:b6556366:S2339",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S2317",
-      "target": "topic:sampling",
+      "source": "chat_turn:b6556366:S2342",
+      "target": "topic:addie",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 9
+        "count": 7
       }
     },
     {
-      "source": "chat_turn:b6556366:S2317",
-      "target": "topic:cost",
+      "source": "chat_turn:b6556366:S2342",
+      "target": "topic:kirkpatrick",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2342",
+      "target": "topic:learning",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2342",
+      "target": "topic:belt",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 5
       }
     },
     {
-      "source": "chat_turn:b6556366:S2317",
-      "target": "topic:defectives",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2317",
-      "target": "topic:defects",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2317",
+      "target": "chat_turn:b6556366:S2342",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S2317",
-      "target": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "source": "chat_turn:b6556366:S2342",
+      "target": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S2317",
-      "target": "doc_file:documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
+      "source": "chat_turn:b6556366:S2343",
+      "target": "topic:convert",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2343",
+      "target": "topic:paste",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2343",
+      "target": "topic:together",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2318",
+      "target": "chat_turn:b6556366:S2343",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2344",
+      "target": "topic:convert",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2344",
+      "target": "topic:docx",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2344",
+      "target": "topic:highlight",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2344",
+      "target": "topic:paste",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2344",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2344",
+      "target": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2345",
+      "target": "topic:asked",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2345",
+      "target": "topic:deep",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2345",
+      "target": "topic:dive",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2345",
+      "target": "topic:exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2345",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2346",
+      "target": "topic:level",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2346",
+      "target": "topic:exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2346",
+      "target": "topic:bible",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2346",
+      "target": "topic:domain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2346",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2347",
+      "target": "topic:next",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2347",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2348",
+      "target": "topic:level",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2348",
+      "target": "topic:belt",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2348",
+      "target": "topic:black",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2348",
+      "target": "topic:team",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2348",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2348",
+      "target": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2349",
+      "target": "topic:cheat",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2349",
+      "target": "topic:dont",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2349",
+      "target": "topic:know",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2349",
+      "target": "topic:need",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2349",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -21548,7 +22854,7 @@
     }
   ],
   "file_hashes": {
-    "PERFORMANCE_TRACKER.md": "e017223d71ee4d686051078faf06cb067f86cc2b21475c4ce5aedab7e337988d",
+    "PERFORMANCE_TRACKER.md": "aab79bc49de86e1ac2ef112c9016ff4d7166cca31d8d9f57c709f4740d209ae6",
     "QWEN.md": "899c31752203ef14570b30ee8d02d0f9add0e474c6612610c12a39a01cb55f39",
     "README.md": "506319462ce0f0d62f6cbed53d6d0cdfa3c40623a05eacd6b881d9c3ddd8facf",
     "STUDY_ROADMAP_MAR2027.md": "0565fb20c8f9008ab7629f78fed3bdf076952045a4567cca7ccebd4e1e986a27",
@@ -21620,7 +22926,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "aaae0c33efd13c78d54ebb70aba55b2a376f0b06e627e0215b0eea61c8d8a9d4",
+    "chats/SHARED_SESSION_STATE.md": "0d4617701dcd469b096a26d91c0a86d3f1322b80dcba337a96114abfb9abab5b",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -21629,10 +22935,11 @@
     "documents/ASQ_Sampling_Methods_Quick_Table.docx": "611a5b1986e4d296f6a1244d2c334d4f6688820f04a6cb8d6ff694b7b1f6ef0e",
     "documents/CAREER_APPLICATIONS_TRACKER.md": "8a62a332710cd7ca4b4eeb9d863e9cc76ab6b0afe0ddf146745618d2f8f226ea",
     "documents/PValue_And_Cp_Cpk_Quick_Tables.docx": "7e146d9b535a8fa34793e0d7ecfd892041e75cd8a15e79777c55fa1babae79d5",
-    "documents/QUESTION_BANK_LOG.md": "8b4d0b13340c802dacb504c945a5492ec5f74682b7ae4769e7e610bb0299727c",
+    "documents/QUESTION_BANK_LOG.md": "b9caa978af1af4afb58772d24e45aaae8c2f8aac4e553b9dc3bfff05b5da6e5e",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
-    "repo.md": "072b86e6dc10ceeab155f7f6faae10bb55980ae2be3184a7e9ac0aa0393694a9"
+    "documents/Unit3_Team_Management_Bible_Table.docx": "09c73f7addbf5e3ac9693cfacc1ba070bd4a58b5fec495294b9f5a7c965b0b91",
+    "repo.md": "4425c0714cdc5d7a68dd838ba8cbd46a1157c783e3c919d9b02e72608fd6607e"
   }
 }

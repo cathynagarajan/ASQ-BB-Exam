@@ -8,8 +8,8 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`475` (`Q1`–`Q310` + Copilot `C1`–`C165`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Latest Set (Round 21 — Daily Weak-Topic Warm-Up #1 `Q301`–`Q310`, Open-Book)**: **`8 / 10 = 80.0%`** — **SPOTLESS `8 / 8` on `Q303`–`Q310`!** *(Locked in `Cpk/Ppk` drift, `p > alpha` Fail-to-Reject, Power `1-beta`, Defect vs Defective, `np-chart`, MSA Linearity, Bridges Neutral Zone, & Appraisal COQ! Only 2 misses were Sampling: `Q301` Rational Subgrouping & `Q302` Stratified vs Cluster.)*
+- **Completed Unique Questions**: **`495` (`Q1`–`Q330` + Copilot `C1`–`C165`)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Latest Set (Round 22 — Unit 3 `Domain III` Easy + Medium `Q311`–`Q330`, Open-Book)**: **`19 / 20 = 95.0%`!!** *(`10/10` Easy + `9/10` Medium! Built complete 4-part Word Bible file `Unit3_Team_Management_Bible_Table.docx` covering Roles/Tuckman/Lencioni/Motivation, Thomas-Kilmann Exam Cheat Sheet, Group Traps/Disruptive Behaviors + Fixes, and ADDIE/Kirkpatrick 4 Levels/Coaching! Only 1 miss: `Q325` Thomas-Kilmann Competing/Forcing in a safety emergency.)*
 - **NEXT EXAM MILESTONE (FRIDAY `2026-11-20`+)**:
   1. **Unit 1 (`Domain I`) COMPLETE & MASTERED (`76 / 88 = 86.4%`)** AND **Unit 2 (`Domain II`) Level 1–3 COMPLETE (`45 / 53 = 84.9%`; `15/15 = 100%` on Level 3 Hard!)**.
   2. **Next Unit 2 Cap**: Run Cathy's **Unit 2 Final Check / 1st Timed Prometric Mini-Sprint (`15` exam Qs in `24` mins, Open-Book)** — then declare Unit 2 MASTERED and move smoothly into **Unit 3 (`Domain III`: Team Management — Tuckman, Lencioni, Thomas-Kilmann, Coaching/Facilitating)**!
@@ -18,11 +18,11 @@
      - **Word-Native Tables Always**: Whenever Cathy asks for a study table for her Word Bible, **ALWAYS generate a real `.docx` file** in `documents/` (plus optional tab-separated TSV in chat) — never expect raw Markdown pipe tables to paste into Word!
   4. **Credentials Check for Master Resume**: Verify exact active codes on Cathy's Microsoft Learn transcript (Power Platform `PL-*` / Solution Architect path) and note her **ASQ Yellow Belt (`CSSYB`)** alongside `PMP`, `CSCP`, `CSSGB`, and `M.C.A.`.
   5. **Vault Angular Demo (`Vault-Study-Session`)**: Office laptop `e103446` `http://localhost:4200` + `1 = SBX / 2 = Vault` switcher restored; resume at **Line 62 of `app.ts`** (~15 calm mins/day for early-Dec Carl demo).
-- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`169 / 202 = 83.7%`**
+- **Stage 1 Status (`Domains I, II, III, IV — Foundations & Define`)**: **`188 / 222 = 84.7%`**
 - **Stage 2 Status (`Domain V — Measure Phase`)**: **`40 / 60 = 66.7%`**
 - **Stage 3 Status (`Domain VI — Analyze Phase`)**: **`29 / 36 = 80.6%`**
 - **Stage 5 Preview (`Domain VIII — Control Charts`)**: **`10 / 12 = 83.3%`**
-- **Copilot External Sets (`C1`–`C165`)**: **`124 / 165` (`75.2%` — Set 6 `C131`–`C165`: verified `23 / 35 = 65.7%` after auditing Copilot key bugs on Q9/Q13/Q15!)** — Grand Cumulative: **`372 / 475` (`78.3%`)**
+- **Copilot External Sets (`C1`–`C165`)**: **`124 / 165` (`75.2%` — Set 6 `C131`–`C165`: verified `23 / 35 = 65.7%` after auditing Copilot key bugs on Q9/Q13/Q15!)** — Grand Cumulative: **`391 / 495` (`79.0%`)**
 - **Active Weak Points Scheduled for Spaced Re-Testing**:
   1. `IV.A.2` Survey non-response bias vs. cost (`Q13`) & Validity (accuracy) vs. Reliability (repeatability) (`Q16`)
   2. `IV.A.3` CTQ measurable numerical target vs. vague VOC (`Q18`)
