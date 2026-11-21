@@ -8,8 +8,8 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`540` (`Q1`–`Q350` + Copilot `C1`–`C190`) — Latest: Copilot Set 7 (`C166`–`C190`) Audited `21 / 25 = 84.0%`!** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Latest Set (Copilot Set 7 `C166`–`C190` on `2026-11-21`)**: **`21 / 25 = 84.0%`!** *(Caught Copilot falsely marking `Q16` and `Q17` right when Cathy submitted `C` on both; true misses: `Q16` Chi-Square, `Q17` Control Plan, `Q23` Measure=MSA, `Q24` Taguchi Loss Function. Previous Round 22 `Q341`–`Q350`: `9 / 10 = 90.0%`!)*
+- **Completed Unique Questions**: **`550` (`Q1`–`Q360` + Copilot `C1`–`C190`) — Latest: Round 23 Daily Warm-Up #2 (`Q351`–`Q360`, `6 / 10` on 100% weak-spot drill)!** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Latest Set (Round 23 Warm-Up #2 `Q351`–`Q360` on `2026-11-21`)**: **`6 / 10` (`60.0%` on 100% weak-spot drill!)** — **Locked in 6 huge sticky spots:** Cluster (`Q352`), Control Plan (`Q355`), Measure=MSA (`Q356`), Little's Law (`Q357`), NOIR Interval (`Q358`), & PERT Project SD (`Q360`)! **4 items to keep in Warm-Up #3:** Stratified `"from EACH"` (`Q351`), Taguchi Loss Function (`Q353`), Chi-Square counts (`Q354`), `%Contribution 1%–9%` (`Q359`). Grand Cumulative: **`434 / 550 = 78.9%`**!
 - **NEXT EXAM MILESTONE (SATURDAY `2026-11-21`+)**:
   1. **ALL THREE FIRST UNITS MASTERED AT `85%+`!!** **Unit 1 (`Domain I`: `86.5%`)**, **Unit 2 (`Domain II`: `85.5%`, `15/15` Hard)**, and **Unit 3 (`Domain III`: `86.7%`, `8/8` Hard Set 2)**!
   2. **Master Word Bibles Built (`2026-11-21` — BOTH Versions Available!)**:

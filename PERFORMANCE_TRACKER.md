@@ -2,23 +2,23 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Copilot Set 7 Audit `C166`–`C190` on `2026-11-21`):** **`21 / 25` (`84.0%`!)** *(Audited & caught Copilot misgrading `Q16` & `Q17`! Previous 50-Q Evening `Q301`–`Q350`: **`43 / 50 = 86.0%`**)*
-- **Overall Cumulative Score (`Q1`–`Q350` + `C1`–`C190` = `540` Qs):** **`428 / 540` (`79.3%` — trending steadily NORTH!)**
+- **Latest Batch Score (Round 23 Daily Weak-Topic Warm-Up #2 `Q351`–`Q360` on `2026-11-21`):** **`6 / 10` (`60.0%` on 100% weak-spot drill — locked in Cluster, Control Plan, Measure=MSA, Little's Law, NOIR Interval, & PERT Project SD!)** *(Previous Copilot Set 7 Audit `C166`–`C190`: **`21 / 25 = 84.0%`**)*
+- **Overall Cumulative Score (`Q1`–`Q360` + `C1`–`C190` = `550` Qs):** **`434 / 550` (`78.9%` — steady mastery!)**
 
 ---
 
-## 1. Domain Mastery Summary (Strictly ASQ 2022 BoK — 350 Scored Qs)
+## 1. Domain Mastery Summary (Strictly ASQ 2022 BoK — 360 Scored Qs)
 
 | ASQ Domain | DMAIC Phase | Exam Weight | Attempted | Correct | Accuracy | Status / Priority |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 89 | 77 | **86.5%** | **UNIT 1 COMPLETE & MASTERED (`86.5%`)!** |
+| **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 90 | 77 | **85.6%** | **UNIT 1 COMPLETE & MASTERED (`85.6%`)!** *(Keep Taguchi Loss in Warm-Up #3)* |
 | **II. Org Process Mgmt & Measures** | Pre-DMAIC | 12 Qs (8.0%) | 55 | 47 | **85.5%** | **UNIT 2 COMPLETE & MASTERED (`85.5%`; `15/15` Hard)!** |
-| **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 45 | 39 | **86.7%** | **UNIT 3 COMPLETE & MASTERED (`86.7%`; `10/10` Easy, `9/10` Med, `8/8` Hard Set 2 + Zero-Gap Part E Bible)!** Ready for **Unit 4 (`Domain IV`: Define)!** |
-| **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 51 | 40 | **78.4%** | **NEXT UNIT (`Domain IV`: VOC, Kano, QFD, Charter, SMART, CPM/PERT, 7 M&P Tools)!** |
-| **V. Measure** | **Measure (M)** | 25 Qs (16.7%) | 62 | 41 | **66.1%** | **Rational Subgrouping (`Q349`) FIXED!!** Keep `Stratified ("from each") vs Cluster ("few whole")` in daily 10-Q warm-up! |
-| **VI. Analyze** | **Analyze (A)** | 22 Qs (14.7%) | 36 | 29 | **80.6%** | **`p <= alpha`, `p > alpha` Fail-to-Reject (`Q304`), Power `1-beta` (`Q305`), & Pearson Nonlinear ALL MASTERED!** |
+| **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 45 | 39 | **86.7%** | **UNIT 3 COMPLETE & MASTERED (`86.7%`; `10/10` Easy, `9/10` Med, `8/8` Hard Set 2)!** |
+| **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 52 | 41 | **78.8%** | **ACTIVE UNIT (`Domain IV`: Define Phase — PERT SD FIXED `Q360`!)** |
+| **V. Measure** | **Measure (M)** | 25 Qs (16.7%) | 68 | 45 | **66.2%** | **Cluster (`Q352`), Measure=MSA (`Q356`), Little's Law (`Q357`), NOIR Interval (`Q358`) FIXED!** Keep `Stratified` & `%Contribution 1–9%` in Warm-Up #3! |
+| **VI. Analyze** | **Analyze (A)** | 22 Qs (14.7%) | 37 | 29 | **78.4%** | Keep `Chi-Square = 2 Categories (Counts)` vs `t-test = Continuous Average` in Warm-Up #3! |
 | **VII. Improve** | **Improve (I)** | 21 Qs (14.0%) | 0 | 0 | — | Not Started *(3rd Weight)* |
-| **VIII. Control** | **Control (C)** | 17 Qs (11.3%) | 12 | 10 | **83.3%** | **`np-chart` (`Q307`) & Control Limits = Special Causes (`Q252`) ALL MASTERED!** |
+| **VIII. Control** | **Control (C)** | 17 Qs (11.3%) | 13 | 11 | **84.6%** | **Control Plan (`Q355`), `np-chart` (`Q307`), Control Limits = Special Causes ALL MASTERED!** |
 | **IX. Design for Six Sigma (DFSS)** | Post-DMAIC | 6 Qs (4.0%) | 0 | 0 | — | Not Started |
 
 ---
