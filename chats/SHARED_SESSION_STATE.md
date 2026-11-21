@@ -8,8 +8,8 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`560` (`Q1`–`Q370` + Copilot `C1`–`C190`) — Latest: Round 24 Sticky-Topic Lock-In (`Q361`–`Q370`, `7 / 10` — Sampling `3/3` & Taguchi `2/2` MASTERED!)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Latest Set (Round 24 Sticky-Topic Lock-In `Q361`–`Q370` on `2026-11-21`)**: **`7 / 10` (`70.0%`)** — **MASTERED:** Stratified (`Q361`), Cluster (`Q362`), Rational Subgrouping (`Q363`), Taguchi Loss Function (`Q364`, `Q365` quadratic `3^2=9x`), `%Contribution <1%` (`Q369`)! **Only 2 tiny pairs left to reinforce:** Continuous averages (`2 groups = Two-Sample t-test`, `3+ groups = ANOVA`) vs Counts/Categories (`Chi-Square`), and `%StudyVar 10–30%` vs `%Contribution 1–9%` (`Q370`). Grand Cumulative: **`441 / 560 = 78.8%`**!
+- **Completed Unique Questions**: **`580` (`Q1`–`Q390` + Copilot `C1`–`C190`) — Latest: Round 26 Unit 4 Define Level 1 Easy Set 2 (`Q381`–`Q390`, `10 / 10 = 100%` PERFECT!!)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Latest Set (Round 26 Unit 4 Define Level 1 Easy Set 2 `Q381`–`Q390` on `2026-11-21`)**: **`10 / 10 = 100.0%` PERFECT!!** (Today: **`40 / 100 Qs`**!) — Fixed Affinity Diagram, QFD Roof trade-offs, Critical Path Float `0`, plus nailed Interrelationship Digraph, Tree, Prioritization Matrix, PDPC, PERT Expected Time (`8d`), SMART Goal, & Scope Creep! Domain IV now **`58 / 72 = 80.6%`** | Grand Cumulative: **`458 / 580 = 79.0%`**!
 - **NEXT EXAM MILESTONE (SATURDAY `2026-11-21`+)**:
   1. **ALL THREE FIRST UNITS MASTERED AT `85%+`!!** **Unit 1 (`Domain I`: `86.5%`)**, **Unit 2 (`Domain II`: `85.5%`, `15/15` Hard)**, and **Unit 3 (`Domain III`: `86.7%`, `8/8` Hard Set 2)**!
   2. **Master Word Bibles Built (`2026-11-21` — BOTH Versions Available!)**:
