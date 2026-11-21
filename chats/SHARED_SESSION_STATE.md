@@ -108,7 +108,7 @@
   39. **Google (NASDAQ: GOOGL)** — *Category Manager, Technical Professional Services, Google Procurement* (Sunnyvale Hybrid ~9 mi, 111K–159K USD + bonus/RSUs — applied **2026-11-20**, *Submitted*!)
   40. **Cadence Design Systems (NASDAQ: CDNS)** — *Senior, Master Data Management, Systems Analyst (Procurement)* (`Req R51338`, North San Jose Hybrid ~13 mi, 88.2K–163.8K USD — applied **2026-11-20**, *Review*! Plus existing active `R54483` Inventory & Logistics Manager [Aug 24] = `2` Active at Cadence)
   41. **Airbnb (NASDAQ: ABNB)** — *Senior Financial Operations Lead, Vendor Operations* (`ID 8402949`, SF Bay Area flexible, 132K–155K USD + bonus/RSUs — applied **2026-11-20**, *Submitted*!)
-- **Day-8 Weekend Sprint (2026-11-21 — `8 / 10` Submitted So Far; `70` Total Tracked = `57` Active, `13` Rejected)**:
+- **Day-8 Weekend Sprint (2026-11-21 — `9 / 10` Submitted So Far; `71` Total Tracked = `58` Active, `13` Rejected)**:
   42. **Amgen (NASDAQ: AMGN)** — *Global Category Senior Manager – Direct-to-Patient* (`Req R-260720`, 100% US Remote, 134.49K–181.96K USD + bonus/stock, IC — applied **2026-11-21**, *Application Received*!)
   43. **Cencora (NYSE: COR)** — *Manager, Cell & Gene Sourcing* (`Req R2615474`, 100% Remote USA, up to 165.83K USD CA, IC — applied **2026-11-21**, *Application Received*!)
   44. **Airbnb (NASDAQ: ABNB)** — *Senior Vendor Operations Manager* (`ID 8403001`, SF Bay Area flexible, 132K–155K USD + bonus/RSUs, Pure L9 IC — applied **2026-11-21**, *Submitted*! `Active: 2` at Airbnb)
@@ -117,6 +117,7 @@
   47. **Cerebras Systems (NASDAQ: CBRS)** — *Logistics Manager* (`ID 3ff4a790-91c0-42a9-b039-8bffab5d3ce5`, Sunnyvale CA Hybrid ~9 mi, 190K–250K USD + bonus/equity, Pure IC — applied **2026-11-21**, *Submitted*!)
   48. **Amgen (NASDAQ: AMGN)** — *Global Category Sr. Manager – Business Intelligence* (`Req R-226938`, 100% US Remote, 134.49K–181.96K USD + bonus/stock, Pure IC Procurement — applied **2026-11-21**, *Application Received*! `Active: 4` at Amgen)
   49. **Oracle (NYSE: ORCL)** — *Strategic Sourcing Manager – External Manufacturing* (`Job ID 335290`, United States / Santa Clara CA ~11 mi preferred, 102.3K–209.5K USD + bonus/equity, Pure IC — applied **2026-11-21**, *New*!)
+  50. **Oracle (NYSE: ORCL)** — *Principal Sourcing Manager, External Manufacturing* (`Job ID 350956`, Santa Clara CA ~11 mi, 102.3K–209.5K USD + bonus/equity, Pure IC — applied **2026-11-21**, *New*! `Active: 2` at Oracle)
   - **All 20 Lockheed Job IDs Indexed (Never Repeat)**: `9343`, `24775`, `23028`, `9306`, `9054`, `16519`, `16516` (Rejected 11/20), `11582` (Rejected 11/20), `13918` (Rejected), `17417`, `11141`, `8363` (Rejected 11/21), `9581`, `13924`, `16508`, `13013` (Active Stage-2!), `13178`, `8492` (Rejected), `20038`, `19487`.
 - **Active Recruiter / Stage-2 Callbacks**:
   - **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req 13013`, Sunnyvale CA, IC Level E3, 125K–135K USD base) — **Stage-2 Portal Updated (`✓`) & Recruiter Questionnaire SENT to Christian Sieg (2026-11-16 — Ready for Hiring Manager advancement!)**!
