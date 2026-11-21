@@ -8,8 +8,8 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`590` (`Q1`–`Q400` + Copilot `C1`–`C190`) — Latest: Round 27 Unit 4 Define Level 2 Medium Set 1 (`Q391`–`Q400`, `5 / 10` Diagnostic; `50 / 100` Today!)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Latest Set (Round 27 Unit 4 Define Level 2 Medium Set 1 `Q391`–`Q400` on `2026-11-21`)**: **`5 / 10` (`50.0%` — Today: `50 / 100 Qs` HALFWAY!)** — Nailed Non-response bias, Business Case, RACI `1` Accountable, Fast-tracking, T-shaped Matrix! Provided complete **Unit 4 Define Cheat-Sheet Table** (Validity/Reliability, QFD 9-3-1, Crashing/Fast-Tracking/Leveling, Earned Value CPI/SPI, 5 Matrix Shapes L/T/Y/X/C). Domain IV now **`63 / 82 = 76.8%`** | Grand Cumulative: **`463 / 590 = 78.5%`**!
+- **Completed Unique Questions**: **`600` (`Q1`–`Q410` + Copilot `C1`–`C190`) — 600-Q MILESTONE! Latest: Round 28 Unit 4 Define Level 2 Medium Set 2 (`Q401`–`Q410`, `10 / 10 = 100%` PERFECT!!)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Latest Set (Round 28 Unit 4 Define Level 2 Medium Set 2 `Q401`–`Q410` on `2026-11-21`)**: **`10 / 10 = 100.0%` PERFECT!!** (Today: **`60 / 100 Qs`**!) — Fixed ALL 5 Medium Define topics on the very first pass using her brand-new Word Bible tables: Reliability/Validity, CTQ Tree, QFD `9-3-1` (`44`), Resource Leveling, Crashing Critical Path, Earned Value `CPI/SPI` (both calculation & interpretation!), FMEA Severity `10`, Y-Matrix, & X-Matrix! Domain IV now **`73 / 92 = 79.3%`** | Grand Cumulative: **`473 / 600 = 78.8%`**!
 - **NEXT EXAM MILESTONE (SATURDAY `2026-11-21`+)**:
   1. **ALL THREE FIRST UNITS MASTERED AT `85%+`!!** **Unit 1 (`Domain I`: `86.5%`)**, **Unit 2 (`Domain II`: `85.5%`, `15/15` Hard)**, and **Unit 3 (`Domain III`: `86.7%`, `8/8` Hard Set 2)**!
   2. **Master Word Bibles Built (`2026-11-21` — BOTH Versions Available!)**:

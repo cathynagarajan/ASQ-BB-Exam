@@ -2,19 +2,19 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Round 27 Unit 4 Define Level 2 Medium Set 1 `Q391`–`Q400` on `2026-11-21`):** **`5 / 10` (`50.0%` Diagnostic — Today: `50 / 100 Qs` HALFWAY! Built Unit 4 Define Cheat-Sheet Table!)**
-- **Overall Cumulative Score (`Q1`–`Q400` + `C1`–`C190` = `590` Qs):** **`463 / 590` (`78.5%`!)**
+- **Latest Batch Score (Round 28 Unit 4 Define Level 2 Medium Set 2 `Q401`–`Q410` on `2026-11-21`):** **`10 / 10` (`100.0%` PERFECT!! Today: `60 / 100 Qs`! 600 Unique Qs Milestone!)**
+- **Overall Cumulative Score (`Q1`–`Q410` + `C1`–`C190` = `600` Qs):** **`473 / 600` (`78.8%`!)**
 
 ---
 
-## 1. Domain Mastery Summary (Strictly ASQ 2022 BoK — 400 Scored Qs)
+## 1. Domain Mastery Summary (Strictly ASQ 2022 BoK — 410 Scored Qs)
 
 | ASQ Domain | DMAIC Phase | Exam Weight | Attempted | Correct | Accuracy | Status / Priority |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
 | **I. Org-Wide Planning & Deployment** | Pre-DMAIC | 12 Qs (8.0%) | 92 | 79 | **85.9%** | **UNIT 1 COMPLETE & MASTERED (`85.9%`; Taguchi Loss `2/2` MASTERED!)** |
 | **II. Org Process Mgmt & Measures** | Pre-DMAIC | 12 Qs (8.0%) | 55 | 47 | **85.5%** | **UNIT 2 COMPLETE & MASTERED (`85.5%`; `15/15` Hard)!** |
 | **III. Team Management** | Cross-DMAIC | 15 Qs (10.0%) | 45 | 39 | **86.7%** | **UNIT 3 COMPLETE & MASTERED (`86.7%`; `10/10` Easy, `9/10` Med, `8/8` Hard Set 2)!** |
-| **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 82 | 63 | **76.8%** | **ACTIVE UNIT (`Domain IV`: Define Phase — Built Unit 4 Cheat-Sheet Table: Validity/Reliability, QFD 9-3-1, Crashing/Fast-Tracking, CPI/SPI, 5 Matrix Shapes!)** |
+| **IV. Define** | **Define (D)** | 20 Qs (13.3%) | 92 | 73 | **79.3%** | **ACTIVE UNIT (`Domain IV`: Define Phase — Level 2 Medium Set 2 `10/10` PERFECT!! Ready for Level 3 Hard!)** |
 | **V. Measure** | **Measure (M)** | 25 Qs (16.7%) | 73 | 49 | **67.1%** | **ALL 3 Sampling Types (`3/3`!) + Little's Law + NOIR Interval + Measure=MSA MASTERED!** Keep `%StudyVar 10–30% vs %Contribution 1–9%` in Warm-Up #3! |
 | **VI. Analyze** | **Analyze (A)** | 22 Qs (14.7%) | 40 | 30 | **75.0%** | Keep `Continuous Averages (t-test / ANOVA) vs Counts/Categories (Chi-Square)` in Warm-Up #3! |
 | **VII. Improve** | **Improve (I)** | 21 Qs (14.0%) | 0 | 0 | — | Not Started *(3rd Weight)* |
