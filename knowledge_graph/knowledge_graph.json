@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-21T05:31:05.073840+00:00",
+    "generated_at": "2026-11-21T05:36:44.738354+00:00",
     "total_files_indexed": 88,
     "total_nodes": 874,
-    "total_edges": 1756,
+    "total_edges": 1762,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
@@ -17,28 +17,29 @@
   },
   "last_change_check": {
     "changed": true,
-    "added": [
+    "added": [],
+    "modified": [
+      "QWEN.md",
+      "chats/SHARED_SESSION_STATE.md",
+      "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx"
     ],
-    "modified": [
-      "chats/SHARED_SESSION_STATE.md"
-    ],
     "removed": [],
-    "files_parsed": 1,
-    "files_cached_reused": 86,
+    "files_parsed": 3,
+    "files_cached_reused": 84,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 53,
-      "nodes_deleted": 7,
-      "edges_upserted": 106,
-      "edges_deleted": 13,
-      "wiki_pages_upserted": 0,
+      "nodes_upserted": 21,
+      "nodes_deleted": 10,
+      "edges_upserted": 33,
+      "edges_deleted": 24,
+      "wiki_pages_upserted": 1,
       "wiki_pages_deleted": 0,
-      "files_upserted": 3,
+      "files_upserted": 5,
       "files_deleted": 0,
       "total_nodes_in_db": 874,
-      "total_edges_in_db": 1756,
+      "total_edges_in_db": 1762,
       "total_files_tracked": 89
     }
   },
@@ -313,7 +314,6 @@
           "1-line Copilot-style questions",
           "Medium Next",
           "Hard Last",
-          "Word-Native Tables Always",
           "NEVER show answers or hints upfront",
           "Human, Plain-English Grading & Explanations",
           "ALWAYS Repeat Missed Questions First",
@@ -366,8 +366,12 @@
           "p <= alpha",
           "1 - beta",
           "np/p/c/u",
+          "10\u201311 pt",
           ".docx",
           "documents/",
+          "11 pt",
+          "10 pt",
+          "Tab 1\u20139",
           "A, B, C, D",
           "PERFORMANCE_TRACKER.md",
           "documents/QUESTION_BANK_LOG.md",
@@ -735,7 +739,7 @@
       "id": "topic:computer",
       "type": "topic_entity",
       "name": "computer",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job42_AnalogDevices_R266612_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'computer' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "computer"
@@ -3851,7 +3855,7 @@
       "id": "topic:master",
       "type": "topic_entity",
       "name": "master",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "description": "Shared domain topic 'master' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "master"
@@ -4613,7 +4617,7 @@
       "id": "topic:anova",
       "type": "topic_entity",
       "name": "anova",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
       "description": "Shared domain topic 'anova' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "anova"
@@ -5818,7 +5822,7 @@
       "id": "topic:domain",
       "type": "topic_entity",
       "name": "domain",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
       "description": "Shared domain topic 'domain' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "domain"
@@ -5828,7 +5832,7 @@
       "id": "topic:phase",
       "type": "topic_entity",
       "name": "phase",
-      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'phase' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "phase"
@@ -5873,7 +5877,7 @@
       "metadata": {
         "format": "docx",
         "section_count": 15,
-        "size_bytes": 83102,
+        "size_bytes": 82807,
         "topics": [
           "full",
           "domain",
@@ -6415,7 +6419,7 @@
       "id": "topic:does",
       "type": "topic_entity",
       "name": "does",
-      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'does' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "does"
@@ -6757,7 +6761,7 @@
       "metadata": {
         "format": "docx",
         "section_count": 15,
-        "size_bytes": 179425,
+        "size_bytes": 179409,
         "topics": [
           "quality",
           "verbatim",
@@ -7406,7 +7410,7 @@
       "id": "topic:click",
       "type": "topic_entity",
       "name": "click",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
       "description": "Shared domain topic 'click' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "click"
@@ -10067,6 +10071,16 @@
       }
     },
     {
+      "id": "topic:docx",
+      "type": "topic_entity",
+      "name": "docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'docx' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "docx"
+      }
+    },
+    {
       "id": "topic:word",
       "type": "topic_entity",
       "name": "word",
@@ -10074,26 +10088,6 @@
       "description": "Shared domain topic 'word' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "word"
-      }
-    },
-    {
-      "id": "topic:variance",
-      "type": "topic_entity",
-      "name": "variance",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'variance' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "variance"
-      }
-    },
-    {
-      "id": "topic:tests",
-      "type": "topic_entity",
-      "name": "tests",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'tests' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "tests"
       }
     },
     {
@@ -10107,13 +10101,23 @@
       }
     },
     {
-      "id": "topic:tails",
+      "id": "topic:documents",
       "type": "topic_entity",
-      "name": "tails",
+      "name": "documents",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'tails' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'documents' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "tails"
+        "keyword": "documents"
+      }
+    },
+    {
+      "id": "topic:home",
+      "type": "topic_entity",
+      "name": "home",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'home' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "home"
       }
     },
     {
@@ -10121,130 +10125,22 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (744 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (748 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 744,
+        "turn_count": 748,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
+          "docx",
           "full",
           "word",
-          "variance",
-          "sample",
-          "tests",
           "asq-bb-exam",
-          "process",
-          "tails"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2404",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2404 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2404] it is in my ardent computer",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2404,
-        "role": "user",
-        "created_at": "2026-11-21T05:00:02Z",
-        "content_excerpt": "it is in my ardent computer",
-        "topics": [
-          "ardent",
-          "computer"
-        ]
-      }
-    },
-    {
-      "id": "topic:ctrl",
-      "type": "topic_entity",
-      "name": "ctrl",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'ctrl' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "ctrl"
-      }
-    },
-    {
-      "id": "topic:block",
-      "type": "topic_entity",
-      "name": "block",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'block' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "block"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2405",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2405 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2405] Aha, got it \u2014 completely understand! Here is the fastest 10-second way from your Ardent computer: 1. Open your Word Bible and press **`Ctrl + F`**. 2. Search for **`FULL THEORY BLOCK`** (that jumps straight to `SECTION 3",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2405,
-        "role": "assistant",
-        "created_at": "2026-11-21T05:00:02Z",
-        "content_excerpt": "Aha, got it \u2014 completely understand!\n\nHere is the fastest 10-second way from your Ardent computer:\n\n1. Open your Word Bible and press **`Ctrl + F`**.\n2. Search for **`FULL THEORY BLOCK`** (that jumps straight to `SECTION 3 \u2014 REGRESSION (FULL THEORY BLOCK)`).\n3. Click right in front of `SECTION 3`, then press **`Ctrl + Shift + End`** \u2014 that highlights everything from Section 3 down to the very bottom of your file in one click.\n4. Copy (**`Ctrl + C`**) and paste (**`Ctrl + V`**) right here.\n\nSince the remaining piece is `~118 KB` (well under the chat box limit), `100%` of the rest will fit in that one paste! (And I will double-check the very last line to confirm nothing was cut off.)",
-        "topics": [
-          "ctrl",
-          "block",
-          "click",
-          "full"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2406",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2406 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2406] 2.1 NORMALITY (QQ PLOT, HISTOGRAMS, RESIDUALS) What normality violations look like Visual Pattern Meaning Tests Affected QQ plot with heavy tails Heavy tailed distribution t tests, ANOVA, regression QQ plot S curve Skewe",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2406,
-        "role": "user",
-        "created_at": "2026-11-21T05:02:27Z",
-        "content_excerpt": "2.1 NORMALITY (QQ PLOT, HISTOGRAMS, RESIDUALS)\n\nWhat normality violations look like\nVisual Pattern\tMeaning\tTests Affected\nQQ plot with heavy tails\tHeavy tailed distribution\tt tests, ANOVA, regression\nQQ plot S curve\tSkewed distribution\tt tests, ANOVA, regression\nHistogram strongly skewed\tNon normal\tt tests, ANOVA\nResiduals clumped at extremes\tOutliers \u2192 non normal\tAll parametric tests\nShapiro\u2013Wilk p < 0.05\tNon normal\tAll parametric tests\n\u2022  Two peaks \u2192 bimodal \u2192 mixed populations\n\u2022  Three peaks \u2192 multiple underlying populations\n\u2022  One peak + long tail \u2192 skewness\n\u2022  Flat top \u2192 uniform distribution\nQQ Plot Logic (Your Full Rules)\nPattern\tInterpretation\nRight tail below line\tRight skew\nLeft tail below line\tLeft skew\nBoth tails above line\tHeavy tails\nBoth tails below line\tLight tails\nMiddle be",
-        "topics": [
-          "tests",
-          "variance",
-          "tails",
-          "anova"
-        ]
-      }
-    },
-    {
-      "id": "topic:fixed",
-      "type": "topic_entity",
-      "name": "fixed",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'fixed' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "fixed"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2420",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2420 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2420] Your complete, Lean 5S-cleaned Master Word Bible is ready, Cathy! Part 2 came through `100%` uncut, so every single table, formula, memory hook, and worked example from your entire Word file is preserved cleanly with zer",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2420,
-        "role": "assistant",
-        "created_at": "2026-11-21T05:09:12Z",
-        "content_excerpt": "Your complete, Lean 5S-cleaned Master Word Bible is ready, Cathy! Part 2 came through `100%` uncut, so every single table, formula, memory hook, and worked example from your entire Word file is preserved cleanly with zero clutter.\n\n### Your New Master Word Bible (Ready to Open, Print & Tab)\n- **File:** [ASQ_CSSBB_Master_Word_Bible_2027.docx](file:///home/krithika/workspace/ASQ-BB-Exam/documents/ASQ_CSSBB_Master_Word_Bible_2027.docx)\n- **Format:** Native Microsoft Word `.docx` (`11` tabbed binder sections, `51` color-coded tables with repeating navy headers, `10` page breaks so every Tab starts on a fresh page, non-splitting table rows, automatic `Page X of Y` footers, gold Poka-Yoke boxes, rose Exam Trap boxes, and `412` bold dark-red **Magic Trigger Words**).\n\n---\n\n### How Your New 11-Tab",
-        "topics": [
-          "fixed",
-          "word",
-          "domain",
-          "master"
+          "chart",
+          "documents",
+          "home",
+          "krithika"
         ]
       }
     },
@@ -10305,16 +10201,6 @@
       "description": "Shared domain topic 'editor' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "editor"
-      }
-    },
-    {
-      "id": "topic:docx",
-      "type": "topic_entity",
-      "name": "docx",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'docx' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "docx"
       }
     },
     {
@@ -10578,13 +10464,143 @@
       }
     },
     {
-      "id": "topic:home",
-      "type": "topic_entity",
-      "name": "home",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'home' connecting multi-modal documents and workspace chats",
+      "id": "chat_turn:b6556366:S2485",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2485 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2485] You were `100%` right to push back, Cathy \u2014 there were **two** reasons your `300`-page file shrank, and I just fixed the first one completely: ### 1. Fixed Right Now \u2014 Brand-New `100%` Verbatim DMAIC-Organized Bible (ZER",
       "metadata": {
-        "keyword": "home"
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2485,
+        "role": "assistant",
+        "created_at": "2026-11-21T05:31:11Z",
+        "content_excerpt": "You were `100%` right to push back, Cathy \u2014 there were **two** reasons your `300`-page file shrank, and I just fixed the first one completely:\n\n### 1. Fixed Right Now \u2014 Brand-New `100%` Verbatim DMAIC-Organized Bible (ZERO Rewriting!)\nIn my earlier file, I had summarized and rewritten your notes into `~17,473` words. That was my mistake \u2014 you wanted **your own exact cheat sheets and wording kept intact**, just sorted cleanly by DMAIC + Project Management.\n\nI just built a brand-new **100% Verbatim** file that preserves **every single chart cheat sheet, table, and explanation you pasted word-for-word**:\n- **Direct GitHub Download (for Microsoft Word on your Ardent computer):**\n  `https://github.com/cathynagarajan/ASQ-BB-Exam/blob/main/documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx`\n- **L",
+        "topics": [
+          "docx",
+          "chart",
+          "cheat",
+          "word"
+        ]
+      }
+    },
+    {
+      "id": "topic:duplicates",
+      "type": "topic_entity",
+      "name": "duplicates",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'duplicates' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "duplicates"
+      }
+    },
+    {
+      "id": "topic:eliminated",
+      "type": "topic_entity",
+      "name": "eliminated",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'eliminated' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "eliminated"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2486",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2486 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2486] 245 pages became 149 - does that mean you eliminated duplicates?",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2486,
+        "role": "user",
+        "created_at": "2026-11-21T05:32:57Z",
+        "content_excerpt": "245 pages became 149 - does that mean you eliminated duplicates?",
+        "topics": [
+          "became",
+          "does",
+          "duplicates",
+          "eliminated"
+        ]
+      }
+    },
+    {
+      "id": "topic:exact",
+      "type": "topic_entity",
+      "name": "exact",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'exact' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "exact"
+      }
+    },
+    {
+      "id": "topic:like",
+      "type": "topic_entity",
+      "name": "like",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'like' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "like"
+      }
+    },
+    {
+      "id": "topic:removed",
+      "type": "topic_entity",
+      "name": "removed",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'removed' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "removed"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2487",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2487 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2487] Yes, Cathy \u2014 you got **`100%` of your unique notes** with **zero** chart cheat sheets or study details deleted! Here are the **3 exact reasons** why `245` messy pages turned into `149` clean, tabbed pages: 1. **Removed A",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2487,
+        "role": "assistant",
+        "created_at": "2026-11-21T05:32:57Z",
+        "content_excerpt": "Yes, Cathy \u2014 you got **`100%` of your unique notes** with **zero** chart cheat sheets or study details deleted! Here are the **3 exact reasons** why `245` messy pages turned into `149` clean, tabbed pages:\n\n1. **Removed Accidental Chat Chatter & 3x Quiz Dumps (`~600` lines):**\n   - Stripped out the accidentally pasted Copilot chat paragraphs (`\"If you want, I can build a mini drill...\"`, `\"can you restate wrong questions\"`, etc.) and the raw `Q1\u2013Q35` quiz list that was pasted `3` times in a row.\n2. **Removed Exact Back-to-Back Duplicate Copies (`~300` lines):**\n   - Removed exact word-for-word repeats (like the `3` back-to-back copies of the Parametric/Nonparametric table, the duplicate `IV.A.1\u2013IV.C.3` block, and the overlap where Part 2 restarted at `2.1 Normality`).\n3. **Cleaner Binder P",
+        "topics": [
+          "docx",
+          "exact",
+          "like",
+          "removed"
+        ]
+      }
+    },
+    {
+      "id": "topic:better",
+      "type": "topic_entity",
+      "name": "better",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'better' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "better"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2488",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2488 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2488] it is 5S, better than my confused useless pooh brain organizatin - so day to day notes, where do i add the notes? will you tell me add it next to D phase or M phase daily? then every week, let us do a clean 5S so that th",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2488,
+        "role": "user",
+        "created_at": "2026-11-21T05:34:54Z",
+        "content_excerpt": "it is 5S, better than my confused useless pooh brain organizatin - so day to day notes, where do i add the notes? will you tell me add it next to D phase or M phase daily? then every week, let us do a clean 5S so that the file doens't grow too big. one issue is font is small",
+        "topics": [
+          "notes",
+          "phase",
+          "better",
+          "brain"
+        ]
       }
     },
     {
@@ -10933,16 +10949,6 @@
       "description": "Shared domain topic 'codes' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "codes"
-      }
-    },
-    {
-      "id": "topic:exact",
-      "type": "topic_entity",
-      "name": "exact",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'exact' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "exact"
       }
     },
     {
@@ -23281,10 +23287,18 @@
     },
     {
       "source": "chat_session:b6556366",
+      "target": "topic:docx",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 18
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
       "target": "topic:full",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 22
+        "count": 18
       }
     },
     {
@@ -23292,31 +23306,7 @@
       "target": "topic:word",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 15
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:variance",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 13
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:sample",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 12
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:tests",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 11
+        "count": 16
       }
     },
     {
@@ -23324,23 +23314,39 @@
       "target": "topic:asq-bb-exam",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 10
+        "count": 14
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:process",
+      "target": "topic:chart",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 10
+        "count": 13
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:tails",
+      "target": "topic:documents",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 10
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:home",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:krithika",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
       }
     },
     {
@@ -23357,149 +23363,13 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc:documents/QUESTION_BANK_LOG.md",
+      "target": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S2404",
-      "target": "topic:ardent",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2404",
-      "target": "topic:computer",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2404",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2405",
-      "target": "topic:ctrl",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2405",
-      "target": "topic:block",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2405",
-      "target": "topic:click",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2405",
-      "target": "topic:full",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2405",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2406",
-      "target": "topic:tests",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 11
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2406",
-      "target": "topic:variance",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 11
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2406",
-      "target": "topic:tails",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 10
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2406",
-      "target": "topic:anova",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2406",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2420",
-      "target": "topic:fixed",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2420",
-      "target": "topic:word",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2420",
-      "target": "topic:domain",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2420",
-      "target": "topic:master",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2420",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2420",
-      "target": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "doc:documents/QUESTION_BANK_LOG.md",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
@@ -23820,6 +23690,182 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S2459",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2485",
+      "target": "topic:docx",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2485",
+      "target": "topic:chart",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2485",
+      "target": "topic:cheat",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2485",
+      "target": "topic:word",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2485",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2485",
+      "target": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2485",
+      "target": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2486",
+      "target": "topic:became",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2486",
+      "target": "topic:does",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2486",
+      "target": "topic:duplicates",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2486",
+      "target": "topic:eliminated",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2486",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2487",
+      "target": "topic:docx",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2487",
+      "target": "topic:exact",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2487",
+      "target": "topic:like",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2487",
+      "target": "topic:removed",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2487",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2487",
+      "target": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2487",
+      "target": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2488",
+      "target": "topic:notes",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2488",
+      "target": "topic:phase",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2488",
+      "target": "topic:better",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2488",
+      "target": "topic:brain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2488",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -25222,7 +25268,7 @@
   ],
   "file_hashes": {
     "PERFORMANCE_TRACKER.md": "15df86732a130814c96c621bebe57163d00c9dee756cdae4883ced4086831e4c",
-    "QWEN.md": "899c31752203ef14570b30ee8d02d0f9add0e474c6612610c12a39a01cb55f39",
+    "QWEN.md": "6e9bfae0c3111c035554b5665633852565d2c4b1651b999e3986f56edcc57fe8",
     "README.md": "506319462ce0f0d62f6cbed53d6d0cdfa3c40623a05eacd6b881d9c3ddd8facf",
     "STUDY_ROADMAP_MAR2027.md": "0565fb20c8f9008ab7629f78fed3bdf076952045a4567cca7ccebd4e1e986a27",
     "Resume_And_Jobs/Job10_Roblox_Vendor_Operations_Automation_8174264.md": "acf7b6b7324dc73435da51226b5d6739d9f5e7876ef33d6bbc31810959bca9b2",
@@ -25293,14 +25339,14 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "61c1752ffeca6000b818a4c9f5a64c047f2c3d3dae0db21de1cb586e1676203e",
+    "chats/SHARED_SESSION_STATE.md": "9608d38c1fcbb84bbc929a9b4345b5cf475e7ed6a5308f56c6d73bae49305531",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
-    "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx": "b9d08768c25cac65433bdd83026198686b58b679d9ac9b5309f8479cb3055d2d",
+    "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx": "432494ada5374440ddd3e93f2159086c059cace05f5dc0d8ce875b23519a2ad6",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
-    "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx": "de352198ba3bc6bed27fd98b9e0a859490913145fa8c765356b44422039abe74",
+    "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx": "131d5f71b13f4527726e2b51dbadbb30823926af0a78837b74cf5984dfae7c27",
     "documents/ASQ_Sampling_Methods_Quick_Table.docx": "611a5b1986e4d296f6a1244d2c334d4f6688820f04a6cb8d6ff694b7b1f6ef0e",
     "documents/CAREER_APPLICATIONS_TRACKER.md": "8a62a332710cd7ca4b4eeb9d863e9cc76ab6b0afe0ddf146745618d2f8f226ea",
     "documents/PValue_And_Cp_Cpk_Quick_Tables.docx": "7e146d9b535a8fa34793e0d7ecfd892041e75cd8a15e79777c55fa1babae79d5",
@@ -25309,6 +25355,6 @@
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "3dc741469b602bdbd6fe45da515d85ff910091dc17f7ab0e5cbc9408290e9a60"
+    "repo.md": "409257ba5662983a5778d4adb31a6d67c5b8091674374ffc9a5c73133f10704b"
   }
 }

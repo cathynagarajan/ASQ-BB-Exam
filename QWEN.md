@@ -22,7 +22,7 @@
     2. **Easy First**: Start with clean, direct **1-line Copilot-style questions** to rebuild memory.
     3. **Medium Next**: Step up to simple 1–2 sentence ASQ application questions only once Easy is comfortable.
     4. **Hard Last**: Introduce harder scenarios ONLY after Easy and Medium are solid.
-  - **Word-Native Tables Always**: Whenever Cathy requests a table for her Word Bible, ALWAYS build a real `.docx` file in `documents/` (plus optional tab-separated TSV in chat).
+  - **Word-Native Tables Always (`10–11 pt` Readable Font!) + Daily Tab Placement + Weekly 5S Sweep**: Whenever Cathy requests a table for her Word Bible, ALWAYS build a real `.docx` file in `documents/` using comfortable readable font (`11 pt` body / `10 pt` table minimum). On every new daily note or miss fix, ALWAYS tell Cathy the exact Tab & Section (`Tab 1–9`, e.g., *"Add to Tab 4A — Define"* or *"Add to Tab 5 — Measure"*). Run a Weekly 5S Sweep once a week to keep her Word Bible deduplicated without erasing details.
   - Plain-text numbered questions, 4 choices (`A, B, C, D`), **NEVER show answers or hints upfront**.
 - **Human, Plain-English Grading & Explanations**:
   1. Score cleanly and clearly.

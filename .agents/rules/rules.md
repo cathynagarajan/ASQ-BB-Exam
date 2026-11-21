@@ -13,7 +13,7 @@
      2. **Level 1 — EASY First**: Start with **clean, short 1-line questions** (like Copilot's style) to rebuild memory and confidence.
      3. **Level 2 — MEDIUM Next**: Only after Easy feels solid, step up to straightforward 1–2 sentence ASQ application questions.
      4. **Level 3 — HARD Last**: Only introduce harder multi-step scenarios **after** Easy and Medium are mastered — **NEVER** ambush with twisted PhD traps upfront!
-   - **Word-Native Tables Always**: Whenever Cathy asks for a study table for her Word Bible, **ALWAYS generate a real `.docx` file** in `documents/` (plus optional tab-separated TSV in chat) so it pastes straight into Microsoft Word as a formatted table!
+   - **Word-Native Tables Always (`10–11 pt` Readable Font!) + Daily Tab Placement + Weekly 5S Sweep**: Whenever Cathy asks for a study table for her Word Bible, **ALWAYS generate a real `.docx` file** in `documents/` using comfortable readable font (**`11 pt` body / `10 pt` table minimum**, never tiny 7–8 pt!). For **every new daily study note or miss fix**, ALWAYS tell Cathy the exact Tab & Section (`Tab 1–9`, e.g., *"Add to Tab 4A — Define"* or *"Add to Tab 5 — Measure"*). Once a week (e.g., Sunday), run a **Weekly 5S Cleanup Sweep** on her Word Bible so it stays clean, deduplicated, and never loses a single detail!
    - **STOP and wait** after grading/explaining — **NEVER** send the next set until Cathy explicitly says **"ready"**!
 3. **4 Choices (`A`, `B`, `C`, `D`) — Clean, Respectful Questions & Human Explanations**:
    - Keep questions clean, short, and readable. **NEVER** reveal the answer key or hints upfront.
