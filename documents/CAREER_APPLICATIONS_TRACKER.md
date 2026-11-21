@@ -65,6 +65,9 @@
 40. **Cadence Design Systems (NASDAQ: CDNS)** — *Senior, Master Data Management, Systems Analyst (Procurement)* (`Req R51338`, North San Jose Hybrid ~13 mi, 88.2K to 163.8K USD + bonus/equity, IC) — **APPLIED / REVIEW (2026-11-20)** *(plus existing active `Req R54483` Inventory and Logistics Manager, applied `2026-08-24`, verified `Review` on Cadence Workday = `2` Active at Cadence!)*
 41. **Airbnb (NASDAQ: ABNB)** — *Senior Financial Operations Lead, Vendor Operations* (`ID 8402949`, SF Bay Area / Palo Alto flexible, 132K to 155K USD + bonus/equity/travel credits, IC) — **SUBMITTED (2026-11-20)**
 
+## Completed Applications — Day 8 Weekend Sprint (`2026-11-21` — `1 / 10` Submitted So Far; `63` Total Tracked = `50` Active, `13` Rejected!)
+42. **Amgen (NASDAQ: AMGN)** — *Global Category Senior Manager – Direct-to-Patient* (`Req R-260720`, 100% US Remote, 134.49K to 181.96K USD + bonus/stock, IC) — **APPLIED / APPLICATION RECEIVED (2026-11-21)** *(Active: `3` on Amgen Workday!)*
+
 ## Full Lockheed Martin Eightfold Application History (`21` Roles: `16` Active + `5` Rejected + `1` Draft — Updated `2026-11-21`!)
 - **Active Stage-2 / Recruiter Screen (`1`):**
   - `Job ID 13013` — *Subcontract Management Sr - E3* (Highlands Ranch CO / Sunnyvale CA +3, applied 2026-10-19) — **Stage-2 Reasonable Accommodation Updated (`✓`), Questionnaire Sent to Christian Sieg (`2026-11-16`)**
