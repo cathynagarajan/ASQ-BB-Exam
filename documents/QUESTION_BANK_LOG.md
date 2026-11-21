@@ -388,3 +388,7 @@
 
 ## Round 28 — Unit 4 (`Domain IV`: Define Phase) Level 2 Medium Set 2 (`Q401`–`Q410` — 2026-11-21 | Score: `10/10 = 100.0%` PERFECT!! 600-Q Milestone!)
 - **All 10 Nailed (`✅`):** `Q401` (**High Reliability / Low Validity — FIXED!**), `Q402` (**CTQ Spec 95% in 15 min — FIXED!**), `Q403` (**QFD 9-3-1 Score `44` — FIXED!**), `Q404` (**Resource leveling**), `Q405` (**Crashing Critical Path ONLY**), `Q406` (**Earned Value `CPI 0.80 / SPI 0.80` — FIXED!**), `Q407` (**Earned Value `CPI 1.15 / SPI 0.90` — FIXED!**), `Q408` (**FMEA RPN `100` vs `60` + Severity `10` — FIXED!**), `Q409` (**Y-shaped Matrix**), `Q410` (**X-shaped Matrix**).
+
+## Round 29 — Unit 4 (`Domain IV`: Define Phase) Level 3 Hard Set 1 (`Q411`–`Q420` — 2026-11-21 | Score: `6/10 = 60.0%` — 70/100 Today!)
+- **Nailed (`✅` — `6` Qs):** `Q411` (Direct observation / Gemba), `Q412` (Kano Reverse requirement), `Q413` (QFD 4-Phase Cascade — explained relay-race picture!), `Q414` (SIPOC build order `P->O->C->I->S`), `Q415` (Champion approves Charter changes), `Q419` (**Earned Value `EAC = 200k / 0.80 = 250,000 USD` — NAILED!**).
+- **Missed (`❌` — `4` Qs):** `Q416` (`IV.C.2` CPM Forward Pass merge = **C. Day 14 MAX**, picked `D` 23 sum), `Q417` (`IV.C.2` Parallel Crashing = **C. Crash BOTH 19-day Critical Paths**, picked `D` Resource Leveling), `Q418` (`IV.C.2` PERT `Z = (33-30)/3 = +1.0` -> **C. `84%`**, picked `D` 99.7%), `Q420` (`IV.D` Interrelationship Digraph tie-breaker = **B. Issue B `5-0=+5`**, picked `A` total 9 arrows).

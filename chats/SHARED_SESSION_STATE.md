@@ -8,8 +8,8 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`600` (`Q1`–`Q410` + Copilot `C1`–`C190`) — 600-Q MILESTONE! Latest: Round 28 Unit 4 Define Level 2 Medium Set 2 (`Q401`–`Q410`, `10 / 10 = 100%` PERFECT!!)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Latest Set (Round 28 Unit 4 Define Level 2 Medium Set 2 `Q401`–`Q410` on `2026-11-21`)**: **`10 / 10 = 100.0%` PERFECT!!** (Today: **`60 / 100 Qs`**!) — Fixed ALL 5 Medium Define topics on the very first pass using her brand-new Word Bible tables: Reliability/Validity, CTQ Tree, QFD `9-3-1` (`44`), Resource Leveling, Crashing Critical Path, Earned Value `CPI/SPI` (both calculation & interpretation!), FMEA Severity `10`, Y-Matrix, & X-Matrix! Domain IV now **`73 / 92 = 79.3%`** | Grand Cumulative: **`473 / 600 = 78.8%`**!
+- **Completed Unique Questions**: **`610` (`Q1`–`Q420` + Copilot `C1`–`C190`) — Latest: Round 29 Unit 4 Define Level 3 Hard Set 1 (`Q411`–`Q420`, `6 / 10`; `70 / 100` Today!)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Latest Set (Round 29 Unit 4 Define Level 3 Hard Set 1 `Q411`–`Q420` on `2026-11-21`)**: **`6 / 10` (`60.0%` — Today: `70 / 100 Qs`!)** — Nailed `5/5` on VOC Gemba, Kano Reverse, QFD Cascade, SIPOC order, Champion Charter authority + Earned Value `EAC = 250,000 USD`! 4 Hard fixes for Set 2: CPM merge = `MAX` (not sum), Parallel Crashing = crash BOTH critical paths, PERT `Z=+1 -> 84%`, ID tie-breaker = highest `Out minus In`. Domain IV now **`79 / 102 = 77.5%`** | Grand Cumulative: **`479 / 610 = 78.5%`**!
 - **NEXT EXAM MILESTONE (SATURDAY `2026-11-21`+)**:
   1. **ALL THREE FIRST UNITS MASTERED AT `85%+`!!** **Unit 1 (`Domain I`: `86.5%`)**, **Unit 2 (`Domain II`: `85.5%`, `15/15` Hard)**, and **Unit 3 (`Domain III`: `86.7%`, `8/8` Hard Set 2)**!
   2. **Master Word Bibles Built (`2026-11-21` — BOTH Versions Available!)**:
