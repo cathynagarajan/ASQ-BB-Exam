@@ -65,10 +65,10 @@
 40. **Cadence Design Systems (NASDAQ: CDNS)** — *Senior, Master Data Management, Systems Analyst (Procurement)* (`Req R51338`, North San Jose Hybrid ~13 mi, 88.2K to 163.8K USD + bonus/equity, IC) — **APPLIED / REVIEW (2026-11-20)** *(plus existing active `Req R54483` Inventory and Logistics Manager, applied `2026-08-24`, verified `Review` on Cadence Workday = `2` Active at Cadence!)*
 41. **Airbnb (NASDAQ: ABNB)** — *Senior Financial Operations Lead, Vendor Operations* (`ID 8402949`, SF Bay Area / Palo Alto flexible, 132K to 155K USD + bonus/equity/travel credits, IC) — **SUBMITTED (2026-11-20)**
 
-## Full Lockheed Martin Eightfold Application History (`21` Roles: `17` Active + `4` Rejected + `1` Draft — Updated `2026-11-20`!)
+## Full Lockheed Martin Eightfold Application History (`21` Roles: `16` Active + `5` Rejected + `1` Draft — Updated `2026-11-21`!)
 - **Active Stage-2 / Recruiter Screen (`1`):**
   - `Job ID 13013` — *Subcontract Management Sr - E3* (Highlands Ranch CO / Sunnyvale CA +3, applied 2026-10-19) — **Stage-2 Reasonable Accommodation Updated (`✓`), Questionnaire Sent to Christian Sieg (`2026-11-16`)**
-- **Active Submitted / Under Review (`16` additional = `17` Total Active at Lockheed Martin):**
+- **Active Submitted / Under Review (`15` additional = `16` Total Active at Lockheed Martin):**
   - `Job ID 9343` — *Subcontract Management Sr - E3* (Littleton CO +2, applied **2026-11-17**)
   - `Job ID 24775` — *Subcontract Administration Stf - E4* (Huntsville AL +3, applied **2026-11-17**)
   - `Job ID 23028` — *Subcontract Management Stf - E4* (Sunnyvale CA +2, applied **2026-11-17**)
@@ -77,15 +77,15 @@
   - `Job ID 16519` — *Subcontract Administration Sr - E3* (Huntsville AL +1, applied 2026-11-01)
   - `Job ID 17417` — *Subcontract Management Stf - E4* (Huntsville AL +2, applied 2026-10-30)
   - `Job ID 11141` — *Manufacturing Support Team Member / ATLS Planner - Level 3* (Sunnyvale CA +1, applied 2026-10-30)
-  - `Job ID 8363` — *Supply Chain Sr Staff Contracts Analyst* (Grand Prairie TX, applied 2026-10-30)
   - `Job ID 9581` — *Subcontract Management Sr - E3* (Arlington TX, applied 2026-10-19)
   - `Job ID 13924` — *Program Management Asc Mgr* (Sunnyvale CA +2, applied 2026-10-19)
   - `Job ID 16508` — *Senior Global Supply Chain Training Lead* (Fort Worth TX, applied 2026-10-19)
   - `Job ID 13178` — *Subcontract Management Sr - E3* (Littleton CO +2, applied 2026-10-19)
   - `Job ID 20038` — *Procurement Rep Sr - E3* (Virtual Two NJ / Remote +3, applied 2026-10-19)
   - `Job ID 19487` — *Purchasing & Material Administration Analyst Asc - E1* (Orlando FL, applied 2026-10-19)
-- **Rejected at Lockheed Martin (`4`):**
-  - `Job ID 16516` — *Subcontract Administration - E2* (Huntsville AL +3, applied 2026-11-01) — **REJECTED (2026-11-20)**
+- **Rejected at Lockheed Martin (`5`):**
+  - `Job ID 8363` — *Supply Chain Sr Staff Contracts Analyst* (Grand Prairie TX, applied 2026-10-30) — **CLOSED / REJECTED (2026-11-21)**
+  - `Job ID 16516` — *Subcontract Administration - E2* (Huntsville AL +3, applied 2026-11-01) — **CLOSED / REJECTED (2026-11-20)**
   - `Job ID 11582` — *Proposal Management Stf - E4* (Highlands Ranch CO +3, applied 2026-10-30) — **REJECTED (2026-11-20)**
   - `Job ID 13918` — *Project Management & Planning Operations Rep* (Huntsville AL +3, applied 2026-10-30) — **REJECTED**
   - `Job ID 8492` — *Subcontract Management, Staff* (Highlands Ranch CO +3, applied 2026-10-19) — **REJECTED**
@@ -95,6 +95,8 @@
   - **Lockheed Eightfold AI Candidate Profile & Resume-Match Portal:** `https://lockheedmartin.eightfold.ai/careers/profile?utm_source=indeed&domain=lockheedmartin.com&Codes=IND` *(use to upload resume and view auto-matched Lockheed Martin Space openings, including Christian Sieg's upcoming roles)*.
 
 ## Closed / Rejected Applications Log
+- **Applied Materials (`Req R2631307` Purchasing Manager — prior application)** — **REQ CLOSED (2026-11-21)** *(already on Permanent Skip List)*.
+- **Lockheed Martin (`Job ID 8363` Supply Chain Sr Staff Contracts Analyst, Grand Prairie TX)** — **CLOSED / REJECTED (2026-11-21)**.
 - **Northrop Grumman (NYSE: NOC)** — *Sr. Principal / Principal Supply Chain Planning Specialist (`Req R10257650`, applied Nov 1)* — **REJECTED / CLOSED (2026-11-20)** *(skip NGC going forward — federal compliance / internal-wired postings)*.
 - **Humana (NYSE: HUM)** — *Behavioral Health Vendor Performance Lead (`Req R-433994`, Remote)* — **REJECTED / CLOSED (2026-11-19)**.
 - **Intuit (NASDAQ: INTU)** — *Senior Strategic Sourcing Manager, Corporate Services (`Job ID 25188` / `103274381152`, Mountain View)* — **REJECTED / CLOSED (2026-11-19)**.

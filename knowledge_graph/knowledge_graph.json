@@ -1,46 +1,46 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-21T05:36:44.738354+00:00",
-    "total_files_indexed": 88,
-    "total_nodes": 874,
-    "total_edges": 1762,
+    "generated_at": "2026-11-21T19:52:01.812390+00:00",
+    "total_files_indexed": 89,
+    "total_nodes": 887,
+    "total_edges": 1795,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
       "document": 53,
-      "document_file": 33,
-      "document_section": 237,
+      "document_file": 34,
+      "document_section": 244,
       "html_template": 1,
-      "topic_entity": 496
+      "topic_entity": 501
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [],
+    "added": [
+      "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx"
+    ],
     "modified": [
-      "QWEN.md",
       "chats/SHARED_SESSION_STATE.md",
-      "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
-      "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx"
+      "documents/CAREER_APPLICATIONS_TRACKER.md"
     ],
     "removed": [],
-    "files_parsed": 3,
-    "files_cached_reused": 84,
+    "files_parsed": 2,
+    "files_cached_reused": 86,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 21,
-      "nodes_deleted": 10,
-      "edges_upserted": 33,
-      "edges_deleted": 24,
+      "nodes_upserted": 84,
+      "nodes_deleted": 35,
+      "edges_upserted": 114,
+      "edges_deleted": 79,
       "wiki_pages_upserted": 1,
       "wiki_pages_deleted": 0,
-      "files_upserted": 5,
+      "files_upserted": 4,
       "files_deleted": 0,
-      "total_nodes_in_db": 874,
-      "total_edges_in_db": 1762,
-      "total_files_tracked": 89
+      "total_nodes_in_db": 887,
+      "total_edges_in_db": 1795,
+      "total_files_tracked": 90
     }
   },
   "nodes": [
@@ -624,7 +624,7 @@
       "id": "topic:contract",
       "type": "topic_entity",
       "name": "contract",
-      "file_path": "Resume_And_Jobs/Job47_Airbnb_8402949_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'contract' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "contract"
@@ -644,7 +644,7 @@
       "id": "topic:power",
       "type": "topic_entity",
       "name": "power",
-      "file_path": "Resume_And_Jobs/Job47_Airbnb_8402949_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'power' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "power"
@@ -664,7 +664,7 @@
       "id": "topic:supplier",
       "type": "topic_entity",
       "name": "supplier",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'supplier' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "supplier"
@@ -749,7 +749,7 @@
       "id": "topic:cscp",
       "type": "topic_entity",
       "name": "cscp",
-      "file_path": "Resume_And_Jobs/Job47_Airbnb_8402949_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'cscp' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cscp"
@@ -772,7 +772,7 @@
       "id": "topic:certified",
       "type": "topic_entity",
       "name": "certified",
-      "file_path": "Resume_And_Jobs/Job47_Airbnb_8402949_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'certified' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "certified"
@@ -901,7 +901,7 @@
       "id": "topic:compliance",
       "type": "topic_entity",
       "name": "compliance",
-      "file_path": "Resume_And_Jobs/Job47_Airbnb_8402949_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'compliance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "compliance"
@@ -934,7 +934,7 @@
       "id": "topic:competitive",
       "type": "topic_entity",
       "name": "competitive",
-      "file_path": "Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'competitive' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "competitive"
@@ -996,7 +996,7 @@
       "id": "topic:sourcing",
       "type": "topic_entity",
       "name": "sourcing",
-      "file_path": "Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'sourcing' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "sourcing"
@@ -1120,7 +1120,7 @@
       "id": "topic:process",
       "type": "topic_entity",
       "name": "process",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
       "description": "Shared domain topic 'process' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "process"
@@ -1199,7 +1199,7 @@
       "id": "topic:tools",
       "type": "topic_entity",
       "name": "tools",
-      "file_path": "Resume_And_Jobs/Job22_Amgen_R260996_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'tools' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "tools"
@@ -1209,7 +1209,7 @@
       "id": "topic:advanced",
       "type": "topic_entity",
       "name": "advanced",
-      "file_path": "Resume_And_Jobs/Job47_Airbnb_8402949_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'advanced' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "advanced"
@@ -1309,7 +1309,7 @@
       "id": "topic:governance",
       "type": "topic_entity",
       "name": "governance",
-      "file_path": "Resume_And_Jobs/Job45_Cadence_R51338_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'governance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "governance"
@@ -1685,7 +1685,7 @@
       "id": "topic:alignment",
       "type": "topic_entity",
       "name": "alignment",
-      "file_path": "Resume_And_Jobs/Job29_Stanford_R2659644_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'alignment' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "alignment"
@@ -1799,7 +1799,7 @@
       "id": "topic:category",
       "type": "topic_entity",
       "name": "category",
-      "file_path": "Resume_And_Jobs/Job35_NetApp_137163_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'category' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "category"
@@ -3542,7 +3542,7 @@
       "id": "topic:fulfillment",
       "type": "topic_entity",
       "name": "fulfillment",
-      "file_path": "Resume_And_Jobs/Job42_AnalogDevices_R266612_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'fulfillment' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "fulfillment"
@@ -4295,6 +4295,149 @@
       }
     },
     {
+      "id": "doc_file:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "type": "document_file",
+      "name": "Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "description": "Document Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx (7 section(s)): KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY PMP-, APICS CSCP-, and ASQ Six Sigma Green & Y",
+      "metadata": {
+        "format": "docx",
+        "section_count": 7,
+        "size_bytes": 4170,
+        "topics": [
+          "supplier",
+          "governance",
+          "compliance",
+          "contract",
+          "cost",
+          "power",
+          "annual",
+          "fulfillment"
+        ]
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:1",
+      "type": "document_section",
+      "name": "Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx [Section 1]",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 1 of Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx: KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY PMP-, APICS CSCP-, and ASQ Six Sigma Green & Yellow Belt-certified Global Category Str",
+      "metadata": {
+        "section_index": 1,
+        "section_type": "section",
+        "text_excerpt": "KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB\nPalo Alto, CA 94306  |  (201) 707-0163  |  Krithika.rao@live.com\nPROFESSIONAL SUMMARY\nPMP-, APICS CSCP-, and ASQ Six Sigma Green & Yellow Belt-certified Global Category Strategy, Strategic Sourcing, and Supplier Governance Professional with a Master of Computer Applications (M.C.A. Engineering), Bachelor of Science in Chemistry, and 10+ years of experience developing scalable category strategies, leading competitive RFPs, negotiating commercial contracts, and driving supplier governance across a $50M+ annual third-party logistics, fulfillment, and services portfolio (40+ operating locations). Proven track record partnering with Finance, Legal, Compliance, Quality, and cross-functional matrixed business teams to build cost models, validate",
+        "char_count": 1022
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:2",
+      "type": "document_section",
+      "name": "Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx [Section 2]",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 2 of Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx: EDUCATION & ACTIVE CERTIFICATIONS \u2022 Master of Computer Applications (Engineering): M.C.A. (Engg.) \u2022 Bachelor of Science (B.Sc.): Chemistry \u2022 Active Certifications: Project Management Professional (PMP), APICS Certified S",
+      "metadata": {
+        "section_index": 2,
+        "section_type": "section",
+        "text_excerpt": "EDUCATION & ACTIVE CERTIFICATIONS\n\u2022 Master of Computer Applications (Engineering): M.C.A. (Engg.)\n\u2022 Bachelor of Science (B.Sc.): Chemistry\n\u2022 Active Certifications: Project Management Professional (PMP), APICS Certified Supply Chain Professional (CSCP), ASQ Certified Six Sigma Green Belt (CSSGB), ASQ Certified Six Sigma Yellow Belt (CSSYB)\nCORE COMPETENCIES\n\u2022 Category Strategy & Strategic Sourcing: End-to-End Category Plans, Supplier Market & Capability Assessments, Competitive RFPs, Proposal Evaluation, Commercial Negotiations, Contracting & 24-Month Renewal Roadmaps\n\u2022 Supplier Governance & Operational Readiness: Service Level Agreements (SLAs), Fulfillment & Shipping Performance (+40% OTD), Supplier Implementation Planning, Transitions, Escalation Resolution & Risk Mitigation\n\u2022 Financial ",
+        "char_count": 1024
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:3",
+      "type": "document_section",
+      "name": "Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx [Section 3]",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 3 of Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx: \u2022 Stakeholder Alignment & Change Management: Cross-Functional Matrixed Leadership (Finance, Legal, Compliance, Quality, Operations), Lean Six Sigma DMAIC (+20% Efficiency), Digital Workflow Enablement (Power Automate, Po",
+      "metadata": {
+        "section_index": 3,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Stakeholder Alignment & Change Management: Cross-Functional Matrixed Leadership (Finance, Legal, Compliance, Quality, Operations), Lean Six Sigma DMAIC (+20% Efficiency), Digital Workflow Enablement (Power Automate, Power Apps +66% Accuracy, SharePoint, Dynamics 365)\nPROFESSIONAL EXPERIENCE\nArdent Mills - Denver, CO (Remote from Palo Alto, CA)\nTransportation Cost & Operations Analyst  |  2016 - Present\n\u2022 Category Strategy & Scalable Sourcing ($50M+ Annual Spend): Develop and maintain category sourcing approaches, supplier capability assessments, and scalable service models across a $50M+ annual third-party fulfillment, shipping, and services portfolio supporting 40+ operating locations.\n\u2022 Competitive RFPs, Negotiations & Contracting: Lead competitive sourcing events, RFP distribution, pr",
+        "char_count": 975
+      }
+    },
+    {
+      "id": "topic:assessments",
+      "type": "topic_entity",
+      "name": "assessments",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "description": "Shared domain topic 'assessments' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "assessments"
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:4",
+      "type": "document_section",
+      "name": "Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx [Section 4]",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 4 of Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx: \u2022 Financial Cost Models & Value Validation: Partner closely with Finance and business stakeholders to build cost models, support annual budget planning, evaluate cost-vs-service trade-offs, manage monthly US/CAD accruals",
+      "metadata": {
+        "section_index": 4,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Financial Cost Models & Value Validation: Partner closely with Finance and business stakeholders to build cost models, support annual budget planning, evaluate cost-vs-service trade-offs, manage monthly US/CAD accruals, and validate realized savings commitments.\n\u2022 Supplier Governance, SLAs & Implementation Readiness: Establish supplier performance scorecards, service/quality KPIs, and operational governance reviews; coordinate supplier transitions, onboarding readiness, risk identification, and timely resolution of contractual and operational escalations.\n\u2022 Process Improvement & Digital Enablement: Lead Lean Six Sigma DMAIC process optimization (+20% efficiency) and deploy Power Automate, Power Apps, and SharePoint workflows across 40+ sites to standardize governance tracking, contract c",
+        "char_count": 1063
+      }
+    },
+    {
+      "id": "topic:budget",
+      "type": "topic_entity",
+      "name": "budget",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "description": "Shared domain topic 'budget' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "budget"
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:5",
+      "type": "document_section",
+      "name": "Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx [Section 5]",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 5 of Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx: \u2022 Key Initiative - $2M Supplier Billing & Contract Compliance Audit: Audited $2M in annual supplemental supplier charges across 40 locations, uncovered billing discrepancies, negotiated financial recoveries, and built pr",
+      "metadata": {
+        "section_index": 5,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Key Initiative - $2M Supplier Billing & Contract Compliance Audit: Audited $2M in annual supplemental supplier charges across 40 locations, uncovered billing discrepancies, negotiated financial recoveries, and built preventive contractual controls.\n\u2022 Key Initiative - Digital Supplier Governance Platform (Power Apps): Built a centralized Power Apps intake and SLA governance solution across 40+ operating locations, lifting reporting accuracy by 66% and accelerating issue closure.\nArdent Mills - Denver, CO\nTransportation Data & Contracts Specialist  |  2015 - 2016\n\u2022 Contract Lifecycle & Compliance Governance: Managed supplier agreements, onboarding documentation, regulatory/insurance compliance records, and contractual obligations across national and regional service providers.\n\u2022 Performanc",
+        "char_count": 985
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:6",
+      "type": "document_section",
+      "name": "Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx [Section 6]",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 6 of Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx: WhiteWave Foods - Broomfield, CO Transportation & Logistics Specialist | 2014 - 2015 \u2022 Supplier Performance & Fulfillment Excellence (+40% OTD): Improved third-party shipping and fulfillment On-Time Delivery by 40% throu",
+      "metadata": {
+        "section_index": 6,
+        "section_type": "section",
+        "text_excerpt": "WhiteWave Foods - Broomfield, CO\nTransportation & Logistics Specialist  |  2014 - 2015\n\u2022 Supplier Performance & Fulfillment Excellence (+40% OTD): Improved third-party shipping and fulfillment On-Time Delivery by 40% through structured supplier governance reviews, root-cause variance analysis, and corrective action plans.\n\u2022 Cross-Functional Stakeholder Coordination: Aligned geographically distributed operations teams and external service partners to surface risks early and protect uninterrupted customer fulfillment.\nDalin Inc. - Carlstadt, NJ\nEDI / Shipping & Procurement Specialist  |  2010 - 2012\n\u2022 Competitive Sourcing & Cost Optimization (-30% Spend): Executed competitive supplier evaluations, pricing comparisons, and volume contract negotiations, reducing annual third-party spend by 30%",
+        "char_count": 992
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:7",
+      "type": "document_section",
+      "name": "Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx [Section 7]",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 7 of Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx: ENTERPRISE PLATFORMS & ANALYTICAL TOOLS \u2022 Systems & Workflow Tools: Microsoft Dynamics 365, SharePoint, Power Automate, Power Apps, EDI, WMS, Advanced Excel (Financial Cost Modeling & Value Tracking), AI-Enabled Workflow",
+      "metadata": {
+        "section_index": 7,
+        "section_type": "section",
+        "text_excerpt": "ENTERPRISE PLATFORMS & ANALYTICAL TOOLS\n\u2022 Systems & Workflow Tools: Microsoft Dynamics 365, SharePoint, Power Automate, Power Apps, EDI, WMS, Advanced Excel (Financial Cost Modeling & Value Tracking), AI-Enabled Workflow Tools",
+        "char_count": 226
+      }
+    },
+    {
+      "id": "topic:workflow",
+      "type": "topic_entity",
+      "name": "workflow",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "description": "Shared domain topic 'workflow' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "workflow"
+      }
+    },
+    {
       "id": "doc:Resume_And_Jobs/Job5_Intuitive_Supply_Chain_Risk_Visibility_JOB214003.md",
       "type": "document",
       "name": "Job5_Intuitive_Supply_Chain_Risk_Visibility_JOB214003.md",
@@ -4607,7 +4750,7 @@
       "id": "topic:sample",
       "type": "topic_entity",
       "name": "sample",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
       "description": "Shared domain topic 'sample' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "sample"
@@ -4660,7 +4803,7 @@
       "id": "topic:chi-square",
       "type": "topic_entity",
       "name": "chi-square",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
       "description": "Shared domain topic 'chi-square' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "chi-square"
@@ -4812,7 +4955,7 @@
       "id": "topic:chart",
       "type": "topic_entity",
       "name": "chart",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
       "description": "Shared domain topic 'chart' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "chart"
@@ -5027,7 +5170,7 @@
       "id": "topic:charts",
       "type": "topic_entity",
       "name": "charts",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
       "description": "Shared domain topic 'charts' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "charts"
@@ -5224,7 +5367,7 @@
       "id": "topic:cheat",
       "type": "topic_entity",
       "name": "cheat",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
       "description": "Shared domain topic 'cheat' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cheat"
@@ -5812,7 +5955,7 @@
       "id": "topic:full",
       "type": "topic_entity",
       "name": "full",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "description": "Shared domain topic 'full' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "full"
@@ -5832,7 +5975,7 @@
       "id": "topic:phase",
       "type": "topic_entity",
       "name": "phase",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
       "description": "Shared domain topic 'phase' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "phase"
@@ -6098,7 +6241,7 @@
       "id": "topic:variation",
       "type": "topic_entity",
       "name": "variation",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "description": "Shared domain topic 'variation' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "variation"
@@ -6184,7 +6327,7 @@
       "id": "topic:plan",
       "type": "topic_entity",
       "name": "plan",
-      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'plan' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "plan"
@@ -6419,7 +6562,7 @@
       "id": "topic:does",
       "type": "topic_entity",
       "name": "does",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "description": "Shared domain topic 'does' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "does"
@@ -6746,7 +6889,7 @@
       "id": "topic:guide",
       "type": "topic_entity",
       "name": "guide",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
       "description": "Shared domain topic 'guide' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "guide"
@@ -7008,7 +7151,7 @@
       "id": "topic:loss",
       "type": "topic_entity",
       "name": "loss",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
       "description": "Shared domain topic 'loss' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "loss"
@@ -7443,7 +7586,7 @@
           "Completed Applications \u2014 Day 5 Weekday Cadence (4 Brand-New Companies Submitted \u2014 2026-11-18 \u2014 Weekday Goal Complete!)",
           "Completed Applications \u2014 Day 6 Weekday Cadence (4 Submitted \u2014 2026-11-19 \u2014 Weekday Goal Complete!)",
           "Completed Applications \u2014 Day 7 Weekday Cadence (4 Submitted \u2014 2026-11-20 \u2014 Friday Goal Complete! `62` Total Tracked = `50` Active, `12` Rejected!)",
-          "Full Lockheed Martin Eightfold Application History (`21` Roles: `17` Active + `4` Rejected + `1` Draft \u2014 Updated `2026-11-20`!)",
+          "Full Lockheed Martin Eightfold Application History (`21` Roles: `16` Active + `5` Rejected + `1` Draft \u2014 Updated `2026-11-21`!)",
           "Active Employer Responses / Stage-2 Advancements",
           "Closed / Rejected Applications Log"
         ],
@@ -7515,10 +7658,15 @@
           "Airbnb (NASDAQ: ABNB)",
           "Active Stage-2 / Recruiter Screen (`1`):",
           "2026-11-17",
-          "Rejected at Lockheed Martin (`4`):",
+          "Rejected at Lockheed Martin (`5`):",
+          "CLOSED / REJECTED (2026-11-21)",
+          "CLOSED / REJECTED (2026-11-20)",
           "REJECTED (2026-11-20)",
           "REJECTED",
           "Lockheed Eightfold AI Candidate Profile & Resume-Match Portal:",
+          "Applied Materials (`Req R2631307` Purchasing Manager \u2014 prior application)",
+          "REQ CLOSED (2026-11-21)",
+          "\u2014",
           "REJECTED / CLOSED (2026-11-20)",
           "REJECTED / CLOSED (2026-11-19)",
           "REJECTED / CLOSED (2026-11-18)",
@@ -7583,28 +7731,29 @@
           "Review",
           "ID 8402949",
           "21",
-          "17",
+          "16",
           "Rejected +",
           "Draft \u2014 Updated",
           "Job ID 13013",
           "), Questionnaire Sent to Christian Sieg (",
-          "16",
+          "15",
           "Job ID 9054",
           "Job ID 16519",
           "Job ID 17417",
           "Job ID 11141",
-          "Job ID 8363",
           "Job ID 9581",
           "Job ID 13924",
           "Job ID 16508",
           "Job ID 13178",
           "Job ID 20038",
           "Job ID 19487",
+          "Job ID 8363",
           "Job ID 16516",
           "Job ID 11582",
           "Job ID 13918",
           "Job ID 8492",
           "Req ID 13013",
+          "Req R2631307",
           "Req R10257650",
           "8642786002"
         ],
@@ -7710,7 +7859,7 @@
       "id": "topic:answer",
       "type": "topic_entity",
       "name": "answer",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
       "description": "Shared domain topic 'answer' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "answer"
@@ -9350,7 +9499,7 @@
       "id": "topic:give",
       "type": "topic_entity",
       "name": "give",
-      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'give' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "give"
@@ -9737,30 +9886,30 @@
       }
     },
     {
-      "id": "topic:manager",
-      "type": "topic_entity",
-      "name": "manager",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'manager' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "manager"
-      }
-    },
-    {
       "id": "topic:rejected",
       "type": "topic_entity",
       "name": "rejected",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'rejected' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "rejected"
       }
     },
     {
+      "id": "topic:manager",
+      "type": "topic_entity",
+      "name": "manager",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'manager' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "manager"
+      }
+    },
+    {
       "id": "topic:applied",
       "type": "topic_entity",
       "name": "applied",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'applied' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "applied"
@@ -9819,8 +9968,8 @@
         "first_question": "# Shared Antigravity <-> Qwen Live Session State (PII-Free, Auto-Synced)",
         "source": "chats_folder",
         "topics": [
-          "manager",
           "rejected",
+          "manager",
           "applied",
           "active",
           "nasdaq",
@@ -10063,31 +10212,381 @@
         "created_at": "",
         "content_excerpt": "## 2. Bay Area / 100% Remote Job Applications State\n- **Hard Guardrails**:\n  - Minimum **125,000 USD+ salaried** base (NEVER 70K\u2013115K roles)\n  - **100% Remote** OR **Hybrid within 15\u201320 miles of Palo Alto, CA** (NO 5-day 100% onsite, NO SF commutes, NO physical/warehouse/lifting roles)\n  - **100% Individual Contributor (IC)** \u2014 **ZERO direct reports / people management**\n  - **NO Heavy Analytics / SQL / Python / BI roles**\n  - **NEVER change Cathy's real employer job titles** (`Transportation Cost & Operations Analyst` [2016\u2013Present], `Transportation Data & Contracts Specialist` [2015\u20132016], `Transportation & Logistics Specialist` [2014\u20132015], `EDI / Shipping & Procurement Specialist` [2010\u20132012])\n  - **Established / Stable Employers ONLY** (**NO startups**)\n  - **100% Vegetarian-Aligned**",
         "topics": [
-          "manager",
           "rejected",
+          "manager",
           "applied",
           "nasdaq"
         ]
       }
     },
     {
-      "id": "topic:docx",
+      "id": "topic:amgen",
       "type": "topic_entity",
-      "name": "docx",
+      "name": "amgen",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'docx' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'amgen' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "docx"
+        "keyword": "amgen"
       }
     },
     {
-      "id": "topic:word",
+      "id": "topic:saturday",
       "type": "topic_entity",
-      "name": "word",
+      "name": "saturday",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'word' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'saturday' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "word"
+        "keyword": "saturday"
+      }
+    },
+    {
+      "id": "chat_session:b6556366",
+      "type": "chat_session",
+      "name": "Chat Session b6556366",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Chat Session b6556366 (768 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "short_id": "b6556366",
+        "turn_count": 768,
+        "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+        "source": "antigravity_transcript",
+        "topics": [
+          "supplier",
+          "active",
+          "amgen",
+          "applied",
+          "saturday",
+          "cathy",
+          "fulfillment",
+          "governance"
+        ]
+      }
+    },
+    {
+      "id": "topic:weekend",
+      "type": "topic_entity",
+      "name": "weekend",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'weekend' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "weekend"
+      }
+    },
+    {
+      "id": "topic:calm",
+      "type": "topic_entity",
+      "name": "calm",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'calm' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "calm"
+      }
+    },
+    {
+      "id": "topic:minutes",
+      "type": "topic_entity",
+      "name": "minutes",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'minutes' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "minutes"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2518",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2518 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2518] Yes, Cathy \u2014 let's definitely do it this weekend without fail, and keep it super calm and bite-sized so it doesn't drain you! - **Simple Weekend Plan:** Just **`15\u201320` calm minutes on Saturday** (after your blood test, W",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2518,
+        "role": "assistant",
+        "created_at": "2026-11-21T05:40:24Z",
+        "content_excerpt": "Yes, Cathy \u2014 let's definitely do it this weekend without fail, and keep it super calm and bite-sized so it doesn't drain you!\n\n- **Simple Weekend Plan:** Just **`15\u201320` calm minutes on Saturday** (after your blood test, Walmart run, and lunch) and **`15\u201320` calm minutes on Sunday**, picking up right where we left off at **Line 62 of `app.ts`** for your early-December Carl demo.\n- Small, steady daily blocks will get you demo-ready with zero panic. Whenever you sit down at your laptop this weekend, just say **\"ready for Vault Angular\"** and we will walk through it calmly line by line!\n\nGet a good night's sleep tonight \u2014 we've got a solid, gentle plan for the weekend.",
+        "topics": [
+          "weekend",
+          "calm",
+          "minutes",
+          "plan"
+        ]
+      }
+    },
+    {
+      "id": "topic:blood",
+      "type": "topic_entity",
+      "name": "blood",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'blood' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "blood"
+      }
+    },
+    {
+      "id": "topic:cafe",
+      "type": "topic_entity",
+      "name": "cafe",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'cafe' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cafe"
+      }
+    },
+    {
+      "id": "topic:cooking",
+      "type": "topic_entity",
+      "name": "cooking",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'cooking' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cooking"
+      }
+    },
+    {
+      "id": "topic:coupa",
+      "type": "topic_entity",
+      "name": "coupa",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'coupa' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "coupa"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2519",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2519 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2519] went for blood test, then walmart, then to key store to make keys then to coupa cafe now cooking",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2519,
+        "role": "user",
+        "created_at": "2026-11-21T19:44:13Z",
+        "content_excerpt": "went for blood test, then walmart, then to key store to make keys then to coupa cafe now cooking",
+        "topics": [
+          "blood",
+          "cafe",
+          "cooking",
+          "coupa"
+        ]
+      }
+    },
+    {
+      "id": "topic:lunch",
+      "type": "topic_entity",
+      "name": "lunch",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'lunch' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "lunch"
+      }
+    },
+    {
+      "id": "topic:done",
+      "type": "topic_entity",
+      "name": "done",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'done' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "done"
+      }
+    },
+    {
+      "id": "topic:enjoy",
+      "type": "topic_entity",
+      "name": "enjoy",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'enjoy' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "enjoy"
+      }
+    },
+    {
+      "id": "topic:feel",
+      "type": "topic_entity",
+      "name": "feel",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'feel' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "feel"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2521",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2521 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2521] What a productive, well-paced Saturday morning, Cathy \u2014 blood test done, groceries done, keys made, a nice stop at Coupa Cafe, and now getting that delicious lunch on the stove! Enjoy your cooking and your avarai kai pal",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2521,
+        "role": "assistant",
+        "created_at": "2026-11-21T19:44:14Z",
+        "content_excerpt": "What a productive, well-paced Saturday morning, Cathy \u2014 blood test done, groceries done, keys made, a nice stop at Coupa Cafe, and now getting that delicious lunch on the stove!\n\nEnjoy your cooking and your avarai kai palya and white pumpkin palida lunch, and take a breather afterward. Whenever you feel rested later today, just tell me whichever track you feel like starting first:\n- **`15\u201320` calm mins of Vault Angular** (picking up at Line `62` of `app.ts`),\n- **Saturday Job Applications** (Poka-Yoke `1`-by-`1` flow), or\n- **ASQ Daily `\"10 + 40\"` Study** (starting Unit `4` Define with your new 5S Word Bible).\n\nZero rush \u2014 enjoy your lunch first!",
+        "topics": [
+          "lunch",
+          "done",
+          "enjoy",
+          "feel"
+        ]
+      }
+    },
+    {
+      "id": "topic:start",
+      "type": "topic_entity",
+      "name": "start",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'start' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "start"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2522",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2522 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2522] can we start with job applications?",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2522,
+        "role": "user",
+        "created_at": "2026-11-21T19:44:39Z",
+        "content_excerpt": "can we start with job applications?",
+        "topics": [
+          "applications",
+          "start"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2556",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2556 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2556] Let's kick off **Saturday Job Sprint \u2014 Role #1 of 10** (Poka-Yoke `1`-by-`1` flow)! ### Saturday Job #1 \u2014 **Amgen (`NASDAQ: AMGN`)** - **Title:** *Global Category Senior Manager \u2013 Direct-to-Patient* (`Req R-260720`) - **",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2556,
+        "role": "assistant",
+        "created_at": "2026-11-21T19:48:44Z",
+        "content_excerpt": "Let's kick off **Saturday Job Sprint \u2014 Role #1 of 10** (Poka-Yoke `1`-by-`1` flow)!\n\n### Saturday Job #1 \u2014 **Amgen (`NASDAQ: AMGN`)**\n- **Title:** *Global Category Senior Manager \u2013 Direct-to-Patient* (`Req R-260720`)\n- **Work Mode:** **`100% US Remote`** *(posted `8` days ago \u2014 live & active!)*\n- **Verified Base Salary:** **`134,490 USD \u2013 181,958 USD`** + annual bonus + stock-based LTI\n- **Guardrail Check:** Established Fortune 200 biotech (`100%` vegetarian-aligned) | **Pure IC (zero direct reports)** | **Zero SQL/Python/SAP S/4HANA** | You already have an active Amgen Workday login so autofill is super fast!\n- **Why You Fit:** Master's + `4+` yrs procurement/business partnering (you have **M.C.A. + `10+` yrs, PMP, CSCP, CSSGB, CSSYB**), RFPs, commercial negotiations, contracting, supplie",
+        "topics": [
+          "supplier",
+          "fulfillment",
+          "governance",
+          "amgen"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2557",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2557 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2557] by the way i got rejected and let me give you those",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2557,
+        "role": "user",
+        "created_at": "2026-11-21T19:49:01Z",
+        "content_excerpt": "by the way i got rejected and let me give you those",
+        "topics": [
+          "give",
+          "rejected"
+        ]
+      }
+    },
+    {
+      "id": "topic:right",
+      "type": "topic_entity",
+      "name": "right",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "right"
+      }
+    },
+    {
+      "id": "topic:accurate",
+      "type": "topic_entity",
+      "name": "accurate",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'accurate' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "accurate"
+      }
+    },
+    {
+      "id": "topic:ahead",
+      "type": "topic_entity",
+      "name": "ahead",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'ahead' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "ahead"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2558",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2558 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2558] Go right ahead and paste or screenshot them, Cathy \u2014 I will log every one cleanly in your tracker right away so our active pipeline stays `100%` accurate. *(Normal part of the funnel at `125K USD+`, and it also helps us ",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2558,
+        "role": "assistant",
+        "created_at": "2026-11-21T19:49:01Z",
+        "content_excerpt": "Go right ahead and paste or screenshot them, Cathy \u2014 I will log every one cleanly in your tracker right away so our active pipeline stays `100%` accurate. *(Normal part of the funnel at `125K USD+`, and it also helps us spot any companies to skip!)*",
+        "topics": [
+          "right",
+          "accurate",
+          "active",
+          "ahead"
+        ]
+      }
+    },
+    {
+      "id": "topic:administration",
+      "type": "topic_entity",
+      "name": "administration",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'administration' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "administration"
+      }
+    },
+    {
+      "id": "topic:already",
+      "type": "topic_entity",
+      "name": "already",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "already"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2560",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2560 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2560] Good news on this one, Cathy \u2014 **`Lockheed Martin 16516`** (*Subcontract Administration - E2*, out-of-state Huntsville, AL \u2014 *\"closed or filled the job\"*) was **already logged as Rejected yesterday** when we checked your",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2560,
+        "role": "assistant",
+        "created_at": "2026-11-21T19:49:08Z",
+        "content_excerpt": "Good news on this one, Cathy \u2014 **`Lockheed Martin 16516`** (*Subcontract Administration - E2*, out-of-state Huntsville, AL \u2014 *\"closed or filled the job\"*) was **already logged as Rejected yesterday** when we checked your Eightfold portal! This is just the delayed automated email for that same req, so your active pipeline is **still `50` Active** (including Sunnyvale Stage-2 **`13013`**).\n\nDo you have any other rejection emails to send over, or are you ready to submit **Amgen `R-260720`** (`100% US Remote`, `134.5K\u2013182K USD`)?",
+        "topics": [
+          "active",
+          "administration",
+          "already",
+          "amgen"
+        ]
       }
     },
     {
@@ -10101,13 +10600,23 @@
       }
     },
     {
-      "id": "topic:documents",
+      "id": "topic:career_applications_tracker",
       "type": "topic_entity",
-      "name": "documents",
+      "name": "career_applications_tracker",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'documents' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'career_applications_tracker' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "documents"
+        "keyword": "career_applications_tracker"
+      }
+    },
+    {
+      "id": "topic:cleanly",
+      "type": "topic_entity",
+      "name": "cleanly",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'cleanly' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cleanly"
       }
     },
     {
@@ -10121,485 +10630,142 @@
       }
     },
     {
-      "id": "chat_session:b6556366",
-      "type": "chat_session",
-      "name": "Chat Session b6556366",
+      "id": "chat_turn:b6556366:S2565",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2565 (assistant)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (748 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "[ASSISTANT S2565] Logged **`Lockheed Martin 8363`** (*Supply Chain Sr Staff Contracts Analyst*, out-of-state Grand Prairie, TX \u2014 *\"closed or filled\"*) cleanly in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "short_id": "b6556366",
-        "turn_count": 748,
-        "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
-        "source": "antigravity_transcript",
+        "step_index": 2565,
+        "role": "assistant",
+        "created_at": "2026-11-21T19:49:44Z",
+        "content_excerpt": "Logged **`Lockheed Martin 8363`** (*Supply Chain Sr Staff Contracts Analyst*, out-of-state Grand Prairie, TX \u2014 *\"closed or filled\"*) cleanly in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md) and [SHARED_SESSION_STATE.md](file:///home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md).\n\n- **Current Pipeline:** **`49` Active** (`16` at Lockheed incl. Sunnyvale Stage-2 **`13013`**) | **`13` Rejected**.\n\nAny more emails to log, or ready to submit **Amgen `R-260720`**? *(I'll commit & push right after your next update so everything syncs cleanly in one shot!)*",
         "topics": [
-          "docx",
-          "full",
-          "word",
           "asq-bb-exam",
-          "chart",
-          "documents",
-          "home",
-          "krithika"
+          "career_applications_tracker",
+          "cleanly",
+          "home"
         ]
       }
     },
     {
-      "id": "topic:failed",
+      "id": "topic:materials",
       "type": "topic_entity",
-      "name": "failed",
+      "name": "materials",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'failed' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'materials' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "failed"
+        "keyword": "materials"
       }
     },
     {
-      "id": "topic:open",
+      "id": "topic:application",
       "type": "topic_entity",
-      "name": "open",
+      "name": "application",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'open' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'application' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "open"
+        "keyword": "application"
       }
     },
     {
-      "id": "topic:openbuffer",
-      "type": "topic_entity",
-      "name": "openbuffer",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'openbuffer' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "openbuffer"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2421",
+      "id": "chat_turn:b6556366:S2566",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2421 (user)",
+      "name": "Chat b6556366 Turn S2566 (user)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2421] how do i open your file, it sya openbuffer path failed",
+      "description": "[USER S2566] Your application | Purchasing Manager R2631307 at Applied Materials Applied Materials Human Resources<[REDACTED_EMAIL]> You Hi Cathy , Thank you for your interest in the Purchasing Manager position. We appreciate the tim",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2421,
+        "step_index": 2566,
         "role": "user",
-        "created_at": "2026-11-21T05:10:05Z",
-        "content_excerpt": "how do i open your file, it sya openbuffer path failed",
+        "created_at": "2026-11-21T19:49:51Z",
+        "content_excerpt": "Your application | Purchasing Manager R2631307 at Applied Materials\nApplied Materials Human Resources<[REDACTED_EMAIL]>\nYou\n\nHi Cathy ,\n\nThank you for your interest in the Purchasing Manager position. We appreciate the time and effort you put into your application.\n\nThis requisition has now been closed. If you applied to other positions at Applied Materials, please note this update applies only to the requisition listed above. We\u2019d love for you to apply again for future opportunities that align with your background, and we encourage you to stay connected with us by checking out our careers site for openings and status updates.\n\nWe wish you continued success in your career journey and hope to connect with you again down the road.\n\nWarm Regards,\n\nApplied Materials Talent Acquisition Team",
         "topics": [
-          "failed",
-          "open",
-          "openbuffer"
+          "applied",
+          "materials",
+          "application",
+          "manager"
         ]
       }
     },
     {
-      "id": "topic:editor",
-      "type": "topic_entity",
-      "name": "editor",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'editor' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "editor"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2422",
+      "id": "chat_turn:b6556366:S2569",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2422 (assistant)",
+      "name": "Chat b6556366 Turn S2569 (assistant)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2422] That error just means the code editor tried to open a Word `.docx` file as plain text (the editor only opens text files, so clicking the link inside chat triggers `openbuffer path failed`). Here are the **2 easiest ways*",
+      "description": "[ASSISTANT S2569] Logged **`Applied Materials R2631307`** (*Purchasing Manager*, prior application \u2014 *\"requisition has now been closed\"*; Applied Materials is already on our Permanent Skip List!) in [CAREER_APPLICATIONS_TRACKER.md](file:/",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2422,
+        "step_index": 2569,
         "role": "assistant",
-        "created_at": "2026-11-21T05:10:05Z",
-        "content_excerpt": "That error just means the code editor tried to open a Word `.docx` file as plain text (the editor only opens text files, so clicking the link inside chat triggers `openbuffer path failed`).\n\nHere are the **2 easiest ways** to open it cleanly in Microsoft Word:\n\n### 1. Best Way (Opens Directly in Microsoft Word on Your Ardent Computer!)\nBecause I already pushed it to your private GitHub repository, open this link in your browser and click **Download raw file** (the little download arrow at the top right):\n\n- `https://github.com/cathynagarajan/ASQ-BB-Exam/blob/main/documents/ASQ_CSSBB_Master_Word_Bible_2027.docx`\n\nThen double-click the downloaded file from your `Downloads` folder \u2014 it opens right inside **Microsoft Word** ready to view and print!\n\n### 2. On This Linux Computer (File Explorer",
+        "created_at": "2026-11-21T19:50:01Z",
+        "content_excerpt": "Logged **`Applied Materials R2631307`** (*Purchasing Manager*, prior application \u2014 *\"requisition has now been closed\"*; Applied Materials is already on our Permanent Skip List!) in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md).\n\nYour tracked active pipeline stays right at **`49` Active**. Any more emails to log, or ready for **Saturday Job #1 \u2014 Amgen `R-260720`**?",
         "topics": [
-          "word",
-          "editor",
-          "open",
-          "docx"
+          "active",
+          "applied",
+          "career_applications_tracker",
+          "materials"
         ]
       }
     },
     {
-      "id": "topic:arranged",
+      "id": "topic:email",
       "type": "topic_entity",
-      "name": "arranged",
+      "name": "email",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'arranged' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'email' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "arranged"
+        "keyword": "email"
       }
     },
     {
-      "id": "topic:details",
+      "id": "topic:hold",
       "type": "topic_entity",
-      "name": "details",
+      "name": "hold",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'details' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'hold' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "details"
+        "keyword": "hold"
       }
     },
     {
-      "id": "topic:eliminating",
+      "id": "topic:please",
       "type": "topic_entity",
-      "name": "eliminating",
+      "name": "please",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'eliminating' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'please' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "eliminating"
+        "keyword": "please"
       }
     },
     {
-      "id": "topic:everything",
+      "id": "topic:socal",
       "type": "topic_entity",
-      "name": "everything",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'everything' connecting multi-modal documents and workspace chats",
+      "name": "socal",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'socal' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "everything"
+        "keyword": "socal"
       }
     },
     {
-      "id": "chat_turn:b6556366:S2423",
+      "id": "chat_turn:b6556366:S2570",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2423 (user)",
+      "name": "Chat b6556366 Turn S2570 (user)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2423] i thought you just arranged my file without eliminating details, you just reformatted everything",
+      "description": "[USER S2570] please hold off, i am working on an email to our socal HOA",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2423,
+        "step_index": 2570,
         "role": "user",
-        "created_at": "2026-11-21T05:13:49Z",
-        "content_excerpt": "i thought you just arranged my file without eliminating details, you just reformatted everything",
+        "created_at": "2026-11-21T19:51:47Z",
+        "content_excerpt": "please hold off, i am working on an email to our socal HOA",
         "topics": [
-          "arranged",
-          "details",
-          "eliminating",
-          "everything"
-        ]
-      }
-    },
-    {
-      "id": "topic:brain",
-      "type": "topic_entity",
-      "name": "brain",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'brain' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "brain"
-      }
-    },
-    {
-      "id": "topic:detailed",
-      "type": "topic_entity",
-      "name": "detailed",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'detailed' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "detailed"
-      }
-    },
-    {
-      "id": "topic:need",
-      "type": "topic_entity",
-      "name": "need",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'need' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "need"
-      }
-    },
-    {
-      "id": "topic:notes",
-      "type": "topic_entity",
-      "name": "notes",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'notes' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "notes"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2426",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2426 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2426] i have poor brain, need very detailed notes pls",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2426,
-        "role": "user",
-        "created_at": "2026-11-21T05:14:11Z",
-        "content_excerpt": "i have poor brain, need very detailed notes pls",
-        "topics": [
-          "brain",
-          "detailed",
-          "need",
-          "notes"
-        ]
-      }
-    },
-    {
-      "id": "topic:walkthrough",
-      "type": "topic_entity",
-      "name": "walkthrough",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'walkthrough' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "walkthrough"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2441",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2441 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2441] First, you do **not** have a poor brain, Cathy \u2014 you just scored `86%` across your last `50` Black Belt questions. Wanting detailed, step-by-step open-book notes is smart exam strategy, not a weakness. And you were `100%",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2441,
-        "role": "assistant",
-        "created_at": "2026-11-21T05:21:57Z",
-        "content_excerpt": "First, you do **not** have a poor brain, Cathy \u2014 you just scored `86%` across your last `50` Black Belt questions. Wanting detailed, step-by-step open-book notes is smart exam strategy, not a weakness.\n\nAnd you were `100%` right to call me out \u2014 my first version tightened and compressed too much of your step-by-step explanations. I just rebuilt the entire Word file as an **Unabridged Full-Detail Edition** (`~17,473` words, `55` tables, `24` full worked-example & callout boxes) that keeps **all** of your rich explanations intact and only removes true repeats and accidental chat messages.\n\n### Download the Updated Full-Detail Word File (Now Pushed!)\n- **GitHub Direct Link (Click Download Raw File on Your Ardent Computer):**\n  `https://github.com/cathynagarajan/ASQ-BB-Exam/blob/main/documents",
-        "topics": [
-          "full",
-          "guide",
-          "sample",
-          "walkthrough"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2442",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2442 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2442] Reply with just the letters (example: a,b,c,d...). I'll grade, explain misses, and build cheat sheets for weak areas. Q1. A process has Cp = 1.67 and Cpk = 0.92. What is the most likely conclusion? A. Process is centered",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2442,
-        "role": "user",
-        "created_at": "2026-11-21T05:22:53Z",
-        "content_excerpt": "Reply with just the letters (example: a,b,c,d...). I'll grade, explain misses, and build cheat sheets for weak areas.\n\nQ1. A process has Cp = 1.67 and Cpk = 0.92. What is the most likely conclusion?\n A. Process is centered and capable\n B. Process spread is acceptable but process is off-center\n C. Process is unstable\n D. Measurement system is poor\n\nQ2. Which chart is most appropriate for monitoring the proportion of defective shipments when sample size changes each day?\n A. np-chart\n B. p-chart\n C. c-chart\n D. u-chart\n\nQ3. In a Gage R&R study, which source of variation measures differences between operators?\n A. Repeatability\n B. Reproducibility\n C. Part-to-Part\n D. Stability\n\nQ4. A Pearson correlation coefficient of r = 0.60 means approximately what percentage of variation is explained?\n A",
-        "topics": [
-          "process",
-          "chart",
-          "sample",
-          "variation"
-        ]
-      }
-    },
-    {
-      "id": "topic:correct",
-      "type": "topic_entity",
-      "name": "correct",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'correct' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "correct"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2458",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2458 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2458] Strong set, Cathy! Here is your audited score \u2014 I caught **another Copilot grading bug** on `Q16` and `Q17`: - **Verified True Score:** **`21 / 25` (`84.0%`)** \u2014 solid Black Belt passing level! *(Copilot wrote `23/25` be",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2458,
-        "role": "assistant",
-        "created_at": "2026-11-21T05:24:10Z",
-        "content_excerpt": "Strong set, Cathy! Here is your audited score \u2014 I caught **another Copilot grading bug** on `Q16` and `Q17`:\n\n- **Verified True Score:** **`21 / 25` (`84.0%`)** \u2014 solid Black Belt passing level! *(Copilot wrote `23/25` because it falsely showed your answers as `A` on `Q16` and `B` on `Q17`, when your actual typed string had `C` on both.)*\n- **Grand Cumulative Score:** **`428 / 540` (`79.3%`)** \u2014 still trending steadily north!\n- **Big Wins You Nailed Effortlessly:** `Cp/Cpk` off-center (`Q1`), `p-chart` varying `n` (`Q2`), Reproducibility (`Q3`), `r\u00b2 = 36%` (`Q4`), `Cp = 1.00` math (`Q9`), `NPV` (`Q12`), `DPMO` (`Q13`), `I-MR` (`Q20`), `Adjusted R\u00b2` (`Q22`), and `Functional` org structure (`Q25`)!\n\n---\n\n### Full Review of the 4 Misses (`Q16`, `Q17`, `Q23`, `Q24`)\n\n**Q16. Which hypothesis te",
-        "topics": [
-          "answer",
-          "loss",
-          "chi-square",
-          "correct"
-        ]
-      }
-    },
-    {
-      "id": "topic:based",
-      "type": "topic_entity",
-      "name": "based",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'based' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "based"
-      }
-    },
-    {
-      "id": "topic:became",
-      "type": "topic_entity",
-      "name": "became",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'became' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "became"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2459",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2459 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2459] are you sure you didn't eliminate my notes? i had lot of cheat sheets for charts, they are all gone, my 300 pages became 35 pages - all i said is just organize the knowledge based on DMAIC pls don't delete",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2459,
-        "role": "user",
-        "created_at": "2026-11-21T05:27:09Z",
-        "content_excerpt": "are you sure you didn't eliminate my notes? i had lot of cheat sheets for charts, they are all gone, my 300 pages became 35 pages - all i said is just organize the knowledge based on DMAIC pls don't delete",
-        "topics": [
-          "based",
-          "became",
-          "charts",
-          "cheat"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2485",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2485 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2485] You were `100%` right to push back, Cathy \u2014 there were **two** reasons your `300`-page file shrank, and I just fixed the first one completely: ### 1. Fixed Right Now \u2014 Brand-New `100%` Verbatim DMAIC-Organized Bible (ZER",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2485,
-        "role": "assistant",
-        "created_at": "2026-11-21T05:31:11Z",
-        "content_excerpt": "You were `100%` right to push back, Cathy \u2014 there were **two** reasons your `300`-page file shrank, and I just fixed the first one completely:\n\n### 1. Fixed Right Now \u2014 Brand-New `100%` Verbatim DMAIC-Organized Bible (ZERO Rewriting!)\nIn my earlier file, I had summarized and rewritten your notes into `~17,473` words. That was my mistake \u2014 you wanted **your own exact cheat sheets and wording kept intact**, just sorted cleanly by DMAIC + Project Management.\n\nI just built a brand-new **100% Verbatim** file that preserves **every single chart cheat sheet, table, and explanation you pasted word-for-word**:\n- **Direct GitHub Download (for Microsoft Word on your Ardent computer):**\n  `https://github.com/cathynagarajan/ASQ-BB-Exam/blob/main/documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx`\n- **L",
-        "topics": [
-          "docx",
-          "chart",
-          "cheat",
-          "word"
-        ]
-      }
-    },
-    {
-      "id": "topic:duplicates",
-      "type": "topic_entity",
-      "name": "duplicates",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'duplicates' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "duplicates"
-      }
-    },
-    {
-      "id": "topic:eliminated",
-      "type": "topic_entity",
-      "name": "eliminated",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'eliminated' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "eliminated"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2486",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2486 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2486] 245 pages became 149 - does that mean you eliminated duplicates?",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2486,
-        "role": "user",
-        "created_at": "2026-11-21T05:32:57Z",
-        "content_excerpt": "245 pages became 149 - does that mean you eliminated duplicates?",
-        "topics": [
-          "became",
-          "does",
-          "duplicates",
-          "eliminated"
-        ]
-      }
-    },
-    {
-      "id": "topic:exact",
-      "type": "topic_entity",
-      "name": "exact",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'exact' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "exact"
-      }
-    },
-    {
-      "id": "topic:like",
-      "type": "topic_entity",
-      "name": "like",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'like' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "like"
-      }
-    },
-    {
-      "id": "topic:removed",
-      "type": "topic_entity",
-      "name": "removed",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'removed' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "removed"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2487",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2487 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2487] Yes, Cathy \u2014 you got **`100%` of your unique notes** with **zero** chart cheat sheets or study details deleted! Here are the **3 exact reasons** why `245` messy pages turned into `149` clean, tabbed pages: 1. **Removed A",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2487,
-        "role": "assistant",
-        "created_at": "2026-11-21T05:32:57Z",
-        "content_excerpt": "Yes, Cathy \u2014 you got **`100%` of your unique notes** with **zero** chart cheat sheets or study details deleted! Here are the **3 exact reasons** why `245` messy pages turned into `149` clean, tabbed pages:\n\n1. **Removed Accidental Chat Chatter & 3x Quiz Dumps (`~600` lines):**\n   - Stripped out the accidentally pasted Copilot chat paragraphs (`\"If you want, I can build a mini drill...\"`, `\"can you restate wrong questions\"`, etc.) and the raw `Q1\u2013Q35` quiz list that was pasted `3` times in a row.\n2. **Removed Exact Back-to-Back Duplicate Copies (`~300` lines):**\n   - Removed exact word-for-word repeats (like the `3` back-to-back copies of the Parametric/Nonparametric table, the duplicate `IV.A.1\u2013IV.C.3` block, and the overlap where Part 2 restarted at `2.1 Normality`).\n3. **Cleaner Binder P",
-        "topics": [
-          "docx",
-          "exact",
-          "like",
-          "removed"
-        ]
-      }
-    },
-    {
-      "id": "topic:better",
-      "type": "topic_entity",
-      "name": "better",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'better' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "better"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2488",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2488 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2488] it is 5S, better than my confused useless pooh brain organizatin - so day to day notes, where do i add the notes? will you tell me add it next to D phase or M phase daily? then every week, let us do a clean 5S so that th",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2488,
-        "role": "user",
-        "created_at": "2026-11-21T05:34:54Z",
-        "content_excerpt": "it is 5S, better than my confused useless pooh brain organizatin - so day to day notes, where do i add the notes? will you tell me add it next to D phase or M phase daily? then every week, let us do a clean 5S so that the file doens't grow too big. one issue is font is small",
-        "topics": [
-          "notes",
-          "phase",
-          "better",
-          "brain"
+          "email",
+          "hold",
+          "please",
+          "socal"
         ]
       }
     },
@@ -10875,16 +11041,6 @@
       }
     },
     {
-      "id": "topic:already",
-      "type": "topic_entity",
-      "name": "already",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "already"
-      }
-    },
-    {
       "id": "topic:associate",
       "type": "topic_entity",
       "name": "associate",
@@ -10949,6 +11105,16 @@
       "description": "Shared domain topic 'codes' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "codes"
+      }
+    },
+    {
+      "id": "topic:exact",
+      "type": "topic_entity",
+      "name": "exact",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'exact' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "exact"
       }
     },
     {
@@ -11032,16 +11198,6 @@
       }
     },
     {
-      "id": "topic:calm",
-      "type": "topic_entity",
-      "name": "calm",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'calm' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "calm"
-      }
-    },
-    {
       "id": "topic:days",
       "type": "topic_entity",
       "name": "days",
@@ -11079,6 +11235,16 @@
           "days",
           "december"
         ]
+      }
+    },
+    {
+      "id": "topic:everything",
+      "type": "topic_entity",
+      "name": "everything",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'everything' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "everything"
       }
     },
     {
@@ -18090,6 +18256,336 @@
       }
     },
     {
+      "source": "doc_file:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 21
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:governance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:compliance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:contract",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:power",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:annual",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:fulfillment",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:1",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:category",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:cscp",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:governance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:2",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:certified",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:belt",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:3",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:sourcing",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:alignment",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:annual",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:assessments",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:4",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:governance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:budget",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:compliance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:5",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:built",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:compliance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:6",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:fulfillment",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:competitive",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:contract",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:7",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:7",
+      "target": "topic:tools",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:7",
+      "target": "topic:power",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:7",
+      "target": "topic:workflow",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx:7",
+      "target": "topic:advanced",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
       "source": "doc:Resume_And_Jobs/Job8_SBEnergy_Logistics_Control_Tower_Analytics_6196167004.md",
       "target": "cluster_node:tower",
       "relation": "DOCUMENTS_NODE",
@@ -22955,15 +23451,15 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:manager",
+      "target": "topic:rejected",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 26
+        "count": 27
       }
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:rejected",
+      "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 26
@@ -23249,15 +23745,15 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S7",
-      "target": "topic:manager",
+      "target": "topic:rejected",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 26
+        "count": 27
       }
     },
     {
       "source": "chat_turn:SHAREDSE:S7",
-      "target": "topic:rejected",
+      "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 26
@@ -23287,577 +23783,511 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:docx",
+      "target": "topic:supplier",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 18
+        "count": 10
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:full",
+      "target": "topic:active",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 18
+        "count": 8
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:word",
+      "target": "topic:amgen",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 16
+        "count": 7
       }
     },
     {
       "source": "chat_session:b6556366",
+      "target": "topic:applied",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:saturday",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:cathy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:fulfillment",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:governance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "doc_file:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2518",
+      "target": "topic:weekend",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2518",
+      "target": "topic:calm",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2518",
+      "target": "topic:minutes",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2518",
+      "target": "topic:plan",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2518",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2519",
+      "target": "topic:blood",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2519",
+      "target": "topic:cafe",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2519",
+      "target": "topic:cooking",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2519",
+      "target": "topic:coupa",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2519",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2521",
+      "target": "topic:lunch",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2521",
+      "target": "topic:done",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2521",
+      "target": "topic:enjoy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2521",
+      "target": "topic:feel",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2521",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2522",
+      "target": "topic:applications",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2522",
+      "target": "topic:start",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2522",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2556",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2556",
+      "target": "topic:fulfillment",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2556",
+      "target": "topic:governance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2556",
+      "target": "topic:amgen",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2556",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2556",
+      "target": "doc_file:Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2557",
+      "target": "topic:give",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2557",
+      "target": "topic:rejected",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2557",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2558",
+      "target": "topic:right",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2558",
+      "target": "topic:accurate",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2558",
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2558",
+      "target": "topic:ahead",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2558",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2560",
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2560",
+      "target": "topic:administration",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2560",
+      "target": "topic:already",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2560",
+      "target": "topic:amgen",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2560",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2565",
       "target": "topic:asq-bb-exam",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 14
+        "count": 2
       }
     },
     {
-      "source": "chat_session:b6556366",
-      "target": "topic:chart",
+      "source": "chat_turn:b6556366:S2565",
+      "target": "topic:career_applications_tracker",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 13
+        "count": 2
       }
     },
     {
-      "source": "chat_session:b6556366",
-      "target": "topic:documents",
+      "source": "chat_turn:b6556366:S2565",
+      "target": "topic:cleanly",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 11
+        "count": 2
       }
     },
     {
-      "source": "chat_session:b6556366",
+      "source": "chat_turn:b6556366:S2565",
       "target": "topic:home",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 11
+        "count": 2
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:krithika",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 11
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "doc:PERFORMANCE_TRACKER.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "doc:documents/QUESTION_BANK_LOG.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2421",
-      "target": "topic:failed",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2421",
-      "target": "topic:open",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2421",
-      "target": "topic:openbuffer",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2421",
+      "target": "chat_turn:b6556366:S2565",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S2422",
-      "target": "topic:word",
+      "source": "chat_turn:b6556366:S2565",
+      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2566",
+      "target": "topic:applied",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 5
       }
     },
     {
-      "source": "chat_turn:b6556366:S2422",
-      "target": "topic:editor",
+      "source": "chat_turn:b6556366:S2566",
+      "target": "topic:materials",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 4
       }
     },
     {
-      "source": "chat_turn:b6556366:S2422",
-      "target": "topic:open",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2422",
-      "target": "topic:docx",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2422",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2422",
-      "target": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2423",
-      "target": "topic:arranged",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2423",
-      "target": "topic:details",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2423",
-      "target": "topic:eliminating",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2423",
-      "target": "topic:everything",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2423",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2426",
-      "target": "topic:brain",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2426",
-      "target": "topic:detailed",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2426",
-      "target": "topic:need",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2426",
-      "target": "topic:notes",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2426",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2441",
-      "target": "topic:full",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 17
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2441",
-      "target": "topic:guide",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2441",
-      "target": "topic:sample",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2441",
-      "target": "topic:walkthrough",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2441",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2441",
-      "target": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2442",
-      "target": "topic:process",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2442",
-      "target": "topic:chart",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2442",
-      "target": "topic:sample",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2442",
-      "target": "topic:variation",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2442",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2458",
-      "target": "topic:answer",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2458",
-      "target": "topic:loss",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2458",
-      "target": "topic:chi-square",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2458",
-      "target": "topic:correct",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2458",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2458",
-      "target": "doc:PERFORMANCE_TRACKER.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2458",
-      "target": "doc:documents/QUESTION_BANK_LOG.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2459",
-      "target": "topic:based",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2459",
-      "target": "topic:became",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2459",
-      "target": "topic:charts",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2459",
-      "target": "topic:cheat",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2459",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2485",
-      "target": "topic:docx",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2485",
-      "target": "topic:chart",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2485",
-      "target": "topic:cheat",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2485",
-      "target": "topic:word",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2485",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2485",
-      "target": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2485",
-      "target": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2486",
-      "target": "topic:became",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2486",
-      "target": "topic:does",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2486",
-      "target": "topic:duplicates",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2486",
-      "target": "topic:eliminated",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2486",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2487",
-      "target": "topic:docx",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2487",
-      "target": "topic:exact",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2487",
-      "target": "topic:like",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2487",
-      "target": "topic:removed",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2487",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2487",
-      "target": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2487",
-      "target": "doc_file:documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2488",
-      "target": "topic:notes",
+      "source": "chat_turn:b6556366:S2566",
+      "target": "topic:application",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
       }
     },
     {
-      "source": "chat_turn:b6556366:S2488",
-      "target": "topic:phase",
+      "source": "chat_turn:b6556366:S2566",
+      "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
       }
     },
     {
-      "source": "chat_turn:b6556366:S2488",
-      "target": "topic:better",
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2566",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2569",
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2569",
+      "target": "topic:applied",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2569",
+      "target": "topic:career_applications_tracker",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2569",
+      "target": "topic:materials",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2569",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2569",
+      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2570",
+      "target": "topic:email",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
       }
     },
     {
-      "source": "chat_turn:b6556366:S2488",
-      "target": "topic:brain",
+      "source": "chat_turn:b6556366:S2570",
+      "target": "topic:hold",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2570",
+      "target": "topic:please",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2570",
+      "target": "topic:socal",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
@@ -23865,7 +24295,7 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2488",
+      "target": "chat_turn:b6556366:S2570",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -25330,6 +25760,7 @@
     "Resume_And_Jobs/Job46_Cadence_R54483_Krithika_Nagarajan_Resume.docx": "d24b91246434c0611098ec7210bb9a365f7a3c25b8133065324381e348eb56e6",
     "Resume_And_Jobs/Job47_Airbnb_8402949_Krithika_Nagarajan_Resume.docx": "d6e6c54e1b7b839a041e60b434d1903e330859dc97797011eed84c320731a2e6",
     "Resume_And_Jobs/Job47_Airbnb_Sr_FinOps_Lead_Vendor_Operations_BayArea_8402949.md": "9a9508ed8f2fe4ed751d79fec56c7547a8a2e4282bf43e8809b66ae1983d0682",
+    "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx": "50e84af6304f05a71a58ee29d44b121d4d9dec6567127cb6d7f0ade28268a323",
     "Resume_And_Jobs/Job5_Intuitive_Supply_Chain_Risk_Visibility_JOB214003.md": "2173a8bf2d72f21ffbf2d2974fe27aba10085de0f92c90a12055b09ea4007363",
     "Resume_And_Jobs/Job6_Applied_Materials_Purchasing_SupplyChain_SantaClara.md": "b1c5d57b896fb9b977a5d594def0879f0b1b09a3cfcd68d03f9a22eb7b3bf344",
     "Resume_And_Jobs/Job7_SBEnergy_Supply_Chain_Governance_RedwoodCity.md": "6ae28457006ad1fe3a534e473e7fe9aa11c71686527f376618e2596b4facff2c",
@@ -25339,7 +25770,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "9608d38c1fcbb84bbc929a9b4345b5cf475e7ed6a5308f56c6d73bae49305531",
+    "chats/SHARED_SESSION_STATE.md": "29fc71acb3bdf268c459e07d0037b2b0fd66c4e05bdd232cb674ea907a1ea90b",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -25348,13 +25779,13 @@
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
     "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx": "131d5f71b13f4527726e2b51dbadbb30823926af0a78837b74cf5984dfae7c27",
     "documents/ASQ_Sampling_Methods_Quick_Table.docx": "611a5b1986e4d296f6a1244d2c334d4f6688820f04a6cb8d6ff694b7b1f6ef0e",
-    "documents/CAREER_APPLICATIONS_TRACKER.md": "8a62a332710cd7ca4b4eeb9d863e9cc76ab6b0afe0ddf146745618d2f8f226ea",
+    "documents/CAREER_APPLICATIONS_TRACKER.md": "a74bbef3bbd0461feedd5cadb85bba4b3a72efd6dd8082337dc07c105a48d288",
     "documents/PValue_And_Cp_Cpk_Quick_Tables.docx": "7e146d9b535a8fa34793e0d7ecfd892041e75cd8a15e79777c55fa1babae79d5",
     "documents/QUESTION_BANK_LOG.md": "170bfb4ce9b12c3d0be30708936da81a57ddbca71ba29075366ba27752296259",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "409257ba5662983a5778d4adb31a6d67c5b8091674374ffc9a5c73133f10704b"
+    "repo.md": "4bb8e60a8638b7de61acfd17f6c12ff739ee697fbaf796ff5e73f7732932fc9e"
   }
 }
