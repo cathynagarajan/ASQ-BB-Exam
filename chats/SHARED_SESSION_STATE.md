@@ -56,7 +56,7 @@
   - **100% Remote** OR **Hybrid within 15–20 miles of Palo Alto, CA** (NO 5-day 100% onsite, NO SF commutes, NO physical/warehouse/lifting roles)
   - **100% Individual Contributor (IC)** — **ZERO direct reports / people management**
   - **NO Heavy Analytics / SQL / Python / BI roles**
-  - **NEVER change Cathy's real employer job titles** (`Transportation Cost & Operations Analyst` [2016–Present], `Transportation Data & Contracts Specialist` [2015–2016], `Transportation & Logistics Specialist` [2014–2015], `EDI / Shipping & Procurement Specialist` [2010–2012])
+  - **NEVER change Cathy's real employer job titles** (`Transportation Specialist` [2016–Present], `Transportation Data Specialist` [2015–2016], `Transportation & Logistics Specialist` [2014–2015], `EDI / Shipping & Procurement Specialist` [2010–2012])
   - **Established / Stable Employers ONLY** (**NO startups**)
   - **100% Vegetarian-Aligned** — **NO meat, egg, poultry, seafood, or animal-slaughter companies**
   - **Skipped Employers**: Apple, Applied Materials, Supermicro, Cisco, Cardinal Health (low pay), Vital Farms (eggs); note Thermo Fisher `R-01357010` returned HTTP 410 (closed).

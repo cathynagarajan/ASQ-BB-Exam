@@ -6,7 +6,7 @@
 - **Minimum Base Salary:** Strictly **125,000 USD+ salaried** (skip anything below 125K USD).
 - **Location / Work Mode:** Either **100% Remote** OR **Hybrid within 15 to 20 miles of Palo Alto, CA** (NO 5-day 100% onsite, NO SF commutes, NO physical/warehouse/lifting roles).
 - **Employer Stability:** Strictly **established / stable employers ONLY (NO startups)**.
-- **Scope Rule:** Strictly **Individual Contributor (IC) roles ONLY** (**ZERO direct reports / people-management requirements**), **NO heavy data-analytics / SQL / Python / BI roles**, and **NEVER change Cathy's real employer job titles** (`Transportation Cost & Operations Analyst`, `Transportation Data & Contracts Specialist`, `Transportation & Logistics Specialist`, `EDI / Shipping & Procurement Specialist`).
+- **Scope Rule:** Strictly **Individual Contributor (IC) roles ONLY** (**ZERO direct reports / people-management requirements**), **NO heavy data-analytics / SQL / Python / BI roles**, and **NEVER change Cathy's real employer job titles** (`Transportation Specialist` [2016–Present], `Transportation Data Specialist` [2015–2016], `Transportation & Logistics Specialist` [2014–2015], `EDI / Shipping & Procurement Specialist` [2010–2012]).
 - **Vegetarian Ethics Rule:** Strictly **NO meat, egg, poultry, fish/seafood, or animal-slaughter companies**!
 - **Skipped Employers (Per Cathy):** Skip Apple, Applied Materials, Supermicro, Cisco, Cardinal Health (low pay), Vital Farms (eggs), HP/HPE (hire/fire), Coinbase (legal degree), Matternet (lifting/onsite), Northrop Grumman (internal-wired federal compliance postings), startups.
 

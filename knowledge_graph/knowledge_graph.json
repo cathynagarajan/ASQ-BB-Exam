@@ -1,45 +1,45 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-21T20:52:29.337049+00:00",
+    "generated_at": "2026-11-21T20:56:31.091603+00:00",
     "total_files_indexed": 92,
-    "total_nodes": 910,
-    "total_edges": 1918,
+    "total_nodes": 909,
+    "total_edges": 1914,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
       "document": 53,
       "document_file": 37,
-      "document_section": 263,
+      "document_section": 262,
       "html_template": 1,
       "topic_entity": 502
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [
-      "Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx"
-    ],
+    "added": [],
     "modified": [
+      "QWEN.md",
+      "Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx",
       "chats/SHARED_SESSION_STATE.md",
       "documents/CAREER_APPLICATIONS_TRACKER.md"
     ],
     "removed": [],
-    "files_parsed": 2,
-    "files_cached_reused": 89,
+    "files_parsed": 3,
+    "files_cached_reused": 88,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 28,
+      "nodes_upserted": 18,
       "nodes_deleted": 4,
-      "edges_upserted": 62,
-      "edges_deleted": 9,
-      "wiki_pages_upserted": 1,
+      "edges_upserted": 21,
+      "edges_deleted": 20,
+      "wiki_pages_upserted": 2,
       "wiki_pages_deleted": 0,
-      "files_upserted": 4,
+      "files_upserted": 5,
       "files_deleted": 0,
-      "total_nodes_in_db": 910,
-      "total_edges_in_db": 1918,
+      "total_nodes_in_db": 909,
+      "total_edges_in_db": 1914,
       "total_files_tracked": 93
     }
   },
@@ -378,8 +378,8 @@
           "kg_vectors_asq_bb_exam",
           "--no-verify",
           "3 to 5",
-          "Transportation Cost & Operations Analyst",
-          "Transportation Data & Contracts Specialist",
+          "Transportation Specialist",
+          "Transportation Data Specialist",
           "Transportation & Logistics Specialist",
           "EDI / Shipping & Procurement Specialist",
           "/home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/",
@@ -644,7 +644,7 @@
       "id": "topic:power",
       "type": "topic_entity",
       "name": "power",
-      "file_path": "Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'power' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "power"
@@ -934,7 +934,7 @@
       "id": "topic:competitive",
       "type": "topic_entity",
       "name": "competitive",
-      "file_path": "Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'competitive' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "competitive"
@@ -1166,7 +1166,7 @@
       "id": "topic:delivery",
       "type": "topic_entity",
       "name": "delivery",
-      "file_path": "Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job47_Airbnb_8402949_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'delivery' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "delivery"
@@ -1209,7 +1209,7 @@
       "id": "topic:advanced",
       "type": "topic_entity",
       "name": "advanced",
-      "file_path": "Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'advanced' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "advanced"
@@ -1219,7 +1219,7 @@
       "id": "topic:ai-enabled",
       "type": "topic_entity",
       "name": "ai-enabled",
-      "file_path": "Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job50_Airbnb_8403001_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'ai-enabled' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "ai-enabled"
@@ -2287,7 +2287,7 @@
       "id": "topic:transportation",
       "type": "topic_entity",
       "name": "transportation",
-      "file_path": "Resume_And_Jobs/Job36_Ciena_R031966_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'transportation' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "transportation"
@@ -3532,7 +3532,7 @@
       "id": "topic:specialist",
       "type": "topic_entity",
       "name": "specialist",
-      "file_path": "Resume_And_Jobs/Job42_AnalogDevices_R266612_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'specialist' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "specialist"
@@ -4682,11 +4682,11 @@
       "type": "document_file",
       "name": "Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx",
       "file_path": "Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx",
-      "description": "Document Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx (7 section(s)): KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY PMP-, APICS CSCP-, and ASQ Six Sigma Green & Y",
+      "description": "Document Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx (6 section(s)): KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY PMP-, APICS CSCP-, and ASQ Six Sigma Green & Y",
       "metadata": {
         "format": "docx",
-        "section_count": 7,
-        "size_bytes": 4055,
+        "section_count": 6,
+        "size_bytes": 4041,
         "topics": [
           "supplier",
           "contract",
@@ -4734,8 +4734,8 @@
       "metadata": {
         "section_index": 3,
         "section_type": "section",
-        "text_excerpt": "\u2022 Cross-Functional PMO & Digital Automation: Stakeholder Influence across IT, Engineering, PMO, Legal & Finance; Lean Six Sigma DMAIC (+20% Efficiency); Microsoft Dynamics 365, Power Automate, Power Apps (+66% Accuracy), SharePoint, EDI\nPROFESSIONAL EXPERIENCE\nArdent Mills - Denver, CO (Remote from Palo Alto, CA)\nTransportation Cost & Operations Analyst  |  2016 - Present\n\u2022 Indirect Strategic Sourcing & TCO Optimization ($50M+ Annual Portfolio): Identify sourcing alternatives, lead competitive quotes and supplier benchmarking, and negotiate commercial pricing and terms across a $50M+ annual third-party portfolio supporting 40+ operating locations.\n\u2022 Contracting, Legal Redlines & Supplier Lifecycle Management: Partner with Legal, Finance, IT, and operational stakeholders to draft/review com",
-        "char_count": 925
+        "text_excerpt": "\u2022 Cross-Functional PMO & Digital Automation: Stakeholder Influence across IT, Engineering, PMO, Legal & Finance; Lean Six Sigma DMAIC (+20% Efficiency); Microsoft Dynamics 365, Power Automate, Power Apps (+66% Accuracy), SharePoint, EDI\nPROFESSIONAL EXPERIENCE\nArdent Mills - Denver, CO (Remote from Palo Alto, CA)\nTransportation Specialist  |  2016 - Present\n\u2022 Indirect Strategic Sourcing & TCO Optimization ($50M+ Annual Portfolio): Identify sourcing alternatives, lead competitive quotes and supplier benchmarking, and negotiate commercial pricing and terms across a $50M+ annual third-party portfolio supporting 40+ operating locations.\n\u2022 Contracting, Legal Redlines & Supplier Lifecycle Management: Partner with Legal, Finance, IT, and operational stakeholders to draft/review commercial agreeme",
+        "char_count": 910
       }
     },
     {
@@ -4760,8 +4760,8 @@
       "metadata": {
         "section_index": 5,
         "section_type": "section",
-        "text_excerpt": "\u2022 Key Initiative - $2M Supplier Billing & Contract Compliance Audit: Audited $2M in annual supplemental supplier charges across 40 sites, uncovered contract variances, negotiated recoveries, and instituted preventive source-to-pay controls.\n\u2022 Key Initiative - Centralized Vendor Governance App (Power Apps): Built a centralized Power Apps intake and SLA governance platform across 40+ sites, improving reporting accuracy by 66%.\nArdent Mills - Denver, CO\nTransportation Data & Contracts Specialist  |  2015 - 2016\n\u2022 Contract Lifecycle & Compliance Administration: Managed supplier agreements, commercial terms, onboarding files, insurance certificates, and compliance records across national and regional vendors.\n\u2022 Supplier Performance & Value Scorecards: Built and maintained supplier KPI scorecard",
-        "char_count": 908
+        "text_excerpt": "\u2022 Key Initiative - $2M Supplier Billing & Contract Compliance Audit: Audited $2M in annual supplemental supplier charges across 40 sites, uncovered contract variances, negotiated recoveries, and instituted preventive source-to-pay controls.\n\u2022 Key Initiative - Centralized Vendor Governance App (Power Apps): Built a centralized Power Apps intake and SLA governance platform across 40+ sites, improving reporting accuracy by 66%.\nArdent Mills - Denver, CO\nTransportation Data Specialist  |  2015 - 2016\n\u2022 Contract Lifecycle & Compliance Administration: Managed supplier agreements, commercial terms, onboarding files, insurance certificates, and compliance records across national and regional vendors.\n\u2022 Supplier Performance & Value Scorecards: Built and maintained supplier KPI scorecards monitoring",
+        "char_count": 950
       }
     },
     {
@@ -4769,25 +4769,12 @@
       "type": "document_section",
       "name": "Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx [Section 6]",
       "file_path": "Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx",
-      "description": "Section 6 of Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx: Transportation & Logistics Specialist | 2014 - 2015 \u2022 Supplier Performance Turnaround (+40% OTD): Improved third-party supplier On-Time Delivery by 40% through structured supplier governance reviews, root-cause variance ",
+      "description": "Section 6 of Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx: \u2022 Supplier Performance Turnaround (+40% OTD): Improved third-party supplier On-Time Delivery by 40% through structured supplier governance reviews, root-cause variance analysis, and corrective action plans. \u2022 Cross-Funct",
       "metadata": {
         "section_index": 6,
         "section_type": "section",
-        "text_excerpt": "Transportation & Logistics Specialist  |  2014 - 2015\n\u2022 Supplier Performance Turnaround (+40% OTD): Improved third-party supplier On-Time Delivery by 40% through structured supplier governance reviews, root-cause variance analysis, and corrective action plans.\n\u2022 Cross-Functional Stakeholder Coordination: Guided geographically distributed operations teams and external partners to resolve commercial and delivery bottlenecks.\nDalin Inc. - Carlstadt, NJ\nEDI / Shipping & Procurement Specialist  |  2010 - 2012\n\u2022 Competitive Sourcing & Cost Reduction (-30% Spend): Executed competitive supplier evaluations and negotiated volume agreements, lowering annual third-party spend by 30%.\n\u2022 Supplier Onboarding & EDI Systems Integration: Managed global/domestic vendor onboarding, contract rate configuratio",
-        "char_count": 869
-      }
-    },
-    {
-      "id": "doc_sec:Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx:7",
-      "type": "document_section",
-      "name": "Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx [Section 7]",
-      "file_path": "Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx",
-      "description": "Section 7 of Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx: \u2022 Platforms: Microsoft Dynamics 365 (ERP), SharePoint, Power Automate, Power Apps, EDI, WMS, Advanced Excel (TCO & Financial Analysis), Angular / TypeScript, AI-Enabled Workflow Tools",
-      "metadata": {
-        "section_index": 7,
-        "section_type": "section",
-        "text_excerpt": "\u2022 Platforms: Microsoft Dynamics 365 (ERP), SharePoint, Power Automate, Power Apps, EDI, WMS, Advanced Excel (TCO & Financial Analysis), Angular / TypeScript, AI-Enabled Workflow Tools",
-        "char_count": 183
+        "text_excerpt": "\u2022 Supplier Performance Turnaround (+40% OTD): Improved third-party supplier On-Time Delivery by 40% through structured supplier governance reviews, root-cause variance analysis, and corrective action plans.\n\u2022 Cross-Functional Stakeholder Coordination: Guided geographically distributed operations teams and external partners to resolve commercial and delivery bottlenecks.\nDalin Inc. - Carlstadt, NJ\nEDI / Shipping & Procurement Specialist  |  2010 - 2012\n\u2022 Competitive Sourcing & Cost Reduction (-30% Spend): Executed competitive supplier evaluations and negotiated volume agreements, lowering annual third-party spend by 30%.\n\u2022 Supplier Onboarding & EDI Systems Integration: Managed global/domestic vendor onboarding, contract rate configuration, and EDI systems integration.\nENTERPRISE SYSTEMS & A",
+        "char_count": 999
       }
     },
     {
@@ -8033,8 +8020,8 @@
           "Northrop Grumman",
           "Resume_And_Jobs/",
           "kg_vectors_asq_bb_exam",
-          "Transportation Cost & Operations Analyst",
-          "Transportation Data & Contracts Specialist",
+          "Transportation Specialist",
+          "Transportation Data Specialist",
           "Transportation & Logistics Specialist",
           "EDI / Shipping & Procurement Specialist",
           "Req R2656254",
@@ -10575,23 +10562,13 @@
         "step_index": 7,
         "role": "assistant",
         "created_at": "",
-        "content_excerpt": "## 2. Bay Area / 100% Remote Job Applications State\n- **Hard Guardrails**:\n  - Minimum **125,000 USD+ salaried** base (NEVER 70K\u2013115K roles)\n  - **100% Remote** OR **Hybrid within 15\u201320 miles of Palo Alto, CA** (NO 5-day 100% onsite, NO SF commutes, NO physical/warehouse/lifting roles)\n  - **100% Individual Contributor (IC)** \u2014 **ZERO direct reports / people management**\n  - **NO Heavy Analytics / SQL / Python / BI roles**\n  - **NEVER change Cathy's real employer job titles** (`Transportation Cost & Operations Analyst` [2016\u2013Present], `Transportation Data & Contracts Specialist` [2015\u20132016], `Transportation & Logistics Specialist` [2014\u20132015], `EDI / Shipping & Procurement Specialist` [2010\u20132012])\n  - **Established / Stable Employers ONLY** (**NO startups**)\n  - **100% Vegetarian-Aligned**",
+        "content_excerpt": "## 2. Bay Area / 100% Remote Job Applications State\n- **Hard Guardrails**:\n  - Minimum **125,000 USD+ salaried** base (NEVER 70K\u2013115K roles)\n  - **100% Remote** OR **Hybrid within 15\u201320 miles of Palo Alto, CA** (NO 5-day 100% onsite, NO SF commutes, NO physical/warehouse/lifting roles)\n  - **100% Individual Contributor (IC)** \u2014 **ZERO direct reports / people management**\n  - **NO Heavy Analytics / SQL / Python / BI roles**\n  - **NEVER change Cathy's real employer job titles** (`Transportation Specialist` [2016\u2013Present], `Transportation Data Specialist` [2015\u20132016], `Transportation & Logistics Specialist` [2014\u20132015], `EDI / Shipping & Procurement Specialist` [2010\u20132012])\n  - **Established / Stable Employers ONLY** (**NO startups**)\n  - **100% Vegetarian-Aligned** \u2014 **NO meat, egg, poultry,",
         "topics": [
           "manager",
           "rejected",
           "applied",
           "active"
         ]
-      }
-    },
-    {
-      "id": "topic:amgen",
-      "type": "topic_entity",
-      "name": "amgen",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'amgen' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "amgen"
       }
     },
     {
@@ -10609,122 +10586,22 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (775 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (777 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 775,
+        "turn_count": 777,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
-          "vendor",
           "supplier",
-          "active",
-          "amgen",
-          "krithika",
+          "vendor",
+          "contract",
+          "specialist",
+          "across",
           "onboarding",
           "saturday",
-          "across"
-        ]
-      }
-    },
-    {
-      "id": "topic:administration",
-      "type": "topic_entity",
-      "name": "administration",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'administration' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "administration"
-      }
-    },
-    {
-      "id": "topic:already",
-      "type": "topic_entity",
-      "name": "already",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "already"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2560",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2560 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2560] Good news on this one, Cathy \u2014 **`Lockheed Martin 16516`** (*Subcontract Administration - E2*, out-of-state Huntsville, AL \u2014 *\"closed or filled the job\"*) was **already logged as Rejected yesterday** when we checked your",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2560,
-        "role": "assistant",
-        "created_at": "2026-11-21T19:49:08Z",
-        "content_excerpt": "Good news on this one, Cathy \u2014 **`Lockheed Martin 16516`** (*Subcontract Administration - E2*, out-of-state Huntsville, AL \u2014 *\"closed or filled the job\"*) was **already logged as Rejected yesterday** when we checked your Eightfold portal! This is just the delayed automated email for that same req, so your active pipeline is **still `50` Active** (including Sunnyvale Stage-2 **`13013`**).\n\nDo you have any other rejection emails to send over, or are you ready to submit **Amgen `R-260720`** (`100% US Remote`, `134.5K\u2013182K USD`)?",
-        "topics": [
-          "active",
-          "administration",
-          "already",
-          "amgen"
-        ]
-      }
-    },
-    {
-      "id": "topic:asq-bb-exam",
-      "type": "topic_entity",
-      "name": "asq-bb-exam",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "asq-bb-exam"
-      }
-    },
-    {
-      "id": "topic:career_applications_tracker",
-      "type": "topic_entity",
-      "name": "career_applications_tracker",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'career_applications_tracker' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "career_applications_tracker"
-      }
-    },
-    {
-      "id": "topic:cleanly",
-      "type": "topic_entity",
-      "name": "cleanly",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'cleanly' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "cleanly"
-      }
-    },
-    {
-      "id": "topic:home",
-      "type": "topic_entity",
-      "name": "home",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'home' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "home"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2565",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2565 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2565] Logged **`Lockheed Martin 8363`** (*Supply Chain Sr Staff Contracts Analyst*, out-of-state Grand Prairie, TX \u2014 *\"closed or filled\"*) cleanly in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2565,
-        "role": "assistant",
-        "created_at": "2026-11-21T19:49:44Z",
-        "content_excerpt": "Logged **`Lockheed Martin 8363`** (*Supply Chain Sr Staff Contracts Analyst*, out-of-state Grand Prairie, TX \u2014 *\"closed or filled\"*) cleanly in [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md) and [SHARED_SESSION_STATE.md](file:///home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md).\n\n- **Current Pipeline:** **`49` Active** (`16` at Lockheed incl. Sunnyvale Stage-2 **`13013`**) | **`13` Rejected**.\n\nAny more emails to log, or ready to submit **Amgen `R-260720`**? *(I'll commit & push right after your next update so everything syncs cleanly in one shot!)*",
-        "topics": [
-          "asq-bb-exam",
-          "career_applications_tracker",
-          "cleanly",
-          "home"
+          "power"
         ]
       }
     },
@@ -10766,6 +10643,16 @@
           "application",
           "manager"
         ]
+      }
+    },
+    {
+      "id": "topic:career_applications_tracker",
+      "type": "topic_entity",
+      "name": "career_applications_tracker",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'career_applications_tracker' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "career_applications_tracker"
       }
     },
     {
@@ -10846,6 +10733,26 @@
           "please",
           "socal"
         ]
+      }
+    },
+    {
+      "id": "topic:amgen",
+      "type": "topic_entity",
+      "name": "amgen",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'amgen' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "amgen"
+      }
+    },
+    {
+      "id": "topic:cleanly",
+      "type": "topic_entity",
+      "name": "cleanly",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'cleanly' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cleanly"
       }
     },
     {
@@ -11094,6 +11001,66 @@
       }
     },
     {
+      "id": "chat_turn:b6556366:S2615",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2615 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2615] Logged **Saturday Job #3 \u2014 Airbnb `8403001`** (`Submitted`, `Active: 2` at Airbnb; **`52` Active** total | pushed `034c509` | KG: `910` nodes, `1,918` edges, `910` vectors)! --- ### Saturday Job #4 \u2014 **Zoox (Amazon Subsi",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2615,
+        "role": "assistant",
+        "created_at": "2026-11-21T20:52:33Z",
+        "content_excerpt": "Logged **Saturday Job #3 \u2014 Airbnb `8403001`** (`Submitted`, `Active: 2` at Airbnb; **`52` Active** total | pushed `034c509` | KG: `910` nodes, `1,918` edges, `910` vectors)!\n\n---\n\n### Saturday Job #4 \u2014 **Zoox (Amazon Subsidiary)**\n- **Title:** *Senior Strategic Sourcing Manager, IT Software & Services* (`ID 4f5ce2df-d9ef-4fac-98a6-a80e0cf54252`)\n- **Work Mode:** **Foster City, CA \u2014 Hybrid `3` days/week (`~14` miles from Palo Alto!)**\n- **Verified Base Salary:** **`182,000 USD \u2013 219,000 USD`** + Amazon RSUs + Zoox SARs + sign-on bonus\n- **Guardrail Check:** Amazon-backed established employer (`100%` vegetarian-aligned) | **Pure IC (zero direct reports)** | **Indirect Sourcing (NOT auto chassis/hardware!)** | **Zero SQL / Python / SAP S/4HANA** | Fast 60-second Lever form!\n- **Why You Fit:**",
+        "topics": [
+          "supplier",
+          "contract",
+          "across",
+          "competitive"
+        ]
+      }
+    },
+    {
+      "id": "topic:analys",
+      "type": "topic_entity",
+      "name": "analys",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'analys' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "analys"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2616",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2616 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2616] can you pls not change my title? first is Transportation specialist and the second one in Ardent is Transportation Data Specialist - remember they downgraded me from analys tto specialist, hourly?",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2616,
+        "role": "user",
+        "created_at": "2026-11-21T20:54:52Z",
+        "content_excerpt": "can you pls not change my title? first is Transportation specialist and the second one in Ardent is Transportation Data Specialist - remember they downgraded me from analys tto specialist, hourly?",
+        "topics": [
+          "specialist",
+          "transportation",
+          "analys",
+          "ardent"
+        ]
+      }
+    },
+    {
+      "id": "topic:home",
+      "type": "topic_entity",
+      "name": "home",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'home' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "home"
+      }
+    },
+    {
       "id": "topic:workspace",
       "type": "topic_entity",
       "name": "workspace",
@@ -11101,6 +11068,16 @@
       "description": "Shared domain topic 'workspace' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "workspace"
+      }
+    },
+    {
+      "id": "topic:asq-bb-exam",
+      "type": "topic_entity",
+      "name": "asq-bb-exam",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "asq-bb-exam"
       }
     },
     {
@@ -11362,6 +11339,16 @@
           "exam",
           "final"
         ]
+      }
+    },
+    {
+      "id": "topic:already",
+      "type": "topic_entity",
+      "name": "already",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "already"
       }
     },
     {
@@ -19781,7 +19768,7 @@
     },
     {
       "source": "doc_sec:Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx:6",
-      "target": "topic:competitive",
+      "target": "topic:analysis",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
@@ -19789,48 +19776,10 @@
     },
     {
       "source": "doc_sec:Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx:6",
-      "target": "topic:delivery",
+      "target": "topic:competitive",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
-      }
-    },
-    {
-      "source": "doc_file:Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx",
-      "target": "doc_sec:Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx:7",
-      "relation": "CONTAINS_SECTION",
-      "metadata": {}
-    },
-    {
-      "source": "doc_sec:Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx:7",
-      "target": "topic:power",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "doc_sec:Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx:7",
-      "target": "topic:advanced",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "doc_sec:Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx:7",
-      "target": "topic:ai-enabled",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "doc_sec:Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx:7",
-      "target": "topic:analysis",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
       }
     },
     {
@@ -25031,58 +24980,34 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:vendor",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 18
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
       "target": "topic:supplier",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 14
+        "count": 24
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:active",
+      "target": "topic:vendor",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 8
+        "count": 20
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:amgen",
+      "target": "topic:contract",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 8
+        "count": 12
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:krithika",
+      "target": "topic:specialist",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:onboarding",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:saturday",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
+        "count": 12
       }
     },
     {
@@ -25090,7 +25015,31 @@
       "target": "topic:across",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 7
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:onboarding",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:saturday",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:power",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
       }
     },
     {
@@ -25113,88 +25062,12 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "target": "doc_file:Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S2560",
-      "target": "topic:active",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2560",
-      "target": "topic:administration",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2560",
-      "target": "topic:already",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2560",
-      "target": "topic:amgen",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2560",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2565",
-      "target": "topic:asq-bb-exam",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2565",
-      "target": "topic:career_applications_tracker",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2565",
-      "target": "topic:cleanly",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2565",
-      "target": "topic:home",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2565",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2565",
       "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
@@ -25569,6 +25442,88 @@
       "source": "chat_turn:b6556366:S2607",
       "target": "doc_file:Resume_And_Jobs/Job50_Airbnb_8403001_Krithika_Nagarajan_Resume.docx",
       "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2615",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2615",
+      "target": "topic:contract",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2615",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2615",
+      "target": "topic:competitive",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2615",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2615",
+      "target": "doc_file:Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2616",
+      "target": "topic:specialist",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2616",
+      "target": "topic:transportation",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2616",
+      "target": "topic:analys",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2616",
+      "target": "topic:ardent",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2616",
+      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -26970,7 +26925,7 @@
   ],
   "file_hashes": {
     "PERFORMANCE_TRACKER.md": "15df86732a130814c96c621bebe57163d00c9dee756cdae4883ced4086831e4c",
-    "QWEN.md": "6e9bfae0c3111c035554b5665633852565d2c4b1651b999e3986f56edcc57fe8",
+    "QWEN.md": "6c6bbd4cb233372ac6a980ad37dc9e7e6722d4b179cfef7a874fab8459ab1d17",
     "README.md": "506319462ce0f0d62f6cbed53d6d0cdfa3c40623a05eacd6b881d9c3ddd8facf",
     "STUDY_ROADMAP_MAR2027.md": "0565fb20c8f9008ab7629f78fed3bdf076952045a4567cca7ccebd4e1e986a27",
     "Resume_And_Jobs/Job10_Roblox_Vendor_Operations_Automation_8174264.md": "acf7b6b7324dc73435da51226b5d6739d9f5e7876ef33d6bbc31810959bca9b2",
@@ -27035,7 +26990,7 @@
     "Resume_And_Jobs/Job48_Amgen_R260720_Krithika_Nagarajan_Resume.docx": "50e84af6304f05a71a58ee29d44b121d4d9dec6567127cb6d7f0ade28268a323",
     "Resume_And_Jobs/Job49_Cencora_R2615474_Krithika_Nagarajan_Resume.docx": "4f2cc62ad9a4e2feaa22ca2bfbf028c9a1c112be74cdf782f464e1ddddff72b8",
     "Resume_And_Jobs/Job50_Airbnb_8403001_Krithika_Nagarajan_Resume.docx": "e48936fff6551cf5962d4902615c8abf8990a2f3acbec638fed567eef5f1cfde",
-    "Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx": "ed28c5a06aa66f9a73636c27f92db8d73bf8580cb13ef63147c4cf531294b329",
+    "Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx": "0164a7246c8b3d0125b2593fd19cfad23947387429aecf5828612c002d97f61c",
     "Resume_And_Jobs/Job5_Intuitive_Supply_Chain_Risk_Visibility_JOB214003.md": "2173a8bf2d72f21ffbf2d2974fe27aba10085de0f92c90a12055b09ea4007363",
     "Resume_And_Jobs/Job6_Applied_Materials_Purchasing_SupplyChain_SantaClara.md": "b1c5d57b896fb9b977a5d594def0879f0b1b09a3cfcd68d03f9a22eb7b3bf344",
     "Resume_And_Jobs/Job7_SBEnergy_Supply_Chain_Governance_RedwoodCity.md": "6ae28457006ad1fe3a534e473e7fe9aa11c71686527f376618e2596b4facff2c",
@@ -27045,7 +27000,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "dac36a803eb500e6b201746b099db26650ef8644fcba4a24de8513319c1a5ba3",
+    "chats/SHARED_SESSION_STATE.md": "904ad9efb8ea80f3af32096049cf48b6f95f700cb6036923e3a5cbf324cfb7fa",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -27054,13 +27009,13 @@
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
     "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx": "131d5f71b13f4527726e2b51dbadbb30823926af0a78837b74cf5984dfae7c27",
     "documents/ASQ_Sampling_Methods_Quick_Table.docx": "611a5b1986e4d296f6a1244d2c334d4f6688820f04a6cb8d6ff694b7b1f6ef0e",
-    "documents/CAREER_APPLICATIONS_TRACKER.md": "63004d726802c868824e0be481dd70e4a5262eea39f1222268094527d0347d21",
+    "documents/CAREER_APPLICATIONS_TRACKER.md": "bea1db5e9774a229a4aa4ea16673eabeeef39d65072ea89a6531be5fa31ea7e5",
     "documents/PValue_And_Cp_Cpk_Quick_Tables.docx": "7e146d9b535a8fa34793e0d7ecfd892041e75cd8a15e79777c55fa1babae79d5",
     "documents/QUESTION_BANK_LOG.md": "170bfb4ce9b12c3d0be30708936da81a57ddbca71ba29075366ba27752296259",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "3b96aff1669f59bc9adf157f40a70bd7fcad361db5afdc1868e37f98629227d1"
+    "repo.md": "886988df36e8408cab193a068998add9f338a11ccfc317920b043af0c88d9785"
   }
 }
