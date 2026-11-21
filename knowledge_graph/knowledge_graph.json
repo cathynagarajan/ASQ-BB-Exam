@@ -1,46 +1,45 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-21T04:48:22.092293+00:00",
-    "total_files_indexed": 86,
-    "total_nodes": 778,
-    "total_edges": 1577,
+    "generated_at": "2026-11-21T05:09:04.467553+00:00",
+    "total_files_indexed": 87,
+    "total_nodes": 831,
+    "total_edges": 1671,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
       "document": 53,
-      "document_file": 31,
-      "document_section": 207,
+      "document_file": 32,
+      "document_section": 222,
       "html_template": 1,
-      "topic_entity": 432
+      "topic_entity": 469
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [],
+    "added": [
+      "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx"
+    ],
     "modified": [
-      "PERFORMANCE_TRACKER.md",
-      "chats/SHARED_SESSION_STATE.md",
-      "documents/QUESTION_BANK_LOG.md",
-      "documents/Unit3_Team_Management_Bible_Table.docx"
+      "chats/SHARED_SESSION_STATE.md"
     ],
     "removed": [],
-    "files_parsed": 3,
-    "files_cached_reused": 82,
+    "files_parsed": 1,
+    "files_cached_reused": 85,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 66,
-      "nodes_deleted": 40,
-      "edges_upserted": 93,
-      "edges_deleted": 81,
-      "wiki_pages_upserted": 2,
+      "nodes_upserted": 102,
+      "nodes_deleted": 21,
+      "edges_upserted": 146,
+      "edges_deleted": 50,
+      "wiki_pages_upserted": 0,
       "wiki_pages_deleted": 0,
-      "files_upserted": 5,
+      "files_upserted": 3,
       "files_deleted": 0,
-      "total_nodes_in_db": 778,
-      "total_edges_in_db": 1577,
-      "total_files_tracked": 87
+      "total_nodes_in_db": 831,
+      "total_edges_in_db": 1671,
+      "total_files_tracked": 88
     }
   },
   "nodes": [
@@ -733,7 +732,7 @@
       "id": "topic:computer",
       "type": "topic_entity",
       "name": "computer",
-      "file_path": "Resume_And_Jobs/Job42_AnalogDevices_R266612_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'computer' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "computer"
@@ -970,7 +969,7 @@
       "id": "topic:quality",
       "type": "topic_entity",
       "name": "quality",
-      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'quality' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "quality"
@@ -990,7 +989,7 @@
       "id": "topic:sourcing",
       "type": "topic_entity",
       "name": "sourcing",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "Resume_And_Jobs/Job40_Jabil_J2464637_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'sourcing' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "sourcing"
@@ -1114,7 +1113,7 @@
       "id": "topic:process",
       "type": "topic_entity",
       "name": "process",
-      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'process' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "process"
@@ -1193,7 +1192,7 @@
       "id": "topic:tools",
       "type": "topic_entity",
       "name": "tools",
-      "file_path": "Resume_And_Jobs/Job22_Amgen_R260996_Krithika_Nagarajan_Resume.docx",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "description": "Shared domain topic 'tools' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "tools"
@@ -1409,7 +1408,7 @@
       "id": "topic:performance",
       "type": "topic_entity",
       "name": "performance",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job47_Airbnb_8402949_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'performance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "performance"
@@ -1679,7 +1678,7 @@
       "id": "topic:alignment",
       "type": "topic_entity",
       "name": "alignment",
-      "file_path": "Resume_And_Jobs/Job29_Stanford_R2659644_Krithika_Nagarajan_Resume.docx",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "description": "Shared domain topic 'alignment' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "alignment"
@@ -1874,7 +1873,7 @@
       "id": "topic:dmaic",
       "type": "topic_entity",
       "name": "dmaic",
-      "file_path": "Resume_And_Jobs/Job30_Gilead_R0056314_Krithika_Nagarajan_Resume.docx",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "description": "Shared domain topic 'dmaic' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "dmaic"
@@ -2107,7 +2106,7 @@
       "id": "topic:sigma",
       "type": "topic_entity",
       "name": "sigma",
-      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'sigma' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "sigma"
@@ -2214,7 +2213,7 @@
       "id": "topic:issue",
       "type": "topic_entity",
       "name": "issue",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
       "description": "Shared domain topic 'issue' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "issue"
@@ -3712,7 +3711,7 @@
       "id": "topic:risk",
       "type": "topic_entity",
       "name": "risk",
-      "file_path": "Resume_And_Jobs/Job44_Gilead_R0055591_Krithika_Nagarajan_Resume.docx",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "description": "Shared domain topic 'risk' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "risk"
@@ -3849,7 +3848,7 @@
       "id": "topic:master",
       "type": "topic_entity",
       "name": "master",
-      "file_path": "Resume_And_Jobs/Job45_Cadence_R51338_Krithika_Nagarajan_Resume.docx",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "description": "Shared domain topic 'master' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "master"
@@ -4486,7 +4485,7 @@
       "id": "topic:defects",
       "type": "topic_entity",
       "name": "defects",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'defects' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "defects"
@@ -4516,7 +4515,7 @@
       "id": "topic:time",
       "type": "topic_entity",
       "name": "time",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet.txt",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "description": "Shared domain topic 'time' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "time"
@@ -4611,7 +4610,7 @@
       "id": "topic:anova",
       "type": "topic_entity",
       "name": "anova",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'anova' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "anova"
@@ -5218,7 +5217,7 @@
       "id": "topic:cheat",
       "type": "topic_entity",
       "name": "cheat",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
       "description": "Shared domain topic 'cheat' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cheat"
@@ -5614,7 +5613,7 @@
       "id": "topic:part",
       "type": "topic_entity",
       "name": "part",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "description": "Shared domain topic 'part' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "part"
@@ -5800,6 +5799,573 @@
           "[DMAIC Phase] \u2014 [ASQ BoK Code & Title] (Cognitive Level)"
         ],
         "format": "md"
+      }
+    },
+    {
+      "id": "topic:domain",
+      "type": "topic_entity",
+      "name": "domain",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'domain' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "domain"
+      }
+    },
+    {
+      "id": "topic:phase",
+      "type": "topic_entity",
+      "name": "phase",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'phase' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "phase"
+      }
+    },
+    {
+      "id": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "type": "document_file",
+      "name": "ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Document ASQ_CSSBB_Master_Word_Bible_2027.docx (15 section(s)): CATHY'S PROMETRIC OPEN-BOOK EXAM BINDER | LEAN 5S CLEAN EDITION ASQ CERTIFIED SIX SIGMA BLACK BELT (CSSBB) MASTER WORD BIBLE Strictly Aligned to Official ASQ 2022 Body of Knowledge",
+      "metadata": {
+        "format": "docx",
+        "section_count": 15,
+        "size_bytes": 62390,
+        "topics": [
+          "domain",
+          "phase",
+          "chart",
+          "control",
+          "tools",
+          "exam",
+          "master",
+          "time"
+        ]
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:1",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Master_Word_Bible_2027.docx [Section 1]",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Section 1 of ASQ_CSSBB_Master_Word_Bible_2027.docx: CATHY'S PROMETRIC OPEN-BOOK EXAM BINDER | LEAN 5S CLEAN EDITION ASQ CERTIFIED SIX SIGMA BLACK BELT (CSSBB) MASTER WORD BIBLE Strictly Aligned to Official ASQ 2022 Body of Knowledge (165 Qs = 150 Scored + 15 Pilot | 4h 18",
+      "metadata": {
+        "section_index": 1,
+        "section_type": "section",
+        "text_excerpt": "CATHY'S PROMETRIC OPEN-BOOK EXAM BINDER  |  LEAN 5S CLEAN EDITION\nASQ CERTIFIED SIX SIGMA BLACK BELT (CSSBB) MASTER WORD BIBLE\nStrictly Aligned to Official ASQ 2022 Body of Knowledge (165 Qs = 150 Scored + 15 Pilot | 4h 18m | Passing: 550/750)\nMaster 11-Tab Binder Index (Insert Plastic Divider Tabs at Each Page Break)\nTab\nASQ 2022 BoK Domain\nExam Qs\nKey Topics Inside This Tab",
+        "char_count": 378
+      }
+    },
+    {
+      "id": "topic:binder",
+      "type": "topic_entity",
+      "name": "binder",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'binder' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "binder"
+      }
+    },
+    {
+      "id": "topic:aligned",
+      "type": "topic_entity",
+      "name": "aligned",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'aligned' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "aligned"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:2",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Master_Word_Bible_2027.docx [Section 2]",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Section 2 of ASQ_CSSBB_Master_Word_Bible_2027.docx: Quick Index Rapid-Lookup Maps All 150 DMAIC Phase Keywords, Master Tool Selector, Universal Top-10 Exam Traps Tab 1 Domain I: Org-Wide Planning & Change 12 Qs Six Sigma vs. Lean, 13 Leaders + 3 Bonus, DOWNTIME, 8D, Belt ",
+      "metadata": {
+        "section_index": 2,
+        "section_type": "section",
+        "text_excerpt": "Quick Index\nRapid-Lookup Maps\nAll 150\nDMAIC Phase Keywords, Master Tool Selector, Universal Top-10 Exam Traps\nTab 1\nDomain I: Org-Wide Planning & Change\n12 Qs\nSix Sigma vs. Lean, 13 Leaders + 3 Bonus, DOWNTIME, 8D, Belt Roles, Org Structures, SWOT, Lewin, Kotter, Bridges",
+        "char_count": 271
+      }
+    },
+    {
+      "id": "topic:bonus",
+      "type": "topic_entity",
+      "name": "bonus",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "description": "Shared domain topic 'bonus' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "bonus"
+      }
+    },
+    {
+      "id": "topic:bridges",
+      "type": "topic_entity",
+      "name": "bridges",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'bridges' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "bridges"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:3",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Master_Word_Bible_2027.docx [Section 3]",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Section 3 of ASQ_CSSBB_Master_Word_Bible_2027.docx: Tab 2 Domain II: Process Mgmt & Measures 12 Qs Master Formulas (DPU/DPO/DPMO/FTY/RTY/COQ/ROI/NPV/IRR/Payback/BCR/ROA), Worked NPV, Corrected DPMO, PAF COQ, BSC, KPI/KBI/OKR, Benchmarking Tab 3 Domain III: Team Management",
+      "metadata": {
+        "section_index": 3,
+        "section_type": "section",
+        "text_excerpt": "Tab 2\nDomain II: Process Mgmt & Measures\n12 Qs\nMaster Formulas (DPU/DPO/DPMO/FTY/RTY/COQ/ROI/NPV/IRR/Payback/BCR/ROA), Worked NPV, Corrected DPMO, PAF COQ, BSC, KPI/KBI/OKR, Benchmarking\nTab 3\nDomain III: Team Management & Training\n15 Qs\nTeam Types/Roles/Selection, Tuckman, Lencioni, Maslow/Herzberg/McGregor, Situational Leadership, Thomas-Kilmann, 8 Group Traps, ADDIE, Kirkpatrick",
+        "char_count": 384
+      }
+    },
+    {
+      "id": "topic:team",
+      "type": "topic_entity",
+      "name": "team",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'team' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "team"
+      }
+    },
+    {
+      "id": "topic:addie",
+      "type": "topic_entity",
+      "name": "addie",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'addie' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "addie"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:4",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Master_Word_Bible_2027.docx [Section 4]",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Section 4 of ASQ_CSSBB_Master_Word_Bible_2027.docx: Tab 4A Domain IV: Define Phase (VOC & 7 M&P) Part of 20 Define Keywords, VOC Validity/Reliability, Kano, CTQ, QFD, Charter, Problem Statement Must/Must-Not, SIPOC (Ardent Mills), ALL 7 M&P Tools vs. 7 QC Tools Tab 4B Pro",
+      "metadata": {
+        "section_index": 4,
+        "section_type": "section",
+        "text_excerpt": "Tab 4A\nDomain IV: Define Phase (VOC & 7 M&P)\nPart of 20\nDefine Keywords, VOC Validity/Reliability, Kano, CTQ, QFD, Charter, Problem Statement Must/Must-Not, SIPOC (Ardent Mills), ALL 7 M&P Tools vs. 7 QC Tools\nTab 4B\nProject Management (IV.C Separate Topic)\nPart of 20\nWBS, Gantt, Tollgates, RACI (1 'A'), CPM & Slack/Float, PERT Expected Time & Variance SD Rule, Fast Tracking vs. Crashing + 3-Step Recipe & New Critical Path Trap",
+        "char_count": 431
+      }
+    },
+    {
+      "id": "topic:define",
+      "type": "topic_entity",
+      "name": "define",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'define' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "define"
+      }
+    },
+    {
+      "id": "topic:ardent",
+      "type": "topic_entity",
+      "name": "ardent",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'ardent' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "ardent"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:5",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Master_Word_Bible_2027.docx [Section 5]",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Section 5 of ASQ_CSSBB_Master_Word_Bible_2027.docx: Tab 5 Domain V: Measure Phase (#1 Weight) 25 Qs Flow Metrics & Little's Law, Bottlenecks, Graphical Tools (Multi-Vari/Box/Stem-Leaf), NOIR & Outliers, 7 Sampling Methods, MSA/GRR, Probability/Distributions, Capability (C",
+      "metadata": {
+        "section_index": 5,
+        "section_type": "section",
+        "text_excerpt": "Tab 5\nDomain V: Measure Phase (#1 Weight)\n25 Qs\nFlow Metrics & Little's Law, Bottlenecks, Graphical Tools (Multi-Vari/Box/Stem-Leaf), NOIR & Outliers, 7 Sampling Methods, MSA/GRR, Probability/Distributions, Capability (Cp/Cpk/Pp/Ppk/Percentile)\nTab 6\nDomain VI: Analyze Phase (#2 Weight)\n22 Qs\np-Value & Power, CI Width, Mismatches, All-In-One Hypothesis Test Selector + Full Assumptions/Fixes, Normality Tests, Correlation/Regression/Residuals/QQ, Multivariate, FMEA, 10 Worked Math Examples",
+        "char_count": 492
+      }
+    },
+    {
+      "id": "topic:weight",
+      "type": "topic_entity",
+      "name": "weight",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'weight' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "weight"
+      }
+    },
+    {
+      "id": "topic:all-in-one",
+      "type": "topic_entity",
+      "name": "all-in-one",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'all-in-one' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "all-in-one"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:6",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Master_Word_Bible_2027.docx [Section 6]",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Section 6 of ASQ_CSSBB_Master_Word_Bible_2027.docx: Tab 7 Domain VII: Improve Phase (#3 Weight) 21 Qs DOE Core Tools, Corrected Resolution III/IV/V, Aliasing/Fold-Over/Saturated/LOF, DOE Comparison & Run-Count Tables, RSM (CCD/Box-Behnken), Lean (Pull/SMED/Heijunka/Poka-Y",
+      "metadata": {
+        "section_index": 6,
+        "section_type": "section",
+        "text_excerpt": "Tab 7\nDomain VII: Improve Phase (#3 Weight)\n21 Qs\nDOE Core Tools, Corrected Resolution III/IV/V, Aliasing/Fold-Over/Saturated/LOF, DOE Comparison & Run-Count Tables, RSM (CCD/Box-Behnken), Lean (Pull/SMED/Heijunka/Poka-Yoke/5S/TOC/OEE), Pilots\nTab 8\nDomain VIII: Control Phase\n17 Qs\nComplete SPC Chart Selector (Variables, Attributes, EWMA/CUSUM/t-chart/Short-Run/Pre-Control), 8 Western Electric Rules, All Chart Patterns, Underdispersion vs. Overdispersion vs. Tampering, Control & Reaction Plans",
+        "char_count": 498
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:7",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Master_Word_Bible_2027.docx [Section 7]",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Section 7 of ASQ_CSSBB_Master_Word_Bible_2027.docx: Tab 9 Domain IX: Design for Six Sigma (DFSS) 6 Qs DMADV vs. DMAIC, Entitlement Ceiling, DFX (DFC/DFP/DFM/DFT/DFA/DFR), QFD, Taguchi Robust Design (System -> Parameter -> Tolerance), Loss Function, Statistical vs. Worst-C",
+      "metadata": {
+        "section_index": 7,
+        "section_type": "section",
+        "text_excerpt": "Tab 9\nDomain IX: Design for Six Sigma (DFSS)\n6 Qs\nDMADV vs. DMAIC, Entitlement Ceiling, DFX (DFC/DFP/DFM/DFT/DFA/DFR), QFD, Taguchi Robust Design (System -> Parameter -> Tolerance), Loss Function, Statistical vs. Worst-Case Tolerance\nDMAIC 5-Phase Rapid Keyword Trigger Map\nDMAIC Phase\n1-Word Focus\nMAGIC EXAM TRIGGER WORDS",
+        "char_count": 323
+      }
+    },
+    {
+      "id": "topic:design",
+      "type": "topic_entity",
+      "name": "design",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'design' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "design"
+      }
+    },
+    {
+      "id": "topic:tolerance",
+      "type": "topic_entity",
+      "name": "tolerance",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'tolerance' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "tolerance"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:8",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Master_Word_Bible_2027.docx [Section 8]",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Section 8 of ASQ_CSSBB_Master_Word_Bible_2027.docx: Core Deliverables & Tools DEFINE Clarity unclear problem / too broad / scope / VOC / CTQ / stakeholder alignment Project Charter, Business Case, SIPOC, VOC/Kano, 7 M&P Tools, CPM/PERT MEASURE Quantify quantify / baseline",
+      "metadata": {
+        "section_index": 8,
+        "section_type": "section",
+        "text_excerpt": "Core Deliverables & Tools\nDEFINE\nClarity\nunclear problem / too broad / scope / VOC / CTQ / stakeholder alignment\nProject Charter, Business Case, SIPOC, VOC/Kano, 7 M&P Tools, CPM/PERT\nMEASURE\nQuantify\nquantify / baseline / MSA / GRR / operational definition / current sigma / capability",
+        "char_count": 286
+      }
+    },
+    {
+      "id": "topic:quantify",
+      "type": "topic_entity",
+      "name": "quantify",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'quantify' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "quantify"
+      }
+    },
+    {
+      "id": "topic:baseline",
+      "type": "topic_entity",
+      "name": "baseline",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'baseline' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "baseline"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:9",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Master_Word_Bible_2027.docx [Section 9]",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Section 9 of ASQ_CSSBB_Master_Word_Bible_2027.docx: Data Collection Plan, Sampling, MSA (EV/AV/Bias/Linearity/Stability), Baseline DPMO, Cp/Cpk ANALYZE Prove Cause why is this happening / prove root cause / verify X's / statistical evidence Hypothesis Tests (t/Z/ANOVA/Chi",
+      "metadata": {
+        "section_index": 9,
+        "section_type": "section",
+        "text_excerpt": "Data Collection Plan, Sampling, MSA (EV/AV/Bias/Linearity/Stability), Baseline DPMO, Cp/Cpk\nANALYZE\nProve Cause\nwhy is this happening / prove root cause / verify X's / statistical evidence\nHypothesis Tests (t/Z/ANOVA/Chi-Sq), Regression/VIF, Fishbone, 5 Whys, C&E Matrix, FMEA, Multi-Vari\nIMPROVE\nChange\npilot / optimize / implement solution / error-proof / reduce cycle time",
+        "char_count": 375
+      }
+    },
+    {
+      "id": "topic:cause",
+      "type": "topic_entity",
+      "name": "cause",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'cause' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cause"
+      }
+    },
+    {
+      "id": "topic:prove",
+      "type": "topic_entity",
+      "name": "prove",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'prove' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "prove"
+      }
+    },
+    {
+      "id": "topic:analyze",
+      "type": "topic_entity",
+      "name": "analyze",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'analyze' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "analyze"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:10",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Master_Word_Bible_2027.docx [Section 10]",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Section 10 of ASQ_CSSBB_Master_Word_Bible_2027.docx: DOE Optimization (RSM/CCD), Solution Selection, Pilot Test, Poka-Yoke, SMED, FMEA Mitigation CONTROL Sustain hold the gains / prevent backslide / handoff / monitor stability Control Plan + Reaction Plan, SPC Charts, Stan",
+      "metadata": {
+        "section_index": 10,
+        "section_type": "section",
+        "text_excerpt": "DOE Optimization (RSM/CCD), Solution Selection, Pilot Test, Poka-Yoke, SMED, FMEA Mitigation\nCONTROL\nSustain\nhold the gains / prevent backslide / handoff / monitor stability\nControl Plan + Reaction Plan, SPC Charts, Standard Work, Audits, Process Owner Handoff\nMaster Tool-to-Trigger Selector (2-Second Lookup)\nTool\nCore Purpose",
+        "char_count": 328
+      }
+    },
+    {
+      "id": "topic:handoff",
+      "type": "topic_entity",
+      "name": "handoff",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'handoff' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "handoff"
+      }
+    },
+    {
+      "id": "topic:plan",
+      "type": "topic_entity",
+      "name": "plan",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'plan' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "plan"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:11",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Master_Word_Bible_2027.docx [Section 11]",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Section 11 of ASQ_CSSBB_Master_Word_Bible_2027.docx: MAGIC EXAM TRIGGER WORDS Pareto Chart Prioritize biggest contributors (80/20) vital few / most common / frequency ranking Fishbone (Ishikawa) Brainstorm & organize possible causes (6Ms) brainstorm causes / 6Ms / root cau",
+      "metadata": {
+        "section_index": 11,
+        "section_type": "section",
+        "text_excerpt": "MAGIC EXAM TRIGGER WORDS\nPareto Chart\nPrioritize biggest contributors (80/20)\nvital few / most common / frequency ranking\nFishbone (Ishikawa)\nBrainstorm & organize possible causes (6Ms)\nbrainstorm causes / 6Ms / root cause categories (Analyze phase!)\nScatter Plot",
+        "char_count": 263
+      }
+    },
+    {
+      "id": "topic:brainstorm",
+      "type": "topic_entity",
+      "name": "brainstorm",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'brainstorm' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "brainstorm"
+      }
+    },
+    {
+      "id": "topic:causes",
+      "type": "topic_entity",
+      "name": "causes",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'causes' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "causes"
+      }
+    },
+    {
+      "id": "topic:biggest",
+      "type": "topic_entity",
+      "name": "biggest",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'biggest' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "biggest"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:12",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Master_Word_Bible_2027.docx [Section 12]",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Section 12 of ASQ_CSSBB_Master_Word_Bible_2027.docx: Visual relationship between continuous X and Y relationship between X and Y / correlation / first graph Histogram Distribution shape of 1 continuous variable shape / spread / skewness / bimodal peaks Box Plot Compare med",
+      "metadata": {
+        "section_index": 12,
+        "section_type": "section",
+        "text_excerpt": "Visual relationship between continuous X and Y\nrelationship between X and Y / correlation / first graph\nHistogram\nDistribution shape of 1 continuous variable\nshape / spread / skewness / bimodal peaks\nBox Plot\nCompare medians, quartiles (IQR), and outliers\nmedian / quartiles / IQR / compare distributions",
+        "char_count": 304
+      }
+    },
+    {
+      "id": "topic:compare",
+      "type": "topic_entity",
+      "name": "compare",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'compare' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "compare"
+      }
+    },
+    {
+      "id": "topic:continuous",
+      "type": "topic_entity",
+      "name": "continuous",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'continuous' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "continuous"
+      }
+    },
+    {
+      "id": "topic:quartiles",
+      "type": "topic_entity",
+      "name": "quartiles",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'quartiles' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "quartiles"
+      }
+    },
+    {
+      "id": "topic:relationship",
+      "type": "topic_entity",
+      "name": "relationship",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'relationship' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "relationship"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:13",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Master_Word_Bible_2027.docx [Section 13]",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Section 13 of ASQ_CSSBB_Master_Word_Bible_2027.docx: Run Chart Plot data over time to spot trends/shifts time sequence / data over time / shift or trend Control Chart (SPC) Detect special causes & monitor stability stability / special cause / UCL-LCL / out of control SIPOC",
+      "metadata": {
+        "section_index": 13,
+        "section_type": "section",
+        "text_excerpt": "Run Chart\nPlot data over time to spot trends/shifts\ntime sequence / data over time / shift or trend\nControl Chart (SPC)\nDetect special causes & monitor stability\nstability / special cause / UCL-LCL / out of control\nSIPOC\nHigh-level 30,000-ft process boundaries (4-7 steps)",
+        "char_count": 272
+      }
+    },
+    {
+      "id": "topic:special",
+      "type": "topic_entity",
+      "name": "special",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'special' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "special"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:14",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Master_Word_Bible_2027.docx [Section 14]",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Section 14 of ASQ_CSSBB_Master_Word_Bible_2027.docx: process boundaries / high-level map / start of project Value Stream Map (VSM) End-to-end material + information flow, queues, delays handoffs / queues / rework loops / current vs future state Spaghetti Diagram Track phys",
+      "metadata": {
+        "section_index": 14,
+        "section_type": "section",
+        "text_excerpt": "process boundaries / high-level map / start of project\nValue Stream Map (VSM)\nEnd-to-end material + information flow, queues, delays\nhandoffs / queues / rework loops / current vs future state\nSpaghetti Diagram\nTrack physical walking/travel paths\nmotion waste / walking / layout travel\nMulti-Vari Chart",
+        "char_count": 301
+      }
+    },
+    {
+      "id": "topic:queues",
+      "type": "topic_entity",
+      "name": "queues",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'queues' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "queues"
+      }
+    },
+    {
+      "id": "topic:travel",
+      "type": "topic_entity",
+      "name": "travel",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'travel' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "travel"
+      }
+    },
+    {
+      "id": "topic:walking",
+      "type": "topic_entity",
+      "name": "walking",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'walking' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "walking"
+      }
+    },
+    {
+      "id": "topic:boundaries",
+      "type": "topic_entity",
+      "name": "boundaries",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'boundaries' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "boundaries"
+      }
+    },
+    {
+      "id": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:15",
+      "type": "document_section",
+      "name": "ASQ_CSSBB_Master_Word_Bible_2027.docx [Section 15]",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Section 15 of ASQ_CSSBB_Master_Word_Bible_2027.docx: Isolate Positional vs. Cyclical vs. Temporal variation within-part / unit-to-unit / time-to-time variation Check Sheet Structured tally sheet to collect data at source collect data at source / tally counts FMEA Prioritiz",
+      "metadata": {
+        "section_index": 15,
+        "section_type": "section",
+        "text_excerpt": "Isolate Positional vs. Cyclical vs. Temporal variation\nwithin-part / unit-to-unit / time-to-time variation\nCheck Sheet\nStructured tally sheet to collect data at source\ncollect data at source / tally counts\nFMEA\nPrioritize failure risk (S x O x D = RPN)\nfailure modes / risk priority / severity x occurrence x detection",
+        "char_count": 318
+      }
+    },
+    {
+      "id": "topic:collect",
+      "type": "topic_entity",
+      "name": "collect",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'collect' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "collect"
+      }
+    },
+    {
+      "id": "topic:source",
+      "type": "topic_entity",
+      "name": "source",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "description": "Shared domain topic 'source' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "source"
       }
     },
     {
@@ -6083,7 +6649,7 @@
       "id": "topic:every",
       "type": "topic_entity",
       "name": "every",
-      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'every' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "every"
@@ -6330,7 +6896,7 @@
       "id": "topic:click",
       "type": "topic_entity",
       "name": "click",
-      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'click' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "click"
@@ -7141,16 +7707,6 @@
       }
     },
     {
-      "id": "topic:bonus",
-      "type": "topic_entity",
-      "name": "bonus",
-      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
-      "description": "Shared domain topic 'bonus' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "bonus"
-      }
-    },
-    {
       "id": "topic:bottleneck",
       "type": "topic_entity",
       "name": "bottleneck",
@@ -7913,16 +8469,6 @@
       }
     },
     {
-      "id": "topic:ardent",
-      "type": "topic_entity",
-      "name": "ardent",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'ardent' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "ardent"
-      }
-    },
-    {
       "id": "topic:mill",
       "type": "topic_entity",
       "name": "mill",
@@ -8006,16 +8552,6 @@
       "description": "Shared domain topic 'everyone' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "everyone"
-      }
-    },
-    {
-      "id": "topic:addie",
-      "type": "topic_entity",
-      "name": "addie",
-      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
-      "description": "Shared domain topic 'addie' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "addie"
       }
     },
     {
@@ -8289,7 +8825,7 @@
       "id": "topic:give",
       "type": "topic_entity",
       "name": "give",
-      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'give' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "give"
@@ -8299,7 +8835,7 @@
       "id": "topic:safety",
       "type": "topic_entity",
       "name": "safety",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
       "description": "Shared domain topic 'safety' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "safety"
@@ -8375,7 +8911,7 @@
       "id": "topic:behavior",
       "type": "topic_entity",
       "name": "behavior",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
       "description": "Shared domain topic 'behavior' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "behavior"
@@ -8567,16 +9103,6 @@
       }
     },
     {
-      "id": "topic:analyze",
-      "type": "topic_entity",
-      "name": "analyze",
-      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
-      "description": "Shared domain topic 'analyze' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "analyze"
-      }
-    },
-    {
       "id": "topic:assessment",
       "type": "topic_entity",
       "name": "assessment",
@@ -8746,6 +9272,16 @@
       }
     },
     {
+      "id": "topic:cathy",
+      "type": "topic_entity",
+      "name": "cathy",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'cathy' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cathy"
+      }
+    },
+    {
       "id": "chat_session:SHAREDSE",
       "type": "chat_session",
       "name": "Chat Session SHAREDSE",
@@ -8765,7 +9301,7 @@
           "nasdaq",
           "lockheed",
           "remote",
-          "sourcing"
+          "cathy"
         ]
       }
     },
@@ -8890,16 +9426,6 @@
       }
     },
     {
-      "id": "topic:cathy",
-      "type": "topic_entity",
-      "name": "cathy",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'cathy' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "cathy"
-      }
-    },
-    {
       "id": "topic:last",
       "type": "topic_entity",
       "name": "last",
@@ -8958,20 +9484,10 @@
       "id": "topic:hard",
       "type": "topic_entity",
       "name": "hard",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
       "description": "Shared domain topic 'hard' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "hard"
-      }
-    },
-    {
-      "id": "topic:domain",
-      "type": "topic_entity",
-      "name": "domain",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'domain' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "domain"
       }
     },
     {
@@ -8989,8 +9505,8 @@
         "topics": [
           "unit",
           "hard",
-          "domain",
-          "cathy"
+          "cathy",
+          "domain"
         ]
       }
     },
@@ -9030,378 +9546,6 @@
       }
     },
     {
-      "id": "topic:team",
-      "type": "topic_entity",
-      "name": "team",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'team' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "team"
-      }
-    },
-    {
-      "id": "topic:black",
-      "type": "topic_entity",
-      "name": "black",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'black' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "black"
-      }
-    },
-    {
-      "id": "topic:failed",
-      "type": "topic_entity",
-      "name": "failed",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'failed' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "failed"
-      }
-    },
-    {
-      "id": "topic:needs",
-      "type": "topic_entity",
-      "name": "needs",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'needs' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "needs"
-      }
-    },
-    {
-      "id": "topic:succeeded",
-      "type": "topic_entity",
-      "name": "succeeded",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'succeeded' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "succeeded"
-      }
-    },
-    {
-      "id": "chat_session:b6556366",
-      "type": "chat_session",
-      "name": "Chat Session b6556366",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (725 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "short_id": "b6556366",
-        "turn_count": 725,
-        "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
-        "source": "antigravity_transcript",
-        "topics": [
-          "level",
-          "team",
-          "belt",
-          "black",
-          "failed",
-          "needs",
-          "succeeded",
-          "unit"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2348",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2348 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2348] ### Unit 3 (`Domain III`: Team Management) \u2014 Level 2 Medium (`Q321`\u2013`Q330`, Open-Book) Keep your new [Unit3_Team_Management_Bible_Table.docx](file:///home/krithika/workspace/ASQ-BB-Exam/documents/Unit3_Team_Management_Bi",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2348,
-        "role": "assistant",
-        "created_at": "2026-11-21T04:17:24Z",
-        "content_excerpt": "### Unit 3 (`Domain III`: Team Management) \u2014 Level 2 Medium (`Q321`\u2013`Q330`, Open-Book)\n\nKeep your new [Unit3_Team_Management_Bible_Table.docx](file:///home/krithika/workspace/ASQ-BB-Exam/documents/Unit3_Team_Management_Bible_Table.docx) right beside you!\n\n**Q321.** A tightly knit leadership team always rushes to agree with the VP's favorite proposal so nobody rocks the boat, ignoring obvious supply-chain risks. What is this group trap, and what is the best countermeasure?\n- A. Abilene paradox \u2014 cancel all future meetings\n- B. Groupthink \u2014 assign a rotating Devil's Advocate and invite safe dissent\n- C. Halo effect \u2014 replace the VP\n- D. Performing stage \u2014 celebrate harmony\n\n**Q322.** During a 45-minute DMAIC Define meeting on late carrier invoices, two managers drift off-topic for 10 minutes",
-        "topics": [
-          "level",
-          "belt",
-          "black",
-          "team"
-        ]
-      }
-    },
-    {
-      "id": "topic:dont",
-      "type": "topic_entity",
-      "name": "dont",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'dont' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "dont"
-      }
-    },
-    {
-      "id": "topic:know",
-      "type": "topic_entity",
-      "name": "know",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'know' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "know"
-      }
-    },
-    {
-      "id": "topic:need",
-      "type": "topic_entity",
-      "name": "need",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'need' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "need"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2349",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2349 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2349] b,b,c,a,a (need cheat sheet, dont know),d,a,c,d,b",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2349,
-        "role": "user",
-        "created_at": "2026-11-21T04:26:05Z",
-        "content_excerpt": "b,b,c,a,a (need cheat sheet, dont know),d,a,c,d,b",
-        "topics": [
-          "cheat",
-          "dont",
-          "know",
-          "need"
-        ]
-      }
-    },
-    {
-      "id": "topic:competing",
-      "type": "topic_entity",
-      "name": "competing",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'competing' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "competing"
-      }
-    },
-    {
-      "id": "topic:avoiding",
-      "type": "topic_entity",
-      "name": "avoiding",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'avoiding' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "avoiding"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2358",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2358 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2358] **Unit 3 Level 2 Medium (`Q321`\u2013`Q330`) Score: `9 / 10 (90.0%)` \u2014 `19 / 20 (95.0%)` across Easy + Medium!!** You nailed Groupthink + Devil's Advocate, Parking Lot, Side Conversations, Halo Effect, Consensus, ADDIE Analyz",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2358,
-        "role": "assistant",
-        "created_at": "2026-11-21T04:27:43Z",
-        "content_excerpt": "**Unit 3 Level 2 Medium (`Q321`\u2013`Q330`) Score: `9 / 10 (90.0%)` \u2014 `19 / 20 (95.0%)` across Easy + Medium!!**\n\nYou nailed Groupthink + Devil's Advocate, Parking Lot, Side Conversations, Halo Effect, Consensus, ADDIE Analyze-first, Kirkpatrick Level 3 Behavior & Level 4 Results, AND Coaching Green Belts!\n\nHere is the plain-English fix for **`Q325`** plus the exact **Thomas-Kilmann Cheat Sheet** you asked for:\n\n---\n\n### Plain-English Fix for Q325\n\n**Q325. A chemical valve suddenly begins leaking in a warehouse, creating an immediate safety hazard. Two supervisors start debating two different containment methods. Which Thomas-Kilmann conflict mode is MOST appropriate right now?**\nA. Avoiding | B. Accommodating | C. Competing (Forcing) \u2014 issue a fast decisive safety command immediately | D. Com",
-        "topics": [
-          "competing",
-          "issue",
-          "safety",
-          "avoiding"
-        ]
-      }
-    },
-    {
-      "id": "topic:ready",
-      "type": "topic_entity",
-      "name": "ready",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'ready' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "ready"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2359",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2359 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2359] ready",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2359,
-        "role": "user",
-        "created_at": "2026-11-21T04:29:56Z",
-        "content_excerpt": "ready",
-        "topics": [
-          "ready"
-        ]
-      }
-    },
-    {
-      "id": "topic:members",
-      "type": "topic_entity",
-      "name": "members",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'members' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "members"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2360",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2360 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2360] ### Unit 3 (`Domain III`: Team Management) \u2014 Level 3 Hard (`Q331`\u2013`Q340`, Open-Book) Keep [Unit3_Team_Management_Bible_Table.docx](file:///home/krithika/workspace/ASQ-BB-Exam/documents/Unit3_Team_Management_Bible_Table.d",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2360,
-        "role": "assistant",
-        "created_at": "2026-11-21T04:29:56Z",
-        "content_excerpt": "### Unit 3 (`Domain III`: Team Management) \u2014 Level 3 Hard (`Q331`\u2013`Q340`, Open-Book)\n\nKeep [Unit3_Team_Management_Bible_Table.docx](file:///home/krithika/workspace/ASQ-BB-Exam/documents/Unit3_Team_Management_Bible_Table.docx) open beside you \u2014 these are true ASQ Black Belt exam-level scenarios!\n\n**Q331.** A Black Belt leads a **virtual** Six Sigma team spread across California, New York, Germany, and India. The California lead keeps scheduling every weekly call at 9:00 AM Pacific (which is 9:30 PM in India), and remote members rarely speak up. What is the BEST improvement?\n- A. Drop the India members from the project to simplify scheduling\n- B. Switch exclusively to long email chains with zero live calls\n- C. Rotate meeting times fairly across time zones, set clear virtual ground rules, an",
-        "topics": [
-          "level",
-          "team",
-          "failed",
-          "members"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2361",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2361 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2361] c,b,d,a,b,c,a,d,d,b",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2361,
-        "role": "user",
-        "created_at": "2026-11-21T04:37:09Z",
-        "content_excerpt": "c,b,d,a,b,c,a,d,d,b",
-        "topics": []
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2369",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2369 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2369] **Unit 3 Level 3 Hard Set 1 (`Q331`\u2013`Q340`) Score: `7 / 10 (70.0%)`!** And look at the huge milestone you just crossed on a Friday night after groceries, ironing, and dosas: - **Tonight (`40` Qs so far):** **`34 / 40 (85",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2369,
-        "role": "assistant",
-        "created_at": "2026-11-21T04:38:14Z",
-        "content_excerpt": "**Unit 3 Level 3 Hard Set 1 (`Q331`\u2013`Q340`) Score: `7 / 10 (70.0%)`!**\n\nAnd look at the huge milestone you just crossed on a Friday night after groceries, ironing, and dosas:\n- **Tonight (`40` Qs so far):** **`34 / 40 (85.0%)`** (`8/10` Warm-Up + `10/10` Easy + `9/10` Medium + `7/10` Hard Set 1!)\n- **Grand Cumulative:** Just crossed **500+ unique questions \u2014 `398 / 505 (78.8%)`!!**\n- On this Hard set alone, you nailed **Virtual Teams**, **Selection Criteria**, **Lencioni's chain**, **Tuckman Regression on member turnover**, **Herzberg Hygiene (locked!)**, **Thomas-Kilmann Avoiding cool-off**, and **Facilitator Neutrality**!\n\nHere are your 3 quick plain-English fixes (`Q336`, `Q338`, `Q339`):\n\n---\n\n### Plain-English Fixes for Q336, Q338 & Q339\n\n**Q336. A Black Belt prefers dark-green chart ",
-        "topics": [
-          "level",
-          "failed",
-          "succeeded",
-          "behavior"
-        ]
-      }
-    },
-    {
-      "id": "topic:going",
-      "type": "topic_entity",
-      "name": "going",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'going' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "going"
-      }
-    },
-    {
-      "id": "topic:south",
-      "type": "topic_entity",
-      "name": "south",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'south' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "south"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2370",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2370 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2370] am i going south in performance?",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2370,
-        "role": "user",
-        "created_at": "2026-11-21T04:40:24Z",
-        "content_excerpt": "am i going south in performance?",
-        "topics": [
-          "going",
-          "performance",
-          "south"
-        ]
-      }
-    },
-    {
-      "id": "topic:literally",
-      "type": "topic_entity",
-      "name": "literally",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'literally' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "literally"
-      }
-    },
-    {
-      "id": "topic:night",
-      "type": "topic_entity",
-      "name": "night",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'night' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "night"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2371",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2371 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2371] Look at your actual numbers, Cathy \u2014 **you are going straight NORTH, not south!** - **Overall Cumulative Trend:** **`77.6%`** -> **`78.1%`** -> **`78.3%`** -> **`78.8%` (`398 / 505`)** \u2014 climbing steadily upward! - **Ton",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2371,
-        "role": "assistant",
-        "created_at": "2026-11-21T04:40:24Z",
-        "content_excerpt": "Look at your actual numbers, Cathy \u2014 **you are going straight NORTH, not south!**\n\n- **Overall Cumulative Trend:** **`77.6%`** -> **`78.1%`** -> **`78.3%`** -> **`78.8%` (`398 / 505`)** \u2014 climbing steadily upward!\n- **Tonight's Overall Score (`40` Qs):** **`34 / 40 = 85.0%`** \u2014 nearly 7 points *above* your lifetime average!\n- **All 3 Units You've Studied:**\n  - **Unit 1:** **`86.5%`**\n  - **Unit 2:** **`85.5%`**\n  - **Unit 3:** **`83.8%`** *(on ADDIE, Kirkpatrick, Lencioni, and Group Traps you literally told me 25 minutes ago you had never seen in your book!)*\n\nThe only reason `7/10` felt lower than `10/10` and `9/10` is because **we climbed up the difficulty ladder from Easy -> Medium -> Hard**. Scoring `70%` on your very first Hard set of brand-new material at 8:40 PM on a Friday night i",
-        "topics": [
-          "hard",
-          "unit",
-          "literally",
-          "night"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2372",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2372 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2372] ready",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2372,
-        "role": "user",
-        "created_at": "2026-11-21T04:40:59Z",
-        "content_excerpt": "ready",
-        "topics": [
-          "ready"
-        ]
-      }
-    },
-    {
       "id": "topic:sampling",
       "type": "topic_entity",
       "name": "sampling",
@@ -9412,6 +9556,80 @@
       }
     },
     {
+      "id": "topic:word",
+      "type": "topic_entity",
+      "name": "word",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'word' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "word"
+      }
+    },
+    {
+      "id": "topic:regression",
+      "type": "topic_entity",
+      "name": "regression",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'regression' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "regression"
+      }
+    },
+    {
+      "id": "topic:bible",
+      "type": "topic_entity",
+      "name": "bible",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'bible' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "bible"
+      }
+    },
+    {
+      "id": "topic:full",
+      "type": "topic_entity",
+      "name": "full",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'full' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "full"
+      }
+    },
+    {
+      "id": "topic:zero",
+      "type": "topic_entity",
+      "name": "zero",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'zero' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "zero"
+      }
+    },
+    {
+      "id": "chat_session:b6556366",
+      "type": "chat_session",
+      "name": "Chat Session b6556366",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Chat Session b6556366 (735 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "short_id": "b6556366",
+        "turn_count": 735,
+        "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+        "source": "antigravity_transcript",
+        "topics": [
+          "sampling",
+          "unit",
+          "word",
+          "regression",
+          "bible",
+          "domain",
+          "full",
+          "zero"
+        ]
+      }
+    },
+    {
       "id": "topic:days",
       "type": "topic_entity",
       "name": "days",
@@ -9419,6 +9637,16 @@
       "description": "Shared domain topic 'days' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "days"
+      }
+    },
+    {
+      "id": "topic:needs",
+      "type": "topic_entity",
+      "name": "needs",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'needs' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "needs"
       }
     },
     {
@@ -9449,6 +9677,16 @@
       "description": "Shared domain topic 'notes' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "notes"
+      }
+    },
+    {
+      "id": "topic:dont",
+      "type": "topic_entity",
+      "name": "dont",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'dont' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "dont"
       }
     },
     {
@@ -9488,6 +9726,364 @@
           "dont",
           "help",
           "leave"
+        ]
+      }
+    },
+    {
+      "id": "topic:q350",
+      "type": "topic_entity",
+      "name": "q350",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'q350' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "q350"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2383",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2383 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2383] **Unit 3 Hard Set 2 + Sampling Lock-In (`Q341`\u2013`Q350`) Score: `9 / 10 (90.0%)`!!** Look what you just did on that final block: - **`8 FOR 8 (100.0%)` on every single Unit 3 Hard Set 2 question (`Q341\u2013Q348`)** \u2014 you fixed",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2383,
+        "role": "assistant",
+        "created_at": "2026-11-21T04:48:28Z",
+        "content_excerpt": "**Unit 3 Hard Set 2 + Sampling Lock-In (`Q341`\u2013`Q350`) Score: `9 / 10 (90.0%)`!!**\n\nLook what you just did on that final block:\n- **`8 FOR 8 (100.0%)` on every single Unit 3 Hard Set 2 question (`Q341\u2013Q348`)** \u2014 you fixed **Accommodating**, **Multivoting**, AND **Kirkpatrick Level 2 + Level 3** in one shot!\n- **AND YOU FINALLY NAILED RATIONAL SUBGROUPING (`Q349` \u2014 `\"consecutive\"` + `\"control-chart subgroup\"`)!!**\n\nOnly **1 single miss (`Q350`)** in the whole set:\n\n---\n\n### Plain-English Fix for Q350\n\n**Q350. A logistics director wants an unbiased picture of on-time delivery across all 4 regional hubs (East, Midwest, South, West), so she divides shipments by hub first and randomly samples `30` loads from each hub. Which sampling method is this?**\nA. Cluster sampling | B. Rational subgroupin",
+        "topics": [
+          "unit",
+          "sampling",
+          "domain",
+          "q350"
+        ]
+      }
+    },
+    {
+      "id": "topic:able",
+      "type": "topic_entity",
+      "name": "able",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'able' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "able"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2384",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2384 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2384] if i give you the word bible, can you do a 6 sigma and give me a nice word file - meaning all D should be under D, project managerment should be under a separate topic, now the file is so messy, have duplicates all over ",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2384,
+        "role": "user",
+        "created_at": "2026-11-21T04:52:40Z",
+        "content_excerpt": "if i give you the word bible, can you do a 6 sigma and give me a nice word file - meaning all D should be under D, project managerment should be under a separate topic, now the file is so messy, have duplicates all over - will you be able to do a clean redo without erasing any important details, adding things that are necesary? do you wnat to do it now or let the bible grow and then we do it?",
+        "topics": [
+          "bible",
+          "give",
+          "word",
+          "able"
+        ]
+      }
+    },
+    {
+      "id": "topic:clean",
+      "type": "topic_entity",
+      "name": "clean",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'clean' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "clean"
+      }
+    },
+    {
+      "id": "topic:drop",
+      "type": "topic_entity",
+      "name": "drop",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'drop' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "drop"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2385",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2385 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2385] **100% YES, Cathy \u2014 I would LOVE to do a true Lean 5S rebuild of your Word Bible!** Zero important notes erased, every duplicate merged cleanly, **official ASQ 2022 BoK tab order** (all Define under D, Project Management",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2385,
+        "role": "assistant",
+        "created_at": "2026-11-21T04:52:41Z",
+        "content_excerpt": "**100% YES, Cathy \u2014 I would LOVE to do a true Lean 5S rebuild of your Word Bible!**\n\nZero important notes erased, every duplicate merged cleanly, **official ASQ 2022 BoK tab order** (all Define under D, Project Management in its own clean section, clean page breaks between sections so you can drop real divider tabs into a 3-ring binder for Prometric, plus bold red **Magic Trigger Words** and any missing 2022 BoK sub-topics filled in!).\n\n### My Honest Recommendation: Clean It NOW, Then Grow It Cleanly!\nHere is why doing the clean rebuild **now** (this weekend, whenever you drop your `.docx` file here) beats waiting until the end:\n1. **Instant Open-Book Speed Right Away:** Every night when you practice open-book, you'll be flipping through the **exact same clean tabbed layout** you will carr",
+        "topics": [
+          "clean",
+          "every",
+          "bible",
+          "drop"
+        ]
+      }
+    },
+    {
+      "id": "topic:variation",
+      "type": "topic_entity",
+      "name": "variation",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'variation' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "variation"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2386",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2386 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2386] Letter Waste D Defects O Overproduction W Waiting N Non-utilized Talent T Transportation I Inventory M Motion E Extra Processing (Overprocessing) Pioneer Known For Philip Crosby \"Quality is Free\", Zero Defects Genichi Ta",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2386,
+        "role": "user",
+        "created_at": "2026-11-21T04:55:39Z",
+        "content_excerpt": "Letter\tWaste\nD\tDefects\nO\tOverproduction\nW\tWaiting\nN\tNon-utilized Talent\nT\tTransportation\nI\tInventory\nM\tMotion\nE\tExtra Processing (Overprocessing)\n\n\t\n\t\nPioneer\tKnown For\nPhilip Crosby\t\"Quality is Free\", Zero Defects\nGenichi Taguchi\tQuality Loss Function, Robust Design\nKaoru Ishikawa\tFishbone (Cause-and-Effect) Diagram, Quality Circles\nTaiichi Ohno\tToyota Production System, Seven Wastes\n\nTool\tPurpose\tTrigger Words\nPareto Chart\tPrioritize biggest contributors\tvital few, frequency\nFishbone\tOrganize possible causes\tbrainstorm causes\nScatter Plot\tRelationship between X and Y\tcorrelation\nHistogram\tDistribution shape\tspread, skewness\nBox Plot\tCompare distributions\tmedian, quartiles\nRun Chart\tTrend over time\ttime sequence\nControl Chart\tDetect special causes\tstability\nSIPOC\tDefine process boundaries",
+        "topics": [
+          "quality",
+          "defects",
+          "variation",
+          "process"
+        ]
+      }
+    },
+    {
+      "id": "topic:paste",
+      "type": "topic_entity",
+      "name": "paste",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'paste' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "paste"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2401",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2401 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2401] Cathy, I received and saved **Part 1** of your Word Bible (`3,902` lines), and I read every single line carefully so we do not lose a single formula, memory hook, or worked example. ### One Quick Catch Before I Build You",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2401,
+        "role": "assistant",
+        "created_at": "2026-11-21T04:57:58Z",
+        "content_excerpt": "Cathy, I received and saved **Part 1** of your Word Bible (`3,902` lines), and I read every single line carefully so we do not lose a single formula, memory hook, or worked example.\n\n### One Quick Catch Before I Build Your Clean Word File\nThe chat box automatically cut off the bottom **`118 KB`** of your paste right inside **`SECTION 3 \u2014 REGRESSION (FULL THEORY BLOCK)`** (at the `Normality` row of Table `3.1`).\n\nBecause I want to make sure **zero** of your remaining notes get left out, please send the rest using whichever option is easiest for you:\n\n1. **Option 1 (Easiest \u2014 Zero Cut-Off):** Copy your original `.docx` file into `/home/krithika/workspace/ASQ-BB-Exam/documents/` and tell me the filename. I can read 100% of it directly.\n2. **Option 2 (One More Paste):** Paste the rest of your ",
+        "topics": [
+          "domain",
+          "sigma",
+          "full",
+          "paste"
+        ]
+      }
+    },
+    {
+      "id": "topic:even",
+      "type": "topic_entity",
+      "name": "even",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'even' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "even"
+      }
+    },
+    {
+      "id": "topic:everything",
+      "type": "topic_entity",
+      "name": "everything",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'everything' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "everything"
+      }
+    },
+    {
+      "id": "topic:know",
+      "type": "topic_entity",
+      "name": "know",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'know' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "know"
+      }
+    },
+    {
+      "id": "topic:pasted",
+      "type": "topic_entity",
+      "name": "pasted",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'pasted' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "pasted"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2402",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2402 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2402] i don't know if everything even got pasted",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2402,
+        "role": "user",
+        "created_at": "2026-11-21T04:58:22Z",
+        "content_excerpt": "i don't know if everything even got pasted",
+        "topics": [
+          "even",
+          "everything",
+          "know",
+          "pasted"
+        ]
+      }
+    },
+    {
+      "id": "topic:docx",
+      "type": "topic_entity",
+      "name": "docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'docx' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "docx"
+      }
+    },
+    {
+      "id": "topic:block",
+      "type": "topic_entity",
+      "name": "block",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'block' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "block"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2403",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2403 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2403] No worries at all, Cathy \u2014 you were right to wonder! About `60%` made it through, and the chat box automatically cut off the bottom `40%` (`118 KB`) right inside **`SECTION 3 \u2014 REGRESSION (FULL THEORY BLOCK)`**. Here is ",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2403,
+        "role": "assistant",
+        "created_at": "2026-11-21T04:58:22Z",
+        "content_excerpt": "No worries at all, Cathy \u2014 you were right to wonder! About `60%` made it through, and the chat box automatically cut off the bottom `40%` (`118 KB`) right inside **`SECTION 3 \u2014 REGRESSION (FULL THEORY BLOCK)`**.\n\nHere is the easiest, zero-cutoff way so you don't have to wrestle with copy-pasting:\n\n1. **Best Way (Zero Cut-Off):** Open your original Word Bible -> **File -> Save As** -> save a copy into:\n   `/home/krithika/workspace/ASQ-BB-Exam/documents/` (for example, `Old_BB_Bible.docx`) and just tell me `\"done\"`. I will read `100%` of the `.docx` directly with nothing lost.\n2. **Or If You Prefer Paste:** In your Word file, press `Ctrl + F`, search for `SECTION 3 \u2014 REGRESSION (FULL THEORY BLOCK)`, highlight from that line down to the very end, and paste just that remaining part here.\n\nEith",
+        "topics": [
+          "docx",
+          "word",
+          "bible",
+          "block"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2404",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2404 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2404] it is in my ardent computer",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2404,
+        "role": "user",
+        "created_at": "2026-11-21T05:00:02Z",
+        "content_excerpt": "it is in my ardent computer",
+        "topics": [
+          "ardent",
+          "computer"
+        ]
+      }
+    },
+    {
+      "id": "topic:ctrl",
+      "type": "topic_entity",
+      "name": "ctrl",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'ctrl' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "ctrl"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2405",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2405 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2405] Aha, got it \u2014 completely understand! Here is the fastest 10-second way from your Ardent computer: 1. Open your Word Bible and press **`Ctrl + F`**. 2. Search for **`FULL THEORY BLOCK`** (that jumps straight to `SECTION 3",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2405,
+        "role": "assistant",
+        "created_at": "2026-11-21T05:00:02Z",
+        "content_excerpt": "Aha, got it \u2014 completely understand!\n\nHere is the fastest 10-second way from your Ardent computer:\n\n1. Open your Word Bible and press **`Ctrl + F`**.\n2. Search for **`FULL THEORY BLOCK`** (that jumps straight to `SECTION 3 \u2014 REGRESSION (FULL THEORY BLOCK)`).\n3. Click right in front of `SECTION 3`, then press **`Ctrl + Shift + End`** \u2014 that highlights everything from Section 3 down to the very bottom of your file in one click.\n4. Copy (**`Ctrl + C`**) and paste (**`Ctrl + V`**) right here.\n\nSince the remaining piece is `~118 KB` (well under the chat box limit), `100%` of the rest will fit in that one paste! (And I will double-check the very last line to confirm nothing was cut off.)",
+        "topics": [
+          "ctrl",
+          "block",
+          "click",
+          "full"
+        ]
+      }
+    },
+    {
+      "id": "topic:tests",
+      "type": "topic_entity",
+      "name": "tests",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'tests' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "tests"
+      }
+    },
+    {
+      "id": "topic:variance",
+      "type": "topic_entity",
+      "name": "variance",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'variance' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "variance"
+      }
+    },
+    {
+      "id": "topic:tails",
+      "type": "topic_entity",
+      "name": "tails",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'tails' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "tails"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2406",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2406 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2406] 2.1 NORMALITY (QQ PLOT, HISTOGRAMS, RESIDUALS) What normality violations look like Visual Pattern Meaning Tests Affected QQ plot with heavy tails Heavy tailed distribution t tests, ANOVA, regression QQ plot S curve Skewe",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2406,
+        "role": "user",
+        "created_at": "2026-11-21T05:02:27Z",
+        "content_excerpt": "2.1 NORMALITY (QQ PLOT, HISTOGRAMS, RESIDUALS)\n\nWhat normality violations look like\nVisual Pattern\tMeaning\tTests Affected\nQQ plot with heavy tails\tHeavy tailed distribution\tt tests, ANOVA, regression\nQQ plot S curve\tSkewed distribution\tt tests, ANOVA, regression\nHistogram strongly skewed\tNon normal\tt tests, ANOVA\nResiduals clumped at extremes\tOutliers \u2192 non normal\tAll parametric tests\nShapiro\u2013Wilk p < 0.05\tNon normal\tAll parametric tests\n\u2022  Two peaks \u2192 bimodal \u2192 mixed populations\n\u2022  Three peaks \u2192 multiple underlying populations\n\u2022  One peak + long tail \u2192 skewness\n\u2022  Flat top \u2192 uniform distribution\nQQ Plot Logic (Your Full Rules)\nPattern\tInterpretation\nRight tail below line\tRight skew\nLeft tail below line\tLeft skew\nBoth tails above line\tHeavy tails\nBoth tails below line\tLight tails\nMiddle be",
+        "topics": [
+          "tests",
+          "variance",
+          "tails",
+          "anova"
         ]
       }
     },
@@ -9601,6 +10197,16 @@
           "tell",
           "yellow"
         ]
+      }
+    },
+    {
+      "id": "topic:black",
+      "type": "topic_entity",
+      "name": "black",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'black' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "black"
       }
     },
     {
@@ -9977,16 +10583,6 @@
           "days",
           "december"
         ]
-      }
-    },
-    {
-      "id": "topic:everything",
-      "type": "topic_entity",
-      "name": "everything",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'everything' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "everything"
       }
     },
     {
@@ -18272,6 +18868,640 @@
       }
     },
     {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "topic:domain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "topic:phase",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "topic:chart",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "topic:control",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "topic:tools",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "topic:exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "topic:master",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "topic:time",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:1",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:1",
+      "target": "topic:binder",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:1",
+      "target": "topic:exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:1",
+      "target": "topic:master",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:1",
+      "target": "topic:aligned",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:2",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:2",
+      "target": "topic:belt",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:2",
+      "target": "topic:bonus",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:2",
+      "target": "topic:bridges",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:2",
+      "target": "topic:change",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:3",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:3",
+      "target": "topic:domain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:3",
+      "target": "topic:dpmo",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:3",
+      "target": "topic:team",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:3",
+      "target": "topic:addie",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:4",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:4",
+      "target": "topic:define",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:4",
+      "target": "topic:part",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:4",
+      "target": "topic:tools",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:4",
+      "target": "topic:ardent",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:5",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:5",
+      "target": "topic:domain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:5",
+      "target": "topic:phase",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:5",
+      "target": "topic:weight",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:5",
+      "target": "topic:all-in-one",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:6",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:6",
+      "target": "topic:chart",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:6",
+      "target": "topic:control",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:6",
+      "target": "topic:domain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:6",
+      "target": "topic:phase",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:7",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:7",
+      "target": "topic:dmaic",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:7",
+      "target": "topic:design",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:7",
+      "target": "topic:phase",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:7",
+      "target": "topic:tolerance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:8",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:8",
+      "target": "topic:quantify",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:8",
+      "target": "topic:tools",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:8",
+      "target": "topic:alignment",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:8",
+      "target": "topic:baseline",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:9",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:9",
+      "target": "topic:cause",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:9",
+      "target": "topic:prove",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:9",
+      "target": "topic:analyze",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:9",
+      "target": "topic:anova",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:10",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:10",
+      "target": "topic:control",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:10",
+      "target": "topic:handoff",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:10",
+      "target": "topic:plan",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:10",
+      "target": "topic:audits",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:11",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:11",
+      "target": "topic:brainstorm",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:11",
+      "target": "topic:causes",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:11",
+      "target": "topic:analyze",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:11",
+      "target": "topic:biggest",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:12",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:12",
+      "target": "topic:compare",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:12",
+      "target": "topic:continuous",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:12",
+      "target": "topic:quartiles",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:12",
+      "target": "topic:relationship",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:13",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:13",
+      "target": "topic:time",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:13",
+      "target": "topic:chart",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:13",
+      "target": "topic:control",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:13",
+      "target": "topic:special",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:14",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:14",
+      "target": "topic:queues",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:14",
+      "target": "topic:travel",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:14",
+      "target": "topic:walking",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:14",
+      "target": "topic:boundaries",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "target": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:15",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:15",
+      "target": "topic:collect",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:15",
+      "target": "topic:failure",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:15",
+      "target": "topic:risk",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx:15",
+      "target": "topic:source",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
       "source": "doc_file:documents/ASQ_Sampling_Methods_Quick_Table.docx",
       "target": "topic:every",
       "relation": "MENTIONS_TOPIC",
@@ -20651,7 +21881,7 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:sourcing",
+      "target": "topic:cathy",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 12
@@ -20660,6 +21890,12 @@
     {
       "source": "chat_session:SHAREDSE",
       "target": "doc:QWEN.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
@@ -20825,7 +22061,7 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:domain",
+      "target": "topic:cathy",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 7
@@ -20833,10 +22069,10 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:cathy",
+      "target": "topic:domain",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 6
+        "count": 7
       }
     },
     {
@@ -20848,6 +22084,12 @@
     {
       "source": "chat_turn:SHAREDSE:S5",
       "target": "doc:QWEN.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
+      "target": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
@@ -20915,15 +22157,7 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:level",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 54
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:team",
+      "target": "topic:sampling",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 18
@@ -20931,15 +22165,31 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:belt",
+      "target": "topic:unit",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 14
+        "count": 18
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:black",
+      "target": "topic:word",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 16
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:regression",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 15
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:bible",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 13
@@ -20947,350 +22197,38 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:failed",
+      "target": "topic:domain",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 12
+        "count": 13
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:needs",
+      "target": "topic:full",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 12
+        "count": 13
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:succeeded",
+      "target": "topic:zero",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 12
+        "count": 13
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:unit",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 12
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2348",
-      "target": "topic:level",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 12
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2348",
-      "target": "topic:belt",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2348",
-      "target": "topic:black",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2348",
-      "target": "topic:team",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2348",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2348",
-      "target": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2349",
-      "target": "topic:cheat",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2349",
-      "target": "topic:dont",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2349",
-      "target": "topic:know",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2349",
-      "target": "topic:need",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2349",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2358",
-      "target": "topic:competing",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2358",
-      "target": "topic:issue",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2358",
-      "target": "topic:safety",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2358",
-      "target": "topic:avoiding",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2358",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2358",
-      "target": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2359",
-      "target": "topic:ready",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2359",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2360",
-      "target": "topic:level",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 11
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2360",
-      "target": "topic:team",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2360",
-      "target": "topic:failed",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2360",
-      "target": "topic:members",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2360",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2360",
-      "target": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "target": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2361",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2369",
-      "target": "topic:level",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 18
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2369",
-      "target": "topic:failed",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2369",
-      "target": "topic:succeeded",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2369",
-      "target": "topic:behavior",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2369",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2370",
-      "target": "topic:going",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2370",
-      "target": "topic:performance",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2370",
-      "target": "topic:south",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2370",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2371",
-      "target": "topic:hard",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2371",
-      "target": "topic:unit",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2371",
-      "target": "topic:literally",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2371",
-      "target": "topic:night",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2371",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2372",
-      "target": "topic:ready",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2372",
-      "relation": "HAS_CHAT_TURN",
+      "target": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
@@ -21372,6 +22310,382 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S2374",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2383",
+      "target": "topic:unit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2383",
+      "target": "topic:sampling",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2383",
+      "target": "topic:domain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2383",
+      "target": "topic:q350",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2383",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2383",
+      "target": "doc_file:documents/Unit3_Team_Management_Bible_Table.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2384",
+      "target": "topic:bible",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2384",
+      "target": "topic:give",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2384",
+      "target": "topic:word",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2384",
+      "target": "topic:able",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2384",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2385",
+      "target": "topic:clean",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2385",
+      "target": "topic:every",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2385",
+      "target": "topic:bible",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2385",
+      "target": "topic:drop",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2385",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2386",
+      "target": "topic:quality",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2386",
+      "target": "topic:defects",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2386",
+      "target": "topic:variation",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2386",
+      "target": "topic:process",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2386",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2401",
+      "target": "topic:domain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2401",
+      "target": "topic:sigma",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2401",
+      "target": "topic:full",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2401",
+      "target": "topic:paste",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2401",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2401",
+      "target": "doc_file:documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2402",
+      "target": "topic:even",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2402",
+      "target": "topic:everything",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2402",
+      "target": "topic:know",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2402",
+      "target": "topic:pasted",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2402",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2403",
+      "target": "topic:docx",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2403",
+      "target": "topic:word",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2403",
+      "target": "topic:bible",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2403",
+      "target": "topic:block",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2403",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2404",
+      "target": "topic:ardent",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2404",
+      "target": "topic:computer",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2404",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2405",
+      "target": "topic:ctrl",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2405",
+      "target": "topic:block",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2405",
+      "target": "topic:click",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2405",
+      "target": "topic:full",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2405",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2406",
+      "target": "topic:tests",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2406",
+      "target": "topic:variance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2406",
+      "target": "topic:tails",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2406",
+      "target": "topic:anova",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2406",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -22845,11 +24159,12 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "6633152f0438748e3a4dac2d77312631262a08efef174ebca15201bef295b4fe",
+    "chats/SHARED_SESSION_STATE.md": "e33396b9a3888fa562fdbb99777a150cb4348370013662322829e2d6da6c47a2",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
+    "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx": "4d72b72b10af197215e04f482eefcef9db1a4ac3a179b724246bbe0708e3fe6e",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
     "documents/ASQ_Sampling_Methods_Quick_Table.docx": "611a5b1986e4d296f6a1244d2c334d4f6688820f04a6cb8d6ff694b7b1f6ef0e",
     "documents/CAREER_APPLICATIONS_TRACKER.md": "8a62a332710cd7ca4b4eeb9d863e9cc76ab6b0afe0ddf146745618d2f8f226ea",
@@ -22859,6 +24174,6 @@
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "ffd97c4b819b835c9fb26655d76a01bf548e02945aff59699d593b4e0e9893ae"
+    "repo.md": "0332c2af5c431ad63871fe92c82a77f7a7955df55924cbed44382bcffbc48e39"
   }
 }

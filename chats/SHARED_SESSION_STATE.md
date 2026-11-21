@@ -12,9 +12,11 @@
 - **Latest Set (Round 22 Final — Unit 3 Hard Set 2 + Sampling Lock-In `Q341`–`Q350`, Open-Book)**: **`9 / 10 = 90.0%`!!** *(`8 / 8 = 100%` on Unit 3 Hard Set 2 + **Rational Subgrouping `Q349` FIXED!** Only 1 miss: `Q350` Stratified `"from each"` vs Cluster. Upgraded `Unit3_Team_Management_Bible_Table.docx` with Part E Zero-Gap Appendix: Maslow 5 Tiers, all 4 Team Types, all 7 Team Roles, & Selection Criteria!)*
 - **NEXT EXAM MILESTONE (SATURDAY `2026-11-21`+)**:
   1. **ALL THREE FIRST UNITS MASTERED AT `85%+`!!** **Unit 1 (`Domain I`: `86.5%`)**, **Unit 2 (`Domain II`: `85.5%`, `15/15` Hard)**, and **Unit 3 (`Domain III`: `86.7%`, `8/8` Hard Set 2)**!
-  2. **Next Study Session (Daily `10 + 40` Gradual Rhythm)**:
+  2. **Master Word Bible Rebuilt (Lean 5S Clean Edition — `2026-11-21`)**:
+     - Built `/home/krithika/workspace/ASQ-BB-Exam/documents/ASQ_CSSBB_Master_Word_Bible_2027.docx` (`11` tabbed binder sections, `51` color-coded native Word tables, `10` page breaks, `412` bold-red Magic Trigger Words, all `10` worked math examples preserved, all `10` factual bugs/typos in Cathy's old Bible fixed, zero duplicates/chat clutter, 100% aligned to Official ASQ 2022 BoK with all Define `D` unified under Tab `4A` and Project Management `IV.C` separated into Tab `4B`).
+  3. **Next Study Session (Daily `10 + 40` Gradual Rhythm)**:
      - **First `10` Qs (Daily Weak-Topic Warm-Up #2):** Keep `Stratified ("from each") vs Cluster ("few whole")` + rotate Measure/Define weak spots.
-     - **Next `40` Qs:** Start **Unit 4 (`Domain IV`: Define Phase — `20` Exam Qs!)** with a complete **Zero-Gap Word Bible Table** (`Unit4_Define_Phase_Bible_Table.docx`: VOC/Validity/Reliability, CTQ/Kano/QFD House of Quality, Charter/Problem Statement/SMART/SIPOC, CPM/PERT/WBS/RACI/Gantt, and ALL 7 M&P Tools!), plus optional **Timed Prometric Mini-Sprint (`15` Qs / `24` mins)** on Units 1–3!
+     - **Next `40` Qs:** Start **Unit 4 (`Domain IV`: Define Phase — `20` Exam Qs!)** open-book using her brand-new **Tab 4A & Tab 4B** of `ASQ_CSSBB_Master_Word_Bible_2027.docx`, plus optional **Timed Prometric Mini-Sprint (`15` Qs / `24` mins)** on Units 1–3!
   3. **Permanent Coaching Preferences Locked (2026-11-20)**:
      - **Daily "10 + 40" Gradual Rhythm**: Start **EVERY study day** with **10 fresh spaced-repetition questions on Cathy's active weak/sticky topics** (building automatic speed!), followed by **40–50 questions** advancing gradually (`Easy -> Medium -> Hard`, Open-Book) through the next unit!
      - **Word-Native Tables Always**: Whenever Cathy asks for a study table for her Word Bible, **ALWAYS generate a real `.docx` file** in `documents/` (plus optional tab-separated TSV in chat) — never expect raw Markdown pipe tables to paste into Word!
