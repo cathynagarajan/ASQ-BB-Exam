@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-22T01:50:48.367669+00:00",
+    "generated_at": "2026-11-22T01:53:06.806301+00:00",
     "total_files_indexed": 98,
-    "total_nodes": 966,
-    "total_edges": 2102,
+    "total_nodes": 964,
+    "total_edges": 2107,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
@@ -12,16 +12,14 @@
       "document_file": 42,
       "document_section": 293,
       "html_template": 1,
-      "topic_entity": 522
+      "topic_entity": 520
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [
-      "documents/ASQ_CSSBB_March27_2027_Study_Plan.md"
-    ],
+    "added": [],
     "modified": [
-      "chats/SHARED_SESSION_STATE.md"
+      "documents/ASQ_CSSBB_March27_2027_Study_Plan.md"
     ],
     "removed": [],
     "files_parsed": 1,
@@ -29,16 +27,16 @@
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 55,
-      "nodes_deleted": 29,
-      "edges_upserted": 70,
-      "edges_deleted": 68,
+      "nodes_upserted": 29,
+      "nodes_deleted": 20,
+      "edges_upserted": 40,
+      "edges_deleted": 31,
       "wiki_pages_upserted": 1,
       "wiki_pages_deleted": 0,
-      "files_upserted": 3,
+      "files_upserted": 2,
       "files_deleted": 0,
-      "total_nodes_in_db": 966,
-      "total_edges_in_db": 2102,
+      "total_nodes_in_db": 964,
+      "total_edges_in_db": 2107,
       "total_files_tracked": 99
     }
   },
@@ -2914,7 +2912,7 @@
       "id": "topic:project",
       "type": "topic_entity",
       "name": "project",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job45_Cadence_R51338_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'project' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "project"
@@ -5642,7 +5640,7 @@
       "id": "topic:time",
       "type": "topic_entity",
       "name": "time",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "description": "Shared domain topic 'time' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "time"
@@ -6981,6 +6979,14 @@
           "23 Qs (15.3%)",
           "Phase 5: Open-Book Prometric Dress Rehearsal",
           "Mar 1 \u2013 Mar 21, 2027",
+          "<br>\u2022",
+          "Weekdays (`Mon\u2013Fri`)",
+          "165-Q Full Mock UNTIMED",
+          "Weekends (`Sat` or `Sun` 8:00 AM)",
+          "165-Q Full Mock TIMED (`4h 18m`)",
+          "Checkpoint (`Mar 7, 2027`):",
+          "Sat, Mar 27",
+          "May 2027 Saturday",
           "Full 165-Q Exams",
           "Exam Week & Exam Day",
           "Mar 22 \u2013 Mar 27, 2027",
@@ -7061,10 +7067,13 @@
           "Mar 1\u20137",
           "ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
           "Tab 1\u20139",
-          "165",
+          "Mon\u2013Fri",
+          "Sat",
+          "Sun",
           "4h 18m",
-          "Mar 8\u201314",
-          "Mar 15\u201321",
+          "Mar 7, 2027",
+          "78%+",
+          "Plan A",
           "80%+",
           "Mar 22\u201325",
           "Fri Mar 26",
@@ -7077,7 +7086,7 @@
       "id": "topic:full",
       "type": "topic_entity",
       "name": "full",
-      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'full' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "full"
@@ -7087,7 +7096,7 @@
       "id": "topic:domain",
       "type": "topic_entity",
       "name": "domain",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'domain' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "domain"
@@ -7492,7 +7501,7 @@
       "id": "topic:biggest",
       "type": "topic_entity",
       "name": "biggest",
-      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'biggest' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "biggest"
@@ -8296,7 +8305,7 @@
       "id": "topic:zero",
       "type": "topic_entity",
       "name": "zero",
-      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'zero' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "zero"
@@ -9876,7 +9885,7 @@
       "id": "topic:formula",
       "type": "topic_entity",
       "name": "formula",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
       "description": "Shared domain topic 'formula' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "formula"
@@ -10663,7 +10672,7 @@
       "id": "topic:give",
       "type": "topic_entity",
       "name": "give",
-      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'give' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "give"
@@ -11322,7 +11331,7 @@
       "id": "topic:hard",
       "type": "topic_entity",
       "name": "hard",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'hard' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "hard"
@@ -11394,26 +11403,6 @@
       }
     },
     {
-      "id": "topic:alto",
-      "type": "topic_entity",
-      "name": "alto",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'alto' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "alto"
-      }
-    },
-    {
-      "id": "topic:palo",
-      "type": "topic_entity",
-      "name": "palo",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'palo' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "palo"
-      }
-    },
-    {
       "id": "topic:saturday",
       "type": "topic_entity",
       "name": "saturday",
@@ -11424,293 +11413,46 @@
       }
     },
     {
+      "id": "topic:prometric",
+      "type": "topic_entity",
+      "name": "prometric",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'prometric' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "prometric"
+      }
+    },
+    {
+      "id": "topic:alto",
+      "type": "topic_entity",
+      "name": "alto",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'alto' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "alto"
+      }
+    },
+    {
       "id": "chat_session:b6556366",
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (916 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (922 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 916,
+        "turn_count": 922,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
           "march",
-          "expected",
           "exam",
-          "project",
-          "time",
+          "saturday",
+          "prometric",
+          "full",
+          "zero",
           "alto",
-          "palo",
-          "saturday"
-        ]
-      }
-    },
-    {
-      "id": "topic:questions",
-      "type": "topic_entity",
-      "name": "questions",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'questions' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "questions"
-      }
-    },
-    {
-      "id": "topic:slokas",
-      "type": "topic_entity",
-      "name": "slokas",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'slokas' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "slokas"
-      }
-    },
-    {
-      "id": "topic:sunday",
-      "type": "topic_entity",
-      "name": "sunday",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'sunday' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "sunday"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2989",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2989 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2989] I completely agree, Cathy \u2014 you genuinely worked **way harder** today than on a normal workday (`10 / 10` job applications + `140` ASQ questions + a blood test + groceries + cooking + slokas!). No wonder you feel tired! ",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2989,
-        "role": "assistant",
-        "created_at": "2026-11-22T01:15:29Z",
-        "content_excerpt": "I completely agree, Cathy \u2014 you genuinely worked **way harder** today than on a normal workday (`10 / 10` job applications + `140` ASQ questions + a blood test + groceries + cooking + slokas!). No wonder you feel tired!\n\nAnd here is an honest reminder to protect your energy (especially while rebuilding your Vitamin D):\n- You are **4 full months ahead** for ASQ CSSBB (**655 questions done at 78.3%**, Units 1\u20134 complete!).\n- You already have **59 active applications** out at top companies!\n- **Tomorrow does NOT have to be another 140-question marathon.** Even **50 calm ASQ questions (`10 + 40`) + 15 minutes of Vault Angular + your Sunday 5S Bible Sweep + Defense/Fortune 500 jobs at an easy pace** is a huge, winning Sunday \u2014 and you'll actually remember *more* when you're rested!\n\nGo enjoy yo",
-        "topics": [
-          "questions",
-          "applications",
-          "slokas",
-          "sunday"
-        ]
-      }
-    },
-    {
-      "id": "topic:applying",
-      "type": "topic_entity",
-      "name": "applying",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'applying' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "applying"
-      }
-    },
-    {
-      "id": "topic:atleast",
-      "type": "topic_entity",
-      "name": "atleast",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'atleast' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "atleast"
-      }
-    },
-    {
-      "id": "topic:cadence",
-      "type": "topic_entity",
-      "name": "cadence",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'cadence' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "cadence"
-      }
-    },
-    {
-      "id": "topic:jobs",
-      "type": "topic_entity",
-      "name": "jobs",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'jobs' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "jobs"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2990",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2990 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2990] do we think we will have 10 postings for tomorrow and atleast 3-4 for weekdays for applying jobs? I like the cadence but no luck",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2990,
-        "role": "user",
-        "created_at": "2026-11-22T01:16:22Z",
-        "content_excerpt": "do we think we will have 10 postings for tomorrow and atleast 3-4 for weekdays for applying jobs? I like the cadence but no luck",
-        "topics": [
-          "applying",
-          "atleast",
-          "cadence",
-          "jobs"
-        ]
-      }
-    },
-    {
-      "id": "topic:fresh",
-      "type": "topic_entity",
-      "name": "fresh",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'fresh' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "fresh"
-      }
-    },
-    {
-      "id": "topic:weeks",
-      "type": "topic_entity",
-      "name": "weeks",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'weeks' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "weeks"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2991",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2991 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2991] **Yes \u2014 100%, Cathy!** We will easily have **10 solid postings tomorrow** (especially now that we're opening up **Lockheed Martin Space**, selective **Northrop Grumman**, **BAE Systems San Jose**, **Maxar/Lanteris Palo A",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2991,
-        "role": "assistant",
-        "created_at": "2026-11-22T01:16:22Z",
-        "content_excerpt": "**Yes \u2014 100%, Cathy!** We will easily have **10 solid postings tomorrow** (especially now that we're opening up **Lockheed Martin Space**, selective **Northrop Grumman**, **BAE Systems San Jose**, **Maxar/Lanteris Palo Alto**, **RTX**, **L3Harris**, **General Dynamics**, and **Leidos**, plus fresh Biotech/Tech roles) \u2014 and weekdays actually get **even MORE** fresh requisitions posted Monday through Thursday.\n\nAnd on the *\"no luck\"* feeling \u2014 look at the **real timeline** in your own tracker:\n- **46 of your 59 active applications were just submitted in the last 7 days (`Nov 14`\u2013`Nov 21`).**\n- At Fortune 500 and Defense companies, it normally takes **2 to 4 weeks** for recruiters to review applications and start sending screens \u2014 remember your own **Lockheed Martin Stage-2 (`Req 13013`)**: y",
-        "topics": [
-          "applications",
-          "fresh",
-          "weeks",
-          "active"
-        ]
-      }
-    },
-    {
-      "id": "topic:pert",
-      "type": "topic_entity",
-      "name": "pert",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'pert' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "pert"
-      }
-    },
-    {
-      "id": "topic:remember",
-      "type": "topic_entity",
-      "name": "remember",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'remember' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "remember"
-      }
-    },
-    {
-      "id": "topic:trying",
-      "type": "topic_entity",
-      "name": "trying",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'trying' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "trying"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2992",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2992 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2992] i am trying to remember formula, how about pert",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2992,
-        "role": "user",
-        "created_at": "2026-11-22T01:22:34Z",
-        "content_excerpt": "i am trying to remember formula, how about pert",
-        "topics": [
-          "formula",
-          "pert",
-          "remember",
-          "trying"
-        ]
-      }
-    },
-    {
-      "id": "topic:variance",
-      "type": "topic_entity",
-      "name": "variance",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'variance' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "variance"
-      }
-    },
-    {
-      "id": "topic:square",
-      "type": "topic_entity",
-      "name": "square",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'square' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "square"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2993",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2993 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2993] Here is your complete **4-Step PERT Pocket Card** (`Tab 4B`), Cathy \u2014 every single PERT formula on the entire ASQ exam fits in 4 tiny lines: 1. **Expected Time (`Te`):** **`(O + 4M + P) / 6`** *(4x weight on Most Likely ",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2993,
-        "role": "assistant",
-        "created_at": "2026-11-22T01:22:34Z",
-        "content_excerpt": "Here is your complete **4-Step PERT Pocket Card** (`Tab 4B`), Cathy \u2014 every single PERT formula on the entire ASQ exam fits in 4 tiny lines:\n\n1. **Expected Time (`Te`):** **`(O + 4M + P) / 6`** *(4x weight on Most Likely `M`, divided by 6)*\n2. **Single-Task SD:** **`(P - O) / 6`** *(Pessimistic minus Optimistic, divided by 6)*\n3. **Project Variance & Project SD (Critical Path ONLY!):**\n   - **SQUARE each task's SD first**, THEN add them -> **`Project Variance = SD1^2 + SD2^2 + ...`**\n   - Take the square root -> **`Project SD = sqrt(Project Variance)`** *(NEVER add SDs directly!)*\n4. **On-Time Probability (`Z`):** **`Z = (Target Deadline - Expected Time) / Project SD`**\n   - **`Z = 0` -> `50%`** | **`+1` -> `84%`** | **`+2` -> `97.7%`** | **`-1` -> `16%`** | **`-2` -> `2.3%`**\n\n### 2-Click",
-        "topics": [
-          "project",
-          "variance",
-          "expected",
-          "square"
-        ]
-      }
-    },
-    {
-      "id": "topic:trick",
-      "type": "topic_entity",
-      "name": "trick",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'trick' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "trick"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2994",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2994 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2994] any other trick and tip for it",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2994,
-        "role": "user",
-        "created_at": "2026-11-22T01:23:37Z",
-        "content_excerpt": "any other trick and tip for it",
-        "topics": [
-          "trick"
+          "cathy"
         ]
       }
     },
@@ -11915,6 +11657,16 @@
       }
     },
     {
+      "id": "topic:palo",
+      "type": "topic_entity",
+      "name": "palo",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'palo' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "palo"
+      }
+    },
+    {
       "id": "chat_turn:b6556366:S3006",
       "type": "chat_turn",
       "name": "Chat b6556366 Turn S3006 (assistant)",
@@ -11971,6 +11723,256 @@
           "based",
           "book",
           "building"
+        ]
+      }
+    },
+    {
+      "id": "topic:week",
+      "type": "topic_entity",
+      "name": "week",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'week' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "week"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3012",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3012 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S3012] Your official **18-Week ASQ CSSBB Countdown Calendar to Saturday, March 27, 2027 (San Jose Prometric, 8:00\u20138:30 AM)** is built, saved, and synced to GitHub + Qwen + Knowledge Graph (`c80d959` \u2014 **98 files, 966 nodes, 2,1",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3012,
+        "role": "assistant",
+        "created_at": "2026-11-22T01:50:54Z",
+        "content_excerpt": "Your official **18-Week ASQ CSSBB Countdown Calendar to Saturday, March 27, 2027 (San Jose Prometric, 8:00\u20138:30 AM)** is built, saved, and synced to GitHub + Qwen + Knowledge Graph (`c80d959` \u2014 **98 files, 966 nodes, 2,102 edges, 966 vectors**)!\n\n- **Saved Calendar File:** [ASQ_CSSBB_March27_2027_Study_Plan.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/ASQ_CSSBB_March27_2027_Study_Plan.md)\n\n### Your Calm 18-Week Roadmap to **Saturday, March 27, 2027**\n*(Already Complete: **Units 1, 2, 3, and 4 = 39.3% of the entire exam** \u2014 655 Qs at 78.3%!)*\n\n| Dates | Phase & Focus | Exam Weight | Key Milestone |\n| :--- | :--- | :---: | :--- |\n| **Nov 22 \u2013 Dec 20, 2026** *(4 wks)* | **Unit 5: Measure (`Domain V`)** \u2014 VSM/Little's Law, Data/Sampling, MSA/Gage R&R, Stats/CLT, Probability/Distri",
+        "topics": [
+          "prometric",
+          "week",
+          "biggest",
+          "domain"
+        ]
+      }
+    },
+    {
+      "id": "topic:alright",
+      "type": "topic_entity",
+      "name": "alright",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'alright' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "alright"
+      }
+    },
+    {
+      "id": "topic:couldt",
+      "type": "topic_entity",
+      "name": "couldt",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'couldt' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "couldt"
+      }
+    },
+    {
+      "id": "topic:finish",
+      "type": "topic_entity",
+      "name": "finish",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'finish' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "finish"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3013",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3013 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S3013] is it alright if we couldt do it Mar, we can think of May? there is no hard thing that we need to finish in mar or may but I want to get it over with",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3013,
+        "role": "user",
+        "created_at": "2026-11-22T01:51:15Z",
+        "content_excerpt": "is it alright if we couldt do it Mar, we can think of May? there is no hard thing that we need to finish in mar or may but I want to get it over with",
+        "topics": [
+          "alright",
+          "couldt",
+          "finish",
+          "hard"
+        ]
+      }
+    },
+    {
+      "id": "topic:lets",
+      "type": "topic_entity",
+      "name": "lets",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'lets' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "lets"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3014",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3014 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S3014] **100% yes, Cathy!** ASQ offers the CSSBB exam in **odd months** (`January, March, May, July, September, November`), so an early-December approval automatically covers **both March 2027 and May 2027**: - **Plan A (Target",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3014,
+        "role": "assistant",
+        "created_at": "2026-11-22T01:51:15Z",
+        "content_excerpt": "**100% yes, Cathy!** ASQ offers the CSSBB exam in **odd months** (`January, March, May, July, September, November`), so an early-December approval automatically covers **both March 2027 and May 2027**:\n\n- **Plan A (Target): Saturday, March 27, 2027** \u2014 at your current pace (already 4 of 9 domains done and 655 questions at 78.3%!), March 27 is very realistic and lets you *\"get it over with\"* sooner!\n- **Built-In Safety Net (Checkpoint: March 7, 2027):** After our first full timed mock exam in early March, if you feel completely ready (`78%+`), we go take it **March 27** and celebrate. If a new job transition or busy interviews ever slow us down, Prometric lets you reschedule cleanly into a **May 2027 Saturday** inside your same approval window \u2014 **zero pressure and zero lost exam fee!**\n\nBe",
+        "topics": [
+          "march",
+          "exam",
+          "approval",
+          "lets"
+        ]
+      }
+    },
+    {
+      "id": "topic:aside",
+      "type": "topic_entity",
+      "name": "aside",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'aside' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "aside"
+      }
+    },
+    {
+      "id": "topic:exams",
+      "type": "topic_entity",
+      "name": "exams",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'exams' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "exams"
+      }
+    },
+    {
+      "id": "topic:going",
+      "type": "topic_entity",
+      "name": "going",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'going' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "going"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3015",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3015 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S3015] yeah, let us do full exams starting mar but with weekdays not sure how we can do it as you are going to time it - i need to set aside 4.5 hours",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3015,
+        "role": "user",
+        "created_at": "2026-11-22T01:52:25Z",
+        "content_excerpt": "yeah, let us do full exams starting mar but with weekdays not sure how we can do it as you are going to time it - i need to set aside 4.5 hours",
+        "topics": [
+          "aside",
+          "exams",
+          "full",
+          "going"
+        ]
+      }
+    },
+    {
+      "id": "topic:mock",
+      "type": "topic_entity",
+      "name": "mock",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'mock' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "mock"
+      }
+    },
+    {
+      "id": "topic:weekday",
+      "type": "topic_entity",
+      "name": "weekday",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'weekday' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "weekday"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3016",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3016 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S3016] **Easy fix, Cathy \u2014 we will NEVER put a 4.5-hour mock exam on a weekday!** - **March Saturdays or Sundays ONLY (`Mar 6/7`, `Mar 13/14`, `Mar 20/21`):** One full timed **4h 18m (`165`-question) open-book mock exam** start",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3016,
+        "role": "assistant",
+        "created_at": "2026-11-22T01:52:25Z",
+        "content_excerpt": "**Easy fix, Cathy \u2014 we will NEVER put a 4.5-hour mock exam on a weekday!**\n\n- **March Saturdays or Sundays ONLY (`Mar 6/7`, `Mar 13/14`, `Mar 20/21`):** One full timed **4h 18m (`165`-question) open-book mock exam** starting at **8:00 AM** \u2014 which also trains your exact morning focus for **Saturday, March 27 (`8:00 AM`)**!\n- **March Weekdays (`Mon\u2013Fri`):** Super light \u2014 just **20\u201330 minutes** reviewing any misses from the weekend mock and polishing your physical tabbed binder!\n\nTotally sustainable alongside a full-time weekday job. Go enjoy your oil-less dosa and slokas now!",
+        "topics": [
+          "march",
+          "mock",
+          "exam",
+          "weekday"
+        ]
+      }
+    },
+    {
+      "id": "topic:timer",
+      "type": "topic_entity",
+      "name": "timer",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'timer' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "timer"
+      }
+    },
+    {
+      "id": "topic:questions",
+      "type": "topic_entity",
+      "name": "questions",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'questions' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "questions"
+      }
+    },
+    {
+      "id": "topic:weekedays",
+      "type": "topic_entity",
+      "name": "weekedays",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'weekedays' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "weekedays"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3017",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3017 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S3017] may be during weekedays give me 165 questions without timer and weekend give me with timer",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3017,
+        "role": "user",
+        "created_at": "2026-11-22T01:52:49Z",
+        "content_excerpt": "may be during weekedays give me 165 questions without timer and weekend give me with timer",
+        "topics": [
+          "give",
+          "timer",
+          "questions",
+          "weekedays"
         ]
       }
     },
@@ -12370,16 +12372,6 @@
           "codes",
           "exact"
         ]
-      }
-    },
-    {
-      "id": "topic:alright",
-      "type": "topic_entity",
-      "name": "alright",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'alright' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "alright"
       }
     },
     {
@@ -27397,15 +27389,7 @@
       "target": "topic:march",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 32
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:expected",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 12
+        "count": 45
       }
     },
     {
@@ -27413,39 +27397,7 @@
       "target": "topic:exam",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 11
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:project",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 11
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:time",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:alto",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:palo",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
+        "count": 18
       }
     },
     {
@@ -27453,211 +27405,53 @@
       "target": "topic:saturday",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
+        "count": 13
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:prometric",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:full",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
         "count": 8
       }
     },
     {
-      "source": "chat_turn:b6556366:S2989",
-      "target": "topic:questions",
+      "source": "chat_session:b6556366",
+      "target": "topic:zero",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2989",
-      "target": "topic:applications",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2989",
-      "target": "topic:slokas",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2989",
-      "target": "topic:sunday",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
+        "count": 8
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2989",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2990",
-      "target": "topic:applying",
+      "target": "topic:alto",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2990",
-      "target": "topic:atleast",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2990",
-      "target": "topic:cadence",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2990",
-      "target": "topic:jobs",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
+        "count": 7
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2990",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2991",
-      "target": "topic:applications",
+      "target": "topic:cathy",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2991",
-      "target": "topic:fresh",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2991",
-      "target": "topic:weeks",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2991",
-      "target": "topic:active",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
+        "count": 7
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2991",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2992",
-      "target": "topic:formula",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2992",
-      "target": "topic:pert",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2992",
-      "target": "topic:remember",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2992",
-      "target": "topic:trying",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2992",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2993",
-      "target": "topic:project",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 10
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2993",
-      "target": "topic:variance",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2993",
-      "target": "topic:expected",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2993",
-      "target": "topic:square",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2993",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S2994",
-      "target": "topic:trick",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2994",
-      "relation": "HAS_CHAT_TURN",
+      "target": "doc:documents/ASQ_CSSBB_March27_2027_Study_Plan.md",
+      "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
@@ -27885,6 +27679,240 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S3007",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3012",
+      "target": "topic:prometric",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3012",
+      "target": "topic:week",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3012",
+      "target": "topic:biggest",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3012",
+      "target": "topic:domain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3012",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3012",
+      "target": "doc:documents/ASQ_CSSBB_March27_2027_Study_Plan.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3013",
+      "target": "topic:alright",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3013",
+      "target": "topic:couldt",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3013",
+      "target": "topic:finish",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3013",
+      "target": "topic:hard",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3013",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3014",
+      "target": "topic:march",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3014",
+      "target": "topic:exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3014",
+      "target": "topic:approval",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3014",
+      "target": "topic:lets",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3014",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3015",
+      "target": "topic:aside",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3015",
+      "target": "topic:exams",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3015",
+      "target": "topic:full",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3015",
+      "target": "topic:going",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3015",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3016",
+      "target": "topic:march",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3016",
+      "target": "topic:mock",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3016",
+      "target": "topic:exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3016",
+      "target": "topic:weekday",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3016",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3017",
+      "target": "topic:give",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3017",
+      "target": "topic:timer",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3017",
+      "target": "topic:questions",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3017",
+      "target": "topic:weekedays",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3017",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -29372,7 +29400,7 @@
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
     "documents/ASQ_CSSBB_DMAIC_BBQ_Bible_Guide.md": "76bee059ab0ca133eea88c461184f8ee9ee2719eb9b5f8fbbf0e8204098fdc3d",
-    "documents/ASQ_CSSBB_March27_2027_Study_Plan.md": "4df46d6daaafe7f2133d29c452054902d251c1134e01d8e6a2dc8302540c7f28",
+    "documents/ASQ_CSSBB_March27_2027_Study_Plan.md": "3f957797063469ec4e551c99d269551b2ecfc72fa942d873f45a22157e1657b8",
     "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx": "432494ada5374440ddd3e93f2159086c059cace05f5dc0d8ce875b23519a2ad6",
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
     "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx": "131d5f71b13f4527726e2b51dbadbb30823926af0a78837b74cf5984dfae7c27",
@@ -29384,6 +29412,6 @@
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "b74d1bc2be291a94bff5b5149bbf646c2a22c16f761382434c15136387a9909f"
+    "repo.md": "a1cd1029740b7a60761bf14e370d2dea65acb198884856552a306cd06d3686f5"
   }
 }
