@@ -1,48 +1,46 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-22T19:16:06.702098+00:00",
-    "total_files_indexed": 103,
-    "total_nodes": 1001,
-    "total_edges": 2305,
+    "generated_at": "2026-11-22T19:21:51.565088+00:00",
+    "total_files_indexed": 104,
+    "total_nodes": 1009,
+    "total_edges": 2346,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
       "document": 54,
-      "document_file": 47,
-      "document_section": 323,
+      "document_file": 48,
+      "document_section": 329,
       "html_template": 1,
-      "topic_entity": 522
+      "topic_entity": 523
     }
   },
   "last_change_check": {
     "changed": true,
     "added": [
-      "Resume_And_Jobs/Job59_NVIDIA_JR2022577_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job60_Amgen_R257378_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx"
+      "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx"
     ],
     "modified": [
       "chats/SHARED_SESSION_STATE.md",
       "documents/CAREER_APPLICATIONS_TRACKER.md"
     ],
     "removed": [],
-    "files_parsed": 4,
-    "files_cached_reused": 98,
+    "files_parsed": 2,
+    "files_cached_reused": 101,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 86,
-      "nodes_deleted": 15,
-      "edges_upserted": 180,
-      "edges_deleted": 47,
+      "nodes_upserted": 36,
+      "nodes_deleted": 8,
+      "edges_upserted": 68,
+      "edges_deleted": 19,
       "wiki_pages_upserted": 1,
       "wiki_pages_deleted": 0,
-      "files_upserted": 6,
+      "files_upserted": 4,
       "files_deleted": 0,
-      "total_nodes_in_db": 1001,
-      "total_edges_in_db": 2305,
-      "total_files_tracked": 104
+      "total_nodes_in_db": 1009,
+      "total_edges_in_db": 2346,
+      "total_files_tracked": 105
     }
   },
   "nodes": [
@@ -661,7 +659,7 @@
       "id": "topic:power",
       "type": "topic_entity",
       "name": "power",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'power' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "power"
@@ -789,7 +787,7 @@
       "id": "topic:certified",
       "type": "topic_entity",
       "name": "certified",
-      "file_path": "Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'certified' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "certified"
@@ -918,7 +916,7 @@
       "id": "topic:compliance",
       "type": "topic_entity",
       "name": "compliance",
-      "file_path": "Resume_And_Jobs/Job59_NVIDIA_JR2022577_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'compliance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "compliance"
@@ -951,7 +949,7 @@
       "id": "topic:competitive",
       "type": "topic_entity",
       "name": "competitive",
-      "file_path": "Resume_And_Jobs/Job51_Zoox_4f5ce2df_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'competitive' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "competitive"
@@ -971,7 +969,7 @@
       "id": "topic:onboarding",
       "type": "topic_entity",
       "name": "onboarding",
-      "file_path": "Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'onboarding' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "onboarding"
@@ -1183,7 +1181,7 @@
       "id": "topic:delivery",
       "type": "topic_entity",
       "name": "delivery",
-      "file_path": "Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'delivery' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "delivery"
@@ -1216,7 +1214,7 @@
       "id": "topic:tools",
       "type": "topic_entity",
       "name": "tools",
-      "file_path": "Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'tools' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "tools"
@@ -1226,7 +1224,7 @@
       "id": "topic:advanced",
       "type": "topic_entity",
       "name": "advanced",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job60_Amgen_R257378_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'advanced' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "advanced"
@@ -1432,7 +1430,7 @@
       "id": "topic:performance",
       "type": "topic_entity",
       "name": "performance",
-      "file_path": "Resume_And_Jobs/Job55_Amgen_R226938_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'performance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "performance"
@@ -3346,7 +3344,7 @@
       "id": "topic:partner",
       "type": "topic_entity",
       "name": "partner",
-      "file_path": "Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'partner' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "partner"
@@ -5301,7 +5299,7 @@
       "id": "topic:capacity",
       "type": "topic_entity",
       "name": "capacity",
-      "file_path": "Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'capacity' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "capacity"
@@ -5411,7 +5409,7 @@
       "id": "topic:integration",
       "type": "topic_entity",
       "name": "integration",
-      "file_path": "Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'integration' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "integration"
@@ -5561,7 +5559,7 @@
       "id": "topic:excel",
       "type": "topic_entity",
       "name": "excel",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job58_Leidos_R00197280_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'excel' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "excel"
@@ -5943,7 +5941,7 @@
       "id": "topic:planning",
       "type": "topic_entity",
       "name": "planning",
-      "file_path": "Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'planning' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "planning"
@@ -6057,6 +6055,126 @@
         "section_type": "section",
         "text_excerpt": "\u2022 EDI Planning Integration & Global Supplier Onboarding: Led global vendor onboarding, ERP/EDI order-to-delivery integration, and cross-functional quality and delivery alignment.\nPLANNING PLATFORMS & ANALYTICAL TOOLS\n\u2022 Systems & Tools: Microsoft Dynamics 365 (TMS-D365), ERP/WMS/EDI Platforms, Advanced Excel (Spreadsheet Modeling, Scenario & Variance Analysis), Power Automate, Power Apps, SharePoint, AI-Assisted Workflow & Reporting Automation Tools",
         "char_count": 452
+      }
+    },
+    {
+      "id": "topic:strategic",
+      "type": "topic_entity",
+      "name": "strategic",
+      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "description": "Shared domain topic 'strategic' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "strategic"
+      }
+    },
+    {
+      "id": "topic:continuity",
+      "type": "topic_entity",
+      "name": "continuity",
+      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "description": "Shared domain topic 'continuity' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "continuity"
+      }
+    },
+    {
+      "id": "doc_file:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "type": "document_file",
+      "name": "Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "description": "Document Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx (6 section(s)): KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY PMP-, APICS CSCP-, and ASQ Six Sigma Green & Y",
+      "metadata": {
+        "format": "docx",
+        "section_count": 6,
+        "size_bytes": 3632,
+        "topics": [
+          "supplier",
+          "across",
+          "cost",
+          "sourcing",
+          "strategic",
+          "supply",
+          "commercial",
+          "continuity"
+        ]
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:1",
+      "type": "document_section",
+      "name": "Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx [Section 1]",
+      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 1 of Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx: KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY PMP-, APICS CSCP-, and ASQ Six Sigma Green & Yellow Belt-certified Strategic Sourcing,",
+      "metadata": {
+        "section_index": 1,
+        "section_type": "section",
+        "text_excerpt": "KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB\nPalo Alto, CA 94306  |  (201) 707-0163  |  Krithika.rao@live.com\nPROFESSIONAL SUMMARY\nPMP-, APICS CSCP-, and ASQ Six Sigma Green & Yellow Belt-certified Strategic Sourcing, Category Management, and Supplier Performance Professional with a Master of Computer Applications (M.C.A. Engineering), B.Sc. in Chemistry, and 10+ years of experience developing and executing sourcing strategies, leading commercial supplier negotiations, managing multi-site critical supply continuity, and driving continuous cost improvement across a $50M+ annual third-party portfolio (40+ North American operating locations). Proven track record partnering across Operations, Engineering, Finance, Quality, IT, and Legal to extend contracted rate and capacity visibility ",
+        "char_count": 987
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:2",
+      "type": "document_section",
+      "name": "Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx [Section 2]",
+      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 2 of Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx: EDUCATION & ACTIVE CERTIFICATIONS \u2022 Master of Computer Applications (Engineering): M.C.A. (Engg.) \u2014 Computer Applications & Engineering \u2022 Bachelor of Science (B.Sc.): Chemistry \u2014 Technical & Analytical Foundation \u2022 Activ",
+      "metadata": {
+        "section_index": 2,
+        "section_type": "section",
+        "text_excerpt": "EDUCATION & ACTIVE CERTIFICATIONS\n\u2022 Master of Computer Applications (Engineering): M.C.A. (Engg.) \u2014 Computer Applications & Engineering\n\u2022 Bachelor of Science (B.Sc.): Chemistry \u2014 Technical & Analytical Foundation\n\u2022 Active Certifications: Project Management Professional (PMP), APICS Certified Supply Chain Professional (CSCP), ASQ Certified Six Sigma Green Belt (CSSGB), ASQ Certified Six Sigma Yellow Belt (CSSYB)\nCORE COMPETENCIES\n\u2022 Strategic Sourcing & Commercial Negotiations: Category Strategy Execution ($50M+ Annual Spend), RFP/RFQ Proposal & Quote Evaluation, Multi-Year Commercial Contracting (24-Month Horizon), Cost Modeling & Spend Reduction (-30% Cost)\n\u2022 Supplier Relationship & Continuity Management: Primary Interface with Strategic Suppliers, Capacity & Supply Availability Assurance ",
+        "char_count": 1115
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:3",
+      "type": "document_section",
+      "name": "Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx [Section 3]",
+      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 3 of Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx: \u2022 Continuous Improvement & Enterprise Platforms: Lean Six Sigma DMAIC (+20% Efficiency), $2M+ Contract & Invoice Variance Audits, Dynamics 365 (TMS-D365), Power Apps (+66% Reporting Accuracy), Power Automate, SharePoint,",
+      "metadata": {
+        "section_index": 3,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Continuous Improvement & Enterprise Platforms: Lean Six Sigma DMAIC (+20% Efficiency), $2M+ Contract & Invoice Variance Audits, Dynamics 365 (TMS-D365), Power Apps (+66% Reporting Accuracy), Power Automate, SharePoint, EDI & Advanced Excel\nPROFESSIONAL EXPERIENCE\nArdent Mills - Denver, CO (Remote from Palo Alto, CA)\nTransportation Specialist  |  2016 - Present\n\u2022 Strategic Sourcing & $50M+ Portfolio Execution Across 40+ Sites: Develop and execute multi-site sourcing and supply continuity strategies across 40+ North American facilities, partnering with technical, operations, finance, and legal stakeholders to ensure competitive cost, reliable capacity, and strong partner performance.\n\u2022 Multi-Year Commercial Contracting & 24-Month Visibility: Extended contracted supplier rate and capacity v",
+        "char_count": 936
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:4",
+      "type": "document_section",
+      "name": "Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx [Section 4]",
+      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 4 of Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx: \u2022 $2M+ Cost Modeling, Variance Audits & Continuous Cost Improvement: Audited $2M in annual supplemental partner charges across 40 locations, performed contract and cost variance analysis with Finance and external supplie",
+      "metadata": {
+        "section_index": 4,
+        "section_type": "section",
+        "text_excerpt": "\u2022 $2M+ Cost Modeling, Variance Audits & Continuous Cost Improvement: Audited $2M in annual supplemental partner charges across 40 locations, performed contract and cost variance analysis with Finance and external suppliers, negotiated recoveries, and instituted preventive audit controls.\n\u2022 Cross-Functional Process Optimization & Visibility (+20% Efficiency, +66% Accuracy): Applied Lean Six Sigma DMAIC (+20% operational efficiency), built a centralized Power Apps governance tracker (+66% reporting accuracy), and automated recurring US/CAD financial accrual reporting via SharePoint and Power Automate.\nArdent Mills - Denver, CO\nTransportation Data Specialist  |  2015 - 2016\n\u2022 Contractual Agreements, Onboarding & Compliance Governance: Managed strategic supplier contracts, rate schedules, onbo",
+        "char_count": 925
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:5",
+      "type": "document_section",
+      "name": "Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx [Section 5]",
+      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 5 of Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx: \u2022 Supplier Performance Scorecards & Feedback: Built and maintained KPI scorecards measuring supplier reliability, lead-time performance, and contractual adherence to drive structured supplier accountability. WhiteWave Fo",
+      "metadata": {
+        "section_index": 5,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Supplier Performance Scorecards & Feedback: Built and maintained KPI scorecards measuring supplier reliability, lead-time performance, and contractual adherence to drive structured supplier accountability.\nWhiteWave Foods - Broomfield, CO\nTransportation & Logistics Specialist  |  2014 - 2015\n\u2022 Supplier Performance Turnaround (+40% OTD): Led cross-functional root-cause analysis and structured corrective action plans with strategic partners, lifting On-Time Delivery by 40% across multi-plant operations.\n\u2022 Critical Multi-Site Supply Continuity: Coordinated multi-facility delivery schedules and cold-chain supply continuity across distributed operating locations.\nDalin Inc. - Carlstadt, NJ\nEDI / Shipping & Procurement Specialist  |  2010 - 2012\n\u2022 Strategic Negotiations & Spend Reduction (-30%",
+        "char_count": 966
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:6",
+      "type": "document_section",
+      "name": "Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx [Section 6]",
+      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 6 of Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx: \u2022 Global Supplier Onboarding & ERP/EDI Integration: Led global supplier onboarding, EDI workflow integration, and cross-functional quality alignment. ENTERPRISE PLATFORMS & SOURCING TOOLS \u2022 Systems & Tools: Microsoft Dyn",
+      "metadata": {
+        "section_index": 6,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Global Supplier Onboarding & ERP/EDI Integration: Led global supplier onboarding, EDI workflow integration, and cross-functional quality alignment.\nENTERPRISE PLATFORMS & SOURCING TOOLS\n\u2022 Systems & Tools: Microsoft Dynamics 365 (TMS-D365), Power Automate, Power Apps, SharePoint, WMS, EDI, Advanced Excel (Cost & Proposal Modeling), AI-Enabled Sourcing & Workflow Analytics Tools",
+        "char_count": 381
       }
     },
     {
@@ -9345,7 +9463,7 @@
           "Completed Applications \u2014 Day 6 Weekday Cadence (4 Submitted \u2014 2026-11-19 \u2014 Weekday Goal Complete!)",
           "Completed Applications \u2014 Day 7 Weekday Cadence (4 Submitted \u2014 2026-11-20 \u2014 Friday Goal Complete! `62` Total Tracked = `50` Active, `12` Rejected!)",
           "Completed Applications \u2014 Day 8 Weekend Sprint (`2026-11-21` \u2014 `10 / 10` COMPLETE!! `72` Total Tracked = `59` Active, `13` Rejected!)",
-          "Completed Applications \u2014 Day 9 Weekend Sprint (`2026-11-22` \u2014 `7 / 10` Submitted So Far; `79` Total Tracked = `66` Active, `13` Rejected!)",
+          "Completed Applications \u2014 Day 9 Weekend Sprint (`2026-11-22` \u2014 `8 / 10` Submitted So Far; `80` Total Tracked = `67` Active, `13` Rejected!)",
           "Full Lockheed Martin Eightfold Application History (`21` Roles: `16` Active + `5` Rejected + `1` Draft \u2014 Updated `2026-11-21`!)",
           "Active Employer Responses / Stage-2 Advancements",
           "Closed / Rejected Applications Log"
@@ -9437,6 +9555,7 @@
           "APPLIED / APPLICATION SUBMITTED (2026-11-22)",
           "Leidos (NYSE: LDOS)",
           "SUBMITTED (2026-11-22)",
+          "Samsara (NYSE: IOT)",
           "Active Stage-2 / Recruiter Screen (`1`):",
           "2026-11-17",
           "Rejected at Lockheed Martin (`5`):",
@@ -9527,9 +9646,9 @@
           "Job ID 350956",
           "Job ID 341956",
           "2026-11-22",
-          "7 / 10",
-          "79",
-          "66",
+          "8 / 10",
+          "80",
+          "67",
           "Req 01890100",
           "Req 01890448",
           "Req 01890074",
@@ -9537,6 +9656,7 @@
           "Req 01890097-1",
           "Req JR2022577",
           "Req R-257378",
+          "ID 8328373",
           "21",
           "16",
           "Rejected +",
@@ -11316,7 +11436,7 @@
       "id": "topic:give",
       "type": "topic_entity",
       "name": "give",
-      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'give' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "give"
@@ -11706,7 +11826,7 @@
       "id": "topic:manager",
       "type": "topic_entity",
       "name": "manager",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
       "description": "Shared domain topic 'manager' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "manager"
@@ -11733,6 +11853,16 @@
       }
     },
     {
+      "id": "topic:remote",
+      "type": "topic_entity",
+      "name": "remote",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'remote' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "remote"
+      }
+    },
+    {
       "id": "topic:nasdaq",
       "type": "topic_entity",
       "name": "nasdaq",
@@ -11740,16 +11870,6 @@
       "description": "Shared domain topic 'nasdaq' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "nasdaq"
-      }
-    },
-    {
-      "id": "topic:remote",
-      "type": "topic_entity",
-      "name": "remote",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'remote' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "remote"
       }
     },
     {
@@ -11779,8 +11899,8 @@
           "applied",
           "rejected",
           "active",
-          "nasdaq",
           "remote",
+          "nasdaq",
           "submitted",
           "sourcing"
         ]
@@ -12057,23 +12177,13 @@
       }
     },
     {
-      "id": "topic:sunday",
+      "id": "topic:apics",
       "type": "topic_entity",
-      "name": "sunday",
+      "name": "apics",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'sunday' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'apics' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "sunday"
-      }
-    },
-    {
-      "id": "topic:apply",
-      "type": "topic_entity",
-      "name": "apply",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'apply' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "apply"
+        "keyword": "apics"
       }
     },
     {
@@ -12081,109 +12191,22 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (944 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (947 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 944,
+        "turn_count": 947,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
+          "docx",
           "supplier",
-          "docx",
-          "power",
-          "remote",
-          "manager",
-          "sunday",
+          "supply",
           "across",
-          "apply"
-        ]
-      }
-    },
-    {
-      "id": "topic:job57_rtx_01890100_krithika_nagarajan_resume",
-      "type": "topic_entity",
-      "name": "job57_rtx_01890100_krithika_nagarajan_resume",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'job57_rtx_01890100_krithika_nagarajan_resume' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "job57_rtx_01890100_krithika_nagarajan_resume"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3068",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3068 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S3068] **Job #2 of 10 (`RTX 01890448` \u2014 *Mgr, Procurement*, 107.5K\u2013204.5K USD, 100% Remote) verified and logged!** - **Sunday Progress:** **2 / 10 submitted** (`74` total tracked = **61 Active**, 13 Rejected \u2014 `Active: 3` at RT",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3068,
-        "role": "assistant",
-        "created_at": "2026-11-22T18:45:10Z",
-        "content_excerpt": "**Job #2 of 10 (`RTX 01890448` \u2014 *Mgr, Procurement*, 107.5K\u2013204.5K USD, 100% Remote) verified and logged!**\n- **Sunday Progress:** **2 / 10 submitted** (`74` total tracked = **61 Active**, 13 Rejected \u2014 `Active: 3` at RTX!).\n\nGo ahead and submit **Sunday Job #3 of 10** right on your open RTX portal:\n- **RTX / Raytheon (`Req 01890074`) \u2014 *Commodity Performance Manager*** (`100% Remote`, **132,400 to 251,600 USD**, `Clearance: None`, Pure IC, explicitly prefers Six Sigma + Lean + Master's!)\n- **Direct Apply Link:** https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-AZ-REMOTE/Commodity-Performance-Manager_01890074\n- **Resume Ready to Upload (Exact HR Titles):** [Job57_RTX_01890100_Krithika_Nagarajan_Resume.docx](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Job57_",
-        "topics": [
-          "remote",
-          "active",
-          "docx",
-          "job57_rtx_01890100_krithika_nagarajan_resume"
-        ]
-      }
-    },
-    {
-      "id": "topic:nasa",
-      "type": "topic_entity",
-      "name": "nasa",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'nasa' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "nasa"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3080",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3080 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S3080] **Job #3 of 10 (`RTX 01890074` \u2014 *Commodity Performance Manager*, 132.4K\u2013251.6K USD, 100% Remote) verified and logged!** - **Sunday Progress:** **3 / 10 submitted** (`75` total tracked = **62 Active**, 13 Rejected \u2014 `Act",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3080,
-        "role": "assistant",
-        "created_at": "2026-11-22T18:48:08Z",
-        "content_excerpt": "**Job #3 of 10 (`RTX 01890074` \u2014 *Commodity Performance Manager*, 132.4K\u2013251.6K USD, 100% Remote) verified and logged!**\n- **Sunday Progress:** **3 / 10 submitted** (`75` total tracked = **62 Active**, 13 Rejected \u2014 `Active: 4` at RTX!).\n\n---\n\n### Sunday Job #4 of 10 \u2014 **Leidos (`NYSE: LDOS`)** *(Brand-New Fortune 300 Defense & NASA Prime \u2014 Hidden Local Advantage!)*\n- **Role:** **Material Project Manager \u2014 NASA IT Programs** (`Req R-00197280`, posted **3 days ago on Nov 19, 2026** \u2014 verified LIVE)\n- **Why You Have a HUGE Built-In Edge:** The JD states: *\"Remote/Teleworker US \u2014 Must be located within 50 miles of a NASA Center.\"* That eliminates 95% of nationwide remote applicants \u2014 and **NASA Ames Research Center (Moffett Field, Mountain View) is literally 7 miles from your house in Palo Al",
-        "topics": [
-          "excel",
-          "power",
-          "advanced",
-          "nasa"
-        ]
-      }
-    },
-    {
-      "id": "topic:draft",
-      "type": "topic_entity",
-      "name": "draft",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'draft' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "draft"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3081",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3081 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S3081] this was the one in draft",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3081,
-        "role": "user",
-        "created_at": "2026-11-22T18:48:31Z",
-        "content_excerpt": "this was the one in draft",
-        "topics": [
-          "draft"
+          "apics",
+          "cscp",
+          "krithika",
+          "planning"
         ]
       }
     },
@@ -12348,16 +12371,6 @@
       }
     },
     {
-      "id": "topic:apics",
-      "type": "topic_entity",
-      "name": "apics",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'apics' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "apics"
-      }
-    },
-    {
       "id": "topic:jobs",
       "type": "topic_entity",
       "name": "jobs",
@@ -12514,6 +12527,116 @@
           "apics",
           "docx",
           "onsite"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3192",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3192 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S3192] Logged and verified, Cathy! **Sunday Job #7 \u2014 Amgen `R-257378`** (*Strategic Sourcing Manager \u2013 Marketing*) is confirmed (`Application Received`, `Active: 5` on Amgen Workday). - **Sunday Progress:** **`7 / 10`** submitt",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3192,
+        "role": "assistant",
+        "created_at": "2026-11-22T19:16:14Z",
+        "content_excerpt": "Logged and verified, Cathy! **Sunday Job #7 \u2014 Amgen `R-257378`** (*Strategic Sourcing Manager \u2013 Marketing*) is confirmed (`Application Received`, `Active: 5` on Amgen Workday).\n\n- **Sunday Progress:** **`7 / 10`** submitted (only 3 left to finish your weekend sprint!)\n- **All-Time Tracked:** **`79` Total (`66` Active, `13` Rejected)**\n- **Git & Knowledge Graph Synced (`fcbc16c`):** `103` files indexed | **`1,001` nodes** | **`2,305` edges** | **`1,001` vectors**\n\n---\n\n### Sunday Job #8 (1-by-1) \u2014 Found Live on APICS / ASCM (`jobs.ascm.org`)\n\n**Samsara (`NYSE: IOT`) \u2014 Senior Supply Planning Manager - US** (`ID 8328373`)\n- **Work Mode:** **100% US Remote** (`Remote - US`)\n- **Compensation:** **`109.18K\u2013146.8K USD` base** (Palo Alto / CA top pay zone up to `146.8K USD`) **+ bonus + `NYSE: IOT",
+        "topics": [
+          "planning",
+          "supply",
+          "delivery",
+          "partner"
+        ]
+      }
+    },
+    {
+      "id": "topic:didn",
+      "type": "topic_entity",
+      "name": "didn",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'didn' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "didn"
+      }
+    },
+    {
+      "id": "topic:resume",
+      "type": "topic_entity",
+      "name": "resume",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'resume' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "resume"
+      }
+    },
+    {
+      "id": "topic:samsara",
+      "type": "topic_entity",
+      "name": "samsara",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'samsara' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "samsara"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3193",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3193 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S3193] you didn't give me the resume for samsara",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3193,
+        "role": "user",
+        "created_at": "2026-11-22T19:16:32Z",
+        "content_excerpt": "you didn't give me the resume for samsara",
+        "topics": [
+          "didn",
+          "give",
+          "resume",
+          "samsara"
+        ]
+      }
+    },
+    {
+      "id": "topic:job61_samsara_8328373_krithika_nagarajan_resume",
+      "type": "topic_entity",
+      "name": "job61_samsara_8328373_krithika_nagarajan_resume",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'job61_samsara_8328373_krithika_nagarajan_resume' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "job61_samsara_8328373_krithika_nagarajan_resume"
+      }
+    },
+    {
+      "id": "topic:right",
+      "type": "topic_entity",
+      "name": "right",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "right"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3196",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3196 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S3196] Right here, Cathy \u2014 our messages crossed by a few seconds! Your Samsara `.docx` resume is saved and verified ready to upload: - **Clickable File:** [Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx](file:///home/krit",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3196,
+        "role": "assistant",
+        "created_at": "2026-11-22T19:16:57Z",
+        "content_excerpt": "Right here, Cathy \u2014 our messages crossed by a few seconds! Your Samsara `.docx` resume is saved and verified ready to upload:\n\n- **Clickable File:** [Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx)\n- **Exact File Path (for the Greenhouse upload picker):**\n```text\n/home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx\n```\n- **Samsara Apply Link:** https://www.samsara.com/company/careers/roles/8328373?gh_jid=8328373\n\n*(And the copy-paste text version is right in my message just above if any field asks for plain text.)*\n\nSend the confirmation screenshot once submitted and I will bring up **Job #9** right away!",
+        "topics": [
+          "docx",
+          "job61_samsara_8328373_krithika_nagarajan_resume",
+          "right",
+          "samsara"
         ]
       }
     },
@@ -12933,16 +13056,6 @@
       "description": "Shared domain topic 'demo' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "demo"
-      }
-    },
-    {
-      "id": "topic:didn",
-      "type": "topic_entity",
-      "name": "didn",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'didn' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "didn"
       }
     },
     {
@@ -24178,6 +24291,298 @@
       }
     },
     {
+      "source": "doc_file:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 14
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:sourcing",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:strategic",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:supply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:commercial",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:continuity",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:1",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:annual",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:commercial",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:2",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:certified",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:supply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:3",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:capacity",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:commercial",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:competitive",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:4",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:accuracy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:compliance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:5",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:delivery",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:performance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:6",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:tools",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:global",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:integration",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:onboarding",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
       "source": "doc:Resume_And_Jobs/Job8_SBEnergy_Logistics_Control_Tower_Analytics_6196167004.md",
       "target": "cluster_node:tower",
       "relation": "DOCUMENTS_NODE",
@@ -29046,7 +29451,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 39
+        "count": 40
       }
     },
     {
@@ -29054,7 +29459,7 @@
       "target": "topic:applied",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 36
+        "count": 37
       }
     },
     {
@@ -29075,15 +29480,15 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:nasdaq",
+      "target": "topic:remote",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 22
+        "count": 23
       }
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:remote",
+      "target": "topic:nasdaq",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 22
@@ -29094,7 +29499,7 @@
       "target": "topic:submitted",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 18
+        "count": 19
       }
     },
     {
@@ -29352,7 +29757,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 39
+        "count": 40
       }
     },
     {
@@ -29360,7 +29765,7 @@
       "target": "topic:applied",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 36
+        "count": 37
       }
     },
     {
@@ -29387,6 +29792,14 @@
     },
     {
       "source": "chat_session:b6556366",
+      "target": "topic:docx",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 19
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
       "target": "topic:supplier",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
@@ -29395,42 +29808,10 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:docx",
+      "target": "topic:supply",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 16
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:power",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 15
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:remote",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 15
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:manager",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 12
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:sunday",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 12
+        "count": 14
       }
     },
     {
@@ -29438,15 +29819,39 @@
       "target": "topic:across",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 11
+        "count": 13
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:apply",
+      "target": "topic:apics",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 11
+        "count": 13
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:cscp",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:krithika",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:planning",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 12
       }
     },
     {
@@ -29477,108 +29882,6 @@
       "source": "chat_session:b6556366",
       "target": "doc_file:Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx",
       "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S3068",
-      "target": "topic:remote",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3068",
-      "target": "topic:active",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3068",
-      "target": "topic:docx",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3068",
-      "target": "topic:job57_rtx_01890100_krithika_nagarajan_resume",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3068",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S3068",
-      "target": "doc_file:Resume_And_Jobs/Job57_RTX_01890100_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S3080",
-      "target": "topic:excel",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3080",
-      "target": "topic:power",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3080",
-      "target": "topic:advanced",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3080",
-      "target": "topic:nasa",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3080",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S3080",
-      "target": "doc_file:Resume_And_Jobs/Job58_Leidos_R00197280_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S3081",
-      "target": "topic:draft",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3081",
-      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -29955,6 +30258,132 @@
     },
     {
       "source": "chat_turn:b6556366:S3178",
+      "target": "doc_file:Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3192",
+      "target": "topic:planning",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3192",
+      "target": "topic:supply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3192",
+      "target": "topic:delivery",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3192",
+      "target": "topic:partner",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3192",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3192",
+      "target": "doc_file:Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3193",
+      "target": "topic:didn",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3193",
+      "target": "topic:give",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3193",
+      "target": "topic:resume",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3193",
+      "target": "topic:samsara",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3193",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3196",
+      "target": "topic:docx",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3196",
+      "target": "topic:job61_samsara_8328373_krithika_nagarajan_resume",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3196",
+      "target": "topic:right",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3196",
+      "target": "topic:samsara",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3196",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3196",
       "target": "doc_file:Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
@@ -31435,6 +31864,7 @@
     "Resume_And_Jobs/Job5_Intuitive_Supply_Chain_Risk_Visibility_JOB214003.md": "2173a8bf2d72f21ffbf2d2974fe27aba10085de0f92c90a12055b09ea4007363",
     "Resume_And_Jobs/Job60_Amgen_R257378_Krithika_Nagarajan_Resume.docx": "d82f30c955d1c5328e346b98631282be2104bb245cf5b90de747c112ebd66d8e",
     "Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx": "d3dc7f25a398993dad7fc14e5089104a388977e73ccc4fbc152f05a47a62cb07",
+    "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx": "87e1a96ab09196881ef3dcaaef7de3b6ff4a49ae68b54687ee65edc2a0fb616b",
     "Resume_And_Jobs/Job6_Applied_Materials_Purchasing_SupplyChain_SantaClara.md": "b1c5d57b896fb9b977a5d594def0879f0b1b09a3cfcd68d03f9a22eb7b3bf344",
     "Resume_And_Jobs/Job7_SBEnergy_Supply_Chain_Governance_RedwoodCity.md": "6ae28457006ad1fe3a534e473e7fe9aa11c71686527f376618e2596b4facff2c",
     "Resume_And_Jobs/Job8_SBEnergy_Logistics_Control_Tower_Analytics_6196167004.md": "7fdb5ad4c88dcb89bd72db283dd5877b625bb2f5e0c970f10c511183d7867e1c",
@@ -31443,7 +31873,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "e43717ececfd2a59b1c19d692303dbfd7621bf04bc3b35dc4f33c7407c525ee6",
+    "chats/SHARED_SESSION_STATE.md": "e900a99fde9d31a2fbd94f07481e83570fbbd57c07e2ac35ff9d715423f39134",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -31453,13 +31883,13 @@
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
     "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx": "131d5f71b13f4527726e2b51dbadbb30823926af0a78837b74cf5984dfae7c27",
     "documents/ASQ_Sampling_Methods_Quick_Table.docx": "611a5b1986e4d296f6a1244d2c334d4f6688820f04a6cb8d6ff694b7b1f6ef0e",
-    "documents/CAREER_APPLICATIONS_TRACKER.md": "60f169c77798a48d904f03c7e4b8b9489225f5206a7d4ed424ba642c901405ff",
+    "documents/CAREER_APPLICATIONS_TRACKER.md": "8aa757be96e7034be8cf821a8edcf0bb9b0a509f3eafaffa566789d4813f26be",
     "documents/PValue_And_Cp_Cpk_Quick_Tables.docx": "7e146d9b535a8fa34793e0d7ecfd892041e75cd8a15e79777c55fa1babae79d5",
     "documents/QUESTION_BANK_LOG.md": "404859eda4d9a06105669a1b56dbed5ec2dad9b8fb157b5c0fcfef4abb7b44d4",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "7e55fba9f947574455cbc0da6e2be3a77ea8dd7754609063a967595885f3b8e5"
+    "repo.md": "3282011b315f44c10c04908e07b64b1bc6b68faac263e4fcbedfcaa2036f4c2a"
   }
 }
