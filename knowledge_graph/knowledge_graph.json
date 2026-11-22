@@ -1,43 +1,46 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-22T19:26:41.881365+00:00",
-    "total_files_indexed": 104,
-    "total_nodes": 1007,
-    "total_edges": 2344,
+    "generated_at": "2026-11-22T19:36:52.103880+00:00",
+    "total_files_indexed": 105,
+    "total_nodes": 1013,
+    "total_edges": 2382,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
       "document": 54,
-      "document_file": 48,
-      "document_section": 329,
+      "document_file": 49,
+      "document_section": 335,
       "html_template": 1,
-      "topic_entity": 521
+      "topic_entity": 520
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [],
+    "added": [
+      "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx"
+    ],
     "modified": [
-      "chats/SHARED_SESSION_STATE.md"
+      "chats/SHARED_SESSION_STATE.md",
+      "documents/CAREER_APPLICATIONS_TRACKER.md"
     ],
     "removed": [],
-    "files_parsed": 0,
-    "files_cached_reused": 103,
+    "files_parsed": 2,
+    "files_cached_reused": 102,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 9,
-      "nodes_deleted": 6,
-      "edges_upserted": 26,
-      "edges_deleted": 16,
-      "wiki_pages_upserted": 0,
+      "nodes_upserted": 25,
+      "nodes_deleted": 3,
+      "edges_upserted": 58,
+      "edges_deleted": 6,
+      "wiki_pages_upserted": 1,
       "wiki_pages_deleted": 0,
-      "files_upserted": 2,
+      "files_upserted": 4,
       "files_deleted": 0,
-      "total_nodes_in_db": 1007,
-      "total_edges_in_db": 2344,
-      "total_files_tracked": 105
+      "total_nodes_in_db": 1013,
+      "total_edges_in_db": 2382,
+      "total_files_tracked": 106
     }
   },
   "nodes": [
@@ -636,7 +639,7 @@
       "id": "topic:contract",
       "type": "topic_entity",
       "name": "contract",
-      "file_path": "Resume_And_Jobs/Job57_RTX_01890100_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'contract' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "contract"
@@ -784,7 +787,7 @@
       "id": "topic:certified",
       "type": "topic_entity",
       "name": "certified",
-      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'certified' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "certified"
@@ -880,7 +883,7 @@
       "id": "topic:audit",
       "type": "topic_entity",
       "name": "audit",
-      "file_path": "Resume_And_Jobs/Job60_Amgen_R257378_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'audit' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "audit"
@@ -913,7 +916,7 @@
       "id": "topic:compliance",
       "type": "topic_entity",
       "name": "compliance",
-      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'compliance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "compliance"
@@ -1211,7 +1214,7 @@
       "id": "topic:tools",
       "type": "topic_entity",
       "name": "tools",
-      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'tools' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "tools"
@@ -1321,7 +1324,7 @@
       "id": "topic:governance",
       "type": "topic_entity",
       "name": "governance",
-      "file_path": "Resume_And_Jobs/Job60_Amgen_R257378_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'governance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "governance"
@@ -1427,7 +1430,7 @@
       "id": "topic:performance",
       "type": "topic_entity",
       "name": "performance",
-      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'performance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "performance"
@@ -1779,7 +1782,7 @@
       "id": "topic:enterprise",
       "type": "topic_entity",
       "name": "enterprise",
-      "file_path": "Resume_And_Jobs/Job42_AnalogDevices_R266612_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'enterprise' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "enterprise"
@@ -1811,7 +1814,7 @@
       "id": "topic:category",
       "type": "topic_entity",
       "name": "category",
-      "file_path": "Resume_And_Jobs/Job55_Amgen_R226938_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'category' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "category"
@@ -2057,7 +2060,7 @@
       "id": "topic:renewal",
       "type": "topic_entity",
       "name": "renewal",
-      "file_path": "Resume_And_Jobs/Job37_Adobe_R166065_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'renewal' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "renewal"
@@ -5406,7 +5409,7 @@
       "id": "topic:integration",
       "type": "topic_entity",
       "name": "integration",
-      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'integration' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "integration"
@@ -6172,6 +6175,106 @@
         "section_type": "section",
         "text_excerpt": "\u2022 Global Supplier Onboarding & ERP/EDI Integration: Led global supplier onboarding, EDI workflow integration, and cross-functional quality alignment.\nENTERPRISE PLATFORMS & SOURCING TOOLS\n\u2022 Systems & Tools: Microsoft Dynamics 365 (TMS-D365), Power Automate, Power Apps, SharePoint, WMS, EDI, Advanced Excel (Cost & Proposal Modeling), AI-Enabled Sourcing & Workflow Analytics Tools",
         "char_count": 381
+      }
+    },
+    {
+      "id": "doc_file:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "type": "document_file",
+      "name": "Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "description": "Document Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx (6 section(s)): KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY APICS CSCP-, PMP-, and ASQ Six Sigma Green & Y",
+      "metadata": {
+        "format": "docx",
+        "section_count": 6,
+        "size_bytes": 3701,
+        "topics": [
+          "supplier",
+          "contract",
+          "enterprise",
+          "renewal",
+          "across",
+          "compliance",
+          "governance",
+          "power"
+        ]
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:1",
+      "type": "document_section",
+      "name": "Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx [Section 1]",
+      "file_path": "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 1 of Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx: KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY APICS CSCP-, PMP-, and ASQ Six Sigma Green & Yellow Belt-certified Strategic Sourcing,",
+      "metadata": {
+        "section_index": 1,
+        "section_type": "section",
+        "text_excerpt": "KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB\nPalo Alto, CA 94306  |  (201) 707-0163  |  Krithika.rao@live.com\nPROFESSIONAL SUMMARY\nAPICS CSCP-, PMP-, and ASQ Six Sigma Green & Yellow Belt-certified Strategic Sourcing, Category Management, and Enterprise Systems Procurement Professional combining a Master of Computer Applications (M.C.A. Engineering \u2014 Software & IT Systems), B.Sc. in Chemistry, and 10+ years of experience executing category strategies, leading complex supplier negotiations, managing full contract lifecycles (RFP through execution and renewal), and driving compliance and cost optimization across a $50M+ annual third-party spend portfolio (40+ regulated operating sites). Proven track record partnering across IT, Operations, Legal, Quality, and Finance to standardize en",
+        "char_count": 1022
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:2",
+      "type": "document_section",
+      "name": "Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx [Section 2]",
+      "file_path": "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 2 of Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx: EDUCATION & ACTIVE CERTIFICATIONS \u2022 Master of Computer Applications (Engineering): M.C.A. (Engg.) \u2014 Computer Applications, Software & Enterprise IT Systems \u2022 Bachelor of Science (B.Sc.): Chemistry \u2014 Analytical & Regulate",
+      "metadata": {
+        "section_index": 2,
+        "section_type": "section",
+        "text_excerpt": "EDUCATION & ACTIVE CERTIFICATIONS\n\u2022 Master of Computer Applications (Engineering): M.C.A. (Engg.) \u2014 Computer Applications, Software & Enterprise IT Systems\n\u2022 Bachelor of Science (B.Sc.): Chemistry \u2014 Analytical & Regulated Industry Foundation\n\u2022 Active Certifications: APICS Certified Supply Chain Professional (CSCP), Project Management Professional (PMP), ASQ Certified Six Sigma Green Belt (CSSGB), ASQ Certified Six Sigma Yellow Belt (CSSYB)\nCORE COMPETENCIES\n\u2022 Strategic Sourcing, Contracting & Category Management: Full Contract Lifecycle Management (RFP Through Execution & Renewal), Supplier Negotiations (-30% Cost Reduction), Multi-Year Rate & Renewal Governance (24-Month Visibility, $50M+ Portfolio), Market Benchmarking & Portfolio Standardization\n\u2022 Enterprise IT & Software Platform Fluen",
+        "char_count": 1004
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:3",
+      "type": "document_section",
+      "name": "Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx [Section 3]",
+      "file_path": "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 3 of Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx: \u2022 Procurement Risk, Audits & Regulated Compliance: $2M+ Commercial Contract, Entitlement & Billing Audits, Compliance Recordkeeping & Renewal Tracking, Regulatory Documentation Governance, Supplier SLA/KPI Scorecards (+4",
+      "metadata": {
+        "section_index": 3,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Procurement Risk, Audits & Regulated Compliance: $2M+ Commercial Contract, Entitlement & Billing Audits, Compliance Recordkeeping & Renewal Tracking, Regulatory Documentation Governance, Supplier SLA/KPI Scorecards (+40% OTD)\n\u2022 Analytical Problem-Solving & Process Improvement: Lean Six Sigma DMAIC (+20% Efficiency), Centralized Governance Tracking (+66% Reporting Accuracy), Advanced Excel Analysis & Power Automate Workflow Automation\nPROFESSIONAL EXPERIENCE\nArdent Mills - Denver, CO (Remote from Palo Alto, CA)\nTransportation Specialist  |  2016 - Present\n\u2022 Category Strategy & $50M+ Annual Third-Party Spend Governance: Partner across IT, Operations, Finance, Legal, and Quality stakeholders at 40+ North American sites to execute category strategies, evaluate supplier proposals, manage stra",
+        "char_count": 1114
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:4",
+      "type": "document_section",
+      "name": "Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx [Section 4]",
+      "file_path": "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 4 of Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx: \u2022 $2M+ Commercial Contract Audits & Compliance Controls: Audited $2M in annual supplemental vendor charges across 40 sites, reconciled contract entitlements and billing variances with Finance and external suppliers, nego",
+      "metadata": {
+        "section_index": 4,
+        "section_type": "section",
+        "text_excerpt": "\u2022 $2M+ Commercial Contract Audits & Compliance Controls: Audited $2M in annual supplemental vendor charges across 40 sites, reconciled contract entitlements and billing variances with Finance and external suppliers, negotiated recoveries, and instituted preventive audit controls.\n\u2022 Enterprise Digital Modernization & Process Improvement (+20% Efficiency, +66% Accuracy): Leveraged M.C.A. software/IT background and Lean Six Sigma DMAIC to streamline governance workflows (+20% efficiency), build a centralized Power Apps tracking solution (+66% accuracy), and automate monthly US/CAD accrual reporting via SharePoint and Power Automate.\nArdent Mills - Denver, CO\nTransportation Data Specialist  |  2015 - 2016\n\u2022 Contract Records, Compliance & Vendor Onboarding: Maintained accurate supplier contract",
+        "char_count": 949
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:5",
+      "type": "document_section",
+      "name": "Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx [Section 5]",
+      "file_path": "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 5 of Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx: \u2022 Supplier Performance & Benchmarking Scorecards: Built and maintained KPI scorecards evaluating supplier reliability, contractual adherence, and SLA performance across national and regional partners. WhiteWave Foods - B",
+      "metadata": {
+        "section_index": 5,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Supplier Performance & Benchmarking Scorecards: Built and maintained KPI scorecards evaluating supplier reliability, contractual adherence, and SLA performance across national and regional partners.\nWhiteWave Foods - Broomfield, CO\nTransportation & Logistics Specialist  |  2014 - 2015\n\u2022 Supplier Performance Turnaround (+40% OTD): Partnered across IT/operations, quality, and external vendors to elevate On-Time Delivery by 40% through variance analysis, root-cause mitigation, and structured corrective action plans.\n\u2022 Regulated Multi-Site Partner Governance: Coordinated multi-plant partner schedules and strict regulated compliance across distributed operating locations.\nDalin Inc. - Carlstadt, NJ\nEDI / Shipping & Procurement Specialist  |  2010 - 2012\n\u2022 Strategic Negotiations & Spend Reduct",
+        "char_count": 960
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:6",
+      "type": "document_section",
+      "name": "Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx [Section 6]",
+      "file_path": "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 6 of Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx: \u2022 Enterprise EDI Integration & Global Supplier Onboarding: Led global supplier onboarding, enterprise ERP/EDI software integration, and cross-functional quality alignment. ENTERPRISE PLATFORMS & PROCUREMENT TOOLS \u2022 Syste",
+      "metadata": {
+        "section_index": 6,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Enterprise EDI Integration & Global Supplier Onboarding: Led global supplier onboarding, enterprise ERP/EDI software integration, and cross-functional quality alignment.\nENTERPRISE PLATFORMS & PROCUREMENT TOOLS\n\u2022 Systems & Tools: Microsoft Dynamics 365 (TMS-D365), Power Automate, Power Apps, SharePoint, Enterprise ERP/WMS/EDI Platforms, Advanced Excel, Contract & Spend Analytics Tools",
+        "char_count": 389
       }
     },
     {
@@ -8157,7 +8260,7 @@
       "id": "topic:always",
       "type": "topic_entity",
       "name": "always",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "description": "Shared domain topic 'always' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "always"
@@ -9460,7 +9563,7 @@
           "Completed Applications \u2014 Day 6 Weekday Cadence (4 Submitted \u2014 2026-11-19 \u2014 Weekday Goal Complete!)",
           "Completed Applications \u2014 Day 7 Weekday Cadence (4 Submitted \u2014 2026-11-20 \u2014 Friday Goal Complete! `62` Total Tracked = `50` Active, `12` Rejected!)",
           "Completed Applications \u2014 Day 8 Weekend Sprint (`2026-11-21` \u2014 `10 / 10` COMPLETE!! `72` Total Tracked = `59` Active, `13` Rejected!)",
-          "Completed Applications \u2014 Day 9 Weekend Sprint (`2026-11-22` \u2014 `8 / 10` Submitted So Far; `80` Total Tracked = `67` Active, `13` Rejected!)",
+          "Completed Applications \u2014 Day 9 Weekend Sprint (`2026-11-22` \u2014 `10 / 10` COMPLETE!! `20 / 20` Full Weekend Sprint! `82` Total Tracked = `69` Active, `13` Rejected!)",
           "Full Lockheed Martin Eightfold Application History (`21` Roles: `16` Active + `5` Rejected + `1` Draft \u2014 Updated `2026-11-21`!)",
           "Active Employer Responses / Stage-2 Advancements",
           "Closed / Rejected Applications Log"
@@ -9553,6 +9656,9 @@
           "Leidos (NYSE: LDOS)",
           "SUBMITTED (2026-11-22)",
           "Samsara (NYSE: IOT)",
+          "APPLIED / UNDER CONSIDERATION (2026-11-22)",
+          "Intuitive Machines / Lanteris Space Systems (NASDAQ: LUNR)",
+          "SUBMITTED / ACTIVE (2026-11-22)",
           "Active Stage-2 / Recruiter Screen (`1`):",
           "2026-11-17",
           "Rejected at Lockheed Martin (`5`):",
@@ -9643,9 +9749,9 @@
           "Job ID 350956",
           "Job ID 341956",
           "2026-11-22",
-          "8 / 10",
-          "80",
-          "67",
+          "20 / 20",
+          "82",
+          "69",
           "Req 01890100",
           "Req 01890448",
           "Req 01890074",
@@ -9654,6 +9760,9 @@
           "Req JR2022577",
           "Req R-257378",
           "ID 8328373",
+          "Job ID 347821",
+          "IT Category Manager",
+          "Req R24398",
           "21",
           "16",
           "Rejected +",
@@ -11853,7 +11962,7 @@
       "id": "topic:remote",
       "type": "topic_entity",
       "name": "remote",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'remote' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "remote"
@@ -11894,12 +12003,12 @@
         "topics": [
           "manager",
           "applied",
-          "rejected",
           "active",
+          "rejected",
           "remote",
           "nasdaq",
-          "submitted",
-          "sourcing"
+          "sourcing",
+          "submitted"
         ]
       }
     },
@@ -12188,72 +12297,22 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (949 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (950 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 949,
+        "turn_count": 950,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
           "supplier",
-          "docx",
-          "supply",
           "across",
-          "apics",
+          "docx",
           "power",
-          "cscp",
-          "onboarding"
-        ]
-      }
-    },
-    {
-      "id": "topic:another",
-      "type": "topic_entity",
-      "name": "another",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'another' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "another"
-      }
-    },
-    {
-      "id": "topic:hits",
-      "type": "topic_entity",
-      "name": "hits",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'hits' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "hits"
-      }
-    },
-    {
-      "id": "topic:hope",
-      "type": "topic_entity",
-      "name": "hope",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'hope' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "hope"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3102",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3102 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S3102] ratheon is another one which always rejects me but let us not lose hope - we don't know when luck hits us",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3102,
-        "role": "user",
-        "created_at": "2026-11-22T18:58:11Z",
-        "content_excerpt": "ratheon is another one which always rejects me but let us not lose hope - we don't know when luck hits us",
-        "topics": [
-          "always",
-          "another",
-          "hits",
-          "hope"
+          "onboarding",
+          "supply",
+          "apics",
+          "tools"
         ]
       }
     },
@@ -12275,6 +12334,16 @@
           "across",
           "dynamics"
         ]
+      }
+    },
+    {
+      "id": "topic:another",
+      "type": "topic_entity",
+      "name": "another",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'another' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "another"
       }
     },
     {
@@ -12604,6 +12673,36 @@
           "leidos",
           "like",
           "really"
+        ]
+      }
+    },
+    {
+      "id": "topic:space",
+      "type": "topic_entity",
+      "name": "space",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'space' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "space"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3255",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3255 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S3255] Logged and verified, Cathy! **Sunday Job #9 \u2014 Oracle `347821`** (*Strategic Sourcing Manager*) is already showing **`Under Consideration`** (`Active: 4` on Oracle)! - **Sunday Progress:** **`9 / 10`** submitted \u2014 **just ",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3255,
+        "role": "assistant",
+        "created_at": "2026-11-22T19:31:13Z",
+        "content_excerpt": "Logged and verified, Cathy! **Sunday Job #9 \u2014 Oracle `347821`** (*Strategic Sourcing Manager*) is already showing **`Under Consideration`** (`Active: 4` on Oracle)!\n\n- **Sunday Progress:** **`9 / 10`** submitted \u2014 **just 1 more** to finish your full **20-job weekend sprint**!\n- **All-Time Tracked:** **`81` Total (`68` Active, `13` Rejected)**\n- **Git & Knowledge Graph Synced (`2cf56a9`):** `104` files indexed | **`1,007` nodes** | **`2,344` edges** | **`1,007` vectors**\n\n---\n\n### Honest Live Check on Leidos Space Roles\nI just searched Leidos's live Workday portal across NASA, Space, Satellite, Procurement, Subcontracts, Contracts, and Remote (`6314 Remote/Teleworker US`):\n- The **Leidos NASA role you already submitted today (`R-00197280`, Material Project Manager \u2013 NASA IT)** is currently ",
+        "topics": [
+          "space",
+          "supplier",
+          "remote",
+          "leidos"
         ]
       }
     },
@@ -24560,6 +24659,298 @@
       }
     },
     {
+      "source": "doc_file:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:contract",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:enterprise",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:renewal",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:compliance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:governance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:power",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:1",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:annual",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:category",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:contract",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:2",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:certified",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:enterprise",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:management",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:3",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:renewal",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:governance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:audits",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:category",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:4",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:contract",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:compliance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:accuracy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:audit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:5",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:performance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:partner",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:6",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:enterprise",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:tools",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:global",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:integration",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
       "source": "doc:Resume_And_Jobs/Job8_SBEnergy_Logistics_Control_Tower_Analytics_6196167004.md",
       "target": "cluster_node:tower",
       "relation": "DOCUMENTS_NODE",
@@ -29428,7 +29819,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 41
+        "count": 42
       }
     },
     {
@@ -29436,7 +29827,15 @@
       "target": "topic:applied",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 38
+        "count": 39
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 29
       }
     },
     {
@@ -29449,18 +29848,10 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:active",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 28
-      }
-    },
-    {
-      "source": "chat_session:SHAREDSE",
       "target": "topic:remote",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 23
+        "count": 24
       }
     },
     {
@@ -29468,20 +29859,20 @@
       "target": "topic:nasdaq",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 22
-      }
-    },
-    {
-      "source": "chat_session:SHAREDSE",
-      "target": "topic:submitted",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 19
+        "count": 23
       }
     },
     {
       "source": "chat_session:SHAREDSE",
       "target": "topic:sourcing",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 18
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "topic:submitted",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 18
@@ -29734,7 +30125,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 41
+        "count": 42
       }
     },
     {
@@ -29742,7 +30133,7 @@
       "target": "topic:applied",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 38
+        "count": 39
       }
     },
     {
@@ -29758,7 +30149,7 @@
       "target": "topic:active",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 25
+        "count": 26
       }
     },
     {
@@ -29772,7 +30163,15 @@
       "target": "topic:supplier",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 25
+        "count": 32
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 20
       }
     },
     {
@@ -29785,18 +30184,26 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:supply",
+      "target": "topic:power",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 17
+        "count": 19
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:across",
+      "target": "topic:onboarding",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 16
+        "count": 18
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:supply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 18
       }
     },
     {
@@ -29809,26 +30216,10 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:power",
+      "target": "topic:tools",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 16
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:cscp",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 14
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:onboarding",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 14
       }
     },
     {
@@ -29853,44 +30244,6 @@
       "source": "chat_session:b6556366",
       "target": "doc_file:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
       "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S3102",
-      "target": "topic:always",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3102",
-      "target": "topic:another",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3102",
-      "target": "topic:hits",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3102",
-      "target": "topic:hope",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3102",
-      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -30350,6 +30703,44 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S3215",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3255",
+      "target": "topic:space",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3255",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3255",
+      "target": "topic:remote",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3255",
+      "target": "topic:leidos",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3255",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -31830,6 +32221,7 @@
     "Resume_And_Jobs/Job60_Amgen_R257378_Krithika_Nagarajan_Resume.docx": "d82f30c955d1c5328e346b98631282be2104bb245cf5b90de747c112ebd66d8e",
     "Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx": "d3dc7f25a398993dad7fc14e5089104a388977e73ccc4fbc152f05a47a62cb07",
     "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx": "87e1a96ab09196881ef3dcaaef7de3b6ff4a49ae68b54687ee65edc2a0fb616b",
+    "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx": "4295144eba2de4885bf29289d214ee8dd9b4275b15765fd0660529d74bdc7cb9",
     "Resume_And_Jobs/Job6_Applied_Materials_Purchasing_SupplyChain_SantaClara.md": "b1c5d57b896fb9b977a5d594def0879f0b1b09a3cfcd68d03f9a22eb7b3bf344",
     "Resume_And_Jobs/Job7_SBEnergy_Supply_Chain_Governance_RedwoodCity.md": "6ae28457006ad1fe3a534e473e7fe9aa11c71686527f376618e2596b4facff2c",
     "Resume_And_Jobs/Job8_SBEnergy_Logistics_Control_Tower_Analytics_6196167004.md": "7fdb5ad4c88dcb89bd72db283dd5877b625bb2f5e0c970f10c511183d7867e1c",
@@ -31838,7 +32230,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "74d38e07a6858289d77af5edb1c868c7f3b72b9a48d0ebcf2f668c688fdfd60c",
+    "chats/SHARED_SESSION_STATE.md": "1032fade5742b961e6f29e86d4c88043457c314dee92eeebb1ce504092ab76a7",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -31848,13 +32240,13 @@
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
     "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx": "131d5f71b13f4527726e2b51dbadbb30823926af0a78837b74cf5984dfae7c27",
     "documents/ASQ_Sampling_Methods_Quick_Table.docx": "611a5b1986e4d296f6a1244d2c334d4f6688820f04a6cb8d6ff694b7b1f6ef0e",
-    "documents/CAREER_APPLICATIONS_TRACKER.md": "8aa757be96e7034be8cf821a8edcf0bb9b0a509f3eafaffa566789d4813f26be",
+    "documents/CAREER_APPLICATIONS_TRACKER.md": "e821b64881bbc3e3449931a74f0aa0e9f44a9010a693247a1fd1db6617f1360b",
     "documents/PValue_And_Cp_Cpk_Quick_Tables.docx": "7e146d9b535a8fa34793e0d7ecfd892041e75cd8a15e79777c55fa1babae79d5",
     "documents/QUESTION_BANK_LOG.md": "404859eda4d9a06105669a1b56dbed5ec2dad9b8fb157b5c0fcfef4abb7b44d4",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "bc16f831af82701b30726df28f4f209f3e702ac133b0c89b4e8be1c17f8e082e"
+    "repo.md": "89c9d39d59f1dee201f8ca2b2e6378e8708543884d25eedc4d87289167458c7a"
   }
 }
