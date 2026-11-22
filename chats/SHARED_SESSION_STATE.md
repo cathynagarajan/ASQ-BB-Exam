@@ -3,7 +3,7 @@
 > **Purpose**: Single source of truth shared between **Antigravity** and **Qwen** (`QWEN.md` + `rules.md` + `kg_vectors_asq_bb_exam`). Both agents MUST update this file whenever committing progress so mode switches (`use qwen` / `stop qwen`) never lose a single detail.
 
 - **Candidate Preferred Name**: **Cathy**
-- **Last Synced**: `2026-11-21`
+- **Last Synced**: `2026-11-22`
 
 ---
 
@@ -120,11 +120,14 @@
   49. **Oracle (NYSE: ORCL)** — *Strategic Sourcing Manager – External Manufacturing* (`Job ID 335290`, United States / Santa Clara CA ~11 mi preferred, 102.3K–209.5K USD + bonus/equity, Pure IC — applied **2026-11-21**, *New*!)
   50. **Oracle (NYSE: ORCL)** — *Principal Sourcing Manager, External Manufacturing* (`Job ID 350956`, Santa Clara CA ~11 mi, 102.3K–209.5K USD + bonus/equity, Pure IC — applied **2026-11-21**, *New*!)
   51. **Oracle (NYSE: ORCL)** — *Principal Materials Supply Chain Management* (`Job ID 341956`, Santa Clara CA ~11 mi, 102.3K–209.5K USD + bonus/equity, Pure IC4 — applied **2026-11-21**, *New*! `Active: 3` at Oracle)
-- **Day-9 Weekend Sprint (2026-11-22 — `4 / 10` Submitted So Far; `76` Total Tracked = `63` Active, `13` Rejected)**:
+- **Day-9 Weekend Sprint (2026-11-22 — `7 / 10` Submitted So Far; `79` Total Tracked = `66` Active, `13` Rejected)**:
   52. **RTX / Raytheon (NYSE: RTX)** — *Principal Procurement Specialist* (`Req 01890100`, 100% Remote, 86.8K–165.2K USD, Clearance: None, Pure IC — applied **2026-11-22**, *Application Received*!)
   53. **RTX / Raytheon (NYSE: RTX)** — *Mgr, Procurement* (`Req 01890448`, 100% Remote, 107.5K–204.5K USD, Clearance: None, Pure IC — applied **2026-11-22**, *Application Submitted*!)
-  54. **RTX / Raytheon (NYSE: RTX)** — *Commodity Performance Manager* (`Req 01890074`, 100% Remote, 132.4K–251.6K USD, Clearance: None, Pure IC — applied **2026-11-22**, *Application Submitted*! `Active: 4` at RTX)
+  54. **RTX / Raytheon (NYSE: RTX)** — *Commodity Performance Manager* (`Req 01890074`, 100% Remote, 132.4K–251.6K USD, Clearance: None, Pure IC — applied **2026-11-22**, *Application Submitted*!)
   55. **Leidos (NYSE: LDOS)** — *Material Project Manager (NASA IT)* (`Req R-00197280`, Remote US / 7 mi from NASA Ames, 73.45K–132.78K USD, Clearance: None, Pure IC — applied **2026-11-22**, *Submitted*!)
+  56. **RTX / Raytheon (NYSE: RTX)** — *Sr. Analyst, Procurement* (`Req 01890097-1`, 100% Remote, 68.9K–131.1K USD, Clearance: None, Pure IC — applied **2026-11-22**, *Application Submitted*! `Active: 5` at RTX)
+  57. **NVIDIA (NASDAQ: NVDA)** — *Senior Supply Chain Business Transformation Manager* (`Req JR2022577`, Santa Clara CA ~11 mi, 168K–258.75K USD + RSUs, Pure IC — applied **2026-11-22**, *Application Received*! `Active: 5` at NVIDIA)
+  58. **Amgen (NASDAQ: AMGN)** — *Strategic Sourcing Manager – Marketing (Content Production & Media)* (`Req R-257378`, 100% US Remote, 98.29K–132.98K USD + bonus/stock, Pure IC — applied **2026-11-22**, *Application Received*! `Active: 5` at Amgen)
   - **All 20 Lockheed Job IDs Indexed (Never Repeat)**: `9343`, `24775`, `23028`, `9306`, `9054`, `16519`, `16516` (Rejected 11/20), `11582` (Rejected 11/20), `13918` (Rejected), `17417`, `11141`, `8363` (Rejected 11/21), `9581`, `13924`, `16508`, `13013` (Active Stage-2!), `13178`, `8492` (Rejected), `20038`, `19487`.
 - **Active Recruiter / Stage-2 Callbacks**:
   - **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Req 13013`, Sunnyvale CA, IC Level E3, 125K–135K USD base) — **Stage-2 Portal Updated (`✓`) & Recruiter Questionnaire SENT to Christian Sieg (2026-11-16 — Ready for Hiring Manager advancement!)**!

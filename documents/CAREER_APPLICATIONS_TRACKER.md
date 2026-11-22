@@ -78,11 +78,14 @@
 50. **Oracle (NYSE: ORCL)** — *Principal Sourcing Manager, External Manufacturing* (`Job ID 350956`, Santa Clara CA ~11 mi, 102.3K to 209.5K USD + bonus/equity, Pure IC) — **APPLIED / NEW (2026-11-21)**
 51. **Oracle (NYSE: ORCL)** — *Principal Materials Supply Chain Management* (`Job ID 341956`, Santa Clara CA ~11 mi, 102.3K to 209.5K USD + bonus/equity, Pure IC4) — **APPLIED / NEW (2026-11-21)** *(Active: `3` at Oracle!)*
 
-## Completed Applications — Day 9 Weekend Sprint (`2026-11-22` — `4 / 10` Submitted So Far; `76` Total Tracked = `63` Active, `13` Rejected!)
+## Completed Applications — Day 9 Weekend Sprint (`2026-11-22` — `7 / 10` Submitted So Far; `79` Total Tracked = `66` Active, `13` Rejected!)
 52. **RTX / Raytheon (NYSE: RTX)** — *Principal Procurement Specialist* (`Req 01890100`, 100% Remote, 86.8K to 165.2K USD, Clearance: None, Pure IC) — **APPLIED / APPLICATION RECEIVED (2026-11-22)**
 53. **RTX / Raytheon (NYSE: RTX)** — *Mgr, Procurement* (`Req 01890448`, 100% Remote, 107.5K to 204.5K USD, Clearance: None, Pure IC Procurement Specialist) — **APPLIED / APPLICATION SUBMITTED (2026-11-22)**
-54. **RTX / Raytheon (NYSE: RTX)** — *Commodity Performance Manager* (`Req 01890074`, 100% Remote, 132.4K to 251.6K USD, Clearance: None, Pure IC, Six Sigma/Lean preferred) — **APPLIED / APPLICATION SUBMITTED (2026-11-22)** *(Active: `4` on RTX Workday!)*
+54. **RTX / Raytheon (NYSE: RTX)** — *Commodity Performance Manager* (`Req 01890074`, 100% Remote, 132.4K to 251.6K USD, Clearance: None, Pure IC, Six Sigma/Lean preferred) — **APPLIED / APPLICATION SUBMITTED (2026-11-22)**
 55. **Leidos (NYSE: LDOS)** — *Material Project Manager (NASA IT Programs)* (`Req R-00197280`, Remote US within 50 mi of NASA Ames [7 mi!], 73.45K to 132.78K USD, Clearance: None, Pure IC) — **SUBMITTED (2026-11-22)** *(Brand-new Fortune 300 Defense/NASA Prime!)*
+56. **RTX / Raytheon (NYSE: RTX)** — *Sr. Analyst, Procurement* (`Req 01890097-1`, 100% Remote, 68.9K to 131.1K USD [CA tier 125K–131K], Clearance: None, Pure IC) — **APPLIED / APPLICATION SUBMITTED (2026-11-22)** *(Active: `5` on RTX Workday!)*
+57. **NVIDIA (NASDAQ: NVDA)** — *Senior Supply Chain Business Transformation Manager* (`Req JR2022577`, Santa Clara CA ~11 mi, 168K to 258.75K USD + RSUs, Pure IC) — **APPLIED / APPLICATION RECEIVED (2026-11-22)** *(Active: `5` on NVIDIA Workday!)*
+58. **Amgen (NASDAQ: AMGN)** — *Strategic Sourcing Manager – Marketing (Content Production & Media)* (`Req R-257378`, 100% US Remote, 98.29K to 132.98K USD + bonus/stock, Pure IC) — **APPLIED / APPLICATION RECEIVED (2026-11-22)** *(Active: `5` on Amgen Workday!)*
 
 ## Full Lockheed Martin Eightfold Application History (`21` Roles: `16` Active + `5` Rejected + `1` Draft — Updated `2026-11-21`!)
 - **Active Stage-2 / Recruiter Screen (`1`):**
