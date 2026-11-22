@@ -8,8 +8,8 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`610` (`Q1`–`Q420` + Copilot `C1`–`C190`) — Latest: Round 29 Unit 4 Define Level 3 Hard Set 1 (`Q411`–`Q420`, `6 / 10`; `70 / 100` Today!)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Latest Set (Round 29 Unit 4 Define Level 3 Hard Set 1 `Q411`–`Q420` on `2026-11-21`)**: **`6 / 10` (`60.0%` — Today: `70 / 100 Qs`!)** — Nailed `5/5` on VOC Gemba, Kano Reverse, QFD Cascade, SIPOC order, Champion Charter authority + Earned Value `EAC = 250,000 USD`! 4 Hard fixes for Set 2: CPM merge = `MAX` (not sum), Parallel Crashing = crash BOTH critical paths, PERT `Z=+1 -> 84%`, ID tie-breaker = highest `Out minus In`. Domain IV now **`79 / 102 = 77.5%`** | Grand Cumulative: **`479 / 610 = 78.5%`**!
+- **Completed Unique Questions**: **`620` (`Q1`–`Q430` + Copilot `C1`–`C190`) — Latest: Round 30 Unit 4 Define Level 3 Hard Set 2 (`Q421`–`Q430`, `8 / 10 = 80.0%`!! `80 / 100` Today!)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Latest Set (Round 30 Unit 4 Define Level 3 Hard Set 2 `Q421`–`Q430` on `2026-11-21`)**: **`8 / 10 = 80.0%`!** (Today: **`80 / 100 Qs`**!) — Fixed ALL 4 Set-1 Hard misses (`CPM Forward Merge MAX`, `Parallel Crashing BOTH paths`, `PERT Z=+2 -> 97.7%`, `ID Tie-Breaker Out-In`) + Free/Total Float, Focus Group, Kano Basic Ceiling, PDPC! Only 2 quick slips: Backward Pass split (`MIN` Day 10) & PERT negative sign (`Z=-1 -> 16%`). Domain IV now **`87 / 112 = 77.7%`** | Grand Cumulative: **`487 / 620 = 78.5%`**!
 - **NEXT EXAM MILESTONE (SATURDAY `2026-11-21`+)**:
   1. **ALL THREE FIRST UNITS MASTERED AT `85%+`!!** **Unit 1 (`Domain I`: `86.5%`)**, **Unit 2 (`Domain II`: `85.5%`, `15/15` Hard)**, and **Unit 3 (`Domain III`: `86.7%`, `8/8` Hard Set 2)**!
   2. **Master Word Bibles Built (`2026-11-21` — BOTH Versions Available!)**:
