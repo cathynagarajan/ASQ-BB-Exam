@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-22T19:21:51.565088+00:00",
+    "generated_at": "2026-11-22T19:26:41.881365+00:00",
     "total_files_indexed": 104,
-    "total_nodes": 1009,
-    "total_edges": 2346,
+    "total_nodes": 1007,
+    "total_edges": 2344,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
@@ -12,34 +12,31 @@
       "document_file": 48,
       "document_section": 329,
       "html_template": 1,
-      "topic_entity": 523
+      "topic_entity": 521
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [
-      "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx"
-    ],
+    "added": [],
     "modified": [
-      "chats/SHARED_SESSION_STATE.md",
-      "documents/CAREER_APPLICATIONS_TRACKER.md"
+      "chats/SHARED_SESSION_STATE.md"
     ],
     "removed": [],
-    "files_parsed": 2,
-    "files_cached_reused": 101,
+    "files_parsed": 0,
+    "files_cached_reused": 103,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 36,
-      "nodes_deleted": 8,
-      "edges_upserted": 68,
-      "edges_deleted": 19,
-      "wiki_pages_upserted": 1,
+      "nodes_upserted": 9,
+      "nodes_deleted": 6,
+      "edges_upserted": 26,
+      "edges_deleted": 16,
+      "wiki_pages_upserted": 0,
       "wiki_pages_deleted": 0,
-      "files_upserted": 4,
+      "files_upserted": 2,
       "files_deleted": 0,
-      "total_nodes_in_db": 1009,
-      "total_edges_in_db": 2346,
+      "total_nodes_in_db": 1007,
+      "total_edges_in_db": 2344,
       "total_files_tracked": 105
     }
   },
@@ -659,7 +656,7 @@
       "id": "topic:power",
       "type": "topic_entity",
       "name": "power",
-      "file_path": "Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'power' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "power"
@@ -969,7 +966,7 @@
       "id": "topic:onboarding",
       "type": "topic_entity",
       "name": "onboarding",
-      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'onboarding' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "onboarding"
@@ -6061,7 +6058,7 @@
       "id": "topic:strategic",
       "type": "topic_entity",
       "name": "strategic",
-      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'strategic' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "strategic"
@@ -9050,7 +9047,7 @@
       "id": "topic:zero",
       "type": "topic_entity",
       "name": "zero",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
       "description": "Shared domain topic 'zero' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "zero"
@@ -12191,112 +12188,22 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (947 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (949 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 947,
+        "turn_count": 949,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
-          "docx",
           "supplier",
+          "docx",
           "supply",
           "across",
           "apics",
+          "power",
           "cscp",
-          "krithika",
-          "planning"
-        ]
-      }
-    },
-    {
-      "id": "topic:hana",
-      "type": "topic_entity",
-      "name": "hana",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'hana' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "hana"
-      }
-    },
-    {
-      "id": "topic:job58_leidos_r00197280_krithika_nagarajan_resume",
-      "type": "topic_entity",
-      "name": "job58_leidos_r00197280_krithika_nagarajan_resume",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'job58_leidos_r00197280_krithika_nagarajan_resume' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "job58_leidos_r00197280_krithika_nagarajan_resume"
-      }
-    },
-    {
-      "id": "topic:lockheed",
-      "type": "topic_entity",
-      "name": "lockheed",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'lockheed' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "lockheed"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3084",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3084 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S3084] Aha \u2014 **`Lockheed Martin 24991` (*ERP Business Analyst Stf - E4*, `Fort Worth, TX +1 more`)** is part of Lockheed's **1LMX SAP S/4HANA** ERP rollout. - Quick 10-second check before you touch it: hover/click **`+1 more`**",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3084,
-        "role": "assistant",
-        "created_at": "2026-11-22T18:48:43Z",
-        "content_excerpt": "Aha \u2014 **`Lockheed Martin 24991` (*ERP Business Analyst Stf - E4*, `Fort Worth, TX +1 more`)** is part of Lockheed's **1LMX SAP S/4HANA** ERP rollout.\n- Quick 10-second check before you touch it: hover/click **`+1 more`** \u2014 if the second location isn't **Virtual / Sunnyvale**, OR if it requires hands-on **SAP S/4HANA configuration**, **skip it** and save your energy! *(If it IS Virtual/Sunnyvale and looks comfortable, send me a screenshot of its Basic Qualifications and I'll vet it fast!)*\n\nMeanwhile, **Sunday Job #4 of 10 (`Leidos R-00197280` \u2014 *Material Project Manager*, Remote US within 50 miles of NASA Ames in Mountain View, 7 miles from you!)** is all ready right above with your tailored [Job58_Leidos_R00197280_Krithika_Nagarajan_Resume.docx](file:///home/krithika/workspace/ASQ-BB-Exam",
-        "topics": [
-          "docx",
-          "hana",
-          "job58_leidos_r00197280_krithika_nagarajan_resume",
-          "lockheed"
-        ]
-      }
-    },
-    {
-      "id": "topic:direct",
-      "type": "topic_entity",
-      "name": "direct",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'direct' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "direct"
-      }
-    },
-    {
-      "id": "topic:exact",
-      "type": "topic_entity",
-      "name": "exact",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'exact' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "exact"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3101",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3101 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S3101] **Job #4 of 10 (`Leidos R-00197280` \u2014 *Material Project Manager, NASA IT*, Remote / 7 mi from NASA Ames) verified, logged, and KG-synced** (`31f886f` \u2014 **972 nodes, 2,186 edges, 972 vectors**)! - **Sunday Progress:** **4",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3101,
-        "role": "assistant",
-        "created_at": "2026-11-22T18:55:28Z",
-        "content_excerpt": "**Job #4 of 10 (`Leidos R-00197280` \u2014 *Material Project Manager, NASA IT*, Remote / 7 mi from NASA Ames) verified, logged, and KG-synced** (`31f886f` \u2014 **972 nodes, 2,186 edges, 972 vectors**)!\n- **Sunday Progress:** **4 / 10 submitted** (`76` total tracked = **63 Active**, 13 Rejected \u2014 halfway right around the corner!).\n\n---\n\n### Sunday Job #5 of 10 \u2014 **RTX / Raytheon (`NYSE: RTX`)** *(60-Second Submit on Your Open RTX Portal!)*\n- **Role:** **Sr. Analyst, Procurement** (`Req 01890097-1`, posted **3 days ago on Nov 19, 2026** \u2014 verified LIVE)\n- **Location & Mode:** **100% Remote** *(work primarily from home)*\n- **Security Clearance:** **`None / Not Required`** *(U.S. Person required)*\n- **Base Salary:** **68,900 to 131,100 USD** *(California / Bay Area senior tier reaches 125K\u2013131.1K USD!",
-        "topics": [
-          "zero",
-          "direct",
-          "docx",
-          "exact"
+          "onboarding"
         ]
       }
     },
@@ -12637,6 +12544,66 @@
           "job61_samsara_8328373_krithika_nagarajan_resume",
           "right",
           "samsara"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3211",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3211 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S3211] Logged and verified, Cathy! **Sunday Job #8 \u2014 Samsara (`NYSE: IOT`, `ID 8328373`)** (*Senior Supply Planning Manager - US*, 100% US Remote \u2014 found live on your APICS / ASCM board!) is confirmed submitted! - **Sunday Prog",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3211,
+        "role": "assistant",
+        "created_at": "2026-11-22T19:22:08Z",
+        "content_excerpt": "Logged and verified, Cathy! **Sunday Job #8 \u2014 Samsara (`NYSE: IOT`, `ID 8328373`)** (*Senior Supply Planning Manager - US*, 100% US Remote \u2014 found live on your APICS / ASCM board!) is confirmed submitted!\n\n- **Sunday Progress:** **`8 / 10`** submitted (just 2 left!)\n- **All-Time Tracked:** **`80` Total (`67` Active, `13` Rejected)**\n- **Git & Knowledge Graph Synced (`a60a804`):** `104` files indexed | **`1,009` nodes** | **`2,346` edges** | **`1,009` vectors**\n\n---\n\n### Sunday Job #9 (1-by-1) \u2014 Fast Submit on Your Existing Oracle Portal\n\n**Oracle (`NYSE: ORCL`) \u2014 Strategic Sourcing Manager (DC Infrastructure Equipment)** (`Job ID 347821`)\n- **Location:** **Santa Clara, CA** (`~11 miles` from Palo Alto)\n- **Compensation:** **`102.3K\u2013209.5K USD` annual base + bonus + equity**\n- **Guardrail C",
+        "topics": [
+          "supplier",
+          "sourcing",
+          "strategic",
+          "docx"
+        ]
+      }
+    },
+    {
+      "id": "topic:leidos",
+      "type": "topic_entity",
+      "name": "leidos",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'leidos' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "leidos"
+      }
+    },
+    {
+      "id": "topic:really",
+      "type": "topic_entity",
+      "name": "really",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'really' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "really"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3215",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3215 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S3215] any other jobs in leidos? i really like workin gin space",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3215,
+        "role": "user",
+        "created_at": "2026-11-22T19:25:55Z",
+        "content_excerpt": "any other jobs in leidos? i really like workin gin space",
+        "topics": [
+          "jobs",
+          "leidos",
+          "like",
+          "really"
         ]
       }
     },
@@ -13006,6 +12973,16 @@
       "description": "Shared domain topic 'codes' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "codes"
+      }
+    },
+    {
+      "id": "topic:exact",
+      "type": "topic_entity",
+      "name": "exact",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'exact' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "exact"
       }
     },
     {
@@ -29451,7 +29428,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 40
+        "count": 41
       }
     },
     {
@@ -29459,7 +29436,7 @@
       "target": "topic:applied",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 37
+        "count": 38
       }
     },
     {
@@ -29475,7 +29452,7 @@
       "target": "topic:active",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 27
+        "count": 28
       }
     },
     {
@@ -29507,7 +29484,7 @@
       "target": "topic:sourcing",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 17
+        "count": 18
       }
     },
     {
@@ -29757,7 +29734,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 40
+        "count": 41
       }
     },
     {
@@ -29765,7 +29742,7 @@
       "target": "topic:applied",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 37
+        "count": 38
       }
     },
     {
@@ -29781,7 +29758,7 @@
       "target": "topic:active",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 24
+        "count": 25
       }
     },
     {
@@ -29789,6 +29766,14 @@
       "target": "chat_turn:SHAREDSE:S7",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 25
+      }
     },
     {
       "source": "chat_session:b6556366",
@@ -29800,7 +29785,7 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:supplier",
+      "target": "topic:supply",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 17
@@ -29808,18 +29793,10 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:supply",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 14
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
       "target": "topic:across",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 13
+        "count": 16
       }
     },
     {
@@ -29827,7 +29804,15 @@
       "target": "topic:apics",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 13
+        "count": 16
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:power",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 16
       }
     },
     {
@@ -29835,36 +29820,16 @@
       "target": "topic:cscp",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 12
+        "count": 14
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:krithika",
+      "target": "topic:onboarding",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 12
+        "count": 14
       }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:planning",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 12
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "doc_file:Resume_And_Jobs/Job57_RTX_01890100_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "doc_file:Resume_And_Jobs/Job58_Leidos_R00197280_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
     },
     {
       "source": "chat_session:b6556366",
@@ -29885,90 +29850,8 @@
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S3084",
-      "target": "topic:docx",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3084",
-      "target": "topic:hana",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3084",
-      "target": "topic:job58_leidos_r00197280_krithika_nagarajan_resume",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3084",
-      "target": "topic:lockheed",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3084",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S3084",
-      "target": "doc_file:Resume_And_Jobs/Job58_Leidos_R00197280_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S3101",
-      "target": "topic:zero",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3101",
-      "target": "topic:direct",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3101",
-      "target": "topic:docx",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3101",
-      "target": "topic:exact",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3101",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S3101",
-      "target": "doc_file:Resume_And_Jobs/Job57_RTX_01890100_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_file:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
@@ -30386,6 +30269,88 @@
       "source": "chat_turn:b6556366:S3196",
       "target": "doc_file:Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx",
       "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3211",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3211",
+      "target": "topic:sourcing",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3211",
+      "target": "topic:strategic",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3211",
+      "target": "topic:docx",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3211",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3211",
+      "target": "doc_file:Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3215",
+      "target": "topic:jobs",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3215",
+      "target": "topic:leidos",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3215",
+      "target": "topic:like",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3215",
+      "target": "topic:really",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3215",
+      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -31873,7 +31838,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "e900a99fde9d31a2fbd94f07481e83570fbbd57c07e2ac35ff9d715423f39134",
+    "chats/SHARED_SESSION_STATE.md": "74d38e07a6858289d77af5edb1c868c7f3b72b9a48d0ebcf2f668c688fdfd60c",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -31890,6 +31855,6 @@
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "3282011b315f44c10c04908e07b64b1bc6b68faac263e4fcbedfcaa2036f4c2a"
+    "repo.md": "bc16f831af82701b30726df28f4f209f3e702ac133b0c89b4e8be1c17f8e082e"
   }
 }
