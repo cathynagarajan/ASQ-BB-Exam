@@ -8,8 +8,8 @@
 ---
 
 ## 1. ASQ CSSBB Exam Training State (2022 BoK)
-- **Completed Unique Questions**: **`630` (`Q1`–`Q440` + Copilot `C1`–`C190`) — Latest: Round 31 Unit 4 Define Final Capstone (`Q431`–`Q440`, `7 / 10`; `90` Qs w/ Coach + `25` Copilot = `115` Total Qs Today!)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
-- **Latest Set (Round 31 Unit 4 Define Final Capstone `Q431`–`Q440` on `2026-11-21`)**: **`7 / 10` (`70.0%`)** — **UNIT 4 (`Domain IV`: Define Phase) COMPLETE (`10/10` Easy, `10/10` Med, `8/10` Hard, `7/10` Capstone)!** Nailed CPM Backward Pass `MIN`, 2-Step Earned Value `CPI+EAC`, Complaint Logs, QFD Right Wall, Problem Statement, RACI, Matrix -> Prioritization Matrix! Keep `PERT negative Z (<50%)` & `PERT Var = SD^2 (square BEFORE adding)` in tomorrow's 10-Q warm-up, plus **Sunday 5S Word Bible Sweep**! Domain IV now **`94 / 122 = 77.0%`** | Grand Cumulative: **`494 / 630 = 78.4%`**!
+- **Completed Unique Questions**: **`655` (`Q1`–`Q440` + Copilot `C1`–`C215`) — Latest: Copilot Set 8 Audited (`C191`–`C215`, Verified `19 / 25 = 76.0%`! `140` Total Qs Today!)** — logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).
+- **Latest Set (Copilot Set 8 `C191`–`C215` on `2026-11-21`)**: **`19 / 25` (`76.0%` Verified)** — **Nailed `5/5` Control Charts, `3/3` Capability/MSA, ANOVA, `R^2=0.81`, Type I/II, PERT `7 wks`, RPN `105`!** **6 quick misses:** `Q9` Continuous X+Y = Correlation/Regression, `Q14` Shewhart = Control Charts, `Q17` Excess goods = Inventory (not Waiting), `Q18` Moving freight = Transportation (not Motion), `Q21` `233 DPMO = 5 sigma`, `Q25` `DPMO = 20 / 2,500 * 1M = 8,000` (stopped at denominator `2,500`!). **Unit 4 (`Domain IV`: Define) COMPLETE** (`10/10` Easy, `10/10` Med, `8/10` Hard, `7/10` Capstone) | Grand Cumulative: **`513 / 655 = 78.3%`**!
 - **NEXT EXAM MILESTONE (SATURDAY `2026-11-21`+)**:
   1. **ALL THREE FIRST UNITS MASTERED AT `85%+`!!** **Unit 1 (`Domain I`: `86.5%`)**, **Unit 2 (`Domain II`: `85.5%`, `15/15` Hard)**, and **Unit 3 (`Domain III`: `86.7%`, `8/8` Hard Set 2)**!
   2. **Master Word Bibles Built (`2026-11-21` — BOTH Versions Available!)**:

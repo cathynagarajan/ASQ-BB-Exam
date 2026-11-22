@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-22T00:45:49.341071+00:00",
+    "generated_at": "2026-11-22T01:06:28.929277+00:00",
     "total_files_indexed": 97,
-    "total_nodes": 954,
-    "total_edges": 2093,
+    "total_nodes": 952,
+    "total_edges": 2104,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
@@ -12,31 +12,33 @@
       "document_file": 42,
       "document_section": 293,
       "html_template": 1,
-      "topic_entity": 511
+      "topic_entity": 509
     }
   },
   "last_change_check": {
     "changed": true,
     "added": [],
     "modified": [
-      "QWEN.md"
+      "PERFORMANCE_TRACKER.md",
+      "chats/SHARED_SESSION_STATE.md",
+      "documents/QUESTION_BANK_LOG.md"
     ],
     "removed": [],
-    "files_parsed": 1,
-    "files_cached_reused": 95,
+    "files_parsed": 2,
+    "files_cached_reused": 94,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 35,
-      "nodes_deleted": 31,
-      "edges_upserted": 50,
-      "edges_deleted": 47,
-      "wiki_pages_upserted": 1,
+      "nodes_upserted": 12,
+      "nodes_deleted": 5,
+      "edges_upserted": 29,
+      "edges_deleted": 10,
+      "wiki_pages_upserted": 2,
       "wiki_pages_deleted": 0,
-      "files_upserted": 2,
+      "files_upserted": 4,
       "files_deleted": 0,
-      "total_nodes_in_db": 954,
-      "total_edges_in_db": 2093,
+      "total_nodes_in_db": 952,
+      "total_edges_in_db": 2104,
       "total_files_tracked": 98
     }
   },
@@ -59,8 +61,9 @@
           "Stage 2 (`V. Measure`) COMPLETE!",
           "Stage 3 (`VI. Analyze`) IN PROGRESS",
           "Project 2 (`50+ Qs`) COMPLETE (`Q51`\u2013`Q100`)!",
-          "Overall Cumulative Score (`Q1`\u2013`Q440` + `C1`\u2013`C190` = `630` Qs):",
-          "`494 / 630` (`78.4%`!)",
+          "Latest Batch Score (Copilot Set 8 Audit `C191`\u2013`C215` on `2026-11-21`):",
+          "Overall Cumulative Score (`Q1`\u2013`Q440` + `C1`\u2013`C215` = `655` Qs):",
+          "`513 / 655` (`78.3%`!)",
           "I. Org-Wide Planning & Deployment",
           "85.9%",
           "UNIT 1 COMPLETE & MASTERED (`85.9%`; Taguchi Loss `2/2` MASTERED!)",
@@ -169,19 +172,22 @@
           "50+ Qs",
           "Q51",
           "Q100",
-          "Q431",
-          "Q440",
+          "C191",
+          "C215",
           "2026-11-21",
-          "7 / 10",
-          "70.0%",
-          "90",
-          "115",
+          "19 / 25",
+          "76.0%",
+          "5/5",
+          "3/3",
+          "PERT 7 wks",
+          "RPN 105",
+          "140",
           "Q1",
+          "Q440",
           "C1",
-          "C190",
-          "630",
-          "494 / 630",
-          "78.4%",
+          "655",
+          "513 / 655",
+          "78.3%",
           "2/2",
           "15/15",
           "10/10",
@@ -191,7 +197,6 @@
           "7/10",
           "&",
           "in daily warm-up; ready for **Unit 5 (",
-          "3/3",
           "%StudyVar 10\u201330% vs %Contribution 1\u20139%",
           "Continuous Averages (t-test / ANOVA) vs Counts/Categories (Chi-Square)",
           "Q355",
@@ -1129,7 +1134,7 @@
       "id": "topic:process",
       "type": "topic_entity",
       "name": "process",
-      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'process' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "process"
@@ -5927,7 +5932,7 @@
       "id": "topic:chart",
       "type": "topic_entity",
       "name": "chart",
-      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'chart' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "chart"
@@ -6254,7 +6259,7 @@
       "id": "topic:dpmo",
       "type": "topic_entity",
       "name": "dpmo",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'dpmo' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "dpmo"
@@ -7078,7 +7083,7 @@
       "id": "topic:team",
       "type": "topic_entity",
       "name": "team",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "description": "Shared domain topic 'team' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "team"
@@ -7223,7 +7228,7 @@
       "id": "topic:baseline",
       "type": "topic_entity",
       "name": "baseline",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "description": "Shared domain topic 'baseline' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "baseline"
@@ -9126,7 +9131,8 @@
           "Round 28 \u2014 Unit 4 (`Domain IV`: Define Phase) Level 2 Medium Set 2 (`Q401`\u2013`Q410` \u2014 2026-11-21 | Score: `10/10 = 100.0%` PERFECT!! 600-Q Milestone!)",
           "Round 29 \u2014 Unit 4 (`Domain IV`: Define Phase) Level 3 Hard Set 1 (`Q411`\u2013`Q420` \u2014 2026-11-21 | Score: `6/10 = 60.0%` \u2014 70/100 Today!)",
           "Round 30 \u2014 Unit 4 (`Domain IV`: Define Phase) Level 3 Hard Set 2 (`Q421`\u2013`Q430` \u2014 2026-11-21 | Score: `8/10 = 80.0%` \u2014 80/100 Today!)",
-          "Round 31 \u2014 Unit 4 (`Domain IV`: Define Phase) Final Capstone (`Q431`\u2013`Q440` \u2014 2026-11-21 | Score: `7/10 = 70.0%` \u2014 90 Qs w/ Coach / 115 Total Today!)"
+          "Round 31 \u2014 Unit 4 (`Domain IV`: Define Phase) Final Capstone (`Q431`\u2013`Q440` \u2014 2026-11-21 | Score: `7/10 = 70.0%` \u2014 90 Qs w/ Coach / 115 Total Today!)",
+          "External Practice Batch \u2014 Copilot Set 8 (`C191`\u2013`C215`, `25` Qs \u2014 Verified `19 / 25 = 76.0%` on `2026-11-21`! `140` Total Qs Today!)"
         ],
         "keywords": [
           "Rule:",
@@ -9225,6 +9231,13 @@
           "A. `2.3%`",
           "B. `5`",
           "B. Hold progression until fixed",
+          "Nailed (`\u2705` \u2014 `19` Qs):",
+          "Missed (`\u274c` \u2014 `6` Qs):",
+          "B. Correlation/Regression",
+          "C. Shewhart",
+          "A. Inventory",
+          "C. Transportation",
+          "B. 5 sigma",
           "Q1",
           "Q15",
           "14/15",
@@ -9371,14 +9384,7 @@
           "Kruskal-Wallis (",
           "Q99",
           "VI.C.1",
-          "C1",
-          "C25",
-          "20/25 = 80.0%",
-          "20/25",
-          "80.0%",
-          "C3",
-          "C21",
-          "VIII.A"
+          "C1"
         ],
         "format": "md"
       }
@@ -11182,17 +11188,17 @@
       "type": "chat_turn",
       "name": "Chat SHAREDSE Turn S5 (assistant)",
       "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`630` (`Q1`\u2013`Q440` + Copilot `C1`\u2013`C190`) \u2014 Latest: Round 31 Unit 4 Define Final Capstone (`Q431`\u2013`Q440`, `7 / 10`; `90` Qs w/ Coach + `2",
+      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`655` (`Q1`\u2013`Q440` + Copilot `C1`\u2013`C215`) \u2014 Latest: Copilot Set 8 Audited (`C191`\u2013`C215`, Verified `19 / 25 = 76.0%`! `140` Total Qs Toda",
       "metadata": {
         "conversation_id": "SHAREDSE",
         "step_index": 5,
         "role": "assistant",
         "created_at": "",
-        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`630` (`Q1`\u2013`Q440` + Copilot `C1`\u2013`C190`) \u2014 Latest: Round 31 Unit 4 Define Final Capstone (`Q431`\u2013`Q440`, `7 / 10`; `90` Qs w/ Coach + `25` Copilot = `115` Total Qs Today!)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Latest Set (Round 31 Unit 4 Define Final Capstone `Q431`\u2013`Q440` on `2026-11-21`)**: **`7 / 10` (`70.0%`)** \u2014 **UNIT 4 (`Domain IV`: Define Phase) COMPLETE (`10/10` Easy, `10/10` Med, `8/10` Hard, `7/10` Capstone)!** Nailed CPM Backward Pass `MIN`, 2-Step Earned Value `CPI+EAC`, Complaint Logs, QFD Right Wall, Problem Statement, RACI, Matrix -> Prioritization Matrix! Keep `PERT negative Z (<50%)` & `PERT Var = SD^2 (square BEFORE adding)` in tomorrow's 10-Q warm-up,",
+        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`655` (`Q1`\u2013`Q440` + Copilot `C1`\u2013`C215`) \u2014 Latest: Copilot Set 8 Audited (`C191`\u2013`C215`, Verified `19 / 25 = 76.0%`! `140` Total Qs Today!)** \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Latest Set (Copilot Set 8 `C191`\u2013`C215` on `2026-11-21`)**: **`19 / 25` (`76.0%` Verified)** \u2014 **Nailed `5/5` Control Charts, `3/3` Capability/MSA, ANOVA, `R^2=0.81`, Type I/II, PERT `7 wks`, RPN `105`!** **6 quick misses:** `Q9` Continuous X+Y = Correlation/Regression, `Q14` Shewhart = Control Charts, `Q17` Excess goods = Inventory (not Waiting), `Q18` Moving freight = Transportation (not Motion), `Q21` `233 DPMO = 5 sigma`, `Q25` `DPMO = 20 / 2,500 * 1M = 8,000` (stopped at denominator `2,500`!",
         "topics": [
-          "unit",
-          "domain",
           "copilot",
+          "domain",
+          "unit",
           "hard"
         ]
       }
@@ -11243,16 +11249,6 @@
       }
     },
     {
-      "id": "topic:task",
-      "type": "topic_entity",
-      "name": "task",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'task' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "task"
-      }
-    },
-    {
       "id": "topic:questions",
       "type": "topic_entity",
       "name": "questions",
@@ -11273,83 +11269,36 @@
       }
     },
     {
+      "id": "topic:weeks",
+      "type": "topic_entity",
+      "name": "weeks",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'weeks' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "weeks"
+      }
+    },
+    {
       "id": "chat_session:b6556366",
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (894 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (896 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 894,
+        "turn_count": 896,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
-          "days",
           "project",
-          "define",
-          "task",
+          "days",
           "questions",
+          "chart",
+          "cathy",
+          "define",
           "right",
-          "team",
-          "baseline"
-        ]
-      }
-    },
-    {
-      "id": "topic:analysts",
-      "type": "topic_entity",
-      "name": "analysts",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'analysts' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "analysts"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2947",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2947 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S2947] Here is your **Unit 4 (`Domain IV`: Define Phase) Final Capstone (`Q431`\u2013`Q440`, Open-Book)** \u2014 keep all your new cheat sheets right beside you! *(After this set: **90 Qs with me / 115 total ASQ Qs today**!)* --- ### Rou",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2947,
-        "role": "assistant",
-        "created_at": "2026-11-22T00:30:50Z",
-        "content_excerpt": "Here is your **Unit 4 (`Domain IV`: Define Phase) Final Capstone (`Q431`\u2013`Q440`, Open-Book)** \u2014 keep all your new cheat sheets right beside you! *(After this set: **90 Qs with me / 115 total ASQ Qs today**!)*\n\n---\n\n### Round 31 \u2014 Unit 4 (`Domain IV`: Define Phase) Final Capstone (`Q431`\u2013`Q440`, Open-Book!)\n\n**Q431.** Walking **backward** from the project deadline (Backward Pass), Task P splits into two parallel downstream tasks: Task Q has a **Late Start (`LS`) of Day 12**, and Task R has a **Late Start (`LS`) of Day 20**. What is Task P's **Late Finish (`LF`)**?\n- A. Day 8\n- B. Day 12\n- C. Day 20\n- D. Day 32\n\n**Q432.** A project's Critical Path has an **Expected Duration of `50 days`** and a **Project Standard Deviation (`Project SD`) of `5 days`**. Using `Z = (Target - Expected) / Projec",
-        "topics": [
-          "days",
-          "project",
-          "task",
-          "analysts"
-        ]
-      }
-    },
-    {
-      "id": "topic:guess",
-      "type": "topic_entity",
-      "name": "guess",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'guess' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "guess"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S2948",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S2948 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S2948] b,d,a (guess),b,c,b,c,b,b,d",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 2948,
-        "role": "user",
-        "created_at": "2026-11-22T00:37:19Z",
-        "content_excerpt": "b,d,a (guess),b,c,b,c,b,b,d",
-        "topics": [
-          "guess"
+          "weeks"
         ]
       }
     },
@@ -11737,6 +11686,16 @@
       }
     },
     {
+      "id": "topic:asq-bb-exam",
+      "type": "topic_entity",
+      "name": "asq-bb-exam",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "asq-bb-exam"
+      }
+    },
+    {
       "id": "topic:home",
       "type": "topic_entity",
       "name": "home",
@@ -11757,13 +11716,43 @@
       }
     },
     {
-      "id": "topic:asq-bb-exam",
-      "type": "topic_entity",
-      "name": "asq-bb-exam",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'asq-bb-exam' connecting multi-modal documents and workspace chats",
+      "id": "chat_turn:b6556366:S2970",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2970 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S2970] All done, Cathy \u2014 **everything is saved, committed, pushed to GitHub (`11c2d46`), and synced to Qwen + the Knowledge Graph**: - **Synced Files:** [QWEN.md](file:///home/krithika/workspace/ASQ-BB-Exam/QWEN.md), [SHARED_SE",
       "metadata": {
-        "keyword": "asq-bb-exam"
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2970,
+        "role": "assistant",
+        "created_at": "2026-11-22T00:45:54Z",
+        "content_excerpt": "All done, Cathy \u2014 **everything is saved, committed, pushed to GitHub (`11c2d46`), and synced to Qwen + the Knowledge Graph**:\n\n- **Synced Files:** [QWEN.md](file:///home/krithika/workspace/ASQ-BB-Exam/QWEN.md), [SHARED_SESSION_STATE.md](file:///home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md), [PERFORMANCE_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/PERFORMANCE_TRACKER.md), [QUESTION_BANK_LOG.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/QUESTION_BANK_LOG.md), and [CAREER_APPLICATIONS_TRACKER.md](file:///home/krithika/workspace/ASQ-BB-Exam/documents/CAREER_APPLICATIONS_TRACKER.md)\n- **Knowledge Graph & Vector DB (`kg_vectors_asq_bb_exam`):** **97 files indexed, 954 nodes, 2,093 edges, 954 vectors** (working tree 100% clean)\n- **Saved Today:** **10 ",
+        "topics": [
+          "asq-bb-exam",
+          "home",
+          "krithika",
+          "workspace"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S2971",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S2971 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S2971] Q1 A process has: USL = 80 LSL = 50 \u03c3 = 5 Cp = ? A. 0.5 B. 1.0 C. 1.5 D. 2.0 Q2 Cp = 1.67 and Cpk = 0.82. Most likely conclusion? A. Process centered and capable B. Process off-center C. Excessive measurement error D. Pr",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 2971,
+        "role": "user",
+        "created_at": "2026-11-22T01:05:17Z",
+        "content_excerpt": "Q1\n\nA process has:\n\nUSL = 80\nLSL = 50\n\u03c3 = 5\n\nCp = ?\n\nA. 0.5\n B. 1.0\n C. 1.5\n D. 2.0\n\nQ2\n\nCp = 1.67 and Cpk = 0.82.\n\nMost likely conclusion?\n\nA. Process centered and capable\n B. Process off-center\n C. Excessive measurement error\n D. Process unstable\n\nQ3\n\nA sample of 100 shipments contains 4 defective shipping labels.\n\nWhich chart is most appropriate?\n\nA. p-chart\n B. c-chart\n C. u-chart\n D. X\u0304-R\n\nQ4\n\nOne invoice is sampled every hour.\n\nBest control chart?\n\nA. np\n B. X\u0304-R\n C. I-MR\n D. X\u0304-S\n\nQ5\n\nA subgroup contains 12 transit-time measurements.\n\nBest chart?\n\nA. I-MR\n B. X\u0304-R\n C. X\u0304-S\n D. u\n\nQ6\n\nWhich chart monitors variation for subgroup size 8?\n\nA. X\u0304\n B. R\n C. p\n D. I\n\nQ7\n\nA Gage R&R study reports 32% GRR.\n\nInterpretation?\n\nA. Excellent\n B. Acceptable\n C. Marginal\n D. Unacceptable\n\nQ8\n\nA tea",
+        "topics": [
+          "chart",
+          "weeks",
+          "process",
+          "dpmo"
+        ]
       }
     },
     {
@@ -27002,10 +26991,10 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:unit",
+      "target": "topic:copilot",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 10
+        "count": 8
       }
     },
     {
@@ -27013,15 +27002,15 @@
       "target": "topic:domain",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 9
+        "count": 8
       }
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:copilot",
+      "target": "topic:unit",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 7
+        "count": 8
       }
     },
     {
@@ -27114,34 +27103,18 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:days",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 25
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
       "target": "topic:project",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 22
+        "count": 13
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:define",
+      "target": "topic:days",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 9
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:task",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
+        "count": 12
       }
     },
     {
@@ -27149,7 +27122,31 @@
       "target": "topic:questions",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:chart",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
         "count": 8
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:cathy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:define",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
       }
     },
     {
@@ -27157,75 +27154,39 @@
       "target": "topic:right",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 8
+        "count": 7
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:team",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:baseline",
+      "target": "topic:weeks",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 7
       }
     },
     {
-      "source": "chat_turn:b6556366:S2947",
-      "target": "topic:days",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 13
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2947",
-      "target": "topic:project",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 11
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2947",
-      "target": "topic:task",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S2947",
-      "target": "topic:analysts",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2947",
-      "relation": "HAS_CHAT_TURN",
+      "target": "doc:PERFORMANCE_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S2948",
-      "target": "topic:guess",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
+      "source": "chat_session:b6556366",
+      "target": "doc:QWEN.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S2948",
-      "relation": "HAS_CHAT_TURN",
+      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "doc:documents/QUESTION_BANK_LOG.md",
+      "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
@@ -27549,6 +27510,106 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S2963",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2970",
+      "target": "topic:asq-bb-exam",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2970",
+      "target": "topic:home",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2970",
+      "target": "topic:krithika",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2970",
+      "target": "topic:workspace",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2970",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2970",
+      "target": "doc:PERFORMANCE_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2970",
+      "target": "doc:QWEN.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2970",
+      "target": "doc:documents/CAREER_APPLICATIONS_TRACKER.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2970",
+      "target": "doc:documents/QUESTION_BANK_LOG.md",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S2971",
+      "target": "topic:chart",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2971",
+      "target": "topic:weeks",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2971",
+      "target": "topic:process",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S2971",
+      "target": "topic:dpmo",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S2971",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -28950,7 +29011,7 @@
     }
   ],
   "file_hashes": {
-    "PERFORMANCE_TRACKER.md": "8a2d2aa6866f024dab5679a952f098d1b9eb42c90c3727b74b9b499db808c081",
+    "PERFORMANCE_TRACKER.md": "672e0bc3d25a420790b533cbd0dace89cacaa3728e23b447dc87620a4789de0f",
     "QWEN.md": "c129d18901c9ffb500e821a0475101684c9851fe66e0736a75b3e01fe422e9c4",
     "README.md": "506319462ce0f0d62f6cbed53d6d0cdfa3c40623a05eacd6b881d9c3ddd8facf",
     "STUDY_ROADMAP_MAR2027.md": "0565fb20c8f9008ab7629f78fed3bdf076952045a4567cca7ccebd4e1e986a27",
@@ -29031,7 +29092,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "b52821be4de65e2e6ad800aabdee711ddf1f4fd67b31246f0ae01bebc3560e8e",
+    "chats/SHARED_SESSION_STATE.md": "725cf02c91f850d5d0605ce19e7eb5f9925282360fae5ad2a186bb4a4c9f7640",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -29042,11 +29103,11 @@
     "documents/ASQ_Sampling_Methods_Quick_Table.docx": "611a5b1986e4d296f6a1244d2c334d4f6688820f04a6cb8d6ff694b7b1f6ef0e",
     "documents/CAREER_APPLICATIONS_TRACKER.md": "c0e0131fdcf644bd187ab9627ca20c6ccf34a574cabae1d3f3356614a4addc12",
     "documents/PValue_And_Cp_Cpk_Quick_Tables.docx": "7e146d9b535a8fa34793e0d7ecfd892041e75cd8a15e79777c55fa1babae79d5",
-    "documents/QUESTION_BANK_LOG.md": "2e94985a5df2c1ec28995af12b5af942ac4d77b786a8a9518fec2858ab56a85a",
+    "documents/QUESTION_BANK_LOG.md": "404859eda4d9a06105669a1b56dbed5ec2dad9b8fb157b5c0fcfef4abb7b44d4",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "0a6e7d64ee014c16cc5fc5b5a502ac6bcf82bc3d70677fe9f5b09a81eb335c21"
+    "repo.md": "fc79c52adcd3eac666b12b46b089dc084ffbeb5e0fd25d0653028d034d398b2b"
   }
 }

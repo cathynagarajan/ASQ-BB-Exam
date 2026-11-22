@@ -2,8 +2,8 @@
 
 - **Target Exam:** ASQ Certified Six Sigma Black Belt (March 2027)
 - **Current Roadmap Stage:** **Stage 2 (`V. Measure`) COMPLETE!** (`28 / 40 = 70.0%`) | **Stage 3 (`VI. Analyze`) IN PROGRESS** (`8 / 10 = 80.0%`) | **Project 2 (`50+ Qs`) COMPLETE (`Q51`–`Q100`)!**
-- **Latest Batch Score (Round 31 Unit 4 Define Final Capstone `Q431`–`Q440` on `2026-11-21`):** **`7 / 10` (`70.0%` Capstone — `90` Qs this afternoon / `115` Total ASQ Qs Today!!)**
-- **Overall Cumulative Score (`Q1`–`Q440` + `C1`–`C190` = `630` Qs):** **`494 / 630` (`78.4%`!)**
+- **Latest Batch Score (Copilot Set 8 Audit `C191`–`C215` on `2026-11-21`):** **`19 / 25` (`76.0%` Verified — `5/5` Control Charts, `3/3` Capability/MSA, `PERT 7 wks`, `RPN 105`! `140` Total ASQ Qs Today!!)**
+- **Overall Cumulative Score (`Q1`–`Q440` + `C1`–`C215` = `655` Qs):** **`513 / 655` (`78.3%`!)**
 
 ---
 
