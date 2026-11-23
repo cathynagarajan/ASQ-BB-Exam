@@ -92,7 +92,7 @@
   25. **Lockheed Martin Space** — *Subcontract Management Stf - E4* (`Job ID 23028`, Sunnyvale CA +2, up to 165.5K USD — applied **2026-11-17**)
   26. **Lockheed Martin Space** — *Subcontract Administration Stf - E4* (`Job ID 24775`, Huntsville AL +3 — applied **2026-11-17**)
   27. **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Job ID 9343`, Littleton CO +2 — applied **2026-11-17**)
-  28. **Gilead Sciences (NASDAQ: GILD)** — *Sr Procurement Manager, Category Management* (`Req R0056314`, Foster City Hybrid, 157.6K–203.9K USD — applied **2026-11-17**)
+  28. **Gilead Sciences (NASDAQ: GILD)** — *Sr Procurement Manager, Category Management* (`Req R0056314`, Foster City Hybrid, 157.6K–203.9K USD — applied **2026-11-17** -> **Rejected 2026-11-23**)
   29. **SoFi (NASDAQ: SOFI)** — *Financial Services Strategic Sourcing Analyst* (`ID 7979520003`, 100% US Remote, up to 150K USD — applied **2026-11-17**)
 - **Day-5 Weekday Applications (2026-11-18 — `4` Brand-New Companies Submitted [Wednesday Goal Complete!]; `51` Total Tracked Across All Portals: `30` Non-Lockheed + `21` Lockheed Eightfold [`19` Submitted Active + `2` Inactive + `1` Draft] = `43` Active, `8` Rejected!)**:
   30. **Zillow Group (NASDAQ: Z)** — *Sourcing Project Manager* (`Req P751645`, 100% US Remote, up to 150.1K USD — applied **2026-11-18**)
