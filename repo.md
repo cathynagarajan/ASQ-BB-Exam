@@ -5,7 +5,7 @@ This file maintains the authoritative inventory of all **top-level parent folder
 - **Repository Root**: `/home/krithika/workspace/ASQ-BB-Exam`
 - **Top-Level Parent Folders Processed**: `3` (plus repository root `.` files)
 - **Total Indexed Files**: `105`
-- **Total Knowledge Graph Nodes**: `1024`
+- **Total Knowledge Graph Nodes**: `1022`
 
 ---
 
@@ -15,7 +15,7 @@ This file maintains the authoritative inventory of all **top-level parent folder
 | :---: | :--- | :--- | :---: | :---: | :--- | :--- |
 | 1 | [`Resume_And_Jobs/`](Resume_And_Jobs) | `/home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/` | `84` | `434` | — | Top-level repository folder `Resume_And_Jobs/` indexed by Knowledge Graph |
 | 2 | [`chats/`](chats) | `/home/krithika/workspace/ASQ-BB-Exam/chats/` | `1` | `187` | — | Exported or synced Zed/Antigravity AI assistant chat transcripts and conversation logs indexed into the Knowledge Graph |
-| 3 | [`documents/`](documents) | `/home/krithika/workspace/ASQ-BB-Exam/documents/` | `16` | `399` | — | Multi-modal documents, PDFs, Office files (`.docx`, `.pptx`, `.xlsx`), CSV/TSV datasets, OCR images, and audio recordings indexed into the Knowledge Graph |
+| 3 | [`documents/`](documents) | `/home/krithika/workspace/ASQ-BB-Exam/documents/` | `16` | `397` | — | Multi-modal documents, PDFs, Office files (`.docx`, `.pptx`, `.xlsx`), CSV/TSV datasets, OCR images, and audio recordings indexed into the Knowledge Graph |
 
 ### Repository Root (`.` Top-Level Files)
 
@@ -31,7 +31,7 @@ This file maintains the authoritative inventory of all **top-level parent folder
 | :--- | :--- |
 | `Resume_And_Jobs/` | `document`: 45, `document_file`: 39, `document_section`: 224, `topic_entity`: 126 |
 | `chats/` | `chat_session`: 6, `chat_turn`: 48, `topic_entity`: 133 |
-| `documents/` | `document`: 5, `document_file`: 10, `document_section`: 111, `html_template`: 1, `topic_entity`: 272 |
+| `documents/` | `document`: 5, `document_file`: 10, `document_section`: 111, `html_template`: 1, `topic_entity`: 270 |
 | `.` (Root Files) | `document`: 4 |
 
 ---
