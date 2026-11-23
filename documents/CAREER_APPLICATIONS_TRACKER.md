@@ -10,6 +10,7 @@
 - **Vegetarian Ethics Rule:** Strictly **NO meat, egg, poultry, fish/seafood, or animal-slaughter companies**!
 - **Skipped Employers (Per Cathy):** Skip Apple, Applied Materials, Supermicro, Cisco, Cardinal Health (low pay), Vital Farms (eggs), HP/HPE (hire/fire), Coinbase (legal degree), Matternet (lifting/onsite), startups.
 - **Defense & Aerospace Priority Lane (Updated `2026-11-21` Per Cathy):** Actively target **Lockheed Martin Space** (fresh Sunnyvale/Remote `E3/E4` Subcontracts, Procurement, Supply Chain — never repeating the 20 indexed IDs), **Northrop Grumman** (re-opened selectively for Sunnyvale/Remote IC roles with **NO Day-1 active Secret/TS clearance required**), and major Defense Primes (**Maxar / Lanteris Space Systems** Palo Alto, **BAE Systems** San Jose, **RTX**, **L3Harris**, **General Dynamics**, **Leidos**).
+- **Two-Lane Priority Pull System + Poka-Yoke Live Gate (Updated `2026-11-23` Per Cathy):** Always prioritize **(1) Lane 1 — Expiring Soon (`endDate` within 1–7 days)** before deadline AND **(2) Lane 2 — Just Posted (`1–5` days fresh)** to beat recruiter inbox queues, AND ALWAYS verify the live user-facing apply page (`HTTP 200`, NOT expired, `CanApply=True`) before presenting any job!
 
 ## Completed Applications — Day 1 (10 Submitted — 2026-11-14)
 1. **Stanford Health Care** — *Supply Chain Strategic Initiatives Project Manager* (`Req R2656254`, Palo Alto Hybrid, ~2 mi, IC) — **APPLIED (2026-11-14)**
@@ -90,10 +91,11 @@
 60. **Oracle (NYSE: ORCL)** — *Strategic Sourcing Manager (DC Infrastructure Equipment)* (`Job ID 347821`, Santa Clara CA ~11 mi, 102.3K to 209.5K USD + bonus/equity, Pure IC) — **APPLIED / UNDER CONSIDERATION (2026-11-22)** *(Active: `4` at Oracle!)*
 61. **Intuitive Machines / Lanteris Space Systems (NASDAQ: LUNR)** — *Senior Buyer – IT Software (`IT Category Manager`)* (`Req R24398`, Palo Alto CA 0 mi / Remote US, 107K to 178K USD CA base, Clearance: None, Pure IC, CSCP preferred!) — **SUBMITTED / ACTIVE (2026-11-22)** *(Brand-new public Space / Lunar company right in Palo Alto!)*
 
-## Completed Applications — Day 10 Weekday Cadence (`2026-11-23` — `3 / 3–5` Weekday Goal Met!; `85` Total Tracked = `71` Active, `14` Rejected!)
+## Completed Applications — Day 10 Weekday Cadence (`2026-11-23` — `4 / 3–5` Weekday Goal Exceeded!; `86` Total Tracked = `72` Active, `14` Rejected!)
 62. **Waymo (Alphabet)** — *Senior Category Manager, IT Software & Hardware* (`ID 8350276`, 100% US Remote [SF Bay Area eligible], 190K to 234K USD + bonus/equity, Travel <= 10%, Pure IC) — **APPLIED / CONFIRMED (2026-11-23)**
-63. **Oracle (NYSE: ORCL)** — *Senior Supplier Sourcing Manager, Memory and Storage* (`Job ID 348112`, Santa Clara CA ~11 mi, 102.3K to 209.5K USD + bonus/equity, Pure IC) — **APPLIED / NEW (2026-11-23)** *(Active: `5` at Oracle — `347821` already Under Consideration!)*
+63. **Oracle (NYSE: ORCL)** — *Senior Supplier Sourcing Manager, Memory and Storage* (`Job ID 348112`, Santa Clara CA ~11 mi, 102.3K to 209.5K USD + bonus/equity, Pure IC) — **APPLIED / NEW (2026-11-23)**
 64. **Analog Devices (NASDAQ: ADI)** — *Senior Category Manager, IT* (`Req R262192`, North San Jose `Rio Robles` ~13 mi, 95.6K to 131.45K USD + bonus, Travel 10%, Pure IC) — **APPLIED / APPLICATION UNDER REVIEW (2026-11-23)** *(Active: `2` at Analog Devices!)*
+65. **Oracle (NYSE: ORCL)** — *Supply/Demand Planner – Commodity & Memory* (`Job ID 336748`, Santa Clara CA ~11 mi, 102.3K to 209.5K USD + bonus/equity, Pure Principal IC) — **APPLIED / NEW (2026-11-23)** *(Active: `6` at Oracle — `347821` already Under Consideration!)*
 
 ## Full Lockheed Martin Eightfold Application History (`21` Roles: `16` Active + `5` Rejected + `1` Draft — Updated `2026-11-21`!)
 - **Active Stage-2 / Recruiter Screen (`1`):**
