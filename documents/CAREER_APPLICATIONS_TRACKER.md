@@ -90,9 +90,10 @@
 60. **Oracle (NYSE: ORCL)** — *Strategic Sourcing Manager (DC Infrastructure Equipment)* (`Job ID 347821`, Santa Clara CA ~11 mi, 102.3K to 209.5K USD + bonus/equity, Pure IC) — **APPLIED / UNDER CONSIDERATION (2026-11-22)** *(Active: `4` at Oracle!)*
 61. **Intuitive Machines / Lanteris Space Systems (NASDAQ: LUNR)** — *Senior Buyer – IT Software (`IT Category Manager`)* (`Req R24398`, Palo Alto CA 0 mi / Remote US, 107K to 178K USD CA base, Clearance: None, Pure IC, CSCP preferred!) — **SUBMITTED / ACTIVE (2026-11-22)** *(Brand-new public Space / Lunar company right in Palo Alto!)*
 
-## Completed Applications — Day 10 Weekday Cadence (`2026-11-23` — `2 / 3–5` Submitted So Far; `84` Total Tracked = `70` Active, `14` Rejected!)
+## Completed Applications — Day 10 Weekday Cadence (`2026-11-23` — `3 / 3–5` Weekday Goal Met!; `85` Total Tracked = `71` Active, `14` Rejected!)
 62. **Waymo (Alphabet)** — *Senior Category Manager, IT Software & Hardware* (`ID 8350276`, 100% US Remote [SF Bay Area eligible], 190K to 234K USD + bonus/equity, Travel <= 10%, Pure IC) — **APPLIED / CONFIRMED (2026-11-23)**
 63. **Oracle (NYSE: ORCL)** — *Senior Supplier Sourcing Manager, Memory and Storage* (`Job ID 348112`, Santa Clara CA ~11 mi, 102.3K to 209.5K USD + bonus/equity, Pure IC) — **APPLIED / NEW (2026-11-23)** *(Active: `5` at Oracle — `347821` already Under Consideration!)*
+64. **Analog Devices (NASDAQ: ADI)** — *Senior Category Manager, IT* (`Req R262192`, North San Jose `Rio Robles` ~13 mi, 95.6K to 131.45K USD + bonus, Travel 10%, Pure IC) — **APPLIED / APPLICATION UNDER REVIEW (2026-11-23)** *(Active: `2` at Analog Devices!)*
 
 ## Full Lockheed Martin Eightfold Application History (`21` Roles: `16` Active + `5` Rejected + `1` Draft — Updated `2026-11-21`!)
 - **Active Stage-2 / Recruiter Screen (`1`):**

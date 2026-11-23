@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-23T16:06:50.487465+00:00",
+    "generated_at": "2026-11-23T16:14:29.928973+00:00",
     "total_files_indexed": 109,
-    "total_nodes": 1053,
-    "total_edges": 2526,
+    "total_nodes": 1051,
+    "total_edges": 2530,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
@@ -12,36 +12,32 @@
       "document_file": 53,
       "document_section": 359,
       "html_template": 1,
-      "topic_entity": 532
+      "topic_entity": 530
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [
-      "Resume_And_Jobs/Job65_WesternDigital_744000161580699_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job66_Oracle_348112_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job67_AnalogDevices_R262192_Krithika_Nagarajan_Resume.docx"
-    ],
+    "added": [],
     "modified": [
       "chats/SHARED_SESSION_STATE.md",
       "documents/CAREER_APPLICATIONS_TRACKER.md"
     ],
     "removed": [],
-    "files_parsed": 4,
-    "files_cached_reused": 104,
+    "files_parsed": 1,
+    "files_cached_reused": 107,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 70,
-      "nodes_deleted": 11,
-      "edges_upserted": 148,
-      "edges_deleted": 22,
+      "nodes_upserted": 15,
+      "nodes_deleted": 10,
+      "edges_upserted": 29,
+      "edges_deleted": 14,
       "wiki_pages_upserted": 1,
       "wiki_pages_deleted": 0,
-      "files_upserted": 6,
+      "files_upserted": 3,
       "files_deleted": 0,
-      "total_nodes_in_db": 1053,
-      "total_edges_in_db": 2526,
+      "total_nodes_in_db": 1051,
+      "total_edges_in_db": 2530,
       "total_files_tracked": 110
     }
   },
@@ -971,7 +967,7 @@
       "id": "topic:onboarding",
       "type": "topic_entity",
       "name": "onboarding",
-      "file_path": "Resume_And_Jobs/Job66_Oracle_348112_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'onboarding' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "onboarding"
@@ -1013,7 +1009,7 @@
       "id": "topic:sourcing",
       "type": "topic_entity",
       "name": "sourcing",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'sourcing' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "sourcing"
@@ -2108,7 +2104,7 @@
       "id": "topic:angular",
       "type": "topic_entity",
       "name": "angular",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job45_Cadence_R51338_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'angular' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "angular"
@@ -9822,7 +9818,7 @@
       "id": "topic:first",
       "type": "topic_entity",
       "name": "first",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
       "description": "Shared domain topic 'first' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "first"
@@ -9986,7 +9982,7 @@
           "Completed Applications \u2014 Day 7 Weekday Cadence (4 Submitted \u2014 2026-11-20 \u2014 Friday Goal Complete! `62` Total Tracked = `50` Active, `12` Rejected!)",
           "Completed Applications \u2014 Day 8 Weekend Sprint (`2026-11-21` \u2014 `10 / 10` COMPLETE!! `72` Total Tracked = `59` Active, `13` Rejected!)",
           "Completed Applications \u2014 Day 9 Weekend Sprint (`2026-11-22` \u2014 `10 / 10` COMPLETE!! `20 / 20` Full Weekend Sprint! `82` Total Tracked = `69` Active, `13` Rejected!)",
-          "Completed Applications \u2014 Day 10 Weekday Cadence (`2026-11-23` \u2014 `2 / 3\u20135` Submitted So Far; `84` Total Tracked = `70` Active, `14` Rejected!)",
+          "Completed Applications \u2014 Day 10 Weekday Cadence (`2026-11-23` \u2014 `3 / 3\u20135` Weekday Goal Met!; `85` Total Tracked = `71` Active, `14` Rejected!)",
           "Full Lockheed Martin Eightfold Application History (`21` Roles: `16` Active + `5` Rejected + `1` Draft \u2014 Updated `2026-11-21`!)",
           "Active Employer Responses / Stage-2 Advancements",
           "Closed / Rejected Applications Log"
@@ -10085,6 +10081,7 @@
           "SUBMITTED / ACTIVE (2026-11-22)",
           "APPLIED / CONFIRMED (2026-11-23)",
           "APPLIED / NEW (2026-11-23)",
+          "APPLIED / APPLICATION UNDER REVIEW (2026-11-23)",
           "Active Stage-2 / Recruiter Screen (`1`):",
           "2026-11-17",
           "Rejected at Lockheed Martin (`5`):",
@@ -10190,13 +10187,14 @@
           "IT Category Manager",
           "Req R24398",
           "2026-11-23",
-          "2 / 3\u20135",
-          "84",
-          "70",
+          "3 / 3\u20135",
+          "85",
+          "71",
           "14",
           "ID 8350276",
           "Job ID 348112",
           "at Oracle \u2014",
+          "Req R262192",
           "21",
           "16",
           "Rejected +",
@@ -12442,8 +12440,8 @@
         "topics": [
           "manager",
           "applied",
-          "rejected",
           "active",
+          "rejected",
           "remote",
           "nasdaq",
           "pure",
@@ -12722,26 +12720,6 @@
       }
     },
     {
-      "id": "topic:delete",
-      "type": "topic_entity",
-      "name": "delete",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'delete' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "delete"
-      }
-    },
-    {
-      "id": "topic:cancel",
-      "type": "topic_entity",
-      "name": "cancel",
-      "file_path": "chats/transcript_6e8422d1.jsonl",
-      "description": "Shared domain topic 'cancel' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "cancel"
-      }
-    },
-    {
       "id": "topic:monday",
       "type": "topic_entity",
       "name": "monday",
@@ -12752,154 +12730,36 @@
       }
     },
     {
+      "id": "topic:delete",
+      "type": "topic_entity",
+      "name": "delete",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'delete' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "delete"
+      }
+    },
+    {
       "id": "chat_session:b6556366",
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (1037 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (1040 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 1037,
+        "turn_count": 1040,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
           "accrual",
           "foodliner",
+          "supplier",
           "cancelled",
           "load",
+          "monday",
           "delete",
-          "supplier",
-          "cancel",
-          "monday"
-        ]
-      }
-    },
-    {
-      "id": "topic:quarter",
-      "type": "topic_entity",
-      "name": "quarter",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'quarter' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "quarter"
-      }
-    },
-    {
-      "id": "topic:almonds",
-      "type": "topic_entity",
-      "name": "almonds",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'almonds' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "almonds"
-      }
-    },
-    {
-      "id": "topic:apple",
-      "type": "topic_entity",
-      "name": "apple",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'apple' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "apple"
-      }
-    },
-    {
-      "id": "topic:avacado",
-      "type": "topic_entity",
-      "name": "avacado",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'avacado' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "avacado"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3415",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3415 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S3415] Good Morning, ate oats with strawberry 2 blueberries 5 5 walnuts, 5 raisins, 2 almonds, quarter of a quarter apple, half small avacado then took metformin, plaquenil, crestor, tamoxifin hehe",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3415,
-        "role": "user",
-        "created_at": "2026-11-23T15:23:34Z",
-        "content_excerpt": "Good Morning, ate oats with strawberry 2 blueberries 5 5 walnuts, 5 raisins, 2 almonds, quarter of a quarter apple, half small avacado then took metformin, plaquenil, crestor, tamoxifin hehe",
-        "topics": [
-          "quarter",
-          "almonds",
-          "apple",
-          "avacado"
-        ]
-      }
-    },
-    {
-      "id": "topic:morning",
-      "type": "topic_entity",
-      "name": "morning",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'morning' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "morning"
-      }
-    },
-    {
-      "id": "topic:copilot",
-      "type": "topic_entity",
-      "name": "copilot",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'copilot' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "copilot"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3417",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3417 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S3417] Good morning, Cathy! That sounds like a super balanced, nourishing Monday breakfast \u2014 oats with berries, walnuts, almonds, raisins, apple, and avocado, and right on schedule with your morning routine. Whenever you're set",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3417,
-        "role": "assistant",
-        "created_at": "2026-11-23T15:23:34Z",
-        "content_excerpt": "Good morning, Cathy! That sounds like a super balanced, nourishing Monday breakfast \u2014 oats with berries, walnuts, almonds, raisins, apple, and avocado, and right on schedule with your morning routine.\n\nWhenever you're settled in for **Monday (`2026-11-23`)**, just tell me which lane you'd like to open first:\n\n1. **Weekday Job Search (`3\u20135` High-Fit Roles, 1-by-1):** Say **\"job #1\"** and I'll bring up our first pre-vetted Space / Defense / Fortune 500 / APICS opening (building on your `82` tracked / `69` Active applications).\n2. **ASQ Black Belt (`Unit 5: Measure Phase`):** Say **\"ready for ASQ\"** \u2014 we'll lock in those 5 tiny misses from Round 36 (`%Tolerance`, `10-to-1 Resolution`, `Greek vs. English symbols`, `Normal Probability Plot`, `Analytic vs. Enumerative`) and then open **`V.E` Pro",
-        "topics": [
-          "first",
-          "morning",
-          "angular",
-          "copilot"
-        ]
-      }
-    },
-    {
-      "id": "topic:think",
-      "type": "topic_entity",
-      "name": "think",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'think' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "think"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3418",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3418 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S3418] i think let us do job first pls",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3418,
-        "role": "user",
-        "created_at": "2026-11-23T15:24:14Z",
-        "content_excerpt": "i think let us do job first pls",
-        "topics": [
-          "first",
-          "think"
+          "across"
         ]
       }
     },
@@ -13242,6 +13102,126 @@
       }
     },
     {
+      "id": "chat_turn:b6556366:S3535",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3535 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S3535] Logged and synced, Cathy! **Monday Job #2 (`Oracle 348112`)** is officially saved \u2014 you now have **5 active Oracle applications** (with `347821` already in **Under Consideration**!), bringing your running total to **`84`",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3535,
+        "role": "assistant",
+        "created_at": "2026-11-23T16:06:56Z",
+        "content_excerpt": "Logged and synced, Cathy! **Monday Job #2 (`Oracle 348112`)** is officially saved \u2014 you now have **5 active Oracle applications** (with `347821` already in **Under Consideration**!), bringing your running total to **`84` Tracked (`70` Active, `14` Rejected)** (`2 / 3\u20135` done for Monday; pushed commit `776d963`, KG updated to `1,053` nodes / `2,526` edges / `1,053` vectors).\n\nHere is your **100% live-verified Monday Job #3** (verified open right now with `CanApply: True` and `HTTP 200` on Analog Devices' Workday portal \u2014 where your account is already set up from last week!):\n\n---\n\n### Monday Job #3 \u2014 Analog Devices (`NASDAQ: ADI`) \u2014 *Senior Category Manager, IT* (`Req R262192`)\n\n- **Direct Apply Link (Live-Verified):** https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/US-MA-Wil",
+        "topics": [
+          "supplier",
+          "monday",
+          "onboarding",
+          "service"
+        ]
+      }
+    },
+    {
+      "id": "topic:experience",
+      "type": "topic_entity",
+      "name": "experience",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'experience' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "experience"
+      }
+    },
+    {
+      "id": "topic:field",
+      "type": "topic_entity",
+      "name": "field",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'field' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "field"
+      }
+    },
+    {
+      "id": "topic:relevant",
+      "type": "topic_entity",
+      "name": "relevant",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'relevant' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "relevant"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3536",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3536 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S3536] says 3-5 years of relevant experience within the IT/IS field, i don't have - ok to apply?",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3536,
+        "role": "user",
+        "created_at": "2026-11-23T16:08:30Z",
+        "content_excerpt": "says 3-5 years of relevant experience within the IT/IS field, i don't have - ok to apply?",
+        "topics": [
+          "apply",
+          "experience",
+          "field",
+          "relevant"
+        ]
+      }
+    },
+    {
+      "id": "topic:already",
+      "type": "topic_entity",
+      "name": "already",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "already"
+      }
+    },
+    {
+      "id": "topic:case",
+      "type": "topic_entity",
+      "name": "case",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'case' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "case"
+      }
+    },
+    {
+      "id": "topic:indirect",
+      "type": "topic_entity",
+      "name": "indirect",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'indirect' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "indirect"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3537",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3537 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S3537] Yes, Cathy \u2014 totally okay to apply, and honestly worth the 2 minutes since your Analog Devices Workday account is already set up! Here is the straightforward reality: - **Why you still have a real shot:** You hold a **Ma",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3537,
+        "role": "assistant",
+        "created_at": "2026-11-23T16:08:30Z",
+        "content_excerpt": "Yes, Cathy \u2014 totally okay to apply, and honestly worth the 2 minutes since your Analog Devices Workday account is already set up!\n\nHere is the straightforward reality:\n- **Why you still have a real shot:** You hold a **Master of Computer Applications (M.C.A. Engineering)** plus hands-on enterprise IT tool experience (**Dynamics 365, Power Apps, Power Automate, SharePoint, EDI**), alongside **10+ years** of indirect sourcing, RFP/RFQ negotiations, Service Agreements/SOWs, and supplier performance management. Notice how **Oracle** already moved your Data Center Infrastructure Sourcing application (`347821`) to **Under Consideration** using that exact same transferable background!\n- **Stay 100% honest:** On any Workday screening question, answer truthfully \u2014 never inflate anything. Worst case",
+        "topics": [
+          "sourcing",
+          "already",
+          "case",
+          "indirect"
+        ]
+      }
+    },
+    {
       "id": "topic:home",
       "type": "topic_entity",
       "name": "home",
@@ -13530,16 +13510,6 @@
           "exam",
           "final"
         ]
-      }
-    },
-    {
-      "id": "topic:already",
-      "type": "topic_entity",
-      "name": "already",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "already"
       }
     },
     {
@@ -14111,6 +14081,16 @@
           "activemenu",
           "home"
         ]
+      }
+    },
+    {
+      "id": "topic:cancel",
+      "type": "topic_entity",
+      "name": "cancel",
+      "file_path": "chats/transcript_6e8422d1.jsonl",
+      "description": "Shared domain topic 'cancel' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cancel"
       }
     },
     {
@@ -31522,7 +31502,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 44
+        "count": 45
       }
     },
     {
@@ -31530,7 +31510,15 @@
       "target": "topic:applied",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 41
+        "count": 42
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 32
       }
     },
     {
@@ -31539,14 +31527,6 @@
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 32
-      }
-    },
-    {
-      "source": "chat_session:SHAREDSE",
-      "target": "topic:active",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 31
       }
     },
     {
@@ -31562,7 +31542,7 @@
       "target": "topic:nasdaq",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 23
+        "count": 24
       }
     },
     {
@@ -31570,7 +31550,7 @@
       "target": "topic:pure",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 19
+        "count": 20
       }
     },
     {
@@ -31828,7 +31808,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 44
+        "count": 45
       }
     },
     {
@@ -31836,7 +31816,7 @@
       "target": "topic:applied",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 41
+        "count": 42
       }
     },
     {
@@ -31852,7 +31832,7 @@
       "target": "topic:active",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 28
+        "count": 29
       }
     },
     {
@@ -31866,7 +31846,7 @@
       "target": "topic:accrual",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 34
+        "count": 35
       }
     },
     {
@@ -31875,6 +31855,14 @@
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 31
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 25
       }
     },
     {
@@ -31895,6 +31883,14 @@
     },
     {
       "source": "chat_session:b6556366",
+      "target": "topic:monday",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 17
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
       "target": "topic:delete",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
@@ -31903,26 +31899,10 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:supplier",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 16
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:cancel",
+      "target": "topic:across",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 15
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:monday",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 14
       }
     },
     {
@@ -31944,101 +31924,9 @@
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S3415",
-      "target": "topic:quarter",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3415",
-      "target": "topic:almonds",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3415",
-      "target": "topic:apple",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3415",
-      "target": "topic:avacado",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3415",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S3417",
-      "target": "topic:first",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3417",
-      "target": "topic:morning",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3417",
-      "target": "topic:angular",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3417",
-      "target": "topic:copilot",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3417",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S3418",
-      "target": "topic:first",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3418",
-      "target": "topic:think",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3418",
-      "relation": "HAS_CHAT_TURN",
+      "target": "doc_file:Resume_And_Jobs/Job67_AnalogDevices_R262192_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
@@ -32389,6 +32277,126 @@
       "source": "chat_turn:b6556366:S3510",
       "target": "doc_file:Resume_And_Jobs/Job66_Oracle_348112_Krithika_Nagarajan_Resume.docx",
       "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3535",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3535",
+      "target": "topic:monday",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3535",
+      "target": "topic:onboarding",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3535",
+      "target": "topic:service",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3535",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3535",
+      "target": "doc_file:Resume_And_Jobs/Job67_AnalogDevices_R262192_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3536",
+      "target": "topic:apply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3536",
+      "target": "topic:experience",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3536",
+      "target": "topic:field",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3536",
+      "target": "topic:relevant",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3536",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3537",
+      "target": "topic:sourcing",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3537",
+      "target": "topic:already",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3537",
+      "target": "topic:case",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3537",
+      "target": "topic:indirect",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3537",
+      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -33881,7 +33889,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "baf528a519f2c3e63149170cdca716e7e101af87449b2a424cd48ef6c0e6bb62",
+    "chats/SHARED_SESSION_STATE.md": "42f3e0633c7932f6765cc3400e8c53bc29cb43842e946ff0d0d856006ef74445",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -33891,13 +33899,13 @@
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
     "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx": "f902eb9229e23a0d4e75615d1065f0690db0b63af324613d7d51a72441e281a6",
     "documents/ASQ_Sampling_Methods_Quick_Table.docx": "611a5b1986e4d296f6a1244d2c334d4f6688820f04a6cb8d6ff694b7b1f6ef0e",
-    "documents/CAREER_APPLICATIONS_TRACKER.md": "bc1a83f17265ecd86eb5a033304f9a5ddde1e7becacff2379c241d39000fb2ce",
+    "documents/CAREER_APPLICATIONS_TRACKER.md": "7ab9af59634f0e490482feeacf0d80a994ee16479602c9bb1640776592ce8593",
     "documents/PValue_And_Cp_Cpk_Quick_Tables.docx": "7e146d9b535a8fa34793e0d7ecfd892041e75cd8a15e79777c55fa1babae79d5",
     "documents/QUESTION_BANK_LOG.md": "9c942cd0e3fdf73a73d58632ea7c8b7d1b2dd99c06cc7c7dd4820a012c526b67",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "834b10519b6df6d886198db49aba08bdc387729c830139a9ef471cfca06865d5"
+    "repo.md": "6d3e4698de85a82f0439b05408674480c05e4faf48e5e4fd28c1474932046e1a"
   }
 }
