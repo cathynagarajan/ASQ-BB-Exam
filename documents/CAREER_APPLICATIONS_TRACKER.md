@@ -90,6 +90,9 @@
 60. **Oracle (NYSE: ORCL)** — *Strategic Sourcing Manager (DC Infrastructure Equipment)* (`Job ID 347821`, Santa Clara CA ~11 mi, 102.3K to 209.5K USD + bonus/equity, Pure IC) — **APPLIED / UNDER CONSIDERATION (2026-11-22)** *(Active: `4` at Oracle!)*
 61. **Intuitive Machines / Lanteris Space Systems (NASDAQ: LUNR)** — *Senior Buyer – IT Software (`IT Category Manager`)* (`Req R24398`, Palo Alto CA 0 mi / Remote US, 107K to 178K USD CA base, Clearance: None, Pure IC, CSCP preferred!) — **SUBMITTED / ACTIVE (2026-11-22)** *(Brand-new public Space / Lunar company right in Palo Alto!)*
 
+## Completed Applications — Day 10 Weekday Cadence (`2026-11-23` — `1 / 3–5` Submitted So Far; `83` Total Tracked = `69` Active, `14` Rejected!)
+62. **Waymo (Alphabet)** — *Senior Category Manager, IT Software & Hardware* (`ID 8350276`, 100% US Remote [SF Bay Area eligible], 190K to 234K USD + bonus/equity, Travel <= 10%, Pure IC) — **APPLIED / CONFIRMED (2026-11-23)**
+
 ## Full Lockheed Martin Eightfold Application History (`21` Roles: `16` Active + `5` Rejected + `1` Draft — Updated `2026-11-21`!)
 - **Active Stage-2 / Recruiter Screen (`1`):**
   - `Job ID 13013` — *Subcontract Management Sr - E3* (Highlands Ranch CO / Sunnyvale CA +3, applied 2026-10-19) — **Stage-2 Reasonable Accommodation Updated (`✓`), Questionnaire Sent to Christian Sieg (`2026-11-16`)**
