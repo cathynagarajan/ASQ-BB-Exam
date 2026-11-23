@@ -1,10 +1,10 @@
 # Kubernetes Repository Knowledge Graph
 
 - **Repository Root**: `/home/krithika/workspace/ASQ-BB-Exam`
-- **Last Updated**: `2026-11-23T00:46:10.738054+00:00`
+- **Last Updated**: `2026-11-23T01:15:15.521474+00:00`
 - **Indexed Files**: `105`
-- **Total Graph Nodes**: `1015`
-- **Total Graph Edges**: `2362`
+- **Total Graph Nodes**: `1016`
+- **Total Graph Edges**: `2365`
 
 ## Entity Counts by Type
 
@@ -16,7 +16,7 @@
 | `document_file` | 49 |
 | `document_section` | 335 |
 | `html_template` | 1 |
-| `topic_entity` | 522 |
+| `topic_entity` | 523 |
 
 ## Cluster Nodes
 
