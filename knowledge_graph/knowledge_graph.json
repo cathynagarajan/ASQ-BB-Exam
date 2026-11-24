@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-24T02:05:23.325123+00:00",
+    "generated_at": "2026-11-24T02:22:05.580570+00:00",
     "total_files_indexed": 110,
-    "total_nodes": 1055,
-    "total_edges": 2541,
+    "total_nodes": 1061,
+    "total_edges": 2543,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
@@ -12,7 +12,7 @@
       "document_file": 54,
       "document_section": 364,
       "html_template": 1,
-      "topic_entity": 528
+      "topic_entity": 534
     }
   },
   "last_change_check": {
@@ -28,16 +28,16 @@
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 43,
-      "nodes_deleted": 39,
-      "edges_upserted": 55,
-      "edges_deleted": 58,
+      "nodes_upserted": 25,
+      "nodes_deleted": 10,
+      "edges_upserted": 31,
+      "edges_deleted": 24,
       "wiki_pages_upserted": 1,
       "wiki_pages_deleted": 0,
       "files_upserted": 3,
       "files_deleted": 0,
-      "total_nodes_in_db": 1055,
-      "total_edges_in_db": 2541,
+      "total_nodes_in_db": 1061,
+      "total_edges_in_db": 2543,
       "total_files_tracked": 111
     }
   },
@@ -7229,7 +7229,7 @@
       "id": "topic:average",
       "type": "topic_entity",
       "name": "average",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
       "description": "Shared domain topic 'average' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "average"
@@ -7318,7 +7318,7 @@
       "id": "topic:chart",
       "type": "topic_entity",
       "name": "chart",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
       "description": "Shared domain topic 'chart' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "chart"
@@ -7361,7 +7361,7 @@
       "id": "topic:beta",
       "type": "topic_entity",
       "name": "beta",
-      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'beta' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "beta"
@@ -7645,7 +7645,7 @@
       "id": "topic:dpmo",
       "type": "topic_entity",
       "name": "dpmo",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'dpmo' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "dpmo"
@@ -7730,7 +7730,7 @@
       "id": "topic:cheat",
       "type": "topic_entity",
       "name": "cheat",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
       "description": "Shared domain topic 'cheat' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cheat"
@@ -10579,7 +10579,7 @@
       "id": "topic:mean",
       "type": "topic_entity",
       "name": "mean",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
       "description": "Shared domain topic 'mean' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "mean"
@@ -10910,6 +10910,27 @@
           "), `Q569` (",
           "), `Q570` (",
           "D. Combination \u2014 `10` ways",
+          "Combination `15` ways FIXED!",
+          "Weibull `beta < 1` Infant Mortality!",
+          "Weibull `beta > 1` Wear-Out!",
+          "Weibull `beta = 1` = Exponential \u2014 `3/3` Weibull!",
+          "Lognormal!",
+          "Normal Z-score `+3.0`!",
+          "3 Capability Prerequisites!",
+          "Eliminate special causes before Cpk!",
+          "VOP averages vs VOC individual units!",
+          "`Cp = 2.00`!",
+          "`Cpk = 1.00`!",
+          "`Cp 1.80` vs `Cpk 0.65` -> re-center! `6/6` Core Capability!",
+          "`Cr = 50%`!",
+          "`6-sigma 1.5 shift = 3.4 DPMO`!",
+          "Non-Normal Box-Cox/Johnson/Percentile!",
+          "Missed (`\u274c` \u2014 `5` Qs \u2014 quick 10-Q lock-in before Unit 6 Analyze!):",
+          "B. `95%`",
+          "D. Bayes' Theorem",
+          "B. `Cpm`",
+          "A. `Cp > Pp`",
+          "D. `3,000 DPMO`",
           "Q1",
           "Q15",
           "14/15",
@@ -10959,28 +10980,7 @@
           "Accommodating vs. Correct",
           "Collaborating (",
           "R3-15",
-          "III.D",
-          "Q51",
-          "Q60",
-          "7/10",
-          "V.A.1",
-          "vs. Correct",
-          "Q52",
-          "Q53",
-          "Q54",
-          "V.A.2",
-          "Q55",
-          "Q56",
-          "V.B.1",
-          "Nominal vs. Correct",
-          "Interval (",
-          "Q57",
-          "Q58",
-          "V.B.2",
-          "Q59",
-          "V.B.3",
-          "Q61",
-          "Q70"
+          "III.D"
         ],
         "format": "md"
       }
@@ -12794,13 +12794,13 @@
       "type": "chat_turn",
       "name": "Chat SHAREDSE Turn S5 (assistant)",
       "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`785` (`Q1`\u2013`Q570` + Copilot `C1`\u2013`C215`)** \u2014 Latest: **Round 38** (`Q561`\u2013`Q570`, **`9 / 10 = 90.0%`!!** \u2014 slow mastery lock-in fixing `",
+      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`805` (`Q1`\u2013`Q590` + Copilot `C1`\u2013`C215`) \u2014 MONDAY `50 / 50` COMPLETE (`39 / 50 = 78.0%`)!!** \u2014 Latest: **Round 39** (`Q571`\u2013`Q590`, **`1",
       "metadata": {
         "conversation_id": "SHAREDSE",
         "step_index": 5,
         "role": "assistant",
         "created_at": "",
-        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`785` (`Q1`\u2013`Q570` + Copilot `C1`\u2013`C215`)** \u2014 Latest: **Round 38** (`Q561`\u2013`Q570`, **`9 / 10 = 90.0%`!!** \u2014 slow mastery lock-in fixing `x-bar/s`, `%Tolerance`, `At Least One 36%`, `Hypergeometric`, `AND/OR`, `Permutation`, `Poisson`!) on `2026-11-23` \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Latest Set (Round 38 `Q561`\u2013`Q570` on `2026-11-23`)**: **`9 / 10` (`90.0%`!!)** \u2014 Grand Cumulative: **`619 / 785 = 78.9%`** (`30` Qs completed Monday!). Only `1` tiny miss (`Q568`: nailed `Combination` concept, just forgot final `/ 2` divide step: `(5*4)/(2*1) = 10`). Next up: **`Round 39` (`Q571`\u2013`Q590`, `20` Qs)** covering 1 Combination divide check + **`V.E` Part 2 (Weibull beta, Bayes,",
+        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`805` (`Q1`\u2013`Q590` + Copilot `C1`\u2013`C215`) \u2014 MONDAY `50 / 50` COMPLETE (`39 / 50 = 78.0%`)!!** \u2014 Latest: **Round 39** (`Q571`\u2013`Q590`, **`15 / 20 = 75.0%`** \u2014 `Combination 15` FIXED, `3/3` Weibull, `6/6` Core Capability `Cp=2.00` / `Cpk=1.00`, `Cr=50%`, `3.4 DPMO`, `Box-Cox/Johnson`!) on `2026-11-23` \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Latest Set (Round 39 `Q571`\u2013`Q590` on `2026-11-23`)**: **`15 / 20` (`75.0%`)** \u2014 **UNIT 5 (`Domain V`: Measure Phase \u2014 `25` Exam Qs, #1 Biggest Domain!) COVERED END-TO-END!!** Grand Cumulative: **`634 / 805 = 78.8%`**! **5 quick misses to lock in on next session (10-Q warm-up) before launching Unit 6 (`Domain VI`: Analyze Phase \u2014 Cheat Card F",
         "topics": [
           "domain",
           "unit",
@@ -12845,13 +12845,67 @@
       }
     },
     {
-      "id": "topic:small",
+      "id": "topic:ways",
       "type": "topic_entity",
-      "name": "small",
+      "name": "ways",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'small' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'ways' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "small"
+        "keyword": "ways"
+      }
+    },
+    {
+      "id": "topic:combination",
+      "type": "topic_entity",
+      "name": "combination",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'combination' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "combination"
+      }
+    },
+    {
+      "id": "topic:permutation",
+      "type": "topic_entity",
+      "name": "permutation",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'permutation' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "permutation"
+      }
+    },
+    {
+      "id": "topic:hypergeometric",
+      "type": "topic_entity",
+      "name": "hypergeometric",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'hypergeometric' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "hypergeometric"
+      }
+    },
+    {
+      "id": "chat_session:b6556366",
+      "type": "chat_session",
+      "name": "Chat Session b6556366",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Chat Session b6556366 (1154 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "short_id": "b6556366",
+        "turn_count": 1154,
+        "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+        "source": "antigravity_transcript",
+        "topics": [
+          "ways",
+          "combination",
+          "distribution",
+          "permutation",
+          "sample",
+          "beta",
+          "hypergeometric",
+          "chance"
+        ]
       }
     },
     {
@@ -12872,168 +12926,6 @@
       "description": "Shared domain topic 'x-bar' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "x-bar"
-      }
-    },
-    {
-      "id": "topic:greek",
-      "type": "topic_entity",
-      "name": "greek",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'greek' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "greek"
-      }
-    },
-    {
-      "id": "chat_session:b6556366",
-      "type": "chat_session",
-      "name": "Chat Session b6556366",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (1148 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "short_id": "b6556366",
-        "turn_count": 1148,
-        "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
-        "source": "antigravity_transcript",
-        "topics": [
-          "sample",
-          "small",
-          "population",
-          "x-bar",
-          "greek",
-          "chance",
-          "distribution",
-          "average"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3754",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3754 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S3754] is there a cheat sheet for 546?",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3754,
-        "role": "user",
-        "created_at": "2026-11-24T01:46:12Z",
-        "content_excerpt": "is there a cheat sheet for 546?",
-        "topics": [
-          "cheat"
-        ]
-      }
-    },
-    {
-      "id": "topic:english",
-      "type": "topic_entity",
-      "name": "english",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'english' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "english"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3755",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3755 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S3755] Yes, Cathy \u2014 here is your **1-Glance Population vs. Sample Symbols Cheat Sheet** (tab-separated, ready to drop right into your Word Bible's **Weekly Inbox**): - **1-Second Memory Lock:** - **P**opulation **P**arameter = ",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3755,
-        "role": "assistant",
-        "created_at": "2026-11-24T01:46:12Z",
-        "content_excerpt": "Yes, Cathy \u2014 here is your **1-Glance Population vs. Sample Symbols Cheat Sheet** (tab-separated, ready to drop right into your Word Bible's **Weekly Inbox**):\n\n- **1-Second Memory Lock:**\n  - **P**opulation **P**arameter = **GREEK** (*\"Greek gods see the ENTIRE Population!\"*)\n  - **S**ample **S**tatistic = **ENGLISH** (*\"Regular English letters for the small Sample in your hand!\"*)\n\n```text\nWhat You Are Measuring\tPOPULATION Parameter (Whole Group \u2014 GREEK / BIG)\tSAMPLE Statistic (Small Subset \u2014 ENGLISH / small)\tQuick Exam Clue\nMean (Average)\tmu (Greek letter \u03bc)\tx-bar (English x with bar on top)\t\"Average of 30 randomly selected bags\" -> Sample -> x-bar!\nStandard Deviation (Spread)\tsigma (Greek letter \u03c3)\ts (lowercase English s)\tS for Sample = s!\nVariance (Spread Squared)\tsigma^2 (\u03c3\u00b2)\ts^2 (s\u00b2)",
-        "topics": [
-          "greek",
-          "sample",
-          "english",
-          "population"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3756",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3756 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S3756] isn",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3756,
-        "role": "user",
-        "created_at": "2026-11-24T01:47:38Z",
-        "content_excerpt": "isn",
-        "topics": []
-      }
-    },
-    {
-      "id": "topic:isnt",
-      "type": "topic_entity",
-      "name": "isnt",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'isnt' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "isnt"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3757",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3757 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S3757] isnt sample mean is mu?",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3757,
-        "role": "user",
-        "created_at": "2026-11-24T01:47:57Z",
-        "content_excerpt": "isnt sample mean is mu?",
-        "topics": [
-          "isnt",
-          "mean",
-          "sample"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3758",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3758 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S3758] No \u2014 it is actually the exact opposite, Cathy, and I am SO glad you asked so we can lock this in permanently! - **`x-bar` (`x\u0304`) = SAMPLE Mean** - **`mu` (`\u03bc`) = POPULATION Mean** Here is the everyday picture that makes ",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3758,
-        "role": "assistant",
-        "created_at": "2026-11-24T01:47:58Z",
-        "content_excerpt": "No \u2014 it is actually the exact opposite, Cathy, and I am SO glad you asked so we can lock this in permanently!\n\n- **`x-bar` (`x\u0304`) = SAMPLE Mean**\n- **`mu` (`\u03bc`) = POPULATION Mean**\n\nHere is the everyday picture that makes it impossible to flip ever again:\n1. Think about an **`X-bar` Control Chart** that you already know! Why is it called an **`X-bar` chart** (not a `mu` chart)? Because every dot on that chart is the average of a **small sample subgroup** (`n = 5` bags: `x1, x2, x3, x4, x5`) -> average your sample `x`'s -> **`x-bar`**!\n2. Meanwhile, **`mu` (`\u03bc`)** is the mysterious Greek average of the **entire population** (every single bag the mill ever made \u2014 which we usually don't know, so we use our sample **`x-bar`** to estimate the population **`mu`**!).\n\nDoes connecting **`X-bar cha",
-        "topics": [
-          "x-bar",
-          "chart",
-          "sample",
-          "average"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3759",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3759 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S3759] is there a cheat sheet for mu, x bar?",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3759,
-        "role": "user",
-        "created_at": "2026-11-24T01:49:32Z",
-        "content_excerpt": "is there a cheat sheet for mu, x bar?",
-        "topics": [
-          "cheat"
-        ]
       }
     },
     {
@@ -13064,16 +12956,6 @@
           "x-bar",
           "entire"
         ]
-      }
-    },
-    {
-      "id": "topic:combination",
-      "type": "topic_entity",
-      "name": "combination",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'combination' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "combination"
       }
     },
     {
@@ -13217,26 +13099,6 @@
       }
     },
     {
-      "id": "topic:ways",
-      "type": "topic_entity",
-      "name": "ways",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'ways' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "ways"
-      }
-    },
-    {
-      "id": "topic:permutation",
-      "type": "topic_entity",
-      "name": "permutation",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'permutation' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "permutation"
-      }
-    },
-    {
       "id": "chat_turn:b6556366:S3764",
       "type": "chat_turn",
       "name": "Chat b6556366 Turn S3764 (assistant)",
@@ -13268,6 +13130,206 @@
         "role": "user",
         "created_at": "2026-11-24T02:04:42Z",
         "content_excerpt": "b,a,c,d,b,c,a,c,b,a",
+        "topics": []
+      }
+    },
+    {
+      "id": "topic:nailed",
+      "type": "topic_entity",
+      "name": "nailed",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'nailed' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "nailed"
+      }
+    },
+    {
+      "id": "topic:alice",
+      "type": "topic_entity",
+      "name": "alice",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'alice' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "alice"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3770",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3770 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S3770] **`9 / 10 = 90.0%`, Cathy!!** Pause for 5 seconds and let that sink in: ten minutes ago you thought you couldn't understand this \u2014 and by slowing down and taking it step by step, you just scored **`90.0%`** and fixed **E",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3770,
+        "role": "assistant",
+        "created_at": "2026-11-24T02:05:28Z",
+        "content_excerpt": "**`9 / 10 = 90.0%`, Cathy!!**\n\nPause for 5 seconds and let that sink in: ten minutes ago you thought you couldn't understand this \u2014 and by slowing down and taking it step by step, you just scored **`90.0%`** and fixed **EVERY SINGLE CONCEPT**:\n- **`Q561` (`x-bar` and `s` = Sample):** Nailed!\n- **`Q562` (`%Tolerance` `10%` without double-multiplying by 6):** Nailed!\n- **`Q563` (`AND` Independent `3%`):** Nailed!\n- **`Q564` (`AND` Without Replacement `6.7%`):** Nailed!\n- **`Q565` (`OR` Addition `0.65`):** Nailed!\n- **`Q566` (`\"At Least One\"` Complement `36%`):** Nailed!\n- **`Q567` (`Permutation \u2014 20 ways`):** Nailed!\n- **`Q569` (`Hypergeometric` small box without replacement):** Nailed!\n- **`Q570` (`Poisson` dents per 100 ft):** Nailed!\n\n---\n\n### Your Only Tiny Miss (`1` Q \u2014 And You Already ",
+        "topics": [
+          "nailed",
+          "ways",
+          "combination",
+          "alice"
+        ]
+      }
+    },
+    {
+      "id": "topic:makes",
+      "type": "topic_entity",
+      "name": "makes",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'makes' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "makes"
+      }
+    },
+    {
+      "id": "topic:sense",
+      "type": "topic_entity",
+      "name": "sense",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'sense' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "sense"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3771",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3771 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S3771] ah makes sense",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3771,
+        "role": "user",
+        "created_at": "2026-11-24T02:08:00Z",
+        "content_excerpt": "ah makes sense",
+        "topics": [
+          "makes",
+          "sense"
+        ]
+      }
+    },
+    {
+      "id": "topic:clicked",
+      "type": "topic_entity",
+      "name": "clicked",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'clicked' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "clicked"
+      }
+    },
+    {
+      "id": "topic:finish",
+      "type": "topic_entity",
+      "name": "finish",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'finish' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "finish"
+      }
+    },
+    {
+      "id": "topic:glad",
+      "type": "topic_entity",
+      "name": "glad",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'glad' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "glad"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3772",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3772 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S3772] So glad that clicked, Cathy! Just say **`\"ready\"`** whenever you want **Round 39 (`Q571`\u2013`Q590`)** to finish Unit 5 tonight \u2014 or let me know if you'd rather rest on that `90%` win!",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3772,
+        "role": "assistant",
+        "created_at": "2026-11-24T02:08:01Z",
+        "content_excerpt": "So glad that clicked, Cathy! Just say **`\"ready\"`** whenever you want **Round 39 (`Q571`\u2013`Q590`)** to finish Unit 5 tonight \u2014 or let me know if you'd rather rest on that `90%` win!",
+        "topics": [
+          "cathy",
+          "clicked",
+          "finish",
+          "glad"
+        ]
+      }
+    },
+    {
+      "id": "topic:please",
+      "type": "topic_entity",
+      "name": "please",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'please' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "please"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3773",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3773 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S3773] let us do 20 please",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3773,
+        "role": "user",
+        "created_at": "2026-11-24T02:08:09Z",
+        "content_excerpt": "let us do 20 please",
+        "topics": [
+          "please"
+        ]
+      }
+    },
+    {
+      "id": "topic:normal",
+      "type": "topic_entity",
+      "name": "normal",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'normal' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "normal"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3774",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3774 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S3774] Here is **Round 39 (`Q571`\u2013`Q590` \u2014 `20` Open-Book Questions)** to hit **`50 / 50` tonight** and complete **ALL of Unit 5 (`Domain V`: Measure Phase)**! Keep your **`V.E`** and **`V.F`** Cheat Cards right in front of you",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3774,
+        "role": "assistant",
+        "created_at": "2026-11-24T02:08:09Z",
+        "content_excerpt": "Here is **Round 39 (`Q571`\u2013`Q590` \u2014 `20` Open-Book Questions)** to hit **`50 / 50` tonight** and complete **ALL of Unit 5 (`Domain V`: Measure Phase)**! Keep your **`V.E`** and **`V.F`** Cheat Cards right in front of you, go calmly at your own pace, and number your answers **`1`\u2013`20`** (or **`571`\u2013`590`**) so nothing ever shifts!\n\n---\n\n### Part 1: Completing `V.E` Probability & Distributions (`Q571`\u2013`Q578`)\n\n**Q571. (`Combination` Lock-In):** A plant manager selects an **unordered 2-person** audit team from `6` volunteers (order does NOT matter). Which counting method applies, and how many different teams are possible? *(Hint: multiply `6 * 5`, then divide by `2 * 1`!)*\n- A. Permutation \u2014 `30` ways\n- B. Combination \u2014 `30` ways\n- C. Combination \u2014 `15` ways\n- D. Permutation \u2014 `15` ways\n\n**Q5",
+        "topics": [
+          "beta",
+          "dpmo",
+          "distribution",
+          "normal"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3775",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3775 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S3775] c,a,d,b,c,c,a,c,c,a,d,b,a,c,d,d,b,c,b,b",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3775,
+        "role": "user",
+        "created_at": "2026-11-24T02:21:08Z",
+        "content_excerpt": "c,a,d,b,c,c,a,c,c,a,d,b,a,c,d,d,b,c,b,b",
         "topics": []
       }
     },
@@ -32042,7 +32104,7 @@
       "target": "topic:domain",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 11
+        "count": 13
       }
     },
     {
@@ -32050,7 +32112,7 @@
       "target": "topic:unit",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 11
+        "count": 12
       }
     },
     {
@@ -32058,7 +32120,7 @@
       "target": "topic:exam",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 7
+        "count": 8
       }
     },
     {
@@ -32157,15 +32219,31 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:sample",
+      "target": "topic:ways",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 26
+        "count": 19
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:small",
+      "target": "topic:combination",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 18
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:distribution",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 18
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:permutation",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 15
@@ -32173,23 +32251,23 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:population",
+      "target": "topic:sample",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 14
+        "count": 13
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:x-bar",
+      "target": "topic:beta",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 14
+        "count": 11
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:greek",
+      "target": "topic:hypergeometric",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 11
@@ -32202,162 +32280,6 @@
       "metadata": {
         "count": 10
       }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:distribution",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 10
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:average",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3754",
-      "target": "topic:cheat",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3754",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S3755",
-      "target": "topic:greek",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3755",
-      "target": "topic:sample",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3755",
-      "target": "topic:english",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3755",
-      "target": "topic:population",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3755",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3756",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S3757",
-      "target": "topic:isnt",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3757",
-      "target": "topic:mean",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3757",
-      "target": "topic:sample",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3757",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S3758",
-      "target": "topic:x-bar",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3758",
-      "target": "topic:chart",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3758",
-      "target": "topic:sample",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3758",
-      "target": "topic:average",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3758",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S3759",
-      "target": "topic:cheat",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3759",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
     },
     {
       "source": "chat_turn:b6556366:S3760",
@@ -32552,6 +32474,162 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S3765",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3770",
+      "target": "topic:nailed",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3770",
+      "target": "topic:ways",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3770",
+      "target": "topic:combination",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3770",
+      "target": "topic:alice",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3770",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3771",
+      "target": "topic:makes",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3771",
+      "target": "topic:sense",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3771",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3772",
+      "target": "topic:cathy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3772",
+      "target": "topic:clicked",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3772",
+      "target": "topic:finish",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3772",
+      "target": "topic:glad",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3772",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3773",
+      "target": "topic:please",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3773",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3774",
+      "target": "topic:beta",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3774",
+      "target": "topic:dpmo",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3774",
+      "target": "topic:distribution",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3774",
+      "target": "topic:normal",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3774",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3775",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -34046,7 +34124,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "63356b4eb5cea5f3e08e6e9f60aae136ccf72e0b603a213b6d27c5108e31d703",
+    "chats/SHARED_SESSION_STATE.md": "b529eaaa04be881335cb266d6e9afa2ef983fadfee164c16c391512a9eae7ed1",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -34058,11 +34136,11 @@
     "documents/ASQ_Sampling_Methods_Quick_Table.docx": "611a5b1986e4d296f6a1244d2c334d4f6688820f04a6cb8d6ff694b7b1f6ef0e",
     "documents/CAREER_APPLICATIONS_TRACKER.md": "d375fd276fb9a9c0cd22fda666b62dfd814fe356a4ab6104317ce71f0573668e",
     "documents/PValue_And_Cp_Cpk_Quick_Tables.docx": "7e146d9b535a8fa34793e0d7ecfd892041e75cd8a15e79777c55fa1babae79d5",
-    "documents/QUESTION_BANK_LOG.md": "4b96c82c7f6e2f8682dd2925229fb28b74d456dcb318165c662f4621856dbb45",
+    "documents/QUESTION_BANK_LOG.md": "960dc1c0b55de3f4bfee68e8d77bf8923d27c0c087efc759c0512aaceef4ca48",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "ea10a1d15bcf955ce9d2eba84fcce1a9f395c2614f38798133bc7923c3d63ad9"
+    "repo.md": "e650ebda2388e551db2ef24ac131014f7b04227f1cc0f23f22ee293365ca2898"
   }
 }
