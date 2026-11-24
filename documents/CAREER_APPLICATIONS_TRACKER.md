@@ -97,10 +97,11 @@
 64. **Analog Devices (NASDAQ: ADI)** — *Senior Category Manager, IT* (`Req R262192`, North San Jose `Rio Robles` ~13 mi, 95.6K to 131.45K USD + bonus, Travel 10%, Pure IC) — **APPLIED / APPLICATION UNDER REVIEW (2026-11-23)** *(Active: `2` at Analog Devices!)*
 65. **Oracle (NYSE: ORCL)** — *Supply/Demand Planner – Commodity & Memory* (`Job ID 336748`, Santa Clara CA ~11 mi, 102.3K to 209.5K USD + bonus/equity, Pure Principal IC) — **APPLIED / NEW (2026-11-23)** *(Active: `6` at Oracle — `347821` already Under Consideration!)*
 
-## Completed Applications — Day 11 Weekday Cadence (`2026-11-24` — `3 / 3–5` Weekday Goal Met!; `89` Total Tracked = `72` Active, `17` Rejected!)
+## Completed Applications — Day 11 Weekday Cadence (`2026-11-24` — `4 / 3–5` Weekday Goal Exceeded!; `90` Total Tracked = `73` Active, `17` Rejected!)
 66. **Samsara (NYSE: IOT)** — *Supply Chain Program Manager* (`ID 8393540`, 100% Remote US, 111.56K to 168.75K USD + bonus/equity, Pure IC, JUST POSTED `2026-11-23`!) — **SUBMITTED (2026-11-24)**
 67. **Roblox (NYSE: RBLX)** — *Senior Contracts Manager (Commercial Legal)* (`ID 8350312` / `48841`, San Mateo CA Tue–Thu Hybrid ~15 mi, 131.82K to 161.49K USD + equity, Pure IC, JUST POSTED `2026-11-24`!) — **SUBMITTED (2026-11-24)** *(Active: `2` at Roblox!)*
 68. **Reddit (NYSE: RDDT)** — *Senior Product Manager, Finance Technology (Procure-to-Pay & Record-to-Report)* (`ID 8359289`, 100% Remote US, 167.5K to 234.5K USD + equity, Pure IC, JUST POSTED `2026-11-24`!) — **SUBMITTED (2026-11-24)** *(Brand-new NYSE public employer!)*
+69. **Oracle (NYSE: ORCL)** — *Supplier Sourcing Program Manager 4* (`Job ID 336776`, Santa Clara CA ~11 mi, 102.3K to 209.5K USD + bonus/equity, Pure IC4) — **APPLIED / NEW (2026-11-24)** *(Active: `7` at Oracle — `347821` Under Consideration!)*
 
 ## Full Lockheed Martin Eightfold Application History (`21` Roles: `16` Active + `5` Rejected + `1` Draft — Updated `2026-11-21`!)
 - **Active Stage-2 / Recruiter Screen (`1`):**
