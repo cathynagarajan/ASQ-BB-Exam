@@ -3,7 +3,7 @@
 > **Purpose**: Single source of truth shared between **Antigravity** and **Qwen** (`QWEN.md` + `rules.md` + `kg_vectors_asq_bb_exam`). Both agents MUST update this file whenever committing progress so mode switches (`use qwen` / `stop qwen`) never lose a single detail.
 
 - **Candidate Preferred Name**: **Cathy**
-- **Last Synced**: `2026-11-23`
+- **Last Synced**: `2026-11-24`
 
 ---
 
@@ -85,7 +85,7 @@
   20. **GitLab (NASDAQ: GTLB)** — *Principal Strategic Sourcing Lead* (`8642786002`, 100% Remote US)
 - **Day-3 Weekday Applications (2026-11-16 — 3/3 Complete, 23 Active Tracked!)**:
   21. **Intuit (NASDAQ: INTU)** — *Senior Strategic Sourcing Manager, Corporate Services* (`Job ID 25188`, Mountain View Hybrid — **Rejected 2026-11-19**)
-  22. **NVIDIA (NASDAQ: NVDA)** — *Manager, Strategic Sourcing – Professional Services* (`JR2021687`, Santa Clara)
+  22. **NVIDIA (NASDAQ: NVDA)** — *Manager, Strategic Sourcing – Professional Services* (`JR2021687`, Santa Clara — **Rejected 2026-11-24**; `4` other NVIDIA roles still Active!)
   23. **Amgen (NASDAQ: AMGN)** — *Strategic Sourcing Manager* (`R-260996`, 100% US Remote)
 - **Day-4 Weekday Applications (2026-11-17 — `6` Submitted [Weekday Goal Exceeded!]; `46` Total Tracked Across All Portals: `26` Non-Lockheed + `20` Lockheed Eightfold = `40` Active, `6` Rejected!)**:
   24. **Lockheed Martin Space** — *Subcontract Management Sr - E3* (`Job ID 9306`, Littleton CO / Sunnyvale CA +2 — applied **2026-11-17**)
@@ -131,7 +131,7 @@
   59. **Samsara (NYSE: IOT)** — *Senior Supply Planning Manager - US* (`ID 8328373`, 100% US Remote, 109.18K–146.8K USD [CA top zone] + bonus/equity, Pure IC, sourced live via APICS/ASCM — applied **2026-11-22**, *Submitted*!)
   60. **Oracle (NYSE: ORCL)** — *Strategic Sourcing Manager (DC Infrastructure Equipment)* (`Job ID 347821`, Santa Clara CA ~11 mi, 102.3K–209.5K USD + bonus/equity, Pure IC — applied **2026-11-22**, *Under Consideration*! `Active: 4` at Oracle)
   61. **Intuitive Machines / Lanteris Space Systems (NASDAQ: LUNR)** — *Senior Buyer – IT Software (`IT Category Manager`)* (`Req R24398`, Palo Alto CA 0 mi / Remote US, 107K–178K USD CA base, Clearance: None, Pure IC, CSCP preferred — applied **2026-11-22**, *Active*!) *(Cathy loves Space + APICS/ASCM `jobs.ascm.org` added as permanent live job sources!)*
-- **Day-10 Weekday Cadence (2026-11-23 — `4 / 3–5` Weekday Goal Exceeded!; `86` Total Tracked = `72` Active, `14` Rejected after Gilead `R0056314` rejected 2026-11-23)**:
+- **Day-10 Weekday Cadence (2026-11-23 — `4 / 3–5` Weekday Goal Exceeded!; `86` Total Tracked = `71` Active, `15` Rejected after NVIDIA `JR2021687` rejected `2026-11-24`)**:
   62. **Waymo (Alphabet)** — *Senior Category Manager, IT Software & Hardware* (`ID 8350276`, 100% US Remote [SF Bay Area eligible], 190K–234K USD + bonus/equity, Travel <= 10%, Pure IC — applied **2026-11-23**, *Confirmed*!)
   63. **Oracle (NYSE: ORCL)** — *Senior Supplier Sourcing Manager, Memory and Storage* (`Job ID 348112`, Santa Clara CA ~11 mi, 102.3K–209.5K USD + bonus/equity, Pure IC — applied **2026-11-23**, *New*!)
   64. **Analog Devices (NASDAQ: ADI)** — *Senior Category Manager, IT* (`Req R262192`, North San Jose `Rio Robles` ~13 mi, 95.6K–131.45K USD + bonus, Travel 10%, Pure IC — applied **2026-11-23**, *Application Under Review*! `Active: 2` at Analog Devices!)

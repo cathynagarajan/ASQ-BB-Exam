@@ -38,7 +38,7 @@
 
 ## Completed Applications — Day 3 Weekday Cadence (3 Submitted — 2026-11-16)
 21. **Intuit (NASDAQ: INTU)** — *Senior Strategic Sourcing Manager, Corporate Services* (`Job ID 25188` / `103274381152`, Mountain View Hybrid, ~5 mi, 129K to 174K USD, IC) — **APPLIED (2026-11-16) -> REJECTED (2026-11-19)**
-22. **NVIDIA (NASDAQ: NVDA)** — *Manager, Strategic Sourcing – Professional Services* (`Req JR2021687`, Santa Clara, ~11 mi, 168K to 270.25K USD, IC) — **APPLIED (2026-11-16)**
+22. **NVIDIA (NASDAQ: NVDA)** — *Manager, Strategic Sourcing – Professional Services* (`Req JR2021687`, Santa Clara, ~11 mi, 168K to 270.25K USD, IC) — **APPLIED (2026-11-16) -> REJECTED (2026-11-24)** *(Active: `4` other NVIDIA roles still open, incl. `JR2021872` Logistics & `JR2022577` Supply Chain Transformation!)*
 23. **Amgen (NASDAQ: AMGN)** — *Strategic Sourcing Manager* (`Req R-260996`, 100% US Remote, up to 132.98K USD, IC) — **APPLIED (2026-11-16)**
 
 ## Completed Applications — Day 4 Weekday Cadence (6 Submitted Today — 2026-11-17 — Weekday Goal Exceeded!)
@@ -91,7 +91,7 @@
 60. **Oracle (NYSE: ORCL)** — *Strategic Sourcing Manager (DC Infrastructure Equipment)* (`Job ID 347821`, Santa Clara CA ~11 mi, 102.3K to 209.5K USD + bonus/equity, Pure IC) — **APPLIED / UNDER CONSIDERATION (2026-11-22)** *(Active: `4` at Oracle!)*
 61. **Intuitive Machines / Lanteris Space Systems (NASDAQ: LUNR)** — *Senior Buyer – IT Software (`IT Category Manager`)* (`Req R24398`, Palo Alto CA 0 mi / Remote US, 107K to 178K USD CA base, Clearance: None, Pure IC, CSCP preferred!) — **SUBMITTED / ACTIVE (2026-11-22)** *(Brand-new public Space / Lunar company right in Palo Alto!)*
 
-## Completed Applications — Day 10 Weekday Cadence (`2026-11-23` — `4 / 3–5` Weekday Goal Exceeded!; `86` Total Tracked = `72` Active, `14` Rejected!)
+## Completed Applications — Day 10 Weekday Cadence (`2026-11-23` — `4 / 3–5` Weekday Goal Exceeded!; `86` Total Tracked = `71` Active, `15` Rejected after NVIDIA `JR2021687` rejected `2026-11-24`)
 62. **Waymo (Alphabet)** — *Senior Category Manager, IT Software & Hardware* (`ID 8350276`, 100% US Remote [SF Bay Area eligible], 190K to 234K USD + bonus/equity, Travel <= 10%, Pure IC) — **APPLIED / CONFIRMED (2026-11-23)**
 63. **Oracle (NYSE: ORCL)** — *Senior Supplier Sourcing Manager, Memory and Storage* (`Job ID 348112`, Santa Clara CA ~11 mi, 102.3K to 209.5K USD + bonus/equity, Pure IC) — **APPLIED / NEW (2026-11-23)**
 64. **Analog Devices (NASDAQ: ADI)** — *Senior Category Manager, IT* (`Req R262192`, North San Jose `Rio Robles` ~13 mi, 95.6K to 131.45K USD + bonus, Travel 10%, Pure IC) — **APPLIED / APPLICATION UNDER REVIEW (2026-11-23)** *(Active: `2` at Analog Devices!)*
