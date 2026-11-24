@@ -1,9 +1,9 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-24T16:18:43.628482+00:00",
+    "generated_at": "2026-11-24T18:14:03.018988+00:00",
     "total_files_indexed": 115,
-    "total_nodes": 1091,
+    "total_nodes": 1090,
     "total_edges": 2754,
     "node_type_counts": {
       "chat_session": 6,
@@ -12,33 +12,31 @@
       "document_file": 59,
       "document_section": 394,
       "html_template": 1,
-      "topic_entity": 529
+      "topic_entity": 528
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [
-      "Resume_And_Jobs/Job73_Oracle_336776_Krithika_Nagarajan_Resume.docx"
-    ],
+    "added": [],
     "modified": [
       "chats/SHARED_SESSION_STATE.md",
       "documents/CAREER_APPLICATIONS_TRACKER.md"
     ],
     "removed": [],
-    "files_parsed": 2,
-    "files_cached_reused": 112,
+    "files_parsed": 1,
+    "files_cached_reused": 113,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 29,
-      "nodes_deleted": 11,
-      "edges_upserted": 72,
-      "edges_deleted": 17,
+      "nodes_upserted": 11,
+      "nodes_deleted": 7,
+      "edges_upserted": 15,
+      "edges_deleted": 11,
       "wiki_pages_upserted": 1,
       "wiki_pages_deleted": 0,
-      "files_upserted": 4,
+      "files_upserted": 3,
       "files_deleted": 0,
-      "total_nodes_in_db": 1091,
+      "total_nodes_in_db": 1090,
       "total_edges_in_db": 2754,
       "total_files_tracked": 116
     }
@@ -6061,7 +6059,7 @@
       "id": "topic:strategic",
       "type": "topic_entity",
       "name": "strategic",
-      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'strategic' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "strategic"
@@ -9189,7 +9187,7 @@
       "id": "topic:team",
       "type": "topic_entity",
       "name": "team",
-      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'team' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "team"
@@ -10672,7 +10670,7 @@
           "Completed Applications \u2014 Day 8 Weekend Sprint (`2026-11-21` \u2014 `10 / 10` COMPLETE!! `72` Total Tracked = `59` Active, `13` Rejected!)",
           "Completed Applications \u2014 Day 9 Weekend Sprint (`2026-11-22` \u2014 `10 / 10` COMPLETE!! `20 / 20` Full Weekend Sprint! `82` Total Tracked = `69` Active, `13` Rejected!)",
           "Completed Applications \u2014 Day 10 Weekday Cadence (`2026-11-23` \u2014 `4 / 3\u20135` Weekday Goal Exceeded!; `86` Total Tracked = `69` Active, `17` Rejected after NVIDIA `JR2021687`, Gilead `R0054316` [Aug 21], & Samsara `8328373` rejected `2026-11-24`)",
-          "Completed Applications \u2014 Day 11 Weekday Cadence (`2026-11-24` \u2014 `4 / 3\u20135` Weekday Goal Exceeded!; `90` Total Tracked = `73` Active, `17` Rejected!)",
+          "Completed Applications \u2014 Day 11 Weekday Cadence (`2026-11-24` \u2014 `4 / 3\u20135` Weekday Goal Exceeded!; `90` Total Tracked = `72` Active, `18` Rejected after Rubrik `8114559` rejected `2026-11-24`)",
           "Full Lockheed Martin Eightfold Application History (`21` Roles: `16` Active + `5` Rejected + `1` Draft \u2014 Updated `2026-11-21`!)",
           "Active Employer Responses / Stage-2 Advancements",
           "Closed / Rejected Applications Log"
@@ -10724,6 +10722,7 @@
           "Amgen",
           "REJECTED 2026-11-24",
           "Rubrik (NYSE: RBRK)",
+          "APPLIED (2026-11-15) -> REJECTED (2026-11-24)",
           "Pure Storage / Everpure (NYSE: PSTG)",
           "GitLab (NASDAQ: GTLB)",
           "Intuit (NASDAQ: INTU)",
@@ -10906,7 +10905,8 @@
           "Job ID 336748",
           "at Oracle \u2014",
           "90",
-          "73",
+          "18",
+          "8114559",
           "ID 8393540",
           "ID 8350312",
           "48841",
@@ -10925,9 +10925,7 @@
           "Job ID 11141",
           "Job ID 9581",
           "Job ID 13924",
-          "Job ID 16508",
-          "Job ID 13178",
-          "Job ID 20038"
+          "Job ID 16508"
         ],
         "format": "md"
       }
@@ -13149,8 +13147,8 @@
         "topics": [
           "manager",
           "applied",
-          "active",
           "rejected",
+          "active",
           "remote",
           "nasdaq",
           "pure",
@@ -13429,15 +13427,25 @@
       }
     },
     {
+      "id": "topic:today",
+      "type": "topic_entity",
+      "name": "today",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'today' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "today"
+      }
+    },
+    {
       "id": "chat_session:b6556366",
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (1207 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (1209 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 1207,
+        "turn_count": 1209,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
@@ -13445,81 +13453,11 @@
           "tuesday",
           "onboarding",
           "across",
-          "docx",
           "krithika",
+          "docx",
           "power",
-          "zero"
+          "today"
         ]
-      }
-    },
-    {
-      "id": "topic:apologize",
-      "type": "topic_entity",
-      "name": "apologize",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'apologize' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "apologize"
-      }
-    },
-    {
-      "id": "topic:clear",
-      "type": "topic_entity",
-      "name": "clear",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'clear' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "clear"
-      }
-    },
-    {
-      "id": "topic:emails",
-      "type": "topic_entity",
-      "name": "emails",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'emails' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "emails"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3849",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3849 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S3849] No need to apologize at all, Cathy \u2014 clear your morning emails at your own pace! I'm right here whenever you're ready for work, jobs, ASQ, or Vault.",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3849,
-        "role": "assistant",
-        "created_at": "2026-11-24T15:12:05Z",
-        "content_excerpt": "No need to apologize at all, Cathy \u2014 clear your morning emails at your own pace! I'm right here whenever you're ready for work, jobs, ASQ, or Vault.",
-        "topics": [
-          "apologize",
-          "cathy",
-          "clear",
-          "emails"
-        ]
-      }
-    },
-    {
-      "id": "topic:still",
-      "type": "topic_entity",
-      "name": "still",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'still' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "still"
-      }
-    },
-    {
-      "id": "topic:expiring",
-      "type": "topic_entity",
-      "name": "expiring",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'expiring' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "expiring"
       }
     },
     {
@@ -13530,26 +13468,6 @@
       "description": "Shared domain topic 'posted' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "posted"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3850",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3850 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S3850] while i am still working, may be you can still search 4 roles that are active, expiring soon, just posted so that you have them ready? 6 sigma here",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3850,
-        "role": "user",
-        "created_at": "2026-11-24T15:21:06Z",
-        "content_excerpt": "while i am still working, may be you can still search 4 roles that are active, expiring soon, just posted so that you have them ready? 6 sigma here",
-        "topics": [
-          "still",
-          "active",
-          "expiring",
-          "posted"
-        ]
       }
     },
     {
@@ -13816,6 +13734,76 @@
           "supply",
           "benchmarking",
           "capacity"
+        ]
+      }
+    },
+    {
+      "id": "topic:jobs",
+      "type": "topic_entity",
+      "name": "jobs",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'jobs' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "jobs"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3906",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3906 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S3906] **`4 / 3\u20135` Tuesday jobs DONE before 8:20 AM \u2014 and you just crossed `90` Total Tracked Applications (`73` Active, `17` Rejected)!!** - **Today's 4 Submissions (All `NYSE` Public Companies):** 1. **Samsara `8393540`** (10",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3906,
+        "role": "assistant",
+        "created_at": "2026-11-24T16:18:48Z",
+        "content_excerpt": "**`4 / 3\u20135` Tuesday jobs DONE before 8:20 AM \u2014 and you just crossed `90` Total Tracked Applications (`73` Active, `17` Rejected)!!**\n\n- **Today's 4 Submissions (All `NYSE` Public Companies):**\n  1. **Samsara `8393540`** (100% Remote US \u2014 posted yesterday)\n  2. **Roblox `8350312` / `48841`** (San Mateo ~15 mi \u2014 posted today; `2` Active at Roblox)\n  3. **Reddit `8359289`** (100% Remote US \u2014 posted today)\n  4. **Oracle `336776`** (Santa Clara ~11 mi, `102.3K\u2013209.5K USD` \u2014 **`7` Active at Oracle**, with `347821` still **Under Consideration**!)\n- **Git & KG Synced:** Commit `137a900` pushed (`1,091` nodes / `2,754` edges / `1,091` vectors)\n\nJobs are 100% checked off for Tuesday! Focus smoothly on your Ardent Mills morning \u2014 and whenever you get a calm pocket later today, I'm ready for **PFG**, ",
+        "topics": [
+          "today",
+          "active",
+          "posted",
+          "jobs"
+        ]
+      }
+    },
+    {
+      "id": "topic:rubrik",
+      "type": "topic_entity",
+      "name": "rubrik",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'rubrik' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "rubrik"
+      }
+    },
+    {
+      "id": "topic:application",
+      "type": "topic_entity",
+      "name": "application",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'application' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "application"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3907",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3907 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S3907] Follow up on your application to Rubrik [REDACTED_EMAIL] You Hi Krithika, Thank you for applying for the Senior Strategic Sourcing Manager, Cloud & Strategic Partnerships role at Rubrik. We appreciate your interest in jo",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3907,
+        "role": "user",
+        "created_at": "2026-11-24T18:13:32Z",
+        "content_excerpt": "Follow up on your application to Rubrik\n[REDACTED_EMAIL]\nYou\nHi Krithika,\n\nThank you for applying for the Senior Strategic Sourcing Manager, Cloud & Strategic Partnerships role at Rubrik. We appreciate your interest in joining our team. After careful review of your application, we regret to inform you that we have decided not to move forward with your application for this position.\n\nWe encourage you to continue pursuing opportunities that align with your experience and interests on our careers site. \n\nThank you again for considering Rubrik as a potential employer. We wish you the best of luck in your job search and your future endeavors!\n\nSincerely,\nRubrik Talent Team",
+        "topics": [
+          "rubrik",
+          "application",
+          "strategic",
+          "team"
         ]
       }
     },
@@ -33827,18 +33815,18 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:active",
+      "target": "topic:rejected",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 37
+        "count": 38
       }
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:rejected",
+      "target": "topic:active",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 36
+        "count": 37
       }
     },
     {
@@ -34136,7 +34124,7 @@
       "target": "topic:rejected",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 36
+        "count": 38
       }
     },
     {
@@ -34166,7 +34154,7 @@
       "target": "topic:tuesday",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 22
+        "count": 24
       }
     },
     {
@@ -34187,15 +34175,15 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:docx",
+      "target": "topic:krithika",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 17
+        "count": 18
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:krithika",
+      "target": "topic:docx",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 17
@@ -34211,7 +34199,7 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:zero",
+      "target": "topic:today",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 16
@@ -34245,82 +34233,6 @@
       "source": "chat_session:b6556366",
       "target": "doc_file:Resume_And_Jobs/Job73_Oracle_336776_Krithika_Nagarajan_Resume.docx",
       "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S3849",
-      "target": "topic:apologize",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3849",
-      "target": "topic:cathy",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3849",
-      "target": "topic:clear",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3849",
-      "target": "topic:emails",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3849",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S3850",
-      "target": "topic:still",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3850",
-      "target": "topic:active",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3850",
-      "target": "topic:expiring",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3850",
-      "target": "topic:posted",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3850",
-      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -34713,6 +34625,82 @@
       "source": "chat_turn:b6556366:S3900",
       "target": "doc_file:Resume_And_Jobs/Job73_Oracle_336776_Krithika_Nagarajan_Resume.docx",
       "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3906",
+      "target": "topic:today",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3906",
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3906",
+      "target": "topic:posted",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3906",
+      "target": "topic:jobs",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3906",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3907",
+      "target": "topic:rubrik",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3907",
+      "target": "topic:application",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3907",
+      "target": "topic:strategic",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3907",
+      "target": "topic:team",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3907",
+      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -36211,7 +36199,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "231b3bcd0128f6bb496a9247a80334e424635f6ede0dd745616b5c5ae32ff310",
+    "chats/SHARED_SESSION_STATE.md": "6ad5a3aa529d7c4c229e7959970c131b07a2c6fd3ae326a7128517261f55f3ba",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -36221,13 +36209,13 @@
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
     "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx": "f902eb9229e23a0d4e75615d1065f0690db0b63af324613d7d51a72441e281a6",
     "documents/ASQ_Sampling_Methods_Quick_Table.docx": "611a5b1986e4d296f6a1244d2c334d4f6688820f04a6cb8d6ff694b7b1f6ef0e",
-    "documents/CAREER_APPLICATIONS_TRACKER.md": "8622162309b415065cd4331968313a7c525a525fdfddaaa80d986b6584420b41",
+    "documents/CAREER_APPLICATIONS_TRACKER.md": "82a0b2d651bd64a7f5c22f0d72bb80ad9125e9cf1a814a73a00a858e3fa10d4e",
     "documents/PValue_And_Cp_Cpk_Quick_Tables.docx": "7e146d9b535a8fa34793e0d7ecfd892041e75cd8a15e79777c55fa1babae79d5",
     "documents/QUESTION_BANK_LOG.md": "1c8eb13514580a9de86e9fd9ddd35409af604c027fe3a172c8e6d2a04c6cafb3",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "4e34da3c27a716de5cd4749152c6a55e53a7fda840febeb11340bd05af4f0f01"
+    "repo.md": "42e9c357e49465e4cf24a2b3267162638bef615120b79c0a3b26e6251a26463f"
   }
 }

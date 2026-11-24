@@ -32,7 +32,7 @@
 15. **Amgen** — *Strategic Sourcing Manager – Contract Manufacturing* (`Req R-260128`, 100% US Remote, up to 132.98K USD, IC) — **APPLIED (2026-11-15)**
 16. **Gilead Sciences** — *Assoc Director, Supply Chain* (`Req R0055999`, Foster City — *Under Review*) — **APPLIED (2026-11-15)**
 17. **Gilead Sciences** — *Associate Director, End-to-End Commercial Supply Chain Planner* (`Req R0055910`, Foster City — *Under Review*; note prior `2026-08-21` `Req R0054316` *Assoc Director, Procurement - Transportation and Logistics* -> **REJECTED 2026-11-24** after 3 months open) — **APPLIED (2026-11-15)**
-18. **Rubrik (NYSE: RBRK)** — *Senior Strategic Sourcing Manager, Cloud & Strategic Partnerships* (`ID 8114559`, Palo Alto, 0 mi, 165.6K to 248.4K USD, IC) — **APPLIED (2026-11-15)**
+18. **Rubrik (NYSE: RBRK)** — *Senior Strategic Sourcing Manager, Cloud & Strategic Partnerships* (`ID 8114559`, Palo Alto, 0 mi, 165.6K to 248.4K USD, IC) — **APPLIED (2026-11-15) -> REJECTED (2026-11-24)**
 19. **Pure Storage / Everpure (NYSE: PSTG)** — *Data Steward, Master Data Management, Supply Chain* (`ID 8027649`, Santa Clara, ~11 mi, 155.7K to 190.3K USD, IC) — **APPLIED (2026-11-15)**
 20. **GitLab (NASDAQ: GTLB)** — *Principal Strategic Sourcing Lead – Technology* (`ID 8642786002`, 100% Remote US, 139.2K to 235.2K USD, IC) — **APPLIED (2026-11-15)**
 
@@ -97,7 +97,7 @@
 64. **Analog Devices (NASDAQ: ADI)** — *Senior Category Manager, IT* (`Req R262192`, North San Jose `Rio Robles` ~13 mi, 95.6K to 131.45K USD + bonus, Travel 10%, Pure IC) — **APPLIED / APPLICATION UNDER REVIEW (2026-11-23)** *(Active: `2` at Analog Devices!)*
 65. **Oracle (NYSE: ORCL)** — *Supply/Demand Planner – Commodity & Memory* (`Job ID 336748`, Santa Clara CA ~11 mi, 102.3K to 209.5K USD + bonus/equity, Pure Principal IC) — **APPLIED / NEW (2026-11-23)** *(Active: `6` at Oracle — `347821` already Under Consideration!)*
 
-## Completed Applications — Day 11 Weekday Cadence (`2026-11-24` — `4 / 3–5` Weekday Goal Exceeded!; `90` Total Tracked = `73` Active, `17` Rejected!)
+## Completed Applications — Day 11 Weekday Cadence (`2026-11-24` — `4 / 3–5` Weekday Goal Exceeded!; `90` Total Tracked = `72` Active, `18` Rejected after Rubrik `8114559` rejected `2026-11-24`)
 66. **Samsara (NYSE: IOT)** — *Supply Chain Program Manager* (`ID 8393540`, 100% Remote US, 111.56K to 168.75K USD + bonus/equity, Pure IC, JUST POSTED `2026-11-23`!) — **SUBMITTED (2026-11-24)**
 67. **Roblox (NYSE: RBLX)** — *Senior Contracts Manager (Commercial Legal)* (`ID 8350312` / `48841`, San Mateo CA Tue–Thu Hybrid ~15 mi, 131.82K to 161.49K USD + equity, Pure IC, JUST POSTED `2026-11-24`!) — **SUBMITTED (2026-11-24)** *(Active: `2` at Roblox!)*
 68. **Reddit (NYSE: RDDT)** — *Senior Product Manager, Finance Technology (Procure-to-Pay & Record-to-Report)* (`ID 8359289`, 100% Remote US, 167.5K to 234.5K USD + equity, Pure IC, JUST POSTED `2026-11-24`!) — **SUBMITTED (2026-11-24)** *(Brand-new NYSE public employer!)*

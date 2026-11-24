@@ -80,7 +80,7 @@
   15. **Amgen** — *Strategic Sourcing Manager – Contract Mfg* (`R-260128`, 100% US Remote)
   16. **Gilead Sciences** — *Assoc Director, Supply Chain* (`R0055999`, Foster City — *Under Review*)
   17. **Gilead Sciences** — *Associate Director, E2E Commercial Supply Chain Planner* (`R0055910`, Foster City — *Under Review*; prior Aug 21 `R0054316` *Assoc Director, Procurement - Transportation & Logistics* **Rejected 2026-11-24**; `4` fresher Gilead roles still Active!)
-  18. **Rubrik (NYSE: RBRK)** — *Sr. Strategic Sourcing Manager* (`8114559`, Palo Alto)
+  18. **Rubrik (NYSE: RBRK)** — *Sr. Strategic Sourcing Manager* (`8114559`, Palo Alto — **Rejected 2026-11-24**)
   19. **Pure Storage (NYSE: PSTG)** — *Data Steward, MDM Supply Chain* (`8027649`, Santa Clara)
   20. **GitLab (NASDAQ: GTLB)** — *Principal Strategic Sourcing Lead* (`8642786002`, 100% Remote US)
 - **Day-3 Weekday Applications (2026-11-16 — 3/3 Complete, 23 Active Tracked!)**:
@@ -136,7 +136,7 @@
   63. **Oracle (NYSE: ORCL)** — *Senior Supplier Sourcing Manager, Memory and Storage* (`Job ID 348112`, Santa Clara CA ~11 mi, 102.3K–209.5K USD + bonus/equity, Pure IC — applied **2026-11-23**, *New*!)
   64. **Analog Devices (NASDAQ: ADI)** — *Senior Category Manager, IT* (`Req R262192`, North San Jose `Rio Robles` ~13 mi, 95.6K–131.45K USD + bonus, Travel 10%, Pure IC — applied **2026-11-23**, *Application Under Review*! `Active: 2` at Analog Devices!)
   65. **Oracle (NYSE: ORCL)** — *Supply/Demand Planner – Commodity & Memory* (`Job ID 336748`, Santa Clara CA ~11 mi, 102.3K–209.5K USD + bonus/equity, Pure Principal IC — applied **2026-11-23**, *New*! `Active: 6` at Oracle, `347821` Under Consideration!)
-- **Day-11 Weekday Cadence (2026-11-24 — `4 / 3–5` Weekday Goal Exceeded!; `90` Total Tracked = `73` Active, `17` Rejected)**:
+- **Day-11 Weekday Cadence (2026-11-24 — `4 / 3–5` Weekday Goal Exceeded!; `90` Total Tracked = `72` Active, `18` Rejected after Rubrik `8114559` rejected `2026-11-24`)**:
   66. **Samsara (NYSE: IOT)** — *Supply Chain Program Manager* (`ID 8393540`, 100% Remote US, 111.56K–168.75K USD + bonus/equity, Pure IC, JUST POSTED `2026-11-23` — applied **2026-11-24**, *Submitted*!)
   67. **Roblox (NYSE: RBLX)** — *Senior Contracts Manager (Commercial Legal)* (`ID 8350312` / `48841`, San Mateo CA Hybrid ~15 mi, 131.82K–161.49K USD + equity, Pure IC, JUST POSTED `2026-11-24` — applied **2026-11-24**, *Submitted*! `Active: 2` at Roblox!)
   68. **Reddit (NYSE: RDDT)** — *Senior Product Manager, Finance Technology (Procure-to-Pay & Record-to-Report)* (`ID 8359289`, 100% Remote US, 167.5K–234.5K USD + equity, Pure IC, JUST POSTED `2026-11-24` — applied **2026-11-24**, *Submitted*!)
