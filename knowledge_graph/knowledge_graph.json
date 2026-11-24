@@ -1,9 +1,9 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-24T19:25:13.895298+00:00",
+    "generated_at": "2026-11-24T19:29:50.309209+00:00",
     "total_files_indexed": 115,
-    "total_nodes": 1111,
+    "total_nodes": 1106,
     "total_edges": 2746,
     "node_type_counts": {
       "chat_session": 6,
@@ -12,7 +12,7 @@
       "document_file": 59,
       "document_section": 394,
       "html_template": 1,
-      "topic_entity": 549
+      "topic_entity": 544
     }
   },
   "last_change_check": {
@@ -27,15 +27,15 @@
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 38,
-      "nodes_deleted": 11,
-      "edges_upserted": 38,
-      "edges_deleted": 42,
+      "nodes_upserted": 9,
+      "nodes_deleted": 8,
+      "edges_upserted": 18,
+      "edges_deleted": 16,
       "wiki_pages_upserted": 0,
       "wiki_pages_deleted": 0,
       "files_upserted": 2,
       "files_deleted": 0,
-      "total_nodes_in_db": 1111,
+      "total_nodes_in_db": 1106,
       "total_edges_in_db": 2746,
       "total_files_tracked": 116
     }
@@ -5114,7 +5114,7 @@
       "id": "topic:daily",
       "type": "topic_entity",
       "name": "daily",
-      "file_path": "Resume_And_Jobs/Job54_Cerebras_3ff4a790_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'daily' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "daily"
@@ -6058,7 +6058,7 @@
       "id": "topic:strategic",
       "type": "topic_entity",
       "name": "strategic",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'strategic' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "strategic"
@@ -8434,7 +8434,7 @@
       "id": "topic:check",
       "type": "topic_entity",
       "name": "check",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'check' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "check"
@@ -9186,7 +9186,7 @@
       "id": "topic:team",
       "type": "topic_entity",
       "name": "team",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "description": "Shared domain topic 'team' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "team"
@@ -13179,7 +13179,7 @@
       "id": "topic:live",
       "type": "topic_entity",
       "name": "live",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'live' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "live"
@@ -13416,43 +13416,33 @@
       }
     },
     {
-      "id": "topic:rubrik",
+      "id": "topic:county",
       "type": "topic_entity",
-      "name": "rubrik",
+      "name": "county",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'rubrik' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'county' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "rubrik"
+        "keyword": "county"
       }
     },
     {
-      "id": "topic:today",
+      "id": "topic:falck",
       "type": "topic_entity",
-      "name": "today",
+      "name": "falck",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'today' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'falck' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "today"
+        "keyword": "falck"
       }
     },
     {
-      "id": "topic:vault",
+      "id": "topic:riverside",
       "type": "topic_entity",
-      "name": "vault",
+      "name": "riverside",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'vault' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'riverside' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "vault"
-      }
-    },
-    {
-      "id": "topic:focus",
-      "type": "topic_entity",
-      "name": "focus",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'focus' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "focus"
+        "keyword": "riverside"
       }
     },
     {
@@ -13460,92 +13450,22 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (1219 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (1221 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 1219,
+        "turn_count": 1221,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
           "right",
-          "active",
-          "rubrik",
-          "today",
-          "vault",
-          "angular",
+          "check",
+          "county",
+          "falck",
+          "riverside",
           "cathy",
-          "focus"
-        ]
-      }
-    },
-    {
-      "id": "topic:posted",
-      "type": "topic_entity",
-      "name": "posted",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'posted' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "posted"
-      }
-    },
-    {
-      "id": "topic:jobs",
-      "type": "topic_entity",
-      "name": "jobs",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'jobs' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "jobs"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3906",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3906 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S3906] **`4 / 3\u20135` Tuesday jobs DONE before 8:20 AM \u2014 and you just crossed `90` Total Tracked Applications (`73` Active, `17` Rejected)!!** - **Today's 4 Submissions (All `NYSE` Public Companies):** 1. **Samsara `8393540`** (10",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3906,
-        "role": "assistant",
-        "created_at": "2026-11-24T16:18:48Z",
-        "content_excerpt": "**`4 / 3\u20135` Tuesday jobs DONE before 8:20 AM \u2014 and you just crossed `90` Total Tracked Applications (`73` Active, `17` Rejected)!!**\n\n- **Today's 4 Submissions (All `NYSE` Public Companies):**\n  1. **Samsara `8393540`** (100% Remote US \u2014 posted yesterday)\n  2. **Roblox `8350312` / `48841`** (San Mateo ~15 mi \u2014 posted today; `2` Active at Roblox)\n  3. **Reddit `8359289`** (100% Remote US \u2014 posted today)\n  4. **Oracle `336776`** (Santa Clara ~11 mi, `102.3K\u2013209.5K USD` \u2014 **`7` Active at Oracle**, with `347821` still **Under Consideration**!)\n- **Git & KG Synced:** Commit `137a900` pushed (`1,091` nodes / `2,754` edges / `1,091` vectors)\n\nJobs are 100% checked off for Tuesday! Focus smoothly on your Ardent Mills morning \u2014 and whenever you get a calm pocket later today, I'm ready for **PFG**, ",
-        "topics": [
-          "today",
-          "active",
-          "posted",
-          "jobs"
-        ]
-      }
-    },
-    {
-      "id": "topic:application",
-      "type": "topic_entity",
-      "name": "application",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'application' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "application"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3907",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3907 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S3907] Follow up on your application to Rubrik [REDACTED_EMAIL] You Hi Krithika, Thank you for applying for the Senior Strategic Sourcing Manager, Cloud & Strategic Partnerships role at Rubrik. We appreciate your interest in jo",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3907,
-        "role": "user",
-        "created_at": "2026-11-24T18:13:32Z",
-        "content_excerpt": "Follow up on your application to Rubrik\n[REDACTED_EMAIL]\nYou\nHi Krithika,\n\nThank you for applying for the Senior Strategic Sourcing Manager, Cloud & Strategic Partnerships role at Rubrik. We appreciate your interest in joining our team. After careful review of your application, we regret to inform you that we have decided not to move forward with your application for this position.\n\nWe encourage you to continue pursuing opportunities that align with your experience and interests on our careers site. \n\nThank you again for considering Rubrik as a potential employer. We wish you the best of luck in your job search and your future endeavors!\n\nSincerely,\nRubrik Talent Team",
-        "topics": [
-          "rubrik",
-          "application",
-          "strategic",
-          "team"
+          "live",
+          "daily"
         ]
       }
     },
@@ -13687,6 +13607,16 @@
       "description": "Shared domain topic 'applying' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "applying"
+      }
+    },
+    {
+      "id": "topic:focus",
+      "type": "topic_entity",
+      "name": "focus",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'focus' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "focus"
       }
     },
     {
@@ -13950,36 +13880,6 @@
       }
     },
     {
-      "id": "topic:county",
-      "type": "topic_entity",
-      "name": "county",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'county' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "county"
-      }
-    },
-    {
-      "id": "topic:falck",
-      "type": "topic_entity",
-      "name": "falck",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'falck' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "falck"
-      }
-    },
-    {
-      "id": "topic:riverside",
-      "type": "topic_entity",
-      "name": "riverside",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'riverside' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "riverside"
-      }
-    },
-    {
       "id": "topic:bring",
       "type": "topic_entity",
       "name": "bring",
@@ -14006,6 +13906,56 @@
           "falck",
           "riverside",
           "bring"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3949",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3949 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S3949] Of course, Cathy \u2014 I would be very happy to check for your younger son every day! Having a full year of IFT experience at Symbiosis puts him in a strong position to step up to **AMR (Riverside County / Coachella)** or **",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3949,
+        "role": "assistant",
+        "created_at": "2026-11-24T19:25:19Z",
+        "content_excerpt": "Of course, Cathy \u2014 I would be very happy to check for your younger son every day! Having a full year of IFT experience at Symbiosis puts him in a strong position to step up to **AMR (Riverside County / Coachella)** or **Falck (Orange County)**.\n\nHere is today's live check (`2026-11-24`):\n\n1. **AMR / Global Medical Response \u2014 Riverside County (`Riverside, Coachella, Palm Springs, Indio, Hemet, Corona, Moreno Valley, Temecula`):**\n   - **Live Status Today:** **`0` civilian EMT openings live right now** on AMR's live GMR API (`careers.gmr.net`) and iCIMS EMT board (`emt-careers-gmr.icims.com`). The only new Riverside County postings this week are `EMS Adjunct Instructor` (`63489`) and `Fleet Mobile Mechanic` (`63457`), and the only CA EMT listing is military-only `SkillBridge EMT` in San Dieg",
+        "topics": [
+          "check",
+          "county",
+          "falck",
+          "live"
+        ]
+      }
+    },
+    {
+      "id": "topic:able",
+      "type": "topic_entity",
+      "name": "able",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'able' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "able"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3950",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3950 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S3950] are you saying you will not be able to check Falck and i will have to check it daily?",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3950,
+        "role": "user",
+        "created_at": "2026-11-24T19:26:45Z",
+        "content_excerpt": "are you saying you will not be able to check Falck and i will have to check it daily?",
+        "topics": [
+          "check",
+          "able",
+          "daily",
+          "falck"
         ]
       }
     },
@@ -34358,12 +34308,36 @@
       "target": "topic:right",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:check",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
         "count": 8
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:active",
+      "target": "topic:county",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:falck",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:riverside",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 7
@@ -34371,127 +34345,27 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:rubrik",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:today",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:vault",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:angular",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
       "target": "topic:cathy",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:live",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:daily",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
         "count": 5
       }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:focus",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3906",
-      "target": "topic:today",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3906",
-      "target": "topic:active",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3906",
-      "target": "topic:posted",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3906",
-      "target": "topic:jobs",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3906",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S3907",
-      "target": "topic:rubrik",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3907",
-      "target": "topic:application",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3907",
-      "target": "topic:strategic",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3907",
-      "target": "topic:team",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3907",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
     },
     {
       "source": "chat_turn:b6556366:S3915",
@@ -34870,6 +34744,82 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S3928",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3949",
+      "target": "topic:check",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3949",
+      "target": "topic:county",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3949",
+      "target": "topic:falck",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3949",
+      "target": "topic:live",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3949",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3950",
+      "target": "topic:check",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3950",
+      "target": "topic:able",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3950",
+      "target": "topic:daily",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3950",
+      "target": "topic:falck",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3950",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -36369,7 +36319,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "4cbb9cdc16943ca4eb848987d280a6467ed0da30931aa9a944018543d405548e",
+    "chats/SHARED_SESSION_STATE.md": "a8ff52cf8848aeefe4be70224c90a61ff37e4df19e85f3fb47e1e84ad06c9c9f",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -36386,6 +36336,6 @@
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "73f315f2baf38a9bca446742c9766e8562d3788a2373bc1921606d41e9f28507"
+    "repo.md": "94870f402a82f7aca308aef02e0a2cc43aafc4e349566e272f59bded1f88f6e7"
   }
 }
