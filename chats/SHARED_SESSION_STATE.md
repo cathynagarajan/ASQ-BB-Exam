@@ -79,7 +79,7 @@
   14. **Robinhood** — *Senior Sourcing Manager* (`8211219`, Menlo Park Hybrid)
   15. **Amgen** — *Strategic Sourcing Manager – Contract Mfg* (`R-260128`, 100% US Remote)
   16. **Gilead Sciences** — *Assoc Director, Supply Chain* (`R0055999`, Foster City — *Under Review*)
-  17. **Gilead Sciences** — *Associate Director, E2E Commercial Supply Chain Planner* (`R0055910`, Foster City — *Under Review*; plus `R0054316` *Assoc Director, Procurement - Transportation & Logistics* *Under Review*)
+  17. **Gilead Sciences** — *Associate Director, E2E Commercial Supply Chain Planner* (`R0055910`, Foster City — *Under Review*; prior Aug 21 `R0054316` *Assoc Director, Procurement - Transportation & Logistics* **Rejected 2026-11-24**; `4` fresher Gilead roles still Active!)
   18. **Rubrik (NYSE: RBRK)** — *Sr. Strategic Sourcing Manager* (`8114559`, Palo Alto)
   19. **Pure Storage (NYSE: PSTG)** — *Data Steward, MDM Supply Chain* (`8027649`, Santa Clara)
   20. **GitLab (NASDAQ: GTLB)** — *Principal Strategic Sourcing Lead* (`8642786002`, 100% Remote US)
@@ -131,7 +131,7 @@
   59. **Samsara (NYSE: IOT)** — *Senior Supply Planning Manager - US* (`ID 8328373`, 100% US Remote, 109.18K–146.8K USD [CA top zone] + bonus/equity, Pure IC, sourced live via APICS/ASCM — applied **2026-11-22**, *Submitted*!)
   60. **Oracle (NYSE: ORCL)** — *Strategic Sourcing Manager (DC Infrastructure Equipment)* (`Job ID 347821`, Santa Clara CA ~11 mi, 102.3K–209.5K USD + bonus/equity, Pure IC — applied **2026-11-22**, *Under Consideration*! `Active: 4` at Oracle)
   61. **Intuitive Machines / Lanteris Space Systems (NASDAQ: LUNR)** — *Senior Buyer – IT Software (`IT Category Manager`)* (`Req R24398`, Palo Alto CA 0 mi / Remote US, 107K–178K USD CA base, Clearance: None, Pure IC, CSCP preferred — applied **2026-11-22**, *Active*!) *(Cathy loves Space + APICS/ASCM `jobs.ascm.org` added as permanent live job sources!)*
-- **Day-10 Weekday Cadence (2026-11-23 — `4 / 3–5` Weekday Goal Exceeded!; `86` Total Tracked = `71` Active, `15` Rejected after NVIDIA `JR2021687` rejected `2026-11-24`)**:
+- **Day-10 Weekday Cadence (2026-11-23 — `4 / 3–5` Weekday Goal Exceeded!; `86` Total Tracked = `70` Active, `16` Rejected after NVIDIA `JR2021687` & Gilead `R0054316` rejected `2026-11-24`)**:
   62. **Waymo (Alphabet)** — *Senior Category Manager, IT Software & Hardware* (`ID 8350276`, 100% US Remote [SF Bay Area eligible], 190K–234K USD + bonus/equity, Travel <= 10%, Pure IC — applied **2026-11-23**, *Confirmed*!)
   63. **Oracle (NYSE: ORCL)** — *Senior Supplier Sourcing Manager, Memory and Storage* (`Job ID 348112`, Santa Clara CA ~11 mi, 102.3K–209.5K USD + bonus/equity, Pure IC — applied **2026-11-23**, *New*!)
   64. **Analog Devices (NASDAQ: ADI)** — *Senior Category Manager, IT* (`Req R262192`, North San Jose `Rio Robles` ~13 mi, 95.6K–131.45K USD + bonus, Travel 10%, Pure IC — applied **2026-11-23**, *Application Under Review*! `Active: 2` at Analog Devices!)

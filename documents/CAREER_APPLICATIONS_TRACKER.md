@@ -31,7 +31,7 @@
 14. **Robinhood** — *Senior Sourcing Manager* (`ID 8211219`, Menlo Park Hybrid 3 days/wk, ~3 mi, 166K to 195K USD, IC) — **APPLIED (2026-11-15)**
 15. **Amgen** — *Strategic Sourcing Manager – Contract Manufacturing* (`Req R-260128`, 100% US Remote, up to 132.98K USD, IC) — **APPLIED (2026-11-15)**
 16. **Gilead Sciences** — *Assoc Director, Supply Chain* (`Req R0055999`, Foster City — *Under Review*) — **APPLIED (2026-11-15)**
-17. **Gilead Sciences** — *Associate Director, End-to-End Commercial Supply Chain Planner* (`Req R0055910`, Foster City — *Under Review*; plus `Req R0054316` *Assoc Director, Procurement - Transportation and Logistics* from 2026-08-21 *Under Review*) — **APPLIED (2026-11-15)**
+17. **Gilead Sciences** — *Associate Director, End-to-End Commercial Supply Chain Planner* (`Req R0055910`, Foster City — *Under Review*; note prior `2026-08-21` `Req R0054316` *Assoc Director, Procurement - Transportation and Logistics* -> **REJECTED 2026-11-24** after 3 months open) — **APPLIED (2026-11-15)**
 18. **Rubrik (NYSE: RBRK)** — *Senior Strategic Sourcing Manager, Cloud & Strategic Partnerships* (`ID 8114559`, Palo Alto, 0 mi, 165.6K to 248.4K USD, IC) — **APPLIED (2026-11-15)**
 19. **Pure Storage / Everpure (NYSE: PSTG)** — *Data Steward, Master Data Management, Supply Chain* (`ID 8027649`, Santa Clara, ~11 mi, 155.7K to 190.3K USD, IC) — **APPLIED (2026-11-15)**
 20. **GitLab (NASDAQ: GTLB)** — *Principal Strategic Sourcing Lead – Technology* (`ID 8642786002`, 100% Remote US, 139.2K to 235.2K USD, IC) — **APPLIED (2026-11-15)**
@@ -91,7 +91,7 @@
 60. **Oracle (NYSE: ORCL)** — *Strategic Sourcing Manager (DC Infrastructure Equipment)* (`Job ID 347821`, Santa Clara CA ~11 mi, 102.3K to 209.5K USD + bonus/equity, Pure IC) — **APPLIED / UNDER CONSIDERATION (2026-11-22)** *(Active: `4` at Oracle!)*
 61. **Intuitive Machines / Lanteris Space Systems (NASDAQ: LUNR)** — *Senior Buyer – IT Software (`IT Category Manager`)* (`Req R24398`, Palo Alto CA 0 mi / Remote US, 107K to 178K USD CA base, Clearance: None, Pure IC, CSCP preferred!) — **SUBMITTED / ACTIVE (2026-11-22)** *(Brand-new public Space / Lunar company right in Palo Alto!)*
 
-## Completed Applications — Day 10 Weekday Cadence (`2026-11-23` — `4 / 3–5` Weekday Goal Exceeded!; `86` Total Tracked = `71` Active, `15` Rejected after NVIDIA `JR2021687` rejected `2026-11-24`)
+## Completed Applications — Day 10 Weekday Cadence (`2026-11-23` — `4 / 3–5` Weekday Goal Exceeded!; `86` Total Tracked = `70` Active, `16` Rejected after NVIDIA `JR2021687` & Gilead `R0054316` [Aug 21] rejected `2026-11-24`)
 62. **Waymo (Alphabet)** — *Senior Category Manager, IT Software & Hardware* (`ID 8350276`, 100% US Remote [SF Bay Area eligible], 190K to 234K USD + bonus/equity, Travel <= 10%, Pure IC) — **APPLIED / CONFIRMED (2026-11-23)**
 63. **Oracle (NYSE: ORCL)** — *Senior Supplier Sourcing Manager, Memory and Storage* (`Job ID 348112`, Santa Clara CA ~11 mi, 102.3K to 209.5K USD + bonus/equity, Pure IC) — **APPLIED / NEW (2026-11-23)**
 64. **Analog Devices (NASDAQ: ADI)** — *Senior Category Manager, IT* (`Req R262192`, North San Jose `Rio Robles` ~13 mi, 95.6K to 131.45K USD + bonus, Travel 10%, Pure IC) — **APPLIED / APPLICATION UNDER REVIEW (2026-11-23)** *(Active: `2` at Analog Devices!)*

@@ -1,9 +1,9 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-24T15:00:21.387138+00:00",
+    "generated_at": "2026-11-24T15:01:01.743440+00:00",
     "total_files_indexed": 110,
-    "total_nodes": 1058,
+    "total_nodes": 1057,
     "total_edges": 2547,
     "node_type_counts": {
       "chat_session": 6,
@@ -12,7 +12,7 @@
       "document_file": 54,
       "document_section": 364,
       "html_template": 1,
-      "topic_entity": 531
+      "topic_entity": 530
     }
   },
   "last_change_check": {
@@ -28,15 +28,15 @@
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 26,
-      "nodes_deleted": 11,
-      "edges_upserted": 28,
-      "edges_deleted": 24,
+      "nodes_upserted": 6,
+      "nodes_deleted": 5,
+      "edges_upserted": 9,
+      "edges_deleted": 5,
       "wiki_pages_upserted": 1,
       "wiki_pages_deleted": 0,
       "files_upserted": 3,
       "files_deleted": 0,
-      "total_nodes_in_db": 1058,
+      "total_nodes_in_db": 1057,
       "total_edges_in_db": 2547,
       "total_files_tracked": 111
     }
@@ -10109,7 +10109,7 @@
           "Completed Applications \u2014 Day 7 Weekday Cadence (4 Submitted \u2014 2026-11-20 \u2014 Friday Goal Complete! `62` Total Tracked = `50` Active, `12` Rejected!)",
           "Completed Applications \u2014 Day 8 Weekend Sprint (`2026-11-21` \u2014 `10 / 10` COMPLETE!! `72` Total Tracked = `59` Active, `13` Rejected!)",
           "Completed Applications \u2014 Day 9 Weekend Sprint (`2026-11-22` \u2014 `10 / 10` COMPLETE!! `20 / 20` Full Weekend Sprint! `82` Total Tracked = `69` Active, `13` Rejected!)",
-          "Completed Applications \u2014 Day 10 Weekday Cadence (`2026-11-23` \u2014 `4 / 3\u20135` Weekday Goal Exceeded!; `86` Total Tracked = `71` Active, `15` Rejected after NVIDIA `JR2021687` rejected `2026-11-24`)",
+          "Completed Applications \u2014 Day 10 Weekday Cadence (`2026-11-23` \u2014 `4 / 3\u20135` Weekday Goal Exceeded!; `86` Total Tracked = `70` Active, `16` Rejected after NVIDIA `JR2021687` & Gilead `R0054316` [Aug 21] rejected `2026-11-24`)",
           "Full Lockheed Martin Eightfold Application History (`21` Roles: `16` Active + `5` Rejected + `1` Draft \u2014 Updated `2026-11-21`!)",
           "Active Employer Responses / Stage-2 Advancements",
           "Closed / Rejected Applications Log"
@@ -10159,6 +10159,7 @@
           "APPLIED (2026-11-15)",
           "Robinhood",
           "Amgen",
+          "REJECTED 2026-11-24",
           "Rubrik (NYSE: RBRK)",
           "Pure Storage / Everpure (NYSE: PSTG)",
           "GitLab (NASDAQ: GTLB)",
@@ -10258,6 +10259,7 @@
           "Req R-260128",
           "Req R0055999",
           "Req R0055910",
+          "2026-08-21",
           "Req R0054316",
           "ID 8114559",
           "ID 8027649",
@@ -10325,9 +10327,10 @@
           "Req R24398",
           "4 / 3\u20135",
           "86",
-          "71",
-          "15",
+          "70",
+          "16",
           "JR2021687",
+          "R0054316",
           "2026-11-24",
           "ID 8350276",
           "Job ID 348112",
@@ -10335,11 +10338,11 @@
           "Job ID 336748",
           "at Oracle \u2014",
           "21",
-          "16",
           "Rejected +",
           "Draft \u2014 Updated",
           "Job ID 13013",
           "), Questionnaire Sent to Christian Sieg (",
+          "15",
           "Job ID 9054",
           "Job ID 16519",
           "Job ID 17417",
@@ -12884,11 +12887,11 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (1190 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (1191 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 1190,
+        "turn_count": 1191,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
@@ -12900,66 +12903,6 @@
           "re-center",
           "sigma",
           "drift"
-        ]
-      }
-    },
-    {
-      "id": "topic:google",
-      "type": "topic_entity",
-      "name": "google",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'google' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "google"
-      }
-    },
-    {
-      "id": "topic:prompt",
-      "type": "topic_entity",
-      "name": "prompt",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'prompt' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "prompt"
-      }
-    },
-    {
-      "id": "topic:aistudio",
-      "type": "topic_entity",
-      "name": "aistudio",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'aistudio' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "aistudio"
-      }
-    },
-    {
-      "id": "topic:contains",
-      "type": "topic_entity",
-      "name": "contains",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'contains' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "contains"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S3813",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S3813 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S3813] The prompt could not be submitted. The prompt contains sensitive words that violate Google's [Generative AI Prohibited Use policy](https://policies.google.com/terms/generative-ai/use-policy). Try rephrasing the prompt. I",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 3813,
-        "role": "assistant",
-        "created_at": "2026-11-24T02:41:37Z",
-        "content_excerpt": "The prompt could not be submitted. The prompt contains sensitive words that violate Google's [Generative AI Prohibited Use policy](https://policies.google.com/terms/generative-ai/use-policy). Try rephrasing the prompt. If you think this was an error, [send feedback](https://aistudio.google.com/docs/troubleshooting).",
-        "topics": [
-          "google",
-          "prompt",
-          "aistudio",
-          "contains"
         ]
       }
     },
@@ -13341,6 +13284,56 @@
           "best",
           "thank",
           "always"
+        ]
+      }
+    },
+    {
+      "id": "topic:gilead",
+      "type": "topic_entity",
+      "name": "gilead",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'gilead' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "gilead"
+      }
+    },
+    {
+      "id": "topic:application",
+      "type": "topic_entity",
+      "name": "application",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'application' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "application"
+      }
+    },
+    {
+      "id": "topic:interest",
+      "type": "topic_entity",
+      "name": "interest",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'interest' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "interest"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S3838",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S3838 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S3838] I thought Gilead this one was a very good fit, alas no luck Thank you for your interest in Gilead Sciences Workday at Gilead<[REDACTED_EMAIL]> You Dear Cathy Nagarajan, Thank you for your interest in the R0054316 Assoc D",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 3838,
+        "role": "user",
+        "created_at": "2026-11-24T15:00:25Z",
+        "content_excerpt": "I thought Gilead this one was a very good fit, alas no luck Thank you for your interest in Gilead Sciences\nWorkday at Gilead<[REDACTED_EMAIL]>\nYou\n\nDear Cathy Nagarajan,\n\nThank you for your interest in the R0054316 Assoc Director, Procurement - Transportation and Logistics opportunity at Gilead and for the time you invested in your application.\n\nAfter a review of your background and experience, we regret to inform you that we will not be moving forward with your application at this time.\n\nWe wish you the very best in your future endeavors.\n\nBest Wishes,\nThe Gilead Talent Acquisition Team",
+        "topics": [
+          "gilead",
+          "application",
+          "best",
+          "interest"
         ]
       }
     },
@@ -31875,7 +31868,7 @@
       "target": "topic:active",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 33
+        "count": 34
       }
     },
     {
@@ -31883,7 +31876,7 @@
       "target": "topic:rejected",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 33
+        "count": 34
       }
     },
     {
@@ -32181,7 +32174,7 @@
       "target": "topic:rejected",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 33
+        "count": 34
       }
     },
     {
@@ -32189,7 +32182,7 @@
       "target": "topic:active",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 30
+        "count": 31
       }
     },
     {
@@ -32261,44 +32254,6 @@
       "metadata": {
         "count": 11
       }
-    },
-    {
-      "source": "chat_turn:b6556366:S3813",
-      "target": "topic:google",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3813",
-      "target": "topic:prompt",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3813",
-      "target": "topic:aistudio",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S3813",
-      "target": "topic:contains",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S3813",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
     },
     {
       "source": "chat_turn:b6556366:S3814",
@@ -32643,6 +32598,44 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S3828",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S3838",
+      "target": "topic:gilead",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3838",
+      "target": "topic:application",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3838",
+      "target": "topic:best",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S3838",
+      "target": "topic:interest",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S3838",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -34137,7 +34130,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "6392318f47f63c001572bd644289039dfcf097e19537b3a488cab8e8110885db",
+    "chats/SHARED_SESSION_STATE.md": "0f50d434806d873be6a626564ce1489b40f0e555efaf7250e273dffd1df3f8a2",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -34147,13 +34140,13 @@
     "documents/ASQ_CSSBB_Official_BOK_2022.md": "6e48ae197929df55c87b7ebe918b163a2b7fda95fb945ae9375239cc694a83c3",
     "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx": "f902eb9229e23a0d4e75615d1065f0690db0b63af324613d7d51a72441e281a6",
     "documents/ASQ_Sampling_Methods_Quick_Table.docx": "611a5b1986e4d296f6a1244d2c334d4f6688820f04a6cb8d6ff694b7b1f6ef0e",
-    "documents/CAREER_APPLICATIONS_TRACKER.md": "73eb7dcca51b2c56e6dff596c2100fc56c5a1fc1552704157ed53f36417c89a9",
+    "documents/CAREER_APPLICATIONS_TRACKER.md": "144af8d16798ca53e1c21d8ede1ad75b895986902cb0eb2d33409aefca9e98a8",
     "documents/PValue_And_Cp_Cpk_Quick_Tables.docx": "7e146d9b535a8fa34793e0d7ecfd892041e75cd8a15e79777c55fa1babae79d5",
     "documents/QUESTION_BANK_LOG.md": "1c8eb13514580a9de86e9fd9ddd35409af604c027fe3a172c8e6d2a04c6cafb3",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "b7326ab9d472d5d0b7f9f4fd029c8ef8e217119e73e47560c29ab0c1f9f97927"
+    "repo.md": "d752bddd484d5bf16fda7f6ac4bc8b15283a8f8f3b33000801aa19f88518453d"
   }
 }
