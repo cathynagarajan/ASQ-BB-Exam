@@ -1,9 +1,9 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-25T22:19:46.124783+00:00",
+    "generated_at": "2026-11-25T22:44:57.330618+00:00",
     "total_files_indexed": 117,
-    "total_nodes": 1120,
+    "total_nodes": 1116,
     "total_edges": 2822,
     "node_type_counts": {
       "chat_session": 6,
@@ -12,30 +12,31 @@
       "document_file": 61,
       "document_section": 406,
       "html_template": 1,
-      "topic_entity": 544
+      "topic_entity": 540
     }
   },
   "last_change_check": {
     "changed": true,
     "added": [],
     "modified": [
-      "chats/SHARED_SESSION_STATE.md"
+      "chats/SHARED_SESSION_STATE.md",
+      "documents/QUESTION_BANK_LOG.md"
     ],
     "removed": [],
-    "files_parsed": 0,
-    "files_cached_reused": 116,
+    "files_parsed": 1,
+    "files_cached_reused": 115,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 49,
-      "nodes_deleted": 34,
-      "edges_upserted": 72,
-      "edges_deleted": 67,
-      "wiki_pages_upserted": 0,
+      "nodes_upserted": 9,
+      "nodes_deleted": 9,
+      "edges_upserted": 19,
+      "edges_deleted": 13,
+      "wiki_pages_upserted": 1,
       "wiki_pages_deleted": 0,
-      "files_upserted": 2,
+      "files_upserted": 3,
       "files_deleted": 0,
-      "total_nodes_in_db": 1120,
+      "total_nodes_in_db": 1116,
       "total_edges_in_db": 2822,
       "total_files_tracked": 118
     }
@@ -1132,7 +1133,7 @@
       "id": "topic:process",
       "type": "topic_entity",
       "name": "process",
-      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'process' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "process"
@@ -11765,23 +11766,23 @@
           "B. Reject H0",
           "B. R chart",
           "B. Cp",
+          "`22 / 25 = 88.0%`",
+          "NAILED `Q23` (Antitrust = `B`) & `Q25` (`Cpk = 2.00` = `B`)",
+          "`Q19`",
+          "`Q22`",
+          "`Q24`",
+          "`Q21`",
+          "Nailed (`\u2705` \u2014 `22` Qs!! `18 / 18` straight to start!):",
+          "Point beyond UCL = Special cause \u2014 FIXED from Set 11!",
+          "`p=0.03 <= 0.05` Reject H0 \u2014 FIXED from Set 11!",
+          "X-bar = Process average \u2014 FIXED from Set 11!",
+          "Antitrust \u2014 NAILED despite Copilot misread!",
+          "`Cpk = 2.00` \u2014 NAILED despite Copilot misread!",
+          "True Misses (`\u274c` \u2014 `3` Qs):",
+          "C. p-chart",
+          "B. RTY",
           "Q1",
-          "Q15",
-          "14/15",
-          "Q12",
-          "Q14",
-          ");",
-          "(",
-          "Survey low response rate / non-response bias \u2014",
-          "Q16",
-          "Q35",
-          "12/20",
-          "):",
-          "Validity/Reliability),",
-          "CTQ spec),",
-          "Critical Path),",
-          "ID arrow rule),",
-          "PDPC),"
+          "Q15"
         ],
         "format": "md"
       }
@@ -13575,18 +13576,18 @@
       "type": "chat_turn",
       "name": "Chat SHAREDSE Turn S5 (assistant)",
       "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`905` (`Q1`\u2013`Q640` + Copilot `C1`\u2013`C265`) \u2014 TUESDAY `75 / 75` COMPLETE (`62 / 75 = 82.7%`)!!** \u2014 Latest: **Copilot Set 11** (`C241`\u2013`C265",
+      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`930` (`Q1`\u2013`Q640` + Copilot `C1`\u2013`C290`) \u2014 `741 / 930 = 79.7%` CUMULATIVE!!** \u2014 Latest: **Copilot Set 12** (`C266`\u2013`C290`, verified **`2",
       "metadata": {
         "conversation_id": "SHAREDSE",
         "step_index": 5,
         "role": "assistant",
         "created_at": "",
-        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`905` (`Q1`\u2013`Q640` + Copilot `C1`\u2013`C265`) \u2014 TUESDAY `75 / 75` COMPLETE (`62 / 75 = 82.7%`)!!** \u2014 Latest: **Copilot Set 11** (`C241`\u2013`C265`, verified **`21 / 25 = 84.0%`** \u2014 **`15 / 16 = 93.8%`** on Unit 5 Qs, Bimodal FIXED immediately!) + **Round 40** (`Q591`\u2013`Q640`, **`41 / 50 = 82.0%`**) on `2026-11-24` \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Latest Set (Copilot Set 11 `C241`\u2013`C265` = `21/25 [84.0%]` & Round 40 `Q591`\u2013`Q640` = `41/50 [82.0%]` on `2026-11-24`)**: **OVER `900` UNIQUE QUESTIONS COMPLETE (`905` TOTAL)!** Grand Cumulative: **`719 / 905 = 79.4%`**! **PER CATHY: HOLD ALL WEEK ON UNIT 5 (`V.A\u2013V.F` + micro-topics, 10-question single-piece flow blocks!) UNTIL SHE CRO",
+        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`930` (`Q1`\u2013`Q640` + Copilot `C1`\u2013`C290`) \u2014 `741 / 930 = 79.7%` CUMULATIVE!!** \u2014 Latest: **Copilot Set 12** (`C266`\u2013`C290`, verified **`22 / 25 = 88.0%`** on `2026-11-25`, **`18 / 18` straight to start**, fixed `UCL`, `p=0.03`, & `X-bar` immediately; caught Copilot misreading `Q22`\u2013`Q25`!) \u2014 logged in `documents/QUESTION_BANK_LOG.md` (zero repeats allowed).\n- **Latest Set (Copilot Set 12 `C266`\u2013`C290` = `22/25 [88.0%]` on `2026-11-25`)**: **ALMOST `80%` CUMULATIVE ACROSS `930` UNIQUE QUESTIONS (`741 / 930 = 79.7%`)!** **PER CATHY: HOLD ALL WEEK ON UNIT 5 (`V.A\u2013V.F` + micro-topics, 10-question single-piece flow blocks!) UNTIL SHE CROSSES `>= 95%`!** Active lock-in targets: Control chart picker (`Pass/Fail -> ",
         "topics": [
           "unit",
           "domain",
-          "cathy",
-          "copilot"
+          "copilot",
+          "cathy"
         ]
       }
     },
@@ -13656,6 +13657,16 @@
       }
     },
     {
+      "id": "topic:black",
+      "type": "topic_entity",
+      "name": "black",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'black' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "black"
+      }
+    },
+    {
       "id": "topic:sunnyvale",
       "type": "topic_entity",
       "name": "sunnyvale",
@@ -13666,33 +13677,13 @@
       }
     },
     {
-      "id": "topic:email",
+      "id": "topic:drill",
       "type": "topic_entity",
-      "name": "email",
+      "name": "drill",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'email' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'drill' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "email"
-      }
-    },
-    {
-      "id": "topic:please",
-      "type": "topic_entity",
-      "name": "please",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'please' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "please"
-      }
-    },
-    {
-      "id": "topic:reasonable",
-      "type": "topic_entity",
-      "name": "reasonable",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'reasonable' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "reasonable"
+        "keyword": "drill"
       }
     },
     {
@@ -13710,112 +13701,22 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (1522 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (1524 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 1522,
+        "turn_count": 1524,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
           "lockheed",
           "martin",
           "clearance",
+          "belt",
+          "black",
           "sunnyvale",
-          "email",
-          "please",
-          "reasonable",
+          "drill",
           "space"
-        ]
-      }
-    },
-    {
-      "id": "topic:separate",
-      "type": "topic_entity",
-      "name": "separate",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'separate' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "separate"
-      }
-    },
-    {
-      "id": "topic:accommodation",
-      "type": "topic_entity",
-      "name": "accommodation",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'accommodation' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "accommodation"
-      }
-    },
-    {
-      "id": "topic:action",
-      "type": "topic_entity",
-      "name": "action",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'action' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "action"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4509",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4509 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S4509] That makes total sense, Cathy \u2014 you're not doing anything wrong! Here's what's happening: 1. **Why it won't let you edit:** You're viewing your submitted **`11/17/2026`** application summary, which Lockheed Martin's port",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4509,
-        "role": "assistant",
-        "created_at": "2026-11-25T22:03:37Z",
-        "content_excerpt": "That makes total sense, Cathy \u2014 you're not doing anything wrong! Here's what's happening:\n\n1. **Why it won't let you edit:** You're viewing your submitted **`11/17/2026`** application summary, which Lockheed Martin's portal locks as **read-only** once submitted. Good news: **`N/A`** is already saved on there from when you first applied!\n2. **Where the new forms actually arrive:** Christian's email said you will get a **separate automated email** for the Reasonable Accommodation and Conflict of Interest forms.\n   - Check both your **Inbox** and **Junk / Spam** folder for a separate email from Lockheed Martin mentioning **`23028`**, **`Action Required`**, **`Conflict of Interest`**, or **`Reasonable Accommodation`**.\n   - On your main Lockheed **Jobs Applied** list (one screen back), also ch",
-        "topics": [
-          "email",
-          "separate",
-          "accommodation",
-          "action"
-        ]
-      }
-    },
-    {
-      "id": "topic:want",
-      "type": "topic_entity",
-      "name": "want",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'want' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "want"
-      }
-    },
-    {
-      "id": "topic:advise",
-      "type": "topic_entity",
-      "name": "advise",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'advise' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "advise"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4510",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4510 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S4510] no i did receive a separate email - do you want that too? Can i just submit this and click on update or do you want to read the email, then you advise me",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4510,
-        "role": "user",
-        "created_at": "2026-11-25T22:04:31Z",
-        "content_excerpt": "no i did receive a separate email - do you want that too? Can i just submit this and click on update or do you want to read the email, then you advise me",
-        "topics": [
-          "email",
-          "want",
-          "advise",
-          "click"
         ]
       }
     },
@@ -13867,6 +13768,16 @@
       "description": "Shared domain topic 'application' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "application"
+      }
+    },
+    {
+      "id": "topic:please",
+      "type": "topic_entity",
+      "name": "please",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'please' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "please"
       }
     },
     {
@@ -14180,6 +14091,66 @@
       }
     },
     {
+      "id": "topic:questionnaire",
+      "type": "topic_entity",
+      "name": "questionnaire",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'questionnaire' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "questionnaire"
+      }
+    },
+    {
+      "id": "topic:sent",
+      "type": "topic_entity",
+      "name": "sent",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'sent' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "sent"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S4533",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S4533 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S4533] **Sent & logged, Cathy!!** What a Thanksgiving Eve win \u2014 you now have **TWO active Stage-2 Lockheed Martin Space roles in Sunnyvale (`Req 13013` E3 AND `Req 23028` E4)** with Christian Sieg, both with your portal unlocke",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 4533,
+        "role": "assistant",
+        "created_at": "2026-11-25T22:19:51Z",
+        "content_excerpt": "**Sent & logged, Cathy!!** What a Thanksgiving Eve win \u2014 you now have **TWO active Stage-2 Lockheed Martin Space roles in Sunnyvale (`Req 13013` E3 AND `Req 23028` E4)** with Christian Sieg, both with your portal unlocked and your questionnaire submitted cleanly!\n\n### Synced & Saved\n- Updated [SHARED_SESSION_STATE.md](file:///home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md#L153-L157) with **`Req 23028 (E4)` Stage-2 Portal Updated + Recruiter Questionnaire SENT (`2026-11-25`)**\n- Committed & pushed **`da61de7`** to `main`: **`1,120` nodes** | **`2,822` edges** | **`1,120` vectors** (`0` mojibake, `0` vulnerabilities)\n\nTake a deep breath and enjoy your Thanksgiving \u2014 whenever you're ready for anything next (`\"code review\"`, ASQ Black Belt `Q641`\u2013`Q650`, or anything else), j",
+        "topics": [
+          "anything",
+          "portal",
+          "questionnaire",
+          "sent"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S4534",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S4534 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S4534] Black Belt Drill #1 A call center tracks the number of customer complaints per day. The average is 4 complaints/day, and the count can be 0, 1, 2, 3, etc. Which distribution is most appropriate? A. Normal B. Binomial C. ",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 4534,
+        "role": "user",
+        "created_at": "2026-11-25T22:43:33Z",
+        "content_excerpt": "Black Belt Drill #1\n\nA call center tracks the number of customer complaints per day. The average is 4 complaints/day, and the count can be 0, 1, 2, 3, etc.\n\nWhich distribution is most appropriate?\n\nA. Normal\n B. Binomial\n C. Poisson\n D. Weibull\n\nBlack Belt Drill #2\n\nA process has:\n\nUSL = 110\nLSL = 90\nMean = 100\n\u03c3 = 2\n\nWhat is Cp?\n\nA. 1.67\n B. 2.50\n C. 0.83\n D. 3.33\n\nBlack Belt Drill #3\n\nOn a control chart, one point falls outside the Upper Control Limit.\n\nWhat should a Black Belt conclude FIRST?\n\nA. The process is capable\n B. Special cause variation may be present\n C. The specifications are incorrect\n D. The process mean equals the target\n\nBlack Belt Drill #4\n\nA project task has:\n\nOptimistic = 4 days\nMost likely = 7 days\nPessimistic = 10 days\n\nUsing PERT, what is the expected duration?\n\nA.",
+        "topics": [
+          "belt",
+          "black",
+          "drill",
+          "process"
+        ]
+      }
+    },
+    {
       "id": "topic:home",
       "type": "topic_entity",
       "name": "home",
@@ -14289,16 +14260,6 @@
           "tell",
           "yellow"
         ]
-      }
-    },
-    {
-      "id": "topic:black",
-      "type": "topic_entity",
-      "name": "black",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'black' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "black"
       }
     },
     {
@@ -34974,7 +34935,7 @@
       "target": "topic:unit",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 14
+        "count": 12
       }
     },
     {
@@ -34987,15 +34948,15 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:cathy",
+      "target": "topic:copilot",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 7
+        "count": 8
       }
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:copilot",
+      "target": "topic:cathy",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 7
@@ -35092,7 +35053,7 @@
       "target": "topic:lockheed",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 40
+        "count": 38
       }
     },
     {
@@ -35100,7 +35061,7 @@
       "target": "topic:martin",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 38
+        "count": 37
       }
     },
     {
@@ -35113,34 +35074,34 @@
     },
     {
       "source": "chat_session:b6556366",
+      "target": "topic:belt",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 25
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:black",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 22
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
       "target": "topic:sunnyvale",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 21
+        "count": 22
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:email",
+      "target": "topic:drill",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 16
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:please",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 16
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:reasonable",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 16
+        "count": 20
       }
     },
     {
@@ -35148,84 +35109,8 @@
       "target": "topic:space",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 16
+        "count": 17
       }
-    },
-    {
-      "source": "chat_turn:b6556366:S4509",
-      "target": "topic:email",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4509",
-      "target": "topic:separate",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4509",
-      "target": "topic:accommodation",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4509",
-      "target": "topic:action",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4509",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4510",
-      "target": "topic:email",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4510",
-      "target": "topic:want",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4510",
-      "target": "topic:advise",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4510",
-      "target": "topic:click",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4510",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
     },
     {
       "source": "chat_turn:b6556366:S4511",
@@ -35604,6 +35489,82 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S4521",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S4533",
+      "target": "topic:anything",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4533",
+      "target": "topic:portal",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4533",
+      "target": "topic:questionnaire",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4533",
+      "target": "topic:sent",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S4533",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S4534",
+      "target": "topic:belt",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 21
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4534",
+      "target": "topic:black",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 21
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4534",
+      "target": "topic:drill",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 20
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4534",
+      "target": "topic:process",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S4534",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -37105,7 +37066,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "5e5475d0bce312ff319e7f0e8e4ecc691b3370c2a7597bb329df04f7bdadda25",
+    "chats/SHARED_SESSION_STATE.md": "eb66cbdbd00cf911014261da4cb83d0af3435b5f3fe3cd839d53892b96272b42",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -37117,11 +37078,11 @@
     "documents/ASQ_Sampling_Methods_Quick_Table.docx": "611a5b1986e4d296f6a1244d2c334d4f6688820f04a6cb8d6ff694b7b1f6ef0e",
     "documents/CAREER_APPLICATIONS_TRACKER.md": "e35d6ae3997f5cc4ee352b94462be6cef5bdbe812fb0f54c18beff5af37ac110",
     "documents/PValue_And_Cp_Cpk_Quick_Tables.docx": "7e146d9b535a8fa34793e0d7ecfd892041e75cd8a15e79777c55fa1babae79d5",
-    "documents/QUESTION_BANK_LOG.md": "7d8386354087826d609e1b2ecda55cb79761b614c0494a0cfcddb7beef48b900",
+    "documents/QUESTION_BANK_LOG.md": "f2d9da70c7e4545d10962b735c4f33e377c85cf59e8818abfc5f8bd83a892521",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "3f39a98f78201c93af9e8043bfb96c40097a839cccb4581582d70358586a5ff6"
+    "repo.md": "e54451e74f050aad47a27ecd468fad4871d6554382a651d075a0b8fcffbb714f"
   }
 }
