@@ -1,44 +1,46 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-25T00:10:28.778192+00:00",
-    "total_files_indexed": 115,
-    "total_nodes": 1098,
-    "total_edges": 2740,
+    "generated_at": "2026-11-25T15:44:57.589488+00:00",
+    "total_files_indexed": 117,
+    "total_nodes": 1114,
+    "total_edges": 2830,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
       "document": 54,
-      "document_file": 59,
-      "document_section": 394,
+      "document_file": 61,
+      "document_section": 406,
       "html_template": 1,
-      "topic_entity": 536
+      "topic_entity": 538
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [],
+    "added": [
+      "Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx"
+    ],
     "modified": [
-      "chats/SHARED_SESSION_STATE.md",
-      "documents/QUESTION_BANK_LOG.md"
+      "chats/SHARED_SESSION_STATE.md"
     ],
     "removed": [],
-    "files_parsed": 1,
-    "files_cached_reused": 113,
+    "files_parsed": 2,
+    "files_cached_reused": 114,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 44,
-      "nodes_deleted": 30,
-      "edges_upserted": 55,
-      "edges_deleted": 52,
-      "wiki_pages_upserted": 1,
+      "nodes_upserted": 93,
+      "nodes_deleted": 33,
+      "edges_upserted": 164,
+      "edges_deleted": 62,
+      "wiki_pages_upserted": 0,
       "wiki_pages_deleted": 0,
-      "files_upserted": 3,
+      "files_upserted": 4,
       "files_deleted": 0,
-      "total_nodes_in_db": 1098,
-      "total_edges_in_db": 2740,
-      "total_files_tracked": 116
+      "total_nodes_in_db": 1114,
+      "total_edges_in_db": 2830,
+      "total_files_tracked": 118
     }
   },
   "nodes": [
@@ -647,7 +649,7 @@
       "id": "topic:vendor",
       "type": "topic_entity",
       "name": "vendor",
-      "file_path": "Resume_And_Jobs/Job70_Roblox_8350312_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'vendor' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "vendor"
@@ -657,7 +659,7 @@
       "id": "topic:power",
       "type": "topic_entity",
       "name": "power",
-      "file_path": "Resume_And_Jobs/Job73_Oracle_336776_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'power' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "power"
@@ -667,7 +669,7 @@
       "id": "topic:spend",
       "type": "topic_entity",
       "name": "spend",
-      "file_path": "Resume_And_Jobs/Job67_AnalogDevices_R262192_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'spend' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "spend"
@@ -677,7 +679,7 @@
       "id": "topic:supplier",
       "type": "topic_entity",
       "name": "supplier",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'supplier' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "supplier"
@@ -762,7 +764,7 @@
       "id": "topic:cscp",
       "type": "topic_entity",
       "name": "cscp",
-      "file_path": "Resume_And_Jobs/Job73_Oracle_336776_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'cscp' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cscp"
@@ -785,7 +787,7 @@
       "id": "topic:certified",
       "type": "topic_entity",
       "name": "certified",
-      "file_path": "Resume_And_Jobs/Job73_Oracle_336776_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'certified' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "certified"
@@ -881,7 +883,7 @@
       "id": "topic:audit",
       "type": "topic_entity",
       "name": "audit",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job63_IntuitiveMachines_Lanteris_R24398_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'audit' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "audit"
@@ -914,7 +916,7 @@
       "id": "topic:compliance",
       "type": "topic_entity",
       "name": "compliance",
-      "file_path": "Resume_And_Jobs/Job72_Cencora_R2618577_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'compliance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "compliance"
@@ -947,7 +949,7 @@
       "id": "topic:competitive",
       "type": "topic_entity",
       "name": "competitive",
-      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'competitive' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "competitive"
@@ -999,7 +1001,7 @@
       "id": "topic:across",
       "type": "topic_entity",
       "name": "across",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
       "description": "Shared domain topic 'across' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "across"
@@ -1009,7 +1011,7 @@
       "id": "topic:sourcing",
       "type": "topic_entity",
       "name": "sourcing",
-      "file_path": "Resume_And_Jobs/Job66_Oracle_348112_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'sourcing' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "sourcing"
@@ -1133,7 +1135,7 @@
       "id": "topic:process",
       "type": "topic_entity",
       "name": "process",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
       "description": "Shared domain topic 'process' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "process"
@@ -1179,7 +1181,7 @@
       "id": "topic:delivery",
       "type": "topic_entity",
       "name": "delivery",
-      "file_path": "Resume_And_Jobs/Job69_Samsara_8393540_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'delivery' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "delivery"
@@ -1212,7 +1214,7 @@
       "id": "topic:tools",
       "type": "topic_entity",
       "name": "tools",
-      "file_path": "Resume_And_Jobs/Job73_Oracle_336776_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'tools' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "tools"
@@ -1322,7 +1324,7 @@
       "id": "topic:governance",
       "type": "topic_entity",
       "name": "governance",
-      "file_path": "Resume_And_Jobs/Job68_Oracle_336748_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'governance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "governance"
@@ -1428,7 +1430,7 @@
       "id": "topic:performance",
       "type": "topic_entity",
       "name": "performance",
-      "file_path": "Resume_And_Jobs/Job65_WesternDigital_744000161580699_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'performance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "performance"
@@ -1600,7 +1602,7 @@
       "id": "topic:chain",
       "type": "topic_entity",
       "name": "chain",
-      "file_path": "Resume_And_Jobs/Job69_Samsara_8393540_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'chain' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "chain"
@@ -1610,7 +1612,7 @@
       "id": "topic:supply",
       "type": "topic_entity",
       "name": "supply",
-      "file_path": "Resume_And_Jobs/Job73_Oracle_336776_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'supply' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "supply"
@@ -1640,7 +1642,7 @@
       "id": "topic:operational",
       "type": "topic_entity",
       "name": "operational",
-      "file_path": "Resume_And_Jobs/Job71_Reddit_8359289_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'operational' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "operational"
@@ -1698,7 +1700,7 @@
       "id": "topic:alignment",
       "type": "topic_entity",
       "name": "alignment",
-      "file_path": "Resume_And_Jobs/Job71_Reddit_8359289_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'alignment' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "alignment"
@@ -1857,7 +1859,7 @@
       "id": "topic:commercial",
       "type": "topic_entity",
       "name": "commercial",
-      "file_path": "Resume_And_Jobs/Job72_Cencora_R2618577_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'commercial' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "commercial"
@@ -2290,7 +2292,7 @@
       "id": "topic:distribution",
       "type": "topic_entity",
       "name": "distribution",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job61_Samsara_8328373_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'distribution' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "distribution"
@@ -2397,7 +2399,7 @@
       "id": "topic:procurement",
       "type": "topic_entity",
       "name": "procurement",
-      "file_path": "Resume_And_Jobs/Job58_Leidos_R00197280_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'procurement' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "procurement"
@@ -2407,7 +2409,7 @@
       "id": "topic:shipping",
       "type": "topic_entity",
       "name": "shipping",
-      "file_path": "Resume_And_Jobs/Job59_NVIDIA_JR2022577_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'shipping' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "shipping"
@@ -2498,7 +2500,7 @@
       "id": "topic:visibility",
       "type": "topic_entity",
       "name": "visibility",
-      "file_path": "Resume_And_Jobs/Job59_NVIDIA_JR2022577_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'visibility' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "visibility"
@@ -3848,7 +3850,7 @@
       "id": "topic:global",
       "type": "topic_entity",
       "name": "global",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'global' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "global"
@@ -5297,7 +5299,7 @@
       "id": "topic:capacity",
       "type": "topic_entity",
       "name": "capacity",
-      "file_path": "Resume_And_Jobs/Job73_Oracle_336776_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'capacity' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "capacity"
@@ -6059,7 +6061,7 @@
       "id": "topic:strategic",
       "type": "topic_entity",
       "name": "strategic",
-      "file_path": "Resume_And_Jobs/Job62_Oracle_347821_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'strategic' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "strategic"
@@ -7395,6 +7397,236 @@
       }
     },
     {
+      "id": "doc_file:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "type": "document_file",
+      "name": "Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "description": "Document Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx (6 section(s)): KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY PMP-, APICS CSCP-, and ASQ Six Sigma Green & Y",
+      "metadata": {
+        "format": "docx",
+        "section_count": 6,
+        "size_bytes": 3852,
+        "topics": [
+          "vendor",
+          "commercial",
+          "delivery",
+          "across",
+          "spend",
+          "supplier",
+          "power",
+          "procurement"
+        ]
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:1",
+      "type": "document_section",
+      "name": "Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx [Section 1]",
+      "file_path": "Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 1 of Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx: KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY PMP-, APICS CSCP-, and ASQ Six Sigma Green & Yellow Belt-certified Purchasing, Strateg",
+      "metadata": {
+        "section_index": 1,
+        "section_type": "section",
+        "text_excerpt": "KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB\nPalo Alto, CA 94306  |  (201) 707-0163  |  Krithika.rao@live.com\nPROFESSIONAL SUMMARY\nPMP-, APICS CSCP-, and ASQ Six Sigma Green & Yellow Belt-certified Purchasing, Strategic Sourcing, and Vendor Relations Professional with a Master of Computer Applications (M.C.A. Engineering), B.Sc. in Chemistry, and 12+ years of experience driving supplier partnerships, competitive RFP/quote bidding, commercial contract negotiations, and end-to-end vendor SLA governance across a $50M+ annual third-party spend portfolio (40+ North American sites). Proven track record collaborating with Operations, Engineering, Finance, and Legal teams to onboard qualified suppliers, structure NDAs/SOWs and multi-year commercial agreements (extending rate visibility from",
+        "char_count": 975
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:2",
+      "type": "document_section",
+      "name": "Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx [Section 2]",
+      "file_path": "Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 2 of Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx: EDUCATION & ACTIVE CERTIFICATIONS \u2022 Master of Computer Applications (Engineering): M.C.A. (Engg.) \u2014 Computer Applications & Engineering \u2022 Bachelor of Science (B.Sc.): Chemistry \u2014 Technical & Analytical Foundation \u2022 Activ",
+      "metadata": {
+        "section_index": 2,
+        "section_type": "section",
+        "text_excerpt": "EDUCATION & ACTIVE CERTIFICATIONS\n\u2022 Master of Computer Applications (Engineering): M.C.A. (Engg.) \u2014 Computer Applications & Engineering\n\u2022 Bachelor of Science (B.Sc.): Chemistry \u2014 Technical & Analytical Foundation\n\u2022 Active Certifications: Project Management Professional (PMP), APICS Certified Supply Chain Professional (CSCP), ASQ Certified Six Sigma Green Belt (CSSGB), ASQ Certified Six Sigma Yellow Belt (CSSYB)\nCORE COMPETENCIES\n\u2022 Purchasing, Competitive Bidding & Commercial Negotiations: End-to-End RFP/RFQ & Quote Evaluation ($50M+ Spend), Pricing, Payment Terms, Delivery Timelines & SLA Negotiation, Margin/ROI & COGS Optimization (-30% Annual Spend), Multi-Site Procurement Alignment (40+ Locations)\n\u2022 Business Development & Supplier Onboarding: Identifying, Evaluating & Onboarding Qualifi",
+        "char_count": 989
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:3",
+      "type": "document_section",
+      "name": "Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx [Section 3]",
+      "file_path": "Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 3 of Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx: \u2022 Vendor Relations & SLA Performance Management: Primary Point of Contact for Strategic Vendors, Vendor KPI & SLA Governance (Quality, On-Time Delivery +40%, Responsiveness & Cost), Order Fulfillment & Demand Forecast Tr",
+      "metadata": {
+        "section_index": 3,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Vendor Relations & SLA Performance Management: Primary Point of Contact for Strategic Vendors, Vendor KPI & SLA Governance (Quality, On-Time Delivery +40%, Responsiveness & Cost), Order Fulfillment & Demand Forecast Tracking, Escalation & Resolution of Billing Discrepancies ($2M+) and Service Disruptions\n\u2022 ERP, Procurement Platforms & Reporting Dashboards: Microsoft Dynamics 365 (TMS-D365), Power Apps Governance Dashboards (+66% Reporting Accuracy), Power Automate, SharePoint, EDI, Advanced Excel (Bid/COGS Modeling) & Lean Six Sigma DMAIC (+20% Efficiency)\nPROFESSIONAL EXPERIENCE\nArdent Mills - Denver, CO (Remote from Palo Alto, CA)\nTransportation Specialist  |  2016 - Present\n\u2022 Multi-Site Purchasing, Competitive Bidding & Commercial Negotiations ($50M+ Spend, 40+ Sites): Lead competitiv",
+        "char_count": 1041
+      }
+    },
+    {
+      "id": "topic:bidding",
+      "type": "topic_entity",
+      "name": "bidding",
+      "file_path": "Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "description": "Shared domain topic 'bidding' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "bidding"
+      }
+    },
+    {
+      "id": "topic:dashboards",
+      "type": "topic_entity",
+      "name": "dashboards",
+      "file_path": "Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "description": "Shared domain topic 'dashboards' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "dashboards"
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:4",
+      "type": "document_section",
+      "name": "Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx [Section 4]",
+      "file_path": "Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 4 of Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx: \u2022 Supplier Partnerships, Market Research & 24-Month Cost Optimization: Conduct ongoing market research on carrier/supplier pricing shifts and capacity trends, onboard qualified partners with structured commercial agreeme",
+      "metadata": {
+        "section_index": 4,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Supplier Partnerships, Market Research & 24-Month Cost Optimization: Conduct ongoing market research on carrier/supplier pricing shifts and capacity trends, onboard qualified partners with structured commercial agreements and SOWs, and extended contracted rate and capacity visibility from 1 month to 24 months.\n\u2022 Billing Discrepancy Resolution, COGS Control & Vendor SLA Escalation ($2M+): Serve as primary escalation point for strategic vendors; audited $2M in annual supplemental partner charges across 40 sites, resolved billing discrepancies and service disruptions with Finance and external suppliers, and strengthened COGS and margin protection.\n\u2022 Order Fulfillment Visibility & Reporting Dashboards (+20% Efficiency, +66% Accuracy): Track order fulfillment, capacity forecasts, and vendor K",
+        "char_count": 1032
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:5",
+      "type": "document_section",
+      "name": "Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx [Section 5]",
+      "file_path": "Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 5 of Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx: Ardent Mills - Denver, CO Transportation Data Specialist | 2015 - 2016 \u2022 Vendor Onboarding, NDAs/Contracts & Compliance Governance: Managed strategic vendor onboarding, commercial contracts, rate schedules, insurance cer",
+      "metadata": {
+        "section_index": 5,
+        "section_type": "section",
+        "text_excerpt": "Ardent Mills - Denver, CO\nTransportation Data Specialist  |  2015 - 2016\n\u2022 Vendor Onboarding, NDAs/Contracts & Compliance Governance: Managed strategic vendor onboarding, commercial contracts, rate schedules, insurance certificates, and cross-functional compliance documentation across national and regional partner networks.\n\u2022 Vendor KPI & SLA Scorecarding: Built and maintained vendor scorecards tracking quality, on-time delivery, responsiveness, and contractual cost adherence to drive measurable supplier accountability.\nWhiteWave Foods - Broomfield, CO\nTransportation & Logistics Specialist  |  2014 - 2015\n\u2022 Vendor Performance Turnaround & Service Disruption Resolution (+40% OTD): Partnered with strategic vendors and cross-functional plant teams to resolve recurring service disruptions thro",
+        "char_count": 1076
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:6",
+      "type": "document_section",
+      "name": "Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx [Section 6]",
+      "file_path": "Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 6 of Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx: Dalin Inc. - Carlstadt, NJ EDI / Shipping & Procurement Specialist | 2010 - 2012 \u2022 Commercial Negotiations & Margin/Cost Savings (-30% Spend): Led competitive supplier proposals and negotiated bulk purchasing and shippin",
+      "metadata": {
+        "section_index": 6,
+        "section_type": "section",
+        "text_excerpt": "Dalin Inc. - Carlstadt, NJ\nEDI / Shipping & Procurement Specialist  |  2010 - 2012\n\u2022 Commercial Negotiations & Margin/Cost Savings (-30% Spend): Led competitive supplier proposals and negotiated bulk purchasing and shipping agreements, cutting annual vendor spend by 30% while improving delivery reliability.\n\u2022 Global Supplier Onboarding & ERP/EDI Integration: Onboarded global suppliers, aligned procurement and shipping workflows across ERP/EDI platforms, and coordinated quality and commercial terms with cross-functional teams.\nENTERPRISE PLATFORMS & SOURCING TOOLS\n\u2022 Systems & Tools: Microsoft Dynamics 365 (TMS-D365), Power Apps (Vendor KPI Dashboards), Power Automate, SharePoint, WMS, EDI, Advanced Excel (RFP, Bid & COGS Analysis), ERP/Procurement Reporting Tools",
+        "char_count": 772
+      }
+    },
+    {
+      "id": "doc_file:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "type": "document_file",
+      "name": "Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "file_path": "Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "description": "Document Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx (6 section(s)): KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY PMP-, APICS CSCP-, and ASQ Six Sigma Green & Y",
+      "metadata": {
+        "format": "docx",
+        "section_count": 6,
+        "size_bytes": 3741,
+        "topics": [
+          "supply",
+          "supplier",
+          "governance",
+          "vendor",
+          "cost",
+          "operational",
+          "sourcing",
+          "across"
+        ]
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:1",
+      "type": "document_section",
+      "name": "Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx [Section 1]",
+      "file_path": "Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 1 of Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx: KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB Palo Alto, CA 94306 | (201) 707-0163 | Krithika.rao@live.com PROFESSIONAL SUMMARY PMP-, APICS CSCP-, and ASQ Six Sigma Green & Yellow Belt-certified Global Strategic So",
+      "metadata": {
+        "section_index": 1,
+        "section_type": "section",
+        "text_excerpt": "KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB\nPalo Alto, CA 94306  |  (201) 707-0163  |  Krithika.rao@live.com\nPROFESSIONAL SUMMARY\nPMP-, APICS CSCP-, and ASQ Six Sigma Green & Yellow Belt-certified Global Strategic Sourcing, Supply Base Cost Management, and Vendor Governance Professional with a Master of Computer Applications (M.C.A. Engineering), B.Sc. in Chemistry, and 12+ years of supply chain operational leadership designing and scaling sourcing strategies, eliminating supply chain risks, executing global supplier selection and contract negotiations, and advising executive stakeholders across a $50M+ annual third-party spend portfolio (40+ North American sites). Proven track record extending contracted rate and capacity visibility from 1 to 24 months, reducing annual spend by 30",
+        "char_count": 929
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:2",
+      "type": "document_section",
+      "name": "Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx [Section 2]",
+      "file_path": "Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 2 of Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx: EDUCATION & ACTIVE CERTIFICATIONS \u2022 Master of Computer Applications (Engineering): M.C.A. (Engg.) \u2014 Computer Applications & Engineering \u2022 Bachelor of Science (B.Sc.): Chemistry \u2014 Technical & Analytical Foundation \u2022 Activ",
+      "metadata": {
+        "section_index": 2,
+        "section_type": "section",
+        "text_excerpt": "EDUCATION & ACTIVE CERTIFICATIONS\n\u2022 Master of Computer Applications (Engineering): M.C.A. (Engg.) \u2014 Computer Applications & Engineering\n\u2022 Bachelor of Science (B.Sc.): Chemistry \u2014 Technical & Analytical Foundation\n\u2022 Active Certifications: Project Management Professional (PMP), APICS Certified Supply Chain Professional (CSCP), ASQ Certified Six Sigma Green Belt (CSSGB), ASQ Certified Six Sigma Yellow Belt (CSSYB)\nCORE COMPETENCIES\n\u2022 Global Strategic Sourcing & Supply Base Cost Management: End-to-End Sourcing Strategy Design & Scaling ($50M+ Annual Spend), Supplier Selection, Competitive RFP/RFQ Bidding & Commercial Contract Negotiation, Supply Base Cost Optimization (-30% Annual Spend) & Multi-Year Contracting (24-Month Horizon)\n\u2022 Vendor Governance, Risk Elimination & Executive Advisory: Eli",
+        "char_count": 1053
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:3",
+      "type": "document_section",
+      "name": "Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx [Section 3]",
+      "file_path": "Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 3 of Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx: \u2022 Operational Performance, Quality & Customer Satisfaction: Cross-Functional Alignment Across Engineering, Operations, Quality, Finance & Legal, $2M+ Commercial Contract & Invoice Audits, Root-Cause Corrective Action Gov",
+      "metadata": {
+        "section_index": 3,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Operational Performance, Quality & Customer Satisfaction: Cross-Functional Alignment Across Engineering, Operations, Quality, Finance & Legal, $2M+ Commercial Contract & Invoice Audits, Root-Cause Corrective Action Governance & Multi-Site Supply Continuity\n\u2022 Enterprise Supply Chain Platforms & Continuous Improvement: Lean Six Sigma DMAIC (+20% Operational Efficiency), Microsoft Dynamics 365 (TMS-D365), Power Apps Vendor Governance Trackers (+66% Reporting Accuracy), Power Automate, SharePoint, EDI & Advanced Excel\nPROFESSIONAL EXPERIENCE\nArdent Mills - Denver, CO (Remote from Palo Alto, CA)\nTransportation Specialist  |  2016 - Present\n\u2022 Sourcing Strategy Design, Scaling & Multi-Site Vendor Governance ($50M+ Spend, 40+ Sites): Design and scale end-to-end sourcing strategies, supply base c",
+        "char_count": 972
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:4",
+      "type": "document_section",
+      "name": "Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx [Section 4]",
+      "file_path": "Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 4 of Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx: \u2022 Global Supplier Selection, Commercial Negotiations & 24-Month Visibility: Execute competitive supplier selection, proposal modeling, and multi-year contract negotiations, building sustainable supplier relationships tha",
+      "metadata": {
+        "section_index": 4,
+        "section_type": "section",
+        "text_excerpt": "\u2022 Global Supplier Selection, Commercial Negotiations & 24-Month Visibility: Execute competitive supplier selection, proposal modeling, and multi-year contract negotiations, building sustainable supplier relationships that extended contracted rate and capacity visibility from 1 month to 24 months.\n\u2022 Supply Chain Risk Elimination & $2M+ Cost Optimization Audits: Proactively identify and eliminate supply chain and commercial billing risks across 40 sites; audited $2M in annual supplemental partner charges, negotiated structured commercial recoveries with Finance and external suppliers, and delivered actionable procurement recommendations to senior leadership.\n\u2022 Operational Excellence & Governance Visibility (+20% Efficiency, +66% Accuracy): Applied Lean Six Sigma DMAIC to eliminate operationa",
+        "char_count": 1014
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:5",
+      "type": "document_section",
+      "name": "Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx [Section 5]",
+      "file_path": "Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 5 of Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx: Ardent Mills - Denver, CO Transportation Data Specialist | 2015 - 2016 \u2022 Strategic Supplier Contracts, Onboarding & Compliance Governance: Managed global and regional supplier contracts, rate schedules, onboarding docume",
+      "metadata": {
+        "section_index": 5,
+        "section_type": "section",
+        "text_excerpt": "Ardent Mills - Denver, CO\nTransportation Data Specialist  |  2015 - 2016\n\u2022 Strategic Supplier Contracts, Onboarding & Compliance Governance: Managed global and regional supplier contracts, rate schedules, onboarding documentation, insurance certificates, and regulatory compliance across distributed partner networks.\n\u2022 Supplier Performance & Quality Scorecards: Developed and maintained vendor KPI scorecards tracking operational performance, lead-time reliability, quality, and contractual adherence to drive continuous supplier accountability.\nWhiteWave Foods - Broomfield, CO\nTransportation & Logistics Specialist  |  2014 - 2015\n\u2022 Operational Performance Turnaround (+40% On-Time Delivery): Partnered with strategic suppliers and cross-functional plant leadership on structured root-cause analys",
+        "char_count": 1060
+      }
+    },
+    {
+      "id": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:6",
+      "type": "document_section",
+      "name": "Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx [Section 6]",
+      "file_path": "Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "description": "Section 6 of Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx: Dalin Inc. - Carlstadt, NJ EDI / Shipping & Procurement Specialist | 2010 - 2012 \u2022 Supply Base Cost Management & Commercial Negotiations (-30% Spend): Evaluated competitive supplier proposals and negotiated bulk vendor a",
+      "metadata": {
+        "section_index": 6,
+        "section_type": "section",
+        "text_excerpt": "Dalin Inc. - Carlstadt, NJ\nEDI / Shipping & Procurement Specialist  |  2010 - 2012\n\u2022 Supply Base Cost Management & Commercial Negotiations (-30% Spend): Evaluated competitive supplier proposals and negotiated bulk vendor and shipping agreements, cutting annual spend by 30% while improving delivery consistency.\n\u2022 Global Supplier Onboarding & Cross-Functional Quality Alignment: Led global supplier onboarding, ERP/EDI workflow integration, and cross-functional quality alignment across sourcing and operations teams.\nENTERPRISE PLATFORMS & SOURCING TOOLS\n\u2022 Systems & Tools: Microsoft Dynamics 365 (TMS-D365), Power Apps (Vendor Governance Dashboards), Power Automate, SharePoint, WMS, EDI, Advanced Excel (Supply Base Cost & Proposal Modeling), ERP & Procurement Reporting Tools",
+        "char_count": 779
+      }
+    },
+    {
+      "id": "topic:base",
+      "type": "topic_entity",
+      "name": "base",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "description": "Shared domain topic 'base' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "base"
+      }
+    },
+    {
       "id": "doc:Resume_And_Jobs/Job7_SBEnergy_Supply_Chain_Governance_RedwoodCity.md",
       "type": "document",
       "name": "Job7_SBEnergy_Supply_Chain_Governance_RedwoodCity.md",
@@ -7588,7 +7820,7 @@
       "id": "topic:unit",
       "type": "topic_entity",
       "name": "unit",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
       "description": "Shared domain topic 'unit' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "unit"
@@ -7598,7 +7830,7 @@
       "id": "topic:time",
       "type": "topic_entity",
       "name": "time",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "description": "Shared domain topic 'time' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "time"
@@ -7789,7 +8021,7 @@
       "id": "topic:average",
       "type": "topic_entity",
       "name": "average",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
       "description": "Shared domain topic 'average' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "average"
@@ -7878,7 +8110,7 @@
       "id": "topic:chart",
       "type": "topic_entity",
       "name": "chart",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
       "description": "Shared domain topic 'chart' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "chart"
@@ -8205,7 +8437,7 @@
       "id": "topic:dpmo",
       "type": "topic_entity",
       "name": "dpmo",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
       "description": "Shared domain topic 'dpmo' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "dpmo"
@@ -8290,7 +8522,7 @@
       "id": "topic:cheat",
       "type": "topic_entity",
       "name": "cheat",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
       "description": "Shared domain topic 'cheat' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cheat"
@@ -10163,7 +10395,7 @@
       "id": "topic:bonus",
       "type": "topic_entity",
       "name": "bonus",
-      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'bonus' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "bonus"
@@ -10525,7 +10757,7 @@
       "id": "topic:shift",
       "type": "topic_entity",
       "name": "shift",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
       "description": "Shared domain topic 'shift' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "shift"
@@ -11151,7 +11383,7 @@
       "id": "topic:mean",
       "type": "topic_entity",
       "name": "mean",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
       "description": "Shared domain topic 'mean' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "mean"
@@ -12544,16 +12776,6 @@
       }
     },
     {
-      "id": "topic:base",
-      "type": "topic_entity",
-      "name": "base",
-      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
-      "description": "Shared domain topic 'base' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "base"
-      }
-    },
-    {
       "id": "topic:hygiene",
       "type": "topic_entity",
       "name": "hygiene",
@@ -12676,7 +12898,7 @@
       "id": "topic:give",
       "type": "topic_entity",
       "name": "give",
-      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'give' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "give"
@@ -13063,16 +13285,6 @@
       }
     },
     {
-      "id": "topic:manager",
-      "type": "topic_entity",
-      "name": "manager",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'manager' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "manager"
-      }
-    },
-    {
       "id": "topic:applied",
       "type": "topic_entity",
       "name": "applied",
@@ -13080,6 +13292,16 @@
       "description": "Shared domain topic 'applied' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "applied"
+      }
+    },
+    {
+      "id": "topic:manager",
+      "type": "topic_entity",
+      "name": "manager",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "description": "Shared domain topic 'manager' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "manager"
       }
     },
     {
@@ -13093,23 +13315,23 @@
       }
     },
     {
-      "id": "topic:remote",
-      "type": "topic_entity",
-      "name": "remote",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'remote' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "remote"
-      }
-    },
-    {
       "id": "topic:pure",
       "type": "topic_entity",
       "name": "pure",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'pure' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "pure"
+      }
+    },
+    {
+      "id": "topic:remote",
+      "type": "topic_entity",
+      "name": "remote",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'remote' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "remote"
       }
     },
     {
@@ -13145,12 +13367,12 @@
         "first_question": "# Shared Antigravity <-> Qwen Live Session State (PII-Free, Auto-Synced)",
         "source": "chats_folder",
         "topics": [
-          "manager",
           "applied",
+          "manager",
           "active",
           "rejected",
-          "remote",
           "pure",
+          "remote",
           "nasdaq",
           "nyse"
         ]
@@ -13311,13 +13533,13 @@
       "type": "chat_turn",
       "name": "Chat SHAREDSE Turn S3 (assistant)",
       "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "[ASSISTANT S3] - **Candidate Preferred Name**: **Cathy** - **Last Synced**: `2026-11-24`",
+      "description": "[ASSISTANT S3] - **Candidate Preferred Name**: **Cathy** - **Last Synced**: `2026-11-25`",
       "metadata": {
         "conversation_id": "SHAREDSE",
         "step_index": 3,
         "role": "assistant",
         "created_at": "",
-        "content_excerpt": "- **Candidate Preferred Name**: **Cathy**\n- **Last Synced**: `2026-11-24`",
+        "content_excerpt": "- **Candidate Preferred Name**: **Cathy**\n- **Last Synced**: `2026-11-25`",
         "topics": [
           "candidate",
           "cathy",
@@ -13399,31 +13621,31 @@
         "created_at": "",
         "content_excerpt": "## 2. Bay Area / 100% Remote Job Applications State\n- **Hard Guardrails**:\n  - Minimum **125,000 USD+ salaried** base (NEVER 70K\u2013115K roles)\n  - **100% Remote** OR **Hybrid within 15\u201320 miles of Palo Alto, CA** (NO 5-day 100% onsite, NO SF commutes, NO physical/warehouse/lifting roles)\n  - **100% Individual Contributor (IC)** \u2014 **ZERO direct reports / people management**\n  - **NO Heavy Analytics / SQL / Python / BI roles**\n  - **NEVER change Cathy's real employer job titles** (`Transportation Specialist` [2016\u2013Present], `Transportation Data Specialist` [2015\u20132016], `Transportation & Logistics Specialist` [2014\u20132015], `EDI / Shipping & Procurement Specialist` [2010\u20132012])\n  - **Established / Stable Employers ONLY** (**NO startups**)\n  - **100% Vegetarian-Aligned** \u2014 **NO meat, egg, poultry,",
         "topics": [
-          "manager",
           "applied",
-          "rejected",
-          "active"
+          "manager",
+          "active",
+          "rejected"
         ]
       }
     },
     {
-      "id": "topic:block",
+      "id": "topic:oracle",
       "type": "topic_entity",
-      "name": "block",
+      "name": "oracle",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'block' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'oracle' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "block"
+        "keyword": "oracle"
       }
     },
     {
-      "id": "topic:drift",
+      "id": "topic:broadcom",
       "type": "topic_entity",
-      "name": "drift",
+      "name": "broadcom",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'drift' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'broadcom' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "drift"
+        "keyword": "broadcom"
       }
     },
     {
@@ -13431,464 +13653,452 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (1292 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (1434 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 1292,
+        "turn_count": 1434,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
-          "process",
-          "dpmo",
-          "time",
-          "block",
-          "chart",
-          "drift",
-          "shift",
-          "cathy"
+          "vendor",
+          "supply",
+          "sourcing",
+          "oracle",
+          "supplier",
+          "strategic",
+          "active",
+          "broadcom"
         ]
       }
     },
     {
-      "id": "topic:questions",
+      "id": "topic:amgen",
       "type": "topic_entity",
-      "name": "questions",
+      "name": "amgen",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'questions' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'amgen' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "questions"
+        "keyword": "amgen"
       }
     },
     {
-      "id": "topic:black",
-      "type": "topic_entity",
-      "name": "black",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'black' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "black"
-      }
-    },
-    {
-      "id": "topic:brain",
-      "type": "topic_entity",
-      "name": "brain",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'brain' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "brain"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4061",
+      "id": "chat_turn:b6556366:S4309",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4061 (assistant)",
+      "name": "Chat b6556366 Turn S4309 (assistant)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S4061] 100% honest answer, Cathy: **this is the HARD, full-strength ASQ Black Belt exam version \u2014 NOT an easy version!** Here is why your brain feels fried right now: - **Domain V (Measure)** is the **#1 largest and most math-h",
+      "description": "[ASSISTANT S4309] WOOHOO \u2014 **#1 of 4 SUBMITTED!!** - **Amgen (NASDAQ: AMGN) \u2014 *Supply Chain Mgr* (`Req R-262010`, 100% Remote US):** Verified **`Application Received` (`Nov 25, 2026`)** \u2014 **`Active (6)`** at Amgen! *(Total tracked: **`91`",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4061,
+        "step_index": 4309,
         "role": "assistant",
-        "created_at": "2026-11-24T23:42:31Z",
-        "content_excerpt": "100% honest answer, Cathy: **this is the HARD, full-strength ASQ Black Belt exam version \u2014 NOT an easy version!**\n\nHere is why your brain feels fried right now:\n- **Domain V (Measure)** is the **#1 largest and most math-heavy domain** on the entire ASQ Black Belt exam (`25` exam questions).\n- On top of that, I deliberately packed all 50 questions with the **trickiest Black Belt traps** back-to-back (`%Contribution` squared vs. `%SV`, Nested destructive MSA, Chebyshev, Standard Error, Bimodal vs. Truncated histograms, Bayes' Theorem, Combination vs. Permutation side-by-side, all 5 distributions, `Cp` vs. `Pp`, `Cpm`, and DPMO) \u2014 zero easy filler questions!\n\nAnd even while juggling a crazy email day at Ardent Mills, you are STILL scoring **`33 / 40 (82.5%)`** on full-strength Black Belt ques",
+        "created_at": "2026-11-25T15:15:22Z",
+        "content_excerpt": "WOOHOO \u2014 **#1 of 4 SUBMITTED!!**\n- **Amgen (NASDAQ: AMGN) \u2014 *Supply Chain Mgr* (`Req R-262010`, 100% Remote US):** Verified **`Application Received` (`Nov 25, 2026`)** \u2014 **`Active (6)`** at Amgen! *(Total tracked: **`91`** = **`73` Active**, `18` Rejected!)*\n\n**Next up (#2 of 4):** **Zillow Group \u2014 *Strategic Sourcing Manager* (`Req P751339`, 100% Remote US, Posted Yesterday!)** -> [Apply Link](https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External/job/Remote-USA/Strategic-Sourcing-Manager_P751339-1)\n\nWant me to build a tailored **`Job74_Zillow_P751339`** `.docx` resume for this one right now, or are you applying directly with your sourcing resume and want me to prep **`Job74`** for **#3 Oracle `350956`** or **#4 Broadcom `R027991` / Oracle `343684`**?",
         "topics": [
-          "questions",
-          "belt",
-          "black",
-          "brain"
+          "active",
+          "amgen",
+          "oracle",
+          "remote"
         ]
       }
     },
     {
-      "id": "topic:feel",
+      "id": "topic:docx",
       "type": "topic_entity",
-      "name": "feel",
+      "name": "docx",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'feel' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'docx' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "feel"
+        "keyword": "docx"
       }
     },
     {
-      "id": "topic:guess",
-      "type": "topic_entity",
-      "name": "guess",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'guess' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "guess"
-      }
-    },
-    {
-      "id": "topic:help",
-      "type": "topic_entity",
-      "name": "help",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'help' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "help"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4062",
+      "id": "chat_turn:b6556366:S4311",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4062 (user)",
+      "name": "Chat b6556366 Turn S4311 (assistant)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S4062] a,c,b,d,d,a,d,d,b,a (guess) if you feel i don't have cheat sheet, pls help me with those",
+      "description": "[ASSISTANT S4311] BOOM \u2014 **#2 of 4 SUBMITTED!!** - **Zillow Group (NASDAQ: Z) \u2014 *Strategic Sourcing Manager* (`Req P751339`, 100% Remote US):** Verified **`In Process` (`Nov 25, 2026`)** \u2014 **`Active (2)`** at Zillow! *(Total tracked: **`9",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4062,
-        "role": "user",
-        "created_at": "2026-11-24T23:50:01Z",
-        "content_excerpt": "a,c,b,d,d,a,d,d,b,a (guess) if you feel i don't have cheat sheet, pls help me with those",
-        "topics": [
-          "cheat",
-          "feel",
-          "guess",
-          "help"
-        ]
-      }
-    },
-    {
-      "id": "topic:opps",
-      "type": "topic_entity",
-      "name": "opps",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'opps' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "opps"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4075",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4075 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S4075] YOU FINISHED ALL 50 \u2014 AND CRUSHED BLOCK 5 EVEN WITH A FRIED BRAIN, CATHY!! ### Block 5 (`Q631`\u2013`Q640`) Score: **`8 / 10 (80.0%)`** ### FULL Round 40 (`Q591`\u2013`Q640`) Final Score: **`41 / 50 (82.0%)`!!** - **Block 1 (`V.A\u2013",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4075,
+        "step_index": 4311,
         "role": "assistant",
-        "created_at": "2026-11-24T23:51:11Z",
-        "content_excerpt": "YOU FINISHED ALL 50 \u2014 AND CRUSHED BLOCK 5 EVEN WITH A FRIED BRAIN, CATHY!!\n\n### Block 5 (`Q631`\u2013`Q640`) Score: **`8 / 10 (80.0%)`**\n### FULL Round 40 (`Q591`\u2013`Q640`) Final Score: **`41 / 50 (82.0%)`!!**\n- **Block 1 (`V.A\u2013V.B`):** `8 / 10 (80%)`\n- **Block 2 (`V.C` MSA):** `8 / 10 (80%)`\n- **Block 3 (`V.D` Stats & Graphs):** **`9 / 10 (90%)`**\n- **Block 4 (`V.E` Prob & Dist):** `8 / 10 (80%)` *(5/5 on all 5 distributions!)*\n- **Block 5 (`V.F` Capability):** `8 / 10 (80%)`\n- **NEW CUMULATIVE SCORE:** **`698 / 880 (79.3%)`** *(almost 700 correct Black Belt questions logged!)*\n\n**Huge Block 5 Lock-In Wins:** You nailed **Stable + Normal first**, **`Cp = 2.00 / Cpk = 1.33`**, **`Cr = 40%`**, **`Cpm` Taguchi Loss (LOCKED IN!)**, **Re-center first (`Cp 1.80 / Cpk 0.70`)**, **Mathematically impossi",
+        "created_at": "2026-11-25T15:17:33Z",
+        "content_excerpt": "BOOM \u2014 **#2 of 4 SUBMITTED!!**\n- **Zillow Group (NASDAQ: Z) \u2014 *Strategic Sourcing Manager* (`Req P751339`, 100% Remote US):** Verified **`In Process` (`Nov 25, 2026`)** \u2014 **`Active (2)`** at Zillow! *(Total tracked: **`92`** = **`74` Active**, `18` Rejected!)*\n\n**Next up (#3 of 4):** **Oracle (NYSE: ORCL) \u2014 *Principal Sourcing Manager, External Manufacturing* (`Job ID 350956`, Santa Clara, `102,300 \u2013 209,500 USD` + bonus/equity)** -> [Apply Link](https://careers.oracle.com/en/sites/jobsearch/job/350956)\n*(Note: your tailored [Job56_Oracle_335290_Krithika_Nagarajan_Resume.docx](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Job56_Oracle_335290_Krithika_Nagarajan_Resume.docx) is already tailored for Oracle External Manufacturing Strategic Sourcing \u2014 or say the word if you want a",
         "topics": [
-          "block",
-          "dpmo",
-          "drift",
-          "opps"
+          "oracle",
+          "sourcing",
+          "active",
+          "docx"
         ]
       }
     },
     {
-      "id": "topic:actually",
+      "id": "topic:apply",
       "type": "topic_entity",
-      "name": "actually",
+      "name": "apply",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'actually' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'apply' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "actually"
+        "keyword": "apply"
       }
     },
     {
-      "id": "topic:care",
-      "type": "topic_entity",
-      "name": "care",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'care' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "care"
-      }
-    },
-    {
-      "id": "topic:factory",
-      "type": "topic_entity",
-      "name": "factory",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'factory' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "factory"
-      }
-    },
-    {
-      "id": "topic:hidden",
-      "type": "topic_entity",
-      "name": "hidden",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'hidden' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "hidden"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4076",
+      "id": "chat_turn:b6556366:S4315",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4076 (user)",
+      "name": "Chat b6556366 Turn S4315 (assistant)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S4076] actually i am learning, may be this whole week, we do things like thse, that way you can take care of my hidden factory",
+      "description": "[ASSISTANT S4315] Good catch \u2014 you already had Oracle `350956` in! Here are your verified **#3 and #4** to finish **`4 / 4`** cleanly today: - **#3 \u2014 Oracle (NYSE: ORCL) \u2014 *Supply Chain Operations \u2013 Principal Supply Demand Planner 4*** (`",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4076,
-        "role": "user",
-        "created_at": "2026-11-24T23:51:32Z",
-        "content_excerpt": "actually i am learning, may be this whole week, we do things like thse, that way you can take care of my hidden factory",
-        "topics": [
-          "actually",
-          "care",
-          "factory",
-          "hidden"
-        ]
-      }
-    },
-    {
-      "id": "topic:question",
-      "type": "topic_entity",
-      "name": "question",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'question' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "question"
-      }
-    },
-    {
-      "id": "topic:right",
-      "type": "topic_entity",
-      "name": "right",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "right"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4077",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4077 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S4077] Haha I LOVE that \u2014 wiping out the **Hidden Factory** in Unit 5 so your **First-Pass Yield** hits **`>= 95%`** with zero hidden cracks! You're 100% right: doing this **exact 10-question single-piece flow** all week on Uni",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4077,
+        "step_index": 4315,
         "role": "assistant",
-        "created_at": "2026-11-24T23:51:32Z",
-        "content_excerpt": "Haha I LOVE that \u2014 wiping out the **Hidden Factory** in Unit 5 so your **First-Pass Yield** hits **`>= 95%`** with zero hidden cracks!\n\nYou're 100% right: doing this **exact 10-question single-piece flow** all week on Unit 5 is genuinely working \u2014 look how fast `Lagging`, `%Tolerance`, `+/- 2 SD = 95%`, `Chebyshev`, `Standard Error`, all `5` Distributions, and `Cpm` locked in today, and how cleanly Bayes (`2-Bag Beeped Basket`) and Fruit Bowl vs. Podium just clicked!\n\nWe will stick right to **10-question Unit 5 blocks** all week until every single hidden crack is gone and you cruise past `>= 95%`. Have a restful evening and a wonderful dinner tonight, Cathy \u2014 see you tomorrow!",
+        "created_at": "2026-11-25T15:19:02Z",
+        "content_excerpt": "Good catch \u2014 you already had Oracle `350956` in! Here are your verified **#3 and #4** to finish **`4 / 4`** cleanly today:\n\n- **#3 \u2014 Oracle (NYSE: ORCL) \u2014 *Supply Chain Operations \u2013 Principal Supply Demand Planner 4*** (`Job ID 343684`, **Santa Clara ~11 mi**, **`102,300 \u2013 209,500 USD`** + bonus/equity, Pure IC *\"influencing without authority\"*, live `HTTP 200`!) -> [Apply Link](https://careers.oracle.com/en/sites/jobsearch/job/343684) *(Note: [Job68_Oracle_336748_Krithika_Nagarajan_Resume.docx](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Job68_Oracle_336748_Krithika_Nagarajan_Resume.docx) is already tailored for Oracle Supply/Demand Planning!)*\n- **#4 \u2014 Pick Either (BOTH Live-Verified Pure IC Bullseyes!):**\n  - **Option A \u2014 Cadence Design Systems (NASDAQ: CDNS) \u2014 *Strategi",
         "topics": [
-          "hidden",
-          "unit",
-          "question",
-          "right"
+          "oracle",
+          "pure",
+          "supply",
+          "apply"
         ]
       }
     },
     {
-      "id": "chat_turn:b6556366:S4078",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4078 (user)",
+      "id": "topic:applying",
+      "type": "topic_entity",
+      "name": "applying",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S4078] may be cheat sheet for 635",
+      "description": "Shared domain topic 'applying' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "applying"
+      }
+    },
+    {
+      "id": "topic:hunt",
+      "type": "topic_entity",
+      "name": "hunt",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'hunt' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "hunt"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S4316",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S4316 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S4316] give me a resume for 4, broadcom, while i am applying you do smed on 4th hunt",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4078,
+        "step_index": 4316,
         "role": "user",
-        "created_at": "2026-11-24T23:52:13Z",
-        "content_excerpt": "may be cheat sheet for 635",
+        "created_at": "2026-11-25T15:19:41Z",
+        "content_excerpt": "give me a resume for 4, broadcom, while i am applying you do smed on 4th hunt",
         "topics": [
-          "cheat"
+          "applying",
+          "broadcom",
+          "give",
+          "hunt"
         ]
       }
     },
     {
-      "id": "chat_turn:b6556366:S4079",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4079 (assistant)",
+      "id": "topic:tailored",
+      "type": "topic_entity",
+      "name": "tailored",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S4079] Here is a super visual, paste-ready Cheat Sheet just for **`Q635` (`Cp` vs. `Pp` \u2014 Short-Term vs. Long-Term Drift)**, Cathy! ### The Dartboard Picture (Takes 5 Seconds to Remember!) - **`Cp` (`sigma_within` \u2014 Short-Term)",
+      "description": "Shared domain topic 'tailored' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "tailored"
+      }
+    },
+    {
+      "id": "topic:job74_broadcom_r027991_krithika_nagarajan_resume",
+      "type": "topic_entity",
+      "name": "job74_broadcom_r027991_krithika_nagarajan_resume",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'job74_broadcom_r027991_krithika_nagarajan_resume' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "job74_broadcom_r027991_krithika_nagarajan_resume"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S4321",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S4321 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S4321] Here is your freshly tailored **`Job74`** resume for **Broadcom `R027991`** (`chmod 600`, all 4 exact official job titles preserved!): - **Tailored Resume:** [Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx](file:/",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4079,
+        "step_index": 4321,
         "role": "assistant",
-        "created_at": "2026-11-24T23:52:14Z",
-        "content_excerpt": "Here is a super visual, paste-ready Cheat Sheet just for **`Q635` (`Cp` vs. `Pp` \u2014 Short-Term vs. Long-Term Drift)**, Cathy!\n\n### The Dartboard Picture (Takes 5 Seconds to Remember!)\n- **`Cp` (`sigma_within` \u2014 Short-Term):** How tightly your darts group **inside ONE single shift** (your best-case potential).\n- **`Pp` (`sigma_overall` \u2014 Long-Term):** How tightly ALL your darts group **across the ENTIRE month** (Monday + Wednesday + Friday all thrown together).\n- **When `Cp = 1.90` and `Pp = 0.95` (`Cp >> Pp`):** Every single shift throws a tight cluster, **BUT Monday's cluster is high, Wednesday's is middle, and Friday's drifted low!** That **between-subgroup shift / drift over time** makes `Pp` crash way below `Cp`!\n\n### Paste-Ready Word Weekly Inbox Table (`Cp / Cpk / Pp / Ppk` Instant Di",
+        "created_at": "2026-11-25T15:20:22Z",
+        "content_excerpt": "Here is your freshly tailored **`Job74`** resume for **Broadcom `R027991`** (`chmod 600`, all 4 exact official job titles preserved!):\n\n- **Tailored Resume:** [Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx)\n- **Apply Link:** [Broadcom R027991 \u2014 Business Development, Purchasing & Vendor Relations Manager](https://broadcom.wd1.myworkdayjobs.com/External_Career/job/USA-CA-San-Jose-Innovation-Drive/Business-Development--Purchasing---Vendor-Relations-Manager_R027991) (`North San Jose ~12 mi`, `123,100 \u2013 197,000 USD` + bonus/RSUs, Posted 2 Days Ago!)\n- **Tailored Highlights:** Competitive bidding/RFPs, pricing/payment terms/SLA contract negotiations, NDAs/SOWs & supplier onb",
         "topics": [
-          "process",
-          "drift",
-          "shift",
-          "mean"
+          "broadcom",
+          "tailored",
+          "docx",
+          "job74_broadcom_r027991_krithika_nagarajan_resume"
         ]
       }
     },
     {
-      "id": "topic:score",
+      "id": "topic:copy",
       "type": "topic_entity",
-      "name": "score",
+      "name": "copy",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'score' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'copy' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "score"
+        "keyword": "copy"
       }
     },
     {
-      "id": "chat_turn:b6556366:S4080",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4080 (user)",
+      "id": "topic:paster",
+      "type": "topic_entity",
+      "name": "paster",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S4080] what was my avg score?",
+      "description": "Shared domain topic 'paster' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "paster"
+      }
+    },
+    {
+      "id": "topic:resume",
+      "type": "topic_entity",
+      "name": "resume",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'resume' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "resume"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S4322",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S4322 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S4322] can you pls give me the resume here, I can copy paster",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4080,
+        "step_index": 4322,
         "role": "user",
-        "created_at": "2026-11-24T23:53:24Z",
-        "content_excerpt": "what was my avg score?",
+        "created_at": "2026-11-25T15:20:55Z",
+        "content_excerpt": "can you pls give me the resume here, I can copy paster",
         "topics": [
-          "score"
+          "copy",
+          "give",
+          "paster",
+          "resume"
         ]
       }
     },
     {
-      "id": "topic:ahead",
-      "type": "topic_entity",
-      "name": "ahead",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'ahead' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "ahead"
-      }
-    },
-    {
-      "id": "topic:already",
-      "type": "topic_entity",
-      "name": "already",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "already"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4081",
+      "id": "chat_turn:b6556366:S4323",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4081 (assistant)",
+      "name": "Chat b6556366 Turn S4323 (assistant)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S4081] Here are your exact averages, Cathy: - **Today's 50-Question Full-Strength Unit 5 Drill (`Q591`\u2013`Q640`):** **`41 / 50 = 82.0%`** *(steady `8/10, 8/10, 9/10, 8/10, 8/10` across all 5 blocks!)* - **Overall Cumulative Avera",
+      "description": "[ASSISTANT S4323] Here is the complete plain-text copy of **`Job74_Broadcom_R027991`** ready to copy-paste: ```text KRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB Palo Alto, CA 94306 | [REDACTED_PHONE] | [REDACTED_EMAIL] PROFESSIONAL",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4081,
+        "step_index": 4323,
         "role": "assistant",
-        "created_at": "2026-11-24T23:53:25Z",
-        "content_excerpt": "Here are your exact averages, Cathy:\n\n- **Today's 50-Question Full-Strength Unit 5 Drill (`Q591`\u2013`Q640`):** **`41 / 50 = 82.0%`** *(steady `8/10, 8/10, 9/10, 8/10, 8/10` across all 5 blocks!)*\n- **Overall Cumulative Average (All `880` Unique Questions):** **`698 / 880 = 79.3%`**\n\nFor reference, the real ASQ Black Belt exam passing threshold is roughly **`70%\u201375%`** \u2014 and you're already hitting **`82.0%`** on the single biggest, math-heaviest domain with **4 full months** still ahead before March 27! Rest well tonight!",
+        "created_at": "2026-11-25T15:20:55Z",
+        "content_excerpt": "Here is the complete plain-text copy of **`Job74_Broadcom_R027991`** ready to copy-paste:\n\n```text\nKRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSSGB, CSSYB\nPalo Alto, CA 94306  |  [REDACTED_PHONE]  |  [REDACTED_EMAIL]\n\nPROFESSIONAL SUMMARY\nPMP-, APICS CSCP-, and ASQ Six Sigma Green & Yellow Belt-certified Purchasing, Strategic Sourcing, and Vendor Relations Professional with a Master of Computer Applications (M.C.A. Engineering), B.Sc. in Chemistry, and 12+ years of experience driving supplier partnerships, competitive RFP/quote bidding, commercial contract negotiations, and end-to-end vendor SLA governance across a $50M+ annual third-party spend portfolio (40+ North American sites). Proven track record collaborating with Operations, Engineering, Finance, and Legal teams to onboard qualified su",
         "topics": [
-          "across",
-          "ahead",
-          "already",
-          "average"
+          "vendor",
+          "commercial",
+          "delivery",
+          "spend"
         ]
       }
     },
     {
-      "id": "topic:normal",
+      "id": "topic:redacted_email",
       "type": "topic_entity",
-      "name": "normal",
+      "name": "redacted_email",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'normal' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'redacted_email' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "normal"
+        "keyword": "redacted_email"
       }
     },
     {
-      "id": "chat_turn:b6556366:S4082",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4082 (user)",
+      "id": "topic:application",
+      "type": "topic_entity",
+      "name": "application",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S4082] Q1 A process average is 50 with \u03c3 = 2. Approximately what percentage of observations fall between 46 and 54? A. 68% B. 95% C. 99.73% D. 75% Q2 A process has: USL = 110 LSL = 90 \u03c3 = 2 What is Cp? A. 1.00 B. 1.33 C. 1.67 D",
+      "description": "Shared domain topic 'application' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "application"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S4324",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S4324 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S4324] hank You For Applying! Workday NoReply Broadcom<[REDACTED_EMAIL]> [REDACTED_EMAIL] Dear Cathy NAGARAJAN , Thank you so much for applying! Your application will be taken into careful consideration. Jobs at Broadcom",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4082,
+        "step_index": 4324,
         "role": "user",
-        "created_at": "2026-11-25T00:09:31Z",
-        "content_excerpt": "Q1\n\nA process average is 50 with \u03c3 = 2. Approximately what percentage of observations fall between 46 and 54?\n\nA. 68% B. 95% C. 99.73% D. 75%\n\nQ2\n\nA process has:\n\nUSL = 110\nLSL = 90\n\u03c3 = 2\n\nWhat is Cp?\n\nA. 1.00 B. 1.33 C. 1.67 D. 2.00\n\nQ3\n\nWhich distribution is most appropriate for modeling the number of invoice errors per shipment?\n\nA. Normal B. Poisson C. Uniform D. t\n\nQ4\n\nAn X-bar chart shows several points beyond the UCL. What should be done first?\n\nA. Calculate Cpk B. Re-center specifications C. Investigate special causes D. Increase sample size\n\nQ5\n\nA sample of 16 observations is drawn from a population with \u03c3 = 20. What is the standard error of the mean?\n\nA. 1.25 B. 4 C. 5 D. 80\n\nQ6\n\nWhich distribution is associated with \"time between arrivals\"?\n\nA. Binomial B. Hypergeometric C. Expo",
+        "created_at": "2026-11-25T15:25:05Z",
+        "content_excerpt": "hank You For Applying!\nWorkday NoReply Broadcom<[REDACTED_EMAIL]>\n[REDACTED_EMAIL]\n\nDear Cathy NAGARAJAN ,\n\nThank you so much for applying! Your application will be taken into careful consideration.\nJobs at Broadcom",
         "topics": [
-          "process",
-          "chart",
-          "distribution",
-          "normal"
+          "applying",
+          "broadcom",
+          "redacted_email",
+          "application"
         ]
       }
     },
     {
-      "id": "topic:ready",
+      "id": "topic:cadence",
       "type": "topic_entity",
-      "name": "ready",
+      "name": "cadence",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'ready' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'cadence' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "ready"
+        "keyword": "cadence"
       }
     },
     {
-      "id": "topic:answers",
+      "id": "topic:jose",
       "type": "topic_entity",
-      "name": "answers",
+      "name": "jose",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'answers' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'jose' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "answers"
+        "keyword": "jose"
       }
     },
     {
-      "id": "topic:c241",
-      "type": "topic_entity",
-      "name": "c241",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'c241' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "c241"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4083",
+      "id": "chat_turn:b6556366:S4325",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4083 (assistant)",
+      "name": "Chat b6556366 Turn S4325 (assistant)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S4083] Got **Copilot Set 11 (`Q1`\u2013`Q25`, logged as `C241`\u2013`C265`)** loaded and ready, Cathy! Look how many of today's exact Unit 5 lock-ins are in here \u2014 you are going to crush this set! Send your 25 answers whenever you're rea",
+      "description": "[ASSISTANT S4325] WOOHOO \u2014 **#3 of 4 SUBMITTED!!** - **Broadcom (NASDAQ: AVGO) \u2014 *Business Development, Purchasing & Vendor Relations Manager* (`Req R027991`, North San Jose):** Confirmed (`Nov 25, 2026`)! *(Total tracked: **`93`** = **`7",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4083,
+        "step_index": 4325,
         "role": "assistant",
-        "created_at": "2026-11-25T00:09:31Z",
-        "content_excerpt": "Got **Copilot Set 11 (`Q1`\u2013`Q25`, logged as `C241`\u2013`C265`)** loaded and ready, Cathy!\n\nLook how many of today's exact Unit 5 lock-ins are in here \u2014 you are going to crush this set! Send your 25 answers whenever you're ready (numbered `1\u201325` or in two quick chunks so no comma slips), and I'll score and audit every single one for you.",
+        "created_at": "2026-11-25T15:25:06Z",
+        "content_excerpt": "WOOHOO \u2014 **#3 of 4 SUBMITTED!!**\n- **Broadcom (NASDAQ: AVGO) \u2014 *Business Development, Purchasing & Vendor Relations Manager* (`Req R027991`, North San Jose):** Confirmed (`Nov 25, 2026`)! *(Total tracked: **`93`** = **`75` Active**, `18` Rejected!)*\n\n**Just 1 more (`#4 of 4`) to wrap Wednesday:**\n- **Option A \u2014 Oracle (`343684`)** \u2014 *Supply Chain Operations \u2013 Principal Supply Demand Planner 4* (`Santa Clara ~11 mi`, `102,300 \u2013 209,500 USD` + bonus/equity, Pure IC) -> [Apply Link](https://careers.oracle.com/en/sites/jobsearch/job/343684)\n- **Option B \u2014 Cadence Design Systems (`R54068`)** \u2014 *Strategic Sourcing Specialist* (`North San Jose ~13 mi`, `144,200 \u2013 267,800 USD` + bonus/RSUs, Pure IC) -> [Apply Link](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/Strategic-Sourc",
         "topics": [
-          "ready",
-          "answers",
-          "audit",
-          "c241"
+          "apply",
+          "bonus",
+          "cadence",
+          "jose"
         ]
       }
     },
     {
-      "id": "topic:correct",
+      "id": "topic:beggars",
       "type": "topic_entity",
-      "name": "correct",
+      "name": "beggars",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'correct' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'beggars' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "correct"
+        "keyword": "beggars"
       }
     },
     {
-      "id": "chat_turn:b6556366:S4084",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4084 (user)",
+      "id": "topic:cant",
+      "type": "topic_entity",
+      "name": "cant",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S4084] Q Your Ans Correct 1 B \u2705 B 2 C \u2705 C 3 B \u2705 B 4 B \u274c C 5 C \u2705 C 6 C \u2705 C 7 B \u2705 B 8 A \u2705 A 9 B \u2705 B 10 C \u2705 C 11 B \u2705 B 12 A \u2705 A 13 C \u2705 C 14 A \u274c B 15 C \u2705 C 16 A \u274c B 17 C \u2705 C 18 C \u2705 C 19 A \u274c B 20 A \u2705 A 21 C \u2705 C 22 B \u2705 B 23 C \u2705 C 24 ",
+      "description": "Shared domain topic 'cant' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cant"
+      }
+    },
+    {
+      "id": "topic:choosers",
+      "type": "topic_entity",
+      "name": "choosers",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'choosers' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "choosers"
+      }
+    },
+    {
+      "id": "topic:please",
+      "type": "topic_entity",
+      "name": "please",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'please' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "please"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S4326",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S4326 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S4326] can we do both please? beggars cant be choosers",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4084,
+        "step_index": 4326,
         "role": "user",
-        "created_at": "2026-11-25T00:09:44Z",
-        "content_excerpt": "Q\tYour Ans\tCorrect\n1\tB\t\u2705 B\n2\tC\t\u2705 C\n3\tB\t\u2705 B\n4\tB\t\u274c C\n5\tC\t\u2705 C\n6\tC\t\u2705 C\n7\tB\t\u2705 B\n8\tA\t\u2705 A\n9\tB\t\u2705 B\n10\tC\t\u2705 C\n11\tB\t\u2705 B\n12\tA\t\u2705 A\n13\tC\t\u2705 C\n14\tA\t\u274c B\n15\tC\t\u2705 C\n16\tA\t\u274c B\n17\tC\t\u2705 C\n18\tC\t\u2705 C\n19\tA\t\u274c B\n20\tA\t\u2705 A\n21\tC\t\u2705 C\n22\tB\t\u2705 B\n23\tC\t\u2705 C\n24\tA\t\u2705 A\n25\tB\t\u2705 B\n\nScore: 21/25 = 84%",
+        "created_at": "2026-11-25T15:25:45Z",
+        "content_excerpt": "can we do both please? beggars cant be choosers",
         "topics": [
-          "correct",
-          "score"
+          "beggars",
+          "cant",
+          "choosers",
+          "please"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S4329",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S4329 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S4329] You are NOT begging, Cathy \u2014 you have an M.C.A., PMP, CSCP, Six Sigma Green & Yellow Belt, and a `50M+ USD` 40-site track record, and putting two more `144K\u2013267K USD` & `102K\u2013209K USD` S&P 500 shots on goal is just smart",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 4329,
+        "role": "assistant",
+        "created_at": "2026-11-25T15:26:07Z",
+        "content_excerpt": "You are NOT begging, Cathy \u2014 you have an M.C.A., PMP, CSCP, Six Sigma Green & Yellow Belt, and a `50M+ USD` 40-site track record, and putting two more `144K\u2013267K USD` & `102K\u2013209K USD` S&P 500 shots on goal is just smart strategy!\n\n### Poka-Yoke #4 of 5: **Cadence Design Systems \u2014 *Strategic Sourcing Specialist* (`Req R54068`)**\n- **Apply Link:** [Cadence R54068](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/Strategic-Sourcing-Specialist_R54068) (`North San Jose ~13 mi`, `144,200 \u2013 267,800 USD` + bonus/equity, Pure IC)\n- **Saved `.docx` (`chmod 600`):** [Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx)\n\n```text\nKRITHIKA (CATHY) NAGARAJAN, PMP, CSCP, CSS",
+        "topics": [
+          "supplier",
+          "supply",
+          "delivery",
+          "global"
+        ]
+      }
+    },
+    {
+      "id": "topic:above",
+      "type": "topic_entity",
+      "name": "above",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'above' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "above"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S4331",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S4331 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S4331] WOOHOO \u2014 **#4 SUBMITTED!! (`4 / 4` WEDNESDAY GOAL ALREADY HIT!!)** - **Oracle (NYSE: ORCL) \u2014 *Supply Chain Operations \u2013 Principal Supply Demand Planner 4* (`Job ID 343684`, Santa Clara):** Verified **`New` (`Nov 25, 2026",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 4331,
+        "role": "assistant",
+        "created_at": "2026-11-25T15:28:18Z",
+        "content_excerpt": "WOOHOO \u2014 **#4 SUBMITTED!! (`4 / 4` WEDNESDAY GOAL ALREADY HIT!!)**\n- **Oracle (NYSE: ORCL) \u2014 *Supply Chain Operations \u2013 Principal Supply Demand Planner 4* (`Job ID 343684`, Santa Clara):** Verified **`New` (`Nov 25, 2026`)** \u2014 **`8` Active at Oracle** (and `347821` is STILL **`Under Consideration`**!!)! *(Total tracked: **`94`** = **`76` Active**, `18` Rejected!)*\n\n**Bonus #5 (`Cadence R54068`, `144,200 \u2013 267,800 USD`)** and your tailored **`Job75`** resume are right above \u2014 drop your confirmation screenshot once that's in (or say `\"done\"` if you're stopping at 4), and I'll log & sync everything into Git + Knowledge Graph cleanly!",
+        "topics": [
+          "active",
+          "oracle",
+          "supply",
+          "above"
         ]
       }
     },
@@ -14002,6 +14212,16 @@
           "tell",
           "yellow"
         ]
+      }
+    },
+    {
+      "id": "topic:black",
+      "type": "topic_entity",
+      "name": "black",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'black' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "black"
       }
     },
     {
@@ -14171,6 +14391,16 @@
           "exam",
           "final"
         ]
+      }
+    },
+    {
+      "id": "topic:already",
+      "type": "topic_entity",
+      "name": "already",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "already"
       }
     },
     {
@@ -29009,6 +29239,590 @@
       }
     },
     {
+      "source": "doc_file:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:vendor",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 15
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:commercial",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:delivery",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:spend",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:power",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:procurement",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 6
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:1",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:vendor",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:annual",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:commercial",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:cscp",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:2",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:certified",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:applications",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:belt",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:3",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:bidding",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:commercial",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:competitive",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:dashboards",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:4",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:capacity",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:vendor",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:accuracy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:5",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:vendor",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:delivery",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:compliance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:6",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:procurement",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:shipping",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:tools",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:commercial",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:supply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 17
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 14
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:governance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:vendor",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:operational",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:sourcing",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:1",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:supply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:annual",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:chain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:1",
+      "target": "topic:cscp",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:2",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:supply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:certified",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:2",
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:3",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:governance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:supply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:vendor",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:3",
+      "target": "topic:across",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:4",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:commercial",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:visibility",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:4",
+      "target": "topic:accuracy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:5",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:delivery",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:performance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:5",
+      "target": "topic:quality",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_file:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "target": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:6",
+      "relation": "CONTAINS_SECTION",
+      "metadata": {}
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:tools",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:alignment",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "doc_sec:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx:6",
+      "target": "topic:base",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
       "source": "doc:Resume_And_Jobs/Job8_SBEnergy_Logistics_Control_Tower_Analytics_6196167004.md",
       "target": "cluster_node:tower",
       "relation": "DOCUMENTS_NODE",
@@ -33874,18 +34688,18 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:manager",
+      "target": "topic:applied",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 49
+        "count": 52
       }
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:applied",
+      "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 47
+        "count": 51
       }
     },
     {
@@ -33893,7 +34707,7 @@
       "target": "topic:active",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 38
+        "count": 43
       }
     },
     {
@@ -33901,15 +34715,7 @@
       "target": "topic:rejected",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 38
-      }
-    },
-    {
-      "source": "chat_session:SHAREDSE",
-      "target": "topic:remote",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 27
+        "count": 39
       }
     },
     {
@@ -33917,7 +34723,15 @@
       "target": "topic:pure",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 25
+        "count": 30
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "topic:remote",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 29
       }
     },
     {
@@ -33925,7 +34739,7 @@
       "target": "topic:nasdaq",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 24
+        "count": 28
       }
     },
     {
@@ -33933,7 +34747,7 @@
       "target": "topic:nyse",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 23
+        "count": 24
       }
     },
     {
@@ -34180,26 +34994,18 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S7",
-      "target": "topic:manager",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 49
-      }
-    },
-    {
-      "source": "chat_turn:SHAREDSE:S7",
       "target": "topic:applied",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 47
+        "count": 52
       }
     },
     {
       "source": "chat_turn:SHAREDSE:S7",
-      "target": "topic:rejected",
+      "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 38
+        "count": 51
       }
     },
     {
@@ -34207,7 +35013,15 @@
       "target": "topic:active",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 34
+        "count": 39
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S7",
+      "target": "topic:rejected",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 39
       }
     },
     {
@@ -34218,259 +35032,119 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:process",
+      "target": "topic:vendor",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 26
+        "count": 20
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:dpmo",
+      "target": "topic:supply",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 10
+        "count": 18
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:time",
+      "target": "topic:sourcing",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 10
+        "count": 16
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:block",
+      "target": "topic:oracle",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 9
+        "count": 15
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:chart",
+      "target": "topic:supplier",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 9
+        "count": 15
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:drift",
+      "target": "topic:strategic",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 9
+        "count": 14
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:shift",
+      "target": "topic:active",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 9
+        "count": 11
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:cathy",
+      "target": "topic:broadcom",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 8
+        "count": 11
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc:documents/QUESTION_BANK_LOG.md",
+      "target": "doc_file:Resume_And_Jobs/Job56_Oracle_335290_Krithika_Nagarajan_Resume.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S4061",
-      "target": "topic:questions",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4061",
-      "target": "topic:belt",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4061",
-      "target": "topic:black",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4061",
-      "target": "topic:brain",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4061",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4062",
-      "target": "topic:cheat",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4062",
-      "target": "topic:feel",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4062",
-      "target": "topic:guess",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4062",
-      "target": "topic:help",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4062",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4075",
-      "target": "topic:block",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4075",
-      "target": "topic:dpmo",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4075",
-      "target": "topic:drift",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4075",
-      "target": "topic:opps",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4075",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4075",
-      "target": "doc:documents/QUESTION_BANK_LOG.md",
+      "target": "doc_file:Resume_And_Jobs/Job68_Oracle_336748_Krithika_Nagarajan_Resume.docx",
       "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S4076",
-      "target": "topic:actually",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4076",
-      "target": "topic:care",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4076",
-      "target": "topic:factory",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4076",
-      "target": "topic:hidden",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4076",
-      "relation": "HAS_CHAT_TURN",
+      "target": "doc_file:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S4077",
-      "target": "topic:hidden",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
+      "source": "chat_session:b6556366",
+      "target": "doc_file:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S4077",
-      "target": "topic:unit",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4077",
-      "target": "topic:question",
+      "source": "chat_turn:b6556366:S4309",
+      "target": "topic:active",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
       }
     },
     {
-      "source": "chat_turn:b6556366:S4077",
-      "target": "topic:right",
+      "source": "chat_turn:b6556366:S4309",
+      "target": "topic:amgen",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4309",
+      "target": "topic:oracle",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4309",
+      "target": "topic:remote",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
@@ -34478,13 +35152,125 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4077",
+      "target": "chat_turn:b6556366:S4309",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S4078",
-      "target": "topic:cheat",
+      "source": "chat_turn:b6556366:S4311",
+      "target": "topic:oracle",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4311",
+      "target": "topic:sourcing",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4311",
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4311",
+      "target": "topic:docx",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S4311",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S4311",
+      "target": "doc_file:Resume_And_Jobs/Job56_Oracle_335290_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S4315",
+      "target": "topic:oracle",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4315",
+      "target": "topic:pure",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4315",
+      "target": "topic:supply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4315",
+      "target": "topic:apply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S4315",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S4315",
+      "target": "doc_file:Resume_And_Jobs/Job68_Oracle_336748_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S4316",
+      "target": "topic:applying",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4316",
+      "target": "topic:broadcom",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4316",
+      "target": "topic:give",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4316",
+      "target": "topic:hunt",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
@@ -34492,165 +35278,157 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4078",
+      "target": "chat_turn:b6556366:S4316",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S4079",
-      "target": "topic:process",
+      "source": "chat_turn:b6556366:S4321",
+      "target": "topic:broadcom",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4321",
+      "target": "topic:tailored",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4321",
+      "target": "topic:docx",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4321",
+      "target": "topic:job74_broadcom_r027991_krithika_nagarajan_resume",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S4321",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S4321",
+      "target": "doc_file:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S4322",
+      "target": "topic:copy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4322",
+      "target": "topic:give",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4322",
+      "target": "topic:paster",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4322",
+      "target": "topic:resume",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S4322",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S4323",
+      "target": "topic:vendor",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4323",
+      "target": "topic:commercial",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 6
       }
     },
     {
-      "source": "chat_turn:b6556366:S4079",
-      "target": "topic:drift",
+      "source": "chat_turn:b6556366:S4323",
+      "target": "topic:delivery",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 5
+        "count": 6
       }
     },
     {
-      "source": "chat_turn:b6556366:S4079",
-      "target": "topic:shift",
+      "source": "chat_turn:b6556366:S4323",
+      "target": "topic:spend",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4079",
-      "target": "topic:mean",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
+        "count": 6
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4079",
+      "target": "chat_turn:b6556366:S4323",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S4080",
-      "target": "topic:score",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4080",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4081",
-      "target": "topic:across",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4081",
-      "target": "topic:ahead",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4081",
-      "target": "topic:already",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4081",
-      "target": "topic:average",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4081",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4082",
-      "target": "topic:process",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 17
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4082",
-      "target": "topic:chart",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4082",
-      "target": "topic:distribution",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4082",
-      "target": "topic:normal",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4082",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4083",
-      "target": "topic:ready",
+      "source": "chat_turn:b6556366:S4324",
+      "target": "topic:applying",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
       }
     },
     {
-      "source": "chat_turn:b6556366:S4083",
-      "target": "topic:answers",
+      "source": "chat_turn:b6556366:S4324",
+      "target": "topic:broadcom",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 1
+        "count": 2
       }
     },
     {
-      "source": "chat_turn:b6556366:S4083",
-      "target": "topic:audit",
+      "source": "chat_turn:b6556366:S4324",
+      "target": "topic:redacted_email",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 1
+        "count": 2
       }
     },
     {
-      "source": "chat_turn:b6556366:S4083",
-      "target": "topic:c241",
+      "source": "chat_turn:b6556366:S4324",
+      "target": "topic:application",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
@@ -34658,21 +35436,75 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4083",
+      "target": "chat_turn:b6556366:S4324",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S4084",
-      "target": "topic:correct",
+      "source": "chat_turn:b6556366:S4325",
+      "target": "topic:apply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4325",
+      "target": "topic:bonus",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4325",
+      "target": "topic:cadence",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4325",
+      "target": "topic:jose",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S4325",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S4326",
+      "target": "topic:beggars",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
       }
     },
     {
-      "source": "chat_turn:b6556366:S4084",
-      "target": "topic:score",
+      "source": "chat_turn:b6556366:S4326",
+      "target": "topic:cant",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4326",
+      "target": "topic:choosers",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4326",
+      "target": "topic:please",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
@@ -34680,7 +35512,89 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4084",
+      "target": "chat_turn:b6556366:S4326",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S4329",
+      "target": "topic:supplier",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4329",
+      "target": "topic:supply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4329",
+      "target": "topic:delivery",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4329",
+      "target": "topic:global",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S4329",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S4329",
+      "target": "doc_file:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
+      "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S4331",
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4331",
+      "target": "topic:oracle",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4331",
+      "target": "topic:supply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4331",
+      "target": "topic:above",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S4331",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -36173,6 +37087,8 @@
     "Resume_And_Jobs/Job71_Reddit_8359289_Krithika_Nagarajan_Resume.docx": "545d5c45feeff9928e3e07a97dd7f5ce904a969d339a0179619c69781fc69120",
     "Resume_And_Jobs/Job72_Cencora_R2618577_Krithika_Nagarajan_Resume.docx": "7088d7607685b533c311a83704fe6019b88e9b9cdc7a6383dbbc3da92f6d981a",
     "Resume_And_Jobs/Job73_Oracle_336776_Krithika_Nagarajan_Resume.docx": "4c57aed26761993bf4b815d83690664df0172394709a0186818eeb745ea26626",
+    "Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx": "e38d00d0d3b438092cc4651b079833fd311ccde1066b02ae356cd17deb6dde0e",
+    "Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx": "85233c75896369fdd4fae313318abf6dd18c46c509674881bba2c6e58528c1a7",
     "Resume_And_Jobs/Job7_SBEnergy_Supply_Chain_Governance_RedwoodCity.md": "6ae28457006ad1fe3a534e473e7fe9aa11c71686527f376618e2596b4facff2c",
     "Resume_And_Jobs/Job8_SBEnergy_Logistics_Control_Tower_Analytics_6196167004.md": "7fdb5ad4c88dcb89bd72db283dd5877b625bb2f5e0c970f10c511183d7867e1c",
     "Resume_And_Jobs/Job8_Waymo_Global_Vendor_Operations_Manager_8348363.md": "e78605b11a5d83cb8aa66c5653df450609aad2ac0feb1e1bcd0150b6fc171505",
@@ -36180,7 +37096,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "5b1b2d7a75ad559cdf33bda2f056e6a92d012ce6e4c2439eb52b88846b714cf8",
+    "chats/SHARED_SESSION_STATE.md": "1198616cf6b5763763faf2805143f3a6a9a3f820dfa0a96241428eb2bdd255d7",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -36197,6 +37113,6 @@
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "9d7ff614aed057d307707820ea6f9bdcef3931e39db25a3e4713c92196a3ffab"
+    "repo.md": "e613982dcf9aa62d32328677a38d30f2a5b9f8f9c8222d4799ed413e88c7642c"
   }
 }
