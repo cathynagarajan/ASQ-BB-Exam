@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-25T15:44:57.589488+00:00",
+    "generated_at": "2026-11-25T16:08:38.279060+00:00",
     "total_files_indexed": 117,
-    "total_nodes": 1114,
-    "total_edges": 2830,
+    "total_nodes": 1118,
+    "total_edges": 2821,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
@@ -12,34 +12,31 @@
       "document_file": 61,
       "document_section": 406,
       "html_template": 1,
-      "topic_entity": 538
+      "topic_entity": 542
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [
-      "Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx"
-    ],
+    "added": [],
     "modified": [
       "chats/SHARED_SESSION_STATE.md"
     ],
     "removed": [],
-    "files_parsed": 2,
-    "files_cached_reused": 114,
+    "files_parsed": 0,
+    "files_cached_reused": 116,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 93,
-      "nodes_deleted": 33,
-      "edges_upserted": 164,
-      "edges_deleted": 62,
+      "nodes_upserted": 25,
+      "nodes_deleted": 14,
+      "edges_upserted": 37,
+      "edges_deleted": 38,
       "wiki_pages_upserted": 0,
       "wiki_pages_deleted": 0,
-      "files_upserted": 4,
+      "files_upserted": 2,
       "files_deleted": 0,
-      "total_nodes_in_db": 1114,
-      "total_edges_in_db": 2830,
+      "total_nodes_in_db": 1118,
+      "total_edges_in_db": 2821,
       "total_files_tracked": 118
     }
   },
@@ -8667,7 +8664,7 @@
       "id": "topic:check",
       "type": "topic_entity",
       "name": "check",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'check' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "check"
@@ -12898,7 +12895,7 @@
       "id": "topic:give",
       "type": "topic_entity",
       "name": "give",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
       "description": "Shared domain topic 'give' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "give"
@@ -13318,7 +13315,7 @@
       "id": "topic:pure",
       "type": "topic_entity",
       "name": "pure",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
       "description": "Shared domain topic 'pure' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "pure"
@@ -13328,7 +13325,7 @@
       "id": "topic:remote",
       "type": "topic_entity",
       "name": "remote",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
       "description": "Shared domain topic 'remote' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "remote"
@@ -13402,7 +13399,7 @@
       "id": "topic:live",
       "type": "topic_entity",
       "name": "live",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'live' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "live"
@@ -13623,29 +13620,9 @@
         "topics": [
           "applied",
           "manager",
-          "active",
-          "rejected"
+          "rejected",
+          "active"
         ]
-      }
-    },
-    {
-      "id": "topic:oracle",
-      "type": "topic_entity",
-      "name": "oracle",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'oracle' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "oracle"
-      }
-    },
-    {
-      "id": "topic:broadcom",
-      "type": "topic_entity",
-      "name": "broadcom",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'broadcom' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "broadcom"
       }
     },
     {
@@ -13653,242 +13630,22 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (1434 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (1440 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 1434,
+        "turn_count": 1440,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
+          "supply",
           "vendor",
-          "supply",
-          "sourcing",
-          "oracle",
           "supplier",
+          "active",
+          "delivery",
           "strategic",
-          "active",
-          "broadcom"
-        ]
-      }
-    },
-    {
-      "id": "topic:amgen",
-      "type": "topic_entity",
-      "name": "amgen",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'amgen' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "amgen"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4309",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4309 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S4309] WOOHOO \u2014 **#1 of 4 SUBMITTED!!** - **Amgen (NASDAQ: AMGN) \u2014 *Supply Chain Mgr* (`Req R-262010`, 100% Remote US):** Verified **`Application Received` (`Nov 25, 2026`)** \u2014 **`Active (6)`** at Amgen! *(Total tracked: **`91`",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4309,
-        "role": "assistant",
-        "created_at": "2026-11-25T15:15:22Z",
-        "content_excerpt": "WOOHOO \u2014 **#1 of 4 SUBMITTED!!**\n- **Amgen (NASDAQ: AMGN) \u2014 *Supply Chain Mgr* (`Req R-262010`, 100% Remote US):** Verified **`Application Received` (`Nov 25, 2026`)** \u2014 **`Active (6)`** at Amgen! *(Total tracked: **`91`** = **`73` Active**, `18` Rejected!)*\n\n**Next up (#2 of 4):** **Zillow Group \u2014 *Strategic Sourcing Manager* (`Req P751339`, 100% Remote US, Posted Yesterday!)** -> [Apply Link](https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External/job/Remote-USA/Strategic-Sourcing-Manager_P751339-1)\n\nWant me to build a tailored **`Job74_Zillow_P751339`** `.docx` resume for this one right now, or are you applying directly with your sourcing resume and want me to prep **`Job74`** for **#3 Oracle `350956`** or **#4 Broadcom `R027991` / Oracle `343684`**?",
-        "topics": [
-          "active",
-          "amgen",
-          "oracle",
-          "remote"
-        ]
-      }
-    },
-    {
-      "id": "topic:docx",
-      "type": "topic_entity",
-      "name": "docx",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'docx' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "docx"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4311",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4311 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S4311] BOOM \u2014 **#2 of 4 SUBMITTED!!** - **Zillow Group (NASDAQ: Z) \u2014 *Strategic Sourcing Manager* (`Req P751339`, 100% Remote US):** Verified **`In Process` (`Nov 25, 2026`)** \u2014 **`Active (2)`** at Zillow! *(Total tracked: **`9",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4311,
-        "role": "assistant",
-        "created_at": "2026-11-25T15:17:33Z",
-        "content_excerpt": "BOOM \u2014 **#2 of 4 SUBMITTED!!**\n- **Zillow Group (NASDAQ: Z) \u2014 *Strategic Sourcing Manager* (`Req P751339`, 100% Remote US):** Verified **`In Process` (`Nov 25, 2026`)** \u2014 **`Active (2)`** at Zillow! *(Total tracked: **`92`** = **`74` Active**, `18` Rejected!)*\n\n**Next up (#3 of 4):** **Oracle (NYSE: ORCL) \u2014 *Principal Sourcing Manager, External Manufacturing* (`Job ID 350956`, Santa Clara, `102,300 \u2013 209,500 USD` + bonus/equity)** -> [Apply Link](https://careers.oracle.com/en/sites/jobsearch/job/350956)\n*(Note: your tailored [Job56_Oracle_335290_Krithika_Nagarajan_Resume.docx](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Job56_Oracle_335290_Krithika_Nagarajan_Resume.docx) is already tailored for Oracle External Manufacturing Strategic Sourcing \u2014 or say the word if you want a",
-        "topics": [
-          "oracle",
           "sourcing",
-          "active",
-          "docx"
-        ]
-      }
-    },
-    {
-      "id": "topic:apply",
-      "type": "topic_entity",
-      "name": "apply",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'apply' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "apply"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4315",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4315 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S4315] Good catch \u2014 you already had Oracle `350956` in! Here are your verified **#3 and #4** to finish **`4 / 4`** cleanly today: - **#3 \u2014 Oracle (NYSE: ORCL) \u2014 *Supply Chain Operations \u2013 Principal Supply Demand Planner 4*** (`",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4315,
-        "role": "assistant",
-        "created_at": "2026-11-25T15:19:02Z",
-        "content_excerpt": "Good catch \u2014 you already had Oracle `350956` in! Here are your verified **#3 and #4** to finish **`4 / 4`** cleanly today:\n\n- **#3 \u2014 Oracle (NYSE: ORCL) \u2014 *Supply Chain Operations \u2013 Principal Supply Demand Planner 4*** (`Job ID 343684`, **Santa Clara ~11 mi**, **`102,300 \u2013 209,500 USD`** + bonus/equity, Pure IC *\"influencing without authority\"*, live `HTTP 200`!) -> [Apply Link](https://careers.oracle.com/en/sites/jobsearch/job/343684) *(Note: [Job68_Oracle_336748_Krithika_Nagarajan_Resume.docx](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Job68_Oracle_336748_Krithika_Nagarajan_Resume.docx) is already tailored for Oracle Supply/Demand Planning!)*\n- **#4 \u2014 Pick Either (BOTH Live-Verified Pure IC Bullseyes!):**\n  - **Option A \u2014 Cadence Design Systems (NASDAQ: CDNS) \u2014 *Strategi",
-        "topics": [
-          "oracle",
-          "pure",
-          "supply",
-          "apply"
-        ]
-      }
-    },
-    {
-      "id": "topic:applying",
-      "type": "topic_entity",
-      "name": "applying",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'applying' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "applying"
-      }
-    },
-    {
-      "id": "topic:hunt",
-      "type": "topic_entity",
-      "name": "hunt",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'hunt' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "hunt"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4316",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4316 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S4316] give me a resume for 4, broadcom, while i am applying you do smed on 4th hunt",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4316,
-        "role": "user",
-        "created_at": "2026-11-25T15:19:41Z",
-        "content_excerpt": "give me a resume for 4, broadcom, while i am applying you do smed on 4th hunt",
-        "topics": [
-          "applying",
-          "broadcom",
-          "give",
-          "hunt"
-        ]
-      }
-    },
-    {
-      "id": "topic:tailored",
-      "type": "topic_entity",
-      "name": "tailored",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'tailored' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "tailored"
-      }
-    },
-    {
-      "id": "topic:job74_broadcom_r027991_krithika_nagarajan_resume",
-      "type": "topic_entity",
-      "name": "job74_broadcom_r027991_krithika_nagarajan_resume",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'job74_broadcom_r027991_krithika_nagarajan_resume' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "job74_broadcom_r027991_krithika_nagarajan_resume"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4321",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4321 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S4321] Here is your freshly tailored **`Job74`** resume for **Broadcom `R027991`** (`chmod 600`, all 4 exact official job titles preserved!): - **Tailored Resume:** [Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx](file:/",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4321,
-        "role": "assistant",
-        "created_at": "2026-11-25T15:20:22Z",
-        "content_excerpt": "Here is your freshly tailored **`Job74`** resume for **Broadcom `R027991`** (`chmod 600`, all 4 exact official job titles preserved!):\n\n- **Tailored Resume:** [Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx)\n- **Apply Link:** [Broadcom R027991 \u2014 Business Development, Purchasing & Vendor Relations Manager](https://broadcom.wd1.myworkdayjobs.com/External_Career/job/USA-CA-San-Jose-Innovation-Drive/Business-Development--Purchasing---Vendor-Relations-Manager_R027991) (`North San Jose ~12 mi`, `123,100 \u2013 197,000 USD` + bonus/RSUs, Posted 2 Days Ago!)\n- **Tailored Highlights:** Competitive bidding/RFPs, pricing/payment terms/SLA contract negotiations, NDAs/SOWs & supplier onb",
-        "topics": [
-          "broadcom",
-          "tailored",
-          "docx",
-          "job74_broadcom_r027991_krithika_nagarajan_resume"
-        ]
-      }
-    },
-    {
-      "id": "topic:copy",
-      "type": "topic_entity",
-      "name": "copy",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'copy' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "copy"
-      }
-    },
-    {
-      "id": "topic:paster",
-      "type": "topic_entity",
-      "name": "paster",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'paster' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "paster"
-      }
-    },
-    {
-      "id": "topic:resume",
-      "type": "topic_entity",
-      "name": "resume",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'resume' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "resume"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4322",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4322 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S4322] can you pls give me the resume here, I can copy paster",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4322,
-        "role": "user",
-        "created_at": "2026-11-25T15:20:55Z",
-        "content_excerpt": "can you pls give me the resume here, I can copy paster",
-        "topics": [
-          "copy",
-          "give",
-          "paster",
-          "resume"
+          "spend"
         ]
       }
     },
@@ -13910,6 +13667,26 @@
           "delivery",
           "spend"
         ]
+      }
+    },
+    {
+      "id": "topic:applying",
+      "type": "topic_entity",
+      "name": "applying",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'applying' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "applying"
+      }
+    },
+    {
+      "id": "topic:broadcom",
+      "type": "topic_entity",
+      "name": "broadcom",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'broadcom' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "broadcom"
       }
     },
     {
@@ -13950,6 +13727,16 @@
           "redacted_email",
           "application"
         ]
+      }
+    },
+    {
+      "id": "topic:apply",
+      "type": "topic_entity",
+      "name": "apply",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'apply' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "apply"
       }
     },
     {
@@ -14073,6 +13860,16 @@
       }
     },
     {
+      "id": "topic:oracle",
+      "type": "topic_entity",
+      "name": "oracle",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'oracle' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "oracle"
+      }
+    },
+    {
       "id": "topic:above",
       "type": "topic_entity",
       "name": "above",
@@ -14099,6 +13896,243 @@
           "oracle",
           "supply",
           "above"
+        ]
+      }
+    },
+    {
+      "id": "topic:equity",
+      "type": "topic_entity",
+      "name": "equity",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'equity' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "equity"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S4342",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S4342 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S4342] WOOHOO \u2014 **WEDNESDAY `5 / 4` ZERO-STRETCH BULLSEYE SPRINT COMPLETE BEFORE 8:00 AM PST!!** ### Confirmed Today (`2026-11-25`) 1. **Amgen (`R-262010`)** \u2014 *Supply Chain Mgr* (`100% Remote US`, `105.01K\u2013142.07K USD` + bonus",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 4342,
+        "role": "assistant",
+        "created_at": "2026-11-25T15:45:13Z",
+        "content_excerpt": "WOOHOO \u2014 **WEDNESDAY `5 / 4` ZERO-STRETCH BULLSEYE SPRINT COMPLETE BEFORE 8:00 AM PST!!**\n\n### Confirmed Today (`2026-11-25`)\n1. **Amgen (`R-262010`)** \u2014 *Supply Chain Mgr* (`100% Remote US`, `105.01K\u2013142.07K USD` + bonus/stock) -> **`Application Received`** *(`Active: 6` at Amgen)*\n2. **Zillow Group (`P751339`)** \u2014 *Strategic Sourcing Manager* (`100% Remote US`, `93.9K\u2013150.1K USD` + equity) -> **`In Process`** *(`Active: 2` at Zillow)*\n3. **Broadcom (`R027991`)** \u2014 *Business Development, Purchasing & Vendor Relations Manager* (`North San Jose`, `123.1K\u2013197K USD` + bonus/RSUs, tailored `Job74`) -> **`Confirmed`**\n4. **Oracle (`343684`)** \u2014 *Supply Chain Operations \u2013 Principal Supply Demand Planner 4* (`Santa Clara`, `102.3K\u2013209.5K USD` + bonus/equity) -> **`New`** *(`Active: 8` at Oracle; ",
+        "topics": [
+          "active",
+          "bonus",
+          "equity",
+          "supply"
+        ]
+      }
+    },
+    {
+      "id": "topic:cbb07",
+      "type": "topic_entity",
+      "name": "cbb07",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'cbb07' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cbb07"
+      }
+    },
+    {
+      "id": "topic:complete",
+      "type": "topic_entity",
+      "name": "complete",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'complete' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "complete"
+      }
+    },
+    {
+      "id": "topic:confirmed",
+      "type": "topic_entity",
+      "name": "confirmed",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'confirmed' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "confirmed"
+      }
+    },
+    {
+      "id": "topic:main",
+      "type": "topic_entity",
+      "name": "main",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'main' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "main"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S4344",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S4344 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S4344] *(Push `81cbb07` to `origin/main` confirmed complete \u2014 standing by whenever you need me!)*",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 4344,
+        "role": "assistant",
+        "created_at": "2026-11-25T15:45:23Z",
+        "content_excerpt": "*(Push `81cbb07` to `origin/main` confirmed complete \u2014 standing by whenever you need me!)*",
+        "topics": [
+          "cbb07",
+          "complete",
+          "confirmed",
+          "main"
+        ]
+      }
+    },
+    {
+      "id": "topic:county",
+      "type": "topic_entity",
+      "name": "county",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'county' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "county"
+      }
+    },
+    {
+      "id": "topic:emts",
+      "type": "topic_entity",
+      "name": "emts",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'emts' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "emts"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S4348",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S4348 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S4348] ### Daily EMS Report \u2014 Wednesday, Nov 25, 2026 (`8:01 AM PST` Scheduled Check) - **AMR (Riverside County & Coachella Valley EMTs):** **`0`** openings live *(still only 1 CA Special Events Paramedic in Compton).* - **Falc",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 4348,
+        "role": "assistant",
+        "created_at": "2026-11-25T16:01:27Z",
+        "content_excerpt": "### Daily EMS Report \u2014 Wednesday, Nov 25, 2026 (`8:01 AM PST` Scheduled Check)\n- **AMR (Riverside County & Coachella Valley EMTs):** **`0`** openings live *(still only 1 CA Special Events Paramedic in Compton).*\n- **Falck (Orange County & LA County EMTs):** **`0`** openings live *(same 5 non-EMT dispatch/office/faculty roles).*\n\n*(No change from this morning \u2014 next automatic check runs tomorrow at 8:00 AM PST!)*",
+        "topics": [
+          "county",
+          "check",
+          "emts",
+          "live"
+        ]
+      }
+    },
+    {
+      "id": "topic:report",
+      "type": "topic_entity",
+      "name": "report",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'report' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "report"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S4349",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S4349 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S4349] EMT job report?",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 4349,
+        "role": "user",
+        "created_at": "2026-11-25T16:07:33Z",
+        "content_excerpt": "EMT job report?",
+        "topics": [
+          "report"
+        ]
+      }
+    },
+    {
+      "id": "topic:today",
+      "type": "topic_entity",
+      "name": "today",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'today' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "today"
+      }
+    },
+    {
+      "id": "topic:coachella",
+      "type": "topic_entity",
+      "name": "coachella",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'coachella' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "coachella"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S4350",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S4350 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S4350] Just ran live at **8:01 AM PST** today (Wednesday, Nov 25), Cathy: - **AMR \u2014 Riverside County & Coachella Valley EMTs:** **`0`** postings live today *(only 1 unrelated Special Events Paramedic in Compton).* - **Falck \u2014 O",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 4350,
+        "role": "assistant",
+        "created_at": "2026-11-25T16:07:33Z",
+        "content_excerpt": "Just ran live at **8:01 AM PST** today (Wednesday, Nov 25), Cathy:\n\n- **AMR \u2014 Riverside County & Coachella Valley EMTs:** **`0`** postings live today *(only 1 unrelated Special Events Paramedic in Compton).*\n- **Falck \u2014 Orange County & LA County EMTs:** **`0`** postings live today *(only 5 non-EMT dispatch/scheduler/HR/faculty roles).*\n\nStill quiet right before Thanksgiving \u2014 the daily watch is running automatically and I'll alert you immediately the moment any AMR Riverside/Coachella or Falck OC/LA EMT opening drops!",
+        "topics": [
+          "county",
+          "live",
+          "today",
+          "coachella"
+        ]
+      }
+    },
+    {
+      "id": "topic:roblox",
+      "type": "topic_entity",
+      "name": "roblox",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'roblox' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "roblox"
+      }
+    },
+    {
+      "id": "topic:additional",
+      "type": "topic_entity",
+      "name": "additional",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'additional' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "additional"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S4351",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S4351 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S4351] Thanks for applying to Roblox - we hope to connect again soon [REDACTED_EMAIL] You Hi krithika, We\u2019re grateful you took the time to apply for the Senior Contracts Manager (Commercial Legal) position at Roblox. It means a",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 4351,
+        "role": "user",
+        "created_at": "2026-11-25T16:08:08Z",
+        "content_excerpt": "Thanks for applying to Roblox - we hope to connect again soon\n[REDACTED_EMAIL]\nYou\nHi krithika,\n\nWe\u2019re grateful you took the time to apply for the Senior Contracts Manager (Commercial Legal) position at Roblox. It means a lot to us that you\u2019re interested in being a part of what we\u2019re building at Roblox.\n\nAfter reviewing your background, we\u2019ve decided to move forward with other candidates whose experience is a closer match to our needs for this particular role. That said, we were impressed by your career journey and would love to stay connected with us- many of our team members joined Roblox after exploring additional opportunities here.",
+        "topics": [
+          "roblox",
+          "additional",
+          "apply",
+          "applying"
         ]
       }
     },
@@ -34715,7 +34749,7 @@
       "target": "topic:rejected",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 39
+        "count": 41
       }
     },
     {
@@ -35010,15 +35044,15 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S7",
-      "target": "topic:active",
+      "target": "topic:rejected",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 39
+        "count": 41
       }
     },
     {
       "source": "chat_turn:SHAREDSE:S7",
-      "target": "topic:rejected",
+      "target": "topic:active",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 39
@@ -35032,23 +35066,7 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:vendor",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 20
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
       "target": "topic:supply",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 18
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:sourcing",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 16
@@ -35056,23 +35074,15 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:oracle",
+      "target": "topic:vendor",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 15
+        "count": 16
       }
     },
     {
       "source": "chat_session:b6556366",
       "target": "topic:supplier",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 15
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:strategic",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 14
@@ -35083,12 +35093,12 @@
       "target": "topic:active",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 11
+        "count": 12
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:broadcom",
+      "target": "topic:delivery",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 11
@@ -35096,272 +35106,32 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc_file:Resume_And_Jobs/Job56_Oracle_335290_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
+      "target": "topic:strategic",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc_file:Resume_And_Jobs/Job68_Oracle_336748_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
+      "target": "topic:sourcing",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc_file:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
+      "target": "topic:spend",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
     },
     {
       "source": "chat_session:b6556366",
       "target": "doc_file:Resume_And_Jobs/Job75_Cadence_R54068_Krithika_Nagarajan_Resume.docx",
       "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4309",
-      "target": "topic:active",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4309",
-      "target": "topic:amgen",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4309",
-      "target": "topic:oracle",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4309",
-      "target": "topic:remote",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4309",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4311",
-      "target": "topic:oracle",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4311",
-      "target": "topic:sourcing",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4311",
-      "target": "topic:active",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4311",
-      "target": "topic:docx",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4311",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4311",
-      "target": "doc_file:Resume_And_Jobs/Job56_Oracle_335290_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4315",
-      "target": "topic:oracle",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4315",
-      "target": "topic:pure",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4315",
-      "target": "topic:supply",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4315",
-      "target": "topic:apply",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4315",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4315",
-      "target": "doc_file:Resume_And_Jobs/Job68_Oracle_336748_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4316",
-      "target": "topic:applying",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4316",
-      "target": "topic:broadcom",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4316",
-      "target": "topic:give",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4316",
-      "target": "topic:hunt",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4316",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4321",
-      "target": "topic:broadcom",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4321",
-      "target": "topic:tailored",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4321",
-      "target": "topic:docx",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4321",
-      "target": "topic:job74_broadcom_r027991_krithika_nagarajan_resume",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4321",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4321",
-      "target": "doc_file:Resume_And_Jobs/Job74_Broadcom_R027991_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4322",
-      "target": "topic:copy",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4322",
-      "target": "topic:give",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4322",
-      "target": "topic:paster",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4322",
-      "target": "topic:resume",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4322",
-      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -35595,6 +35365,210 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S4331",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S4342",
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4342",
+      "target": "topic:bonus",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4342",
+      "target": "topic:equity",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4342",
+      "target": "topic:supply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S4342",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S4344",
+      "target": "topic:cbb07",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4344",
+      "target": "topic:complete",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4344",
+      "target": "topic:confirmed",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4344",
+      "target": "topic:main",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S4344",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S4348",
+      "target": "topic:county",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4348",
+      "target": "topic:check",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4348",
+      "target": "topic:emts",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4348",
+      "target": "topic:live",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S4348",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S4349",
+      "target": "topic:report",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S4349",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S4350",
+      "target": "topic:county",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4350",
+      "target": "topic:live",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4350",
+      "target": "topic:today",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4350",
+      "target": "topic:coachella",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S4350",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S4351",
+      "target": "topic:roblox",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4351",
+      "target": "topic:additional",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4351",
+      "target": "topic:apply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S4351",
+      "target": "topic:applying",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S4351",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -37096,7 +37070,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "1198616cf6b5763763faf2805143f3a6a9a3f820dfa0a96241428eb2bdd255d7",
+    "chats/SHARED_SESSION_STATE.md": "636e328b5d533f497dd8c5974a011f38820cbe2f453b85ac6caf150b7fca9c7f",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -37113,6 +37087,6 @@
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "e613982dcf9aa62d32328677a38d30f2a5b9f8f9c8222d4799ed413e88c7642c"
+    "repo.md": "887ace38262071a3c5012b3410ee32d7de1e3f72c67c7bf635135e1cfb90daac"
   }
 }
