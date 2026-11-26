@@ -64,7 +64,7 @@
   - **100% Vegetarian-Aligned** — **NO meat, egg, poultry, seafood, or animal-slaughter companies**
   - **Employer Blacklist REMOVED (`2026-11-25` Per Cathy):** Do **NOT** maintain a blanket blacklist of established employers (`Apple`, `Applied Materials`, `Cisco`, `HP/HPE`, etc. are ALL re-opened!). Judge EVERY established vegetarian-aligned company strictly on the **role's merits** (`>= 125K USD` base, `100% Remote` or `Hybrid <= 15–20 mi` Palo Alto, Pure IC, Zero-Stretch Bullseye fit). Only block **Lensa** spam aggregators, tiny startups, and meat/egg/poultry/seafood companies (e.g., Vital Farms).
 - **10 Submitted Applications (2026-11-14)**:
-  1. **Stanford Health Care** — *Supply Chain Strategic Initiatives PM* (`R2656254`, Palo Alto)
+  1. **Stanford Health Care** — *Supply Chain Strategic Initiatives PM* (`R2656254`, Palo Alto — **Rejected 2026-11-26**)
   2. **Stanford Health Care** — *Category Manager – SC Category Mgmt* (`R2659261`, Palo Alto — **Rejected 2026-11-18**)
   3. **Gilead Sciences** — *Sr. Supply Chain Specialist, Clinical Logistics* (`R0055571`, Foster City)
   4. **Gilead Sciences** — *Supply Chain Specialist IV, GCSC Delivery* (`R0055230`, Foster City)
@@ -143,7 +143,7 @@
   67. **Roblox (NYSE: RBLX)** — *Senior Contracts Manager (Commercial Legal)* (`ID 8350312` / `48841`, San Mateo CA Hybrid ~15 mi, 131.82K–161.49K USD + equity, Pure IC — applied **2026-11-24** -> **Rejected 2026-11-25**; `8174264` Vendor Ops still Active!)
   68. **Reddit (NYSE: RDDT)** — *Senior Product Manager, Finance Technology (Procure-to-Pay & Record-to-Report)* (`ID 8359289`, 100% Remote US, 167.5K–234.5K USD + equity, Pure IC, JUST POSTED `2026-11-24` — applied **2026-11-24**, *Submitted*!)
   69. **Oracle (NYSE: ORCL)** — *Supplier Sourcing Program Manager 4* (`Job ID 336776`, Santa Clara CA ~11 mi, 102.3K–209.5K USD + bonus/equity, Pure IC4 — applied **2026-11-24**, *New*! `Active: 7` at Oracle, `347821` Under Consideration!)
-- **Day-12 Weekday Cadence (2026-11-25 — `5 / 4` Zero-Stretch Bullseyes COMPLETE!! `95` Total Tracked = `75` Active, `20` Rejected after Samsara `8393540` rejected `2026-11-26`)**:
+- **Day-12 Weekday Cadence (2026-11-25 — `5 / 4` Zero-Stretch Bullseyes COMPLETE!! `95` Total Tracked = `74` Active, `21` Rejected after Samsara `8393540` & Stanford `R2656254` rejected `2026-11-26`)**:
   70. **Amgen (NASDAQ: AMGN)** — *Supply Chain Mgr* (`Req R-262010`, 100% Remote US, 105.01K–142.07K USD + bonus/stock, Pure IC, JUST POSTED `2026-11-23` — applied **2026-11-25**, *Application Received*! `Active: 6` at Amgen!)
   71. **Zillow Group (NASDAQ: Z)** — *Strategic Sourcing Manager* (`Req P751339`, 100% Remote US, 93.9K–150.1K USD CA + equity, Pure IC, JUST POSTED `2026-11-24` — applied **2026-11-25**, *In Process*! `Active: 2` at Zillow!)
   72. **Broadcom (NASDAQ: AVGO)** — *Business Development, Purchasing & Vendor Relations Manager* (`Req R027991`, North San Jose CA ~12 mi, 123.1K–197K USD + bonus/RSUs, Pure IC, JUST POSTED `2026-11-23`, tailored `Job74` — applied **2026-11-25**, *Confirmed*!)
