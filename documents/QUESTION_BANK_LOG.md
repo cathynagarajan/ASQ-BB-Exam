@@ -518,3 +518,13 @@
 - **DOMAINS I–V 40-Q MIDTERM REVISION (`Q711`–`Q750`) COMPLETE: `30 / 40 = 75.0%`! Today's Marathon Halfway: `39 / 50 = 78.0%`!**
 - **Nailed (`✅` — `5` Qs):** `Q741` (VOC -> CTQ measurable target ✅), `Q742` (Crashing Critical Path lowest crash cost ✅), `Q743` (Weighted Pareto `4,000 USD` Cracked Housings ✅), `Q746` (**Hidden Factory `RTY = 64.8%` — NAILED!** ✅), `Q750` (**`c-chart` constant area, multiple defects per roll — NAILED!** ✅).
 - **Active Revision List (`❌` — `5` Classic Measure Fatigue Slips to Lock In Next!):** `Q744` (`V.C.2` Bias across `10->50->100 lb` range = **D. Linearity**, picked C Stability), `Q745` (`V.D.1` `+/- 0.8 lb / 0.4 lb = +/- 2 SD` = **B. `95%`**, picked A `68%`), `Q747` (`V.F.4` `DPMO = 20 / (500 x 4) x 1,000,000 = 10,000` = **B**, picked C `40,000` skipped `x 4` opportunities), `Q748` (`V.F.2` `Cp 1.90 >> Pp 1.05` = **A. Between-subgroup drift**, picked C), `Q749` (`V.E.1` Permutation 2 distinct titles from 6 = **C. `6 x 5 = 30`**, picked A `12` [`6 x 2`]).
+
+## Round 52 — Measure Lock-In Round (`Q751`–`Q760` — 2026-11-26 | Score: `9 / 10 = 90.0%`!! | Cumulative `834 / 1,050 = 79.4%` — `60 / 100` Today = `48 / 60 = 80.0%`!)
+- **ALL 5 ROUND 51 SLIPS SWEPT `9 / 9 = 100%` ON THE VERY FIRST TRY!!**
+  - **Linearity vs Stability (`2 / 2`):** `Q751` Linearity ✅, `Q752` Stability ✅
+  - **Empirical Rule (`2 / 2`):** `Q753` `+/- 2 SD = 95%` ✅, `Q754` `+/- 3 SD = 99.7%` ✅
+  - **DPMO 3-Step Zero-Check (`2 / 2`):** `Q755` `10,000` DPMO ✅, `Q756` `1,000` DPMO ✅
+  - **`Cp >> Pp` Drift:** `Q757` Between-subgroup shift/drift ✅
+  - **Permutation:** `Q758` `5 x 4 = 20` ✅
+  - **`%Contribution` + AIAG:** `Q759` `40% -> 16% Unacceptable` (**3rd straight round nailed BOTH math & AIAG label!!**) ✅
+- **Only 1 Miss (`❌` — Active Revision List):** `Q760` (`V.E.1` Bayes' Theorem asked for **Mill B** = **C. `80.0%`**, picked A `20.0%` which was Mill A — math right, circle the requested Mill/Supplier!).
