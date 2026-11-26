@@ -528,3 +528,7 @@
   - **Permutation:** `Q758` `5 x 4 = 20` ✅
   - **`%Contribution` + AIAG:** `Q759` `40% -> 16% Unacceptable` (**3rd straight round nailed BOTH math & AIAG label!!**) ✅
 - **Only 1 Miss (`❌` — Active Revision List):** `Q760` (`V.E.1` Bayes' Theorem asked for **Mill B** = **C. `80.0%`**, picked A `20.0%` which was Mill A — math right, circle the requested Mill/Supplier!).
+
+## Round 53 — Domains I–V Mastery Revision (`Q761`–`Q770` — 2026-11-26 | Score: `7 / 10 = 70.0%` [plus Bonus `4/4 = 100%` Analyze `VI.A` Preview!] | Cumulative `841 / 1,060 = 79.3%` — `70 / 100` Today = `55 / 70 = 78.6%`!)
+- **Nailed (`✅` — `7` Qs):** `Q761` (**Bayes' Theorem Mill X `42.9%` — FIXED!!** ✅), `Q763` (Thomas-Kilmann Collaborating ✅), `Q765` (X-shaped 4-list Matrix — FIXED! ✅), `Q766` (Little's Law `5.0 days` ✅), `Q767` (Stratified Sampling ✅), `Q768` (**`%StudyVar 20% -> %Contribution 4% Marginal` — 4th straight round nailed!!** ✅), `Q769` (`Cp` unchanged, `Cpk` rises on re-centering ✅).
+- **Active Revision List (`❌` — `3` Qs):** `Q762` (`II.C.2` Poka-Yoke & operator training = **B. Prevention cost**, picked A Appraisal), `Q764` (`IV.C` PERT SD = **A. `sqrt(9 + 16) = 5` days**, picked B `7` added SDs instead of variances), `Q770` (`V.F.5` Fixed `n = 100` count of Pass/Fail defective bags = **D. `np-chart`**, picked B `c-chart`).
