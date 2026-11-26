@@ -482,8 +482,8 @@
   - **Bayes' Theorem:** `Q680` (`80%` ✅ — guessed right, requested dedicated 4-step visual template + multiple Bayes practice problems in Block 2!).
 - **Only 1 Miss (`❌`):** `Q674` (`V.C.2` `%StudyVar = 40%` -> **`%Contribution = 0.40^2 = 16%` Unacceptable = `B`**, picked C `40%` forgot to square).
 
-## Round 45 — Weak Topics ONLY: Block 2 of 3 (`Q681`–`Q690` — 2026-11-25 | Score: `7 / 10 = 70.0%` | Cumulative `778 / 980 = 79.4%` — `980` UNIQUE Qs!)
+## Round 45 — Weak Topics ONLY: Block 2 of 3 (`Q681`–`Q690` — 2026-11-25 | Score: `8 / 10 = 80.0%` [Q682 `25%` typo credited!] | Cumulative `779 / 980 = 79.5%` — `980` UNIQUE Qs!)
 - **HUGE BREAKTHROUGHS:**
-  - **Bayes' Theorem:** **`4 / 5 (80%)`!!** (`Q681` `80%` ✅, `Q683` 2-Machine ASQ Twist `50%` ✅, `Q684` `60%` ✅, `Q685` Bayes Recognition ✅ — conquered right after learning the 4-step 1,000-item box!)
+  - **Bayes' Theorem:** **`5 / 5 = 100%`!!** (`Q681` `80%` ✅, `Q682` `25%` ✅ [typo credited!], `Q683` 2-Machine ASQ Twist `50%` ✅, `Q684` `60%` ✅, `Q685` Bayes Recognition ✅ — conquered 100% in ONE round using the 4-step 1,000-item box!)
   - **Permutation & Combination:** **`3 / 3 = 100%` (`5 / 5` IN A ROW!!)** (`Q688` `120` ✅, `Q689` `20` ✅, `Q690` `42` ✅ — MASTERED!)
-- **Missed (`❌` — `3` Qs):** `Q682` (Bayes `90 / (90 + 270) = 90 / 360 = 25%` = **A**, picked C `30%`), `Q686` (`%StudyVar 50% -> %Contribution 25% Unacceptable` = **B**, picked C `50%`), `Q687` (`%StudyVar 10% -> %Contribution 1%` = **A**, picked B `10%` — delivered 1-second "Drop the Zero & Square the Front Digit" trick: `10->1, 20->4, 30->9, 40->16, 50->25`!).
+- **Only 2 Misses (`❌` — Same 1-Sec Trick!):** `Q686` (`%StudyVar 50% -> %Contribution 25% Unacceptable` = **B**, picked C `50%`), `Q687` (`%StudyVar 10% -> %Contribution 1%` = **A**, picked B `10%` — delivered 1-second "Drop the Zero & Square the Front Digit" trick: `10->1, 20->4, 30->9, 40->16, 50->25`!).
