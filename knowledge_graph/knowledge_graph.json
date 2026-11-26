@@ -1,9 +1,9 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-26T20:28:13.243218+00:00",
+    "generated_at": "2026-11-26T20:31:08.688638+00:00",
     "total_files_indexed": 128,
-    "total_nodes": 1187,
+    "total_nodes": 1186,
     "total_edges": 3200,
     "node_type_counts": {
       "chat_session": 6,
@@ -12,7 +12,7 @@
       "document_file": 72,
       "document_section": 464,
       "html_template": 1,
-      "topic_entity": 542
+      "topic_entity": 541
     }
   },
   "last_change_check": {
@@ -27,15 +27,15 @@
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 28,
-      "nodes_deleted": 17,
-      "edges_upserted": 40,
-      "edges_deleted": 36,
+      "nodes_upserted": 4,
+      "nodes_deleted": 2,
+      "edges_upserted": 18,
+      "edges_deleted": 6,
       "wiki_pages_upserted": 0,
       "wiki_pages_deleted": 0,
       "files_upserted": 2,
       "files_deleted": 0,
-      "total_nodes_in_db": 1187,
+      "total_nodes_in_db": 1186,
       "total_edges_in_db": 3200,
       "total_files_tracked": 129
     }
@@ -1157,7 +1157,7 @@
       "id": "topic:apps",
       "type": "topic_entity",
       "name": "apps",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job71_Reddit_8359289_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'apps' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "apps"
@@ -14391,8 +14391,8 @@
         "topics": [
           "applied",
           "manager",
-          "rejected",
           "active",
+          "rejected",
           "pure",
           "nasdaq",
           "remote",
@@ -14671,16 +14671,6 @@
       }
     },
     {
-      "id": "topic:review",
-      "type": "topic_entity",
-      "name": "review",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'review' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "review"
-      }
-    },
-    {
       "id": "topic:sunnyvale",
       "type": "topic_entity",
       "name": "sunnyvale",
@@ -14691,13 +14681,23 @@
       }
     },
     {
-      "id": "topic:right",
+      "id": "topic:review",
       "type": "topic_entity",
-      "name": "right",
+      "name": "review",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'review' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "right"
+        "keyword": "review"
+      }
+    },
+    {
+      "id": "topic:thanksgiving",
+      "type": "topic_entity",
+      "name": "thanksgiving",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'thanksgiving' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "thanksgiving"
       }
     },
     {
@@ -14715,52 +14715,22 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (1748 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (1749 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 1748,
+        "turn_count": 1749,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
           "lockheed",
           "clearance",
-          "review",
           "sunnyvale",
-          "right",
+          "review",
+          "business",
           "supply",
-          "apply",
-          "business"
-        ]
-      }
-    },
-    {
-      "id": "topic:exact",
-      "type": "topic_entity",
-      "name": "exact",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'exact' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "exact"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S5008",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S5008 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S5008] **The exact OPPOSITE of bad \u2014 that is GREAT news, Cathy!!** Look at the 3 statuses right on your own Lockheed screen: - Untouched apps say **`Thank you for applying.`** - Closed apps say **`Rejected`** - **ONLY `Job ID: ",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 5008,
-        "role": "assistant",
-        "created_at": "2026-11-26T20:16:44Z",
-        "content_excerpt": "**The exact OPPOSITE of bad \u2014 that is GREAT news, Cathy!!**\n\nLook at the 3 statuses right on your own Lockheed screen:\n- Untouched apps say **`Thank you for applying.`**\n- Closed apps say **`Rejected`**\n- **ONLY `Job ID: 13013 (E3)`** says **`We are currently reviewing all applications.`** \u2014 which is Lockheed Eightfold's exact status right after Christian unlocks your Stage-2 forms and **advances your resume to Hiring Manager review!**\n\nSo **`13013 (E3)` did NOT disappear at all** \u2014 you are actively in review on **BOTH `13013 (E3)` AND `23028 (E4)`** at Lockheed Martin Space right now!\n\nNow go knock out **Job #10 of 10 (`Dexcom JR121815` \u2014 Remote California, `156K\u2013260K USD`)** right above and drop your screenshot to lock in **`10 / 10`!**",
-        "topics": [
-          "right",
-          "lockheed",
-          "apps",
-          "exact"
+          "thanksgiving",
+          "apply"
         ]
       }
     },
@@ -14965,16 +14935,6 @@
       }
     },
     {
-      "id": "topic:thanksgiving",
-      "type": "topic_entity",
-      "name": "thanksgiving",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'thanksgiving' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "thanksgiving"
-      }
-    },
-    {
       "id": "chat_turn:b6556366:S5031",
       "type": "chat_turn",
       "name": "Chat b6556366 Turn S5031 (assistant)",
@@ -15151,6 +15111,26 @@
           "analyst",
           "application",
           "best"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5052",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5052 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S5052] **`12 / 10` THANKSGIVING HOLIDAY SPRINT COMPLETE, CATHY!!** Logged **Lockheed Martin `567` (*ERP Business Analyst Stf - E4*, 100% Full-Time Remote, NO Clearance)** -> **`Application Received`**! - **Grand Totals:** **`10",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 5052,
+        "role": "assistant",
+        "created_at": "2026-11-26T20:28:18Z",
+        "content_excerpt": "**`12 / 10` THANKSGIVING HOLIDAY SPRINT COMPLETE, CATHY!!** Logged **Lockheed Martin `567` (*ERP Business Analyst Stf - E4*, 100% Full-Time Remote, NO Clearance)** -> **`Application Received`**!\n\n- **Grand Totals:** **`107` Total Tracked = `84` Active, `23` Rejected** (`22` Lockheed IDs indexed + **BOTH `13013` E3 & `23028` E4** active with Christian Sieg!)\n- Synced [SHARED_SESSION_STATE.md](file:///home/krithika/workspace/ASQ-BB-Exam/chats/SHARED_SESSION_STATE.md#L152-L169) and pushed **`6e0f398`** to `main`: **`1,187` nodes** | **`3,200` edges** | **`1,187` vectors** (`0` mojibake, `0` vulnerabilities).\n\nWhat a productive Thanksgiving morning \u2014 go enjoy your family and your warm vegetarian feast! Just say the word whenever you're ready later for **`Q701`\u2013`Q710`** (hitting **`1,000` uniqu",
+        "topics": [
+          "active",
+          "lockheed",
+          "shared_session_state",
+          "thanksgiving"
         ]
       }
     },
@@ -15520,6 +15500,16 @@
       "description": "Shared domain topic 'codes' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "codes"
+      }
+    },
+    {
+      "id": "topic:exact",
+      "type": "topic_entity",
+      "name": "exact",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'exact' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "exact"
       }
     },
     {
@@ -38641,7 +38631,7 @@
       "target": "topic:applied",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 64
+        "count": 65
       }
     },
     {
@@ -38649,7 +38639,15 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 57
+        "count": 58
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 48
       }
     },
     {
@@ -38662,18 +38660,10 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:active",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 47
-      }
-    },
-    {
-      "source": "chat_session:SHAREDSE",
       "target": "topic:pure",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 43
+        "count": 44
       }
     },
     {
@@ -38681,7 +38671,7 @@
       "target": "topic:nasdaq",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 36
+        "count": 37
       }
     },
     {
@@ -38947,7 +38937,7 @@
       "target": "topic:applied",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 64
+        "count": 65
       }
     },
     {
@@ -38955,7 +38945,7 @@
       "target": "topic:manager",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 57
+        "count": 58
       }
     },
     {
@@ -38971,7 +38961,7 @@
       "target": "topic:active",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 43
+        "count": 44
       }
     },
     {
@@ -38985,7 +38975,7 @@
       "target": "topic:lockheed",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 13
+        "count": 12
       }
     },
     {
@@ -38993,15 +38983,7 @@
       "target": "topic:clearance",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 10
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:review",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 10
+        "count": 11
       }
     },
     {
@@ -39014,10 +38996,18 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:right",
+      "target": "topic:review",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 9
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:business",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
       }
     },
     {
@@ -39030,57 +39020,19 @@
     },
     {
       "source": "chat_session:b6556366",
+      "target": "topic:thanksgiving",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
       "target": "topic:apply",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 7
       }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:business",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5008",
-      "target": "topic:right",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5008",
-      "target": "topic:lockheed",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5008",
-      "target": "topic:apps",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5008",
-      "target": "topic:exact",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S5008",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
     },
     {
       "source": "chat_turn:b6556366:S5019",
@@ -39497,6 +39449,44 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S5045",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S5052",
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5052",
+      "target": "topic:lockheed",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5052",
+      "target": "topic:shared_session_state",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5052",
+      "target": "topic:thanksgiving",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S5052",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -41009,7 +40999,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "dd6ce062f34c816087d81af5f057ed60384446a6af546711c6a49b4a1764faa0",
+    "chats/SHARED_SESSION_STATE.md": "f3ae83cae25bb2824b38f31b733761facff93bd43d0e3366c5af065e481bf6ea",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -41026,6 +41016,6 @@
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "2a1bb9c3ca2446d5301c4b1e215eadbf284f5c69ef5a780ebc3b10e59b5cee5c"
+    "repo.md": "d01f16f65b5bc3d49487fe9c69398504fb42b3cdc3b1ab3b09a868929282a006"
   }
 }
