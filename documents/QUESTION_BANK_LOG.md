@@ -465,3 +465,10 @@
 ## Round 42 — Muscle-Memory Repetition Lock-In (`%Contribution/%StudyVar`, `Cp/Cpk`, `Permu/Combi` — `Q651`–`Q660` — 2026-11-25 | Score: `5 / 10 = 50.0%` | Cumulative `753 / 950 = 79.3%` — `950` UNIQUE Qs!)
 - **Nailed (`✅` — `5` Qs!!):** `Q651` (**`%Contribution = 9%` — FIXED!**), `Q653` (**`%StudyVar 20% -> %Contribution 4%` — FIXED!**), `Q657` (**`Cp 1.75 / Cpk 0.80` -> Re-center first — NAILED!**), `Q659` (**Permutation `20` — FIXED!**), `Q660` (**Combination `10` — `2/2 = 100%` on Permu/Combi!**).
 - **Missed (`❌` — `5` Qs — Exact Root Cause Diagnosed!):** `Q652` (`%StudyVar` no squaring = **B. `20%`**, picked A `4%` over-squared), `Q654` (`VarComp` already squared = **D. `5%`**, picked C `25%` squared twice), `Q655` (`%Contribution = 12% > 9%` = **C. Unacceptable**, picked B Marginal using 10–30% rule), `Q656` (Mean shift -> **B. `Cpk` drops, `Cp` unchanged**, picked A), `Q658` (Centered + spread doubles -> **D. Both `Cp` and `Cpk` drop**, picked A — gave exact "Look Inside the Formula: `Cp` has ONLY `sigma`, `Cpk` has BOTH `Mean` & `sigma`" eureka rule!).
+
+## Round 43 — Weak-Topics Repetition Lock-In (`Q661`–`Q670` — 2026-11-25 | Score: `9 / 10 = 90.0%`!! | Cumulative `762 / 960 = 79.4%` — `960` UNIQUE Qs!)
+- **MASSIVE BREAKTHROUGH (`9 / 10 = 90.0%`!!):**
+  - **Gage R&R (`%StudyVar`, `%Contribution`, `VarComp`, AIAG):** **`4 / 4 = 100%`!!** (`Q661`, `Q662`, `Q663`, `Q664` — ALL FIXED!)
+  - **`Cp / Cpk` (Mean shift, Spread widens, Mean > USL negative `Cpk`):** **`3 / 3 = 100%`!!** (`Q665`, `Q666`, `Q667` — ALL FIXED!)
+  - **Permutation & Combination:** `2 / 3` (`Q668` Permutation `30` ✅, `Q669` Combination `15` ✅).
+- **Only 1 Miss (`❌`):** `Q670` (`V.E.1` 3 distinct seats [Carrier Lead, Rate Auditor, Claims Coordinator] from 5 = **C. Permutation `60`** no divide, picked A `10` which divided by `3! = 6`).
