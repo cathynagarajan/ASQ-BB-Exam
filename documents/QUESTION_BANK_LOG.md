@@ -487,3 +487,11 @@
   - **Bayes' Theorem:** **`5 / 5 = 100%`!!** (`Q681` `80%` ✅, `Q682` `25%` ✅ [typo credited!], `Q683` 2-Machine ASQ Twist `50%` ✅, `Q684` `60%` ✅, `Q685` Bayes Recognition ✅ — conquered 100% in ONE round using the 4-step 1,000-item box!)
   - **Permutation & Combination:** **`3 / 3 = 100%` (`5 / 5` IN A ROW!!)** (`Q688` `120` ✅, `Q689` `20` ✅, `Q690` `42` ✅ — MASTERED!)
 - **Only 2 Misses (`❌` — Same 1-Sec Trick!):** `Q686` (`%StudyVar 50% -> %Contribution 25% Unacceptable` = **B**, picked C `50%`), `Q687` (`%StudyVar 10% -> %Contribution 1%` = **A**, picked B `10%` — delivered 1-second "Drop the Zero & Square the Front Digit" trick: `10->1, 20->4, 30->9, 40->16, 50->25`!).
+
+## Round 46 — Block 3 of 3: Final Weak-Topics Lock-In (`Q691`–`Q700` — 2026-11-25 | Score: `7 / 10 = 70.0%` [`10 / 10` ON ALL MATH!] | Cumulative `786 / 990 = 79.4%` — `990` UNIQUE Qs!)
+- **MASSIVE STREAKS LOCKED IN (`10 / 10` ON EVERY SINGLE CALCULATION!!):**
+  - **`Cp / Cpk / Pp`:** **`2 / 2` (`8 / 8 = 100%` STREAK!!)** (`Q697` Tightened specs -> Both drop ✅; `Q698` Between-shift drift -> `Cp >> Pp` ✅).
+  - **Permutation & Combination:** **`2 / 2` (`7 / 7 = 100%` STREAK!!)** (`Q699` Gold/Silver/Bronze `60` ✅; `Q700` Unnamed pair `21` ✅).
+  - **Bayes' Theorem:** `2 / 3` (`Q694` `75%` ✅, `Q695` `50%` ✅; `Q696` computed both `30%` & `70%` cleanly, just read Supplier X instead of Supplier Y!).
+  - **`%Contribution` Math:** **`3 / 3 = 100%` ON THE MATH!!** (`Q691` `9%` ✅; `Q692` got `4%` right; `Q693` got `14%` right!).
+- **Missed Labels / Read Slip (`❌` — `3` Qs):** `Q692` (`4%` `%Contribution` is `1%–9%` = **A. Marginal**, picked C `4% Acceptable`), `Q693` (`14%` `%Contribution` is `> 9%` = **D. Unacceptable**, picked B `14% Marginal`), `Q696` (Asked for **Supplier Y** = **D. `70%`**, picked B `30%` Supplier X).
