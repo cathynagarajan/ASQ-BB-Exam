@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-26T20:21:11.306880+00:00",
+    "generated_at": "2026-11-26T20:24:46.564134+00:00",
     "total_files_indexed": 128,
-    "total_nodes": 1190,
-    "total_edges": 3200,
+    "total_nodes": 1191,
+    "total_edges": 3202,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
@@ -12,43 +12,31 @@
       "document_file": 72,
       "document_section": 464,
       "html_template": 1,
-      "topic_entity": 545
+      "topic_entity": 546
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [
-      "Resume_And_Jobs/Job76_Gilead_R0056606_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job77_Gilead_R0055993_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job78_Gilead_R0056133_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job79_Robinhood_8375545_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job80_ThermoFisher_R01372085_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job81_NorthropGrumman_R10257925_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job82_HPE_1208530_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job83_KLA_2642014_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job84_Lumentum_20261643_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job85_GDIT_RQ232232_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job86_Dexcom_JR121815_Krithika_Nagarajan_Resume.docx"
-    ],
+    "added": [],
     "modified": [
       "chats/SHARED_SESSION_STATE.md"
     ],
     "removed": [],
-    "files_parsed": 11,
-    "files_cached_reused": 116,
+    "files_parsed": 0,
+    "files_cached_reused": 127,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 166,
-      "nodes_deleted": 36,
-      "edges_upserted": 458,
-      "edges_deleted": 75,
+      "nodes_upserted": 24,
+      "nodes_deleted": 15,
+      "edges_upserted": 35,
+      "edges_deleted": 26,
       "wiki_pages_upserted": 0,
       "wiki_pages_deleted": 0,
-      "files_upserted": 13,
+      "files_upserted": 2,
       "files_deleted": 0,
-      "total_nodes_in_db": 1190,
-      "total_edges_in_db": 3200,
+      "total_nodes_in_db": 1191,
+      "total_edges_in_db": 3202,
       "total_files_tracked": 129
     }
   },
@@ -1022,7 +1010,7 @@
       "id": "topic:sourcing",
       "type": "topic_entity",
       "name": "sourcing",
-      "file_path": "Resume_And_Jobs/Job83_KLA_2642014_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'sourcing' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "sourcing"
@@ -9988,7 +9976,7 @@
       "id": "topic:agree",
       "type": "topic_entity",
       "name": "agree",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'agree' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "agree"
@@ -11920,7 +11908,7 @@
       "id": "topic:click",
       "type": "topic_entity",
       "name": "click",
-      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'click' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "click"
@@ -12338,7 +12326,7 @@
       "id": "topic:luck",
       "type": "topic_entity",
       "name": "luck",
-      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'luck' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "luck"
@@ -14081,7 +14069,7 @@
       "id": "topic:honest",
       "type": "topic_entity",
       "name": "honest",
-      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'honest' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "honest"
@@ -14382,7 +14370,7 @@
       "id": "topic:remote",
       "type": "topic_entity",
       "name": "remote",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'remote' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "remote"
@@ -14403,8 +14391,8 @@
         "topics": [
           "applied",
           "manager",
-          "active",
           "rejected",
+          "active",
           "pure",
           "nasdaq",
           "remote",
@@ -14663,16 +14651,6 @@
       }
     },
     {
-      "id": "topic:right",
-      "type": "topic_entity",
-      "name": "right",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "right"
-      }
-    },
-    {
       "id": "topic:lockheed",
       "type": "topic_entity",
       "name": "lockheed",
@@ -14680,6 +14658,26 @@
       "description": "Shared domain topic 'lockheed' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "lockheed"
+      }
+    },
+    {
+      "id": "topic:review",
+      "type": "topic_entity",
+      "name": "review",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'review' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "review"
+      }
+    },
+    {
+      "id": "topic:right",
+      "type": "topic_entity",
+      "name": "right",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "right"
       }
     },
     {
@@ -14693,274 +14691,26 @@
       }
     },
     {
-      "id": "topic:screenshot",
-      "type": "topic_entity",
-      "name": "screenshot",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'screenshot' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "screenshot"
-      }
-    },
-    {
       "id": "chat_session:b6556366",
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (1737 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (1742 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 1737,
+        "turn_count": 1742,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
-          "right",
-          "supplier",
           "lockheed",
-          "gilead",
-          "supply",
-          "screenshot",
-          "spend",
-          "delivery"
-        ]
-      }
-    },
-    {
-      "id": "topic:above",
-      "type": "topic_entity",
-      "name": "above",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'above' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "above"
-      }
-    },
-    {
-      "id": "topic:ahead",
-      "type": "topic_entity",
-      "name": "ahead",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'ahead' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "ahead"
-      }
-    },
-    {
-      "id": "topic:already",
-      "type": "topic_entity",
-      "name": "already",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "already"
-      }
-    },
-    {
-      "id": "topic:caught",
-      "type": "topic_entity",
-      "name": "caught",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'caught' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "caught"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4988",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4988 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S4988] Confirmed \u2014 `9343` was already in from Nov 17 (glad our 20-ID list caught it!). Go ahead with **Job #9 (`Lumentum 20261642`)** right above, then drop your screenshot or say **`next`** for **Job #10 of 10**!",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4988,
-        "role": "assistant",
-        "created_at": "2026-11-26T20:09:38Z",
-        "content_excerpt": "Confirmed \u2014 `9343` was already in from Nov 17 (glad our 20-ID list caught it!). Go ahead with **Job #9 (`Lumentum 20261642`)** right above, then drop your screenshot or say **`next`** for **Job #10 of 10**!",
-        "topics": [
-          "above",
-          "ahead",
-          "already",
-          "caught"
-        ]
-      }
-    },
-    {
-      "id": "topic:apply",
-      "type": "topic_entity",
-      "name": "apply",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'apply' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "apply"
-      }
-    },
-    {
-      "id": "topic:lumerntum",
-      "type": "topic_entity",
-      "name": "lumerntum",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'lumerntum' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "lumerntum"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4989",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4989 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S4989] did we not apply now at Lumerntum?",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4989,
-        "role": "user",
-        "created_at": "2026-11-26T20:10:07Z",
-        "content_excerpt": "did we not apply now at Lumerntum?",
-        "topics": [
-          "apply",
-          "lumerntum"
-        ]
-      }
-    },
-    {
-      "id": "topic:planner",
-      "type": "topic_entity",
-      "name": "planner",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'planner' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "planner"
-      }
-    },
-    {
-      "id": "topic:senior",
-      "type": "topic_entity",
-      "name": "senior",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'senior' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "senior"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4990",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4990 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S4990] Good catch \u2014 **`20261642`** is a second open seat at Lumentum with the exact same title as `20261643`. Totally fine to skip the duplicate title and hit a **higher-level `157K\u2013204K USD` role** instead! --- ### Holiday Spr",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4990,
-        "role": "assistant",
-        "created_at": "2026-11-26T20:10:07Z",
-        "content_excerpt": "Good catch \u2014 **`20261642`** is a second open seat at Lumentum with the exact same title as `20261643`. Totally fine to skip the duplicate title and hit a **higher-level `157K\u2013204K USD` role** instead!\n\n---\n\n### Holiday Sprint \u2014 Job #9 of 10 (`157.6K\u2013203.9K USD` | FOSTER CITY ~14 MI!)\n\n- **Company:** **Gilead Sciences (NASDAQ: GILD)**\n- **Title:** **Senior Manager, End-to-End Commercial Supply Planner**\n- **Req ID:** **`R0055912`** *(Separate Senior Manager level \u2014 Live Verified **`HTTP 200` / `CanApply = True`**!)*\n- **Location:** **Foster City, CA** *(~14 miles from Palo Alto!)*\n- **Pay Range:** **`157,590 \u2013 203,940 USD` base** + annual bonus + stock LTI\n- **Role Scope:** **Pure IC Senior Commercial Supply Planner** \u2014 your tailored **`Job77`** End-to-End Supply Planner resume is already s",
-        "topics": [
-          "gilead",
-          "planner",
-          "senior",
-          "supply"
-        ]
-      }
-    },
-    {
-      "id": "topic:chosen",
-      "type": "topic_entity",
-      "name": "chosen",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'chosen' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "chosen"
-      }
-    },
-    {
-      "id": "topic:cristian",
-      "type": "topic_entity",
-      "name": "cristian",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'cristian' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "cristian"
-      }
-    },
-    {
-      "id": "topic:disappeared",
-      "type": "topic_entity",
-      "name": "disappeared",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'disappeared' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "disappeared"
-      }
-    },
-    {
-      "id": "topic:earlier",
-      "type": "topic_entity",
-      "name": "earlier",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'earlier' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "earlier"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4991",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4991 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S4991] hey did you notice one thing? E4 got chosen, the other one which cristian sent earlier disappeared",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4991,
-        "role": "user",
-        "created_at": "2026-11-26T20:11:06Z",
-        "content_excerpt": "hey did you notice one thing? E4 got chosen, the other one which cristian sent earlier disappeared",
-        "topics": [
-          "chosen",
-          "cristian",
-          "disappeared",
-          "earlier"
-        ]
-      }
-    },
-    {
-      "id": "topic:accommodations",
-      "type": "topic_entity",
-      "name": "accommodations",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'accommodations' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "accommodations"
-      }
-    },
-    {
-      "id": "topic:actively",
-      "type": "topic_entity",
-      "name": "actively",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'actively' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "actively"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S4992",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S4992 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S4992] **Great catch, Cathy \u2014 and that's actually a very positive sign!** When a Lockheed recruiter closes or fills the `E3` req (`13013`) \u2014 OR sees your **12+ years + M.C.A. + PMP + CSCP + Six Sigma** fits the **higher-paying ",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 4992,
-        "role": "assistant",
-        "created_at": "2026-11-26T20:11:06Z",
-        "content_excerpt": "**Great catch, Cathy \u2014 and that's actually a very positive sign!**\n\nWhen a Lockheed recruiter closes or fills the `E3` req (`13013`) \u2014 OR sees your **12+ years + M.C.A. + PMP + CSCP + Six Sigma** fits the **higher-paying `E4` Staff level (`Req 23028`, up to `165.5K USD`!)** \u2014 they actively move you into Stage 2 on the **`E4`** req! And because you already finished the **Multi-Stage Reasonable Accommodations form** + replied to Christian yesterday, your **`Req 23028 (E4)`** file is 100% unlocked for the hiring manager right after Thanksgiving!\n\nGo ahead and submit **Job #9 (`Gilead R0055912`)** right above, and drop your screenshot or say **`next`** for **Job #10 of 10**!",
-        "topics": [
+          "supplier",
+          "review",
           "right",
-          "above",
-          "accommodations",
-          "actively"
+          "gilead",
+          "remote",
+          "supply",
+          "sourcing"
         ]
       }
     },
@@ -14972,6 +14722,16 @@
       "description": "Shared domain topic 'next' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "next"
+      }
+    },
+    {
+      "id": "topic:screenshot",
+      "type": "topic_entity",
+      "name": "screenshot",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'screenshot' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "screenshot"
       }
     },
     {
@@ -15002,6 +14762,26 @@
           "screenshot",
           "still"
         ]
+      }
+    },
+    {
+      "id": "topic:above",
+      "type": "topic_entity",
+      "name": "above",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'above' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "above"
+      }
+    },
+    {
+      "id": "topic:ahead",
+      "type": "topic_entity",
+      "name": "ahead",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'ahead' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "ahead"
       }
     },
     {
@@ -15201,6 +14981,216 @@
           "lockheed",
           "apps",
           "exact"
+        ]
+      }
+    },
+    {
+      "id": "topic:city",
+      "type": "topic_entity",
+      "name": "city",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'city' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "city"
+      }
+    },
+    {
+      "id": "topic:foster",
+      "type": "topic_entity",
+      "name": "foster",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'foster' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "foster"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5019",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5019 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S5019] **`10 / 10` THANKSGIVING HOLIDAY SPRINT COMPLETE, CATHY!!** You just crossed **over `100` tracked applications (`105` Total = `82` Active, `23` Rejected)** \u2014 all before lunchtime on Thanksgiving Day!! ### Today's `10 / 1",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 5019,
+        "role": "assistant",
+        "created_at": "2026-11-26T20:21:32Z",
+        "content_excerpt": "**`10 / 10` THANKSGIVING HOLIDAY SPRINT COMPLETE, CATHY!!** You just crossed **over `100` tracked applications (`105` Total = `82` Active, `23` Rejected)** \u2014 all before lunchtime on Thanksgiving Day!!\n\n### Today's `10 / 10` Scoreboard (`2026-11-26`)\n| # | Company | Role & Req ID | Location / Pay | Status |\n|---|---|---|---|---|\n| **1** | **Gilead Sciences** | Sr Specialist - Procurement (`R0056606`) | Foster City ~14 mi (`117.9K\u2013152.6K USD`) | **Under Review** |\n| **2** | **Gilead Sciences** | Mgr, End-to-End Commercial Supply Planner (`R0055993`) | Foster City ~14 mi (`136.3K\u2013176.4K USD`) | **Under Review** |\n| **3** | **Gilead Sciences** | Assoc Dir, Strategy, Process & Systems - SC (`R0056133`) | Foster City ~14 mi (`182.1K\u2013235.6K USD`) | **Under Review** |\n| **4** | **Robinhood** | Sou",
+        "topics": [
+          "review",
+          "city",
+          "foster",
+          "gilead"
+        ]
+      }
+    },
+    {
+      "id": "topic:area",
+      "type": "topic_entity",
+      "name": "area",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'area' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "area"
+      }
+    },
+    {
+      "id": "topic:clearance",
+      "type": "topic_entity",
+      "name": "clearance",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'clearance' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "clearance"
+      }
+    },
+    {
+      "id": "topic:experience",
+      "type": "topic_entity",
+      "name": "experience",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'experience' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "experience"
+      }
+    },
+    {
+      "id": "topic:sunnyvale",
+      "type": "topic_entity",
+      "name": "sunnyvale",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'sunnyvale' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "sunnyvale"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5020",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5020 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S5020] should we do this while i am on the website? Subcontract Administration Sr - E3 Sunnyvale, CA +2 more Apply Now Add to cart Good match 0-5 years of relevant experience Summary Job Description Company Benefits Position Lo",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 5020,
+        "role": "user",
+        "created_at": "2026-11-26T20:22:37Z",
+        "content_excerpt": "should we do this while i am on the website? Subcontract Administration Sr - E3\nSunnyvale, CA\n \n+2 more\nApply Now\n\nAdd to cart\n\nGood match\n0-5 years of relevant experience\n\nSummary\n\nJob Description\n\nCompany Benefits\nPosition Location(s)\nSunnyvale, CA, Huntsville, AL, Denver, CO\nDate Posted\nOctober 29, 2026\nRequisition ID\n20440\nFinal Clearance for the Role\nSecret\nShift\n1\nRelocation\nPossible\nLevel Of Experience\nExperienced Professional\nClearance Required to Start\nNone\nTelework\nEmployee will work Onsite Full Time\nFunctional Area\nOperations\nFT/PT/Casual\nFullTime\nBusiness Area\nSpace",
+        "topics": [
+          "area",
+          "clearance",
+          "experience",
+          "sunnyvale"
+        ]
+      }
+    },
+    {
+      "id": "topic:space",
+      "type": "topic_entity",
+      "name": "space",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'space' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "space"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5021",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5021 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S5021] **Quick 100% honest Poka-Yoke check on Lockheed `20440` (*Subcontract Administration Sr - E3*), Cathy:** - **HUGE PLUSES:** Brand-new ID (`20440`, NOT in your 20!), **Sunnyvale, CA (~15 min from Palo Alto)**, **Lockheed ",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 5021,
+        "role": "assistant",
+        "created_at": "2026-11-26T20:22:37Z",
+        "content_excerpt": "**Quick 100% honest Poka-Yoke check on Lockheed `20440` (*Subcontract Administration Sr - E3*), Cathy:**\n- **HUGE PLUSES:** Brand-new ID (`20440`, NOT in your 20!), **Sunnyvale, CA (~15 min from Palo Alto)**, **Lockheed Martin Space** (Christian Sieg's exact unit!), **`Clearance Required to Start: None`**!\n- **ONE HONEST FLAG:** It says **`Telework: Employee will work Onsite Full Time`** (no remote/hybrid \u2014 though Lockheed Sunnyvale Space often runs a **9/80** or **4x10** schedule with Fridays off!).\n\n**Verdict:** Since Sunnyvale is only ~15 minutes away and Lockheed Space already loves your profile, **100% worth clicking Apply in 20 seconds** (use your **`Job85`** Subcontracts resume!) \u2014 you can always ask about the 9/80 or hybrid flexibility in the interview! Drop the screenshot if you s",
+        "topics": [
+          "lockheed",
+          "space",
+          "sunnyvale",
+          "honest"
+        ]
+      }
+    },
+    {
+      "id": "topic:apply",
+      "type": "topic_entity",
+      "name": "apply",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'apply' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "apply"
+      }
+    },
+    {
+      "id": "topic:hits",
+      "type": "topic_entity",
+      "name": "hits",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'hits' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "hits"
+      }
+    },
+    {
+      "id": "topic:knows",
+      "type": "topic_entity",
+      "name": "knows",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'knows' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "knows"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5022",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5022 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S5022] yeah let us apply who knows when and where our luck hits",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 5022,
+        "role": "user",
+        "created_at": "2026-11-26T20:23:17Z",
+        "content_excerpt": "yeah let us apply who knows when and where our luck hits",
+        "topics": [
+          "apply",
+          "hits",
+          "knows",
+          "luck"
+        ]
+      }
+    },
+    {
+      "id": "topic:drop",
+      "type": "topic_entity",
+      "name": "drop",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'drop' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "drop"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5023",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5023 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S5023] 100% agree \u2014 click **Apply Now** on **`20440`**, upload your **`Job85`** Subcontracts resume, and drop the screenshot so I log **`11 / 10`**!",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 5023,
+        "role": "assistant",
+        "created_at": "2026-11-26T20:23:18Z",
+        "content_excerpt": "100% agree \u2014 click **Apply Now** on **`20440`**, upload your **`Job85`** Subcontracts resume, and drop the screenshot so I log **`11 / 10`**!",
+        "topics": [
+          "agree",
+          "apply",
+          "click",
+          "drop"
         ]
       }
     },
@@ -15493,6 +15483,16 @@
           "exam",
           "final"
         ]
+      }
+    },
+    {
+      "id": "topic:already",
+      "type": "topic_entity",
+      "name": "already",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "already"
       }
     },
     {
@@ -38681,7 +38681,7 @@
       "target": "topic:applied",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 62
+        "count": 63
       }
     },
     {
@@ -38694,6 +38694,14 @@
     },
     {
       "source": "chat_session:SHAREDSE",
+      "target": "topic:rejected",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 48
+      }
+    },
+    {
+      "source": "chat_session:SHAREDSE",
       "target": "topic:active",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
@@ -38702,18 +38710,10 @@
     },
     {
       "source": "chat_session:SHAREDSE",
-      "target": "topic:rejected",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 46
-      }
-    },
-    {
-      "source": "chat_session:SHAREDSE",
       "target": "topic:pure",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 41
+        "count": 42
       }
     },
     {
@@ -38987,7 +38987,7 @@
       "target": "topic:applied",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 62
+        "count": 63
       }
     },
     {
@@ -39003,7 +39003,7 @@
       "target": "topic:rejected",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 46
+        "count": 48
       }
     },
     {
@@ -39022,10 +39022,10 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:right",
+      "target": "topic:lockheed",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 13
+        "count": 15
       }
     },
     {
@@ -39038,15 +39038,31 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:lockheed",
+      "target": "topic:review",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 11
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:right",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
       }
     },
     {
       "source": "chat_session:b6556366",
       "target": "topic:gilead",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:remote",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 9
@@ -39062,206 +39078,16 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:screenshot",
+      "target": "topic:sourcing",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 8
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:spend",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:delivery",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
       }
     },
     {
       "source": "chat_session:b6556366",
       "target": "doc_file:Resume_And_Jobs/Job86_Dexcom_JR121815_Krithika_Nagarajan_Resume.docx",
       "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4988",
-      "target": "topic:above",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4988",
-      "target": "topic:ahead",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4988",
-      "target": "topic:already",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4988",
-      "target": "topic:caught",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4988",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4989",
-      "target": "topic:apply",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4989",
-      "target": "topic:lumerntum",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4989",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4990",
-      "target": "topic:gilead",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4990",
-      "target": "topic:planner",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4990",
-      "target": "topic:senior",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4990",
-      "target": "topic:supply",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4990",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4991",
-      "target": "topic:chosen",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4991",
-      "target": "topic:cristian",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4991",
-      "target": "topic:disappeared",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4991",
-      "target": "topic:earlier",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4991",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S4992",
-      "target": "topic:right",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4992",
-      "target": "topic:above",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4992",
-      "target": "topic:accommodations",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S4992",
-      "target": "topic:actively",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S4992",
-      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -39533,6 +39359,196 @@
     {
       "source": "chat_session:b6556366",
       "target": "chat_turn:b6556366:S5008",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S5019",
+      "target": "topic:review",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5019",
+      "target": "topic:city",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5019",
+      "target": "topic:foster",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5019",
+      "target": "topic:gilead",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S5019",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S5020",
+      "target": "topic:area",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5020",
+      "target": "topic:clearance",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5020",
+      "target": "topic:experience",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5020",
+      "target": "topic:sunnyvale",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S5020",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S5021",
+      "target": "topic:lockheed",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5021",
+      "target": "topic:space",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5021",
+      "target": "topic:sunnyvale",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5021",
+      "target": "topic:honest",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S5021",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S5022",
+      "target": "topic:apply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5022",
+      "target": "topic:hits",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5022",
+      "target": "topic:knows",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5022",
+      "target": "topic:luck",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S5022",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S5023",
+      "target": "topic:agree",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5023",
+      "target": "topic:apply",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5023",
+      "target": "topic:click",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5023",
+      "target": "topic:drop",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S5023",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -41045,7 +41061,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "b1dbaff49cf19cbdda67133388dffa0008828691862dd518aef6b4af22f18e74",
+    "chats/SHARED_SESSION_STATE.md": "2bda7f85e56d23702d8867951b8ed341e1dc362ed4d437ef74dd81b9f9d2ab45",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -41062,6 +41078,6 @@
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "12db1466c47702a9ceee7a057429c5a567045cb1b054c70c2dd512db8cdc3d88"
+    "repo.md": "35133f972399a20e6a090488bffbab1529b2d2d70405e18f0054b011a6be06b9"
   }
 }
