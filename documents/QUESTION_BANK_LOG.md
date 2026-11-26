@@ -472,3 +472,12 @@
   - **`Cp / Cpk` (Mean shift, Spread widens, Mean > USL negative `Cpk`):** **`3 / 3 = 100%`!!** (`Q665`, `Q666`, `Q667` — ALL FIXED!)
   - **Permutation & Combination:** `2 / 3` (`Q668` Permutation `30` ✅, `Q669` Combination `15` ✅).
 - **Only 1 Miss (`❌`):** `Q670` (`V.E.1` 3 distinct seats [Carrier Lead, Rate Auditor, Claims Coordinator] from 5 = **C. Permutation `60`** no divide, picked A `10` which divided by `3! = 6`).
+
+## Round 44 — Weak-Points New Combos Block 1 of 3 (`Q671`–`Q680` — 2026-11-25 | Score: `9 / 10 = 90.0%` BACK-TO-BACK!! | Cumulative `771 / 970 = 79.5%` — `970` UNIQUE Qs!)
+- **Nailed (`✅` — `9 / 10 = 90.0%` BACK-TO-BACK!!):**
+  - **`Cp / Cpk` New Combos:** **`3 / 3 = 100%` (`6 / 6` IN A ROW!!)** (`Q671` Re-center -> `Cp` unchanged, `Cpk` rises ✅; `Q672` `Mean = USL -> Cpk = 0.00` ✅; `Q673` Specs widened -> Both rise ✅).
+  - **Gage R&R `VarComp`:** `Q675` (`0.5 / 100 = 0.5%` Acceptable ✅).
+  - **Permutation & Combination:** **`2 / 2 = 100%`!!** (`Q676` 3-digit PIN `24` ✅; `Q677` Unnamed group of 3 from 5 `10` ✅).
+  - **Control Chart Picker:** **`2 / 2 = 100%`!!** (`Q678` `p-chart` ✅; `Q679` `u-chart` ✅).
+  - **Bayes' Theorem:** `Q680` (`80%` ✅ — guessed right, requested dedicated 4-step visual template + multiple Bayes practice problems in Block 2!).
+- **Only 1 Miss (`❌`):** `Q674` (`V.C.2` `%StudyVar = 40%` -> **`%Contribution = 0.40^2 = 16%` Unacceptable = `B`**, picked C `40%` forgot to square).
