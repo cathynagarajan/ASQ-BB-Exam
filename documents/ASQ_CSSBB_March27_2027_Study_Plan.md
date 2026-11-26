@@ -2,7 +2,7 @@
 
 - **Target Exam Date:** **Saturday, March 27, 2027 (`8:00 AM – 8:30 AM` morning slot — outside Saturday Rahu Kalam `~10:08–11:41 AM PDT`)**
 - **Target Testing Center:** **San Jose, CA Prometric Testing Center** *(Book immediately upon ASQ approval — Saturday morning slots fill fastest!)*
-- **ASQ Application Action:** Submit ASQ CSSBB exam application in **early December 2026** (6-month approval window through end of May 2027).
+- **ASQ Application Action:** Submit ASQ CSSBB online application + pay `585 USD` (select **`March 1 – 31, 2027`** window; deadline `Feb 8, 2027`) AND email already-signed Champion Project Affidavit to `cert@asq.org` on **`Monday, December 14, 2026 (10:00 AM – 12:30 PM PST)`** *(Subrahmanya Shashthi / Shukla Panchami-Shashthi / Dhanishtha Sampat Tara / 10th House Career Chandrabala — outside Monday morning Rahu Kalam `~8:25–9:40 AM PST`)*.
 - **Auspicious Alignment (Rohini Nakshatra / Vrishabha Rashi / Aug 18):** `Jyeshtha` (`Sadhana` Tara = #1 for Exam Achievement) + **`Siddhi` Yoga** (Mastery/Success) + **7th House Good Chandrabala** + `Krishna Shashthi` + `2 + 7 = 9` (matches Aug 18 `1 + 8 = 9`).
 - **Exam Format:** **165 questions** (150 scored + 15 unscored), **4 hours 18 minutes**, **100% Open-Book** (bound notes/3-ring binder + approved non-programmable calculator), **Strictly 2022 ASQ CSSBB BoK**.
 - **Weekly Study Rhythm:** Daily `10 + 40` gradual open-book practice (10 weak-spot warm-ups + 40 unit questions), Bottom-of-File Word Bible Inbox during the week, and **Sunday 5S Word Bible Sweep** (`10–11 pt` Calibri).
