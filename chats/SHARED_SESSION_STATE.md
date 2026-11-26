@@ -61,7 +61,7 @@
   - **NEVER change Cathy's real employer job titles** (`Transportation Specialist` [2016–Present], `Transportation Data Specialist` [2015–2016], `Transportation & Logistics Specialist` [2014–2015], `EDI / Shipping & Procurement Specialist` [2010–2012])
   - **Established / Stable Employers ONLY** (**NO startups**)
   - **100% Vegetarian-Aligned** — **NO meat, egg, poultry, seafood, or animal-slaughter companies**
-  - **Skipped Employers**: Apple, Applied Materials, Supermicro, Cisco, Cardinal Health (low pay), Vital Farms (eggs); note Thermo Fisher `R-01357010` returned HTTP 410 (closed).
+  - **Employer Blacklist REMOVED (`2026-11-25` Per Cathy):** Do **NOT** maintain a blanket blacklist of established employers (`Apple`, `Applied Materials`, `Cisco`, `HP/HPE`, etc. are ALL re-opened!). Judge EVERY established vegetarian-aligned company strictly on the **role's merits** (`>= 125K USD` base, `100% Remote` or `Hybrid <= 15–20 mi` Palo Alto, Pure IC, Zero-Stretch Bullseye fit). Only block **Lensa** spam aggregators, tiny startups, and meat/egg/poultry/seafood companies (e.g., Vital Farms).
 - **10 Submitted Applications (2026-11-14)**:
   1. **Stanford Health Care** — *Supply Chain Strategic Initiatives PM* (`R2656254`, Palo Alto)
   2. **Stanford Health Care** — *Category Manager – SC Category Mgmt* (`R2659261`, Palo Alto — **Rejected 2026-11-18**)
