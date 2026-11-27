@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-27T05:32:43.906334+00:00",
+    "generated_at": "2026-11-27T06:00:19.103491+00:00",
     "total_files_indexed": 128,
-    "total_nodes": 1176,
-    "total_edges": 3188,
+    "total_nodes": 1185,
+    "total_edges": 3193,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
@@ -12,7 +12,7 @@
       "document_file": 72,
       "document_section": 464,
       "html_template": 1,
-      "topic_entity": 531
+      "topic_entity": 540
     }
   },
   "last_change_check": {
@@ -28,16 +28,16 @@
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 12,
-      "nodes_deleted": 16,
-      "edges_upserted": 24,
-      "edges_deleted": 18,
+      "nodes_upserted": 56,
+      "nodes_deleted": 24,
+      "edges_upserted": 64,
+      "edges_deleted": 56,
       "wiki_pages_upserted": 1,
       "wiki_pages_deleted": 0,
       "files_upserted": 3,
       "files_deleted": 0,
-      "total_nodes_in_db": 1176,
-      "total_edges_in_db": 3188,
+      "total_nodes_in_db": 1185,
+      "total_edges_in_db": 3193,
       "total_files_tracked": 129
     }
   },
@@ -699,7 +699,7 @@
       "id": "topic:cost",
       "type": "topic_entity",
       "name": "cost",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'cost' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cost"
@@ -991,7 +991,7 @@
       "id": "topic:quality",
       "type": "topic_entity",
       "name": "quality",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
       "description": "Shared domain topic 'quality' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "quality"
@@ -8836,7 +8836,7 @@
       "id": "topic:defects",
       "type": "topic_entity",
       "name": "defects",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'defects' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "defects"
@@ -8846,7 +8846,7 @@
       "id": "topic:total",
       "type": "topic_entity",
       "name": "total",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'total' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "total"
@@ -8856,7 +8856,7 @@
       "id": "topic:unit",
       "type": "topic_entity",
       "name": "unit",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
       "description": "Shared domain topic 'unit' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "unit"
@@ -8886,7 +8886,7 @@
       "id": "topic:control",
       "type": "topic_entity",
       "name": "control",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit1_Quality_And_Change_Leaders_Table.docx",
       "description": "Shared domain topic 'control' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "control"
@@ -9146,7 +9146,7 @@
       "id": "topic:chart",
       "type": "topic_entity",
       "name": "chart",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_Sampling_Methods_Quick_Table.docx",
       "description": "Shared domain topic 'chart' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "chart"
@@ -9473,7 +9473,7 @@
       "id": "topic:dpmo",
       "type": "topic_entity",
       "name": "dpmo",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
       "description": "Shared domain topic 'dpmo' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "dpmo"
@@ -9558,7 +9558,7 @@
       "id": "topic:cheat",
       "type": "topic_entity",
       "name": "cheat",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
       "description": "Shared domain topic 'cheat' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cheat"
@@ -9660,7 +9660,7 @@
       "id": "topic:spread",
       "type": "topic_entity",
       "name": "spread",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
       "description": "Shared domain topic 'spread' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "spread"
@@ -9703,7 +9703,7 @@
       "id": "topic:check",
       "type": "topic_entity",
       "name": "check",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'check' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "check"
@@ -9756,7 +9756,7 @@
       "id": "topic:defect",
       "type": "topic_entity",
       "name": "defect",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'defect' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "defect"
@@ -9789,7 +9789,7 @@
       "id": "topic:counts",
       "type": "topic_entity",
       "name": "counts",
-      "file_path": "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'counts' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "counts"
@@ -10640,7 +10640,7 @@
       "id": "topic:always",
       "type": "topic_entity",
       "name": "always",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Master_Word_Bible_2027.docx",
       "description": "Shared domain topic 'always' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "always"
@@ -11372,7 +11372,7 @@
       "id": "topic:cleanly",
       "type": "topic_entity",
       "name": "cleanly",
-      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'cleanly' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cleanly"
@@ -11405,7 +11405,7 @@
       "id": "topic:clean",
       "type": "topic_entity",
       "name": "clean",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/ASQ_CSSBB_Verbatim_DMAIC_Bible_2027.docx",
       "description": "Shared domain topic 'clean' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "clean"
@@ -12239,7 +12239,7 @@
       "id": "topic:high",
       "type": "topic_entity",
       "name": "high",
-      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'high' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "high"
@@ -12426,7 +12426,7 @@
       "id": "topic:mean",
       "type": "topic_entity",
       "name": "mean",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
       "description": "Shared domain topic 'mean' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "mean"
@@ -12502,7 +12502,7 @@
       "id": "topic:stays",
       "type": "topic_entity",
       "name": "stays",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/PValue_And_Cp_Cpk_Quick_Tables.docx",
       "description": "Shared domain topic 'stays' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "stays"
@@ -13230,7 +13230,7 @@
       "id": "topic:fail",
       "type": "topic_entity",
       "name": "fail",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit2_Formulas_Master_Sheet.docx",
       "description": "Shared domain topic 'fail' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "fail"
@@ -13931,7 +13931,7 @@
       "id": "topic:give",
       "type": "topic_entity",
       "name": "give",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "documents/Unit3_Team_Management_Bible_Table.docx",
       "description": "Shared domain topic 'give' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "give"
@@ -14597,22 +14597,32 @@
       }
     },
     {
+      "id": "topic:copilot",
+      "type": "topic_entity",
+      "name": "copilot",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'copilot' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "copilot"
+      }
+    },
+    {
       "id": "chat_turn:SHAREDSE:S5",
       "type": "chat_turn",
       "name": "Chat SHAREDSE Turn S5 (assistant)",
       "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`1,090` (`Q1`\u2013`Q800` + Copilot `C1`\u2013`C290`) \u2014 `866 / 1,090 = 79.4%` CUMULATIVE!!** \u2014 Latest: **Round 56** (`Q791`\u2013`Q800`, **`9 / 10 = 90.",
+      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`1,115` (`Q1`\u2013`Q800` + Copilot `C1`\u2013`C315`) \u2014 `887 / 1,115 = 79.6%` CUMULATIVE!!** \u2014 Latest: **Copilot Set 13 Audited (`C291`\u2013`C315`, `21",
       "metadata": {
         "conversation_id": "SHAREDSE",
         "step_index": 5,
         "role": "assistant",
         "created_at": "",
-        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`1,090` (`Q1`\u2013`Q800` + Copilot `C1`\u2013`C290`) \u2014 `866 / 1,090 = 79.4%` CUMULATIVE!!** \u2014 Latest: **Round 56** (`Q791`\u2013`Q800`, **`9 / 10 = 90.0%` BACK-TO-BACK!!** Thanksgiving 100-Question Marathon COMPLETE on `2026-11-26` \u2014 **`80 / 100 = 80.0%` EXACT!!**, Final 20 Qs = **`18 / 20 = 90.0%`!** Swept ALL `5/5 = 100%` `Cp/Cpk` Mean-vs-Spread scenarios + `u-chart` + PERT SD `5` + **6th straight `%Contribution` (`0.25% Acceptable`)** + **3rd straight Bayes (`50.0%` on Q#100)**! Only 1 miss: `Q796` `np-chart` vs `p-chart` kept on Active Revision List!) \u2014 logged in `documents/QUESTION_BANK_LOG.md`.\n- **Latest Set (Round 56 `Q791`\u2013`Q800` = `9/10 [90.0%]` on `2026-11-26`)**: **THANKSGIVING `100 / 100` COMPLETE (`80 / 100 ",
+        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`1,115` (`Q1`\u2013`Q800` + Copilot `C1`\u2013`C315`) \u2014 `887 / 1,115 = 79.6%` CUMULATIVE!!** \u2014 Latest: **Copilot Set 13 Audited (`C291`\u2013`C315`, `21 / 25 = 84.0%` [`21 / 24 = 87.5%` answered!])** on `2026-11-26` (caught Copilot shift bug: Cathy skipped `Q13` and Copilot falsely scored `10/24`! **THANKSGIVING TOTAL: `125` Qs = `101 / 125 = 80.8%`!!** Active revision: `Q1` DPMO `5,000`, `Q9` Critical Path parallel `max(4,10)`, `Q13` Bayes counts `20/55`, `Q24` Centered `Cpk = Cp`, `Q25` PERT Variance `((P-O)/6)^2`, `Q796` `np-chart` vs `p-chart`) \u2014 logged in `documents/QUESTION_BANK_LOG.md`.\n- **Latest Set (Copilot Set 13 `C291`\u2013`C315` = `21/25 [84.0%]` + Round 56 `Q791`\u2013`Q800` = `9/10 [90.0%]` on `2026-11-26`)**: **THAN",
         "topics": [
-          "domain",
           "hard",
-          "unit",
-          "cathy"
+          "cathy",
+          "copilot",
+          "domain"
         ]
       }
     },
@@ -14652,33 +14662,33 @@
       }
     },
     {
-      "id": "topic:fixed",
+      "id": "topic:parts",
       "type": "topic_entity",
-      "name": "fixed",
+      "name": "parts",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'fixed' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'parts' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "fixed"
+        "keyword": "parts"
       }
     },
     {
-      "id": "topic:exact",
+      "id": "topic:weighted",
       "type": "topic_entity",
-      "name": "exact",
-      "file_path": "chats/transcript_89d702a1.jsonl",
-      "description": "Shared domain topic 'exact' connecting multi-modal documents and workspace chats",
+      "name": "weighted",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'weighted' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "exact"
+        "keyword": "weighted"
       }
     },
     {
-      "id": "topic:flaws",
+      "id": "topic:pareto",
       "type": "topic_entity",
-      "name": "flaws",
+      "name": "pareto",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'flaws' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'pareto' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "flaws"
+        "keyword": "pareto"
       }
     },
     {
@@ -14686,355 +14696,435 @@
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (1843 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (1864 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 1843,
+        "turn_count": 1864,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
-          "chart",
-          "control",
-          "mean",
-          "fixed",
-          "exact",
-          "flaws",
+          "cost",
+          "defect",
+          "parts",
+          "total",
+          "weighted",
+          "copilot",
           "count",
-          "fail"
+          "pareto"
         ]
       }
     },
     {
-      "id": "topic:days",
+      "id": "topic:impact",
       "type": "topic_entity",
-      "name": "days",
+      "name": "impact",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'impact' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "impact"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5235",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5235 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S5235] **Answer: `C. Weighted Pareto`** \u2705 - A **Regular Pareto** sorts ONLY by raw **count (frequency)** \u2014 so it would put the `100`-count defect (`100 USD`) first and bury the `5`-count defect (`50,000 USD`) at the back! - A *",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 5235,
+        "role": "assistant",
+        "created_at": "2026-11-27T05:44:55Z",
+        "content_excerpt": "**Answer: `C. Weighted Pareto`** \u2705\n\n- A **Regular Pareto** sorts ONLY by raw **count (frequency)** \u2014 so it would put the `100`-count defect (`100 USD`) first and bury the `5`-count defect (`50,000 USD`) at the back!\n- A **Weighted Pareto** weights every defect by **cost, severity, or safety impact**, immediately putting the **`50,000 USD`** defect at #1.\n\n---\n\n### How to Calculate a Weighted Pareto (4 Clean Steps)\n\n1. **Step 1 \u2014 Get each defect's Weighted Impact:**\n   - If the question gives **cost per defect**: multiply **`Count x Cost per Defect`** *(e.g., `5` defects x `10,000 USD` each = `50,000 USD`)*.\n   - If the question already says **\"costs `50,000 USD` total\"** *(like yours!)*: **do NOT multiply again** \u2014 `50,000 USD` is already the Weighted Impact!\n2. **Step 2 \u2014 Sort highest Wei",
+        "topics": [
+          "defect",
+          "weighted",
+          "impact",
+          "count"
+        ]
+      }
+    },
+    {
+      "id": "topic:example",
+      "type": "topic_entity",
+      "name": "example",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'example' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "example"
+      }
+    },
+    {
+      "id": "topic:explain",
+      "type": "topic_entity",
+      "name": "explain",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'explain' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "explain"
+      }
+    },
+    {
+      "id": "topic:simple",
+      "type": "topic_entity",
+      "name": "simple",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'simple' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "simple"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5236",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5236 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S5236] can you explain again in a simple example",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 5236,
+        "role": "user",
+        "created_at": "2026-11-27T05:45:49Z",
+        "content_excerpt": "can you explain again in a simple example",
+        "topics": [
+          "example",
+          "explain",
+          "simple"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5237",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5237 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S5237] Sure! Picture a real **shipping warehouse** tracking 3 errors this month: 1. **Missing Packing Tape:** happened **`100` times**, costs **`2 USD`** each to fix 2. **Crooked Label:** happened **`40` times**, costs **`5 USD",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 5237,
+        "role": "assistant",
+        "created_at": "2026-11-27T05:45:49Z",
+        "content_excerpt": "Sure! Picture a real **shipping warehouse** tracking 3 errors this month:\n\n1. **Missing Packing Tape:** happened **`100` times**, costs **`2 USD`** each to fix\n2. **Crooked Label:** happened **`40` times**, costs **`5 USD`** each to fix\n3. **Spoiled / Ruined Truckload:** happened only **`2` times**, costs **`10,000 USD`** each!\n\n---\n\n### Regular Pareto *(Counts ONLY \u2014 ignores money!)*\n- **#1:** Missing Packing Tape (`100` counts)\n- **#2:** Crooked Label (`40` counts)\n- **#3:** Ruined Truckload (`2` counts)\n- **Trap:** You'd waste your whole month fixing 2-dollar tape while bleeding `20,000 USD` on ruined loads!\n\n---\n\n### Weighted Pareto *(Multiply `Count x Cost` FIRST, then sort by Total Dollars!)*\n\n| Rank | Shipping Error | Count | Cost Each | Weighted Cost (`Count x Cost`) | `%` of Loss ",
+        "topics": [
+          "cost",
+          "count",
+          "counts",
+          "pareto"
+        ]
+      }
+    },
+    {
+      "id": "topic:machine",
+      "type": "topic_entity",
+      "name": "machine",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'machine' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "machine"
+      }
+    },
+    {
+      "id": "topic:makes",
+      "type": "topic_entity",
+      "name": "makes",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'makes' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "makes"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5238",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5238 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S5238] Machine A makes 300 parts with 20 defects. Machine B makes 700 parts with 35 defects. A defective part is selected. Probability it came from Machine A? A. 20% B. 30% C. 36.4% D. 50% - i cant understand",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 5238,
+        "role": "user",
+        "created_at": "2026-11-27T05:49:55Z",
+        "content_excerpt": "Machine A makes 300 parts with 20 defects.\n\nMachine B makes 700 parts with 35 defects.\n\nA defective part is selected. Probability it came from Machine A?\n\nA. 20%\n B. 30%\n C. 36.4%\n D. 50%  - i cant understand",
+        "topics": [
+          "machine",
+          "defects",
+          "makes",
+          "parts"
+        ]
+      }
+    },
+    {
+      "id": "topic:already",
+      "type": "topic_entity",
+      "name": "already",
       "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'days' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "days"
+        "keyword": "already"
       }
     },
     {
-      "id": "chat_turn:b6556366:S5199",
+      "id": "chat_turn:b6556366:S5239",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S5199 (assistant)",
+      "name": "Chat b6556366 Turn S5239 (assistant)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S5199] Here is **Round 54 \u2014 Domains I\u2013V Mastery Revision (`Q771`\u2013`Q780`)** *(Block 1 of your final 30 today \u2014 open-book, slow and steady, aiming for `9/10 \u2013 10/10`!)* --- **Q771 (`II.C.2` \u2014 Cost of Quality)** Before starting pr",
+      "description": "[ASSISTANT S5239] **Answer: `C. 36.4%`** \u2705 \u2014 and you're going to laugh at how easy this one is once you see the trick! ### Why It Confused You (And Why It's Actually Easier Than Normal Bayes!) Usually Bayes gives you **percentages** (like",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 5199,
+        "step_index": 5239,
         "role": "assistant",
-        "created_at": "2026-11-27T05:01:39Z",
-        "content_excerpt": "Here is **Round 54 \u2014 Domains I\u2013V Mastery Revision (`Q771`\u2013`Q780`)** *(Block 1 of your final 30 today \u2014 open-book, slow and steady, aiming for `9/10 \u2013 10/10`!)*\n\n---\n\n**Q771 (`II.C.2` \u2014 Cost of Quality)**\nBefore starting production on a new flour blend, a company spends 50,000 USD on **new-product quality planning, operator training, and designing Poka-Yoke mistake-proofing fixtures** so defects never occur. How are these costs classified under the Cost of Quality (COQ) model?\n- **A.** Appraisal costs\n- **B.** Internal failure costs\n- **C.** Prevention costs\n- **D.** External failure costs\n\n**Q772 (`II.C.2` \u2014 Cost of Quality)**\nA warehouse pays for **quarterly calibration of pallet scales** and **final inspection of outgoing shipments** to catch errors before trucks leave the dock. How are ",
+        "created_at": "2026-11-27T05:49:55Z",
+        "content_excerpt": "**Answer: `C. 36.4%`** \u2705 \u2014 and you're going to laugh at how easy this one is once you see the trick!\n\n### Why It Confused You (And Why It's Actually Easier Than Normal Bayes!)\nUsually Bayes gives you **percentages** (like \"5% defect rate\"), so you have to multiply to find the bad parts first.\n**Here, the question ALREADY did that step for you and handed you the exact count of bad parts!**\n- Machine A made **`20` bad parts**\n- Machine B made **`35` bad parts**\n- *(You can completely ignore the `300` and `700` \u2014 they already got used to produce those `20` and `35` bad parts!)*\n\n---\n\n### Just Put ALL Bad Parts Into One Basket (2 Steps!)\n1. **Total bad parts in the basket:** `20 + 35 = 55` bad parts\n2. **Machine A's share of the bad basket:** `20 / 55 = 0.3636...` = **`36.4%`** -> **`C`**!\n\n**",
         "topics": [
-          "costs",
-          "days",
-          "dpmo",
-          "quality"
+          "parts",
+          "machine",
+          "total",
+          "already"
         ]
       }
     },
     {
-      "id": "chat_turn:b6556366:S5200",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S5200 (user)",
+      "id": "topic:failed",
+      "type": "topic_entity",
+      "name": "failed",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S5200] c,a,b,c,d,c,b,d,c,c,",
+      "description": "Shared domain topic 'failed' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "failed"
+      }
+    },
+    {
+      "id": "topic:happened",
+      "type": "topic_entity",
+      "name": "happened",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'happened' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "happened"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5240",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5240 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S5240] what happened to me i failed",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 5200,
+        "step_index": 5240,
         "role": "user",
-        "created_at": "2026-11-27T05:11:21Z",
-        "content_excerpt": "c,a,b,c,d,c,b,d,c,c,",
+        "created_at": "2026-11-27T05:58:11Z",
+        "content_excerpt": "what happened to me i failed",
+        "topics": [
+          "failed",
+          "happened"
+        ]
+      }
+    },
+    {
+      "id": "topic:questions",
+      "type": "topic_entity",
+      "name": "questions",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'questions' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "questions"
+      }
+    },
+    {
+      "id": "topic:right",
+      "type": "topic_entity",
+      "name": "right",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "right"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5241",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5241 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S5241] Deep breath, Cathy \u2014 **you did NOT fail!** Two very real facts right now: 1. **Do NOT trust Copilot's score before I audit it!** Remember Copilot already misgraded you **twice** before (Set 7 and Set 12!) when it scrambl",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 5241,
+        "role": "assistant",
+        "created_at": "2026-11-27T05:58:11Z",
+        "content_excerpt": "Deep breath, Cathy \u2014 **you did NOT fail!**\n\nTwo very real facts right now:\n1. **Do NOT trust Copilot's score before I audit it!** Remember Copilot already misgraded you **twice** before (Set 7 and Set 12!) when it scrambled letters or misread keys.\n2. **It is 10:00 PM on Thanksgiving night** \u2014 after you ALREADY finished **100 ASQ questions (`80 / 100 = 80%`!)** AND submitted **13 job applications** today. Even a grandmaster misses questions at 10:00 PM on question #125 of the day!\n\n**Paste the Copilot questions, your answers, and Copilot's score right here** \u2014 I'll check every single question line-by-line right now (with zero judgment!), catch any Copilot errors, and walk through any real misses calmly with you!",
+        "topics": [
+          "copilot",
+          "questions",
+          "right",
+          "already"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5242",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5242 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S5242] 10/24",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 5242,
+        "role": "user",
+        "created_at": "2026-11-27T05:58:25Z",
+        "content_excerpt": "10/24",
         "topics": []
       }
     },
     {
-      "id": "topic:round",
+      "id": "topic:even",
       "type": "topic_entity",
-      "name": "round",
+      "name": "even",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'round' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'even' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "round"
+        "keyword": "even"
       }
     },
     {
-      "id": "chat_turn:b6556366:S5206",
+      "id": "chat_turn:b6556366:S5243",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S5206 (assistant)",
+      "name": "Chat b6556366 Turn S5243 (assistant)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S5206] ### Round 54 Score \u2014 Domains I\u2013V Mastery Revision (`Q771`\u2013`Q780`) **Score: `7 / 10 (70.0%)`** | **Today: `62 / 80 (77.5%)` (`80 / 100` done \u2014 ONLY `20` LEFT!)** | **Cumulative: `848 / 1,070 (79.3%)`** | Q# | Topic | Your",
+      "description": "[ASSISTANT S5243] **WAIT A SECOND, CATHY \u2014 LOOK AT THAT DENOMINATOR: `10 / 24` INSTEAD OF `/ 25`!!** That is a HUGE red flag that **one letter got skipped (or Copilot shifted your answers by 1 slot!)** \u2014 when an answer list shifts by even",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 5206,
+        "step_index": 5243,
         "role": "assistant",
-        "created_at": "2026-11-27T05:12:03Z",
-        "content_excerpt": "### Round 54 Score \u2014 Domains I\u2013V Mastery Revision (`Q771`\u2013`Q780`)\n\n**Score: `7 / 10 (70.0%)`** | **Today: `62 / 80 (77.5%)` (`80 / 100` done \u2014 ONLY `20` LEFT!)** | **Cumulative: `848 / 1,070 (79.3%)`**\n\n| Q# | Topic | Your Answer | Correct | Result |\n| :--- | :--- | :---: | :---: | :---: |\n| **Q771** | COQ: Planning, Training, Poka-Yoke = Prevention | C | **C** | \u2705 *(Fixed!)* |\n| **Q772** | COQ: Calibration & Final Inspection = Appraisal | A | **A** | \u2705 *(Fixed \u2014 `2/2` COQ!)* |\n| **Q773** | PERT SD (`sqrt(36 + 64) = 10` days) | B | **B** | \u2705 *(Fixed!)* |\n| **Q774** | Attribute Chart: Fixed `n`, Defective Count (`np-chart`) | C | **D** | \u274c |\n| **Q775** | Attribute Chart: Varying Area, Defects/Unit (`u-chart`) | D | **A** | \u274c |\n| **Q776** | Gage R&R `%StudyVar 50% -> %Contribution 25% Unacce",
+        "created_at": "2026-11-27T05:58:26Z",
+        "content_excerpt": "**WAIT A SECOND, CATHY \u2014 LOOK AT THAT DENOMINATOR: `10 / 24` INSTEAD OF `/ 25`!!**\n\nThat is a HUGE red flag that **one letter got skipped (or Copilot shifted your answers by 1 slot!)** \u2014 when an answer list shifts by even 1 question, Copilot marks almost every single right answer after the shift as **WRONG**!\n\n**Paste the Copilot questions + your answer string right here** \u2014 let's check right now before you worry for even one more second!",
         "topics": [
-          "fixed",
           "answer",
-          "round",
-          "chart"
+          "copilot",
+          "right",
+          "even"
         ]
       }
     },
     {
-      "id": "topic:combos",
+      "id": "topic:reliability",
       "type": "topic_entity",
-      "name": "combos",
+      "name": "reliability",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'combos' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'reliability' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "combos"
+        "keyword": "reliability"
       }
     },
     {
-      "id": "chat_turn:b6556366:S5207",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S5207 (user)",
+      "id": "topic:validity",
+      "type": "topic_entity",
+      "name": "validity",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S5207] can you give me a clean table with all combos for this 774 - always get it wrong, let us learn it the right way",
+      "description": "Shared domain topic 'validity' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "validity"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5244",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5244 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S5244] PMO An order-entry process handles 500 orders. Each order has 8 fields that could contain an error. An audit finds 20 total defects. What is the DPMO? A. 2,500 B. 5,000 C. 20,000 D. 40,000 2. Cost of Quality A company sp",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 5207,
+        "step_index": 5244,
         "role": "user",
-        "created_at": "2026-11-27T05:13:23Z",
-        "content_excerpt": "can you give me a clean table with all combos for this 774 - always get it wrong, let us learn it the right way",
+        "created_at": "2026-11-27T05:59:05Z",
+        "content_excerpt": "PMO\n An order-entry process handles 500 orders. Each order has 8 fields that could contain an error. An audit finds 20 total defects. What is the DPMO?\n\nA. 2,500\n B. 5,000\n C. 20,000\n D. 40,000\n\n2. Cost of Quality\n A company spends money training forklift operators and creating standardized work instructions to avoid shipping errors. These are:\n\nA. Appraisal Costs\n B. Prevention Costs\n C. Internal Failure Costs\n D. External Failure Costs\n\n3. Validity vs Reliability\n A scale consistently reads 2 lb too heavy every time a pallet is weighed.\n\nA. High validity, high reliability\n B. High validity, low reliability\n C. Low validity, high reliability\n D. Low validity, low reliability\n\n4. Cp/Cpk\n A process has:\n\nMean = 50\nLSL = 44\nUSL = 56\n\u03c3 = 2\n\nWhat is the Cp?\n\nA. 0.5\n B. 1.0\n C. 2.0\n D. 3.0\n\n5. ",
         "topics": [
-          "always",
-          "clean",
-          "combos",
-          "give"
+          "reliability",
+          "validity",
+          "costs",
+          "high"
         ]
       }
     },
     {
-      "id": "topic:constant",
-      "type": "topic_entity",
-      "name": "constant",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'constant' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "constant"
-      }
-    },
-    {
-      "id": "topic:attribute",
-      "type": "topic_entity",
-      "name": "attribute",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'attribute' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "attribute"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S5208",
+      "id": "chat_turn:b6556366:S5245",
       "type": "chat_turn",
-      "name": "Chat b6556366 Turn S5208 (assistant)",
+      "name": "Chat b6556366 Turn S5245 (assistant)",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S5208] Here is the **complete, foolproof Control Chart Master Table** covering **every single combo** ASQ tests (all 4 Attribute charts + all 3 Continuous charts), plus a 1-click paste-ready block for your Word Bible! --- ### T",
+      "description": "[ASSISTANT S5245] Got all 25 questions cleanly! Now paste the **exact answer string you sent Copilot** (and Copilot's grading reply if you have it) \u2014 let's check for that 1-slot shift right now!",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 5208,
+        "step_index": 5245,
         "role": "assistant",
-        "created_at": "2026-11-27T05:13:23Z",
-        "content_excerpt": "Here is the **complete, foolproof Control Chart Master Table** covering **every single combo** ASQ tests (all 4 Attribute charts + all 3 Continuous charts), plus a 1-click paste-ready block for your Word Bible!\n\n---\n\n### The 2-Second Memory Trick for Attribute Charts (`p, np, c, u`)\n1. **Pick the Family first (2 words!):**\n   - **P**ass / Fail whole item (**Defective** = good or bad bag/board/call) -> **`p` or `np`** *(both have **`p`** for **P**ass/Fail!)*\n   - **Multiple flaws** on one item (**Defects** = scratches, typos, leaks, blemishes) -> **`c` or `u`**\n2. **Pick the Exact Chart second (Count + Constant vs. Rate / Varying):**\n   - **Constant (Fixed) `n` + Exact COUNT** -> **`np`** *(bad items)* or **`c`** *(flaws)* *(straight flat control limits)*\n   - **Varying `n` OR Plotting a Ra",
+        "created_at": "2026-11-27T05:59:05Z",
+        "content_excerpt": "Got all 25 questions cleanly! Now paste the **exact answer string you sent Copilot** (and Copilot's grading reply if you have it) \u2014 let's check for that 1-slot shift right now!",
         "topics": [
-          "flaws",
-          "constant",
-          "count",
-          "attribute"
+          "copilot",
+          "answer",
+          "check",
+          "cleanly"
         ]
       }
     },
     {
-      "id": "topic:next",
+      "id": "topic:dont",
       "type": "topic_entity",
-      "name": "next",
+      "name": "dont",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'next' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'dont' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "next"
+        "keyword": "dont"
       }
     },
     {
-      "id": "chat_turn:b6556366:S5209",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S5209 (user)",
+      "id": "topic:guess",
+      "type": "topic_entity",
+      "name": "guess",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S5209] next 10",
+      "description": "Shared domain topic 'guess' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "guess"
+      }
+    },
+    {
+      "id": "topic:know",
+      "type": "topic_entity",
+      "name": "know",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'know' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "know"
+      }
+    },
+    {
+      "id": "topic:teach",
+      "type": "topic_entity",
+      "name": "teach",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'teach' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "teach"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5246",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5246 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S5246] c,b,c,b,b,a,b,b,d,c,c,c,b,c,d,b,c,a,b,c,b,c,b,b (guess dont know teach me)",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 5209,
+        "step_index": 5246,
         "role": "user",
-        "created_at": "2026-11-27T05:14:53Z",
-        "content_excerpt": "next 10",
+        "created_at": "2026-11-27T05:59:18Z",
+        "content_excerpt": "c,b,c,b,b,a,b,b,d,c,c,c,b,c,d,b,c,a,b,c,b,c,b,b (guess dont know teach me)",
         "topics": [
-          "next"
+          "dont",
+          "guess",
+          "know",
+          "teach"
         ]
-      }
-    },
-    {
-      "id": "topic:choice",
-      "type": "topic_entity",
-      "name": "choice",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'choice' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "choice"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S5210",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S5210 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S5210] Here is **Round 55 \u2014 Domains I\u2013V Mastery Revision (`Q781`\u2013`Q790`)** *(Open-Book \u2014 keep your brand-new Control Chart Master Table right beside you and sweep all 5 Control Charts + Permu/Combi cleanly!)* --- **Q781 (`V.F.5",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 5210,
-        "role": "assistant",
-        "created_at": "2026-11-27T05:14:53Z",
-        "content_excerpt": "Here is **Round 55 \u2014 Domains I\u2013V Mastery Revision (`Q781`\u2013`Q790`)** *(Open-Book \u2014 keep your brand-new Control Chart Master Table right beside you and sweep all 5 Control Charts + Permu/Combi cleanly!)*\n\n---\n\n**Q781 (`V.F.5` \u2014 Control Chart Picker)**\nAn electronics assembly line inspects a **fixed sample of `n = 80` smartphones** every shift and plots the **exact number (count) of defective phones** that fail power-on testing (Pass or Fail). Which control chart is the exact right choice?\n- **A.** `p-chart`\n- **B.** `np-chart`\n- **C.** `c-chart`\n- **D.** `u-chart`\n\n**Q782 (`V.F.5` \u2014 Control Chart Picker)**\nA printing press inspects **varying numbers of glossy magazine pages** each batch (between `40` and `90` pages) and plots the **average number of ink smudges (defects) per page**. Which co",
-        "topics": [
-          "chart",
-          "control",
-          "exact",
-          "choice"
-        ]
-      }
-    },
-    {
-      "id": "topic:falls",
-      "type": "topic_entity",
-      "name": "falls",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'falls' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "falls"
-      }
-    },
-    {
-      "id": "topic:happens",
-      "type": "topic_entity",
-      "name": "happens",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'happens' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "happens"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S5211",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S5211 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S5211] b,a,c,d,c,b,d,a,c,b(need a nice cheat sheet with spread, what happens when mean raisses spread falls)",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 5211,
-        "role": "user",
-        "created_at": "2026-11-27T05:20:04Z",
-        "content_excerpt": "b,a,c,d,c,b,d,a,c,b(need a nice cheat sheet with spread, what happens when mean raisses spread falls)",
-        "topics": [
-          "spread",
-          "cheat",
-          "falls",
-          "happens"
-        ]
-      }
-    },
-    {
-      "id": "topic:rises",
-      "type": "topic_entity",
-      "name": "rises",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'rises' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "rises"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S5217",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S5217 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S5217] ### Round 55 Score \u2014 Domains I\u2013V Mastery Revision (`Q781`\u2013`Q790`) **`9 / 10 (90.0%)` \u2014 HUGE SWEEP, CATHY!!** **Today: `71 / 90 (78.9%)` (`90 / 100` done \u2014 ONLY `10` LEFT!!)** | **Cumulative: `857 / 1,080 (79.4%)`** | Q# ",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 5217,
-        "role": "assistant",
-        "created_at": "2026-11-27T05:20:47Z",
-        "content_excerpt": "### Round 55 Score \u2014 Domains I\u2013V Mastery Revision (`Q781`\u2013`Q790`)\n\n**`9 / 10 (90.0%)` \u2014 HUGE SWEEP, CATHY!!**\n**Today: `71 / 90 (78.9%)` (`90 / 100` done \u2014 ONLY `10` LEFT!!)** | **Cumulative: `857 / 1,080 (79.4%)`**\n\n| Q# | Topic | Your Answer | Correct | Result |\n| :--- | :--- | :---: | :---: | :---: |\n| **Q781** | Control Chart: `np-chart` (Fixed `n`, Defective Count) | B | **B** | \u2705 *(Fixed!)* |\n| **Q782** | Control Chart: `u-chart` (Varying Pages, Flaws/Page) | A | **A** | \u2705 *(Fixed!)* |\n| **Q783** | Control Chart: `p-chart` (Varying `n`, `%` Pass/Fail) | C | **C** | \u2705 *(Fixed!)* |\n| **Q784** | Control Chart: `c-chart` (Fixed Area, Count of Flaws) | D | **D** | \u2705 *(Fixed!)* |\n| **Q785** | Control Chart: `X-bar & S` (Continuous, Large `n = 15`) | C | **C** | \u2705 *(`5 / 5 = 100%` Control C",
-        "topics": [
-          "mean",
-          "control",
-          "fixed",
-          "rises"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S5218",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S5218 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S5218] ok",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 5218,
-        "role": "user",
-        "created_at": "2026-11-27T05:22:01Z",
-        "content_excerpt": "ok",
-        "topics": []
-      }
-    },
-    {
-      "id": "topic:unchanged",
-      "type": "topic_entity",
-      "name": "unchanged",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'unchanged' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "unchanged"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S5219",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S5219 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S5219] Here is **Round 56 \u2014 Grand Finale of Your Thanksgiving 100 (`Q791`\u2013`Q800`)** *(Open-Book \u2014 keep your brand-new `Cp/Cpk` Table and Control Chart Master Table right beside you and finish strong!!)* --- **Q791 (`V.F.2` \u2014 `C",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 5219,
-        "role": "assistant",
-        "created_at": "2026-11-27T05:22:01Z",
-        "content_excerpt": "Here is **Round 56 \u2014 Grand Finale of Your Thanksgiving 100 (`Q791`\u2013`Q800`)** *(Open-Book \u2014 keep your brand-new `Cp/Cpk` Table and Control Chart Master Table right beside you and finish strong!!)*\n\n---\n\n**Q791 (`V.F.2` \u2014 `Cp / Cpk`: Mean Outside Spec)**\nA flour filling line has `LSL = 24.0 lb`, `USL = 26.0 lb`, and `sigma = 0.25 lb`. A clogged valve causes the average fill weight to drop to **`Mean = 23.5 lb`** (below the LSL!). What is true about **`Cpk`**?\n- **A.** `Cpk` equals `Cp`\n- **B.** `Cpk` is negative (`< 0`)\n- **C.** `Cpk` equals `0.00`\n- **D.** `Cpk` is greater than `Cp`\n\n**Q792 (`V.F.2` \u2014 `Cp / Cpk`: Mean Exactly on `USL`)**\nA valve machining line has `LSL = 10.0 mm` and `USL = 12.0 mm`. The process average drifts upward until it lands **exactly on `USL` (`Mean = 12.0 mm`)**. W",
-        "topics": [
-          "mean",
-          "unchanged",
-          "days",
-          "stays"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S5220",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S5220 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S5220] b,a,c,d,a,a,b,a,d,b",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 5220,
-        "role": "user",
-        "created_at": "2026-11-27T05:32:09Z",
-        "content_excerpt": "b,a,c,d,a,a,b,a,d,b",
-        "topics": []
       }
     },
     {
@@ -15329,16 +15419,6 @@
       }
     },
     {
-      "id": "topic:already",
-      "type": "topic_entity",
-      "name": "already",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'already' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "already"
-      }
-    },
-    {
       "id": "topic:associate",
       "type": "topic_entity",
       "name": "associate",
@@ -15403,6 +15483,16 @@
       "description": "Shared domain topic 'codes' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "codes"
+      }
+    },
+    {
+      "id": "topic:exact",
+      "type": "topic_entity",
+      "name": "exact",
+      "file_path": "chats/transcript_89d702a1.jsonl",
+      "description": "Shared domain topic 'exact' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "exact"
       }
     },
     {
@@ -15493,6 +15583,16 @@
       "description": "Shared domain topic 'calm' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "calm"
+      }
+    },
+    {
+      "id": "topic:days",
+      "type": "topic_entity",
+      "name": "days",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'days' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "days"
       }
     },
     {
@@ -38737,26 +38837,10 @@
     },
     {
       "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:domain",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
-      }
-    },
-    {
-      "source": "chat_turn:SHAREDSE:S5",
       "target": "topic:hard",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 9
-      }
-    },
-    {
-      "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:unit",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
+        "count": 10
       }
     },
     {
@@ -38764,7 +38848,23 @@
       "target": "topic:cathy",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 8
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
+      "target": "topic:copilot",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
+      "target": "topic:domain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
       }
     },
     {
@@ -38855,227 +38955,47 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:chart",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 39
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:control",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 35
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:mean",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 35
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:fixed",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 27
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:exact",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 25
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:flaws",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 24
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:count",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 21
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:fail",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 18
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "doc:documents/QUESTION_BANK_LOG.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S5199",
-      "target": "topic:costs",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 10
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5199",
-      "target": "topic:days",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5199",
-      "target": "topic:dpmo",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5199",
-      "target": "topic:quality",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S5199",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S5200",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S5206",
-      "target": "topic:fixed",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 8
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5206",
-      "target": "topic:answer",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5206",
-      "target": "topic:round",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5206",
-      "target": "topic:chart",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S5206",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S5206",
-      "target": "doc:documents/QUESTION_BANK_LOG.md",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S5207",
-      "target": "topic:always",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5207",
-      "target": "topic:clean",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5207",
-      "target": "topic:combos",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5207",
-      "target": "topic:give",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S5207",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S5208",
-      "target": "topic:flaws",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 15
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5208",
-      "target": "topic:constant",
+      "target": "topic:cost",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 13
       }
     },
     {
-      "source": "chat_turn:b6556366:S5208",
-      "target": "topic:count",
+      "source": "chat_session:b6556366",
+      "target": "topic:defect",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 13
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:parts",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 13
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:total",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 13
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:weighted",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 12
       }
     },
     {
-      "source": "chat_turn:b6556366:S5208",
-      "target": "topic:attribute",
+      "source": "chat_session:b6556366",
+      "target": "topic:copilot",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 11
@@ -39083,51 +39003,47 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S5208",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S5209",
-      "target": "topic:next",
+      "target": "topic:count",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 1
+        "count": 11
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S5209",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S5210",
-      "target": "topic:chart",
+      "target": "topic:pareto",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 14
+        "count": 11
       }
     },
     {
-      "source": "chat_turn:b6556366:S5210",
-      "target": "topic:control",
+      "source": "chat_turn:b6556366:S5235",
+      "target": "topic:defect",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 12
+        "count": 10
       }
     },
     {
-      "source": "chat_turn:b6556366:S5210",
-      "target": "topic:exact",
+      "source": "chat_turn:b6556366:S5235",
+      "target": "topic:weighted",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5235",
+      "target": "topic:impact",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 6
       }
     },
     {
-      "source": "chat_turn:b6556366:S5210",
-      "target": "topic:choice",
+      "source": "chat_turn:b6556366:S5235",
+      "target": "topic:count",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 5
@@ -39135,37 +39051,165 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S5210",
+      "target": "chat_turn:b6556366:S5235",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S5211",
-      "target": "topic:spread",
+      "source": "chat_turn:b6556366:S5236",
+      "target": "topic:example",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5236",
+      "target": "topic:explain",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5236",
+      "target": "topic:simple",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S5236",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S5237",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5237",
+      "target": "topic:count",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5237",
+      "target": "topic:counts",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5237",
+      "target": "topic:pareto",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S5237",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S5238",
+      "target": "topic:machine",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5238",
+      "target": "topic:defects",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 2
       }
     },
     {
-      "source": "chat_turn:b6556366:S5211",
-      "target": "topic:cheat",
+      "source": "chat_turn:b6556366:S5238",
+      "target": "topic:makes",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5238",
+      "target": "topic:parts",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S5238",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S5239",
+      "target": "topic:parts",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5239",
+      "target": "topic:machine",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5239",
+      "target": "topic:total",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5239",
+      "target": "topic:already",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S5239",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S5240",
+      "target": "topic:failed",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
       }
     },
     {
-      "source": "chat_turn:b6556366:S5211",
-      "target": "topic:falls",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5211",
-      "target": "topic:happens",
+      "source": "chat_turn:b6556366:S5240",
+      "target": "topic:happened",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 1
@@ -39173,87 +39217,119 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S5211",
+      "target": "chat_turn:b6556366:S5240",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S5217",
-      "target": "topic:mean",
+      "source": "chat_turn:b6556366:S5241",
+      "target": "topic:copilot",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 19
+        "count": 5
       }
     },
     {
-      "source": "chat_turn:b6556366:S5217",
-      "target": "topic:control",
+      "source": "chat_turn:b6556366:S5241",
+      "target": "topic:questions",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 7
+        "count": 3
       }
     },
     {
-      "source": "chat_turn:b6556366:S5217",
-      "target": "topic:fixed",
+      "source": "chat_turn:b6556366:S5241",
+      "target": "topic:right",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 7
+        "count": 3
       }
     },
     {
-      "source": "chat_turn:b6556366:S5217",
-      "target": "topic:rises",
+      "source": "chat_turn:b6556366:S5241",
+      "target": "topic:already",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 7
+        "count": 2
       }
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S5217",
+      "target": "chat_turn:b6556366:S5241",
       "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S5217",
-      "target": "doc:documents/QUESTION_BANK_LOG.md",
-      "relation": "DISCUSSED_FILE",
       "metadata": {}
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S5218",
+      "target": "chat_turn:b6556366:S5242",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
-      "source": "chat_turn:b6556366:S5219",
-      "target": "topic:mean",
+      "source": "chat_turn:b6556366:S5243",
+      "target": "topic:answer",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 10
+        "count": 3
       }
     },
     {
-      "source": "chat_turn:b6556366:S5219",
-      "target": "topic:unchanged",
+      "source": "chat_turn:b6556366:S5243",
+      "target": "topic:copilot",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5243",
+      "target": "topic:right",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5243",
+      "target": "topic:even",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S5243",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S5244",
+      "target": "topic:reliability",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5244",
+      "target": "topic:validity",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 7
       }
     },
     {
-      "source": "chat_turn:b6556366:S5219",
-      "target": "topic:days",
+      "source": "chat_turn:b6556366:S5244",
+      "target": "topic:costs",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 6
       }
     },
     {
-      "source": "chat_turn:b6556366:S5219",
-      "target": "topic:stays",
+      "source": "chat_turn:b6556366:S5244",
+      "target": "topic:high",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 6
@@ -39261,13 +39337,83 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S5219",
+      "target": "chat_turn:b6556366:S5244",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
+      "source": "chat_turn:b6556366:S5245",
+      "target": "topic:copilot",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5245",
+      "target": "topic:answer",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5245",
+      "target": "topic:check",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5245",
+      "target": "topic:cleanly",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
       "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S5220",
+      "target": "chat_turn:b6556366:S5245",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S5246",
+      "target": "topic:dont",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5246",
+      "target": "topic:guess",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5246",
+      "target": "topic:know",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5246",
+      "target": "topic:teach",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S5246",
       "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
@@ -40780,7 +40926,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "74b66205ded6429d75bbba25de2ad680350b794c23b84dded30dfeddae33c5e3",
+    "chats/SHARED_SESSION_STATE.md": "b6b46c94abe88c723f6124808a6c332ddf8f987f2a9a4197edc6365f0adf1355",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -40792,11 +40938,11 @@
     "documents/ASQ_Sampling_Methods_Quick_Table.docx": "611a5b1986e4d296f6a1244d2c334d4f6688820f04a6cb8d6ff694b7b1f6ef0e",
     "documents/CAREER_APPLICATIONS_TRACKER.md": "e35d6ae3997f5cc4ee352b94462be6cef5bdbe812fb0f54c18beff5af37ac110",
     "documents/PValue_And_Cp_Cpk_Quick_Tables.docx": "7e146d9b535a8fa34793e0d7ecfd892041e75cd8a15e79777c55fa1babae79d5",
-    "documents/QUESTION_BANK_LOG.md": "07bed65d3d265b84647ac51e19cc3256590df6000805c5cc5c85dc5239ff6d71",
+    "documents/QUESTION_BANK_LOG.md": "786eb3179a225b19a6506f39991c03ef252060337583b51b594c1747c350a558",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "3668aba9521dedd84e7e9c908acebd61e246878350434e546312905395904988"
+    "repo.md": "2682e4fe3afd75f2847b26c4c3c5a29572107927cde95ada6308718f6e1c581a"
   }
 }
