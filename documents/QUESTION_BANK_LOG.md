@@ -577,3 +577,8 @@
 - **HIT `95.0%` (`19 / 20`: `10/10` + `9/10`) ON BLIND PROMETRIC (ZERO TOPIC HEADERS!!) — `100%` ON ALL MATH & TOOLS!!**
   - `Q832` Functional Benchmarking ✅, `Q833` Lencioni Absence of Trust ✅, `Q834` PERT Expected `9.0` days ✅, `Q835` Little's Law `3.0` days ✅, `Q836` **Minitab `VarComp 0.5%` Acceptable `< 1%` (4th straight!)** ✅, `Q837` Combination `5C3 = 10` ✅, `Q838` **Bayes `%` Line A `33.3%` (beat Line B trap!)** ✅, `Q839` **2-Step `R-bar/d2 -> Cp/Cpk = 2.00`** ✅, `Q840` `c-chart` ✅.
 - **Only 1 Miss (`❌` — Active Revision List):** `Q831` (`I.A.2` Making 400 extra pallets with no orders = **B. Overproduction**, picked A Overprocessing).
+
+## Round 61 — Unit 6 Analyze Phase: `VI.A` Gentle Open-Book + Daily Rotation (`Q841`–`Q850` — 2026-11-27 | Score: `8 / 10 = 80.0%`!! | Today `42 / 50 = 84.0%` | Cumulative `929 / 1,165 = 79.7%`)
+- **UNIT 6 (`Domain VI`: Analyze Phase — `VI.A`) OFFICIALLY LAUNCHED AT `80.0%`!!**
+- **Nailed (`✅` — `8` Qs):** `Q841` (`r = +0.91` correlation vs causation ✅), `Q843` (`Y = 12 + 2.5(8) = 32.0` min ✅), `Q844` (`Adjusted R-squared` penalizes junk `X` ✅), `Q846` (`VIF = 14.5` multicollinearity ✅), `Q847` (Extrapolation danger ✅), `Q848` (Multi-Vari Time-to-Time Temporal ✅), `Q849` (**Overprocessing — FIXED!** ✅), `Q850` (**Bayes Warehouse 1 `12/40 = 30.0%` — NAILED!** ✅).
+- **Active Revision List (`❌` — `2` `VI.A` Qs):** `Q842` (`VI.A.1` `r = -0.70 -> R-squared = (-0.70)^2 = 49%` = **C**, picked B `70%` forgot to square), `Q845` (`VI.A.1` Healthy residuals = **C. Random, patternless cloud around zero**, guessed D diagonal line).
