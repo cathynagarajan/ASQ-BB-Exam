@@ -1,10 +1,10 @@
 {
   "metadata": {
     "repository": "/home/krithika/workspace/ASQ-BB-Exam",
-    "generated_at": "2026-11-27T23:47:43.567610+00:00",
+    "generated_at": "2026-11-28T00:04:23.916425+00:00",
     "total_files_indexed": 136,
-    "total_nodes": 1246,
-    "total_edges": 3509,
+    "total_nodes": 1245,
+    "total_edges": 3494,
     "node_type_counts": {
       "chat_session": 6,
       "chat_turn": 48,
@@ -12,40 +12,32 @@
       "document_file": 80,
       "document_section": 511,
       "html_template": 1,
-      "topic_entity": 546
+      "topic_entity": 545
     }
   },
   "last_change_check": {
     "changed": true,
-    "added": [
-      "Resume_And_Jobs/Job87_AppliedMaterials_R2630758_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job88_Oracle_343643_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job89_Freshworks_744000162318479_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job90_Freshworks_744000162318740_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job91_SBEnergy_6196167004_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job92_SBEnergy_6208923004_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job93_Calico_8784701002_Krithika_Nagarajan_Resume.docx",
-      "Resume_And_Jobs/Job94_Stripe_8209633_Krithika_Nagarajan_Resume.docx"
-    ],
+    "added": [],
     "modified": [
-      "chats/SHARED_SESSION_STATE.md"
+      "chats/SHARED_SESSION_STATE.md",
+      "documents/QUESTION_BANK_LOG.md"
     ],
     "removed": [],
-    "files_parsed": 8,
-    "files_cached_reused": 127,
+    "files_parsed": 1,
+    "files_cached_reused": 134,
     "sqlite_delta": {
       "mode": "delta_update",
       "db_path": "/home/krithika/workspace/ASQ-BB-Exam/knowledge_graph/knowledge_graph.db",
-      "nodes_upserted": 144,
-      "nodes_deleted": 30,
-      "edges_upserted": 389,
-      "edges_deleted": 62,
-      "wiki_pages_upserted": 0,
+      "nodes_upserted": 24,
+      "nodes_deleted": 13,
+      "edges_upserted": 29,
+      "edges_deleted": 40,
+      "wiki_pages_upserted": 1,
       "wiki_pages_deleted": 0,
-      "files_upserted": 10,
+      "files_upserted": 3,
       "files_deleted": 0,
-      "total_nodes_in_db": 1246,
-      "total_edges_in_db": 3509,
+      "total_nodes_in_db": 1245,
+      "total_edges_in_db": 3494,
       "total_files_tracked": 137
     }
   },
@@ -647,7 +639,7 @@
       "id": "topic:contract",
       "type": "topic_entity",
       "name": "contract",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job94_Stripe_8209633_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'contract' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "contract"
@@ -657,7 +649,7 @@
       "id": "topic:vendor",
       "type": "topic_entity",
       "name": "vendor",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job90_Freshworks_744000162318740_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'vendor' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "vendor"
@@ -707,7 +699,7 @@
       "id": "topic:cost",
       "type": "topic_entity",
       "name": "cost",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'cost' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "cost"
@@ -924,7 +916,7 @@
       "id": "topic:compliance",
       "type": "topic_entity",
       "name": "compliance",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job93_Calico_8784701002_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'compliance' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "compliance"
@@ -3004,7 +2996,7 @@
       "id": "topic:program",
       "type": "topic_entity",
       "name": "program",
-      "file_path": "Resume_And_Jobs/Job53_WesternDigital_REF35046M_Krithika_Nagarajan_Resume.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'program' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "program"
@@ -3352,7 +3344,7 @@
       "id": "topic:partner",
       "type": "topic_entity",
       "name": "partner",
-      "file_path": "chats/transcript_b6556366.jsonl",
+      "file_path": "Resume_And_Jobs/Job93_Calico_8784701002_Krithika_Nagarajan_Resume.docx",
       "description": "Shared domain topic 'partner' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "partner"
@@ -9741,7 +9733,7 @@
       "id": "topic:unit",
       "type": "topic_entity",
       "name": "unit",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "chats/SHARED_SESSION_STATE.md",
       "description": "Shared domain topic 'unit' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "unit"
@@ -10358,7 +10350,7 @@
       "id": "topic:dpmo",
       "type": "topic_entity",
       "name": "dpmo",
-      "file_path": "documents/Unit2_Process_Mgmt_And_Measures_Table.docx",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'dpmo' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "dpmo"
@@ -15196,7 +15188,7 @@
       "id": "topic:manager",
       "type": "topic_entity",
       "name": "manager",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'manager' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "manager"
@@ -15236,7 +15228,7 @@
       "id": "topic:remote",
       "type": "topic_entity",
       "name": "remote",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
+      "file_path": "chats/transcript_b6556366.jsonl",
       "description": "Shared domain topic 'remote' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "remote"
@@ -15462,32 +15454,22 @@
       }
     },
     {
-      "id": "topic:copilot",
-      "type": "topic_entity",
-      "name": "copilot",
-      "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "Shared domain topic 'copilot' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "copilot"
-      }
-    },
-    {
       "id": "chat_turn:SHAREDSE:S5",
       "type": "chat_turn",
       "name": "Chat SHAREDSE Turn S5 (assistant)",
       "file_path": "chats/SHARED_SESSION_STATE.md",
-      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`1,115` (`Q1`\u2013`Q800` + Copilot `C1`\u2013`C315`) \u2014 `887 / 1,115 = 79.6%` CUMULATIVE!!** \u2014 Latest: **Copilot Set 13 Audited (`C291`\u2013`C315`, `21",
+      "description": "[ASSISTANT S5] ## 1. ASQ CSSBB Exam Training State (2022 BoK) - **Completed Unique Questions**: **`1,125` (`Q1`\u2013`Q810` + Copilot `C1`\u2013`C315`) \u2014 `895 / 1,125 = 79.6%` CUMULATIVE!!** \u2014 Latest: **Round 57** (`Q801`\u2013`Q810`, **`8 / 10 = 80.",
       "metadata": {
         "conversation_id": "SHAREDSE",
         "step_index": 5,
         "role": "assistant",
         "created_at": "",
-        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`1,115` (`Q1`\u2013`Q800` + Copilot `C1`\u2013`C315`) \u2014 `887 / 1,115 = 79.6%` CUMULATIVE!!** \u2014 Latest: **Copilot Set 13 Audited (`C291`\u2013`C315`, `21 / 25 = 84.0%` [`21 / 24 = 87.5%` answered!])** on `2026-11-26` (caught Copilot shift bug: Cathy skipped `Q13` and Copilot falsely scored `10/24`! **THANKSGIVING TOTAL: `125` Qs = `101 / 125 = 80.8%`!!** Active revision: `Q1` DPMO `5,000`, `Q9` Critical Path parallel `max(4,10)`, `Q13` Bayes counts `20/55`, `Q24` Centered `Cpk = Cp`, `Q25` PERT Variance `((P-O)/6)^2`, `Q796` `np-chart` vs `p-chart`) \u2014 logged in `documents/QUESTION_BANK_LOG.md`.\n- **Latest Set (Copilot Set 13 `C291`\u2013`C315` = `21/25 [84.0%]` + Round 56 `Q791`\u2013`Q800` = `9/10 [90.0%]` on `2026-11-26`)**: **THAN",
+        "content_excerpt": "## 1. ASQ CSSBB Exam Training State (2022 BoK)\n- **Completed Unique Questions**: **`1,125` (`Q1`\u2013`Q810` + Copilot `C1`\u2013`C315`) \u2014 `895 / 1,125 = 79.6%` CUMULATIVE!!** \u2014 Latest: **Round 57** (`Q801`\u2013`Q810`, **`8 / 10 = 80.0%` BLIND PROMETRIC HARD!!** Zero topic headers on `2026-11-27` \u2014 Swept ALL `5/5 = 100%` revision targets: Parallel Critical Path `20`, PERT Variance `9`, `np-chart`, Bayes Counts `25%`, DPMO `5,000`, plus Internal Failure, Weighted Pareto `98%`, Abilene Paradox! Active revision: `Q805` 2-step `R-bar/d2 -> Cp/Cpk` & `Q806` `%Contribution 10% > 9% Unacceptable`) \u2014 logged in `documents/QUESTION_BANK_LOG.md`.\n- **Latest Set (Round 57 `Q801`\u2013`Q810` = `8/10 [80.0%]` Blind Prometric Hard on `2026-11-27`)**: Ready to launch **Unit 6 (`Domain VI`: Analyze Phase \u2014 `VI.A` Regression,",
         "topics": [
           "hard",
-          "cathy",
-          "copilot",
-          "domain"
+          "domain",
+          "unit",
+          "cathy"
         ]
       }
     },
@@ -15527,13 +15509,43 @@
       }
     },
     {
-      "id": "topic:docx",
+      "id": "topic:stripe",
       "type": "topic_entity",
-      "name": "docx",
+      "name": "stripe",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'docx' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'stripe' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "docx"
+        "keyword": "stripe"
+      }
+    },
+    {
+      "id": "topic:days",
+      "type": "topic_entity",
+      "name": "days",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'days' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "days"
+      }
+    },
+    {
+      "id": "topic:submitted",
+      "type": "topic_entity",
+      "name": "submitted",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'submitted' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "submitted"
+      }
+    },
+    {
+      "id": "topic:right",
+      "type": "topic_entity",
+      "name": "right",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "right"
       }
     },
     {
@@ -15547,265 +15559,26 @@
       }
     },
     {
-      "id": "topic:friday",
-      "type": "topic_entity",
-      "name": "friday",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'friday' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "friday"
-      }
-    },
-    {
-      "id": "topic:calico",
-      "type": "topic_entity",
-      "name": "calico",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'calico' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "calico"
-      }
-    },
-    {
-      "id": "topic:south",
-      "type": "topic_entity",
-      "name": "south",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'south' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "south"
-      }
-    },
-    {
-      "id": "topic:stripe",
-      "type": "topic_entity",
-      "name": "stripe",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'stripe' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "stripe"
-      }
-    },
-    {
       "id": "chat_session:b6556366",
       "type": "chat_session",
       "name": "Chat Session b6556366",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Chat Session b6556366 (1901 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
+      "description": "Chat Session b6556366 (1907 turns): stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
       "metadata": {
         "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
         "short_id": "b6556366",
-        "turn_count": 1901,
+        "turn_count": 1907,
         "first_question": "stop qwen <USER_SETTINGS_CHANGE> The user changed setting `Model Selection` from None to Gemini 4 Carbon (Medium). No need to comment on this change if the user",
         "source": "antigravity_transcript",
         "topics": [
-          "contract",
+          "stripe",
           "commercial",
-          "docx",
-          "black",
-          "friday",
-          "calico",
-          "south",
-          "stripe"
-        ]
-      }
-    },
-    {
-      "id": "topic:energy",
-      "type": "topic_entity",
-      "name": "energy",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'energy' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "energy"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S5379",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S5379 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S5379] Logged **Black Friday `#6` (`SB Energy \u2014 Senior Program Manager, Logistics Control Tower & Analytics, 6196167004`, Redwood City CA, `Submitted`)**! *(114 Total Tracked = 91 Active, 23 Rejected!)* --- ### Black Friday Job",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 5379,
-        "role": "assistant",
-        "created_at": "2026-11-27T23:34:09Z",
-        "content_excerpt": "Logged **Black Friday `#6` (`SB Energy \u2014 Senior Program Manager, Logistics Control Tower & Analytics, 6196167004`, Redwood City CA, `Submitted`)**! *(114 Total Tracked = 91 Active, 23 Rejected!)*\n\n---\n\n### Black Friday Job #7 (`Job92` \u2014 `150K\u2013200K USD`, REDWOOD CITY OR REMOTE!!) \u2014 SB Energy (`6208923004`)\n\n- **Company:** **SB Energy (SoftBank Group / OpenAI 1B USD Backed)**\n- **Title:** **`Senior Manager, Contracts - Data Center`** (`ID 6208923004`)\n- **Location:** **Redwood City, CA (`~5 mi` from Palo Alto) OR Remote!**\n- **Salary:** **`150,000 \u2013 200,000 USD`** base!\n- **Role Type:** **100% Pure IC** *(ZERO direct reports, ZERO coding, ZERO heavy travel \u2014 2-minute Greenhouse apply!)*\n- **Why It's a Bullseye:** Full-cycle RFP creation & bid evaluation, vendor prequalification, contract tem",
-        "topics": [
-          "contract",
-          "energy",
-          "vendor",
-          "commercial"
-        ]
-      }
-    },
-    {
-      "id": "topic:apply",
-      "type": "topic_entity",
-      "name": "apply",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'apply' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "apply"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S5381",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S5381 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S5381] Logged **Black Friday `#7` (`SB Energy \u2014 Senior Manager, Contracts - Data Center, 6208923004`, Redwood City / Remote, `Submitted`)**! *(115 Total Tracked = 92 Active, 23 Rejected \u2014 only **3 more** to hit **10 / 10**!)* -",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 5381,
-        "role": "assistant",
-        "created_at": "2026-11-27T23:36:51Z",
-        "content_excerpt": "Logged **Black Friday `#7` (`SB Energy \u2014 Senior Manager, Contracts - Data Center, 6208923004`, Redwood City / Remote, `Submitted`)**! *(115 Total Tracked = 92 Active, 23 Rejected \u2014 only **3 more** to hit **10 / 10**!)*\n\n---\n\n### Black Friday Job #8 (Fast 60-Second Win \u2014 `150K\u2013200K USD`!!) \u2014 SB Energy (`6222590004`)\n\n- **Company:** **SB Energy (SoftBank Group)**\n- **Title:** **`Sr. Contracts Manager - Renewable Energy`** (`ID 6222590004` \u2014 separate business unit & req from `6208923004`!)\n- **Location:** **Redwood City, CA (`~5 mi` from Palo Alto) OR Remote!**\n- **Salary:** **`150,000 \u2013 200,000 USD`** base!\n- **Role Type:** **100% Pure IC** *(ZERO direct reports, ZERO coding \u2014 end-to-end RFP development & selection, insurance/warranty/performance guarantee contract terms, process improvement",
-        "topics": [
-          "energy",
-          "black",
-          "friday",
-          "apply"
-        ]
-      }
-    },
-    {
-      "id": "topic:anything",
-      "type": "topic_entity",
-      "name": "anything",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'anything' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "anything"
-      }
-    },
-    {
-      "id": "topic:brisbane",
-      "type": "topic_entity",
-      "name": "brisbane",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'brisbane' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "brisbane"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S5382",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S5382 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S5382] anything in brisbane, south sfo?",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 5382,
-        "role": "user",
-        "created_at": "2026-11-27T23:37:07Z",
-        "content_excerpt": "anything in brisbane, south sfo?",
-        "topics": [
-          "anything",
-          "brisbane",
-          "south"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S5392",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S5392 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S5392] YES!! Found an awesome live **South San Francisco (Oyster Point \u2014 literally 3 minutes from Brisbane!)** role at **Calico Life Sciences (Alphabet / Google-backed)** \u2014 plus **Stripe (South San Francisco HQ / US-Remote)** r",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 5392,
-        "role": "assistant",
-        "created_at": "2026-11-27T23:38:29Z",
-        "content_excerpt": "YES!! Found an awesome live **South San Francisco (Oyster Point \u2014 literally 3 minutes from Brisbane!)** role at **Calico Life Sciences (Alphabet / Google-backed)** \u2014 plus **Stripe (South San Francisco HQ / US-Remote)** right behind it!\n\n---\n\n### Black Friday Job #8 (`Job93` \u2014 SOUTH SAN FRANCISCO, RIGHT NEXT TO BRISBANE!!) \u2014 Calico Life Sciences (`8784701002`)\n\n- **Company:** **Calico Life Sciences (Alphabet / Google-Founded Biotech)** \u2014 South San Francisco, CA HQ!\n- **Title:** **`Associate Director/Director, Contracts and Alliances`** (`ID 8784701002`)\n- **Location:** **South San Francisco, CA** *(Oyster Point \u2014 right beside Brisbane!)*\n- **Salary:** **`215,000 \u2013 260,000 USD`** base!!\n- **Role Type:** **100% Pure IC** *(ZERO direct reports, ZERO coding, ZERO travel \u2014 fast 2-minute Greenhou",
-        "topics": [
-          "contract",
-          "partner",
-          "calico",
-          "compliance"
-        ]
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S5394",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S5394 (assistant)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[ASSISTANT S5394] Logged **Black Friday `#8` (`SB Energy \u2014 Sr. Contracts Manager - Renewable Energy, 6222590004`, Redwood City / Remote, `Submitted`)**! *(116 Total Tracked = 93 Active, 23 Rejected \u2014 only **2 more** to hit **10 / 10**!)* ",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 5394,
-        "role": "assistant",
-        "created_at": "2026-11-27T23:39:16Z",
-        "content_excerpt": "Logged **Black Friday `#8` (`SB Energy \u2014 Sr. Contracts Manager - Renewable Energy, 6222590004`, Redwood City / Remote, `Submitted`)**! *(116 Total Tracked = 93 Active, 23 Rejected \u2014 only **2 more** to hit **10 / 10**!)*\n\nGo ahead and submit **`#9` \u2014 Calico Life Sciences (`8784701002`, South San Francisco, `Job93`)** right above:\n- **Direct Link:** https://www.calicolabs.com/careers/?gh_jid=8784701002\n- **Resume:** [Job93_Calico_8784701002_Krithika_Nagarajan_Resume.docx](file:///home/krithika/workspace/ASQ-BB-Exam/Resume_And_Jobs/Job93_Calico_8784701002_Krithika_Nagarajan_Resume.docx)\n\nDrop the screenshot once submitted (or say **`skip`**) and I'll bring up **`#10`** to complete your full **Black Friday `10 / 10`**!",
-        "topics": [
-          "black",
-          "docx",
-          "energy",
-          "friday"
-        ]
-      }
-    },
-    {
-      "id": "topic:another",
-      "type": "topic_entity",
-      "name": "another",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'another' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "another"
-      }
-    },
-    {
-      "id": "topic:applying",
-      "type": "topic_entity",
-      "name": "applying",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'applying' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "applying"
-      }
-    },
-    {
-      "id": "topic:keep",
-      "type": "topic_entity",
-      "name": "keep",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'keep' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "keep"
-      }
-    },
-    {
-      "id": "topic:rejcted",
-      "type": "topic_entity",
-      "name": "rejcted",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'rejcted' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "rejcted"
-      }
-    },
-    {
-      "id": "chat_turn:b6556366:S5395",
-      "type": "chat_turn",
-      "name": "Chat b6556366 Turn S5395 (user)",
-      "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "[USER S5395] rev med is another one i get 100% rejcted but keep applying",
-      "metadata": {
-        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
-        "step_index": 5395,
-        "role": "user",
-        "created_at": "2026-11-27T23:39:38Z",
-        "content_excerpt": "rev med is another one i get 100% rejcted but keep applying",
-        "topics": [
-          "another",
-          "applying",
-          "keep",
-          "rejcted"
+          "days",
+          "operations",
+          "submitted",
+          "program",
+          "right",
+          "black"
         ]
       }
     },
@@ -15837,6 +15610,26 @@
           "stripe",
           "deal"
         ]
+      }
+    },
+    {
+      "id": "topic:apply",
+      "type": "topic_entity",
+      "name": "apply",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'apply' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "apply"
+      }
+    },
+    {
+      "id": "topic:calico",
+      "type": "topic_entity",
+      "name": "calico",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'calico' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "calico"
       }
     },
     {
@@ -15880,13 +15673,13 @@
       }
     },
     {
-      "id": "topic:right",
+      "id": "topic:docx",
       "type": "topic_entity",
-      "name": "right",
+      "name": "docx",
       "file_path": "chats/transcript_b6556366.jsonl",
-      "description": "Shared domain topic 'right' connecting multi-modal documents and workspace chats",
+      "description": "Shared domain topic 'docx' connecting multi-modal documents and workspace chats",
       "metadata": {
-        "keyword": "right"
+        "keyword": "docx"
       }
     },
     {
@@ -15990,6 +15783,16 @@
       }
     },
     {
+      "id": "topic:friday",
+      "type": "topic_entity",
+      "name": "friday",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'friday' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "friday"
+      }
+    },
+    {
       "id": "chat_turn:b6556366:S5406",
       "type": "chat_turn",
       "name": "Chat b6556366 Turn S5406 (assistant)",
@@ -16007,6 +15810,173 @@
           "friday",
           "commercial"
         ]
+      }
+    },
+    {
+      "id": "topic:energy",
+      "type": "topic_entity",
+      "name": "energy",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'energy' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "energy"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5414",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5414 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S5414] ### BLACK FRIDAY JOB SPRINT `10 / 10` COMPLETE IN 44 MINUTES, CATHY!! **Grand Pipeline:** **`118` Total Tracked = `95` Active, `23` Rejected** *(23 tailored applications submitted across Thanksgiving + Black Friday alone",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 5414,
+        "role": "assistant",
+        "created_at": "2026-11-27T23:47:52Z",
+        "content_excerpt": "### BLACK FRIDAY JOB SPRINT `10 / 10` COMPLETE IN 44 MINUTES, CATHY!!\n\n**Grand Pipeline:** **`118` Total Tracked = `95` Active, `23` Rejected** *(23 tailored applications submitted across Thanksgiving + Black Friday alone!!)*\n\n| # | Company | Role & Req ID | Location | Pay Band (`USD`) | Status |\n| :-: | :--- | :--- | :--- | :---: | :---: |\n| **1** | **Applied Materials** | CoE NPI Supply Chain Program Manager (`R2630758`) | Santa Clara (~11 mi) | `133.5K\u2013183.5K` | `In Process` |\n| **2** | **Oracle** | Principal Materials Supply Chain Mgmt (`343643`) | Santa Clara (~11 mi) | `102.3K\u2013209.5K` | `New` |\n| **3** | **Oracle** | Principal Materials Supply Chain Mgmt (`343664`) | Santa Clara (~11 mi) | `102.3K\u2013209.5K` | `New` |\n| **4** | **Freshworks** | Lead - Vendor Management (`744000162318479",
+        "topics": [
+          "submitted",
+          "manager",
+          "energy",
+          "remote"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5415",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5415 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S5415] EMT",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 5415,
+        "role": "user",
+        "created_at": "2026-11-27T23:48:03Z",
+        "content_excerpt": "EMT",
+        "topics": []
+      }
+    },
+    {
+      "id": "topic:county",
+      "type": "topic_entity",
+      "name": "county",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'county' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "county"
+      }
+    },
+    {
+      "id": "topic:postings",
+      "type": "topic_entity",
+      "name": "postings",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'postings' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "postings"
+      }
+    },
+    {
+      "id": "topic:open",
+      "type": "topic_entity",
+      "name": "open",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'open' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "open"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5418",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5418 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S5418] ### Live EMS EMT Openings Report *(Checked `2026-11-27`, `3:48 PM PST`)* - **AMR (Riverside County & Coachella Valley \u2014 EMT):** **`0`** open EMT postings right now. - *(Only 1 non-target CA AMR role active: Special Event",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 5418,
+        "role": "assistant",
+        "created_at": "2026-11-27T23:48:19Z",
+        "content_excerpt": "### Live EMS EMT Openings Report *(Checked `2026-11-27`, `3:48 PM PST`)*\n\n- **AMR (Riverside County & Coachella Valley \u2014 EMT):** **`0`** open EMT postings right now.\n  - *(Only 1 non-target CA AMR role active: Special Events Paramedic \u2014 Compton, CA)*\n- **Falck (Orange County & LA County \u2014 EMT):** **`0`** open EMT postings right now.\n  - *(4 non-EMT OC/LA roles active: Dispatcher \u2014 Santa Fe Springs; Scheduler [Night], Dispatch Supervisor, & Regional People & Culture Manager \u2014 Orange)*\n\n*(Holiday weekend quiet on EMS HR boards \u2014 fresh postings usually drop Monday morning, and your automatic daily 8:00 AM PST check is armed!)*\n\nReady for **`code review`** (Vault Line 132), **`study`** (ASQ CSSBB), or a breather?",
+        "topics": [
+          "county",
+          "postings",
+          "active",
+          "open"
+        ]
+      }
+    },
+    {
+      "id": "topic:cssbb",
+      "type": "topic_entity",
+      "name": "cssbb",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'cssbb' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "cssbb"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5419",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5419 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S5419] cssbb",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 5419,
+        "role": "user",
+        "created_at": "2026-11-27T23:48:38Z",
+        "content_excerpt": "cssbb",
+        "topics": [
+          "cssbb"
+        ]
+      }
+    },
+    {
+      "id": "topic:task",
+      "type": "topic_entity",
+      "name": "task",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "Shared domain topic 'task' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "task"
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5420",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5420 (assistant)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[ASSISTANT S5420] Here is **Round 57 \u2014 Blind Prometric Warm-Up (`Q801`\u2013`Q810`)** *(Open-Book \u2014 **NO topic headers**, true Prometric style with multi-step math & a Minitab table readout! Remember the 2-second habit: re-read the last senten",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 5420,
+        "role": "assistant",
+        "created_at": "2026-11-27T23:48:39Z",
+        "content_excerpt": "Here is **Round 57 \u2014 Blind Prometric Warm-Up (`Q801`\u2013`Q810`)** *(Open-Book \u2014 **NO topic headers**, true Prometric style with multi-step math & a Minitab table readout! Remember the 2-second habit: re-read the last sentence AND match your calculated number to the exact letter before clicking!)*\n\n---\n\n**Q801**\nA warehouse upgrade has 4 tasks. **Task A (`5` days)** must finish first. Once Task A finishes, **Task B (`6` days)** and **Task C (`11` days)** run **at the exact same time in parallel**. Once BOTH B and C finish, **Task D (`4` days)** runs last. What is the total **project duration**?\n- **A.** `15` days\n- **B.** `20` days\n- **C.** `26` days\n- **D.** `22` days\n\n**Q802**\nA project team estimates a software cutover task as Optimistic **`O = 3` days**, Most Likely **`M = 9` days**, and P",
+        "topics": [
+          "days",
+          "task",
+          "cost",
+          "dpmo"
+        ]
+      }
+    },
+    {
+      "id": "chat_turn:b6556366:S5421",
+      "type": "chat_turn",
+      "name": "Chat b6556366 Turn S5421 (user)",
+      "file_path": "chats/transcript_b6556366.jsonl",
+      "description": "[USER S5421] b,c,b,a,a,a,c,d,b,a",
+      "metadata": {
+        "conversation_id": "b6556366-0ab2-4f88-9652-caf171648118",
+        "step_index": 5421,
+        "role": "user",
+        "created_at": "2026-11-28T00:03:40Z",
+        "content_excerpt": "b,c,b,a,a,a,c,d,b,a",
+        "topics": []
       }
     },
     {
@@ -16458,16 +16428,6 @@
       }
     },
     {
-      "id": "topic:days",
-      "type": "topic_entity",
-      "name": "days",
-      "file_path": "chats/transcript_4dda7faa.jsonl",
-      "description": "Shared domain topic 'days' connecting multi-modal documents and workspace chats",
-      "metadata": {
-        "keyword": "days"
-      }
-    },
-    {
       "id": "topic:december",
       "type": "topic_entity",
       "name": "december",
@@ -16515,6 +16475,16 @@
       "description": "Shared domain topic 'commit' connecting multi-modal documents and workspace chats",
       "metadata": {
         "keyword": "commit"
+      }
+    },
+    {
+      "id": "topic:keep",
+      "type": "topic_entity",
+      "name": "keep",
+      "file_path": "chats/transcript_4dda7faa.jsonl",
+      "description": "Shared domain topic 'keep' connecting multi-modal documents and workspace chats",
+      "metadata": {
+        "keyword": "keep"
       }
     },
     {
@@ -42000,23 +41970,7 @@
       "target": "topic:hard",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
-        "count": 10
-      }
-    },
-    {
-      "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:cathy",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
-      }
-    },
-    {
-      "source": "chat_turn:SHAREDSE:S5",
-      "target": "topic:copilot",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
+        "count": 11
       }
     },
     {
@@ -42025,6 +41979,22 @@
       "relation": "MENTIONS_TOPIC",
       "metadata": {
         "count": 9
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
+      "target": "topic:unit",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
+    },
+    {
+      "source": "chat_turn:SHAREDSE:S5",
+      "target": "topic:cathy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
       }
     },
     {
@@ -42115,62 +42085,6 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "topic:contract",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 21
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:commercial",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 19
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:docx",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 19
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:black",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 16
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:friday",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 16
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:calico",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 15
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "topic:south",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 15
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
       "target": "topic:stripe",
       "relation": "MENTIONS_TOPIC",
       "metadata": {
@@ -42179,9 +42093,59 @@
     },
     {
       "source": "chat_session:b6556366",
-      "target": "doc_file:Resume_And_Jobs/Job92_SBEnergy_6208923004_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
+      "target": "topic:commercial",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 14
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:days",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:operations",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:submitted",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:program",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:right",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 10
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "topic:black",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 9
+      }
     },
     {
       "source": "chat_session:b6556366",
@@ -42193,250 +42157,6 @@
       "source": "chat_session:b6556366",
       "target": "doc_file:Resume_And_Jobs/Job94_Stripe_8209633_Krithika_Nagarajan_Resume.docx",
       "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S5379",
-      "target": "topic:contract",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 9
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5379",
-      "target": "topic:energy",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5379",
-      "target": "topic:vendor",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5379",
-      "target": "topic:commercial",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 4
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S5379",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S5379",
-      "target": "doc_file:Resume_And_Jobs/Job92_SBEnergy_6208923004_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S5381",
-      "target": "topic:energy",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5381",
-      "target": "topic:black",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5381",
-      "target": "topic:friday",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 3
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5381",
-      "target": "topic:apply",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S5381",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S5381",
-      "target": "doc_file:Resume_And_Jobs/Job92_SBEnergy_6208923004_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S5382",
-      "target": "topic:anything",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5382",
-      "target": "topic:brisbane",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5382",
-      "target": "topic:south",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S5382",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S5392",
-      "target": "topic:contract",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 7
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5392",
-      "target": "topic:partner",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 6
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5392",
-      "target": "topic:calico",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5392",
-      "target": "topic:compliance",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 5
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S5392",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S5392",
-      "target": "doc_file:Resume_And_Jobs/Job93_Calico_8784701002_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S5394",
-      "target": "topic:black",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5394",
-      "target": "topic:docx",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5394",
-      "target": "topic:energy",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5394",
-      "target": "topic:friday",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 2
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S5394",
-      "relation": "HAS_CHAT_TURN",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S5394",
-      "target": "doc_file:Resume_And_Jobs/Job93_Calico_8784701002_Krithika_Nagarajan_Resume.docx",
-      "relation": "DISCUSSED_FILE",
-      "metadata": {}
-    },
-    {
-      "source": "chat_turn:b6556366:S5395",
-      "target": "topic:another",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5395",
-      "target": "topic:applying",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5395",
-      "target": "topic:keep",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_turn:b6556366:S5395",
-      "target": "topic:rejcted",
-      "relation": "MENTIONS_TOPIC",
-      "metadata": {
-        "count": 1
-      }
-    },
-    {
-      "source": "chat_session:b6556366",
-      "target": "chat_turn:b6556366:S5395",
-      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -42689,6 +42409,146 @@
       "source": "chat_turn:b6556366:S5406",
       "target": "doc_file:Resume_And_Jobs/Job94_Stripe_8209633_Krithika_Nagarajan_Resume.docx",
       "relation": "DISCUSSED_FILE",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S5414",
+      "target": "topic:submitted",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 8
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5414",
+      "target": "topic:manager",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5414",
+      "target": "topic:energy",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5414",
+      "target": "topic:remote",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 4
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S5414",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S5415",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S5418",
+      "target": "topic:county",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5418",
+      "target": "topic:postings",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 3
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5418",
+      "target": "topic:active",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5418",
+      "target": "topic:open",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 2
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S5418",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S5419",
+      "target": "topic:cssbb",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 1
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S5419",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_turn:b6556366:S5420",
+      "target": "topic:days",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 11
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5420",
+      "target": "topic:task",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 7
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5420",
+      "target": "topic:cost",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_turn:b6556366:S5420",
+      "target": "topic:dpmo",
+      "relation": "MENTIONS_TOPIC",
+      "metadata": {
+        "count": 5
+      }
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S5420",
+      "relation": "HAS_CHAT_TURN",
+      "metadata": {}
+    },
+    {
+      "source": "chat_session:b6556366",
+      "target": "chat_turn:b6556366:S5421",
+      "relation": "HAS_CHAT_TURN",
       "metadata": {}
     },
     {
@@ -44208,7 +44068,7 @@
     "Resume_And_Jobs/Krithika_Nagarajan_Clean_Master_Resume.md": "e6a8643b7bcdcb59dd75b61424d3ca9c41a3e34cd372dc9939132e7186957d25",
     "Resume_And_Jobs/Krithika_Nagarajan_Original_Pasted.md": "a3037e6712ea014ca2bf67e8ba353dd176604f6746301e8ab661493a38cee923",
     "Resume_And_Jobs/Target_Jobs_Tracker.md": "ade3dc1e7dd58b034bdf0d7179b48d33c1f118faaaaab1d5bc451bad02c983d7",
-    "chats/SHARED_SESSION_STATE.md": "c4cf5881bb98e5918b9393dcb88c6d8823ae16e623af5d504f861e92b1240abb",
+    "chats/SHARED_SESSION_STATE.md": "daf96ec1954634586cabcad51b7ae54cd50efb5b15591f3e91eeb8e95d0b86e5",
     "documents/ASQ_CSSBB_Cheat_Sheet.txt": "12e66ebfb5e503eb3f1b0eb99a2562110f700d2c5d36a055c094f65753ccbd58",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.docx": "34e15903d4df04c41588fb39bb04b8f8c3da963c6317796cbab3f7f0f85243c9",
     "documents/ASQ_CSSBB_Cheat_Sheet_Tables.html": "90567b045d70e616a1db921aae4f8e6017a2acdd4973906b0dd7b5132de868b3",
@@ -44220,11 +44080,11 @@
     "documents/ASQ_Sampling_Methods_Quick_Table.docx": "611a5b1986e4d296f6a1244d2c334d4f6688820f04a6cb8d6ff694b7b1f6ef0e",
     "documents/CAREER_APPLICATIONS_TRACKER.md": "e35d6ae3997f5cc4ee352b94462be6cef5bdbe812fb0f54c18beff5af37ac110",
     "documents/PValue_And_Cp_Cpk_Quick_Tables.docx": "7e146d9b535a8fa34793e0d7ecfd892041e75cd8a15e79777c55fa1babae79d5",
-    "documents/QUESTION_BANK_LOG.md": "786eb3179a225b19a6506f39991c03ef252060337583b51b594c1747c350a558",
+    "documents/QUESTION_BANK_LOG.md": "29e05a2bd862f779789b1ac0ee0b78f52cde575909692a43e073f2a6b995ab44",
     "documents/Unit1_Quality_And_Change_Leaders_Table.docx": "43e9f9651f50fad7f2aee80fa47128db7e5d58f623529ab3d66453246b36bdb0",
     "documents/Unit2_Formulas_Master_Sheet.docx": "1667c8daf771a53666e1447684b01b7f2781ec09be61b95e911b63bb69eff50f",
     "documents/Unit2_Process_Mgmt_And_Measures_Table.docx": "1ab8c280db4b088d73e0fdde2ebf942ae17bb0930fbdc0058eb40c84b8fde197",
     "documents/Unit3_Team_Management_Bible_Table.docx": "8932bbd6399ce2f87da8d27ce1e86eedc72c9f6704fd7c6dbcec301efed5f8be",
-    "repo.md": "d0bfbd7c67d0b5b78ee261c221883d940ad679044268d446e67c6d98be920d70"
+    "repo.md": "a0f8317f9d718a3f7548f840ed4b57103676127dcf8d6acb84152072f3d53231"
   }
 }
