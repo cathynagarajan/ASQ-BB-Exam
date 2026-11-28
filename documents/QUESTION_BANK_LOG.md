@@ -572,3 +572,8 @@
 - **PERFECT `10 / 10 = 100.0%` SWEEP WITH ZERO TOPIC HEADERS!! Today: `25 / 30 = 83.3%`!**
   - `Q821` (2-Step `R-bar/d2 -> Off-Center Cp 2.00 / Cpk 1.00` — FIXED! ✅), `Q822` (Fixed `n = 100`, `%` = `p-chart` — FIXED! ✅), `Q823` (Fixed `n = 100`, Count = `np-chart` — `2/2` `p` vs `np` CRUSHED! ✅), `Q824` (Bayes Given Counts Supplier B `40/50 = 80.0%` — FIXED! ✅), `Q825` (Minitab `VarComp 4/50 = 8.0%` Marginal — 3rd straight! ✅), `Q826` (MSA Stability ✅), `Q827` (Empirical Rule `+/- 2 SD = 95%` ✅), `Q828` (`RTY = 72.0%` ✅), `Q829` (Ordinal scale ✅), `Q830` (Hypergeometric without replacement ✅).
 - **Zero Misses (`0 / 10`)!** Measure (`Domain V`) 100% locked in!
+
+## Round 60 — Slow Blind Prometric Mastery Check (`Q831`–`Q840` — 2026-11-27 | Score: `9 / 10 = 90.0%`!! | Last 20 Qs: `19 / 20 = 95.0%`!! | Cumulative `921 / 1,155 = 79.7%`)
+- **HIT `95.0%` (`19 / 20`: `10/10` + `9/10`) ON BLIND PROMETRIC (ZERO TOPIC HEADERS!!) — `100%` ON ALL MATH & TOOLS!!**
+  - `Q832` Functional Benchmarking ✅, `Q833` Lencioni Absence of Trust ✅, `Q834` PERT Expected `9.0` days ✅, `Q835` Little's Law `3.0` days ✅, `Q836` **Minitab `VarComp 0.5%` Acceptable `< 1%` (4th straight!)** ✅, `Q837` Combination `5C3 = 10` ✅, `Q838` **Bayes `%` Line A `33.3%` (beat Line B trap!)** ✅, `Q839` **2-Step `R-bar/d2 -> Cp/Cpk = 2.00`** ✅, `Q840` `c-chart` ✅.
+- **Only 1 Miss (`❌` — Active Revision List):** `Q831` (`I.A.2` Making 400 extra pallets with no orders = **B. Overproduction**, picked A Overprocessing).
