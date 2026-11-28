@@ -596,3 +596,8 @@
 - **`VI.A` (`Q841`–`Q880`) MASTERED AT `34 / 40 = 85.0%`!! ALL `3 / 3` LOGISTIC REGRESSION TYPES SWEPT `100%`!!**
 - **Nailed (`✅` — `8` Qs):** `Q871` (Binary Logistic — FIXED! ✅), `Q872` (Ordinal Logistic ✅), `Q873` (Nominal Logistic ✅), `Q875` (Simple Linear ✅), `Q876` (Minitab `P = 0.510` drop `X3` ✅), `Q877` (Pearson `r` ✅), `Q878` (Negative Residual `-3.0` ✅), `Q879` (**2-Step `R-bar/d2 -> Off-Center Cp 2.00 / Cpk 1.00` — FIXED!!** ✅).
 - **Active Revision List (`❌` — `2` Qs):** `Q874` (`VI.A.1` Continuous `Y` + `3` predictors = **B. Multiple Linear Regression**, picked A Simple Linear), `Q880` (`V.F.5` Varying contracts `30–75` + average typos/defects per contract = **A. `u-chart`**, picked D `np-chart`).
+
+## Round 65 — Unit 6 Analyze Phase: `VI.B` Hypothesis Testing Block 1 of 2 (`Q881`–`Q890` — 2026-11-27 | Score: `7 / 10 = 70.0%` | Today `75 / 90 = 83.3%` | Cumulative `962 / 1,205 = 79.8%` — `1,200+` UNIQUE Qs!!)
+- **OVER `1,200` UNIQUE QUESTIONS COMPLETE!! Swept `6 / 6` on Core `VI.B` (`Q881`–`Q886`) + Fixed `u-chart` (`Q890`)!**
+  - `Q881` (`H0 =` vs `Ha !=` ✅), `Q882` (`p = 0.014 < 0.05` Reject `H0` ✅), `Q883` (Type I Error `alpha` ✅), `Q884` (Power `0.85` + increase `n` ✅), `Q885` (Paired t-test ✅), `Q886` (1-Way ANOVA ✅), `Q890` (`u-chart` — FIXED! ✅).
+- **Active Revision List (`❌` — `3` Qs — Same 1-Sec Check: Measured Number vs Count/Percentage!):** `Q887` (`VI.B.3` `18/400` vs `9/400` late `%` = **C. 2-Proportion Z-test**, picked A 2-Sample t-test), `Q888` (`VI.B.4` `3 x 3` contingency table of counts = **D. Chi-Square Independence**, picked A 1-Way ANOVA), `Q889` (`VI.A.1` Continuous electricity cost + `4` predictors = **B. Multiple Linear Regression**, picked D Nominal Logistic).
